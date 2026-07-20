@@ -1,0 +1,180 @@
+schemaVersion: "1.0"
+project:
+  id: entrance-f1-data
+  displayName: ENTRANCE F1 Data
+role: published F1 data contract
+handoffVersion: 1
+currentState:
+  status: published-with-unpublished-candidates
+  summary: The public current-season endpoint serves verified 2026 data through round 7, while this repository also contains current-season data through round 9 and a separate Stats Lab v1 publish candidate that are not represented here as production-approved publishes.
+currentFocus:
+  - id: focus-publish-boundary
+    summary: Preserve the boundary between publicly published current-season data, reviewed current-season candidates, and provisional historical Stats Lab output.
+  - id: focus-safe-updates
+    summary: Require source verification, approved diffs, and validation before any production JSON update or promotion.
+implemented:
+  - id: current-season-contracts
+    summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
+    files:
+      - data/schedule.json
+      - data/drivers.json
+      - data/constructors.json
+      - data/driver-standings.json
+      - data/constructor-standings.json
+      - data/driver-stats.json
+      - data/race-results.json
+      - data/f1/current-grid.json
+      - data/f1/stat-metrics.json
+    schemaContract: implicit stable JSON file shapes; no repository-local JSON Schema files
+  - id: current-publication
+    summary: The public endpoint exposes 2026 race results through round 7, barcelona-catalunya, with updatedAt 2026-06-16T08:43:46Z; the public driver standings carry the same updatedAt value.
+    baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
+  - id: current-season-candidate
+    summary: Repository current-season JSON contains nine race-result entries through round 9, great-britain, with standings, driver statistics, and race results updatedAt 2026-07-10T03:08:35Z.
+    publicationState: candidate content not confirmed as the current public endpoint
+  - id: stats-lab-v1-candidate
+    summary: A six-file Stats Lab v1 derived package covers 77 seasons and is explicitly marked publish_candidate, notApprovedForProduction, approvalRequiredBeforePublish, and publishApproved false.
+    path: f1/stats-lab/v1/
+    schemaVersion: stats-lab.v1
+    asOfRaceDate: "2026-06-14"
+    sourceSnapshotPath: output/canonical/full-history-canonical-verified-provisional.json
+    provenance: source snapshot checksum plus canonical, derived-statistics, and data-quality audit paths are recorded in manifest.json
+pending:
+  - id: pending-rounds-8-9-publication
+    summary: Review the round 8 and round 9 current-season changes and decide whether to publish them without implicitly approving the Stats Lab package.
+  - id: pending-round-10-draft
+    summary: The local schedule lists Belgium as round 10 at 2026-07-19T13:00:00Z and race-results has no round 10 entry; any update must begin with official-source verification and a draft diff only.
+  - id: pending-stats-lab-decision
+    summary: Decide whether to regenerate the Stats Lab package to a newer verified race date or review the existing candidate for explicit approval.
+blocked:
+  - id: blocked-stats-lab-production
+    summary: Stats Lab production publication is blocked by manifest approval flags and requires separate explicit approval.
+  - id: blocked-unapproved-post-race-write
+    summary: No post-race production write is permitted until the required draft diff has been reviewed and approved.
+knownIssues:
+  - id: issue-publication-lag
+    summary: The public race-results endpoint contains seven rounds while repository candidate content contains nine rounds.
+  - id: issue-current-provenance
+    summary: Current-season JSON files expose updatedAt but do not embed source URLs or audit identifiers, so source and approval evidence must be verified in the approved update workflow.
+  - id: issue-stats-lab-age
+    summary: The Stats Lab candidate has asOfRaceDate 2026-06-14, earlier than the repository current-season candidate coverage.
+  - id: issue-no-native-validator
+    summary: This repository has no validation scripts or repository-local JSON Schema files; validation currently relies on JSON parsing, explicit integrity checks, manifest checksums, Git diffs, and the producing tools repository.
+decisions:
+  - id: decision-data-only
+    summary: This repository owns published static data contracts only; application and transformation code remain in their own repositories.
+  - id: decision-stable-identities
+    summary: Existing driver, team, constructor, race, and session identifiers and public JSON shapes are preserved unless a schema change is explicitly approved.
+  - id: decision-manual-promotion
+    summary: entrance-f1-data-tools may prepare and audit candidates but may not automatically write or promote them into this repository.
+  - id: decision-post-race-two-step
+    summary: Post-race work requires a no-write draft diff followed by a separately approved apply step.
+  - id: decision-preview-separation
+    summary: Stats Lab v1 remains separate from approved current-season data and excludes the oversized canonical snapshot from the browser-facing package.
+interfaces:
+  - id: interface-current-season
+    summary: Static current-season JSON under data/ is fetched directly by ENTRANCE clients.
+    consumers:
+      - entrance-web
+      - ipgutest
+    baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
+  - id: interface-stats-lab-v1
+    summary: f1/stats-lab/v1/manifest.json defines the preview package file list, checksums, schema version, provenance paths, unsupported metrics, and approval state.
+    consumer: entrance-web
+    publicationState: preview candidate only
+dependencies:
+  - id: dependency-data-tools
+    summary: entrance-f1-data-tools ingests, normalises, validates, audits, and prepares candidate packages; promotion into this repository remains manual and reviewed.
+  - id: dependency-official-results
+    summary: Official F1.com classifications and standings are required for post-race facts under POST_RACE_UPDATE_RULES.md.
+  - id: dependency-project-control
+    summary: entrance-project-control reads this repository and its handoffs but is synchronised only after a real product commit.
+nextActions:
+  - id: next-review-current-candidate
+    summary: Review and isolate the round 8 and round 9 current-season data changes before deciding whether they should reach the public branch.
+  - id: next-draft-round-10
+    summary: If requested, verify official round 10 sources and prepare the required no-write post-race draft diff.
+  - id: next-review-stats-lab
+    summary: Resolve the Stats Lab freshness and approval decision before exposing a public Stats Lab v1 URL.
+  - id: next-sync-control-after-commit
+    summary: After an explicitly approved product commit, regenerate and separately review project-control status.
+forbiddenActions:
+  - id: safety-no-unapproved-git-actions
+    summary: Do not commit, merge, push, or deploy without explicit user approval.
+  - id: safety-no-automatic-promotion
+    summary: Do not automatically copy, promote, or overwrite production data from tooling output.
+  - id: safety-no-schema-or-id-changes
+    summary: Do not change schemas, stable IDs, race keys, or session keys without explicit approval.
+  - id: safety-no-app-or-tooling-code
+    summary: Do not add application, website, scraping, ingestion, transformation, or pipeline code to this repository.
+  - id: safety-no-invented-data
+    summary: Do not infer or manually patch statistics from memory, training data, or forbidden ingestion sources.
+  - id: safety-no-sibling-writes
+    summary: Do not modify sibling repositories while completing work in this repository.
+  - id: safety-no-durable-git-state
+    summary: Do not place HEAD, branch, upstream, working-tree state, personal paths, or secrets in handoff files.
+requiredReads:
+  - id: read-project-rules
+    summary: Read PROJECT_RULES.md first for repository ownership and data restrictions.
+  - id: read-agents
+    summary: Read AGENTS.md for repository-local operating rules.
+  - id: read-ai-handoff
+    summary: Read AI_HANDOFF.yaml for verified current context and next actions.
+  - id: read-human-handoff
+    summary: Read HUMAN_HANDOFF.md when rationale, recovery, or cross-repository context is needed.
+  - id: read-post-race-rules
+    summary: Read POST_RACE_UPDATE_RULES.md before any post-race inspection, draft, or apply step.
+  - id: read-readme-and-manifest
+    summary: Read README.md and, for historical statistics work, f1/stats-lab/v1/manifest.json.
+validation:
+  status: passed
+  commands:
+    - id: validate-json-parse
+      summary: Parse every repository JSON file with the standard Python json module.
+      command: python -c "import json, pathlib; [json.loads(path.read_text(encoding='utf-8')) for path in pathlib.Path('.').rglob('*.json')]"
+    - id: validate-handoff-schema
+      summary: Validate project handoffs by generating project-control status without writing it.
+      command: python -X utf8 ../entrance-project-control/scripts/sync_status.py --print
+    - id: validate-production-unchanged
+      summary: Confirm no tracked production data, schema, or publish manifest changed.
+      command: git diff --exit-code -- data f1/stats-lab/v1
+    - id: validate-handoff-diff
+      summary: Check the intended handoff diff for whitespace errors.
+      command: git diff --check -- AGENTS.md AI_HANDOFF.yaml HUMAN_HANDOFF.md
+    - id: validate-git-state
+      summary: Inspect final branch and worktree state without staging.
+      command: git status -sb
+  results:
+    - id: result-json-parse
+      summary: All 17 repository JSON files parsed successfully.
+      status: passed
+    - id: result-current-integrity
+      summary: Stable IDs, references, round order, race UTC sessions, standings order, driver-stat alignment, and current-grid mappings produced zero validation errors.
+      status: passed
+    - id: result-manifest-integrity
+      summary: All six Stats Lab derived artifacts matched manifest byte sizes and SHA-256 checksums.
+      status: passed
+    - id: result-handoff-schema
+      summary: AI_HANDOFF.yaml passed the project-control Draft 2020-12 schema and read-only status generation recognised it as valid.
+      status: passed
+    - id: result-production-unchanged
+      summary: Git reported no diff under data/ or f1/stats-lab/v1/.
+      status: passed
+    - id: result-file-policy
+      summary: Only AGENTS.md, AI_HANDOFF.yaml, and HUMAN_HANDOFF.md were introduced; their Markdown and YAML types are permitted documentation and working-rule content.
+      status: passed
+    - id: result-diff-check
+      summary: The intended handoff files passed Git whitespace validation.
+      status: passed
+lastCompletedWork:
+  - id: completed-handoff-bootstrap
+    summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
+  - id: completed-current-season-candidate
+    summary: Current-season standings, driver statistics, and race results were updated through great-britain in the repository candidate content.
+  - id: completed-stats-lab-candidate
+    summary: Stats Lab v1 derived files and a checksum manifest were added as a publish candidate with production approval explicitly disabled.
+notes:
+  - id: note-git-facts
+    summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.
+  - id: note-state-separation
+    summary: Published public data, repository candidate data, and data-tools provisional output are distinct states and must not be described interchangeably.
