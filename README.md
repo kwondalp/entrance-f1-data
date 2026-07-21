@@ -22,6 +22,19 @@ It contains no API server, application runtime, or automatic publishing step. Cl
 
 The current package is explicitly marked `publish_candidate`, `notApprovedForProduction: true`, and `approvalRequiredBeforePublish: true`. Its presence in a candidate branch is not production approval. Consumers must keep that preview status visible, and no tool may promote or overwrite these files automatically.
 
+## Historical Records publication contract
+
+`schemas/published-historical-records.v1.schema.json` defines the future static
+publication shape for approved Historical Records data. Phase 9A adds only the
+schema and contract documentation; no Historical Records dataset is present or
+published.
+
+Blocked, provisional, unreviewed, canonically unapproved, or publication-
+unapproved records are omitted completely. When no record is production
+eligible, no placeholder dataset is created. See
+`docs/PUBLISHED_HISTORICAL_RECORDS_CONTRACT.md` for the publication and
+compatibility rules.
+
 ## Update safety
 
 Current-season post-race changes must follow `POST_RACE_UPDATE_RULES.md`. Preserve all stable IDs and public shapes, validate every changed JSON file, and never infer missing Formula 1 facts from an ingestion API.

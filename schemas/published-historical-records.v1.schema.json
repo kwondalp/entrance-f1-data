@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/published-historical-records.v1.schema.json",
+  "title": "ENTRANCE Published Historical Records v1",
+  "description": "Consumer-facing historical records that passed every producer and publication gate. Blocked and provisional records are omitted entirely.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "generatedAt",
+    "generatedFrom",
+    "metadata",
+    "readiness",
+    "publicationStatus",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {"const": "published-historical-records.v1"},
+    "apiVersion": {"$ref": "#/$defs/semverV1"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "generatedFrom": {"$ref": "#/$defs/generatedFrom"},
+    "metadata": {"$ref": "#/$defs/metadata"},
+    "readiness": {"$ref": "#/$defs/readiness"},
+    "publicationStatus": {"$ref": "#/$defs/publicationStatus"},
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/record"}
+    }
+  },
+  "allOf": [
+    {"not": {"required": ["blockers"]}},
+    {"not": {"required": ["builderVersion"]}},
+    {"not": {"required": ["canonical"]}},
+    {"not": {"required": ["evidence"]}},
+    {"not": {"required": ["review"]}}
+  ],
+  "$defs": {
+    "semverV1": {
+      "type": "string",
+      "pattern": "^1\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "recordId": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9]*$"
+    },
+    "entity": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1}
+      }
+    },
+    "holder": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["driver", "constructor"],
+      "properties": {
+        "driver": {"$ref": "#/$defs/entity"},
+        "constructor": {
+          "oneOf": [
+            {"$ref": "#/$defs/entity"},
+            {"type": "null"}
+          ]
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "name", "date"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "date": {"type": "string", "format": "date"}
+      }
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "title",
+        "category",
+        "currentHolder",
+        "driver",
+        "constructor",
+        "coHolders",
+        "displayAge",
+        "season",
+        "round",
+        "event",
+        "methodology",
+        "confidence",
+        "productionEligible",
+        "extensions"
+      ],
+      "properties": {
+        "id": {"$ref": "#/$defs/recordId"},
+        "title": {"type": "string", "minLength": 1},
+        "category": {"type": "string", "minLength": 1},
+        "currentHolder": {"type": "string", "minLength": 1},
+        "driver": {"$ref": "#/$defs/entity"},
+        "constructor": {
+          "oneOf": [
+            {"$ref": "#/$defs/entity"},
+            {"type": "null"}
+          ]
+        },
+        "coHolders": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/holder"}
+        },
+        "displayAge": {"type": "string", "minLength": 1},
+        "season": {"type": "integer", "minimum": 1950},
+        "round": {"type": "integer", "minimum": 1},
+        "event": {"$ref": "#/$defs/event"},
+        "methodology": {"type": "string", "minLength": 1},
+        "confidence": {"const": "verified"},
+        "productionEligible": {"const": true},
+        "extensions": {"type": "object", "additionalProperties": true}
+      },
+      "allOf": [
+        {"not": {"required": ["blocked"]}},
+        {"not": {"required": ["blockerTypes"]}},
+        {"not": {"required": ["readiness"]}},
+        {"not": {"required": ["evidenceRecordId"]}},
+        {"not": {"required": ["reviewQueueId"]}},
+        {"not": {"required": ["candidateChecksum"]}},
+        {"not": {"required": ["provenanceSummary"]}},
+        {"not": {"required": ["humanReviewMetadata"]}}
+      ]
+    },
+    "generatedFrom": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "producer",
+        "contract",
+        "apiVersion",
+        "artifactChecksumSha256",
+        "producerAttestation"
+      ],
+      "properties": {
+        "producer": {"const": "entrance-f1-data-tools"},
+        "contract": {"const": "historical-records-api-contract.v1"},
+        "apiVersion": {"$ref": "#/$defs/semverV1"},
+        "artifactChecksumSha256": {"$ref": "#/$defs/sha256"},
+        "producerAttestation": {"const": "all_required_gates_passed"}
+      },
+      "allOf": [
+        {"not": {"required": ["builder"]}},
+        {"not": {"required": ["canonical"]}},
+        {"not": {"required": ["evidence"]}},
+        {"not": {"required": ["review"]}}
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "datasetId",
+        "title",
+        "asOfDate",
+        "recordCount",
+        "minimumConsumerVersion",
+        "compatibleSince",
+        "consumers"
+      ],
+      "properties": {
+        "datasetId": {"const": "historical-records"},
+        "title": {"type": "string", "minLength": 1},
+        "asOfDate": {"type": "string", "format": "date"},
+        "recordCount": {"type": "integer", "minimum": 1},
+        "minimumConsumerVersion": {"$ref": "#/$defs/semverV1"},
+        "compatibleSince": {"$ref": "#/$defs/semverV1"},
+        "consumers": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {"enum": ["entrance-web", "ipgutest", "future-api"]}
+        }
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "ready",
+        "blocked",
+        "productionEligible",
+        "totalRecordCount",
+        "productionEligibleRecordCount",
+        "omittedBlockedRecordCount"
+      ],
+      "properties": {
+        "ready": {"const": true},
+        "blocked": {"const": false},
+        "productionEligible": {"const": true},
+        "totalRecordCount": {"type": "integer", "minimum": 1},
+        "productionEligibleRecordCount": {"type": "integer", "minimum": 1},
+        "omittedBlockedRecordCount": {"type": "integer", "minimum": 0}
+      }
+    },
+    "publicationStatus": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "state",
+        "publicationApproved",
+        "approvedAt",
+        "approvalReference"
+      ],
+      "properties": {
+        "state": {"const": "published"},
+        "publicationApproved": {"const": true},
+        "approvedAt": {"type": "string", "format": "date-time"},
+        "approvalReference": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
