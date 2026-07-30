@@ -16,11 +16,13 @@ It contains no API server, application runtime, or automatic publishing step. Cl
 - [data/f1/current-grid.json](data/f1/current-grid.json) — current-grid mapping for data consumers
 - [data/f1/stat-metrics.json](data/f1/stat-metrics.json) — current Stats Lab metric definitions
 
-## Stats Lab publish candidate
+## Stats Lab production-ready WIP
 
 `f1/stats-lab/v1/` is separate from the approved current-season files under `data/`. Its `manifest.json` defines the file list, sizes, SHA-256 checksums, schema version, provenance paths, unsupported metrics, and approval flags.
 
-The current package is explicitly marked `publish_candidate`, `notApprovedForProduction: true`, and `approvalRequiredBeforePublish: true`. Its presence in a candidate branch is not production approval. Consumers must keep that preview status visible, and no tool may promote or overwrite these files automatically.
+The current package has passed the separately authorised official-pole production-data application and is marked `production_ready` with `productionApplicationApproved: true`. It contains audited official-pole totals and recency data while preserving all unrelated public values.
+
+Public release remains a separate gate: `approvalRequiredBeforePublish` is still `true` and `publishApproved` is still `false`. A WIP branch or commit is not evidence that the public endpoint changed.
 
 ## Historical Records publication contract
 

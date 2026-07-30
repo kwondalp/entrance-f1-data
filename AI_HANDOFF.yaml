@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 2
+handoffVersion: 3
 currentState:
-  status: published-with-unpublished-candidates
-  summary: The public current-season endpoint serves verified 2026 data through round 7; the repository also contains newer current-season and Stats Lab candidates, and now defines the future `published-historical-records.v1` publication schema without containing or publishing any Historical Records dataset.
+  status: published-current-season-with-production-ready-stats-lab-wip
+  summary: The public current-season endpoint remains verified only through round 7; the repository now contains a separately authorised production-ready Stats Lab v1 WIP package with audited official-pole statistics, while public release, merge and deployment remain unapproved and no Historical Records dataset exists.
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between publicly published current-season data, reviewed current-season candidates, and provisional historical Stats Lab output.
@@ -14,6 +14,8 @@ currentFocus:
     summary: Require source verification, approved diffs, and validation before any production JSON update or promotion.
   - id: focus-historical-records-boundary
     summary: Preserve the schema-only Historical Records publication boundary until the producer supplies at least one fully eligible record and separate publication approval exists.
+  - id: focus-stats-lab-publication-boundary
+    summary: Preserve the distinction between the production-ready Stats Lab WIP data and an actual public release; the manifest still requires separate publication approval.
 implemented:
   - id: current-season-contracts
     summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
@@ -35,12 +37,12 @@ implemented:
     summary: Repository current-season JSON contains nine race-result entries through round 9, great-britain, with standings, driver statistics, and race results updatedAt 2026-07-10T03:08:35Z.
     publicationState: candidate content not confirmed as the current public endpoint
   - id: stats-lab-v1-candidate
-    summary: A six-file Stats Lab v1 derived package covers 77 seasons and is explicitly marked publish_candidate, notApprovedForProduction, approvalRequiredBeforePublish, and publishApproved false.
+    summary: A six-file Stats Lab v1 derived package covers 77 seasons and now contains the separately authorised official-pole production data with productionApplicationApproved true; approvalRequiredBeforePublish remains true and publishApproved remains false.
     path: f1/stats-lab/v1/
     schemaVersion: stats-lab.v1
     asOfRaceDate: "2026-06-14"
     sourceSnapshotPath: output/canonical/full-history-canonical-verified-provisional.json
-    provenance: source snapshot checksum plus canonical, derived-statistics, and data-quality audit paths are recorded in manifest.json
+    provenance: stable producer, source-tree, canonical, application-audit, semantic-delta, and approval-record digests are recorded without machine-local paths or execution timestamps
   - id: published-historical-records-v1-schema
     summary: The Draft 2020-12 `published-historical-records.v1` schema and publication documentation define the future consumer-facing static contract; no matching dataset file exists and no Historical Records value is published.
     schemaContract: schemas/published-historical-records.v1.schema.json
@@ -55,12 +57,12 @@ pending:
   - id: pending-round-10-draft
     summary: The local schedule lists Belgium as round 10 at 2026-07-19T13:00:00Z and race-results has no round 10 entry; any update must begin with official-source verification and a draft diff only.
   - id: pending-stats-lab-decision
-    summary: Decide whether to regenerate the Stats Lab package to a newer verified race date or review the existing candidate for explicit approval.
+    summary: Review the production-ready Stats Lab WIP commit before any separately authorised merge or public release; do not infer publication from repository presence.
   - id: pending-historical-records-phase-9b
     summary: Phase 9B may add a read-only producer-to-publisher conformance review, but it must not create a dataset while the producer reports zero production-eligible Historical Records.
 blocked:
   - id: blocked-stats-lab-production
-    summary: Stats Lab production publication is blocked by manifest approval flags and requires separate explicit approval.
+    summary: Stats Lab public release remains blocked because the manifest requires separate publication approval and publishApproved remains false; the production-data application itself is complete.
   - id: blocked-unapproved-post-race-write
     summary: No post-race production write is permitted until the required draft diff has been reviewed and approved.
   - id: blocked-historical-records-publication
@@ -80,7 +82,7 @@ decisions:
   - id: decision-stable-identities
     summary: Existing driver, team, constructor, race, and session identifiers and public JSON shapes are preserved unless a schema change is explicitly approved.
   - id: decision-manual-promotion
-    summary: entrance-f1-data-tools may prepare and audit candidates but may not automatically write or promote them into this repository.
+    summary: Promotion is manual and fail-closed; the official-pole application used one explicit repository-owner authorisation, a digest-bound adapter, and exact WIP-only destination checks.
   - id: decision-post-race-two-step
     summary: Post-race work requires a no-write draft diff followed by a separately approved apply step.
   - id: decision-preview-separation
@@ -99,9 +101,9 @@ interfaces:
       - ipgutest
     baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
   - id: interface-stats-lab-v1
-    summary: f1/stats-lab/v1/manifest.json defines the preview package file list, checksums, schema version, provenance paths, unsupported metrics, and approval state.
+    summary: f1/stats-lab/v1/manifest.json defines the production-ready package file list, checksums, schema version, stable provenance digests, unsupported metrics, and separate publication state.
     consumer: entrance-web
-    publicationState: preview candidate only
+    publicationState: production-ready WIP; not publicly released
   - id: interface-historical-records-v1
     summary: "`published-historical-records.v1` is the future stable static contract for entrance-web and ipgutest; Phase 9A defines only its schema and publishes no dataset."
     consumers:
@@ -121,7 +123,7 @@ nextActions:
   - id: next-draft-round-10
     summary: If requested, verify official round 10 sources and prepare the required no-write post-race draft diff.
   - id: next-review-stats-lab
-    summary: Resolve the Stats Lab freshness and approval decision before exposing a public Stats Lab v1 URL.
+    summary: Review the exact Stats Lab WIP commit and retain the separate merge and public-release gates.
   - id: next-historical-records-conformance
     summary: Prepare Phase 9B as a no-publication producer-to-publisher conformance review; do not create a Historical Records JSON file until at least one eligible record and explicit publication approval exist.
   - id: next-sync-control-after-commit
@@ -191,7 +193,7 @@ validation:
       summary: Stable IDs, references, round order, race UTC sessions, standings order, driver-stat alignment, and current-grid mappings produced zero validation errors.
       status: passed
     - id: result-manifest-integrity
-      summary: All six Stats Lab derived artifacts matched manifest byte sizes and SHA-256 checksums.
+      summary: All six production-ready Stats Lab derived artifacts match manifest byte sizes and SHA-256 checksums.
       status: passed
     - id: result-handoff-schema
       summary: AI_HANDOFF.yaml passed the project-control Draft 2020-12 schema and read-only status generation recognised it as valid.
@@ -223,7 +225,7 @@ lastCompletedWork:
   - id: completed-current-season-candidate
     summary: Current-season standings, driver statistics, and race results were updated through great-britain in the repository candidate content.
   - id: completed-stats-lab-candidate
-    summary: Stats Lab v1 derived files and a checksum manifest were added as a publish candidate with production approval explicitly disabled.
+    summary: "Stats Lab v1 was updated through the separately authorised official-pole application: 1,156 driver and constructor pole totals, 107 drivers and 50 constructors with poles, reconciled Records Library totals and recency collections, unchanged circuit and season facts, zero unrelated-field changes, and publication still disabled."
   - id: completed-historical-records-schema
     summary: Phase 9A added the `published-historical-records.v1` Draft 2020-12 schema, publication and compatibility documentation, and handoff state without generating a dataset or changing production JSON.
 notes:

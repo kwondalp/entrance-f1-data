@@ -1,21 +1,7 @@
 {
   "version": "1.0.0",
-  "scope": "stats-lab-derived-provisional",
-  "generatedAtUtc": "2026-07-08T02:47:28Z",
+  "scope": "stats-lab-derived",
   "toolVersion": "0.1.0",
-  "notApprovedForProduction": true,
-  "sourceSnapshot": {
-    "path": "output\\canonical\\full-history-canonical-verified-provisional.json",
-    "checksum": "c89befbd804906934af21c12fd51ccd67216f56075329780f0ae6699bed8f919",
-    "sizeBytes": 321883299,
-    "modifiedAtUtc": "2026-07-08T01:32:30Z"
-  },
-  "sourceSnapshotAudit": {
-    "path": "output\\reports\\full-history\\canonical-snapshot\\full-history-canonical-snapshot-audit.json",
-    "checksum": "c00bd04cfaae8cf646e7e4a04f677c4c7c8fb1685338d22d7c9a5fd8b3417ddb",
-    "sizeBytes": 70336,
-    "modifiedAtUtc": "2026-07-08T01:32:30Z"
-  },
   "asOfRaceDate": "2026-06-14",
   "seasonsCovered": [
     1950,
@@ -122,22 +108,24 @@
       "metricId": "constructorStartsForNullStartedRaceRows",
       "scope": "constructor",
       "reason": "Constructor starts count only entries with at least one explicit startedRace true participation."
-    },
-    {
-      "metricId": "officialPolePositions",
-      "scope": "driver,constructor",
-      "reason": "startingGrids.officialPole is not explicitly true for any row in the snapshot; grid P1 is not treated as pole evidence."
     }
   ],
-  "sources": {
-    "snapshotBuilt": true,
-    "canonicalSnapshotAuditPassed": true
-  },
   "outputs": {
-    "driverStatistics": "driver-statistics-provisional.json",
-    "constructorStatistics": "constructor-statistics-provisional.json",
-    "circuitStatistics": "circuit-statistics-provisional.json",
-    "seasonStatistics": "season-statistics-provisional.json",
-    "recordsLibrary": "records-library-provisional.json"
+    "driverStatistics": "driver-statistics.json",
+    "constructorStatistics": "constructor-statistics.json",
+    "circuitStatistics": "circuit-statistics.json",
+    "seasonStatistics": "season-statistics.json",
+    "recordsLibrary": "records-library.json"
+  },
+  "implementedMetrics": [
+    "officialPolePositions",
+    "racesSinceLastPole",
+    "daysSinceLastPole"
+  ],
+  "metricImplementation": {
+    "officialPoleMetrics": {
+      "supported": true,
+      "officialPoleAttributions": 1156
+    }
   }
 }

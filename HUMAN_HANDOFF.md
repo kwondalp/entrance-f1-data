@@ -10,7 +10,7 @@ Approved current-season files are served from `https://kwondalp.github.io/entran
 
 The repository also contains newer current-season candidate content through round 9, `great-britain`, with standings, driver statistics, and race results updated at `2026-07-10T03:08:35Z`. Do not describe that candidate content as publicly published until the public endpoint is verified after an approved promotion.
 
-`f1/stats-lab/v1/` is a separate historical preview package. Its manifest says `publish_candidate`, `notApprovedForProduction: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: false`. The public Stats Lab v1 manifest URL currently returns 404, so the candidate is not a public production contract.
+`f1/stats-lab/v1/` is a separate historical package. Its official-pole values have passed the separately authorised production-data application and the manifest now says `production_ready` and `productionApplicationApproved: true`. Public release remains unapproved: `approvalRequiredBeforePublish` is `true`, `publishApproved` is `false`, and no public endpoint change may be claimed from this WIP state.
 
 `schemas/published-historical-records.v1.schema.json` defines the future public contract for eligible Historical Records. Phase 9A adds only the schema and its documentation: no `published-historical-records.v1` dataset exists in this repository, no historical record has been published, and no empty or provisional placeholder dataset should be created.
 
@@ -44,7 +44,7 @@ This repository validates the public boundary. It must not reinterpret producer-
 | `data/race-results.json` | Current-season classifications and constructor points | Candidate content has 9 rounds |
 | `data/f1/current-grid.json` | Driver-to-constructor current-grid mapping | 22 entries |
 | `data/f1/stat-metrics.json` | Current Stats Lab metric definitions | 7 metrics |
-| `f1/stats-lab/v1/` | Historical derived preview package | 77 seasons; not production-approved |
+| `f1/stats-lab/v1/` | Historical derived package | 77 seasons; official-pole production data ready; not publicly released |
 | `schemas/published-historical-records.v1.schema.json` | Future Historical Records publication contract | Schema ready; published dataset absent |
 
 `entrance-web` and `ipgutest` fetch the published current-season base URL directly. `entrance-web` can also load Stats Lab v1 from an explicit base URL and otherwise uses its own limited fallback fixture.
@@ -54,7 +54,7 @@ This repository validates the public boundary. It must not reinterpret producer-
 - Existing driver, team, constructor, race, and session IDs and public JSON shapes are stable contracts.
 - Current-season contracts remain represented by their existing JSON file shapes. The repository-local `published-historical-records.v1` JSON Schema applies only to the future Historical Records dataset and does not change any current production JSON contract.
 - Current-season files contain `updatedAt` timestamps but do not embed source URLs or audit IDs. Source and approval evidence must therefore be checked in the approved update workflow.
-- Stats Lab v1 is versioned by `manifest.json`, which records artifact paths, byte sizes, SHA-256 checksums, source snapshot checksum, audit paths, unsupported metrics, and approval flags.
+- Stats Lab v1 is versioned by `manifest.json`, which records relative artifact paths, byte sizes, SHA-256 checksums, stable producer and source digests, unsupported metrics, production-application approval, and the separate publication gate.
 - The Stats Lab canonical snapshot is intentionally excluded from the browser-facing package because of its size.
 - Post-race updates follow the two-step draft-then-approved-apply process in `POST_RACE_UPDATE_RULES.md`.
 - Historical Records publication is fail-closed: blocked, provisional, unreviewed, or unapproved records are omitted completely rather than represented as null, empty, or blocker-bearing public rows.
@@ -65,7 +65,7 @@ This repository validates the public boundary. It must not reinterpret producer-
 
 - Public current-season race results stop at round 7 while repository candidate content reaches round 9.
 - The local schedule lists Belgium as round 10 at `2026-07-19T13:00:00Z`, but `race-results.json` has no round 10 entry. Official results and standings must be verified before even drafting an update.
-- Stats Lab v1 has not been approved for production and has `asOfRaceDate: 2026-06-14`, earlier than the current-season candidate coverage.
+- Stats Lab v1 official-pole data is production-ready but has `asOfRaceDate: 2026-06-14`, earlier than the current-season candidate coverage; merge and public release remain separate decisions.
 - Historical Records currently has zero publication-eligible records, so only its schema and documentation exist; there is no dataset to publish.
 - The required approval history for prior candidate data changes is not encoded in the production JSON itself.
 - There is no repository-native validation script, so validation must combine JSON parsing, targeted integrity checks, Git diffs, manifest checksum verification, and the audited producing workflow.
@@ -77,7 +77,7 @@ This repository validates the public boundary. It must not reinterpret producer-
 3. Preserve stable IDs, race keys, session keys, schema shapes, and UTC timestamps.
 4. For post-race work, prepare a no-write draft diff and wait for explicit approval.
 5. Parse every JSON file and run targeted reference checks for modified files.
-6. For Stats Lab, verify every manifest file size and SHA-256 checksum and preserve all preview flags.
+6. For Stats Lab, verify every manifest file size and SHA-256 checksum, require `productionApplicationApproved: true`, and preserve `approvalRequiredBeforePublish: true` plus `publishApproved: false` until a separate public-release authorisation.
 7. For Historical Records, validate the producer payload against `schemas/published-historical-records.v1.schema.json`, reject unsupported API major versions, reject empty datasets and ineligible records, and verify deterministic canonical serialization.
 8. Confirm `git diff -- data f1/stats-lab/v1` contains only the approved production changes.
 9. Re-read the public endpoint after publication before claiming new coverage is live.

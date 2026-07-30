@@ -1,22 +1,21 @@
 {
   "schemaVersion": "stats-lab.v1",
-  "generatedAtUtc": "2026-07-08T06:28:24Z",
   "toolVersion": "0.1.0",
-  "dataStatus": "publish_candidate",
-  "notApprovedForProduction": true,
+  "dataStatus": "production_ready",
+  "productionApplicationApproved": true,
   "approvalRequiredBeforePublish": true,
   "publishApproved": false,
-  "targetRepositoryWritePerformed": false,
-  "sourceSnapshotPath": "output\\canonical\\full-history-canonical-verified-provisional.json",
-  "sourceSnapshotChecksum": "c89befbd804906934af21c12fd51ccd67216f56075329780f0ae6699bed8f919",
+  "provenance": {
+    "producerRepository": "entrance-f1-data-tools",
+    "producerCommit": "d864b3dc4fd4dad9b05e51f73703a3a43b80befb",
+    "sourceTreeFingerprint": "36b3fd8b9381de0c1b611ef1670afc510df82c14cb717a706eff1258afca1fee",
+    "sourceCanonicalChecksum": "5c90c96994d5b365429c4c448d7b752d3939a521456f6af3b455f13daced8c13",
+    "sourceCanonicalApplicationAuditChecksum": "70b6e964bf539a3cbb76d64394ec2ac8115c9820e340523802c09896b15384c6",
+    "semanticDeltaSha256": "6a0d4b473d0f1b5f6757c436b9b1911d52f75ee011d11e9794d3a3e4e8faa8bf",
+    "productionApplicationApprovalRecord": "fixtures/official-pole-production-application-approval.json"
+  },
   "canonicalSnapshotExcluded": true,
   "canonicalSnapshotExclusionReason": "file_too_large_for_git_and_browser_delivery",
-  "sourceQualityAuditPath": "output\\reports\\full-history\\data-quality\\stats-lab-data-quality-audit.json",
-  "sourceAuditPaths": {
-    "canonicalSnapshotAudit": "output\\reports\\full-history\\canonical-snapshot\\full-history-canonical-snapshot-audit.json",
-    "derivedStatisticsAudit": "output\\reports\\full-history\\derived-statistics\\full-history-derived-statistics-audit.json",
-    "dataQualityAudit": "output\\reports\\full-history\\data-quality\\stats-lab-data-quality-audit.json"
-  },
   "asOfRaceDate": "2026-06-14",
   "seasonsCovered": [
     1950,
@@ -104,54 +103,48 @@
   "files": [
     {
       "artifactKey": "derivedAggregate",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/stats-lab-derived.json",
       "relativePath": "derived/stats-lab-derived.json",
-      "checksumSha256": "5ff489a59793f39411c03d5f5b6a93ef26d23a2d1eb81d72512ecb9e343ff57c",
-      "sizeBytes": 3313
+      "checksumSha256": "485ba8dd64e9c3682f9cf584d9624b9ddf95376e7d6890524d3847ea6a9fda24",
+      "sizeBytes": 2513
     },
     {
       "artifactKey": "driverStatistics",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/driver-statistics.json",
       "relativePath": "derived/driver-statistics.json",
-      "checksumSha256": "116a47e9d472f507821c0d402a607c36da6e45121b9777ac23654873eb9fe4b6",
-      "sizeBytes": 1016786
+      "checksumSha256": "10e0b23486fb99be9da0d58c2616704f9a38d28215d7a1dfea2a7dbe3dd02698",
+      "sizeBytes": 1163647
     },
     {
       "artifactKey": "constructorStatistics",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/constructor-statistics.json",
       "relativePath": "derived/constructor-statistics.json",
-      "checksumSha256": "50b9b68a7c38be978fe63fa1dc5e59690747af21c6da8c8bdeaa9d55ccc7e908",
-      "sizeBytes": 199955
+      "checksumSha256": "0a4c6a8d381d7ef2e34f837c6f7091cc18afd7ad7b7ac1f023fc6bb40495c01e",
+      "sizeBytes": 206830
     },
     {
       "artifactKey": "circuitStatistics",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/circuit-statistics.json",
       "relativePath": "derived/circuit-statistics.json",
-      "checksumSha256": "294326bd47974a738037d3028709395c4349bcf5a7f74af3478635485a567a8d",
-      "sizeBytes": 79408
+      "checksumSha256": "e1ab1d34db12edfc032d74214eafea7108547356045a2f00ae3a660b2ae69c4f",
+      "sizeBytes": 79359
     },
     {
       "artifactKey": "seasonStatistics",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/season-statistics.json",
       "relativePath": "derived/season-statistics.json",
-      "checksumSha256": "c58bf6248adaea55218a98b092472ee9de2f693b2af881d0dd9158694c2f9fa8",
-      "sizeBytes": 284959
+      "checksumSha256": "b7f16a542ebea6735c228b2a28053824738835d1d15388b2ef653d8d798788dd",
+      "sizeBytes": 284910
     },
     {
       "artifactKey": "recordsLibrary",
-      "path": "output/publish-preview/entrance-f1-data/f1/stats-lab/v1/derived/records-library.json",
       "relativePath": "derived/records-library.json",
-      "checksumSha256": "b6a35981400ff8a726cbab6a73f0d908215f06e8037237a7ab8d527ee77bde1f",
-      "sizeBytes": 275217
+      "checksumSha256": "e1ce554d15e5db60549d91490c29c2f7d78673a286365b9383078302f91f169e",
+      "sizeBytes": 468952
     }
   ],
   "checksums": {
-    "derivedAggregate": "5ff489a59793f39411c03d5f5b6a93ef26d23a2d1eb81d72512ecb9e343ff57c",
-    "driverStatistics": "116a47e9d472f507821c0d402a607c36da6e45121b9777ac23654873eb9fe4b6",
-    "constructorStatistics": "50b9b68a7c38be978fe63fa1dc5e59690747af21c6da8c8bdeaa9d55ccc7e908",
-    "circuitStatistics": "294326bd47974a738037d3028709395c4349bcf5a7f74af3478635485a567a8d",
-    "seasonStatistics": "c58bf6248adaea55218a98b092472ee9de2f693b2af881d0dd9158694c2f9fa8",
-    "recordsLibrary": "b6a35981400ff8a726cbab6a73f0d908215f06e8037237a7ab8d527ee77bde1f"
+    "derivedAggregate": "485ba8dd64e9c3682f9cf584d9624b9ddf95376e7d6890524d3847ea6a9fda24",
+    "driverStatistics": "10e0b23486fb99be9da0d58c2616704f9a38d28215d7a1dfea2a7dbe3dd02698",
+    "constructorStatistics": "0a4c6a8d381d7ef2e34f837c6f7091cc18afd7ad7b7ac1f023fc6bb40495c01e",
+    "circuitStatistics": "e1ab1d34db12edfc032d74214eafea7108547356045a2f00ae3a660b2ae69c4f",
+    "seasonStatistics": "b7f16a542ebea6735c228b2a28053824738835d1d15388b2ef653d8d798788dd",
+    "recordsLibrary": "e1ce554d15e5db60549d91490c29c2f7d78673a286365b9383078302f91f169e"
   },
   "unsupportedMetrics": [
     {
@@ -168,11 +161,6 @@
       "metricId": "constructorStartsForNullStartedRaceRows",
       "scope": "constructor",
       "reason": "Constructor starts count only entries with at least one explicit startedRace true participation."
-    },
-    {
-      "metricId": "officialPolePositions",
-      "scope": "driver,constructor",
-      "reason": "startingGrids.officialPole is not explicitly true for any row in the snapshot; grid P1 is not treated as pole evidence."
     }
   ],
   "blockingErrors": []
