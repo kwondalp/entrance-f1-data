@@ -125,7 +125,97 @@
   "metricImplementation": {
     "officialPoleMetrics": {
       "supported": true,
-      "officialPoleAttributions": 1156
+      "officialPoleAttributions": 1159,
+      "baselineOfficialPoleAttributions": 1156,
+      "postBaselineOverlayAttributions": 3,
+      "baselineAsOfRaceDate": "2026-06-14",
+      "publicationAsOfRaceDate": "2026-07-19"
+    }
+  },
+  "officialPoleAsOfRaceDate": "2026-07-19",
+  "officialPolePublication": {
+    "schemaVersion": "official-pole-publication-integration.v1",
+    "verificationDate": "2026-07-31",
+    "baseline": {
+      "driverPoleTotal": 1156,
+      "constructorPoleTotal": 1156,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "baselineCutoff": {
+      "season": 2026,
+      "round": 7,
+      "eventId": "event:2026-7:a4e70b8fc3f5",
+      "eventName": "Barcelona-Catalunya Grand Prix",
+      "eventDate": "2026-06-14"
+    },
+    "postBaselineOverlays": [
+      {
+        "season": 2026,
+        "round": 8,
+        "eventId": "event:2026-8:1863bba66a42",
+        "eventName": "Austrian Grand Prix",
+        "eventDate": "2026-06-28",
+        "currentDriverId": "george-russell",
+        "canonicalDriverId": "driver:russell:0de59c03b0db",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 9,
+        "eventId": "event:2026-9:c346da3f4460",
+        "eventName": "British Grand Prix",
+        "eventDate": "2026-07-05",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 10,
+        "eventId": "event:2026-10:962ab94f681f",
+        "eventName": "Belgian Grand Prix",
+        "eventDate": "2026-07-19",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
+        "qualifyingTime": "1:44.361",
+        "verificationDate": "2026-07-31"
+      }
+    ],
+    "final": {
+      "driverPoleTotal": 1159,
+      "constructorPoleTotal": 1159,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "finalCutoff": {
+      "season": 2026,
+      "round": 10,
+      "eventId": "event:2026-10:962ab94f681f",
+      "eventName": "Belgian Grand Prix",
+      "eventDate": "2026-07-19"
+    },
+    "currentSeasonDistribution": {
+      "george-russell": 4,
+      "kimi-antonelli": 6,
+      "lando-norris": 0,
+      "mercedes": 10,
+      "mclaren": 0
     }
   }
 }
