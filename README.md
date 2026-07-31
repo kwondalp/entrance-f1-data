@@ -20,9 +20,11 @@ It contains no API server, application runtime, or automatic publishing step. Cl
 
 `f1/stats-lab/v1/` is separate from the approved current-season files under `data/`. Its `manifest.json` defines the file list, sizes, SHA-256 checksums, schema version, provenance paths, unsupported metrics, and approval flags.
 
-The current package has passed the separately authorised official-pole production-data application and is marked `production_ready` with `productionApplicationApproved: true`. It contains audited official-pole totals and recency data while preserving all unrelated public values.
+The current package has passed the separately authorised official-pole production-data application and Belgian-cutoff publication integration. It is marked `production_ready` with `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: true`.
 
-Public release remains a separate gate: `approvalRequiredBeforePublish` is still `true` and `publishApproved` is still `false`. A WIP branch or commit is not evidence that the public endpoint changed.
+The approved publication composes the audited Round-7 historical baseline of 1,156 official poles with three verified Grand Prix overlays for Austria, Great Britain, and Belgium. The resulting driver and constructor totals are both 1,159; Mercedes has 154 under its single canonical historical identity. Current-season distribution through Belgium is George Russell 4, Kimi Antonelli 6, Lando Norris 0, Mercedes 10, and McLaren 0. Sprint sessions and Hungary are outside this cutoff.
+
+Publication approval applies to the WIP integration branch only. It does not authorise a main-branch merge or deployment, and repository state alone is not evidence that a public endpoint changed.
 
 ## Historical Records publication contract
 
