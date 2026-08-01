@@ -1,0 +1,221 @@
+{
+  "version": "1.0.0",
+  "scope": "stats-lab-derived",
+  "toolVersion": "0.1.0",
+  "asOfRaceDate": "2026-06-14",
+  "seasonsCovered": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959,
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969,
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "counts": {
+    "events": 1171,
+    "racesWithResults": 1156,
+    "drivers": 881,
+    "constructors": 213,
+    "circuits": 77,
+    "driverStatistics": 881,
+    "constructorStatistics": 213,
+    "circuitStatistics": 77,
+    "seasonStatistics": 77
+  },
+  "unsupportedMetrics": [
+    {
+      "metricId": "activeRetiredClassification",
+      "scope": "driver",
+      "reason": "The snapshot does not contain explicit active, retired, contract, or final-entry status evidence."
+    },
+    {
+      "metricId": "driverStartsForNullStartedRaceRows",
+      "scope": "driver",
+      "reason": "Rows with startedRace null are not counted as starts; no start is inferred for historical shared-drive rows without explicit evidence."
+    },
+    {
+      "metricId": "constructorStartsForNullStartedRaceRows",
+      "scope": "constructor",
+      "reason": "Constructor starts count only entries with at least one explicit startedRace true participation."
+    }
+  ],
+  "outputs": {
+    "driverStatistics": "driver-statistics.json",
+    "constructorStatistics": "constructor-statistics.json",
+    "circuitStatistics": "circuit-statistics.json",
+    "seasonStatistics": "season-statistics.json",
+    "recordsLibrary": "records-library.json"
+  },
+  "implementedMetrics": [
+    "officialPolePositions",
+    "racesSinceLastPole",
+    "daysSinceLastPole"
+  ],
+  "metricImplementation": {
+    "officialPoleMetrics": {
+      "supported": true,
+      "officialPoleAttributions": 1159,
+      "baselineOfficialPoleAttributions": 1156,
+      "postBaselineOverlayAttributions": 3,
+      "baselineAsOfRaceDate": "2026-06-14",
+      "publicationAsOfRaceDate": "2026-07-19"
+    }
+  },
+  "officialPoleAsOfRaceDate": "2026-07-19",
+  "officialPolePublication": {
+    "schemaVersion": "official-pole-publication-integration.v1",
+    "verificationDate": "2026-07-31",
+    "baseline": {
+      "driverPoleTotal": 1156,
+      "constructorPoleTotal": 1156,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "baselineCutoff": {
+      "season": 2026,
+      "round": 7,
+      "eventId": "event:2026-7:a4e70b8fc3f5",
+      "eventName": "Barcelona-Catalunya Grand Prix",
+      "eventDate": "2026-06-14"
+    },
+    "postBaselineOverlays": [
+      {
+        "season": 2026,
+        "round": 8,
+        "eventId": "event:2026-8:1863bba66a42",
+        "eventName": "Austrian Grand Prix",
+        "eventDate": "2026-06-28",
+        "currentDriverId": "george-russell",
+        "canonicalDriverId": "driver:russell:0de59c03b0db",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 9,
+        "eventId": "event:2026-9:c346da3f4460",
+        "eventName": "British Grand Prix",
+        "eventDate": "2026-07-05",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 10,
+        "eventId": "event:2026-10:962ab94f681f",
+        "eventName": "Belgian Grand Prix",
+        "eventDate": "2026-07-19",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
+        "qualifyingTime": "1:44.361",
+        "verificationDate": "2026-07-31"
+      }
+    ],
+    "final": {
+      "driverPoleTotal": 1159,
+      "constructorPoleTotal": 1159,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "finalCutoff": {
+      "season": 2026,
+      "round": 10,
+      "eventId": "event:2026-10:962ab94f681f",
+      "eventName": "Belgian Grand Prix",
+      "eventDate": "2026-07-19"
+    },
+    "currentSeasonDistribution": {
+      "george-russell": 4,
+      "kimi-antonelli": 6,
+      "lando-norris": 0,
+      "mercedes": 10,
+      "mclaren": 0
+    }
+  }
+}

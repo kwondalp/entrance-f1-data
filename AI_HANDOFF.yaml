@@ -1,0 +1,233 @@
+schemaVersion: "1.0"
+project:
+  id: entrance-f1-data
+  displayName: ENTRANCE F1 Data
+role: published F1 data contract
+handoffVersion: 3
+currentState:
+  status: belgian-cutoff-integration-with-approved-official-pole-publication
+  summary: The WIP integration content reaches the 2026 Belgian Grand Prix and contains a separately authorised Stats Lab v1 official-pole publication through the same cutoff; the last verified public endpoint remains round 7, main merge and deployment remain unapproved, and no Historical Records dataset exists.
+currentFocus:
+  - id: focus-publish-boundary
+    summary: Preserve the boundary between the last verified public endpoint, this Belgian-cutoff WIP integration, and any later main-branch merge or deployment.
+  - id: focus-safe-updates
+    summary: Require source verification, approved diffs, and validation before any production JSON update or promotion.
+  - id: focus-historical-records-boundary
+    summary: Preserve the schema-only Historical Records publication boundary until the producer supplies at least one fully eligible record and separate publication approval exists.
+  - id: focus-stats-lab-publication-boundary
+    summary: Preserve the distinction between repository-owner publication approval on this WIP integration branch and an unapproved main-branch merge or deployment.
+implemented:
+  - id: current-season-contracts
+    summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
+    files:
+      - data/schedule.json
+      - data/drivers.json
+      - data/constructors.json
+      - data/driver-standings.json
+      - data/constructor-standings.json
+      - data/driver-stats.json
+      - data/race-results.json
+      - data/f1/current-grid.json
+      - data/f1/stat-metrics.json
+    schemaContract: implicit stable JSON file shapes; the repository-local Historical Records schema does not apply to these current-season contracts
+  - id: current-publication
+    summary: The last direct endpoint verification recorded here found 2026 race results through round 7, barcelona-catalunya, with updatedAt 2026-06-16T08:43:46Z; newer public coverage must not be inferred from a repository branch.
+    baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
+  - id: current-season-candidate
+    summary: WIP integration current-season JSON contains 10 race-result entries through round 10, belgium, with standings, driver statistics, and race results updatedAt 2026-07-26T10:54:55Z.
+    publicationState: approved integration content; main merge and deployment unapproved; public endpoint unverified
+  - id: stats-lab-v1-candidate
+    summary: A six-file Stats Lab v1 derived package covers 77 seasons and contains the separately authorised official-pole publication with productionApplicationApproved true, approvalRequiredBeforePublish true, and publishApproved true; main merge and deployment remain unapproved.
+    path: f1/stats-lab/v1/
+    schemaVersion: stats-lab.v1
+    asOfRaceDate: "2026-06-14"
+    officialPoleAsOfRaceDate: "2026-07-19"
+    officialPoleTotals: "1159 driver attributions; 1159 constructor attributions; 107 driver holders; 50 constructor holders; canonical historical Mercedes 154"
+    sourceSnapshotPath: output/canonical/full-history-canonical-verified-provisional.json
+    provenance: stable producer, source-tree, canonical, application-audit, semantic-delta, and approval-record digests are recorded without machine-local paths or execution timestamps
+  - id: published-historical-records-v1-schema
+    summary: The Draft 2020-12 `published-historical-records.v1` schema and publication documentation define the future consumer-facing static contract; no matching dataset file exists and no Historical Records value is published.
+    schemaContract: schemas/published-historical-records.v1.schema.json
+    documentation: docs/PUBLISHED_HISTORICAL_RECORDS_CONTRACT.md
+    producerContract: historical-records-api-contract.v1
+    consumers:
+      - entrance-web
+      - ipgutest
+pending:
+  - id: pending-main-integration-decision
+    summary: Main-branch merge and deployment require separate authority; publication approval on this WIP branch does not grant either action.
+  - id: pending-endpoint-verification
+    summary: If a later authorised deployment occurs, re-read the public current-season and Stats Lab endpoints before claiming Belgian-cutoff coverage is live.
+  - id: pending-historical-records-phase-9b
+    summary: Phase 9B may add a read-only producer-to-publisher conformance review, but it must not create a dataset while the producer reports zero production-eligible Historical Records.
+blocked:
+  - id: blocked-main-merge-deployment
+    summary: Main-branch merge and deployment remain outside the granted publication-integration authority.
+  - id: blocked-historical-records-publication
+    summary: Historical Records publication is blocked because the producer currently has zero ready or production-eligible records; blocked records cannot appear as nulls, placeholders, or provisional values.
+knownIssues:
+  - id: issue-publication-lag
+    summary: The last verified public race-results endpoint contains seven rounds while this WIP integration content contains 10 rounds through Belgium.
+  - id: issue-current-provenance
+    summary: Current-season JSON files expose updatedAt but do not embed source URLs or audit identifiers, so source and approval evidence must be verified in the approved update workflow.
+  - id: issue-stats-lab-age
+    summary: Stats Lab keeps the general package asOfRaceDate 2026-06-14 while official-pole fields use the explicit officialPoleAsOfRaceDate 2026-07-19; consumers must use the field-specific cutoff.
+  - id: issue-no-native-validator
+    summary: This repository has no validation scripts or runtime validation dependencies; validation uses the approved Historical Records schema, JSON parsing, explicit integrity checks, manifest checksums, Git diffs, and an existing reviewed validation environment.
+decisions:
+  - id: decision-data-only
+    summary: This repository owns published static data contracts only; application and transformation code remain in their own repositories.
+  - id: decision-stable-identities
+    summary: Existing driver, team, constructor, race, and session identifiers and public JSON shapes are preserved unless a schema change is explicitly approved.
+  - id: decision-manual-promotion
+    summary: Promotion is manual and fail-closed; the official-pole production application and Belgian-cutoff publication integration used separate repository-owner authority, a tracked strict integration record, and exact WIP-only checks.
+  - id: decision-post-race-two-step
+    summary: Post-race work requires a no-write draft diff followed by a separately approved apply step.
+  - id: decision-preview-separation
+    summary: Stats Lab v1 remains separate from approved current-season data and excludes the oversized canonical snapshot from the browser-facing package.
+  - id: decision-historical-records-published-shape
+    summary: "`published-historical-records.v1` accepts only verified, production-eligible records under an explicitly approved publication and omits every blocked record entirely."
+  - id: decision-producer-attestation-boundary
+    summary: This repository validates only the consumer-safe producer contract and `all_required_gates_passed` attestation; evidence, review, builder, and canonical details remain exclusively in entrance-f1-data-tools.
+  - id: decision-historical-records-versioning
+    summary: API v1 evolves additively, preserves record ID meaning, allows consumers to ignore unknown records and optional fields, and requires unsupported major versions to fail closed.
+interfaces:
+  - id: interface-current-season
+    summary: Static current-season JSON under data/ is fetched directly by ENTRANCE clients.
+    consumers:
+      - entrance-web
+      - ipgutest
+    baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
+  - id: interface-stats-lab-v1
+    summary: f1/stats-lab/v1/manifest.json defines the production-ready package file list, checksums, schema version, stable provenance digests, unsupported metrics, and separate publication state.
+    consumer: entrance-web
+    publicationState: publication approved on WIP integration branch; main merge and deployment unapproved; public endpoint unverified
+  - id: interface-historical-records-v1
+    summary: "`published-historical-records.v1` is the future stable static contract for entrance-web and ipgutest; Phase 9A defines only its schema and publishes no dataset."
+    consumers:
+      - entrance-web
+      - ipgutest
+    publicationState: schema ready, dataset absent
+dependencies:
+  - id: dependency-data-tools
+    summary: entrance-f1-data-tools ingests, normalises, validates, audits, and prepares candidate packages; promotion into this repository remains manual and reviewed.
+  - id: dependency-official-results
+    summary: Official F1.com classifications and standings are required for post-race facts under POST_RACE_UPDATE_RULES.md.
+  - id: dependency-project-control
+    summary: entrance-project-control reads this repository and its handoffs but is synchronised only after a real product commit.
+nextActions:
+  - id: next-main-integration-decision
+    summary: Obtain separate authority before any main-branch merge or deployment; do not infer it from publishApproved true.
+  - id: next-verify-public-endpoints
+    summary: After any separately authorised deployment, verify both public endpoints directly before reporting Belgian-cutoff coverage.
+  - id: next-historical-records-conformance
+    summary: Prepare Phase 9B as a no-publication producer-to-publisher conformance review; do not create a Historical Records JSON file until at least one eligible record and explicit publication approval exist.
+  - id: next-sync-control-after-commit
+    summary: After an explicitly approved product commit, regenerate and separately review project-control status.
+forbiddenActions:
+  - id: safety-no-unapproved-git-actions
+    summary: Do not commit, merge, push, or deploy without explicit user approval.
+  - id: safety-no-automatic-promotion
+    summary: Do not automatically copy, promote, or overwrite production data from tooling output.
+  - id: safety-no-schema-or-id-changes
+    summary: Do not change schemas, stable IDs, race keys, or session keys without explicit approval.
+  - id: safety-no-app-or-tooling-code
+    summary: Do not add application, website, scraping, ingestion, transformation, or pipeline code to this repository.
+  - id: safety-no-invented-data
+    summary: Do not infer or manually patch statistics from memory, training data, or forbidden ingestion sources.
+  - id: safety-no-sibling-writes
+    summary: Do not modify sibling repositories while completing work in this repository.
+  - id: safety-no-durable-git-state
+    summary: Do not place HEAD, branch, upstream, working-tree state, personal paths, or secrets in handoff files.
+  - id: safety-no-historical-placeholders
+    summary: Do not add an empty, blocked, null, provisional, or otherwise production-looking Historical Records dataset as a placeholder.
+requiredReads:
+  - id: read-project-rules
+    summary: Read PROJECT_RULES.md first for repository ownership and data restrictions.
+  - id: read-agents
+    summary: Read AGENTS.md for repository-local operating rules.
+  - id: read-ai-handoff
+    summary: Read AI_HANDOFF.yaml for verified current context and next actions.
+  - id: read-human-handoff
+    summary: Read HUMAN_HANDOFF.md when rationale, recovery, or cross-repository context is needed.
+  - id: read-post-race-rules
+    summary: Read POST_RACE_UPDATE_RULES.md before any post-race inspection, draft, or apply step.
+  - id: read-readme-and-manifest
+    summary: Read README.md and, for historical statistics work, f1/stats-lab/v1/manifest.json.
+validation:
+  status: passed
+  commands:
+    - id: validate-json-parse
+      summary: Parse every repository JSON file with the standard Python json module.
+      command: python -c "import json, pathlib; [json.loads(path.read_text(encoding='utf-8')) for path in pathlib.Path('.').rglob('*.json')]"
+    - id: validate-handoff-schema
+      summary: Validate project handoffs by generating project-control status without writing it.
+      command: python -X utf8 ../entrance-project-control/scripts/sync_status.py --print
+    - id: validate-official-pole-publication
+      summary: Validate the approved Round-7 baseline, exact Round 8-10 overlays, Belgian current-season cutoff, final totals, holder counts, recency, duplicate IDs, public metadata, approval state, and manifest checksums.
+      command: python ../entrance-f1-data-tools/scripts/apply_official_pole_publication_integration.py --data-repo .
+    - id: validate-handoff-diff
+      summary: Check the intended handoff diff for whitespace errors.
+      command: git diff --check -- AGENTS.md AI_HANDOFF.yaml HUMAN_HANDOFF.md
+    - id: validate-git-state
+      summary: Inspect final branch and worktree state without staging.
+      command: git status -sb
+    - id: validate-historical-records-schema
+      summary: Validate the Draft 2020-12 schema and synthetic in-memory eligible and rejection cases without writing a dataset.
+      command: Run jsonschema validation from an existing reviewed validation environment; this data-only repository adds no runtime dependency.
+    - id: validate-historical-records-compatibility
+      summary: Verify additive fields and future record IDs remain v1-compatible, unknown records can be ignored, and unsupported major versions fail closed.
+      command: Run the documented in-memory consumer compatibility matrix without writing production JSON.
+    - id: validate-historical-records-producer-boundary
+      summary: Validate a synthetic producer API payload and its consumer-safe projection into the published schema without writing a dataset.
+      command: Run the in-memory historical-records-api-contract.v1 to published-historical-records.v1 conformance matrix.
+  results:
+    - id: result-json-parse
+      summary: All 18 tracked repository JSON files parsed successfully.
+      status: passed
+    - id: result-current-integrity
+      summary: Stable IDs, references, round order, race UTC sessions, standings order, driver-stat alignment, and current-grid mappings through the 10-round Belgian cutoff produced zero validation errors.
+      status: passed
+    - id: result-manifest-integrity
+      summary: All six production-ready Stats Lab derived artifacts match manifest byte sizes and SHA-256 checksums; publishApproved is true while mainMergeApproved and deploymentApproved remain false.
+      status: passed
+    - id: result-handoff-schema
+      summary: AI_HANDOFF.yaml passed the project-control Draft 2020-12 schema and read-only status generation recognised it as valid.
+      status: passed
+    - id: result-official-pole-publication
+      summary: The validator reconciled the 1,156 Round-7 baseline plus three verified overlays to 1,159 driver and constructor totals, 107 driver and 50 constructor holders, canonical historical Mercedes 154, 10 race results, and zero duplicate IDs.
+      status: passed
+    - id: result-file-policy
+      summary: The integration changed only the five approved Belgian current-season files, four official-pole derived datasets, the Stats Lab manifest, and repository documentation and handoffs; circuit and season derived facts remained unchanged.
+      status: passed
+    - id: result-diff-check
+      summary: The intended handoff files passed Git whitespace validation.
+      status: passed
+    - id: result-historical-records-schema
+      summary: The published Historical Records schema accepted a fully eligible synthetic payload and rejected empty, ineligible, unapproved, blocked, and null-placeholder payloads.
+      status: passed
+    - id: result-historical-records-compatibility
+      summary: Additive optional fields and future record IDs passed v1 compatibility, unknown records were safely ignored, unsupported major versions failed closed, and repeated canonical serialization was byte-identical.
+      status: passed
+    - id: result-historical-records-production-boundary
+      summary: No Historical Records dataset was generated, and existing production JSON plus the Stats Lab candidate package retained their pre-phase checksums.
+      status: passed
+    - id: result-historical-records-producer-boundary
+      summary: A synthetic valid producer API record projected into the published schema while producer readiness and blocker fields remained excluded.
+      status: passed
+lastCompletedWork:
+  - id: completed-handoff-bootstrap
+    summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
+  - id: completed-current-season-candidate
+    summary: Current-season standings, driver statistics, constructors, and race results were reconciled through the Belgian Grand Prix while preserving prior official-result corrections.
+  - id: completed-stats-lab-candidate
+    summary: "Stats Lab v1 was composed through the separately authorised official-pole publication integration: the 1,156 baseline plus three Round 8-10 overlays yields 1,159 driver and constructor totals, 107 driver and 50 constructor holders, canonical historical Mercedes 154, reconciled Records Library totals and recency, unchanged circuit and season facts, and publishApproved true."
+  - id: completed-belgian-official-pole-integration
+    summary: The approved Belgian current-season update and official-pole publication were integrated on the WIP branch with separate main-merge and deployment prohibitions preserved.
+  - id: completed-historical-records-schema
+    summary: Phase 9A added the `published-historical-records.v1` Draft 2020-12 schema, publication and compatibility documentation, and handoff state without generating a dataset or changing production JSON.
+notes:
+  - id: note-git-facts
+    summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.
+  - id: note-state-separation
+    summary: Published public data, repository candidate data, and data-tools provisional output are distinct states and must not be described interchangeably.

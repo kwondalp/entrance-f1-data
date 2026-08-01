@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "stats-lab.v1",
+  "toolVersion": "0.1.0",
+  "dataStatus": "production_ready",
+  "productionApplicationApproved": true,
+  "approvalRequiredBeforePublish": true,
+  "publishApproved": true,
+  "provenance": {
+    "producerRepository": "entrance-f1-data-tools",
+    "producerCommit": "d864b3dc4fd4dad9b05e51f73703a3a43b80befb",
+    "sourceTreeFingerprint": "36b3fd8b9381de0c1b611ef1670afc510df82c14cb717a706eff1258afca1fee",
+    "sourceCanonicalChecksum": "5c90c96994d5b365429c4c448d7b752d3939a521456f6af3b455f13daced8c13",
+    "sourceCanonicalApplicationAuditChecksum": "70b6e964bf539a3cbb76d64394ec2ac8115c9820e340523802c09896b15384c6",
+    "semanticDeltaSha256": "6a0d4b473d0f1b5f6757c436b9b1911d52f75ee011d11e9794d3a3e4e8faa8bf",
+    "productionApplicationApprovalRecord": "fixtures/official-pole-production-application-approval.json",
+    "postBaselineOverlayEvidenceRecord": "fixtures/official-pole-publication-integration.json",
+    "officialPolePublicationApprovalRecord": "fixtures/official-pole-publication-integration.json"
+  },
+  "canonicalSnapshotExcluded": true,
+  "canonicalSnapshotExclusionReason": "file_too_large_for_git_and_browser_delivery",
+  "asOfRaceDate": "2026-06-14",
+  "seasonsCovered": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959,
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969,
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "raceEventCount": 1156,
+  "driverCount": 881,
+  "constructorCount": 213,
+  "circuitCount": 77,
+  "files": [
+    {
+      "artifactKey": "derivedAggregate",
+      "relativePath": "derived/stats-lab-derived.json",
+      "checksumSha256": "cb3aa7befb1aca3130ca2562f2ff5d7aaac3fa5d3d7edf9983fce2c9ca7421e2",
+      "sizeBytes": 5731
+    },
+    {
+      "artifactKey": "driverStatistics",
+      "relativePath": "derived/driver-statistics.json",
+      "checksumSha256": "83ef81d286df1f6b42c153b6af4974fe1d0b23516e7e54d26bf0f7195cd0f0a0",
+      "sizeBytes": 1163698
+    },
+    {
+      "artifactKey": "constructorStatistics",
+      "relativePath": "derived/constructor-statistics.json",
+      "checksumSha256": "03a63a433ae623d424476a4119c5772864080a71f4fa602a0734a501b4b49211",
+      "sizeBytes": 206875
+    },
+    {
+      "artifactKey": "circuitStatistics",
+      "relativePath": "derived/circuit-statistics.json",
+      "checksumSha256": "e1ab1d34db12edfc032d74214eafea7108547356045a2f00ae3a660b2ae69c4f",
+      "sizeBytes": 79359
+    },
+    {
+      "artifactKey": "seasonStatistics",
+      "relativePath": "derived/season-statistics.json",
+      "checksumSha256": "b7f16a542ebea6735c228b2a28053824738835d1d15388b2ef653d8d798788dd",
+      "sizeBytes": 284910
+    },
+    {
+      "artifactKey": "recordsLibrary",
+      "relativePath": "derived/records-library.json",
+      "checksumSha256": "257798edcbca5822abaa024cf44ad247ef2e775641c8bf784416312e9c25a92b",
+      "sizeBytes": 469005
+    }
+  ],
+  "checksums": {
+    "derivedAggregate": "cb3aa7befb1aca3130ca2562f2ff5d7aaac3fa5d3d7edf9983fce2c9ca7421e2",
+    "driverStatistics": "83ef81d286df1f6b42c153b6af4974fe1d0b23516e7e54d26bf0f7195cd0f0a0",
+    "constructorStatistics": "03a63a433ae623d424476a4119c5772864080a71f4fa602a0734a501b4b49211",
+    "circuitStatistics": "e1ab1d34db12edfc032d74214eafea7108547356045a2f00ae3a660b2ae69c4f",
+    "seasonStatistics": "b7f16a542ebea6735c228b2a28053824738835d1d15388b2ef653d8d798788dd",
+    "recordsLibrary": "257798edcbca5822abaa024cf44ad247ef2e775641c8bf784416312e9c25a92b"
+  },
+  "unsupportedMetrics": [
+    {
+      "metricId": "activeRetiredClassification",
+      "scope": "driver",
+      "reason": "The snapshot does not contain explicit active, retired, contract, or final-entry status evidence."
+    },
+    {
+      "metricId": "driverStartsForNullStartedRaceRows",
+      "scope": "driver",
+      "reason": "Rows with startedRace null are not counted as starts; no start is inferred for historical shared-drive rows without explicit evidence."
+    },
+    {
+      "metricId": "constructorStartsForNullStartedRaceRows",
+      "scope": "constructor",
+      "reason": "Constructor starts count only entries with at least one explicit startedRace true participation."
+    }
+  ],
+  "blockingErrors": [],
+  "officialPoleEventCount": 1159,
+  "officialPolePublication": {
+    "schemaVersion": "official-pole-publication-integration.v1",
+    "verificationDate": "2026-07-31",
+    "baseline": {
+      "driverPoleTotal": 1156,
+      "constructorPoleTotal": 1156,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "baselineCutoff": {
+      "season": 2026,
+      "round": 7,
+      "eventId": "event:2026-7:a4e70b8fc3f5",
+      "eventName": "Barcelona-Catalunya Grand Prix",
+      "eventDate": "2026-06-14"
+    },
+    "postBaselineOverlays": [
+      {
+        "season": 2026,
+        "round": 8,
+        "eventId": "event:2026-8:1863bba66a42",
+        "eventName": "Austrian Grand Prix",
+        "eventDate": "2026-06-28",
+        "currentDriverId": "george-russell",
+        "canonicalDriverId": "driver:russell:0de59c03b0db",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 9,
+        "eventId": "event:2026-9:c346da3f4460",
+        "eventName": "British Grand Prix",
+        "eventDate": "2026-07-05",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
+        "verificationDate": "2026-07-31"
+      },
+      {
+        "season": 2026,
+        "round": 10,
+        "eventId": "event:2026-10:962ab94f681f",
+        "eventName": "Belgian Grand Prix",
+        "eventDate": "2026-07-19",
+        "currentDriverId": "kimi-antonelli",
+        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
+        "currentConstructorId": "mercedes",
+        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
+        "driverDelta": 1,
+        "constructorDelta": 1,
+        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
+        "qualifyingTime": "1:44.361",
+        "verificationDate": "2026-07-31"
+      }
+    ],
+    "final": {
+      "driverPoleTotal": 1159,
+      "constructorPoleTotal": 1159,
+      "driversWithPoles": 107,
+      "constructorsWithPoles": 50
+    },
+    "finalCutoff": {
+      "season": 2026,
+      "round": 10,
+      "eventId": "event:2026-10:962ab94f681f",
+      "eventName": "Belgian Grand Prix",
+      "eventDate": "2026-07-19"
+    },
+    "currentSeasonDistribution": {
+      "george-russell": 4,
+      "kimi-antonelli": 6,
+      "lando-norris": 0,
+      "mercedes": 10,
+      "mclaren": 0
+    }
+  },
+  "publicationApproval": {
+    "status": "approved",
+    "authority": "repository_owner",
+    "record": "fixtures/official-pole-publication-integration.json",
+    "mainMergeApproved": false,
+    "deploymentApproved": false
+  }
+}
