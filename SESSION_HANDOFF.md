@@ -8,7 +8,7 @@ This repository stores ENTRANCE public static JSON. It does not own ingestion co
 
 - `data/`: approved current-season schedule, entities, standings, driver statistics, and race results consumed by the Expo app.
 - `data/f1/`: current-grid and metric-definition contracts.
-- `f1/stats-lab/v1/`: derived historical Stats Lab publish candidate with a checksum manifest. It remains explicitly not approved for production.
+- `f1/stats-lab/v1/`: production-ready derived historical Stats Lab package with separately recorded publication approval; main-merge and deployment approval fields remain false.
 
 ## Verified audit state
 
@@ -23,4 +23,4 @@ This repository stores ENTRANCE public static JSON. It does not own ingestion co
 
 ## Next required action
 
-Keep the Stats Lab package in candidate status until a separate explicit approval is given. Do not perform a post-race update as part of structural maintenance.
+Review the local Stats Lab checksum-portability repair, which binds the manifest to committed UTF-8 LF bytes without changing any sporting fact or approval meaning. Any later merge, publication, or deployment still requires separate authority. Do not perform a post-race update as part of structural maintenance.

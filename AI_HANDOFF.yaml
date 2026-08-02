@@ -3,19 +3,19 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 3
+handoffVersion: 4
 currentState:
-  status: belgian-cutoff-integration-with-approved-official-pole-publication
-  summary: The WIP integration content reaches the 2026 Belgian Grand Prix and contains a separately authorised Stats Lab v1 official-pole publication through the same cutoff; the last verified public endpoint remains round 7, main merge and deployment remain unapproved, and no Historical Records dataset exists.
+  status: belgian-cutoff-public-with-checksum-portability-repair
+  summary: The public baseline reaches the 2026 Belgian Grand Prix and contains the separately authorised Stats Lab v1 official-pole publication through the same cutoff; direct verification on 2026-08-02 matched all 17 protected public files to committed Git bytes, the local portability repair binds manifest metadata to those UTF-8 LF bytes, approval meaning is unchanged, and no Historical Records dataset exists.
 currentFocus:
   - id: focus-publish-boundary
-    summary: Preserve the boundary between the last verified public endpoint, this Belgian-cutoff WIP integration, and any later main-branch merge or deployment.
+    summary: Preserve the boundary between the verified Belgian-cutoff public baseline, this checksum-portability maintenance, and any later merge, publication, or deployment authority.
   - id: focus-safe-updates
     summary: Require source verification, approved diffs, and validation before any production JSON update or promotion.
   - id: focus-historical-records-boundary
     summary: Preserve the schema-only Historical Records publication boundary until the producer supplies at least one fully eligible record and separate publication approval exists.
   - id: focus-stats-lab-publication-boundary
-    summary: Preserve the distinction between repository-owner publication approval on this WIP integration branch and an unapproved main-branch merge or deployment.
+    summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
   - id: current-season-contracts
     summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
@@ -31,13 +31,13 @@ implemented:
       - data/f1/stat-metrics.json
     schemaContract: implicit stable JSON file shapes; the repository-local Historical Records schema does not apply to these current-season contracts
   - id: current-publication
-    summary: The last direct endpoint verification recorded here found 2026 race results through round 7, barcelona-catalunya, with updatedAt 2026-06-16T08:43:46Z; newer public coverage must not be inferred from a repository branch.
+    summary: Direct endpoint verification on 2026-08-02 found 2026 race results through round 10, belgium, with updatedAt 2026-07-26T10:54:55Z; all 17 protected public contract files matched the committed Git baseline byte-for-byte.
     baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
   - id: current-season-candidate
-    summary: WIP integration current-season JSON contains 10 race-result entries through round 10, belgium, with standings, driver statistics, and race results updatedAt 2026-07-26T10:54:55Z.
-    publicationState: approved integration content; main merge and deployment unapproved; public endpoint unverified
+    summary: The public current-season JSON contains 10 race-result entries through round 10, belgium, with standings, driver statistics, and race results updatedAt 2026-07-26T10:54:55Z; Hungary and the Netherlands remain outside the completed-race cutoff.
+    publicationState: verified public Belgian-cutoff baseline; no later publication or deployment authority inferred
   - id: stats-lab-v1-candidate
-    summary: A six-file Stats Lab v1 derived package covers 77 seasons and contains the separately authorised official-pole publication with productionApplicationApproved true, approvalRequiredBeforePublish true, and publishApproved true; main merge and deployment remain unapproved.
+    summary: A six-file Stats Lab v1 derived package covers 77 seasons and contains the separately authorised official-pole publication with productionApplicationApproved true, approvalRequiredBeforePublish true, and publishApproved true; checksum and size metadata now bind to committed UTF-8 LF bytes while mainMergeApproved and deploymentApproved remain false.
     path: f1/stats-lab/v1/
     schemaVersion: stats-lab.v1
     asOfRaceDate: "2026-06-14"
@@ -55,9 +55,9 @@ implemented:
       - ipgutest
 pending:
   - id: pending-main-integration-decision
-    summary: Main-branch merge and deployment require separate authority; publication approval on this WIP branch does not grant either action.
+    summary: Any new merge or deployment action requires separate authority; publishApproved true and existing repository presence do not grant that authority.
   - id: pending-endpoint-verification
-    summary: If a later authorised deployment occurs, re-read the public current-season and Stats Lab endpoints before claiming Belgian-cutoff coverage is live.
+    summary: After any later separately authorised publication or deployment, re-read the public current-season and Stats Lab endpoints before claiming coverage beyond the verified Belgian cutoff or repaired manifest metadata.
   - id: pending-historical-records-phase-9b
     summary: Phase 9B may add a read-only producer-to-publisher conformance review, but it must not create a dataset while the producer reports zero production-eligible Historical Records.
 blocked:
@@ -66,8 +66,8 @@ blocked:
   - id: blocked-historical-records-publication
     summary: Historical Records publication is blocked because the producer currently has zero ready or production-eligible records; blocked records cannot appear as nulls, placeholders, or provisional values.
 knownIssues:
-  - id: issue-publication-lag
-    summary: The last verified public race-results endpoint contains seven rounds while this WIP integration content contains 10 rounds through Belgium.
+  - id: issue-public-manifest-portability
+    summary: The verified public derived artifacts already use committed UTF-8 LF bytes, while publication of the locally repaired manifest metadata remains a separate unapproved action.
   - id: issue-current-provenance
     summary: Current-season JSON files expose updatedAt but do not embed source URLs or audit identifiers, so source and approval evidence must be verified in the approved update workflow.
   - id: issue-stats-lab-age
@@ -101,7 +101,7 @@ interfaces:
   - id: interface-stats-lab-v1
     summary: f1/stats-lab/v1/manifest.json defines the production-ready package file list, checksums, schema version, stable provenance digests, unsupported metrics, and separate publication state.
     consumer: entrance-web
-    publicationState: publication approved on WIP integration branch; main merge and deployment unapproved; public endpoint unverified
+    publicationState: Belgian-cutoff endpoint verified 2026-08-02; approval metadata preserved; repaired manifest publication unapproved
   - id: interface-historical-records-v1
     summary: "`published-historical-records.v1` is the future stable static contract for entrance-web and ipgutest; Phase 9A defines only its schema and publishes no dataset."
     consumers:
@@ -119,7 +119,7 @@ nextActions:
   - id: next-main-integration-decision
     summary: Obtain separate authority before any main-branch merge or deployment; do not infer it from publishApproved true.
   - id: next-verify-public-endpoints
-    summary: After any separately authorised deployment, verify both public endpoints directly before reporting Belgian-cutoff coverage.
+    summary: After any separately authorised publication or deployment, verify both public endpoints directly before reporting repaired manifest metadata or coverage beyond Belgium.
   - id: next-historical-records-conformance
     summary: Prepare Phase 9B as a no-publication producer-to-publisher conformance review; do not create a Historical Records JSON file until at least one eligible record and explicit publication approval exist.
   - id: next-sync-control-after-commit
@@ -189,7 +189,7 @@ validation:
       summary: Stable IDs, references, round order, race UTC sessions, standings order, driver-stat alignment, and current-grid mappings through the 10-round Belgian cutoff produced zero validation errors.
       status: passed
     - id: result-manifest-integrity
-      summary: All six production-ready Stats Lab derived artifacts match manifest byte sizes and SHA-256 checksums; publishApproved is true while mainMergeApproved and deploymentApproved remain false.
+      summary: After the portability repair, all six production-ready Stats Lab derived Git blobs match manifest LF byte sizes and SHA-256 checksums; publishApproved is true while mainMergeApproved and deploymentApproved remain false.
       status: passed
     - id: result-handoff-schema
       summary: AI_HANDOFF.yaml passed the project-control Draft 2020-12 schema and read-only status generation recognised it as valid.
@@ -215,6 +215,9 @@ validation:
     - id: result-historical-records-producer-boundary
       summary: A synthetic valid producer API record projected into the published schema while producer readiness and blocker fields remained excluded.
       status: passed
+    - id: result-checksum-portability
+      summary: The manifest changed exactly 18 checksum and size scalars, its canonical LF bytes are 7958 bytes with SHA-256 3c9a72c58b7a466d2ee20004e979e9ffaf24bf32d4ae0485434fb512aa630326, all six derived blob IDs remained unchanged, and effective attributes require text eol=lf on all 17 protected public paths.
+      status: passed
 lastCompletedWork:
   - id: completed-handoff-bootstrap
     summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
@@ -226,6 +229,8 @@ lastCompletedWork:
     summary: The approved Belgian current-season update and official-pole publication were integrated on the WIP branch with separate main-merge and deployment prohibitions preserved.
   - id: completed-historical-records-schema
     summary: Phase 9A added the `published-historical-records.v1` Draft 2020-12 schema, publication and compatibility documentation, and handoff state without generating a dataset or changing production JSON.
+  - id: completed-public-checksum-portability
+    summary: Rebound the Stats Lab manifest to committed UTF-8 LF artifact bytes and added path-scoped EOL policy without changing sporting facts, the six derived artifacts, schemas, timestamps, or approval meaning.
 notes:
   - id: note-git-facts
     summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.

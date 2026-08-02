@@ -6,11 +6,11 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
-Approved current-season files are served from `https://kwondalp.github.io/entrance-f1-data/data/`. The last direct endpoint verification recorded in this handoff found 2026 race results through round 7, `barcelona-catalunya`, with `updatedAt: 2026-06-16T08:43:46Z`. Do not infer newer endpoint coverage from a repository branch.
+Approved current-season files are served from `https://kwondalp.github.io/entrance-f1-data/data/`. Direct endpoint verification on 2026-08-02 found 2026 race results through round 10, `belgium`, with `updatedAt: 2026-07-26T10:54:55Z`; all 17 protected public contract files were byte-identical to the committed Git baseline.
 
-The WIP integration content now contains current-season results, standings, and driver statistics through round 10, `belgium`, with `updatedAt: 2026-07-26T10:54:55Z`. It preserves the prior official-result corrections for tied standings and `NC`/`DNS` classifications. This branch state is not proof of public deployment.
+The current-season results, standings, and driver statistics contain 10 completed rounds through Belgium and preserve the prior official-result corrections for tied standings and `NC`/`DNS` classifications. Hungary and the Netherlands remain outside the completed-race cutoff.
 
-`f1/stats-lab/v1/` is a separate historical package. Its official-pole values have passed both the production-data application and the separately authorised Belgian-cutoff publication integration. The manifest says `production_ready`, `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: true`. Main-branch merge and deployment remain unapproved, and no public endpoint change may be claimed from this WIP state.
+`f1/stats-lab/v1/` is a separate historical package. Its official-pole values have passed both the production-data application and the separately authorised Belgian-cutoff publication integration. The manifest says `production_ready`, `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: true`. The checksum-portability maintenance rebinds only its manifest checksum and size metadata to committed UTF-8 LF bytes; `mainMergeApproved: false` and `deploymentApproved: false` retain their historical meaning.
 
 The publication composes the approved Round-7 baseline of 1,156 driver and constructor attributions with exactly three official Grand Prix pole overlays for rounds 8-10. Final totals are 1,159 on both sides with 107 driver and 50 constructor holders. The single canonical historical Mercedes identity advances from 151 to 154. The official-pole field cutoff is the 2026 Belgian Grand Prix on 2026-07-19; Sprint sessions and Hungary are excluded.
 
@@ -43,10 +43,10 @@ This repository validates the public boundary. It must not reinterpret producer-
 | `data/driver-standings.json` | Driver championship order and points | 22 entries |
 | `data/constructor-standings.json` | Constructor championship order and points | 11 entries |
 | `data/driver-stats.json` | Per-driver season and career values | 22 entries |
-| `data/race-results.json` | Current-season classifications and constructor points | WIP integration content has 10 rounds through Belgium |
+| `data/race-results.json` | Current-season classifications and constructor points | Public baseline has 10 rounds through Belgium |
 | `data/f1/current-grid.json` | Driver-to-constructor current-grid mapping | 22 entries |
 | `data/f1/stat-metrics.json` | Current Stats Lab metric definitions | 7 metrics |
-| `f1/stats-lab/v1/` | Historical derived package | 77 seasons; official-pole publication approved on WIP integration branch; endpoint unverified |
+| `f1/stats-lab/v1/` | Historical derived package | 77 seasons; official-pole publication approved; endpoint verified 2026-08-02 |
 | `schemas/published-historical-records.v1.schema.json` | Future Historical Records publication contract | Schema ready; published dataset absent |
 
 `entrance-web` and `ipgutest` fetch the published current-season base URL directly. `entrance-web` can also load Stats Lab v1 from an explicit base URL and otherwise uses its own limited fallback fixture.
@@ -65,9 +65,9 @@ This repository validates the public boundary. It must not reinterpret producer-
 
 ## Current blockers and risks
 
-- The last verified public current-season endpoint stops at round 7 while this WIP integration branch reaches round 10. Re-read the endpoint after any separately authorised main merge or deployment before claiming newer public coverage.
+- The public current-season endpoint was verified through round 10 on 2026-08-02. Re-read it after any later separately authorised publication or deployment before claiming newer coverage.
 - Stats Lab v1 keeps the general derived package `asOfRaceDate: 2026-06-14`, while the additive `officialPoleAsOfRaceDate` is `2026-07-19`. Consumers must use the field-specific cutoff for official-pole values.
-- Publication approval does not authorise a main-branch merge or deployment.
+- Existing publication approval metadata does not grant new merge or deployment authority; this checksum-portability repair changes no approval meaning.
 - Historical Records currently has zero publication-eligible records, so only its schema and documentation exist; there is no dataset to publish.
 - The required approval history for prior candidate data changes is not encoded in the production JSON itself.
 - There is no repository-native validation script, so validation must combine JSON parsing, targeted integrity checks, Git diffs, manifest checksum verification, and the audited producing workflow.
