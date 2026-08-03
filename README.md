@@ -39,6 +39,15 @@ eligible, no placeholder dataset is created. See
 `docs/PUBLISHED_HISTORICAL_RECORDS_CONTRACT.md` for the publication and
 compatibility rules.
 
+## Results Archive v1
+
+The additive `/f1/results-archive/v1/` package publishes manifest-first,
+checksum-bound race classifications. Current audited coverage is 2026 through
+Belgian Round 10: 10 races and 220 classification rows. No historical season is
+included because archive-specific official review and publication approval are
+still missing. See `docs/RESULTS_ARCHIVE_V1.md` for paths, version handling,
+null/zero semantics, and consumer requirements.
+
 ## Update safety
 
 Current-season post-race changes must follow `POST_RACE_UPDATE_RULES.md`. Preserve all stable IDs and public shapes, validate every changed JSON file, and never infer missing Formula 1 facts from an ingestion API.

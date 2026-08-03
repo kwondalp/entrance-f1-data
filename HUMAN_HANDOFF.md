@@ -6,6 +6,19 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### Results Archive v1 release package
+
+The additive package under `f1/results-archive/v1/` contains the audited 2026
+classification contract through Belgian Round 10: 10 races and 220 rows. The
+manifest binds the season by exact byte size and SHA-256, and the tracked Draft
+2020-12 schemas define explicit classification, winner, shared-drive, and
+dead-heat fields. Existing `data/` and Stats Lab files were not changed.
+Seasons 1950–2025 remain absent because structural completeness is not
+archive-specific factual review or publication approval. See
+`docs/RESULTS_ARCHIVE_V1.md`. The manifest's `applicationState` is immutable
+generation-time provenance, not live release status; read current Git and
+canonical-endpoint state directly.
+
 Approved current-season files are served from `https://kwondalp.github.io/entrance-f1-data/data/`. Direct endpoint verification on 2026-08-02 found 2026 race results through round 10, `belgium`, with `updatedAt: 2026-07-26T10:54:55Z`; all 17 protected public contract files were byte-identical to the committed Git baseline.
 
 The current-season results, standings, and driver statistics contain 10 completed rounds through Belgium and preserve the prior official-result corrections for tied standings and `NC`/`DNS` classifications. Hungary and the Netherlands remain outside the completed-race cutoff.

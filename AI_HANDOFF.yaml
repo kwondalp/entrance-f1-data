@@ -218,6 +218,9 @@ validation:
     - id: result-checksum-portability
       summary: The manifest changed exactly 18 checksum and size scalars, its canonical LF bytes are 7958 bytes with SHA-256 3c9a72c58b7a466d2ee20004e979e9ffaf24bf32d4ae0485434fb512aa630326, all six derived blob IDs remained unchanged, and effective attributes require text eol=lf on all 17 protected public paths.
       status: passed
+    - id: result-results-archive-v1
+      summary: Results Archive v1 adds a manifest, one checksum-bound 2026 season file, and two Draft 2020-12 schemas without changing existing current-season or Stats Lab contracts. The package contains 10 races and 220 classifications through Belgian Round 10; every count, path, byte size, SHA-256, identity, winner, order, and cutoff audit passed. Manifest SHA-256 is cfdce572fd6d55c4bd39cd637f2709f97383fecc70e3b07efe2da8f4fe885f49 and season SHA-256 is be7b3493e5bfc02f2599e584203f47872b8a384a3f8056af89f0783350ea895a. All 76 historical seasons remain excluded pending archive-specific official review and exact publication approval.
+      status: passed
 lastCompletedWork:
   - id: completed-handoff-bootstrap
     summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
@@ -231,6 +234,8 @@ lastCompletedWork:
     summary: Phase 9A added the `published-historical-records.v1` Draft 2020-12 schema, publication and compatibility documentation, and handoff state without generating a dataset or changing production JSON.
   - id: completed-public-checksum-portability
     summary: Rebound the Stats Lab manifest to committed UTF-8 LF artifact bytes and added path-scoped EOL policy without changing sporting facts, the six derived artifacts, schemas, timestamps, or approval meaning.
+  - id: completed-results-archive-v1
+    summary: Prepared the exact twice-reproduced, audited Results Archive v1 release package as four additive public files for 2026 Rounds 1-10 while preserving every existing data file; the manifest applicationState is immutable generation-time provenance, so current Git and canonical-endpoint state must be read directly.
 notes:
   - id: note-git-facts
     summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.
