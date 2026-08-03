@@ -6,6 +6,32 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### Separate Beta v1 candidates
+
+The working tree contains two additive, separately namespaced Beta candidates.
+They are audited implementation artifacts, not evidence of a commit, public
+endpoint update, stable-contract promotion, or deployment.
+
+`f1/results-archive/beta/v1/` contains a checksum-bound manifest and 77 season
+documents for 1950-2026: 1,159 races and 26,094 classification rows. The 76
+historical seasons are labeled provisional. The 2026 file preserves the exact
+verified Results Archive v1 Round 1-10 facts. Missing starts and fastest laps
+remain null or absent, shared-drive rows are explicit, and the Beta contract
+does not infer individual lap allocation from a shared classification.
+
+`f1/stats-lab/beta/v1/` contains a checksum-bound manifest plus five derived
+documents. The permanent 301-statistic catalogue is represented as 14
+published, 92 provisional, 99 blocked, and 96 unsupported entries. Supported
+rankings currently expose All Time only; missing values are not zero-filled,
+and unsupported grouped or range combinations remain unavailable. The four
+Beta Draft 2020-12 schemas are under `schemas/`, and the contract details are
+in `docs/RESULTS_ARCHIVE_BETA_V1.md` and `docs/STATS_LAB_BETA_V1.md`.
+
+The tools producer audits pass directly against these exact files with zero
+blockers and zero warnings. Every JSON file parses. Existing current-season
+paths, `f1/results-archive/v1/`, and `f1/stats-lab/v1/` have no task diff. No
+file is staged, committed, pushed, published, or deployed.
+
 ### Results Archive v1 release package
 
 The additive package under `f1/results-archive/v1/` contains the audited 2026

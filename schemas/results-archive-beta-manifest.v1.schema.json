@@ -1,0 +1,309 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/results-archive-beta-manifest.v1.schema.json",
+  "title": "ENTRANCE Results Archive Beta v1 manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "releaseChannel",
+    "dataStatus",
+    "generatedFrom",
+    "archiveAsOfDate",
+    "coverage",
+    "latestIncludedCutoff",
+    "statusDefinitions",
+    "knownExclusions",
+    "unsupportedFields",
+    "stableV1Preservation",
+    "seasons"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "results-archive-beta-manifest.v1"
+    },
+    "apiVersion": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "releaseChannel": {
+      "const": "beta"
+    },
+    "dataStatus": {
+      "const": "verified_and_provisional"
+    },
+    "generatedFrom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "producerId",
+        "producerVersion",
+        "producerSourceChecksumSha256",
+        "sourceCanonicalChecksumSha256",
+        "sourceCanonicalGeneratedAtUtc",
+        "inputSetChecksumSha256"
+      ],
+      "properties": {
+        "producerId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "producerVersion": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "producerSourceChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sourceCanonicalChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sourceCanonicalGeneratedAtUtc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "inputSetChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "archiveAsOfDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "oldestIncludedSeason",
+        "latestIncludedSeason",
+        "includedSeasonCount",
+        "includedRaceCount",
+        "includedClassificationRowCount",
+        "verifiedSeasonCount",
+        "provisionalSeasonCount"
+      ],
+      "properties": {
+        "oldestIncludedSeason": {
+          "const": 1950
+        },
+        "latestIncludedSeason": {
+          "const": 2026
+        },
+        "includedSeasonCount": {
+          "const": 77
+        },
+        "includedRaceCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "includedClassificationRowCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "verifiedSeasonCount": {
+          "const": 1
+        },
+        "provisionalSeasonCount": {
+          "const": 76
+        }
+      }
+    },
+    "latestIncludedCutoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "season",
+        "round",
+        "raceId",
+        "raceSlug",
+        "date"
+      ],
+      "properties": {
+        "season": {
+          "const": 2026
+        },
+        "round": {
+          "const": 10
+        },
+        "raceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raceSlug": {
+          "const": "belgium"
+        },
+        "date": {
+          "const": "2026-07-19"
+        }
+      }
+    },
+    "statusDefinitions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verified",
+        "provisional",
+        "excluded",
+        "unsupported"
+      ],
+      "properties": {
+        "verified": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provisional": {
+          "type": "string",
+          "minLength": 1
+        },
+        "excluded": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unsupported": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "knownExclusions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reason"
+      }
+    },
+    "unsupportedFields": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fieldReason"
+      }
+    },
+    "stableV1Preservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "manifestPath",
+        "manifestSha256",
+        "seasonPath",
+        "seasonSha256"
+      ],
+      "properties": {
+        "manifestPath": {
+          "const": "../../v1/manifest.json"
+        },
+        "manifestSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "seasonPath": {
+          "const": "../../v1/seasons/2026.json"
+        },
+        "seasonSha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "seasons": {
+      "type": "array",
+      "minItems": 77,
+      "maxItems": 77,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "season",
+          "path",
+          "dataStatus",
+          "raceCount",
+          "classificationRowCount",
+          "byteSize",
+          "sha256"
+        ],
+        "properties": {
+          "season": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2026
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^seasons/[0-9]{4}\\.json$"
+          },
+          "dataStatus": {
+            "enum": [
+              "verified",
+              "provisional"
+            ]
+          },
+          "raceCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "classificationRowCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "byteSize": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "reason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reasonCode",
+        "scope",
+        "reason"
+      ],
+      "properties": {
+        "reasonCode": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fieldReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field",
+        "reasonCode",
+        "reason"
+      ],
+      "properties": {
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reasonCode": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

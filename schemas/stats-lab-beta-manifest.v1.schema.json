@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/stats-lab-beta-manifest.v1.schema.json",
+  "title": "ENTRANCE Stats Lab Beta v1 manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "releaseChannel",
+    "dataStatus",
+    "generatedFrom",
+    "asOfRaceDate",
+    "coverage",
+    "metricCounts",
+    "files",
+    "resultsArchiveSeasonFiles",
+    "knownExclusions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "stats-lab-beta.v1"
+    },
+    "apiVersion": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "releaseChannel": {
+      "const": "beta"
+    },
+    "dataStatus": {
+      "const": "published_and_provisional"
+    },
+    "generatedFrom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "producerId",
+        "producerVersion",
+        "producerSourceChecksumSha256",
+        "resultsArchiveManifestSha256",
+        "catalogueSnapshotSha256",
+        "inputSetChecksumSha256",
+        "generatedAtUtc"
+      ],
+      "properties": {
+        "producerId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "producerVersion": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "producerSourceChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "resultsArchiveManifestSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "catalogueSnapshotSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "inputSetChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "generatedAtUtc": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "asOfRaceDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seasonCount",
+        "raceCount",
+        "classificationRowCount",
+        "driverCount",
+        "constructorCount",
+        "verifiedSeasonCount",
+        "provisionalSeasonCount"
+      ],
+      "properties": {
+        "seasonCount": {
+          "const": 77
+        },
+        "raceCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "classificationRowCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "driverCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "constructorCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "verifiedSeasonCount": {
+          "const": 1
+        },
+        "provisionalSeasonCount": {
+          "const": 76
+        }
+      }
+    },
+    "metricCounts": {
+      "$ref": "#/$defs/metricCounts"
+    },
+    "files": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "$ref": "#/$defs/file"
+      }
+    },
+    "resultsArchiveSeasonFiles": {
+      "type": "array",
+      "minItems": 77,
+      "maxItems": 77,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "season",
+          "path",
+          "byteSize",
+          "sha256"
+        ],
+        "properties": {
+          "season": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2026
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^\\.\\./\\.\\./\\.\\./results-archive/beta/v1/seasons/[0-9]{4}\\.json$"
+          },
+          "byteSize": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    },
+    "knownExclusions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reasonCode",
+          "reason"
+        ],
+        "properties": {
+          "reasonCode": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          },
+          "rowCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "raceCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "rowCount"
+            ]
+          },
+          {
+            "required": [
+              "raceCount"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "metricCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total",
+        "published",
+        "provisional",
+        "blocked",
+        "unsupported"
+      ],
+      "properties": {
+        "total": {
+          "const": 301
+        },
+        "published": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "provisional": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "blocked": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "unsupported": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifactKey",
+        "relativePath",
+        "byteSize",
+        "sha256"
+      ],
+      "properties": {
+        "artifactKey": {
+          "enum": [
+            "driverStatistics",
+            "constructorStatistics",
+            "eventIndex",
+            "metricStatus",
+            "metricTables"
+          ]
+        },
+        "relativePath": {
+          "type": "string",
+          "pattern": "^derived/[a-z0-9-]+\\.json$"
+        },
+        "byteSize": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    }
+  }
+}

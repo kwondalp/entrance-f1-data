@@ -1,0 +1,757 @@
+{
+  "schemaVersion": "results-archive-beta-manifest.v1",
+  "apiVersion": "1.0.0",
+  "releaseChannel": "beta",
+  "dataStatus": "verified_and_provisional",
+  "generatedFrom": {
+    "producerId": "entrance-f1-data-tools/results-archive-beta-v1",
+    "producerVersion": "1.0.0",
+    "producerSourceChecksumSha256": "84943d65adb72911fe06dede272c5aa9f441073b91666571d5897b26acdbd126",
+    "sourceCanonicalChecksumSha256": "b251a9096947bad24d0537833b2e217e233fc76649691fee8ce4afc0e6680ba1",
+    "sourceCanonicalGeneratedAtUtc": "2026-07-27T06:11:59Z",
+    "inputSetChecksumSha256": "6cb3a494a3a261fbe8eca27444f277bfe1aed21fba225953909f2eb24488f7bd"
+  },
+  "archiveAsOfDate": "2026-07-19",
+  "coverage": {
+    "oldestIncludedSeason": 1950,
+    "latestIncludedSeason": 2026,
+    "includedSeasonCount": 77,
+    "includedRaceCount": 1159,
+    "includedClassificationRowCount": 26094,
+    "verifiedSeasonCount": 1,
+    "provisionalSeasonCount": 76
+  },
+  "latestIncludedCutoff": {
+    "season": 2026,
+    "round": 10,
+    "raceId": "event:2026-10:962ab94f681f",
+    "raceSlug": "belgium",
+    "date": "2026-07-19"
+  },
+  "statusDefinitions": {
+    "verified": "Values reuse an approved stable public classification.",
+    "provisional": "Values come from the bound canonical Beta snapshot and automated validation, without complete row-by-row official-source publication review.",
+    "excluded": "The race, row, or field is intentionally outside the declared cutoff or failed a required structural gate.",
+    "unsupported": "The source contract does not contain the semantic field required to publish a value."
+  },
+  "knownExclusions": [
+    {
+      "reasonCode": "current_season_after_approved_cutoff",
+      "scope": "2026 rounds 11-22",
+      "reason": "No current-season race after the approved Belgian Round 10 cutoff is included."
+    }
+  ],
+  "unsupportedFields": [
+    {
+      "field": "entrant",
+      "reasonCode": "entrant_identity_not_available",
+      "reason": "Constructor identity is published separately; entrant identity is null because the canonical contract does not model it independently."
+    },
+    {
+      "field": "lapsLed",
+      "reasonCode": "lap_leader_history_not_available",
+      "reason": "The canonical snapshot contains no complete official historical lap-leader series."
+    }
+  ],
+  "stableV1Preservation": {
+    "manifestPath": "../../v1/manifest.json",
+    "manifestSha256": "cfdce572fd6d55c4bd39cd637f2709f97383fecc70e3b07efe2da8f4fe885f49",
+    "seasonPath": "../../v1/seasons/2026.json",
+    "seasonSha256": "be7b3493e5bfc02f2599e584203f47872b8a384a3f8056af89f0783350ea895a"
+  },
+  "seasons": [
+    {
+      "season": 2026,
+      "path": "seasons/2026.json",
+      "dataStatus": "verified",
+      "raceCount": 10,
+      "classificationRowCount": 220,
+      "byteSize": 255741,
+      "sha256": "16a9937a0ed47084d2bed629268fd768f03eb8b2d45c175750036f0a630d11d8"
+    },
+    {
+      "season": 2025,
+      "path": "seasons/2025.json",
+      "dataStatus": "provisional",
+      "raceCount": 24,
+      "classificationRowCount": 479,
+      "byteSize": 552707,
+      "sha256": "19bcbb7e558851b9b31100bd7f4b4c68a40a0eaa2a4ea8edc9cdf6ce486d6bad"
+    },
+    {
+      "season": 2024,
+      "path": "seasons/2024.json",
+      "dataStatus": "provisional",
+      "raceCount": 24,
+      "classificationRowCount": 479,
+      "byteSize": 553350,
+      "sha256": "7cf832e66044dfe7fa2ed4f5f89771cab808856f1e173292863c48d6bac97e54"
+    },
+    {
+      "season": 2023,
+      "path": "seasons/2023.json",
+      "dataStatus": "provisional",
+      "raceCount": 22,
+      "classificationRowCount": 440,
+      "byteSize": 509179,
+      "sha256": "d30bba13728278a736366231322734b1b623d82073192d56782cdaf53b86c861"
+    },
+    {
+      "season": 2022,
+      "path": "seasons/2022.json",
+      "dataStatus": "provisional",
+      "raceCount": 22,
+      "classificationRowCount": 440,
+      "byteSize": 509397,
+      "sha256": "45136bc4c480092bcc0d075216dfb2d1c0e44f5391c67f575ebe174a70998d55"
+    },
+    {
+      "season": 2021,
+      "path": "seasons/2021.json",
+      "dataStatus": "provisional",
+      "raceCount": 22,
+      "classificationRowCount": 440,
+      "byteSize": 509009,
+      "sha256": "cc3ad20c51b3dfc0c5a4d5d18f1bffd4778611db1ae0dff8b737ff646eefa9ea"
+    },
+    {
+      "season": 2020,
+      "path": "seasons/2020.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 340,
+      "byteSize": 395838,
+      "sha256": "e2b50b731fc3284abeefdbbf66de2ad8f441407ba50150211dbcb1908cbef1a3"
+    },
+    {
+      "season": 2019,
+      "path": "seasons/2019.json",
+      "dataStatus": "provisional",
+      "raceCount": 21,
+      "classificationRowCount": 420,
+      "byteSize": 485909,
+      "sha256": "30c389019e4dcd7c8a8daee8b8715bd939ee78d960273a0ef085203dc7744989"
+    },
+    {
+      "season": 2018,
+      "path": "seasons/2018.json",
+      "dataStatus": "provisional",
+      "raceCount": 21,
+      "classificationRowCount": 420,
+      "byteSize": 486172,
+      "sha256": "95ad003d7c4d0cbbda54ad878d4505b84d7d3ebc30999de18336c17563ac02eb"
+    },
+    {
+      "season": 2017,
+      "path": "seasons/2017.json",
+      "dataStatus": "provisional",
+      "raceCount": 20,
+      "classificationRowCount": 400,
+      "byteSize": 464149,
+      "sha256": "c50d894f0435a0492f047f397387cd8c0ab3a4585181f58c42c030bc5485ad47"
+    },
+    {
+      "season": 2016,
+      "path": "seasons/2016.json",
+      "dataStatus": "provisional",
+      "raceCount": 21,
+      "classificationRowCount": 462,
+      "byteSize": 533394,
+      "sha256": "01bbcd5f73e46d01586c0cf9781d54b7cd0fa1952f878c187d5262e32e91a84b"
+    },
+    {
+      "season": 2015,
+      "path": "seasons/2015.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 378,
+      "byteSize": 438334,
+      "sha256": "3b35b317c946e2be244fd8eef058d4d576cde9147ca07cfde8c06af74ee372af"
+    },
+    {
+      "season": 2014,
+      "path": "seasons/2014.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 407,
+      "byteSize": 471382,
+      "sha256": "1aebde84cd1e3406dbc5d91c577750692b66bf67b690a9a077147e654666a5ec"
+    },
+    {
+      "season": 2013,
+      "path": "seasons/2013.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 418,
+      "byteSize": 482935,
+      "sha256": "a9f88d8c0dd510b4d7af60acbd92571ea2b7d2e41dcf6900e9a279301e530163"
+    },
+    {
+      "season": 2012,
+      "path": "seasons/2012.json",
+      "dataStatus": "provisional",
+      "raceCount": 20,
+      "classificationRowCount": 478,
+      "byteSize": 550294,
+      "sha256": "9d6f2e4628eeb60a508f334699b723e0c8cf0d8268c62c48af854cfa54a57506"
+    },
+    {
+      "season": 2011,
+      "path": "seasons/2011.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 454,
+      "byteSize": 523796,
+      "sha256": "f43ad074fb9fffded1a03724068039128ac659da123788da1807ff511a2aa8c7"
+    },
+    {
+      "season": 2010,
+      "path": "seasons/2010.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 456,
+      "byteSize": 525703,
+      "sha256": "39aae0741cc7194814a68cbc5917ac9fddbff89f6073ec9efaa797f5665e4337"
+    },
+    {
+      "season": 2009,
+      "path": "seasons/2009.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 340,
+      "byteSize": 396102,
+      "sha256": "19d3fe5101e59b09b0186bc6c5fd831a24b247097afd6d88aae466cd70a4be05"
+    },
+    {
+      "season": 2008,
+      "path": "seasons/2008.json",
+      "dataStatus": "provisional",
+      "raceCount": 18,
+      "classificationRowCount": 368,
+      "byteSize": 427116,
+      "sha256": "09678b50878271f6b269468788ad445a65bbb2b04d6a5290d78449f776cf98c0"
+    },
+    {
+      "season": 2007,
+      "path": "seasons/2007.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 374,
+      "byteSize": 433353,
+      "sha256": "15996d449a4b632cda8ffca913737b62c197fb9387475823f1876df6a50cfe85"
+    },
+    {
+      "season": 2006,
+      "path": "seasons/2006.json",
+      "dataStatus": "provisional",
+      "raceCount": 18,
+      "classificationRowCount": 396,
+      "byteSize": 459614,
+      "sha256": "afae1970a5b7313e7ae9d42a8de119c679c46278322f8ad4402fbe4e56abe71c"
+    },
+    {
+      "season": 2005,
+      "path": "seasons/2005.json",
+      "dataStatus": "provisional",
+      "raceCount": 19,
+      "classificationRowCount": 376,
+      "byteSize": 436989,
+      "sha256": "c21ad618643ae29f5254a7b2c6d730c409a1d1e27407079d1876197cd3f6cacb"
+    },
+    {
+      "season": 2004,
+      "path": "seasons/2004.json",
+      "dataStatus": "provisional",
+      "raceCount": 18,
+      "classificationRowCount": 360,
+      "byteSize": 418209,
+      "sha256": "4da65a729d020e8ecf5c68d1d907024c16da0ddfc02ae4ccecb7664ac4f23d59"
+    },
+    {
+      "season": 2003,
+      "path": "seasons/2003.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 320,
+      "byteSize": 372748,
+      "sha256": "e2905e970af7c2b5a1ce4471d5fd2efbe9d2bb60dfffb941de112cb4366c0a4d"
+    },
+    {
+      "season": 2002,
+      "path": "seasons/2002.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 359,
+      "byteSize": 415512,
+      "sha256": "4d9338693f518822165b96d26e0fdfed0c70b5b1e534484a70b0c040f70289d4"
+    },
+    {
+      "season": 2001,
+      "path": "seasons/2001.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 373,
+      "byteSize": 429986,
+      "sha256": "c976accfcb3dbe69bedd0ce414ffba444fa91b37311b8bad9432cf036d8a3f01"
+    },
+    {
+      "season": 2000,
+      "path": "seasons/2000.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 373,
+      "byteSize": 428805,
+      "sha256": "a2c775150285055757f38bfa5cfbdc8c42b90d86cf41d736a0ab2f90c62ef6dd"
+    },
+    {
+      "season": 1999,
+      "path": "seasons/1999.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 351,
+      "byteSize": 404627,
+      "sha256": "1a0e3c6bacde1949418ad2dcee7c60eda46f7396e07e22797c46984b906e15f5"
+    },
+    {
+      "season": 1998,
+      "path": "seasons/1998.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 347,
+      "byteSize": 399996,
+      "sha256": "f2ef7e5ef64b9edb263398a5559fd8f6d07b0363da064cc09f2809df04453876"
+    },
+    {
+      "season": 1997,
+      "path": "seasons/1997.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 374,
+      "byteSize": 431332,
+      "sha256": "27cc48b0b53c58ae8d3a98201a185cd3bdd039651bb6048a8d6aa5b2a136582e"
+    },
+    {
+      "season": 1996,
+      "path": "seasons/1996.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 328,
+      "byteSize": 379084,
+      "sha256": "41c954056092eb329dedd9f75ff4d98bbe9f65bd39f50f23bac604dcfd77b25f"
+    },
+    {
+      "season": 1995,
+      "path": "seasons/1995.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 418,
+      "byteSize": 479245,
+      "sha256": "6cfd93fd5d29f6fc5c065bcdd962a72e2e6523a6d2fc0b0d65df9c5a90185633"
+    },
+    {
+      "season": 1994,
+      "path": "seasons/1994.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 418,
+      "byteSize": 481291,
+      "sha256": "5d6ee346ddfdbcb001ecc51681523cd4965dcb1cde77d9656ce63f37fb78a220"
+    },
+    {
+      "season": 1993,
+      "path": "seasons/1993.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 404,
+      "byteSize": 464635,
+      "sha256": "6c53404e03802029508eeb7710e8d23c514d4cd9e4813fe99826ccf4bc85df4a"
+    },
+    {
+      "season": 1992,
+      "path": "seasons/1992.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 419,
+      "byteSize": 481175,
+      "sha256": "2bc7ad44a312e5bece0c9f643c672e2bafae25f8033c03d9cf507814eda84f49"
+    },
+    {
+      "season": 1991,
+      "path": "seasons/1991.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 416,
+      "byteSize": 478477,
+      "sha256": "7a0caf83db97f993ca236f5525e0af8acf05d34ead71f6757a00b8a5c64d87d0"
+    },
+    {
+      "season": 1990,
+      "path": "seasons/1990.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 419,
+      "byteSize": 479394,
+      "sha256": "3406ac397b01f9a41b0b8287266169d1ec6798c05a0e2a08db2d4e6d121f9008"
+    },
+    {
+      "season": 1989,
+      "path": "seasons/1989.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 418,
+      "byteSize": 482580,
+      "sha256": "120326d8c16e4ecf396e8af2b77b103376b41f504d66cf7fd39943e4621bae48"
+    },
+    {
+      "season": 1988,
+      "path": "seasons/1988.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 421,
+      "byteSize": 481264,
+      "sha256": "c4c72aad31d6ad89e3a64db2f40c610a105e9e04c89a871d35c24926874877be"
+    },
+    {
+      "season": 1987,
+      "path": "seasons/1987.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 415,
+      "byteSize": 476437,
+      "sha256": "303d8cf8f20ae9a65a92c7c50c9685655878f272f7040ace5108ba9a108bd3b1"
+    },
+    {
+      "season": 1986,
+      "path": "seasons/1986.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 407,
+      "byteSize": 466310,
+      "sha256": "73ccb2bb9b88c38c4d641b46ac7b9eefa1f8e20640e90a295318b47caa7aaa27"
+    },
+    {
+      "season": 1985,
+      "path": "seasons/1985.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 400,
+      "byteSize": 458555,
+      "sha256": "1f6e58a77f67d6b57cd384883e6e6b020b089f0c218bd349f8f789659f197f81"
+    },
+    {
+      "season": 1984,
+      "path": "seasons/1984.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 414,
+      "byteSize": 474373,
+      "sha256": "c6795b29ade178b2eaf20995800e392162c62508538a490c29d577a860c37935"
+    },
+    {
+      "season": 1983,
+      "path": "seasons/1983.json",
+      "dataStatus": "provisional",
+      "raceCount": 15,
+      "classificationRowCount": 385,
+      "byteSize": 442024,
+      "sha256": "4ba846d8be7a1c32e829c45668338d61bb616fab98cdaa17dc549732e67fbd76"
+    },
+    {
+      "season": 1982,
+      "path": "seasons/1982.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 401,
+      "byteSize": 462034,
+      "sha256": "40c376b468492de3a606decd5b527ba5c977f49171cd266fbd151f91ffc08efb"
+    },
+    {
+      "season": 1981,
+      "path": "seasons/1981.json",
+      "dataStatus": "provisional",
+      "raceCount": 15,
+      "classificationRowCount": 361,
+      "byteSize": 416776,
+      "sha256": "b37ffe64958ee6e54622fd08ba9ae815548ba901786dc5614358ae28ec37855d"
+    },
+    {
+      "season": 1980,
+      "path": "seasons/1980.json",
+      "dataStatus": "provisional",
+      "raceCount": 14,
+      "classificationRowCount": 336,
+      "byteSize": 388414,
+      "sha256": "4ba1ddf7a814ad36502dd035f1576716d324df9826c4e2a3a45460e327a295fe"
+    },
+    {
+      "season": 1979,
+      "path": "seasons/1979.json",
+      "dataStatus": "provisional",
+      "raceCount": 15,
+      "classificationRowCount": 362,
+      "byteSize": 418433,
+      "sha256": "87ae61076ce9d2ed6f5c12d3581191777a8373c2e0eeebfe2a40defb64a85b77"
+    },
+    {
+      "season": 1978,
+      "path": "seasons/1978.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 391,
+      "byteSize": 450948,
+      "sha256": "1e58c91ad765f6f9f1cf6073d664cc1443623e105724d68887476f7b83bfd62c"
+    },
+    {
+      "season": 1977,
+      "path": "seasons/1977.json",
+      "dataStatus": "provisional",
+      "raceCount": 17,
+      "classificationRowCount": 405,
+      "byteSize": 465889,
+      "sha256": "16f76b228f8902a978f5c1cfe7c17cb4ba924d8c64d65ba700017d94204fd4a1"
+    },
+    {
+      "season": 1976,
+      "path": "seasons/1976.json",
+      "dataStatus": "provisional",
+      "raceCount": 16,
+      "classificationRowCount": 399,
+      "byteSize": 458950,
+      "sha256": "03b1cdd2534257aab683643d99ce10e449334d59088fc5f5ff7eaebb2ba1b260"
+    },
+    {
+      "season": 1975,
+      "path": "seasons/1975.json",
+      "dataStatus": "provisional",
+      "raceCount": 14,
+      "classificationRowCount": 346,
+      "byteSize": 399614,
+      "sha256": "60c4248a11ebfb120bb7481957bc54ac00d0fde9576d8305c0460f18b4a9a1ca"
+    },
+    {
+      "season": 1974,
+      "path": "seasons/1974.json",
+      "dataStatus": "provisional",
+      "raceCount": 15,
+      "classificationRowCount": 387,
+      "byteSize": 444213,
+      "sha256": "35f8c74d64800b3121a36b9b87828a89482ef33d9295ea356bc2def42d06ed39"
+    },
+    {
+      "season": 1973,
+      "path": "seasons/1973.json",
+      "dataStatus": "provisional",
+      "raceCount": 15,
+      "classificationRowCount": 357,
+      "byteSize": 411594,
+      "sha256": "4d3443186eb3d39cfb04eab9cfb54633a63619ca328f600bf945ce6513769c65"
+    },
+    {
+      "season": 1972,
+      "path": "seasons/1972.json",
+      "dataStatus": "provisional",
+      "raceCount": 12,
+      "classificationRowCount": 305,
+      "byteSize": 351473,
+      "sha256": "43009043082e1dcf4dab21e35e2a9b8ddf798ed5ccbb1100ab8e99f971e35bf9"
+    },
+    {
+      "season": 1971,
+      "path": "seasons/1971.json",
+      "dataStatus": "provisional",
+      "raceCount": 11,
+      "classificationRowCount": 257,
+      "byteSize": 298930,
+      "sha256": "9fb7c7ab91ec1db6986212f99a977807ad4f4507673964f2dec2b44d85c1867c"
+    },
+    {
+      "season": 1970,
+      "path": "seasons/1970.json",
+      "dataStatus": "provisional",
+      "raceCount": 13,
+      "classificationRowCount": 267,
+      "byteSize": 311644,
+      "sha256": "b48632874108c63c3a12e5b6d4578c620f9185dfc34f315f7710dca095c147ed"
+    },
+    {
+      "season": 1969,
+      "path": "seasons/1969.json",
+      "dataStatus": "provisional",
+      "raceCount": 11,
+      "classificationRowCount": 177,
+      "byteSize": 210056,
+      "sha256": "45dbf79aa8246d3c495bf3e83fbdcc3e477781f0d50b286407a4c556735c0610"
+    },
+    {
+      "season": 1968,
+      "path": "seasons/1968.json",
+      "dataStatus": "provisional",
+      "raceCount": 12,
+      "classificationRowCount": 229,
+      "byteSize": 270326,
+      "sha256": "3c3db4716a3f2a39ffa21592964e33c5dcaa01c3679ca0a40313ea765dc4e512"
+    },
+    {
+      "season": 1967,
+      "path": "seasons/1967.json",
+      "dataStatus": "provisional",
+      "raceCount": 11,
+      "classificationRowCount": 201,
+      "byteSize": 238486,
+      "sha256": "2ba83b622673d7d34300752402bdcabc28a7d7c44b8119056060809505d1942f"
+    },
+    {
+      "season": 1966,
+      "path": "seasons/1966.json",
+      "dataStatus": "provisional",
+      "raceCount": 9,
+      "classificationRowCount": 164,
+      "byteSize": 196809,
+      "sha256": "d6188b753b0ab83bd9dd382ea905a827f1af92ef6b6b01102a4d05e9c500ba45"
+    },
+    {
+      "season": 1965,
+      "path": "seasons/1965.json",
+      "dataStatus": "provisional",
+      "raceCount": 10,
+      "classificationRowCount": 192,
+      "byteSize": 225691,
+      "sha256": "1fe663e23633e993bb8bb0abe4ded509e37f1ac7b1e2a5ec0a50595aa23132e3"
+    },
+    {
+      "season": 1964,
+      "path": "seasons/1964.json",
+      "dataStatus": "provisional",
+      "raceCount": 10,
+      "classificationRowCount": 199,
+      "byteSize": 235158,
+      "sha256": "4b037d3e06264a9c623a396eb4aad8bcb71878379567e32109444dab6a7d47c0"
+    },
+    {
+      "season": 1963,
+      "path": "seasons/1963.json",
+      "dataStatus": "provisional",
+      "raceCount": 10,
+      "classificationRowCount": 242,
+      "byteSize": 280310,
+      "sha256": "4f5bcd642cd9374993ec8cd16720109d721777af6f80468ade611d7d50ba149b"
+    },
+    {
+      "season": 1962,
+      "path": "seasons/1962.json",
+      "dataStatus": "provisional",
+      "raceCount": 9,
+      "classificationRowCount": 205,
+      "byteSize": 240007,
+      "sha256": "7ad54b1c56181e978c114427caec31d28fa965a2055abbe5ef8a1444ed609899"
+    },
+    {
+      "season": 1961,
+      "path": "seasons/1961.json",
+      "dataStatus": "provisional",
+      "raceCount": 8,
+      "classificationRowCount": 215,
+      "byteSize": 249966,
+      "sha256": "3c443545efcf61f1b1d18985470cd4497e8ce574d953884ae12a4530411d66c8"
+    },
+    {
+      "season": 1960,
+      "path": "seasons/1960.json",
+      "dataStatus": "provisional",
+      "raceCount": 10,
+      "classificationRowCount": 215,
+      "byteSize": 254115,
+      "sha256": "a3b2f7f44fba9ac826533be37470781a20df7da87ccd5b926e24cb4bc7df3c7d"
+    },
+    {
+      "season": 1959,
+      "path": "seasons/1959.json",
+      "dataStatus": "provisional",
+      "raceCount": 9,
+      "classificationRowCount": 181,
+      "byteSize": 212827,
+      "sha256": "0a90db6a6fc2c2bff806f9ae4f90ecfa2ce91f63dd858349181ae90bc99c2515"
+    },
+    {
+      "season": 1958,
+      "path": "seasons/1958.json",
+      "dataStatus": "provisional",
+      "raceCount": 11,
+      "classificationRowCount": 226,
+      "byteSize": 264101,
+      "sha256": "5734afef47695c06d0abe4a79a7d2deab0d1923931233302a8b5d70971094f4a"
+    },
+    {
+      "season": 1957,
+      "path": "seasons/1957.json",
+      "dataStatus": "provisional",
+      "raceCount": 8,
+      "classificationRowCount": 166,
+      "byteSize": 196686,
+      "sha256": "dd0a156ac532c35442041584df267d5905dafcb18e3d2535d07482f6d1fa7588"
+    },
+    {
+      "season": 1956,
+      "path": "seasons/1956.json",
+      "dataStatus": "provisional",
+      "raceCount": 8,
+      "classificationRowCount": 189,
+      "byteSize": 224373,
+      "sha256": "7cb50b5d293b15759b6ed2c9f8c47c2fb0cd1df4233e9356643232bc2574aab5"
+    },
+    {
+      "season": 1955,
+      "path": "seasons/1955.json",
+      "dataStatus": "provisional",
+      "raceCount": 7,
+      "classificationRowCount": 177,
+      "byteSize": 210637,
+      "sha256": "7681bbb1eb10d4bf0a4e9d4c8db7f12c2a2010badbc4489dfaf0798e2e25cad7"
+    },
+    {
+      "season": 1954,
+      "path": "seasons/1954.json",
+      "dataStatus": "provisional",
+      "raceCount": 9,
+      "classificationRowCount": 229,
+      "byteSize": 270399,
+      "sha256": "64dc3286462a6a4135d7894cddf2f54c9f3d7395e10f662eb93e8c025a44b140"
+    },
+    {
+      "season": 1953,
+      "path": "seasons/1953.json",
+      "dataStatus": "provisional",
+      "raceCount": 9,
+      "classificationRowCount": 246,
+      "byteSize": 286010,
+      "sha256": "2565f1fa501a24451d3ef66acc14e0de0bad652d1f8355990ccd401d3f020905"
+    },
+    {
+      "season": 1952,
+      "path": "seasons/1952.json",
+      "dataStatus": "provisional",
+      "raceCount": 8,
+      "classificationRowCount": 204,
+      "byteSize": 236603,
+      "sha256": "6a607dfefea389a6e6473b34022f22c7a700c6042980f8c89ea5423c4a6abd2e"
+    },
+    {
+      "season": 1951,
+      "path": "seasons/1951.json",
+      "dataStatus": "provisional",
+      "raceCount": 8,
+      "classificationRowCount": 179,
+      "byteSize": 209127,
+      "sha256": "561341f743349288dc0519c7bddf2cec59b57b032d28144cbaef824f28d7ce33"
+    },
+    {
+      "season": 1950,
+      "path": "seasons/1950.json",
+      "dataStatus": "provisional",
+      "raceCount": 7,
+      "classificationRowCount": 160,
+      "byteSize": 188705,
+      "sha256": "872e70d166c896640da328de4dae7205e4125866e4a6830f0c0a99bf1d621c30"
+    }
+  ]
+}

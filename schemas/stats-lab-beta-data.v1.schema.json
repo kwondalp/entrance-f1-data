@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/stats-lab-beta-data.v1.schema.json",
+  "title": "ENTRANCE Stats Lab Beta v1 data document",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/statistics"
+    },
+    {
+      "$ref": "#/$defs/eventIndex"
+    },
+    {
+      "$ref": "#/$defs/metricStatus"
+    },
+    {
+      "$ref": "#/$defs/metricTables"
+    }
+  ],
+  "$defs": {
+    "base": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "stats-lab-beta-data.v1"
+        }
+      },
+      "required": [
+        "schemaVersion"
+      ]
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "documentType",
+        "dataStatus",
+        "asOfRaceDate",
+        "recordCount",
+        "records"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "stats-lab-beta-data.v1"
+        },
+        "documentType": {
+          "enum": [
+            "driver-statistics",
+            "constructor-statistics"
+          ]
+        },
+        "dataStatus": {
+          "const": "provisional"
+        },
+        "asOfRaceDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "recordCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "records": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "statRecordId",
+              "entries",
+              "starts",
+              "wins",
+              "podiums",
+              "poles",
+              "points",
+              "championships",
+              "coverage"
+            ],
+            "anyOf": [
+              {
+                "required": [
+                  "driverId",
+                  "driverName"
+                ]
+              },
+              {
+                "required": [
+                  "constructorId",
+                  "constructorName"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "eventIndex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "documentType",
+        "asOfRaceDate",
+        "eventCount",
+        "events"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "stats-lab-beta-data.v1"
+        },
+        "documentType": {
+          "const": "event-index"
+        },
+        "asOfRaceDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "eventCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "eventId",
+              "season",
+              "round",
+              "grandPrixName",
+              "circuitId",
+              "eventDate",
+              "dataStatus"
+            ],
+            "properties": {
+              "eventId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "season": {
+                "type": "integer",
+                "minimum": 1950,
+                "maximum": 2026
+              },
+              "round": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "grandPrixName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "circuitId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "eventDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "dataStatus": {
+                "enum": [
+                  "verified",
+                  "provisional"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "metricStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "documentType",
+        "catalogueSchemaVersion",
+        "catalogueVersion",
+        "counts",
+        "metrics"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "stats-lab-beta-data.v1"
+        },
+        "documentType": {
+          "const": "metric-status"
+        },
+        "catalogueSchemaVersion": {
+          "const": "entrance-stats-lab-master-catalogue.v1"
+        },
+        "catalogueVersion": {
+          "const": "1.2.0"
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "total",
+            "published",
+            "provisional",
+            "blocked",
+            "unsupported"
+          ],
+          "properties": {
+            "total": {
+              "const": 301
+            },
+            "published": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "provisional": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blocked": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "unsupported": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "metrics": {
+          "type": "array",
+          "minItems": 301,
+          "maxItems": 301,
+          "items": {
+            "type": "object",
+            "required": [
+              "entity",
+              "statisticId",
+              "metricId",
+              "categoryId",
+              "label",
+              "description",
+              "presentation",
+              "requiredFields",
+              "compatibility",
+              "publicUrl",
+              "status",
+              "reasonCode",
+              "reason",
+              "tableId",
+              "customTable",
+              "coverage",
+              "methodology"
+            ]
+          }
+        }
+      }
+    },
+    "metricTables": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "documentType",
+        "tableCount",
+        "tables"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "stats-lab-beta-data.v1"
+        },
+        "documentType": {
+          "const": "metric-tables"
+        },
+        "tableCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tables": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "tableId",
+              "entity",
+              "statisticId",
+              "metricId",
+              "presentation",
+              "rows"
+            ],
+            "properties": {
+              "tableId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entity": {
+                "enum": [
+                  "drivers",
+                  "constructors"
+                ]
+              },
+              "statisticId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "metricId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "presentation": {
+                "enum": [
+                  "numeric",
+                  "event",
+                  "streak",
+                  "seasonal",
+                  "grouped"
+                ]
+              },
+              "rows": {
+                "type": "array"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

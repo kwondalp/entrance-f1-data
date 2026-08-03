@@ -48,6 +48,23 @@ included because archive-specific official review and publication approval are
 still missing. See `docs/RESULTS_ARCHIVE_V1.md` for paths, version handling,
 null/zero semantics, and consumer requirements.
 
+## Results Archive Beta v1 and Stats Lab Beta v1
+
+The additive Beta namespaces publish a full-history lane without modifying
+either stable v1 package:
+
+- `f1/results-archive/beta/v1/`: 77 seasons, 1,159 races, and 26,094
+  classification rows from 1950 through 2026 Round 10. The current season is
+  verified; 1950–2025 are explicitly provisional.
+- `f1/stats-lab/beta/v1/`: all 301 permanent Master Catalogue products with
+  per-product published, provisional, blocked, or unsupported status, plus
+  checksum-bound Driver, Constructor, event, and metric-table data.
+
+Consumers must verify manifest checksums, show Beta coverage/status, preserve
+null and shared-drive semantics, and disable unsupported products or range
+combinations rather than inventing values. See
+`docs/RESULTS_ARCHIVE_BETA_V1.md` and `docs/STATS_LAB_BETA_V1.md`.
+
 ## Update safety
 
 Current-season post-race changes must follow `POST_RACE_UPDATE_RULES.md`. Preserve all stable IDs and public shapes, validate every changed JSON file, and never infer missing Formula 1 facts from an ingestion API.

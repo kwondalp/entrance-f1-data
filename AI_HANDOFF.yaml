@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 4
+handoffVersion: 5
 currentState:
-  status: belgian-cutoff-public-with-checksum-portability-repair
-  summary: The public baseline reaches the 2026 Belgian Grand Prix and contains the separately authorised Stats Lab v1 official-pole publication through the same cutoff; direct verification on 2026-08-02 matched all 17 protected public files to committed Git bytes, the local portability repair binds manifest metadata to those UTF-8 LF bytes, approval meaning is unchanged, and no Historical Records dataset exists.
+  status: stable-public-plus-results-and-stats-beta-wip
+  summary: The stable Belgian-cutoff public baseline and Results Archive v1 bytes are unchanged. Separate unstaged Beta v1 packages now expose 77 Results Archive seasons with 1,159 races and 26,094 classifications plus 301 Stats Lab catalogue statuses and five checksum-bound derived documents. Historical 1950-2025 coverage is explicitly provisional, 2026 Rounds 1-10 remain verified, and no commit, push, publication, deployment, canonical edit, or Historical Records dataset was created.
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between the verified Belgian-cutoff public baseline, this checksum-portability maintenance, and any later merge, publication, or deployment authority.
@@ -53,6 +53,14 @@ implemented:
     consumers:
       - entrance-web
       - ipgutest
+  - id: results-archive-beta-v1
+    summary: The separate `f1/results-archive/beta/v1/` candidate contains one checksum-bound manifest and 77 season documents covering 1950-2026, 1,159 races, and 26,094 classifications. All 76 historical seasons are provisional; 2026 contains the exact verified Round 1-10 stable-v1 package. Missing fastest laps and start attribution remain absent or null, and shared-drive classification semantics are explicit.
+    schemaContract: schemas/results-archive-beta-manifest.v1.schema.json and schemas/results-archive-beta-season.v1.schema.json
+    publicationState: audited unstaged Beta candidate; not committed, pushed, deployed, or promoted to stable
+  - id: stats-lab-beta-v1
+    summary: The separate `f1/stats-lab/beta/v1/` candidate contains one checksum-bound manifest and five derived documents. Its 301 permanent catalogue rows are 14 published, 92 provisional, 99 blocked, and 96 unsupported; supported rankings expose only all-time coverage, missing values are not zero-filled, and grouped unsupported combinations remain unavailable.
+    schemaContract: schemas/stats-lab-beta-manifest.v1.schema.json and schemas/stats-lab-beta-data.v1.schema.json
+    publicationState: audited unstaged Beta candidate; not committed, pushed, deployed, or promoted to stable
 pending:
   - id: pending-main-integration-decision
     summary: Any new merge or deployment action requires separate authority; publishApproved true and existing repository presence do not grant that authority.
@@ -60,6 +68,8 @@ pending:
     summary: After any later separately authorised publication or deployment, re-read the public current-season and Stats Lab endpoints before claiming coverage beyond the verified Belgian cutoff or repaired manifest metadata.
   - id: pending-historical-records-phase-9b
     summary: Phase 9B may add a read-only producer-to-publisher conformance review, but it must not create a dataset while the producer reports zero production-eligible Historical Records.
+  - id: pending-beta-review-and-git-action
+    summary: Review the two Beta contracts, provisional coverage, and exact file inventories before granting any separate staging, commit, push, publication, stable-promotion, or deployment authority.
 blocked:
   - id: blocked-main-merge-deployment
     summary: Main-branch merge and deployment remain outside the granted publication-integration authority.
@@ -221,6 +231,9 @@ validation:
     - id: result-results-archive-v1
       summary: Results Archive v1 adds a manifest, one checksum-bound 2026 season file, and two Draft 2020-12 schemas without changing existing current-season or Stats Lab contracts. The package contains 10 races and 220 classifications through Belgian Round 10; every count, path, byte size, SHA-256, identity, winner, order, and cutoff audit passed. Manifest SHA-256 is cfdce572fd6d55c4bd39cd637f2709f97383fecc70e3b07efe2da8f4fe885f49 and season SHA-256 is be7b3493e5bfc02f2599e584203f47872b8a384a3f8056af89f0783350ea895a. All 76 historical seasons remain excluded pending archive-specific official review and exact publication approval.
       status: passed
+    - id: result-results-and-stats-beta
+      summary: The producer audits passed directly against this repository with zero blocking errors and zero warnings. Results Archive Beta contains 77 manifest-listed checksum-valid seasons, 1,159 races, and 26,094 classifications; Stats Lab Beta contains five checksum-valid derived documents and the exact 14 published, 92 provisional, 99 blocked, and 96 unsupported status split. All repository JSON parsed, and stable Results Archive v1 plus existing current-season and Stats Lab v1 paths have no task diff.
+      status: passed
 lastCompletedWork:
   - id: completed-handoff-bootstrap
     summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
@@ -236,6 +249,10 @@ lastCompletedWork:
     summary: Rebound the Stats Lab manifest to committed UTF-8 LF artifact bytes and added path-scoped EOL policy without changing sporting facts, the six derived artifacts, schemas, timestamps, or approval meaning.
   - id: completed-results-archive-v1
     summary: Prepared the exact twice-reproduced, audited Results Archive v1 release package as four additive public files for 2026 Rounds 1-10 while preserving every existing data file; the manifest applicationState is immutable generation-time provenance, so current Git and canonical-endpoint state must be read directly.
+  - id: completed-results-archive-beta-v1
+    summary: Added the separately namespaced 77-season Results Archive Beta package, schemas, and contract documentation while preserving the stable v1 package byte-for-byte and labeling historical seasons provisional.
+  - id: completed-stats-lab-beta-v1
+    summary: Added the separately namespaced Stats Lab Beta manifest, five derived documents, schemas, and contract documentation with explicit catalogue status, coverage, methodology, exclusion, and unsupported-range boundaries.
 notes:
   - id: note-git-facts
     summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.
