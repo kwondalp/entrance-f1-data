@@ -1,0 +1,2418 @@
+{
+  "schemaVersion": "stats-lab-production-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_disqualifications",
+  "metricId": "driverDisqualifications",
+  "title": "Disqualifications",
+  "definition": "Ranks Formula 1 drivers by Grand Prix disqualifications, using Grand Prix results through the declared production cut-off.",
+  "calculationId": "total",
+  "factType": "disqualification",
+  "presentation": "numeric",
+  "groupingDimension": "entity",
+  "countingUnit": "Grand Prix disqualifications",
+  "defaultSort": "desc",
+  "rangeBehavior": {
+    "supported": true,
+    "modes": [
+      "all-time",
+      "current-season",
+      "last-5-seasons",
+      "custom"
+    ],
+    "eventBoundaries": true
+  },
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "asOfRaceDate": "2026-07-19",
+    "seasonCount": 77,
+    "raceCount": 1159,
+    "classificationRowCount": 26121,
+    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+  },
+  "rowCount": 98,
+  "rows": [
+    {
+      "entityId": "driver:bellof:86bfc8a2a04f",
+      "entityName": "Stefan Bellof",
+      "value": 11,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:bellof:86bfc8a2a04f",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          388,
+          1
+        ],
+        [
+          389,
+          1
+        ],
+        [
+          390,
+          1
+        ],
+        [
+          391,
+          1
+        ],
+        [
+          392,
+          1
+        ],
+        [
+          393,
+          1
+        ],
+        [
+          394,
+          1
+        ],
+        [
+          395,
+          1
+        ],
+        [
+          396,
+          1
+        ],
+        [
+          397,
+          1
+        ],
+        [
+          400,
+          1
+        ]
+      ],
+      "rank": 1
+    },
+    {
+      "entityId": "driver:brundle:081c05a34819",
+      "entityName": "Martin Brundle",
+      "value": 7,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:brundle:081c05a34819",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          388,
+          1
+        ],
+        [
+          389,
+          1
+        ],
+        [
+          390,
+          1
+        ],
+        [
+          391,
+          1
+        ],
+        [
+          392,
+          1
+        ],
+        [
+          394,
+          1
+        ],
+        [
+          395,
+          1
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:watson:fc3a45a5856b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          250,
+          1
+        ],
+        [
+          283,
+          1
+        ],
+        [
+          387,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          720,
+          1
+        ],
+        [
+          721,
+          1
+        ],
+        [
+          738,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hamilton:528ad2ac33fa",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          803,
+          1
+        ],
+        [
+          1096,
+          1
+        ],
+        [
+          1126,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:manfred-winkelhock:3cbb273aea42",
+      "entityName": "Manfred Winkelhock",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:manfred-winkelhock:3cbb273aea42",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          360,
+          1
+        ],
+        [
+          384,
+          1
+        ],
+        [
+          388,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:salo:781a02b584f4",
+      "entityName": "Mika Salo",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:salo:781a02b584f4",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          584,
+          1
+        ],
+        [
+          587,
+          1
+        ],
+        [
+          646,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hulkenberg:2b1121e9241c",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1013,
+          1
+        ],
+        [
+          1121,
+          1
+        ],
+        [
+          1128,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          218,
+          1
+        ],
+        [
+          361,
+          1
+        ],
+        [
+          382,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:johansson:036b6578adb4",
+      "entityName": "Stefan Johansson",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:johansson:036b6578adb4",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          397,
+          1
+        ],
+        [
+          398,
+          1
+        ],
+        [
+          400,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:modena:529f1b5727b0",
+      "entityName": "Stefano Modena",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:modena:529f1b5727b0",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          454,
+          1
+        ],
+        [
+          455,
+          1
+        ],
+        [
+          479,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          78,
+          1
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          98,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:sato:1e3f20b0ae9f",
+      "entityName": "Takuma Sato",
+      "value": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:sato:1e3f20b0ae9f",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          734,
+          1
+        ],
+        [
+          748,
+          1
+        ],
+        [
+          765,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:nannini:93cbec78c64b",
+      "entityName": "Alessandro Nannini",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:nannini:93cbec78c64b",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          462,
+          1
+        ],
+        [
+          473,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:senna:97c74c7d172e",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          451,
+          1
+        ],
+        [
+          482,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:leclerc:80a0e9f8790b",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1096,
+          1
+        ],
+        [
+          1126,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ricciardo:677e1f07679b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          897,
+          1
+        ],
+        [
+          1013,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:angelis:e8033183b98b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          373,
+          1
+        ],
+        [
+          419,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:massa:86ab3cfe923d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          773,
+          1
+        ],
+        [
+          933,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          356,
+          1
+        ],
+        [
+          359,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:hunt:c0af61d2ad52",
+      "entityName": "James Hunt",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hunt:c0af61d2ad52",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          272,
+          1
+        ],
+        [
+          307,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:keke-rosberg:c149e9225f45",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          358,
+          1
+        ],
+        [
+          373,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:michael-schumacher:6f4f07ba2368",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          555,
+          1
+        ],
+        [
+          558,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:piquet:009ec3fd7514",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          358,
+          1
+        ],
+        [
+          487,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:mansell:66de70fd9557",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          473,
+          1
+        ],
+        [
+          480,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:panis:b03d10e03261",
+      "entityName": "Olivier Panis",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:panis:b03d10e03261",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          560,
+          1
+        ],
+        [
+          720,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:alliot:23d3d78d6458",
+      "entityName": "Philippe Alliot",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:alliot:23d3d78d6458",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          484,
+          1
+        ],
+        [
+          492,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:ghinzani:299259c20157",
+      "entityName": "Piercarlo Ghinzani",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ghinzani:299259c20157",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          442,
+          1
+        ],
+        [
+          458,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:stommelen:36b33d9fd289",
+      "entityName": "Rolf Stommelen",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:stommelen:36b33d9fd289",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          200,
+          1
+        ],
+        [
+          307,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          634,
+          1
+        ],
+        [
+          785,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:schuppan:c4d41e845dc0",
+      "entityName": "Vern Schuppan",
+      "value": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:schuppan:c4d41e845dc0",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          241,
+          1
+        ],
+        [
+          242,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:pease:883bea9560b8",
+      "entityName": "Al Pease",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:pease:883bea9560b8",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          181,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          406,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:montermini:ca900349e0f2",
+      "entityName": "Andrea Montermini",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:montermini:ca900349e0f2",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          568,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:bondurant:26ffb0586056",
+      "entityName": "Bob Bondurant",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:bondurant:26ffb0586056",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          148,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:henton:d3d201de8bb8",
+      "entityName": "Brian Henton",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:henton:d3d201de8bb8",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          292,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:redman:f4ca36aef59b",
+      "entityName": "Brian Redman",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:redman:f4ca36aef59b",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          234,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:halford:2b0309be9ed1",
+      "entityName": "Bruce Halford",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:halford:2b0309be9ed1",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          54,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:reutemann:c573421c6e6f",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          308,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:danner:38bd3ec72e14",
+      "entityName": "Christian Danner",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:danner:38bd3ec72e14",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          439,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:fittipaldi:cf4462691f31",
+      "entityName": "Christian Fittipaldi",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:fittipaldi:cf4462691f31",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          553,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:albers:257d3e48b3e1",
+      "entityName": "Christijan Albers",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:albers:257d3e48b3e1",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          761,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:matta:9a1970495e7a",
+      "entityName": "Cristiano da Matta",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:matta:9a1970495e7a",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          720,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:damon-hill:3cf4df1bacf7",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          615,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:sullivan:0514ac6252d5",
+      "entityName": "Danny Sullivan",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:sullivan:0514ac6252d5",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          380,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:coulthard:935d583f6514",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          647,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:walker:a8ac5e49d1b2",
+      "entityName": "David Walker",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:walker:a8ac5e49d1b2",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          208,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          245,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:daly:ecc9e7fe70b0",
+      "entityName": "Derek Daly",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:daly:ecc9e7fe70b0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          308,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:pironi:e419fd33c039",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          316,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:bernoldi:02cf69fbc82a",
+      "entityName": "Enrique Bernoldi",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:bernoldi:02cf69fbc82a",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          680,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:wietzes:f2b08b589e6e",
+      "entityName": "Eppie Wietzes",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:wietzes:f2b08b589e6e",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          157,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ocon:27db7f9b9070",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          993,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:bonetto:0c035a17b002",
+      "entityName": "Felice Bonetto",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:bonetto:0c035a17b002",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          20,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:russell:0de59c03b0db",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1114,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:fisichella:5825d809a2e3",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          773,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:stuck:1244ac2c6b68",
+      "entityName": "Hans-Joachim Stuck",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:stuck:1244ac2c6b68",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          316,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:frentzen:e499a12f83f0",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          680,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ireland:655aaf7bf33d",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          115,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          85,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:fairman:b7dbb5a888ac",
+      "entityName": "Jack Fairman",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:fairman:b7dbb5a888ac",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          98,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:villeneuve:5349509be1a5",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          612,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:trulli:26a562aa7942",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          668,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:behra:ad2c71791765",
+      "entityName": "Jean Behra",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:behra:ad2c71791765",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          32,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:button:d29c67aa2fda",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          734,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:surtees:5519e1946624",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          119,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:herbert:c13dde1e1e00",
+      "entityName": "Johnny Herbert",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:herbert:c13dde1e1e00",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          589,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:kobayashi:02f961512374",
+      "entityName": "Kamui Kobayashi",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:kobayashi:02f961512374",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          839,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:kevin-magnussen:10cdaad4587a",
+      "entityName": "Kevin Magnussen",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:kevin-magnussen:10cdaad4587a",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          993,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1146,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:mario-andretti:9665dc04541a",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          249,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hakkinen:cb6375fb4ba8",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          608,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:beuttler:ce0d2fbec607",
+      "entityName": "Mike Beuttler",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:beuttler:ce0d2fbec607",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          203,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hawthorn:1ddfcaf579cc",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          32,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:magill:316889ab5b76",
+      "entityName": "Mike Magill",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:magill:316889ab5b76",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          67,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:larini:215a8f59acc6",
+      "entityName": "Nicola Larini",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:larini:215a8f59acc6",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          453,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:piastri:45bbf3cf700f",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1146,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:mccarthy:b8851d929500",
+      "entityName": "Perry McCarthy",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:mccarthy:b8851d929500",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          525,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:gethin:87bc51940490",
+      "entityName": "Peter Gethin",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gethin:87bc51940490",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          211,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:revson:a43291d81deb",
+      "entityName": "Peter Revson",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:revson:a43291d81deb",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          123,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gasly:0fca70394caf",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1126,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          720,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:wisell:37b49d653c8a",
+      "entityName": "Reine Wisell",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:wisell:37b49d653c8a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          200,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:kubica:54803f2070f9",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          762,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:moreno:0f9812889ee3",
+      "entityName": "Roberto Moreno",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:moreno:0f9812889ee3",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          489,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:grosjean:47652bcecb94",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          989,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          218,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1045,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:perez:03c631191055",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          839,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:marques:c003eb983613",
+      "entityName": "Tarso Marques",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:marques:c003eb983613",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          610,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:boutsen:956ebe879bfd",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          462,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:monteiro:30bc8ae61e96",
+      "entityName": "Tiago Monteiro",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:monteiro:30bc8ae61e96",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          761,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:schenken:32468343f520",
+      "entityName": "Tim Schenken",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:schenken:32468343f520",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          249,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:takagi:93495bce105b",
+      "entityName": "Toranosuke Takagi",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:takagi:93495bce105b",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          636,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:trevor-taylor:a7a269bbea32",
+      "entityName": "Trevor Taylor",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:trevor-taylor:a7a269bbea32",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          115,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:katayama:3c7e385cd2b1",
+      "entityName": "Ukyo Katayama",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:katayama:3c7e385cd2b1",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          584,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:brambilla:080b064099a9",
+      "entityName": "Vittorio Brambilla",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:brambilla:080b064099a9",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          309,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:weidler:4747a8401561",
+      "entityName": "Volker Weidler",
+      "value": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:weidler:4747a8401561",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "disqualification",
+        "eventIds": [],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          476,
+          1
+        ]
+      ],
+      "rank": 32
+    }
+  ],
+  "loadedRowCount": 98,
+  "pagination": null
+}

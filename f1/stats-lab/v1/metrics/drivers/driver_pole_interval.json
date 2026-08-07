@@ -1,0 +1,8847 @@
+{
+  "schemaVersion": "stats-lab-production-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_pole_interval",
+  "metricId": "driverPoleInterval",
+  "title": "Time Between Poles",
+  "definition": "Ranks Formula 1 drivers by elapsed days between the first and last qualifying days occurrences.",
+  "calculationId": "interval",
+  "factType": "pole",
+  "presentation": "duration",
+  "groupingDimension": "entity",
+  "countingUnit": "days",
+  "defaultSort": "desc",
+  "rangeBehavior": {
+    "supported": true,
+    "modes": [
+      "all-time",
+      "current-season",
+      "last-5-seasons",
+      "custom"
+    ],
+    "eventBoundaries": true
+  },
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "asOfRaceDate": "2026-07-19",
+    "seasonCount": 77,
+    "raceCount": 1159,
+    "classificationRowCount": 26121,
+    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+  },
+  "rowCount": 107,
+  "rows": [
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 5887,
+      "firstEvent": {
+        "eventId": "event:2007-6:6889e31b8c4f",
+        "eventIndex": 773,
+        "season": 2007,
+        "round": 6,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve",
+        "eventDate": "2007-06-10"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-11:c79fa9de36d6",
+        "eventIndex": 1089,
+        "season": 2023,
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2023-07-23"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hamilton:528ad2ac33fa",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2007-6:6889e31b8c4f",
+          "event:2023-11:c79fa9de36d6"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          773,
+          1
+        ],
+        [
+          774,
+          1
+        ],
+        [
+          776,
+          1
+        ],
+        [
+          778,
+          1
+        ],
+        [
+          782,
+          1
+        ],
+        [
+          783,
+          1
+        ],
+        [
+          785,
+          1
+        ],
+        [
+          791,
+          1
+        ],
+        [
+          794,
+          1
+        ],
+        [
+          795,
+          1
+        ],
+        [
+          797,
+          1
+        ],
+        [
+          800,
+          1
+        ],
+        [
+          801,
+          1
+        ],
+        [
+          813,
+          1
+        ],
+        [
+          815,
+          1
+        ],
+        [
+          816,
+          1
+        ],
+        [
+          819,
+          1
+        ],
+        [
+          827,
+          1
+        ],
+        [
+          854,
+          1
+        ],
+        [
+          858,
+          1
+        ],
+        [
+          859,
+          1
+        ],
+        [
+          868,
+          1
+        ],
+        [
+          870,
+          1
+        ],
+        [
+          871,
+          1
+        ],
+        [
+          875,
+          1
+        ],
+        [
+          877,
+          1
+        ],
+        [
+          880,
+          1
+        ],
+        [
+          885,
+          1
+        ],
+        [
+          886,
+          1
+        ],
+        [
+          887,
+          1
+        ],
+        [
+          888,
+          1
+        ],
+        [
+          897,
+          1
+        ],
+        [
+          898,
+          1
+        ],
+        [
+          900,
+          1
+        ],
+        [
+          901,
+          1
+        ],
+        [
+          909,
+          1
+        ],
+        [
+          910,
+          1
+        ],
+        [
+          912,
+          1
+        ],
+        [
+          916,
+          1
+        ],
+        [
+          917,
+          1
+        ],
+        [
+          918,
+          1
+        ],
+        [
+          919,
+          1
+        ],
+        [
+          921,
+          1
+        ],
+        [
+          922,
+          1
+        ],
+        [
+          923,
+          1
+        ],
+        [
+          924,
+          1
+        ],
+        [
+          925,
+          1
+        ],
+        [
+          926,
+          1
+        ],
+        [
+          927,
+          1
+        ],
+        [
+          935,
+          1
+        ],
+        [
+          936,
+          1
+        ],
+        [
+          939,
+          1
+        ],
+        [
+          941,
+          1
+        ],
+        [
+          943,
+          1
+        ],
+        [
+          944,
+          1
+        ],
+        [
+          948,
+          1
+        ],
+        [
+          950,
+          1
+        ],
+        [
+          952,
+          1
+        ],
+        [
+          953,
+          1
+        ],
+        [
+          954,
+          1
+        ],
+        [
+          955,
+          1
+        ],
+        [
+          956,
+          1
+        ],
+        [
+          957,
+          1
+        ],
+        [
+          960,
+          1
+        ],
+        [
+          962,
+          1
+        ],
+        [
+          963,
+          1
+        ],
+        [
+          965,
+          1
+        ],
+        [
+          967,
+          1
+        ],
+        [
+          968,
+          1
+        ],
+        [
+          970,
+          1
+        ],
+        [
+          971,
+          1
+        ],
+        [
+          972,
+          1
+        ],
+        [
+          976,
+          1
+        ],
+        [
+          980,
+          1
+        ],
+        [
+          983,
+          1
+        ],
+        [
+          985,
+          1
+        ],
+        [
+          987,
+          1
+        ],
+        [
+          988,
+          1
+        ],
+        [
+          990,
+          1
+        ],
+        [
+          992,
+          1
+        ],
+        [
+          993,
+          1
+        ],
+        [
+          995,
+          1
+        ],
+        [
+          996,
+          1
+        ],
+        [
+          997,
+          1
+        ],
+        [
+          1002,
+          1
+        ],
+        [
+          1004,
+          1
+        ],
+        [
+          1007,
+          1
+        ],
+        [
+          1017,
+          1
+        ],
+        [
+          1019,
+          1
+        ],
+        [
+          1020,
+          1
+        ],
+        [
+          1021,
+          1
+        ],
+        [
+          1023,
+          1
+        ],
+        [
+          1024,
+          1
+        ],
+        [
+          1025,
+          1
+        ],
+        [
+          1026,
+          1
+        ],
+        [
+          1027,
+          1
+        ],
+        [
+          1029,
+          1
+        ],
+        [
+          1032,
+          1
+        ],
+        [
+          1036,
+          1
+        ],
+        [
+          1038,
+          1
+        ],
+        [
+          1045,
+          1
+        ],
+        [
+          1054,
+          1
+        ],
+        [
+          1055,
+          1
+        ],
+        [
+          1089,
+          1
+        ]
+      ],
+      "rank": 1
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 5544,
+      "firstEvent": {
+        "eventId": "event:2003-9:38a06a4742ba",
+        "eventIndex": 705,
+        "season": 2003,
+        "round": 9,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "2003-06-29"
+      },
+      "lastEvent": {
+        "eventId": "event:2018-14:803394ee56c1",
+        "eventIndex": 989,
+        "season": 2018,
+        "round": 14,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2018-09-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2003-9:38a06a4742ba",
+          "event:2018-14:803394ee56c1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          705,
+          1
+        ],
+        [
+          711,
+          1
+        ],
+        [
+          723,
+          1
+        ],
+        [
+          734,
+          1
+        ],
+        [
+          735,
+          1
+        ],
+        [
+          736,
+          1
+        ],
+        [
+          742,
+          1
+        ],
+        [
+          744,
+          1
+        ],
+        [
+          761,
+          1
+        ],
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          1
+        ],
+        [
+          768,
+          1
+        ],
+        [
+          777,
+          1
+        ],
+        [
+          781,
+          1
+        ],
+        [
+          788,
+          1
+        ],
+        [
+          792,
+          1
+        ],
+        [
+          961,
+          1
+        ],
+        [
+          989,
+          1
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 5530,
+      "firstEvent": {
+        "eventId": "event:1994-11:c0617c76ca7a",
+        "eventIndex": 558,
+        "season": 1994,
+        "round": 11,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1994-08-28"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-16:cdf75039bf4b",
+        "eventIndex": 818,
+        "season": 2009,
+        "round": 16,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2009-10-18"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1994-11:c0617c76ca7a",
+          "event:2009-16:cdf75039bf4b"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          558,
+          1
+        ],
+        [
+          636,
+          1
+        ],
+        [
+          649,
+          1
+        ],
+        [
+          680,
+          1
+        ],
+        [
+          685,
+          1
+        ],
+        [
+          692,
+          1
+        ],
+        [
+          699,
+          1
+        ],
+        [
+          707,
+          1
+        ],
+        [
+          712,
+          1
+        ],
+        [
+          721,
+          1
+        ],
+        [
+          727,
+          1
+        ],
+        [
+          728,
+          1
+        ],
+        [
+          730,
+          1
+        ],
+        [
+          818,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "value": 5089,
+      "firstEvent": {
+        "eventId": "event:1968-11:9589a8f7c5dc",
+        "eventIndex": 171,
+        "season": 1968,
+        "round": 11,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1968-10-06"
+      },
+      "lastEvent": {
+        "eventId": "event:1982-15:2b622bc06cba",
+        "eventIndex": 371,
+        "season": 1982,
+        "round": 15,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1982-09-12"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:mario-andretti:9665dc04541a",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1968-11:9589a8f7c5dc",
+          "event:1982-15:2b622bc06cba"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          171,
+          1
+        ],
+        [
+          279,
+          1
+        ],
+        [
+          284,
+          1
+        ],
+        [
+          286,
+          1
+        ],
+        [
+          287,
+          1
+        ],
+        [
+          288,
+          1
+        ],
+        [
+          292,
+          1
+        ],
+        [
+          295,
+          1
+        ],
+        [
+          296,
+          1
+        ],
+        [
+          297,
+          1
+        ],
+        [
+          302,
+          1
+        ],
+        [
+          303,
+          1
+        ],
+        [
+          304,
+          1
+        ],
+        [
+          307,
+          1
+        ],
+        [
+          309,
+          1
+        ],
+        [
+          310,
+          1
+        ],
+        [
+          311,
+          1
+        ],
+        [
+          371,
+          1
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 4466,
+      "firstEvent": {
+        "eventId": "event:1981-10:4591ffbfd698",
+        "eventIndex": 351,
+        "season": 1981,
+        "round": 10,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "1981-08-02"
+      },
+      "lastEvent": {
+        "eventId": "event:1993-15:7c2fd9b312f8",
+        "eventIndex": 546,
+        "season": 1993,
+        "round": 15,
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka",
+        "eventDate": "1993-10-24"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1981-10:4591ffbfd698",
+          "event:1993-15:7c2fd9b312f8"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          351,
+          1
+        ],
+        [
+          353,
+          1
+        ],
+        [
+          358,
+          1
+        ],
+        [
+          361,
+          1
+        ],
+        [
+          363,
+          1
+        ],
+        [
+          370,
+          1
+        ],
+        [
+          372,
+          1
+        ],
+        [
+          375,
+          1
+        ],
+        [
+          377,
+          1
+        ],
+        [
+          378,
+          1
+        ],
+        [
+          393,
+          1
+        ],
+        [
+          398,
+          1
+        ],
+        [
+          400,
+          1
+        ],
+        [
+          413,
+          1
+        ],
+        [
+          416,
+          1
+        ],
+        [
+          423,
+          1
+        ],
+        [
+          458,
+          1
+        ],
+        [
+          464,
+          1
+        ],
+        [
+          473,
+          1
+        ],
+        [
+          474,
+          1
+        ],
+        [
+          532,
+          1
+        ],
+        [
+          533,
+          1
+        ],
+        [
+          534,
+          1
+        ],
+        [
+          535,
+          1
+        ],
+        [
+          536,
+          1
+        ],
+        [
+          537,
+          1
+        ],
+        [
+          538,
+          1
+        ],
+        [
+          540,
+          1
+        ],
+        [
+          541,
+          1
+        ],
+        [
+          542,
+          1
+        ],
+        [
+          543,
+          1
+        ],
+        [
+          544,
+          1
+        ],
+        [
+          546,
+          1
+        ]
+      ],
+      "rank": 5
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 4445,
+      "firstEvent": {
+        "eventId": "event:1994-4:580df63f73aa",
+        "eventIndex": 551,
+        "season": 1994,
+        "round": 4,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1994-05-15"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-11:3d37ecc192ee",
+        "eventIndex": 760,
+        "season": 2006,
+        "round": 11,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours",
+        "eventDate": "2006-07-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:michael-schumacher:6f4f07ba2368",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1994-4:580df63f73aa",
+          "event:2006-11:3d37ecc192ee"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          551,
+          1
+        ],
+        [
+          552,
+          1
+        ],
+        [
+          553,
+          1
+        ],
+        [
+          557,
+          1
+        ],
+        [
+          561,
+          1
+        ],
+        [
+          562,
+          1
+        ],
+        [
+          566,
+          1
+        ],
+        [
+          567,
+          1
+        ],
+        [
+          569,
+          1
+        ],
+        [
+          579,
+          1
+        ],
+        [
+          585,
+          1
+        ],
+        [
+          586,
+          1
+        ],
+        [
+          589,
+          1
+        ],
+        [
+          592,
+          1
+        ],
+        [
+          603,
+          1
+        ],
+        [
+          604,
+          1
+        ],
+        [
+          607,
+          1
+        ],
+        [
+          627,
+          1
+        ],
+        [
+          628,
+          1
+        ],
+        [
+          629,
+          1
+        ],
+        [
+          635,
+          1
+        ],
+        [
+          644,
+          1
+        ],
+        [
+          645,
+          1
+        ],
+        [
+          650,
+          1
+        ],
+        [
+          652,
+          1
+        ],
+        [
+          653,
+          1
+        ],
+        [
+          654,
+          1
+        ],
+        [
+          657,
+          1
+        ],
+        [
+          659,
+          1
+        ],
+        [
+          660,
+          1
+        ],
+        [
+          661,
+          1
+        ],
+        [
+          662,
+          1
+        ],
+        [
+          663,
+          1
+        ],
+        [
+          664,
+          1
+        ],
+        [
+          665,
+          1
+        ],
+        [
+          667,
+          1
+        ],
+        [
+          668,
+          1
+        ],
+        [
+          670,
+          1
+        ],
+        [
+          671,
+          1
+        ],
+        [
+          673,
+          1
+        ],
+        [
+          675,
+          1
+        ],
+        [
+          678,
+          1
+        ],
+        [
+          679,
+          1
+        ],
+        [
+          681,
+          1
+        ],
+        [
+          683,
+          1
+        ],
+        [
+          684,
+          1
+        ],
+        [
+          691,
+          1
+        ],
+        [
+          693,
+          1
+        ],
+        [
+          695,
+          1
+        ],
+        [
+          696,
+          1
+        ],
+        [
+          697,
+          1
+        ],
+        [
+          700,
+          1
+        ],
+        [
+          701,
+          1
+        ],
+        [
+          702,
+          1
+        ],
+        [
+          710,
+          1
+        ],
+        [
+          713,
+          1
+        ],
+        [
+          714,
+          1
+        ],
+        [
+          715,
+          1
+        ],
+        [
+          717,
+          1
+        ],
+        [
+          719,
+          1
+        ],
+        [
+          724,
+          1
+        ],
+        [
+          725,
+          1
+        ],
+        [
+          729,
+          1
+        ],
+        [
+          743,
+          1
+        ],
+        [
+          750,
+          1
+        ],
+        [
+          753,
+          1
+        ],
+        [
+          759,
+          1
+        ],
+        [
+          760,
+          1
+        ]
+      ],
+      "rank": 6
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 4172,
+      "firstEvent": {
+        "eventId": "event:1981-1:d8cb526662ee",
+        "eventIndex": 342,
+        "season": 1981,
+        "round": 1,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1981-03-15"
+      },
+      "lastEvent": {
+        "eventId": "event:1992-11:b1d09d268ce4",
+        "eventIndex": 526,
+        "season": 1992,
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "1992-08-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:patrese:57b51e8b4bbf",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1981-1:d8cb526662ee",
+          "event:1992-11:b1d09d268ce4"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          342,
+          1
+        ],
+        [
+          385,
+          1
+        ],
+        [
+          477,
+          1
+        ],
+        [
+          504,
+          1
+        ],
+        [
+          505,
+          1
+        ],
+        [
+          506,
+          1
+        ],
+        [
+          512,
+          1
+        ],
+        [
+          526,
+          1
+        ]
+      ],
+      "rank": 7
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 4053,
+      "firstEvent": {
+        "eventId": "event:1998-10:7720f1f7162b",
+        "eventIndex": 623,
+        "season": 1998,
+        "round": 10,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "1998-07-26"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-12:b89171b7ff18",
+        "eventIndex": 814,
+        "season": 2009,
+        "round": 12,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "2009-08-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:fisichella:5825d809a2e3",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1998-10:7720f1f7162b",
+          "event:2009-12:b89171b7ff18"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          623,
+          1
+        ],
+        [
+          731,
+          1
+        ],
+        [
+          751,
+          1
+        ],
+        [
+          814,
+          1
+        ]
+      ],
+      "rank": 8
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 4046,
+      "firstEvent": {
+        "eventId": "event:2008-14:e726f4c70321",
+        "eventIndex": 798,
+        "season": 2008,
+        "round": 14,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2008-09-14"
+      },
+      "lastEvent": {
+        "eventId": "event:2019-17:a1ea8aa40f76",
+        "eventIndex": 1013,
+        "season": 2019,
+        "round": 17,
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka",
+        "eventDate": "2019-10-13"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2008-14:e726f4c70321",
+          "event:2019-17:a1ea8aa40f76"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          798,
+          1
+        ],
+        [
+          805,
+          1
+        ],
+        [
+          809,
+          1
+        ],
+        [
+          810,
+          1
+        ],
+        [
+          817,
+          1
+        ],
+        [
+          820,
+          1
+        ],
+        [
+          821,
+          1
+        ],
+        [
+          823,
+          1
+        ],
+        [
+          828,
+          1
+        ],
+        [
+          829,
+          1
+        ],
+        [
+          830,
+          1
+        ],
+        [
+          831,
+          1
+        ],
+        [
+          835,
+          1
+        ],
+        [
+          836,
+          1
+        ],
+        [
+          838,
+          1
+        ],
+        [
+          839,
+          1
+        ],
+        [
+          840,
+          1
+        ],
+        [
+          841,
+          1
+        ],
+        [
+          842,
+          1
+        ],
+        [
+          844,
+          1
+        ],
+        [
+          845,
+          1
+        ],
+        [
+          846,
+          1
+        ],
+        [
+          849,
+          1
+        ],
+        [
+          850,
+          1
+        ],
+        [
+          851,
+          1
+        ],
+        [
+          852,
+          1
+        ],
+        [
+          853,
+          1
+        ],
+        [
+          855,
+          1
+        ],
+        [
+          856,
+          1
+        ],
+        [
+          857,
+          1
+        ],
+        [
+          861,
+          1
+        ],
+        [
+          864,
+          1
+        ],
+        [
+          865,
+          1
+        ],
+        [
+          872,
+          1
+        ],
+        [
+          874,
+          1
+        ],
+        [
+          876,
+          1
+        ],
+        [
+          878,
+          1
+        ],
+        [
+          879,
+          1
+        ],
+        [
+          884,
+          1
+        ],
+        [
+          889,
+          1
+        ],
+        [
+          890,
+          1
+        ],
+        [
+          891,
+          1
+        ],
+        [
+          893,
+          1
+        ],
+        [
+          895,
+          1
+        ],
+        [
+          896,
+          1
+        ],
+        [
+          928,
+          1
+        ],
+        [
+          959,
+          1
+        ],
+        [
+          966,
+          1
+        ],
+        [
+          969,
+          1
+        ],
+        [
+          973,
+          1
+        ],
+        [
+          977,
+          1
+        ],
+        [
+          978,
+          1
+        ],
+        [
+          979,
+          1
+        ],
+        [
+          982,
+          1
+        ],
+        [
+          986,
+          1
+        ],
+        [
+          1003,
+          1
+        ],
+        [
+          1013,
+          1
+        ]
+      ],
+      "rank": 9
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 3928,
+      "firstEvent": {
+        "eventId": "event:1959-5:4bea6b049b28",
+        "eventIndex": 79,
+        "season": 1959,
+        "round": 5,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "aintree",
+        "eventDate": "1959-07-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1970-2:3817ad146942",
+        "eventIndex": 185,
+        "season": 1970,
+        "round": 2,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "jarama",
+        "eventDate": "1970-04-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1959-5:4bea6b049b28",
+          "event:1970-2:3817ad146942"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          79,
+          1
+        ],
+        [
+          88,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          90,
+          1
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          150,
+          1
+        ],
+        [
+          151,
+          1
+        ],
+        [
+          173,
+          1
+        ],
+        [
+          183,
+          1
+        ],
+        [
+          185,
+          1
+        ]
+      ],
+      "rank": 10
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 3780,
+      "firstEvent": {
+        "eventId": "event:1984-9:68ca633ccb20",
+        "eventIndex": 396,
+        "season": 1984,
+        "round": 9,
+        "grandPrixName": "Dallas Grand Prix",
+        "circuitId": "dallas",
+        "eventDate": "1984-07-08"
+      },
+      "lastEvent": {
+        "eventId": "event:1994-16:f31bd7ae2339",
+        "eventIndex": 563,
+        "season": 1994,
+        "round": 16,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide",
+        "eventDate": "1994-11-13"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:mansell:66de70fd9557",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1984-9:68ca633ccb20",
+          "event:1994-16:f31bd7ae2339"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          396,
+          1
+        ],
+        [
+          418,
+          1
+        ],
+        [
+          425,
+          1
+        ],
+        [
+          435,
+          1
+        ],
+        [
+          436,
+          1
+        ],
+        [
+          438,
+          1
+        ],
+        [
+          439,
+          1
+        ],
+        [
+          440,
+          1
+        ],
+        [
+          441,
+          1
+        ],
+        [
+          443,
+          1
+        ],
+        [
+          444,
+          1
+        ],
+        [
+          449,
+          1
+        ],
+        [
+          490,
+          1
+        ],
+        [
+          491,
+          1
+        ],
+        [
+          496,
+          1
+        ],
+        [
+          507,
+          1
+        ],
+        [
+          508,
+          1
+        ],
+        [
+          516,
+          1
+        ],
+        [
+          517,
+          1
+        ],
+        [
+          518,
+          1
+        ],
+        [
+          519,
+          1
+        ],
+        [
+          520,
+          1
+        ],
+        [
+          521,
+          1
+        ],
+        [
+          523,
+          1
+        ],
+        [
+          524,
+          1
+        ],
+        [
+          525,
+          1
+        ],
+        [
+          527,
+          1
+        ],
+        [
+          528,
+          1
+        ],
+        [
+          529,
+          1
+        ],
+        [
+          530,
+          1
+        ],
+        [
+          531,
+          1
+        ],
+        [
+          563,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 3598,
+      "firstEvent": {
+        "eventId": "event:1987-12:39d7149e3526",
+        "eventIndex": 447,
+        "season": 1987,
+        "round": 12,
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril",
+        "eventDate": "1987-09-20"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-10:88bd4472cb58",
+        "eventIndex": 606,
+        "season": 1997,
+        "round": 10,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "1997-07-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:berger:721f3dbb508a",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1987-12:39d7149e3526",
+          "event:1997-10:88bd4472cb58"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          447,
+          1
+        ],
+        [
+          450,
+          1
+        ],
+        [
+          451,
+          1
+        ],
+        [
+          459,
+          1
+        ],
+        [
+          484,
+          1
+        ],
+        [
+          489,
+          1
+        ],
+        [
+          513,
+          1
+        ],
+        [
+          514,
+          1
+        ],
+        [
+          556,
+          1
+        ],
+        [
+          560,
+          1
+        ],
+        [
+          574,
+          1
+        ],
+        [
+          606,
+          1
+        ]
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "value": 3555,
+      "firstEvent": {
+        "eventId": "event:1972-1:e205d2ba912a",
+        "eventIndex": 208,
+        "season": 1972,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1972-01-23"
+      },
+      "lastEvent": {
+        "eventId": "event:1981-15:c77a1b104daa",
+        "eventIndex": 356,
+        "season": 1981,
+        "round": 15,
+        "grandPrixName": "Caesars Palace Grand Prix",
+        "circuitId": "las_vegas",
+        "eventDate": "1981-10-17"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:reutemann:c573421c6e6f",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1972-1:e205d2ba912a",
+          "event:1981-15:c77a1b104daa"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          208,
+          1
+        ],
+        [
+          249,
+          1
+        ],
+        [
+          300,
+          1
+        ],
+        [
+          301,
+          1
+        ],
+        [
+          346,
+          1
+        ],
+        [
+          356,
+          1
+        ]
+      ],
+      "rank": 13
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 3409,
+      "firstEvent": {
+        "eventId": "event:2003-2:3c5d8ae51f86",
+        "eventIndex": 698,
+        "season": 2003,
+        "round": 2,
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang",
+        "eventDate": "2003-03-23"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-10:b5f72232e942",
+        "eventIndex": 867,
+        "season": 2012,
+        "round": 10,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "2012-07-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2003-2:3c5d8ae51f86",
+          "event:2012-10:b5f72232e942"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          698,
+          1
+        ],
+        [
+          709,
+          1
+        ],
+        [
+          722,
+          1
+        ],
+        [
+          732,
+          1
+        ],
+        [
+          733,
+          1
+        ],
+        [
+          740,
+          1
+        ],
+        [
+          741,
+          1
+        ],
+        [
+          747,
+          1
+        ],
+        [
+          749,
+          1
+        ],
+        [
+          754,
+          1
+        ],
+        [
+          755,
+          1
+        ],
+        [
+          756,
+          1
+        ],
+        [
+          757,
+          1
+        ],
+        [
+          758,
+          1
+        ],
+        [
+          765,
+          1
+        ],
+        [
+          772,
+          1
+        ],
+        [
+          780,
+          1
+        ],
+        [
+          812,
+          1
+        ],
+        [
+          833,
+          1
+        ],
+        [
+          834,
+          1
+        ],
+        [
+          866,
+          1
+        ],
+        [
+          867,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 3297,
+      "firstEvent": {
+        "eventId": "event:1985-2:86ad05fcc4f8",
+        "eventIndex": 405,
+        "season": 1985,
+        "round": 2,
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril",
+        "eventDate": "1985-04-21"
+      },
+      "lastEvent": {
+        "eventId": "event:1994-3:159644e08a6e",
+        "eventIndex": 550,
+        "season": 1994,
+        "round": 3,
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola",
+        "eventDate": "1994-05-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:senna:97c74c7d172e",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1985-2:86ad05fcc4f8",
+          "event:1994-3:159644e08a6e"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          405,
+          1
+        ],
+        [
+          406,
+          1
+        ],
+        [
+          407,
+          1
+        ],
+        [
+          409,
+          1
+        ],
+        [
+          415,
+          1
+        ],
+        [
+          417,
+          1
+        ],
+        [
+          419,
+          1
+        ],
+        [
+          420,
+          1
+        ],
+        [
+          421,
+          1
+        ],
+        [
+          422,
+          1
+        ],
+        [
+          426,
+          1
+        ],
+        [
+          427,
+          1
+        ],
+        [
+          430,
+          1
+        ],
+        [
+          433,
+          1
+        ],
+        [
+          434,
+          1
+        ],
+        [
+          437,
+          1
+        ],
+        [
+          452,
+          1
+        ],
+        [
+          453,
+          1
+        ],
+        [
+          454,
+          1
+        ],
+        [
+          455,
+          1
+        ],
+        [
+          456,
+          1
+        ],
+        [
+          457,
+          1
+        ],
+        [
+          460,
+          1
+        ],
+        [
+          461,
+          1
+        ],
+        [
+          462,
+          1
+        ],
+        [
+          463,
+          1
+        ],
+        [
+          465,
+          1
+        ],
+        [
+          466,
+          1
+        ],
+        [
+          467,
+          1
+        ],
+        [
+          468,
+          1
+        ],
+        [
+          469,
+          1
+        ],
+        [
+          470,
+          1
+        ],
+        [
+          471,
+          1
+        ],
+        [
+          472,
+          1
+        ],
+        [
+          475,
+          1
+        ],
+        [
+          476,
+          1
+        ],
+        [
+          478,
+          1
+        ],
+        [
+          479,
+          1
+        ],
+        [
+          480,
+          1
+        ],
+        [
+          481,
+          1
+        ],
+        [
+          482,
+          1
+        ],
+        [
+          483,
+          1
+        ],
+        [
+          485,
+          1
+        ],
+        [
+          486,
+          1
+        ],
+        [
+          487,
+          1
+        ],
+        [
+          488,
+          1
+        ],
+        [
+          492,
+          1
+        ],
+        [
+          494,
+          1
+        ],
+        [
+          495,
+          1
+        ],
+        [
+          497,
+          1
+        ],
+        [
+          498,
+          1
+        ],
+        [
+          499,
+          1
+        ],
+        [
+          500,
+          1
+        ],
+        [
+          501,
+          1
+        ],
+        [
+          502,
+          1
+        ],
+        [
+          503,
+          1
+        ],
+        [
+          509,
+          1
+        ],
+        [
+          510,
+          1
+        ],
+        [
+          511,
+          1
+        ],
+        [
+          515,
+          1
+        ],
+        [
+          522,
+          1
+        ],
+        [
+          547,
+          1
+        ],
+        [
+          548,
+          1
+        ],
+        [
+          549,
+          1
+        ],
+        [
+          550,
+          1
+        ]
+      ],
+      "rank": 15
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 3052,
+      "firstEvent": {
+        "eventId": "event:2004-4:9d4b1a83cb41",
+        "eventIndex": 716,
+        "season": 2004,
+        "round": 4,
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola",
+        "eventDate": "2004-04-25"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-12:d0a2b75f68a8",
+        "eventIndex": 869,
+        "season": 2012,
+        "round": 12,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "2012-09-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:button:d29c67aa2fda",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2004-4:9d4b1a83cb41",
+          "event:2012-12:d0a2b75f68a8"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          716,
+          1
+        ],
+        [
+          738,
+          1
+        ],
+        [
+          752,
+          1
+        ],
+        [
+          803,
+          1
+        ],
+        [
+          804,
+          1
+        ],
+        [
+          807,
+          1
+        ],
+        [
+          808,
+          1
+        ],
+        [
+          869,
+          1
+        ]
+      ],
+      "rank": 16
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "value": 2947,
+      "firstEvent": {
+        "eventId": "event:1960-8:7230ae5cd846",
+        "eventIndex": 91,
+        "season": 1960,
+        "round": 8,
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "boavista",
+        "eventDate": "1960-08-14"
+      },
+      "lastEvent": {
+        "eventId": "event:1968-9:f6dda3a8ba72",
+        "eventIndex": 169,
+        "season": 1968,
+        "round": 9,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1968-09-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:surtees:5519e1946624",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1960-8:7230ae5cd846",
+          "event:1968-9:f6dda3a8ba72"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          91,
+          1
+        ],
+        [
+          102,
+          1
+        ],
+        [
+          117,
+          1
+        ],
+        [
+          126,
+          1
+        ],
+        [
+          128,
+          1
+        ],
+        [
+          142,
+          1
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          169,
+          1
+        ]
+      ],
+      "rank": 17
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 2856,
+      "firstEvent": {
+        "eventId": "event:2006-14:0385f71ec587",
+        "eventIndex": 763,
+        "season": 2006,
+        "round": 14,
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul",
+        "eventDate": "2006-08-27"
+      },
+      "lastEvent": {
+        "eventId": "event:2014-8:45e2bb68db81",
+        "eventIndex": 904,
+        "season": 2014,
+        "round": 8,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "2014-06-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:massa:86ab3cfe923d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2006-14:0385f71ec587",
+          "event:2014-8:45e2bb68db81"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          763,
+          1
+        ],
+        [
+          766,
+          1
+        ],
+        [
+          767,
+          1
+        ],
+        [
+          769,
+          1
+        ],
+        [
+          770,
+          1
+        ],
+        [
+          771,
+          1
+        ],
+        [
+          775,
+          1
+        ],
+        [
+          779,
+          1
+        ],
+        [
+          784,
+          1
+        ],
+        [
+          786,
+          1
+        ],
+        [
+          789,
+          1
+        ],
+        [
+          790,
+          1
+        ],
+        [
+          796,
+          1
+        ],
+        [
+          799,
+          1
+        ],
+        [
+          802,
+          1
+        ],
+        [
+          904,
+          1
+        ]
+      ],
+      "rank": 18
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Fangio",
+      "value": 2800,
+      "firstEvent": {
+        "eventId": "event:1950-2:609d25155bf6",
+        "eventIndex": 1,
+        "season": 1950,
+        "round": 2,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1950-05-21"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-1:b9b2e746ad00",
+        "eventIndex": 64,
+        "season": 1958,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1958-01-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:fangio:56835a0b6237",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1950-2:609d25155bf6",
+          "event:1958-1:b9b2e746ad00"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          30,
+          1
+        ],
+        [
+          34,
+          1
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          42,
+          1
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          49,
+          1
+        ],
+        [
+          51,
+          1
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          57,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          62,
+          1
+        ],
+        [
+          64,
+          1
+        ]
+      ],
+      "rank": 19
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 2737,
+      "firstEvent": {
+        "eventId": "event:1980-4:b79d558fd5ba",
+        "eventIndex": 331,
+        "season": 1980,
+        "round": 4,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1980-03-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1987-13:ec24fe9de40c",
+        "eventIndex": 448,
+        "season": 1987,
+        "round": 13,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "jerez",
+        "eventDate": "1987-09-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:piquet:009ec3fd7514",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1980-4:b79d558fd5ba",
+          "event:1987-13:ec24fe9de40c"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          331,
+          1
+        ],
+        [
+          340,
+          1
+        ],
+        [
+          343,
+          1
+        ],
+        [
+          344,
+          1
+        ],
+        [
+          347,
+          1
+        ],
+        [
+          355,
+          1
+        ],
+        [
+          369,
+          1
+        ],
+        [
+          384,
+          1
+        ],
+        [
+          389,
+          1
+        ],
+        [
+          391,
+          1
+        ],
+        [
+          394,
+          1
+        ],
+        [
+          395,
+          1
+        ],
+        [
+          397,
+          1
+        ],
+        [
+          399,
+          1
+        ],
+        [
+          401,
+          1
+        ],
+        [
+          402,
+          1
+        ],
+        [
+          403,
+          1
+        ],
+        [
+          414,
+          1
+        ],
+        [
+          424,
+          1
+        ],
+        [
+          428,
+          1
+        ],
+        [
+          442,
+          1
+        ],
+        [
+          445,
+          1
+        ],
+        [
+          446,
+          1
+        ],
+        [
+          448,
+          1
+        ]
+      ],
+      "rank": 20
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 2317,
+      "firstEvent": {
+        "eventId": "event:2019-2:a0d869828a19",
+        "eventIndex": 998,
+        "season": 2019,
+        "round": 2,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2019-03-31"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-14:62425562d11c",
+        "eventIndex": 1138,
+        "season": 2025,
+        "round": 14,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2025-08-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:leclerc:80a0e9f8790b",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2019-2:a0d869828a19",
+          "event:2025-14:62425562d11c"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          998,
+          1
+        ],
+        [
+          1005,
+          1
+        ],
+        [
+          1009,
+          1
+        ],
+        [
+          1010,
+          1
+        ],
+        [
+          1011,
+          1
+        ],
+        [
+          1012,
+          1
+        ],
+        [
+          1014,
+          1
+        ],
+        [
+          1039,
+          1
+        ],
+        [
+          1040,
+          1
+        ],
+        [
+          1057,
+          1
+        ],
+        [
+          1059,
+          1
+        ],
+        [
+          1061,
+          1
+        ],
+        [
+          1062,
+          1
+        ],
+        [
+          1063,
+          1
+        ],
+        [
+          1064,
+          1
+        ],
+        [
+          1068,
+          1
+        ],
+        [
+          1072,
+          1
+        ],
+        [
+          1073,
+          1
+        ],
+        [
+          1082,
+          1
+        ],
+        [
+          1090,
+          1
+        ],
+        [
+          1096,
+          1
+        ],
+        [
+          1097,
+          1
+        ],
+        [
+          1099,
+          1
+        ],
+        [
+          1108,
+          1
+        ],
+        [
+          1114,
+          1
+        ],
+        [
+          1117,
+          1
+        ],
+        [
+          1138,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 2317,
+      "firstEvent": {
+        "eventId": "event:2019-12:7a9974a1499e",
+        "eventIndex": 1008,
+        "season": 2019,
+        "round": 12,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2019-08-04"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-24:e391c058dffd",
+        "eventIndex": 1148,
+        "season": 2025,
+        "round": 24,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2025-12-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:max-verstappen:1f6847211200",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2019-12:7a9974a1499e",
+          "event:2025-24:e391c058dffd"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1008,
+          1
+        ],
+        [
+          1016,
+          1
+        ],
+        [
+          1034,
+          1
+        ],
+        [
+          1035,
+          1
+        ],
+        [
+          1041,
+          1
+        ],
+        [
+          1042,
+          1
+        ],
+        [
+          1043,
+          1
+        ],
+        [
+          1044,
+          1
+        ],
+        [
+          1046,
+          1
+        ],
+        [
+          1047,
+          1
+        ],
+        [
+          1048,
+          1
+        ],
+        [
+          1051,
+          1
+        ],
+        [
+          1056,
+          1
+        ],
+        [
+          1060,
+          1
+        ],
+        [
+          1065,
+          1
+        ],
+        [
+          1067,
+          1
+        ],
+        [
+          1071,
+          1
+        ],
+        [
+          1074,
+          1
+        ],
+        [
+          1076,
+          1
+        ],
+        [
+          1078,
+          1
+        ],
+        [
+          1079,
+          1
+        ],
+        [
+          1081,
+          1
+        ],
+        [
+          1084,
+          1
+        ],
+        [
+          1085,
+          1
+        ],
+        [
+          1086,
+          1
+        ],
+        [
+          1087,
+          1
+        ],
+        [
+          1088,
+          1
+        ],
+        [
+          1091,
+          1
+        ],
+        [
+          1094,
+          1
+        ],
+        [
+          1095,
+          1
+        ],
+        [
+          1098,
+          1
+        ],
+        [
+          1100,
+          1
+        ],
+        [
+          1101,
+          1
+        ],
+        [
+          1102,
+          1
+        ],
+        [
+          1103,
+          1
+        ],
+        [
+          1104,
+          1
+        ],
+        [
+          1105,
+          1
+        ],
+        [
+          1106,
+          1
+        ],
+        [
+          1107,
+          1
+        ],
+        [
+          1111,
+          1
+        ],
+        [
+          1127,
+          1
+        ],
+        [
+          1129,
+          1
+        ],
+        [
+          1130,
+          1
+        ],
+        [
+          1136,
+          1
+        ],
+        [
+          1140,
+          1
+        ],
+        [
+          1141,
+          1
+        ],
+        [
+          1143,
+          1
+        ],
+        [
+          1148,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 2240,
+      "firstEvent": {
+        "eventId": "event:1995-2:c2a2b6fae4d9",
+        "eventIndex": 565,
+        "season": 1995,
+        "round": 2,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1995-04-09"
+      },
+      "lastEvent": {
+        "eventId": "event:2001-7:ca01ac792494",
+        "eventIndex": 669,
+        "season": 2001,
+        "round": 7,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "2001-05-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:coulthard:935d583f6514",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1995-2:c2a2b6fae4d9",
+          "event:2001-7:ca01ac792494"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          565,
+          1
+        ],
+        [
+          575,
+          1
+        ],
+        [
+          576,
+          1
+        ],
+        [
+          577,
+          1
+        ],
+        [
+          578,
+          1
+        ],
+        [
+          616,
+          1
+        ],
+        [
+          617,
+          1
+        ],
+        [
+          620,
+          1
+        ],
+        [
+          651,
+          1
+        ],
+        [
+          656,
+          1
+        ],
+        [
+          666,
+          1
+        ],
+        [
+          669,
+          1
+        ]
+      ],
+      "rank": 23
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 2225,
+      "firstEvent": {
+        "eventId": "event:1962-3:81627b2e86b0",
+        "eventIndex": 104,
+        "season": 1962,
+        "round": 3,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1962-06-17"
+      },
+      "lastEvent": {
+        "eventId": "event:1968-7:b3cf3842d8cd",
+        "eventIndex": 167,
+        "season": 1968,
+        "round": 7,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch",
+        "eventDate": "1968-07-20"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hill:aa2839db1ccc",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1962-3:81627b2e86b0",
+          "event:1968-7:b3cf3842d8cd"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          104,
+          1
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          118,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          132,
+          1
+        ],
+        [
+          133,
+          1
+        ],
+        [
+          136,
+          1
+        ],
+        [
+          139,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          163,
+          1
+        ],
+        [
+          167,
+          1
+        ]
+      ],
+      "rank": 24
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 2129,
+      "firstEvent": {
+        "eventId": "event:1955-6:71afb832f3d5",
+        "eventIndex": 46,
+        "season": 1955,
+        "round": 6,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "aintree",
+        "eventDate": "1955-07-16"
+      },
+      "lastEvent": {
+        "eventId": "event:1961-1:fa071cd943a7",
+        "eventIndex": 94,
+        "season": 1961,
+        "round": 1,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1961-05-14"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1955-6:71afb832f3d5",
+          "event:1961-1:fa071cd943a7"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          46,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          60,
+          1
+        ],
+        [
+          70,
+          1
+        ],
+        [
+          72,
+          1
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          75,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          82,
+          1
+        ],
+        [
+          83,
+          1
+        ],
+        [
+          84,
+          1
+        ],
+        [
+          85,
+          1
+        ],
+        [
+          87,
+          1
+        ],
+        [
+          93,
+          1
+        ],
+        [
+          94,
+          1
+        ]
+      ],
+      "rank": 25
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 2038,
+      "firstEvent": {
+        "eventId": "event:1962-2:8e89d21270a2",
+        "eventIndex": 103,
+        "season": 1962,
+        "round": 2,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1962-06-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1968-1:834b45f9b8aa",
+        "eventIndex": 161,
+        "season": 1968,
+        "round": 1,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1968-01-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:clark:59d84c3d9fcb",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1962-2:8e89d21270a2",
+          "event:1968-1:834b45f9b8aa"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          103,
+          1
+        ],
+        [
+          105,
+          1
+        ],
+        [
+          106,
+          1
+        ],
+        [
+          108,
+          1
+        ],
+        [
+          109,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          111,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          114,
+          1
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          116,
+          1
+        ],
+        [
+          119,
+          1
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          121,
+          1
+        ],
+        [
+          124,
+          1
+        ],
+        [
+          125,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          135,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          138,
+          1
+        ],
+        [
+          140,
+          1
+        ],
+        [
+          141,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          155,
+          1
+        ],
+        [
+          156,
+          1
+        ],
+        [
+          157,
+          1
+        ],
+        [
+          158,
+          1
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          161,
+          1
+        ]
+      ],
+      "rank": 26
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 2009,
+      "firstEvent": {
+        "eventId": "event:1973-2:a2531cc070f5",
+        "eventIndex": 221,
+        "season": 1973,
+        "round": 2,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "1973-02-11"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-12:8874e2f36e35",
+        "eventIndex": 308,
+        "season": 1978,
+        "round": 12,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "1978-08-13"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1973-2:a2531cc070f5",
+          "event:1978-12:8874e2f36e35"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          221,
+          1
+        ],
+        [
+          223,
+          1
+        ],
+        [
+          224,
+          1
+        ],
+        [
+          226,
+          1
+        ],
+        [
+          228,
+          1
+        ],
+        [
+          229,
+          1
+        ],
+        [
+          232,
+          1
+        ],
+        [
+          233,
+          1
+        ],
+        [
+          234,
+          1
+        ],
+        [
+          235,
+          1
+        ],
+        [
+          275,
+          1
+        ],
+        [
+          298,
+          1
+        ],
+        [
+          306,
+          1
+        ],
+        [
+          308,
+          1
+        ]
+      ],
+      "rank": 27
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "value": 1981,
+      "firstEvent": {
+        "eventId": "event:1970-13:12bd124a2612",
+        "eventIndex": 196,
+        "season": 1970,
+        "round": 13,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1970-10-25"
+      },
+      "lastEvent": {
+        "eventId": "event:1976-3:9058b8bd92d1",
+        "eventIndex": 266,
+        "season": 1976,
+        "round": 3,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1976-03-28"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:regazzoni:8dabb0375829",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1970-13:12bd124a2612",
+          "event:1976-3:9058b8bd92d1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          196,
+          1
+        ],
+        [
+          202,
+          1
+        ],
+        [
+          220,
+          1
+        ],
+        [
+          239,
+          1
+        ],
+        [
+          266,
+          1
+        ]
+      ],
+      "rank": 28
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 1799,
+      "firstEvent": {
+        "eventId": "event:2004-6:eb2ccd4a4c2b",
+        "eventIndex": 718,
+        "season": 2004,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "2004-05-23"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-4:e5cfc76c7bdb",
+        "eventIndex": 806,
+        "season": 2009,
+        "round": 4,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2009-04-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:trulli:26a562aa7942",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2004-6:eb2ccd4a4c2b",
+          "event:2009-4:e5cfc76c7bdb"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          718,
+          1
+        ],
+        [
+          726,
+          1
+        ],
+        [
+          739,
+          1
+        ],
+        [
+          806,
+          1
+        ]
+      ],
+      "rank": 29
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 1743,
+      "firstEvent": {
+        "eventId": "event:1976-13:73710ebe3b9a",
+        "eventIndex": 276,
+        "season": 1976,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1976-09-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1981-7:6c61d5c41994",
+        "eventIndex": 348,
+        "season": 1981,
+        "round": 7,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "jarama",
+        "eventDate": "1981-06-21"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:laffite:36bfb487a39b",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1976-13:73710ebe3b9a",
+          "event:1981-7:6c61d5c41994"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          276,
+          1
+        ],
+        [
+          313,
+          1
+        ],
+        [
+          314,
+          1
+        ],
+        [
+          317,
+          1
+        ],
+        [
+          318,
+          1
+        ],
+        [
+          334,
+          1
+        ],
+        [
+          348,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 1673,
+      "firstEvent": {
+        "eventId": "event:2017-3:c327f533c78d",
+        "eventIndex": 958,
+        "season": 2017,
+        "round": 3,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2017-04-16"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-19:5f8e5757c2b5",
+        "eventIndex": 1053,
+        "season": 2021,
+        "round": 19,
+        "grandPrixName": "São Paulo Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2021-11-14"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:bottas:cf1711492eee",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2017-3:c327f533c78d",
+          "event:2021-19:5f8e5757c2b5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          958,
+          1
+        ],
+        [
+          964,
+          1
+        ],
+        [
+          974,
+          1
+        ],
+        [
+          975,
+          1
+        ],
+        [
+          984,
+          1
+        ],
+        [
+          991,
+          1
+        ],
+        [
+          999,
+          1
+        ],
+        [
+          1000,
+          1
+        ],
+        [
+          1001,
+          1
+        ],
+        [
+          1006,
+          1
+        ],
+        [
+          1015,
+          1
+        ],
+        [
+          1018,
+          1
+        ],
+        [
+          1022,
+          1
+        ],
+        [
+          1028,
+          1
+        ],
+        [
+          1030,
+          1
+        ],
+        [
+          1033,
+          1
+        ],
+        [
+          1037,
+          1
+        ],
+        [
+          1050,
+          1
+        ],
+        [
+          1052,
+          1
+        ],
+        [
+          1053,
+          1
+        ]
+      ],
+      "rank": 31
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 1638,
+      "firstEvent": {
+        "eventId": "event:2012-3:db0e49c9ad35",
+        "eventIndex": 860,
+        "season": 2012,
+        "round": 3,
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai",
+        "eventDate": "2012-04-15"
+      },
+      "lastEvent": {
+        "eventId": "event:2016-17:94b1c6c70399",
+        "eventIndex": 951,
+        "season": 2016,
+        "round": 17,
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka",
+        "eventDate": "2016-10-09"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:rosberg:f41469d63d30",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2012-3:db0e49c9ad35",
+          "event:2016-17:94b1c6c70399"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          860,
+          1
+        ],
+        [
+          881,
+          1
+        ],
+        [
+          882,
+          1
+        ],
+        [
+          883,
+          1
+        ],
+        [
+          899,
+          1
+        ],
+        [
+          902,
+          1
+        ],
+        [
+          903,
+          1
+        ],
+        [
+          905,
+          1
+        ],
+        [
+          906,
+          1
+        ],
+        [
+          907,
+          1
+        ],
+        [
+          908,
+          1
+        ],
+        [
+          911,
+          1
+        ],
+        [
+          913,
+          1
+        ],
+        [
+          914,
+          1
+        ],
+        [
+          915,
+          1
+        ],
+        [
+          920,
+          1
+        ],
+        [
+          929,
+          1
+        ],
+        [
+          930,
+          1
+        ],
+        [
+          931,
+          1
+        ],
+        [
+          932,
+          1
+        ],
+        [
+          933,
+          1
+        ],
+        [
+          934,
+          1
+        ],
+        [
+          937,
+          1
+        ],
+        [
+          938,
+          1
+        ],
+        [
+          942,
+          1
+        ],
+        [
+          945,
+          1
+        ],
+        [
+          946,
+          1
+        ],
+        [
+          947,
+          1
+        ],
+        [
+          949,
+          1
+        ],
+        [
+          951,
+          1
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 1575,
+      "firstEvent": {
+        "eventId": "event:2009-9:e2d3d8cf6d91",
+        "eventIndex": 811,
+        "season": 2009,
+        "round": 9,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "2009-07-12"
+      },
+      "lastEvent": {
+        "eventId": "event:2013-17:8638acbe65d7",
+        "eventIndex": 894,
+        "season": 2013,
+        "round": 17,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2013-11-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:webber:6ffd0bea1a2a",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2009-9:e2d3d8cf6d91",
+          "event:2013-17:8638acbe65d7"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          811,
+          1
+        ],
+        [
+          822,
+          1
+        ],
+        [
+          824,
+          1
+        ],
+        [
+          825,
+          1
+        ],
+        [
+          826,
+          1
+        ],
+        [
+          832,
+          1
+        ],
+        [
+          843,
+          1
+        ],
+        [
+          847,
+          1
+        ],
+        [
+          848,
+          1
+        ],
+        [
+          863,
+          1
+        ],
+        [
+          873,
+          1
+        ],
+        [
+          892,
+          1
+        ],
+        [
+          894,
+          1
+        ]
+      ],
+      "rank": 33
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 1561,
+      "firstEvent": {
+        "eventId": "event:2001-10:534d7f7bf535",
+        "eventIndex": 672,
+        "season": 2001,
+        "round": 10,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours",
+        "eventDate": "2001-07-01"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-18:11b51a1c3f8b",
+        "eventIndex": 748,
+        "season": 2005,
+        "round": 18,
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka",
+        "eventDate": "2005-10-09"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2001-10:534d7f7bf535",
+          "event:2005-18:11b51a1c3f8b"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          672,
+          1
+        ],
+        [
+          703,
+          1
+        ],
+        [
+          704,
+          1
+        ],
+        [
+          706,
+          1
+        ],
+        [
+          720,
+          1
+        ],
+        [
+          748,
+          1
+        ]
+      ],
+      "rank": 34
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "value": 1540,
+      "firstEvent": {
+        "eventId": "event:1969-3:0211252ae7ab",
+        "eventIndex": 175,
+        "season": 1969,
+        "round": 3,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1969-05-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1973-11:679d1b88cb6e",
+        "eventIndex": 230,
+        "season": 1973,
+        "round": 11,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1973-08-05"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:stewart:f46f493c7dd0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1969-3:0211252ae7ab",
+          "event:1973-11:679d1b88cb6e"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          175,
+          1
+        ],
+        [
+          177,
+          1
+        ],
+        [
+          184,
+          1
+        ],
+        [
+          186,
+          1
+        ],
+        [
+          187,
+          1
+        ],
+        [
+          194,
+          1
+        ],
+        [
+          197,
+          1
+        ],
+        [
+          199,
+          1
+        ],
+        [
+          201,
+          1
+        ],
+        [
+          203,
+          1
+        ],
+        [
+          206,
+          1
+        ],
+        [
+          207,
+          1
+        ],
+        [
+          209,
+          1
+        ],
+        [
+          219,
+          1
+        ],
+        [
+          225,
+          1
+        ],
+        [
+          227,
+          1
+        ],
+        [
+          230,
+          1
+        ]
+      ],
+      "rank": 35
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 1519,
+      "firstEvent": {
+        "eventId": "event:2021-15:c71e4df9f38a",
+        "eventIndex": 1049,
+        "season": 2021,
+        "round": 15,
+        "grandPrixName": "Russian Grand Prix",
+        "circuitId": "sochi",
+        "eventDate": "2021-09-26"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-22:5c5653c5c0f0",
+        "eventIndex": 1146,
+        "season": 2025,
+        "round": 22,
+        "grandPrixName": "Las Vegas Grand Prix",
+        "circuitId": "vegas",
+        "eventDate": "2025-11-23"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2021-15:c71e4df9f38a",
+          "event:2025-22:5c5653c5c0f0"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1049,
+          1
+        ],
+        [
+          1110,
+          1
+        ],
+        [
+          1113,
+          1
+        ],
+        [
+          1115,
+          1
+        ],
+        [
+          1116,
+          1
+        ],
+        [
+          1118,
+          1
+        ],
+        [
+          1119,
+          1
+        ],
+        [
+          1121,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1125,
+          1
+        ],
+        [
+          1132,
+          1
+        ],
+        [
+          1135,
+          1
+        ],
+        [
+          1137,
+          1
+        ],
+        [
+          1144,
+          1
+        ],
+        [
+          1145,
+          1
+        ],
+        [
+          1146,
+          1
+        ]
+      ],
+      "rank": 36
+    },
+    {
+      "entityId": "driver:amon:a418aa49b3fe",
+      "entityName": "Chris Amon",
+      "value": 1512,
+      "firstEvent": {
+        "eventId": "event:1968-2:df27731ee81a",
+        "eventIndex": 162,
+        "season": 1968,
+        "round": 2,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "jarama",
+        "eventDate": "1968-05-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-6:8b5ff0b447af",
+        "eventIndex": 213,
+        "season": 1972,
+        "round": 6,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "charade",
+        "eventDate": "1972-07-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:amon:a418aa49b3fe",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1968-2:df27731ee81a",
+          "event:1972-6:8b5ff0b447af"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          162,
+          1
+        ],
+        [
+          164,
+          1
+        ],
+        [
+          165,
+          1
+        ],
+        [
+          205,
+          1
+        ],
+        [
+          213,
+          1
+        ]
+      ],
+      "rank": 37
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 1505,
+      "firstEvent": {
+        "eventId": "event:2001-12:6ecd164b57f4",
+        "eventIndex": 674,
+        "season": 2001,
+        "round": 12,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "2001-07-29"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-16:cca172420385",
+        "eventIndex": 746,
+        "season": 2005,
+        "round": 16,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "2005-09-11"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2001-12:6ecd164b57f4",
+          "event:2005-16:cca172420385"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          674,
+          1
+        ],
+        [
+          676,
+          1
+        ],
+        [
+          677,
+          1
+        ],
+        [
+          682,
+          1
+        ],
+        [
+          686,
+          1
+        ],
+        [
+          687,
+          1
+        ],
+        [
+          688,
+          1
+        ],
+        [
+          689,
+          1
+        ],
+        [
+          690,
+          1
+        ],
+        [
+          694,
+          1
+        ],
+        [
+          708,
+          1
+        ],
+        [
+          745,
+          1
+        ],
+        [
+          746,
+          1
+        ]
+      ],
+      "rank": 38
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 1498,
+      "firstEvent": {
+        "eventId": "event:1968-8:d04226eac176",
+        "eventIndex": 168,
+        "season": 1968,
+        "round": 8,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1968-08-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-10:cce7a41c0ce0",
+        "eventIndex": 217,
+        "season": 1972,
+        "round": 10,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1972-09-10"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:ickx:9dc972aa2fb0",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1968-8:d04226eac176",
+          "event:1972-10:cce7a41c0ce0"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          168,
+          1
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          181,
+          1
+        ],
+        [
+          189,
+          1
+        ],
+        [
+          191,
+          1
+        ],
+        [
+          193,
+          1
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          1
+        ],
+        [
+          200,
+          1
+        ],
+        [
+          210,
+          1
+        ],
+        [
+          214,
+          1
+        ],
+        [
+          215,
+          1
+        ],
+        [
+          217,
+          1
+        ]
+      ],
+      "rank": 39
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 1470,
+      "firstEvent": {
+        "eventId": "event:1982-10:02d118103adf",
+        "eventIndex": 366,
+        "season": 1982,
+        "round": 10,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch",
+        "eventDate": "1982-07-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1986-10:a8afaf2a5ed1",
+        "eventIndex": 429,
+        "season": 1986,
+        "round": 10,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "1986-07-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:keke-rosberg:c149e9225f45",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1982-10:02d118103adf",
+          "event:1986-10:a8afaf2a5ed1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          366,
+          1
+        ],
+        [
+          373,
+          1
+        ],
+        [
+          410,
+          1
+        ],
+        [
+          411,
+          1
+        ],
+        [
+          429,
+          1
+        ]
+      ],
+      "rank": 40
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 1435,
+      "firstEvent": {
+        "eventId": "event:1974-3:cf67dce5f210",
+        "eventIndex": 237,
+        "season": 1974,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1974-03-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-3:a0b8bad3a064",
+        "eventIndex": 299,
+        "season": 1978,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1978-03-04"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1974-3:cf67dce5f210",
+          "event:1978-3:a0b8bad3a064"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          237,
+          1
+        ],
+        [
+          238,
+          1
+        ],
+        [
+          240,
+          1
+        ],
+        [
+          242,
+          1
+        ],
+        [
+          243,
+          1
+        ],
+        [
+          244,
+          1
+        ],
+        [
+          245,
+          1
+        ],
+        [
+          246,
+          1
+        ],
+        [
+          247,
+          1
+        ],
+        [
+          253,
+          1
+        ],
+        [
+          254,
+          1
+        ],
+        [
+          255,
+          1
+        ],
+        [
+          257,
+          1
+        ],
+        [
+          258,
+          1
+        ],
+        [
+          260,
+          1
+        ],
+        [
+          261,
+          1
+        ],
+        [
+          262,
+          1
+        ],
+        [
+          263,
+          1
+        ],
+        [
+          268,
+          1
+        ],
+        [
+          269,
+          1
+        ],
+        [
+          272,
+          1
+        ],
+        [
+          283,
+          1
+        ],
+        [
+          291,
+          1
+        ],
+        [
+          299,
+          1
+        ]
+      ],
+      "rank": 41
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 1434,
+      "firstEvent": {
+        "eventId": "event:1979-11:ac559d584274",
+        "eventIndex": 323,
+        "season": 1979,
+        "round": 11,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "1979-08-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1983-9:8cf4cb9657c0",
+        "eventIndex": 381,
+        "season": 1983,
+        "round": 9,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1983-07-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:arnoux:3628c7479aa0",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1979-11:ac559d584274",
+          "event:1983-9:8cf4cb9657c0"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          323,
+          1
+        ],
+        [
+          324,
+          1
+        ],
+        [
+          337,
+          1
+        ],
+        [
+          338,
+          1
+        ],
+        [
+          339,
+          1
+        ],
+        [
+          349,
+          1
+        ],
+        [
+          350,
+          1
+        ],
+        [
+          352,
+          1
+        ],
+        [
+          354,
+          1
+        ],
+        [
+          357,
+          1
+        ],
+        [
+          360,
+          1
+        ],
+        [
+          362,
+          1
+        ],
+        [
+          365,
+          1
+        ],
+        [
+          367,
+          1
+        ],
+        [
+          376,
+          1
+        ],
+        [
+          379,
+          1
+        ],
+        [
+          380,
+          1
+        ],
+        [
+          381,
+          1
+        ]
+      ],
+      "rank": 42
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 1428,
+      "firstEvent": {
+        "eventId": "event:2022-13:331b3d1b8dbf",
+        "eventIndex": 1069,
+        "season": 2022,
+        "round": 13,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2022-07-31"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-8:1863bba66a42",
+        "eventIndex": 1156,
+        "season": 2026,
+        "round": 8,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "2026-06-28"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:russell:0de59c03b0db",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2022-13:331b3d1b8dbf",
+          "event:2026-8:1863bba66a42"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1069,
+          1
+        ],
+        [
+          1077,
+          1
+        ],
+        [
+          1109,
+          1
+        ],
+        [
+          1112,
+          1
+        ],
+        [
+          1122,
+          1
+        ],
+        [
+          1123,
+          1
+        ],
+        [
+          1134,
+          1
+        ],
+        [
+          1142,
+          1
+        ],
+        [
+          1149,
+          1
+        ],
+        [
+          1153,
+          1
+        ],
+        [
+          1155,
+          1
+        ],
+        [
+          1156,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:jarier:fbd7f044b94b",
+      "entityName": "Jean-Pierre Jarier",
+      "value": 1365,
+      "firstEvent": {
+        "eventId": "event:1975-1:f8699d461149",
+        "eventIndex": 250,
+        "season": 1975,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1975-01-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-16:46e0f9f91fd9",
+        "eventIndex": 312,
+        "season": 1978,
+        "round": 16,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve",
+        "eventDate": "1978-10-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:jarier:fbd7f044b94b",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1975-1:f8699d461149",
+          "event:1978-16:46e0f9f91fd9"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          250,
+          1
+        ],
+        [
+          251,
+          1
+        ],
+        [
+          312,
+          1
+        ]
+      ],
+      "rank": 44
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 1345,
+      "firstEvent": {
+        "eventId": "event:1950-1:17e7244241b0",
+        "eventIndex": 0,
+        "season": 1950,
+        "round": 1,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1950-05-13"
+      },
+      "lastEvent": {
+        "eventId": "event:1954-1:c550f7854d5c",
+        "eventIndex": 32,
+        "season": 1954,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1954-01-17"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:farina:edc963649157",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1950-1:17e7244241b0",
+          "event:1954-1:c550f7854d5c"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          32,
+          1
+        ]
+      ],
+      "rank": 45
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 1282,
+      "firstEvent": {
+        "eventId": "event:1951-5:e0f15b6e9917",
+        "eventIndex": 11,
+        "season": 1951,
+        "round": 5,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1951-07-14"
+      },
+      "lastEvent": {
+        "eventId": "event:1955-1:1f40ba49e054",
+        "eventIndex": 41,
+        "season": 1955,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1955-01-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:gonzalez:2aa2e506438c",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1951-5:e0f15b6e9917",
+          "event:1955-1:1f40ba49e054"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          11,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          41,
+          1
+        ]
+      ],
+      "rank": 46
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "value": 1183,
+      "firstEvent": {
+        "eventId": "event:1951-6:6fc72a1b98b0",
+        "eventIndex": 12,
+        "season": 1951,
+        "round": 6,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1951-07-29"
+      },
+      "lastEvent": {
+        "eventId": "event:1954-9:062522bf1ca1",
+        "eventIndex": 40,
+        "season": 1954,
+        "round": 9,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "pedralbes",
+        "eventDate": "1954-10-24"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:ascari:ad5589a1c97f",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1951-6:6fc72a1b98b0",
+          "event:1954-9:062522bf1ca1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          40,
+          1
+        ]
+      ],
+      "rank": 47
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1176,
+      "firstEvent": {
+        "eventId": "event:1993-8:9820e93253b0",
+        "eventIndex": 539,
+        "season": 1993,
+        "round": 8,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours",
+        "eventDate": "1993-07-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1996-15:e2bca8f2a13b",
+        "eventIndex": 595,
+        "season": 1996,
+        "round": 15,
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril",
+        "eventDate": "1996-09-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:damon-hill:3cf4df1bacf7",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1993-8:9820e93253b0",
+          "event:1996-15:e2bca8f2a13b"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          539,
+          1
+        ],
+        [
+          545,
+          1
+        ],
+        [
+          554,
+          1
+        ],
+        [
+          555,
+          1
+        ],
+        [
+          564,
+          1
+        ],
+        [
+          568,
+          1
+        ],
+        [
+          570,
+          1
+        ],
+        [
+          571,
+          1
+        ],
+        [
+          572,
+          1
+        ],
+        [
+          573,
+          1
+        ],
+        [
+          580,
+          1
+        ],
+        [
+          582,
+          1
+        ],
+        [
+          583,
+          1
+        ],
+        [
+          584,
+          1
+        ],
+        [
+          587,
+          1
+        ],
+        [
+          588,
+          1
+        ],
+        [
+          590,
+          1
+        ],
+        [
+          591,
+          1
+        ],
+        [
+          594,
+          1
+        ],
+        [
+          595,
+          1
+        ]
+      ],
+      "rank": 48
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 1092,
+      "firstEvent": {
+        "eventId": "event:1994-12:643419155b95",
+        "eventIndex": 559,
+        "season": 1994,
+        "round": 12,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1994-09-11"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-13:a0d9a615c9aa",
+        "eventIndex": 609,
+        "season": 1997,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1997-09-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:alesi:81d9c1b96672",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1994-12:643419155b95",
+          "event:1997-13:a0d9a615c9aa"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          559,
+          1
+        ],
+        [
+          609,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 1078,
+      "firstEvent": {
+        "eventId": "event:1976-7:cfe07948546c",
+        "eventIndex": 270,
+        "season": 1976,
+        "round": 7,
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp",
+        "eventDate": "1976-06-13"
+      },
+      "lastEvent": {
+        "eventId": "event:1979-7:da7c588a1447",
+        "eventIndex": 319,
+        "season": 1979,
+        "round": 7,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1979-05-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1976-7:cfe07948546c",
+          "event:1979-7:da7c588a1447"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          270,
+          1
+        ],
+        [
+          290,
+          1
+        ],
+        [
+          319,
+          1
+        ]
+      ],
+      "rank": 50
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 1064,
+      "firstEvent": {
+        "eventId": "event:1997-15:9c648acf86ef",
+        "eventIndex": 611,
+        "season": 1997,
+        "round": 15,
+        "grandPrixName": "Luxembourg Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1997-09-28"
+      },
+      "lastEvent": {
+        "eventId": "event:2000-13:3786790b28a1",
+        "eventIndex": 658,
+        "season": 2000,
+        "round": 13,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "2000-08-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hakkinen:cb6375fb4ba8",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1997-15:9c648acf86ef",
+          "event:2000-13:3786790b28a1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          611,
+          1
+        ],
+        [
+          614,
+          1
+        ],
+        [
+          615,
+          1
+        ],
+        [
+          618,
+          1
+        ],
+        [
+          619,
+          1
+        ],
+        [
+          621,
+          1
+        ],
+        [
+          622,
+          1
+        ],
+        [
+          624,
+          1
+        ],
+        [
+          625,
+          1
+        ],
+        [
+          626,
+          1
+        ],
+        [
+          630,
+          1
+        ],
+        [
+          631,
+          1
+        ],
+        [
+          632,
+          1
+        ],
+        [
+          633,
+          1
+        ],
+        [
+          634,
+          1
+        ],
+        [
+          637,
+          1
+        ],
+        [
+          638,
+          1
+        ],
+        [
+          639,
+          1
+        ],
+        [
+          640,
+          1
+        ],
+        [
+          641,
+          1
+        ],
+        [
+          642,
+          1
+        ],
+        [
+          646,
+          1
+        ],
+        [
+          647,
+          1
+        ],
+        [
+          648,
+          1
+        ],
+        [
+          655,
+          1
+        ],
+        [
+          658,
+          1
+        ]
+      ],
+      "rank": 51
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "value": 1015,
+      "firstEvent": {
+        "eventId": "event:1968-12:283a97daa9ed",
+        "eventIndex": 172,
+        "season": 1968,
+        "round": 12,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1968-11-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1971-8:054778c261da",
+        "eventIndex": 204,
+        "season": 1971,
+        "round": 8,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "1971-08-15"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:siffert:d1cfc3fb1fc0",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1968-12:283a97daa9ed",
+          "event:1971-8:054778c261da"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          172,
+          1
+        ],
+        [
+          204,
+          1
+        ]
+      ],
+      "rank": 52
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 882,
+      "firstEvent": {
+        "eventId": "event:2016-6:a0275181f647",
+        "eventIndex": 940,
+        "season": 2016,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "2016-05-29"
+      },
+      "lastEvent": {
+        "eventId": "event:2018-19:49c1e1689bd4",
+        "eventIndex": 994,
+        "season": 2018,
+        "round": 19,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "2018-10-28"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:ricciardo:677e1f07679b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2016-6:a0275181f647",
+          "event:2018-19:49c1e1689bd4"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          940,
+          1
+        ],
+        [
+          981,
+          1
+        ],
+        [
+          994,
+          1
+        ]
+      ],
+      "rank": 53
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 868,
+      "firstEvent": {
+        "eventId": "event:1997-5:ae8d4d12f46e",
+        "eventIndex": 601,
+        "season": 1997,
+        "round": 5,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1997-05-11"
+      },
+      "lastEvent": {
+        "eventId": "event:1999-14:e9963f4cc046",
+        "eventIndex": 643,
+        "season": 1999,
+        "round": 14,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1999-09-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:frentzen:e499a12f83f0",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1997-5:ae8d4d12f46e",
+          "event:1999-14:e9963f4cc046"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          601,
+          1
+        ],
+        [
+          643,
+          1
+        ]
+      ],
+      "rank": 54
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 861,
+      "firstEvent": {
+        "eventId": "event:1972-4:b4e11cb65f9c",
+        "eventIndex": 211,
+        "season": 1972,
+        "round": 4,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1972-05-14"
+      },
+      "lastEvent": {
+        "eventId": "event:1974-14:818471738587",
+        "eventIndex": 248,
+        "season": 1974,
+        "round": 14,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport",
+        "eventDate": "1974-09-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1972-4:b4e11cb65f9c",
+          "event:1974-14:818471738587"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          211,
+          1
+        ],
+        [
+          212,
+          1
+        ],
+        [
+          216,
+          1
+        ],
+        [
+          231,
+          1
+        ],
+        [
+          236,
+          1
+        ],
+        [
+          248,
+          1
+        ]
+      ],
+      "rank": 55
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 847,
+      "firstEvent": {
+        "eventId": "event:2022-10:c075f714959f",
+        "eventIndex": 1066,
+        "season": 2022,
+        "round": 10,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "2022-07-03"
+      },
+      "lastEvent": {
+        "eventId": "event:2024-20:f5fe57f1893a",
+        "eventIndex": 1120,
+        "season": 2024,
+        "round": 20,
+        "grandPrixName": "Mexico City Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "2024-10-27"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:sainz:f4f0414a0a12",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2022-10:c075f714959f",
+          "event:2024-20:f5fe57f1893a"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1066,
+          1
+        ],
+        [
+          1070,
+          1
+        ],
+        [
+          1075,
+          1
+        ],
+        [
+          1092,
+          1
+        ],
+        [
+          1093,
+          1
+        ],
+        [
+          1120,
+          1
+        ]
+      ],
+      "rank": 56
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 812,
+      "firstEvent": {
+        "eventId": "event:1980-6:f593f53d479a",
+        "eventIndex": 333,
+        "season": 1980,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1980-05-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1982-12:2eab20d454d6",
+        "eventIndex": 368,
+        "season": 1982,
+        "round": 12,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "1982-08-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:pironi:e419fd33c039",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1980-6:f593f53d479a",
+          "event:1982-12:2eab20d454d6"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          333,
+          1
+        ],
+        [
+          335,
+          1
+        ],
+        [
+          364,
+          1
+        ],
+        [
+          368,
+          1
+        ]
+      ],
+      "rank": 57
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 770,
+      "firstEvent": {
+        "eventId": "event:1968-6:9320431db35f",
+        "eventIndex": 166,
+        "season": 1968,
+        "round": 6,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts",
+        "eventDate": "1968-07-07"
+      },
+      "lastEvent": {
+        "eventId": "event:1970-9:9f8d5c4f7016",
+        "eventIndex": 192,
+        "season": 1970,
+        "round": 9,
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring",
+        "eventDate": "1970-08-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:rindt:46dabdd8ff6b",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1968-6:9320431db35f",
+          "event:1970-9:9f8d5c4f7016"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          166,
+          1
+        ],
+        [
+          170,
+          1
+        ],
+        [
+          174,
+          1
+        ],
+        [
+          176,
+          1
+        ],
+        [
+          178,
+          1
+        ],
+        [
+          180,
+          1
+        ],
+        [
+          182,
+          1
+        ],
+        [
+          188,
+          1
+        ],
+        [
+          190,
+          1
+        ],
+        [
+          192,
+          1
+        ]
+      ],
+      "rank": 58
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 756,
+      "firstEvent": {
+        "eventId": "event:1979-4:63ff6ed9258c",
+        "eventIndex": 316,
+        "season": 1979,
+        "round": 4,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1979-04-08"
+      },
+      "lastEvent": {
+        "eventId": "event:1981-4:6b44cd5d8184",
+        "eventIndex": 345,
+        "season": 1981,
+        "round": 4,
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola",
+        "eventDate": "1981-05-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1979-4:63ff6ed9258c",
+          "event:1981-4:6b44cd5d8184"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          316,
+          1
+        ],
+        [
+          345,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:gurney:0e0cdc9d2231",
+      "entityName": "Dan Gurney",
+      "value": 679,
+      "firstEvent": {
+        "eventId": "event:1962-6:012879192d2a",
+        "eventIndex": 107,
+        "season": 1962,
+        "round": 6,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1962-08-05"
+      },
+      "lastEvent": {
+        "eventId": "event:1964-3:e090ffbc3c92",
+        "eventIndex": 123,
+        "season": 1964,
+        "round": 3,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1964-06-14"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:gurney:0e0cdc9d2231",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1962-6:012879192d2a",
+          "event:1964-3:e090ffbc3c92"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          107,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          123,
+          1
+        ]
+      ],
+      "rank": 60
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 630,
+      "firstEvent": {
+        "eventId": "event:1983-14:d2852dda4cd5",
+        "eventIndex": 386,
+        "season": 1983,
+        "round": 14,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "brands_hatch",
+        "eventDate": "1983-09-25"
+      },
+      "lastEvent": {
+        "eventId": "event:1985-5:8b147914dc51",
+        "eventIndex": 408,
+        "season": 1985,
+        "round": 5,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve",
+        "eventDate": "1985-06-16"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:angelis:e8033183b98b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1983-14:d2852dda4cd5",
+          "event:1985-5:8b147914dc51"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          386,
+          1
+        ],
+        [
+          388,
+          1
+        ],
+        [
+          408,
+          1
+        ]
+      ],
+      "rank": 61
+    },
+    {
+      "entityId": "driver:hunt:c0af61d2ad52",
+      "entityName": "James Hunt",
+      "value": 616,
+      "firstEvent": {
+        "eventId": "event:1976-1:0d14c591747c",
+        "eventIndex": 264,
+        "season": 1976,
+        "round": 1,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "1976-01-25"
+      },
+      "lastEvent": {
+        "eventId": "event:1977-15:9cb7df8f63ef",
+        "eventIndex": 294,
+        "season": 1977,
+        "round": 15,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1977-10-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hunt:c0af61d2ad52",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1976-1:0d14c591747c",
+          "event:1977-15:9cb7df8f63ef"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          264,
+          1
+        ],
+        [
+          265,
+          1
+        ],
+        [
+          267,
+          1
+        ],
+        [
+          271,
+          1
+        ],
+        [
+          273,
+          1
+        ],
+        [
+          274,
+          1
+        ],
+        [
+          277,
+          1
+        ],
+        [
+          278,
+          1
+        ],
+        [
+          280,
+          1
+        ],
+        [
+          281,
+          1
+        ],
+        [
+          282,
+          1
+        ],
+        [
+          289,
+          1
+        ],
+        [
+          293,
+          1
+        ],
+        [
+          294,
+          1
+        ]
+      ],
+      "rank": 62
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 595,
+      "firstEvent": {
+        "eventId": "event:1996-1:ed8794849812",
+        "eventIndex": 581,
+        "season": 1996,
+        "round": 1,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park",
+        "eventDate": "1996-03-10"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-17:ad611116f382",
+        "eventIndex": 613,
+        "season": 1997,
+        "round": 17,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "jerez",
+        "eventDate": "1997-10-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:villeneuve:5349509be1a5",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1996-1:ed8794849812",
+          "event:1997-17:ad611116f382"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          581,
+          1
+        ],
+        [
+          593,
+          1
+        ],
+        [
+          596,
+          1
+        ],
+        [
+          597,
+          1
+        ],
+        [
+          598,
+          1
+        ],
+        [
+          599,
+          1
+        ],
+        [
+          600,
+          1
+        ],
+        [
+          602,
+          1
+        ],
+        [
+          605,
+          1
+        ],
+        [
+          608,
+          1
+        ],
+        [
+          610,
+          1
+        ],
+        [
+          612,
+          1
+        ],
+        [
+          613,
+          1
+        ]
+      ],
+      "rank": 63
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "value": 441,
+      "firstEvent": {
+        "eventId": "event:1958-2:8efe76914f4f",
+        "eventIndex": 65,
+        "season": 1958,
+        "round": 2,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1958-05-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1959-6:58ca7d89a202",
+        "eventIndex": 80,
+        "season": 1959,
+        "round": 6,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "avus",
+        "eventDate": "1959-08-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:brooks:4c43a3935c07",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1958-2:8efe76914f4f",
+          "event:1959-6:58ca7d89a202"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          65,
+          1
+        ],
+        [
+          78,
+          1
+        ],
+        [
+          80,
+          1
+        ]
+      ],
+      "rank": 64
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 420,
+      "firstEvent": {
+        "eventId": "event:1983-2:d14713d22b98",
+        "eventIndex": 374,
+        "season": 1983,
+        "round": 2,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1983-03-27"
+      },
+      "lastEvent": {
+        "eventId": "event:1984-5:7727e1364ea2",
+        "eventIndex": 392,
+        "season": 1984,
+        "round": 5,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "dijon",
+        "eventDate": "1984-05-20"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:tambay:da914d6b903c",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1983-2:d14713d22b98",
+          "event:1984-5:7727e1364ea2"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          374,
+          1
+        ],
+        [
+          382,
+          1
+        ],
+        [
+          383,
+          1
+        ],
+        [
+          387,
+          1
+        ],
+        [
+          392,
+          1
+        ]
+      ],
+      "rank": 65
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "value": 406,
+      "firstEvent": {
+        "eventId": "event:1977-6:3513a7fb3ba7",
+        "eventIndex": 285,
+        "season": 1977,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1977-05-22"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-9:ff275b6282ad",
+        "eventIndex": 305,
+        "season": 1978,
+        "round": 9,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard",
+        "eventDate": "1978-07-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:watson:fc3a45a5856b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1977-6:3513a7fb3ba7",
+          "event:1978-9:ff275b6282ad"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          285,
+          1
+        ],
+        [
+          305,
+          1
+        ]
+      ],
+      "rank": 66
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 406,
+      "firstEvent": {
+        "eventId": "event:2022-2:33711984769c",
+        "eventIndex": 1058,
+        "season": 2022,
+        "round": 2,
+        "grandPrixName": "Saudi Arabian Grand Prix",
+        "circuitId": "jeddah",
+        "eventDate": "2022-03-27"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-5:23f52ba15cbf",
+        "eventIndex": 1083,
+        "season": 2023,
+        "round": 5,
+        "grandPrixName": "Miami Grand Prix",
+        "circuitId": "miami",
+        "eventDate": "2023-05-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:perez:03c631191055",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2022-2:33711984769c",
+          "event:2023-5:23f52ba15cbf"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1058,
+          1
+        ],
+        [
+          1080,
+          1
+        ],
+        [
+          1083,
+          1
+        ]
+      ],
+      "rank": 66
+    },
+    {
+      "entityId": "driver:fabi:fe5cfb0089b2",
+      "entityName": "Teo Fabi",
+      "value": 399,
+      "firstEvent": {
+        "eventId": "event:1985-9:b01ccfdc7f94",
+        "eventIndex": 412,
+        "season": 1985,
+        "round": 9,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1985-08-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1986-13:03c3bbd16fe4",
+        "eventIndex": 432,
+        "season": 1986,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1986-09-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:fabi:fe5cfb0089b2",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1985-9:b01ccfdc7f94",
+          "event:1986-13:03c3bbd16fe4"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          412,
+          1
+        ],
+        [
+          431,
+          1
+        ],
+        [
+          432,
+          1
+        ]
+      ],
+      "rank": 68
+    },
+    {
+      "entityId": "driver:jones:83ac4230619a",
+      "entityName": "Alan Jones",
+      "value": 393,
+      "firstEvent": {
+        "eventId": "event:1979-9:200afadf1c98",
+        "eventIndex": 321,
+        "season": 1979,
+        "round": 9,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1979-07-14"
+      },
+      "lastEvent": {
+        "eventId": "event:1980-9:01566fc1422d",
+        "eventIndex": 336,
+        "season": 1980,
+        "round": 9,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring",
+        "eventDate": "1980-08-10"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:jones:83ac4230619a",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1979-9:200afadf1c98",
+          "event:1980-9:01566fc1422d"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          321,
+          1
+        ],
+        [
+          326,
+          1
+        ],
+        [
+          327,
+          1
+        ],
+        [
+          328,
+          1
+        ],
+        [
+          332,
+          1
+        ],
+        [
+          336,
+          1
+        ]
+      ],
+      "rank": 69
+    },
+    {
+      "entityId": "driver:jabouille:1481bda9b6cd",
+      "entityName": "Jean-Pierre Jabouille",
+      "value": 364,
+      "firstEvent": {
+        "eventId": "event:1979-3:97954319e32c",
+        "eventIndex": 315,
+        "season": 1979,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1979-03-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1980-3:430474566b1b",
+        "eventIndex": 330,
+        "season": 1980,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1980-03-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:jabouille:1481bda9b6cd",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1979-3:97954319e32c",
+          "event:1980-3:430474566b1b"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          315,
+          1
+        ],
+        [
+          320,
+          1
+        ],
+        [
+          322,
+          1
+        ],
+        [
+          325,
+          1
+        ],
+        [
+          329,
+          1
+        ],
+        [
+          330,
+          1
+        ]
+      ],
+      "rank": 70
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 343,
+      "firstEvent": {
+        "eventId": "event:1984-3:43613aaf308e",
+        "eventIndex": 390,
+        "season": 1984,
+        "round": 3,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "zolder",
+        "eventDate": "1984-04-29"
+      },
+      "lastEvent": {
+        "eventId": "event:1985-1:dba368360a25",
+        "eventIndex": 404,
+        "season": 1985,
+        "round": 1,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "jacarepagua",
+        "eventDate": "1985-04-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:alboreto:2d39fb3c5621",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1984-3:43613aaf308e",
+          "event:1985-1:dba368360a25"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          390,
+          1
+        ],
+        [
+          404,
+          1
+        ]
+      ],
+      "rank": 71
+    },
+    {
+      "entityId": "driver:phil-hill:35d0f98c0d81",
+      "entityName": "Phil Hill",
+      "value": 336,
+      "firstEvent": {
+        "eventId": "event:1960-9:06ca6e69776d",
+        "eventIndex": 92,
+        "season": 1960,
+        "round": 9,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1960-09-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1961-6:d44874e8179f",
+        "eventIndex": 99,
+        "season": 1961,
+        "round": 6,
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "1961-08-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:phil-hill:35d0f98c0d81",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1960-9:06ca6e69776d",
+          "event:1961-6:d44874e8179f"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          92,
+          1
+        ],
+        [
+          95,
+          1
+        ],
+        [
+          96,
+          1
+        ],
+        [
+          97,
+          1
+        ],
+        [
+          98,
+          1
+        ],
+        [
+          99,
+          1
+        ]
+      ],
+      "rank": 72
+    },
+    {
+      "entityId": "driver:lewis-evans:5822738a2722",
+      "entityName": "Stuart Lewis-Evans",
+      "value": 260,
+      "firstEvent": {
+        "eventId": "event:1957-8:c9cb0f1970a9",
+        "eventIndex": 63,
+        "season": 1957,
+        "round": 8,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1957-09-08"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-3:87cc29f3ec4a",
+        "eventIndex": 66,
+        "season": 1958,
+        "round": 3,
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort",
+        "eventDate": "1958-05-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:lewis-evans:5822738a2722",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1957-8:c9cb0f1970a9",
+          "event:1958-3:87cc29f3ec4a"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          63,
+          1
+        ],
+        [
+          66,
+          1
+        ]
+      ],
+      "rank": 73
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 252,
+      "firstEvent": {
+        "eventId": "event:2025-2:e05a33739015",
+        "eventIndex": 1126,
+        "season": 2025,
+        "round": 2,
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai",
+        "eventDate": "2025-03-23"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-23:465c7b16bc45",
+        "eventIndex": 1147,
+        "season": 2025,
+        "round": 23,
+        "grandPrixName": "Qatar Grand Prix",
+        "circuitId": "losail",
+        "eventDate": "2025-11-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:piastri:45bbf3cf700f",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2025-2:e05a33739015",
+          "event:2025-23:465c7b16bc45"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1126,
+          1
+        ],
+        [
+          1128,
+          1
+        ],
+        [
+          1131,
+          1
+        ],
+        [
+          1133,
+          1
+        ],
+        [
+          1139,
+          1
+        ],
+        [
+          1147,
+          1
+        ]
+      ],
+      "rank": 74
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Andrea Kimi Antonelli",
+      "value": 126,
+      "firstEvent": {
+        "eventId": "event:2026-2:f019d4004b94",
+        "eventIndex": 1150,
+        "season": 2026,
+        "round": 2,
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai",
+        "eventDate": "2026-03-15"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-10:962ab94f681f",
+        "eventIndex": 1158,
+        "season": 2026,
+        "round": 10,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "2026-07-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:antonelli:0ab4d82d3440",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2026-2:f019d4004b94",
+          "event:2026-10:962ab94f681f"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1150,
+          1
+        ],
+        [
+          1151,
+          1
+        ],
+        [
+          1152,
+          1
+        ],
+        [
+          1154,
+          1
+        ],
+        [
+          1157,
+          1
+        ],
+        [
+          1158,
+          1
+        ]
+      ],
+      "rank": 75
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 126,
+      "firstEvent": {
+        "eventId": "event:1958-5:eb4a88d2e4e2",
+        "eventIndex": 68,
+        "season": 1958,
+        "round": 5,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1958-06-15"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab",
+        "eventDate": "1958-10-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hawthorn:1ddfcaf579cc",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1958-5:eb4a88d2e4e2",
+          "event:1958-11:dd814aaa246e"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          68,
+          1
+        ],
+        [
+          69,
+          1
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          74,
+          1
+        ]
+      ],
+      "rank": 75
+    },
+    {
+      "entityId": "driver:cesaris:50c29699dea6",
+      "entityName": "Andrea de Cesaris",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1982-04-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach",
+        "eventDate": "1982-04-04"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:cesaris:50c29699dea6",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1982-3:1c0928f579d7",
+          "event:1982-3:1c0928f579d7"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          359,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:vukovich:57f4d36050ed",
+      "entityName": "Bill Vukovich",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1953-2:b3c65aa780e7",
+        "eventIndex": 24,
+        "season": 1953,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1953-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1953-2:b3c65aa780e7",
+        "eventIndex": 24,
+        "season": 1953,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1953-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:vukovich:57f4d36050ed",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1953-2:b3c65aa780e7",
+          "event:1953-2:b3c65aa780e7"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          24,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:giacomelli:45f5255cb8b8",
+      "entityName": "Bruno Giacomelli",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1980-14:a18abdf1aad8",
+        "eventIndex": 341,
+        "season": 1980,
+        "round": 14,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1980-10-05"
+      },
+      "lastEvent": {
+        "eventId": "event:1980-14:a18abdf1aad8",
+        "eventIndex": 341,
+        "season": 1980,
+        "round": 14,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1980-10-05"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:giacomelli:45f5255cb8b8",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1980-14:a18abdf1aad8",
+          "event:1980-14:a18abdf1aad8"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          341,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:pace:f2913e9cfb72",
+      "entityName": "Carlos Pace",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1975-3:a99a3bc19c13",
+        "eventIndex": 252,
+        "season": 1975,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1975-03-01"
+      },
+      "lastEvent": {
+        "eventId": "event:1975-3:a99a3bc19c13",
+        "eventIndex": 252,
+        "season": 1975,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1975-03-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:pace:f2913e9cfb72",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1975-3:a99a3bc19c13",
+          "event:1975-3:a99a3bc19c13"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          252,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1973-3:251b61ad7700",
+        "eventIndex": 222,
+        "season": 1973,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1973-03-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1973-3:251b61ad7700",
+        "eventIndex": 222,
+        "season": 1973,
+        "round": 3,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1973-03-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1973-3:251b61ad7700",
+          "event:1973-3:251b61ad7700"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          222,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:dick-rathmann:ee98bc60c01b",
+      "entityName": "Dick Rathmann",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1958-4:bbcb0b4348e4",
+        "eventIndex": 67,
+        "season": 1958,
+        "round": 4,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1958-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-4:bbcb0b4348e4",
+        "eventIndex": 67,
+        "season": 1958,
+        "round": 4,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1958-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:dick-rathmann:ee98bc60c01b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1958-4:bbcb0b4348e4",
+          "event:1958-4:bbcb0b4348e4"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          67,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:nalon:35ff5963cc4d",
+      "entityName": "Duke Nalon",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1951-2:9f5b3cbfb678",
+        "eventIndex": 8,
+        "season": 1951,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1951-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1951-2:9f5b3cbfb678",
+        "eventIndex": 8,
+        "season": 1951,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1951-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:nalon:35ff5963cc4d",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1951-2:9f5b3cbfb678",
+          "event:1951-2:9f5b3cbfb678"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          8,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:sachs:79e7e4b605c6",
+      "entityName": "Eddie Sachs",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1960-3:923ea1f02fc0",
+        "eventIndex": 86,
+        "season": 1960,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1960-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1960-3:923ea1f02fc0",
+        "eventIndex": 86,
+        "season": 1960,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1960-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:sachs:79e7e4b605c6",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1960-3:923ea1f02fc0",
+          "event:1960-3:923ea1f02fc0"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          86,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:castellotti:29de409c0984",
+      "entityName": "Eugenio Castellotti",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1955-4:c773a7513ec5",
+        "eventIndex": 44,
+        "season": 1955,
+        "round": 4,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1955-06-05"
+      },
+      "lastEvent": {
+        "eventId": "event:1955-4:c773a7513ec5",
+        "eventIndex": 44,
+        "season": 1955,
+        "round": 4,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1955-06-05"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:castellotti:29de409c0984",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1955-4:c773a7513ec5",
+          "event:1955-4:c773a7513ec5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          44,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:agabashian:09e7d8a15c53",
+      "entityName": "Fred Agabashian",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1952-2:057eea6bc01a",
+        "eventIndex": 16,
+        "season": 1952,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1952-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1952-2:057eea6bc01a",
+        "eventIndex": 16,
+        "season": 1952,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1952-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:agabashian:09e7d8a15c53",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1952-2:057eea6bc01a",
+          "event:1952-2:057eea6bc01a"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          16,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2008-9:c16aadd50078",
+        "eventIndex": 793,
+        "season": 2008,
+        "round": 9,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "2008-07-06"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-9:c16aadd50078",
+        "eventIndex": 793,
+        "season": 2008,
+        "round": 9,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "2008-07-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:kovalainen:dc8d8c106e70",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2008-9:c16aadd50078",
+          "event:2008-9:c16aadd50078"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          793,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:mcgrath:f9c176323e1c",
+      "entityName": "Jack McGrath",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1954-2:5240004faa52",
+        "eventIndex": 33,
+        "season": 1954,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1954-05-31"
+      },
+      "lastEvent": {
+        "eventId": "event:1954-2:5240004faa52",
+        "eventIndex": 33,
+        "season": 1954,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1954-05-31"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:mcgrath:f9c176323e1c",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1954-2:5240004faa52",
+          "event:1954-2:5240004faa52"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          33,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:hoyt:ff4b039bfe11",
+      "entityName": "Jerry Hoyt",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1955-3:38bb4803a341",
+        "eventIndex": 43,
+        "season": 1955,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1955-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1955-3:38bb4803a341",
+        "eventIndex": 43,
+        "season": 1955,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1955-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hoyt:ff4b039bfe11",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1955-3:38bb4803a341",
+          "event:1955-3:38bb4803a341"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          43,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:bonnier:5fc11359a468",
+      "entityName": "Jo Bonnier",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1959-3:9a9661ca0e19",
+        "eventIndex": 77,
+        "season": 1959,
+        "round": 3,
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort",
+        "eventDate": "1959-05-31"
+      },
+      "lastEvent": {
+        "eventId": "event:1959-3:9a9661ca0e19",
+        "eventIndex": 77,
+        "season": 1959,
+        "round": 3,
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort",
+        "eventDate": "1959-05-31"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:bonnier:5fc11359a468",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1959-3:9a9661ca0e19",
+          "event:1959-3:9a9661ca0e19"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          77,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:thomson:c53e1f767be3",
+      "entityName": "Johnny Thomson",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1959-2:6e8dc304cb95",
+        "eventIndex": 76,
+        "season": 1959,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1959-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1959-2:6e8dc304cb95",
+        "eventIndex": 76,
+        "season": 1959,
+        "round": 2,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1959-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:thomson:c53e1f767be3",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1959-2:6e8dc304cb95",
+          "event:1959-2:6e8dc304cb95"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          76,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul",
+        "eventDate": "2020-11-15"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul",
+        "eventDate": "2020-11-15"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:stroll:ab76996efc92",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2020-14:25feaca11eb8",
+          "event:2020-14:25feaca11eb8"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1031,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:bandini:7f67fa49cbac",
+      "entityName": "Lorenzo Bandini",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1966-3:fefe5ea0765d",
+        "eventIndex": 143,
+        "season": 1966,
+        "round": 3,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims",
+        "eventDate": "1966-07-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1966-3:fefe5ea0765d",
+        "eventIndex": 143,
+        "season": 1966,
+        "round": 3,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims",
+        "eventDate": "1966-07-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:bandini:7f67fa49cbac",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1966-3:fefe5ea0765d",
+          "event:1966-3:fefe5ea0765d"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          143,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:parkes:7f840207ba67",
+      "entityName": "Mike Parkes",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1966-7:d7b3b5648f4d",
+        "eventIndex": 147,
+        "season": 1966,
+        "round": 7,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1966-09-04"
+      },
+      "lastEvent": {
+        "eventId": "event:1966-7:d7b3b5648f4d",
+        "eventIndex": 147,
+        "season": 1966,
+        "round": 7,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1966-09-04"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:parkes:7f840207ba67",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1966-7:d7b3b5648f4d",
+          "event:1966-7:d7b3b5648f4d"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          147,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2005-7:ed1c5b7920af",
+        "eventIndex": 737,
+        "season": 2005,
+        "round": 7,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "2005-05-29"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-7:ed1c5b7920af",
+        "eventIndex": 737,
+        "season": 2005,
+        "round": 7,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring",
+        "eventDate": "2005-05-29"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:heidfeld:93c047ca98eb",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2005-7:ed1c5b7920af",
+          "event:2005-7:ed1c5b7920af"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          737,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2010-18:d7b9498d498c",
+        "eventIndex": 837,
+        "season": 2010,
+        "round": 18,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2010-11-07"
+      },
+      "lastEvent": {
+        "eventId": "event:2010-18:d7b9498d498c",
+        "eventIndex": 837,
+        "season": 2010,
+        "round": 18,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2010-11-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:hulkenberg:2b1121e9241c",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2010-18:d7b9498d498c",
+          "event:2010-18:d7b9498d498c"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          837,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya",
+        "eventDate": "2012-05-13"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya",
+        "eventDate": "2012-05-13"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:maldonado:87cbc81409ca",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2012-5:8aaf0aead23f",
+          "event:2012-5:8aaf0aead23f"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          862,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:flaherty:788ffe6330c5",
+      "entityName": "Pat Flaherty",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1956-3:c8841ba792f6",
+        "eventIndex": 50,
+        "season": 1956,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1956-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1956-3:c8841ba792f6",
+        "eventIndex": 50,
+        "season": 1956,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1956-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:flaherty:788ffe6330c5",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1956-3:c8841ba792f6",
+          "event:1956-3:c8841ba792f6"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          50,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:connor:2805a88a8f76",
+      "entityName": "Pat O'Connor",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1957-3:7879775c4522",
+        "eventIndex": 58,
+        "season": 1957,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1957-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1957-3:7879775c4522",
+        "eventIndex": 58,
+        "season": 1957,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1957-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:connor:2805a88a8f76",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1957-3:7879775c4522",
+          "event:1957-3:7879775c4522"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          58,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:depailler:b5cf50bce46d",
+      "entityName": "Patrick Depailler",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1974-7:517bd1153da2",
+        "eventIndex": 241,
+        "season": 1974,
+        "round": 7,
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp",
+        "eventDate": "1974-06-09"
+      },
+      "lastEvent": {
+        "eventId": "event:1974-7:517bd1153da2",
+        "eventIndex": 241,
+        "season": 1974,
+        "round": 7,
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp",
+        "eventDate": "1974-06-09"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:depailler:b5cf50bce46d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1974-7:517bd1153da2",
+          "event:1974-7:517bd1153da2"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          241,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:revson:a43291d81deb",
+      "entityName": "Peter Revson",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1972-11:a52dce520a38",
+        "eventIndex": 218,
+        "season": 1972,
+        "round": 11,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport",
+        "eventDate": "1972-09-24"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-11:a52dce520a38",
+        "eventIndex": 218,
+        "season": 1972,
+        "round": 11,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport",
+        "eventDate": "1972-09-24"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:revson:a43291d81deb",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1972-11:a52dce520a38",
+          "event:1972-11:a52dce520a38"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          218,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2008-3:a20cfa7c9d35",
+        "eventIndex": 787,
+        "season": 2008,
+        "round": 3,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2008-04-06"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-3:a20cfa7c9d35",
+        "eventIndex": 787,
+        "season": 2008,
+        "round": 3,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2008-04-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:kubica:54803f2070f9",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2008-3:a20cfa7c9d35",
+          "event:2008-3:a20cfa7c9d35"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          787,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1990-10:fe1d33cbf821",
+        "eventIndex": 493,
+        "season": 1990,
+        "round": 10,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "1990-08-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1990-10:fe1d33cbf821",
+        "eventIndex": 493,
+        "season": 1990,
+        "round": 10,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "1990-08-12"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:boutsen:956ebe879bfd",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1990-10:fe1d33cbf821",
+          "event:1990-10:fe1d33cbf821"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          493,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:pryce:39ca1ccd66f2",
+      "entityName": "Tom Pryce",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1975-10:073f5ae90da1",
+        "eventIndex": 259,
+        "season": 1975,
+        "round": 10,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1975-07-19"
+      },
+      "lastEvent": {
+        "eventId": "event:1975-10:073f5ae90da1",
+        "eventIndex": 259,
+        "season": 1975,
+        "round": 10,
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone",
+        "eventDate": "1975-07-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:pryce:39ca1ccd66f2",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1975-10:073f5ae90da1",
+          "event:1975-10:073f5ae90da1"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          259,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:brambilla:080b064099a9",
+      "entityName": "Vittorio Brambilla",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1975-7:cfc5b7f6b03b",
+        "eventIndex": 256,
+        "season": 1975,
+        "round": 7,
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp",
+        "eventDate": "1975-06-08"
+      },
+      "lastEvent": {
+        "eventId": "event:1975-7:cfc5b7f6b03b",
+        "eventIndex": 256,
+        "season": 1975,
+        "round": 7,
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp",
+        "eventDate": "1975-06-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:brambilla:080b064099a9",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1975-7:cfc5b7f6b03b",
+          "event:1975-7:cfc5b7f6b03b"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          256,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:faulkner:8908310cfca3",
+      "entityName": "Walt Faulkner",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1950-3:ec906a594187",
+        "eventIndex": 2,
+        "season": 1950,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1950-05-30"
+      },
+      "lastEvent": {
+        "eventId": "event:1950-3:ec906a594187",
+        "eventIndex": 2,
+        "season": 1950,
+        "round": 3,
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis",
+        "eventDate": "1950-05-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:faulkner:8908310cfca3",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1950-3:ec906a594187",
+          "event:1950-3:ec906a594187"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 77
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1961-7:a91a6b659163",
+        "eventIndex": 100,
+        "season": 1961,
+        "round": 7,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1961-09-10"
+      },
+      "lastEvent": {
+        "eventId": "event:1961-7:a91a6b659163",
+        "eventIndex": 100,
+        "season": 1961,
+        "round": 7,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "1961-09-10"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:trips:e05d10e5e75a",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:1961-7:a91a6b659163",
+          "event:1961-7:a91a6b659163"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          100,
+          1
+        ]
+      ],
+      "rank": 77
+    }
+  ],
+  "loadedRowCount": 107,
+  "pagination": null
+}

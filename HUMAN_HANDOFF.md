@@ -6,6 +6,27 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### Authoritative Stats Lab production v1
+
+This section supersedes the older Stats Lab Beta candidate description below.
+`f1/stats-lab/v1/` is the single production channel and contains 229 public
+files. Its formal catalogue registers 301 products: 157 evidence-complete
+public metrics and 144 external-evidence-blocked products, with zero
+evidence-complete actionable products left unpublished.
+
+The bound Results Archive Beta input covers 77 seasons, 1,159 Grands Prix and
+26,121 classification rows. Stats Lab publishes 823 driver and 207 constructor
+identities, exact event indexes, lazy metric files, pagination for large
+rankings, and generic detail shards. All 157 metric summaries and 71,030 rows
+reconcile to their line-by-line detail evidence. `f1/stats-lab/beta/v1/` now
+contains only a retired compatibility manifest pointing consumers to v1.
+
+The stable Results Archive v1 manifest and 2026 season byte identities are
+unchanged. Two independent producer generations were byte-identical, the live
+tree matched the fresh candidate exactly, and the full production audit passed
+archive binding, checksums, catalogue, Beta retirement, reconciliation,
+acceptance invariants, and stable-v1 preservation.
+
 ### Separate Beta v1 candidates
 
 The working tree contains two additive, separately namespaced Beta candidates.

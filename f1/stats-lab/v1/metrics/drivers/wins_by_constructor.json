@@ -1,0 +1,8566 @@
+{
+  "schemaVersion": "stats-lab-production-metric.v1",
+  "entity": "drivers",
+  "statisticId": "wins_by_constructor",
+  "metricId": "winsByConstructor",
+  "title": "Wins by Constructor",
+  "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by constructor.",
+  "calculationId": "grouped_count",
+  "factType": "win",
+  "presentation": "driver-constructor",
+  "groupingDimension": "constructor",
+  "countingUnit": "official Grand Prix wins",
+  "defaultSort": "desc",
+  "rangeBehavior": {
+    "supported": true,
+    "modes": [
+      "all-time",
+      "current-season",
+      "last-5-seasons",
+      "custom"
+    ],
+    "eventBoundaries": true
+  },
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "asOfRaceDate": "2026-07-19",
+    "seasonCount": 77,
+    "raceCount": 1159,
+    "classificationRowCount": 26121,
+    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+  },
+  "rowCount": 194,
+  "rows": [
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 84,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hamilton:528ad2ac33fa",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          887,
+          1
+        ],
+        [
+          898,
+          1
+        ],
+        [
+          899,
+          1
+        ],
+        [
+          900,
+          1
+        ],
+        [
+          901,
+          1
+        ],
+        [
+          905,
+          1
+        ],
+        [
+          909,
+          1
+        ],
+        [
+          910,
+          1
+        ],
+        [
+          911,
+          1
+        ],
+        [
+          912,
+          1
+        ],
+        [
+          913,
+          1
+        ],
+        [
+          915,
+          1
+        ],
+        [
+          916,
+          1
+        ],
+        [
+          918,
+          1
+        ],
+        [
+          919,
+          1
+        ],
+        [
+          922,
+          1
+        ],
+        [
+          924,
+          1
+        ],
+        [
+          926,
+          1
+        ],
+        [
+          927,
+          1
+        ],
+        [
+          929,
+          1
+        ],
+        [
+          930,
+          1
+        ],
+        [
+          931,
+          1
+        ],
+        [
+          940,
+          1
+        ],
+        [
+          941,
+          1
+        ],
+        [
+          943,
+          1
+        ],
+        [
+          944,
+          1
+        ],
+        [
+          945,
+          1
+        ],
+        [
+          946,
+          1
+        ],
+        [
+          952,
+          1
+        ],
+        [
+          953,
+          1
+        ],
+        [
+          954,
+          1
+        ],
+        [
+          955,
+          1
+        ],
+        [
+          957,
+          1
+        ],
+        [
+          960,
+          1
+        ],
+        [
+          962,
+          1
+        ],
+        [
+          965,
+          1
+        ],
+        [
+          967,
+          1
+        ],
+        [
+          968,
+          1
+        ],
+        [
+          969,
+          1
+        ],
+        [
+          971,
+          1
+        ],
+        [
+          972,
+          1
+        ],
+        [
+          979,
+          1
+        ],
+        [
+          980,
+          1
+        ],
+        [
+          983,
+          1
+        ],
+        [
+          986,
+          1
+        ],
+        [
+          987,
+          1
+        ],
+        [
+          989,
+          1
+        ],
+        [
+          990,
+          1
+        ],
+        [
+          991,
+          1
+        ],
+        [
+          992,
+          1
+        ],
+        [
+          995,
+          1
+        ],
+        [
+          996,
+          1
+        ],
+        [
+          998,
+          1
+        ],
+        [
+          999,
+          1
+        ],
+        [
+          1001,
+          1
+        ],
+        [
+          1002,
+          1
+        ],
+        [
+          1003,
+          1
+        ],
+        [
+          1004,
+          1
+        ],
+        [
+          1006,
+          1
+        ],
+        [
+          1008,
+          1
+        ],
+        [
+          1012,
+          1
+        ],
+        [
+          1014,
+          1
+        ],
+        [
+          1017,
+          1
+        ],
+        [
+          1019,
+          1
+        ],
+        [
+          1020,
+          1
+        ],
+        [
+          1021,
+          1
+        ],
+        [
+          1023,
+          1
+        ],
+        [
+          1024,
+          1
+        ],
+        [
+          1026,
+          1
+        ],
+        [
+          1028,
+          1
+        ],
+        [
+          1029,
+          1
+        ],
+        [
+          1030,
+          1
+        ],
+        [
+          1031,
+          1
+        ],
+        [
+          1032,
+          1
+        ],
+        [
+          1035,
+          1
+        ],
+        [
+          1037,
+          1
+        ],
+        [
+          1038,
+          1
+        ],
+        [
+          1044,
+          1
+        ],
+        [
+          1049,
+          1
+        ],
+        [
+          1053,
+          1
+        ],
+        [
+          1054,
+          1
+        ],
+        [
+          1055,
+          1
+        ],
+        [
+          1112,
+          1
+        ],
+        [
+          1114,
+          1
+        ]
+      ],
+      "rank": 1
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 72,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:michael-schumacher:6f4f07ba2368",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          587,
+          1
+        ],
+        [
+          593,
+          1
+        ],
+        [
+          594,
+          1
+        ],
+        [
+          601,
+          1
+        ],
+        [
+          603,
+          1
+        ],
+        [
+          604,
+          1
+        ],
+        [
+          608,
+          1
+        ],
+        [
+          612,
+          1
+        ],
+        [
+          616,
+          1
+        ],
+        [
+          620,
+          1
+        ],
+        [
+          621,
+          1
+        ],
+        [
+          622,
+          1
+        ],
+        [
+          625,
+          1
+        ],
+        [
+          627,
+          1
+        ],
+        [
+          632,
+          1
+        ],
+        [
+          633,
+          1
+        ],
+        [
+          646,
+          1
+        ],
+        [
+          647,
+          1
+        ],
+        [
+          648,
+          1
+        ],
+        [
+          651,
+          1
+        ],
+        [
+          653,
+          1
+        ],
+        [
+          659,
+          1
+        ],
+        [
+          660,
+          1
+        ],
+        [
+          661,
+          1
+        ],
+        [
+          662,
+          1
+        ],
+        [
+          663,
+          1
+        ],
+        [
+          664,
+          1
+        ],
+        [
+          667,
+          1
+        ],
+        [
+          669,
+          1
+        ],
+        [
+          671,
+          1
+        ],
+        [
+          672,
+          1
+        ],
+        [
+          675,
+          1
+        ],
+        [
+          676,
+          1
+        ],
+        [
+          679,
+          1
+        ],
+        [
+          680,
+          1
+        ],
+        [
+          682,
+          1
+        ],
+        [
+          683,
+          1
+        ],
+        [
+          684,
+          1
+        ],
+        [
+          685,
+          1
+        ],
+        [
+          687,
+          1
+        ],
+        [
+          689,
+          1
+        ],
+        [
+          690,
+          1
+        ],
+        [
+          691,
+          1
+        ],
+        [
+          693,
+          1
+        ],
+        [
+          696,
+          1
+        ],
+        [
+          700,
+          1
+        ],
+        [
+          701,
+          1
+        ],
+        [
+          702,
+          1
+        ],
+        [
+          704,
+          1
+        ],
+        [
+          710,
+          1
+        ],
+        [
+          711,
+          1
+        ],
+        [
+          713,
+          1
+        ],
+        [
+          714,
+          1
+        ],
+        [
+          715,
+          1
+        ],
+        [
+          716,
+          1
+        ],
+        [
+          717,
+          1
+        ],
+        [
+          719,
+          1
+        ],
+        [
+          720,
+          1
+        ],
+        [
+          721,
+          1
+        ],
+        [
+          722,
+          1
+        ],
+        [
+          723,
+          1
+        ],
+        [
+          724,
+          1
+        ],
+        [
+          725,
+          1
+        ],
+        [
+          729,
+          1
+        ],
+        [
+          739,
+          1
+        ],
+        [
+          753,
+          1
+        ],
+        [
+          754,
+          1
+        ],
+        [
+          759,
+          1
+        ],
+        [
+          760,
+          1
+        ],
+        [
+          761,
+          1
+        ],
+        [
+          764,
+          1
+        ],
+        [
+          765,
+          1
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "value": 71,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:max-verstappen:1f6847211200",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:red-bull:8307f488a798",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          939,
+          1
+        ],
+        [
+          970,
+          1
+        ],
+        [
+          973,
+          1
+        ],
+        [
+          984,
+          1
+        ],
+        [
+          994,
+          1
+        ],
+        [
+          1005,
+          1
+        ],
+        [
+          1007,
+          1
+        ],
+        [
+          1016,
+          1
+        ],
+        [
+          1022,
+          1
+        ],
+        [
+          1034,
+          1
+        ],
+        [
+          1036,
+          1
+        ],
+        [
+          1039,
+          1
+        ],
+        [
+          1041,
+          1
+        ],
+        [
+          1042,
+          1
+        ],
+        [
+          1043,
+          1
+        ],
+        [
+          1046,
+          1
+        ],
+        [
+          1047,
+          1
+        ],
+        [
+          1051,
+          1
+        ],
+        [
+          1052,
+          1
+        ],
+        [
+          1056,
+          1
+        ],
+        [
+          1058,
+          1
+        ],
+        [
+          1060,
+          1
+        ],
+        [
+          1061,
+          1
+        ],
+        [
+          1062,
+          1
+        ],
+        [
+          1064,
+          1
+        ],
+        [
+          1065,
+          1
+        ],
+        [
+          1068,
+          1
+        ],
+        [
+          1069,
+          1
+        ],
+        [
+          1070,
+          1
+        ],
+        [
+          1071,
+          1
+        ],
+        [
+          1072,
+          1
+        ],
+        [
+          1074,
+          1
+        ],
+        [
+          1075,
+          1
+        ],
+        [
+          1076,
+          1
+        ],
+        [
+          1078,
+          1
+        ],
+        [
+          1079,
+          1
+        ],
+        [
+          1081,
+          1
+        ],
+        [
+          1083,
+          1
+        ],
+        [
+          1084,
+          1
+        ],
+        [
+          1085,
+          1
+        ],
+        [
+          1086,
+          1
+        ],
+        [
+          1087,
+          1
+        ],
+        [
+          1088,
+          1
+        ],
+        [
+          1089,
+          1
+        ],
+        [
+          1090,
+          1
+        ],
+        [
+          1091,
+          1
+        ],
+        [
+          1092,
+          1
+        ],
+        [
+          1094,
+          1
+        ],
+        [
+          1095,
+          1
+        ],
+        [
+          1096,
+          1
+        ],
+        [
+          1097,
+          1
+        ],
+        [
+          1098,
+          1
+        ],
+        [
+          1099,
+          1
+        ],
+        [
+          1100,
+          1
+        ],
+        [
+          1101,
+          1
+        ],
+        [
+          1102,
+          1
+        ],
+        [
+          1104,
+          1
+        ],
+        [
+          1105,
+          1
+        ],
+        [
+          1107,
+          1
+        ],
+        [
+          1109,
+          1
+        ],
+        [
+          1110,
+          1
+        ],
+        [
+          1121,
+          1
+        ],
+        [
+          1123,
+          1
+        ],
+        [
+          1127,
+          1
+        ],
+        [
+          1131,
+          1
+        ],
+        [
+          1140,
+          1
+        ],
+        [
+          1141,
+          1
+        ],
+        [
+          1143,
+          1
+        ],
+        [
+          1146,
+          1
+        ],
+        [
+          1147,
+          1
+        ],
+        [
+          1148,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "value": 38,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:red-bull:8307f488a798",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          805,
+          1
+        ],
+        [
+          810,
+          1
+        ],
+        [
+          817,
+          1
+        ],
+        [
+          819,
+          1
+        ],
+        [
+          822,
+          1
+        ],
+        [
+          828,
+          1
+        ],
+        [
+          835,
+          1
+        ],
+        [
+          837,
+          1
+        ],
+        [
+          838,
+          1
+        ],
+        [
+          839,
+          1
+        ],
+        [
+          840,
+          1
+        ],
+        [
+          842,
+          1
+        ],
+        [
+          843,
+          1
+        ],
+        [
+          844,
+          1
+        ],
+        [
+          846,
+          1
+        ],
+        [
+          850,
+          1
+        ],
+        [
+          851,
+          1
+        ],
+        [
+          852,
+          1
+        ],
+        [
+          854,
+          1
+        ],
+        [
+          855,
+          1
+        ],
+        [
+          861,
+          1
+        ],
+        [
+          871,
+          1
+        ],
+        [
+          872,
+          1
+        ],
+        [
+          873,
+          1
+        ],
+        [
+          874,
+          1
+        ],
+        [
+          879,
+          1
+        ],
+        [
+          881,
+          1
+        ],
+        [
+          884,
+          1
+        ],
+        [
+          886,
+          1
+        ],
+        [
+          888,
+          1
+        ],
+        [
+          889,
+          1
+        ],
+        [
+          890,
+          1
+        ],
+        [
+          891,
+          1
+        ],
+        [
+          892,
+          1
+        ],
+        [
+          893,
+          1
+        ],
+        [
+          894,
+          1
+        ],
+        [
+          895,
+          1
+        ],
+        [
+          896,
+          1
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 35,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:senna:97c74c7d172e",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          453,
+          1
+        ],
+        [
+          456,
+          1
+        ],
+        [
+          457,
+          1
+        ],
+        [
+          459,
+          1
+        ],
+        [
+          460,
+          1
+        ],
+        [
+          461,
+          1
+        ],
+        [
+          462,
+          1
+        ],
+        [
+          466,
+          1
+        ],
+        [
+          469,
+          1
+        ],
+        [
+          470,
+          1
+        ],
+        [
+          471,
+          1
+        ],
+        [
+          476,
+          1
+        ],
+        [
+          478,
+          1
+        ],
+        [
+          481,
+          1
+        ],
+        [
+          484,
+          1
+        ],
+        [
+          487,
+          1
+        ],
+        [
+          488,
+          1
+        ],
+        [
+          492,
+          1
+        ],
+        [
+          494,
+          1
+        ],
+        [
+          495,
+          1
+        ],
+        [
+          500,
+          1
+        ],
+        [
+          501,
+          1
+        ],
+        [
+          502,
+          1
+        ],
+        [
+          503,
+          1
+        ],
+        [
+          509,
+          1
+        ],
+        [
+          510,
+          1
+        ],
+        [
+          515,
+          1
+        ],
+        [
+          521,
+          1
+        ],
+        [
+          526,
+          1
+        ],
+        [
+          528,
+          1
+        ],
+        [
+          533,
+          1
+        ],
+        [
+          534,
+          1
+        ],
+        [
+          537,
+          1
+        ],
+        [
+          546,
+          1
+        ],
+        [
+          547,
+          1
+        ]
+      ],
+      "rank": 5
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 30,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          388,
+          1
+        ],
+        [
+          391,
+          1
+        ],
+        [
+          393,
+          1
+        ],
+        [
+          398,
+          1
+        ],
+        [
+          400,
+          1
+        ],
+        [
+          402,
+          1
+        ],
+        [
+          403,
+          1
+        ],
+        [
+          404,
+          1
+        ],
+        [
+          407,
+          1
+        ],
+        [
+          411,
+          1
+        ],
+        [
+          413,
+          1
+        ],
+        [
+          415,
+          1
+        ],
+        [
+          422,
+          1
+        ],
+        [
+          423,
+          1
+        ],
+        [
+          431,
+          1
+        ],
+        [
+          435,
+          1
+        ],
+        [
+          436,
+          1
+        ],
+        [
+          438,
+          1
+        ],
+        [
+          447,
+          1
+        ],
+        [
+          452,
+          1
+        ],
+        [
+          454,
+          1
+        ],
+        [
+          455,
+          1
+        ],
+        [
+          458,
+          1
+        ],
+        [
+          464,
+          1
+        ],
+        [
+          465,
+          1
+        ],
+        [
+          467,
+          1
+        ],
+        [
+          472,
+          1
+        ],
+        [
+          474,
+          1
+        ],
+        [
+          475,
+          1
+        ],
+        [
+          479,
+          1
+        ]
+      ],
+      "rank": 6
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 28,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mansell:66de70fd9557",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          417,
+          1
+        ],
+        [
+          418,
+          1
+        ],
+        [
+          424,
+          1
+        ],
+        [
+          425,
+          1
+        ],
+        [
+          427,
+          1
+        ],
+        [
+          428,
+          1
+        ],
+        [
+          433,
+          1
+        ],
+        [
+          437,
+          1
+        ],
+        [
+          441,
+          1
+        ],
+        [
+          442,
+          1
+        ],
+        [
+          445,
+          1
+        ],
+        [
+          448,
+          1
+        ],
+        [
+          449,
+          1
+        ],
+        [
+          506,
+          1
+        ],
+        [
+          507,
+          1
+        ],
+        [
+          508,
+          1
+        ],
+        [
+          511,
+          1
+        ],
+        [
+          513,
+          1
+        ],
+        [
+          516,
+          1
+        ],
+        [
+          517,
+          1
+        ],
+        [
+          518,
+          1
+        ],
+        [
+          519,
+          1
+        ],
+        [
+          520,
+          1
+        ],
+        [
+          523,
+          1
+        ],
+        [
+          524,
+          1
+        ],
+        [
+          525,
+          1
+        ],
+        [
+          529,
+          1
+        ],
+        [
+          563,
+          1
+        ]
+      ],
+      "rank": 7
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 23,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rosberg:f41469d63d30",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          860,
+          1
+        ],
+        [
+          883,
+          1
+        ],
+        [
+          885,
+          1
+        ],
+        [
+          897,
+          1
+        ],
+        [
+          902,
+          1
+        ],
+        [
+          904,
+          1
+        ],
+        [
+          906,
+          1
+        ],
+        [
+          914,
+          1
+        ],
+        [
+          920,
+          1
+        ],
+        [
+          921,
+          1
+        ],
+        [
+          923,
+          1
+        ],
+        [
+          932,
+          1
+        ],
+        [
+          933,
+          1
+        ],
+        [
+          934,
+          1
+        ],
+        [
+          935,
+          1
+        ],
+        [
+          936,
+          1
+        ],
+        [
+          937,
+          1
+        ],
+        [
+          938,
+          1
+        ],
+        [
+          942,
+          1
+        ],
+        [
+          947,
+          1
+        ],
+        [
+          948,
+          1
+        ],
+        [
+          949,
+          1
+        ],
+        [
+          951,
+          1
+        ]
+      ],
+      "rank": 8
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 21,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:damon-hill:3cf4df1bacf7",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          542,
+          1
+        ],
+        [
+          543,
+          1
+        ],
+        [
+          544,
+          1
+        ],
+        [
+          552,
+          1
+        ],
+        [
+          555,
+          1
+        ],
+        [
+          558,
+          1
+        ],
+        [
+          559,
+          1
+        ],
+        [
+          560,
+          1
+        ],
+        [
+          562,
+          1
+        ],
+        [
+          565,
+          1
+        ],
+        [
+          566,
+          1
+        ],
+        [
+          573,
+          1
+        ],
+        [
+          580,
+          1
+        ],
+        [
+          581,
+          1
+        ],
+        [
+          582,
+          1
+        ],
+        [
+          583,
+          1
+        ],
+        [
+          585,
+          1
+        ],
+        [
+          588,
+          1
+        ],
+        [
+          589,
+          1
+        ],
+        [
+          591,
+          1
+        ],
+        [
+          596,
+          1
+        ]
+      ],
+      "rank": 9
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 21,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hamilton:528ad2ac33fa",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          773,
+          1
+        ],
+        [
+          774,
+          1
+        ],
+        [
+          778,
+          1
+        ],
+        [
+          782,
+          1
+        ],
+        [
+          785,
+          1
+        ],
+        [
+          790,
+          1
+        ],
+        [
+          793,
+          1
+        ],
+        [
+          794,
+          1
+        ],
+        [
+          801,
+          1
+        ],
+        [
+          812,
+          1
+        ],
+        [
+          816,
+          1
+        ],
+        [
+          826,
+          1
+        ],
+        [
+          827,
+          1
+        ],
+        [
+          832,
+          1
+        ],
+        [
+          841,
+          1
+        ],
+        [
+          848,
+          1
+        ],
+        [
+          856,
+          1
+        ],
+        [
+          864,
+          1
+        ],
+        [
+          868,
+          1
+        ],
+        [
+          870,
+          1
+        ],
+        [
+          876,
+          1
+        ]
+      ],
+      "rank": 9
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 20,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hakkinen:cb6375fb4ba8",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          613,
+          1
+        ],
+        [
+          614,
+          1
+        ],
+        [
+          615,
+          1
+        ],
+        [
+          618,
+          1
+        ],
+        [
+          619,
+          1
+        ],
+        [
+          623,
+          1
+        ],
+        [
+          624,
+          1
+        ],
+        [
+          628,
+          1
+        ],
+        [
+          629,
+          1
+        ],
+        [
+          631,
+          1
+        ],
+        [
+          634,
+          1
+        ],
+        [
+          635,
+          1
+        ],
+        [
+          640,
+          1
+        ],
+        [
+          645,
+          1
+        ],
+        [
+          650,
+          1
+        ],
+        [
+          655,
+          1
+        ],
+        [
+          657,
+          1
+        ],
+        [
+          658,
+          1
+        ],
+        [
+          673,
+          1
+        ],
+        [
+          678,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "groupId": "constructor:lotus-climax:6989a1181b17",
+      "groupLabel": "Lotus-Climax",
+      "value": 19,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:clark:59d84c3d9fcb",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-climax:6989a1181b17",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          104,
+          1
+        ],
+        [
+          106,
+          1
+        ],
+        [
+          109,
+          1
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          114,
+          1
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          117,
+          1
+        ],
+        [
+          119,
+          1
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          123,
+          1
+        ],
+        [
+          125,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          133,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          135,
+          1
+        ],
+        [
+          136,
+          1
+        ],
+        [
+          137,
+          1
+        ]
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "groupId": "constructor:benetton:58d42bf86808",
+      "groupLabel": "Benetton",
+      "value": 19,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:michael-schumacher:6f4f07ba2368",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:benetton:58d42bf86808",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          527,
+          1
+        ],
+        [
+          545,
+          1
+        ],
+        [
+          548,
+          1
+        ],
+        [
+          549,
+          1
+        ],
+        [
+          550,
+          1
+        ],
+        [
+          551,
+          1
+        ],
+        [
+          553,
+          1
+        ],
+        [
+          554,
+          1
+        ],
+        [
+          557,
+          1
+        ],
+        [
+          561,
+          1
+        ],
+        [
+          564,
+          1
+        ],
+        [
+          567,
+          1
+        ],
+        [
+          568,
+          1
+        ],
+        [
+          570,
+          1
+        ],
+        [
+          572,
+          1
+        ],
+        [
+          574,
+          1
+        ],
+        [
+          577,
+          1
+        ],
+        [
+          578,
+          1
+        ],
+        [
+          579,
+          1
+        ]
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 17,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          709,
+          1
+        ],
+        [
+          732,
+          1
+        ],
+        [
+          733,
+          1
+        ],
+        [
+          734,
+          1
+        ],
+        [
+          737,
+          1
+        ],
+        [
+          740,
+          1
+        ],
+        [
+          742,
+          1
+        ],
+        [
+          749,
+          1
+        ],
+        [
+          750,
+          1
+        ],
+        [
+          752,
+          1
+        ],
+        [
+          755,
+          1
+        ],
+        [
+          756,
+          1
+        ],
+        [
+          757,
+          1
+        ],
+        [
+          758,
+          1
+        ],
+        [
+          766,
+          1
+        ],
+        [
+          799,
+          1
+        ],
+        [
+          800,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "groupId": "constructor:tyrrell:4668e3d16dc0",
+      "groupLabel": "Tyrrell",
+      "value": 15,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:stewart:f46f493c7dd0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:tyrrell:4668e3d16dc0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          198,
+          1
+        ],
+        [
+          199,
+          1
+        ],
+        [
+          201,
+          1
+        ],
+        [
+          202,
+          1
+        ],
+        [
+          203,
+          1
+        ],
+        [
+          206,
+          1
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          218,
+          1
+        ],
+        [
+          219,
+          1
+        ],
+        [
+          222,
+          1
+        ],
+        [
+          224,
+          1
+        ],
+        [
+          225,
+          1
+        ],
+        [
+          229,
+          1
+        ],
+        [
+          230,
+          1
+        ]
+      ],
+      "rank": 15
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 15,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          238,
+          1
+        ],
+        [
+          242,
+          1
+        ],
+        [
+          254,
+          1
+        ],
+        [
+          255,
+          1
+        ],
+        [
+          256,
+          1
+        ],
+        [
+          258,
+          1
+        ],
+        [
+          263,
+          1
+        ],
+        [
+          264,
+          1
+        ],
+        [
+          265,
+          1
+        ],
+        [
+          268,
+          1
+        ],
+        [
+          269,
+          1
+        ],
+        [
+          272,
+          1
+        ],
+        [
+          282,
+          1
+        ],
+        [
+          290,
+          1
+        ],
+        [
+          292,
+          1
+        ]
+      ],
+      "rank": 15
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 14,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          917,
+          1
+        ],
+        [
+          925,
+          1
+        ],
+        [
+          928,
+          1
+        ],
+        [
+          956,
+          1
+        ],
+        [
+          958,
+          1
+        ],
+        [
+          961,
+          1
+        ],
+        [
+          966,
+          1
+        ],
+        [
+          974,
+          1
+        ],
+        [
+          976,
+          1
+        ],
+        [
+          977,
+          1
+        ],
+        [
+          982,
+          1
+        ],
+        [
+          985,
+          1
+        ],
+        [
+          988,
+          1
+        ],
+        [
+          1011,
+          1
+        ]
+      ],
+      "rank": 17
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 13,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ascari:ad5589a1c97f",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          30,
+          1
+        ]
+      ],
+      "rank": 18
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 13,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:piquet:009ec3fd7514",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          331,
+          1
+        ],
+        [
+          338,
+          1
+        ],
+        [
+          339,
+          1
+        ],
+        [
+          344,
+          1
+        ],
+        [
+          345,
+          1
+        ],
+        [
+          351,
+          1
+        ],
+        [
+          364,
+          1
+        ],
+        [
+          373,
+          1
+        ],
+        [
+          385,
+          1
+        ],
+        [
+          386,
+          1
+        ],
+        [
+          394,
+          1
+        ],
+        [
+          395,
+          1
+        ],
+        [
+          410,
+          1
+        ]
+      ],
+      "rank": 18
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 12,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:coulthard:935d583f6514",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          597,
+          1
+        ],
+        [
+          609,
+          1
+        ],
+        [
+          617,
+          1
+        ],
+        [
+          637,
+          1
+        ],
+        [
+          641,
+          1
+        ],
+        [
+          649,
+          1
+        ],
+        [
+          652,
+          1
+        ],
+        [
+          654,
+          1
+        ],
+        [
+          665,
+          1
+        ],
+        [
+          668,
+          1
+        ],
+        [
+          686,
+          1
+        ],
+        [
+          697,
+          1
+        ]
+      ],
+      "rank": 20
+    },
+    {
+      "entityId": "driver:jones:83ac4230619a",
+      "entityName": "Alan Jones",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jones:83ac4230619a",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          322,
+          1
+        ],
+        [
+          323,
+          1
+        ],
+        [
+          324,
+          1
+        ],
+        [
+          326,
+          1
+        ],
+        [
+          328,
+          1
+        ],
+        [
+          334,
+          1
+        ],
+        [
+          335,
+          1
+        ],
+        [
+          340,
+          1
+        ],
+        [
+          341,
+          1
+        ],
+        [
+          342,
+          1
+        ],
+        [
+          356,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:massa:86ab3cfe923d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          763,
+          1
+        ],
+        [
+          767,
+          1
+        ],
+        [
+          770,
+          1
+        ],
+        [
+          771,
+          1
+        ],
+        [
+          779,
+          1
+        ],
+        [
+          787,
+          1
+        ],
+        [
+          789,
+          1
+        ],
+        [
+          792,
+          1
+        ],
+        [
+          796,
+          1
+        ],
+        [
+          797,
+          1
+        ],
+        [
+          802,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          820,
+          1
+        ],
+        [
+          830,
+          1
+        ],
+        [
+          833,
+          1
+        ],
+        [
+          834,
+          1
+        ],
+        [
+          836,
+          1
+        ],
+        [
+          847,
+          1
+        ],
+        [
+          859,
+          1
+        ],
+        [
+          865,
+          1
+        ],
+        [
+          867,
+          1
+        ],
+        [
+          880,
+          1
+        ],
+        [
+          882,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:villeneuve:5349509be1a5",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          584,
+          1
+        ],
+        [
+          590,
+          1
+        ],
+        [
+          592,
+          1
+        ],
+        [
+          595,
+          1
+        ],
+        [
+          598,
+          1
+        ],
+        [
+          599,
+          1
+        ],
+        [
+          602,
+          1
+        ],
+        [
+          605,
+          1
+        ],
+        [
+          607,
+          1
+        ],
+        [
+          610,
+          1
+        ],
+        [
+          611,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1106,
+          1
+        ],
+        [
+          1115,
+          1
+        ],
+        [
+          1118,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1125,
+          1
+        ],
+        [
+          1132,
+          1
+        ],
+        [
+          1135,
+          1
+        ],
+        [
+          1136,
+          1
+        ],
+        [
+          1138,
+          1
+        ],
+        [
+          1144,
+          1
+        ],
+        [
+          1145,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 11,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mario-andretti:9665dc04541a",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          279,
+          1
+        ],
+        [
+          283,
+          1
+        ],
+        [
+          284,
+          1
+        ],
+        [
+          288,
+          1
+        ],
+        [
+          293,
+          1
+        ],
+        [
+          297,
+          1
+        ],
+        [
+          302,
+          1
+        ],
+        [
+          303,
+          1
+        ],
+        [
+          305,
+          1
+        ],
+        [
+          307,
+          1
+        ],
+        [
+          309,
+          1
+        ]
+      ],
+      "rank": 21
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 10,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hill:aa2839db1ccc",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          102,
+          1
+        ],
+        [
+          107,
+          1
+        ],
+        [
+          108,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          111,
+          1
+        ],
+        [
+          118,
+          1
+        ],
+        [
+          121,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          132,
+          1
+        ],
+        [
+          139,
+          1
+        ]
+      ],
+      "rank": 27
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 10,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          768,
+          1
+        ],
+        [
+          775,
+          1
+        ],
+        [
+          776,
+          1
+        ],
+        [
+          781,
+          1
+        ],
+        [
+          783,
+          1
+        ],
+        [
+          784,
+          1
+        ],
+        [
+          786,
+          1
+        ],
+        [
+          788,
+          1
+        ],
+        [
+          814,
+          1
+        ],
+        [
+          993,
+          1
+        ]
+      ],
+      "rank": 27
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 10,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:bottas:cf1711492eee",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          959,
+          1
+        ],
+        [
+          964,
+          1
+        ],
+        [
+          975,
+          1
+        ],
+        [
+          997,
+          1
+        ],
+        [
+          1000,
+          1
+        ],
+        [
+          1013,
+          1
+        ],
+        [
+          1015,
+          1
+        ],
+        [
+          1018,
+          1
+        ],
+        [
+          1027,
+          1
+        ],
+        [
+          1050,
+          1
+        ]
+      ],
+      "rank": 27
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          349,
+          1
+        ],
+        [
+          353,
+          1
+        ],
+        [
+          354,
+          1
+        ],
+        [
+          357,
+          1
+        ],
+        [
+          358,
+          1
+        ],
+        [
+          375,
+          1
+        ],
+        [
+          378,
+          1
+        ],
+        [
+          381,
+          1
+        ],
+        [
+          383,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:leclerc:80a0e9f8790b",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1009,
+          1
+        ],
+        [
+          1010,
+          1
+        ],
+        [
+          1057,
+          1
+        ],
+        [
+          1059,
+          1
+        ],
+        [
+          1067,
+          1
+        ],
+        [
+          1108,
+          1
+        ],
+        [
+          1116,
+          1
+        ],
+        [
+          1119,
+          1
+        ],
+        [
+          1157,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          195,
+          1
+        ],
+        [
+          210,
+          1
+        ],
+        [
+          212,
+          1
+        ],
+        [
+          214,
+          1
+        ],
+        [
+          216,
+          1
+        ],
+        [
+          217,
+          1
+        ],
+        [
+          220,
+          1
+        ],
+        [
+          221,
+          1
+        ],
+        [
+          223,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "groupId": "constructor:matra-ford:6a9a55beeadd",
+      "groupLabel": "Matra-Ford",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:stewart:f46f493c7dd0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:matra-ford:6a9a55beeadd",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          165,
+          1
+        ],
+        [
+          168,
+          1
+        ],
+        [
+          171,
+          1
+        ],
+        [
+          173,
+          1
+        ],
+        [
+          174,
+          1
+        ],
+        [
+          176,
+          1
+        ],
+        [
+          177,
+          1
+        ],
+        [
+          178,
+          1
+        ],
+        [
+          180,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:hunt:c0af61d2ad52",
+      "entityName": "James Hunt",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hunt:c0af61d2ad52",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          267,
+          1
+        ],
+        [
+          271,
+          1
+        ],
+        [
+          273,
+          1
+        ],
+        [
+          275,
+          1
+        ],
+        [
+          277,
+          1
+        ],
+        [
+          278,
+          1
+        ],
+        [
+          289,
+          1
+        ],
+        [
+          294,
+          1
+        ],
+        [
+          296,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          698,
+          1
+        ],
+        [
+          726,
+          1
+        ],
+        [
+          735,
+          1
+        ],
+        [
+          736,
+          1
+        ],
+        [
+          738,
+          1
+        ],
+        [
+          743,
+          1
+        ],
+        [
+          744,
+          1
+        ],
+        [
+          746,
+          1
+        ],
+        [
+          748,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:webber:6ffd0bea1a2a",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:red-bull:8307f488a798",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          811,
+          1
+        ],
+        [
+          818,
+          1
+        ],
+        [
+          824,
+          1
+        ],
+        [
+          825,
+          1
+        ],
+        [
+          829,
+          1
+        ],
+        [
+          831,
+          1
+        ],
+        [
+          857,
+          1
+        ],
+        [
+          863,
+          1
+        ],
+        [
+          866,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:piastri:45bbf3cf700f",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1113,
+          1
+        ],
+        [
+          1117,
+          1
+        ],
+        [
+          1126,
+          1
+        ],
+        [
+          1128,
+          1
+        ],
+        [
+          1129,
+          1
+        ],
+        [
+          1130,
+          1
+        ],
+        [
+          1133,
+          1
+        ],
+        [
+          1137,
+          1
+        ],
+        [
+          1139,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          227,
+          1
+        ],
+        [
+          231,
+          1
+        ],
+        [
+          232,
+          1
+        ],
+        [
+          234,
+          1
+        ],
+        [
+          240,
+          1
+        ],
+        [
+          243,
+          1
+        ],
+        [
+          247,
+          1
+        ],
+        [
+          299,
+          1
+        ],
+        [
+          308,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 9,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          656,
+          1
+        ],
+        [
+          688,
+          1
+        ],
+        [
+          692,
+          1
+        ],
+        [
+          694,
+          1
+        ],
+        [
+          695,
+          1
+        ],
+        [
+          707,
+          1
+        ],
+        [
+          712,
+          1
+        ],
+        [
+          727,
+          1
+        ],
+        [
+          728,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 8,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:button:d29c67aa2fda",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          821,
+          1
+        ],
+        [
+          823,
+          1
+        ],
+        [
+          845,
+          1
+        ],
+        [
+          849,
+          1
+        ],
+        [
+          853,
+          1
+        ],
+        [
+          858,
+          1
+        ],
+        [
+          869,
+          1
+        ],
+        [
+          877,
+          1
+        ]
+      ],
+      "rank": 40
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Fangio",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 8,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fangio:56835a0b6237",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          35,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          44,
+          1
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          47,
+          1
+        ]
+      ],
+      "rank": 40
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 8,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          359,
+          1
+        ],
+        [
+          366,
+          1
+        ],
+        [
+          389,
+          1
+        ],
+        [
+          392,
+          1
+        ],
+        [
+          397,
+          1
+        ],
+        [
+          399,
+          1
+        ],
+        [
+          401,
+          1
+        ],
+        [
+          414,
+          1
+        ]
+      ],
+      "rank": 40
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          532,
+          1
+        ],
+        [
+          535,
+          1
+        ],
+        [
+          536,
+          1
+        ],
+        [
+          538,
+          1
+        ],
+        [
+          539,
+          1
+        ],
+        [
+          540,
+          1
+        ],
+        [
+          541,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ricciardo:677e1f07679b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:red-bull:8307f488a798",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          903,
+          1
+        ],
+        [
+          907,
+          1
+        ],
+        [
+          908,
+          1
+        ],
+        [
+          950,
+          1
+        ],
+        [
+          963,
+          1
+        ],
+        [
+          978,
+          1
+        ],
+        [
+          981,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:russell:0de59c03b0db",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1077,
+          1
+        ],
+        [
+          1111,
+          1
+        ],
+        [
+          1122,
+          1
+        ],
+        [
+          1134,
+          1
+        ],
+        [
+          1142,
+          1
+        ],
+        [
+          1149,
+          1
+        ],
+        [
+          1156,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "groupId": "constructor:cooper-climax:0088f1fdaee8",
+      "groupLabel": "Cooper-Climax",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper-climax:0088f1fdaee8",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          75,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          87,
+          1
+        ],
+        [
+          88,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          90,
+          1
+        ],
+        [
+          91,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Fangio",
+      "groupId": "constructor:maserati:e07d701c3181",
+      "groupLabel": "Maserati",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fangio:56835a0b6237",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:maserati:e07d701c3181",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          31,
+          1
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          34,
+          1
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          57,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          61,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:piquet:009ec3fd7514",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          420,
+          1
+        ],
+        [
+          429,
+          1
+        ],
+        [
+          430,
+          1
+        ],
+        [
+          432,
+          1
+        ],
+        [
+          443,
+          1
+        ],
+        [
+          444,
+          1
+        ],
+        [
+          446,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Andrea Kimi Antonelli",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:antonelli:0ab4d82d3440",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1150,
+          1
+        ],
+        [
+          1151,
+          1
+        ],
+        [
+          1152,
+          1
+        ],
+        [
+          1153,
+          1
+        ],
+        [
+          1154,
+          1
+        ],
+        [
+          1158,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:senna:97c74c7d172e",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          405,
+          1
+        ],
+        [
+          416,
+          1
+        ],
+        [
+          421,
+          1
+        ],
+        [
+          426,
+          1
+        ],
+        [
+          439,
+          1
+        ],
+        [
+          440,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          312,
+          1
+        ],
+        [
+          315,
+          1
+        ],
+        [
+          316,
+          1
+        ],
+        [
+          327,
+          1
+        ],
+        [
+          347,
+          1
+        ],
+        [
+          348,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "groupId": "constructor:brabham-repco:d0f8fb362bfd",
+      "groupLabel": "Brabham-Repco",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham-repco:d0f8fb362bfd",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          143,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          157,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ickx:9dc972aa2fb0",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          166,
+          1
+        ],
+        [
+          192,
+          1
+        ],
+        [
+          194,
+          1
+        ],
+        [
+          196,
+          1
+        ],
+        [
+          200,
+          1
+        ],
+        [
+          215,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "groupId": "constructor:ligier:08b25bed58af",
+      "groupLabel": "Ligier",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:laffite:36bfb487a39b",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ligier:08b25bed58af",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          287,
+          1
+        ],
+        [
+          313,
+          1
+        ],
+        [
+          314,
+          1
+        ],
+        [
+          336,
+          1
+        ],
+        [
+          352,
+          1
+        ],
+        [
+          355,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "groupId": "constructor:brawn:646a8849e021",
+      "groupLabel": "Brawn",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:button:d29c67aa2fda",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brawn:646a8849e021",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          803,
+          1
+        ],
+        [
+          804,
+          1
+        ],
+        [
+          806,
+          1
+        ],
+        [
+          807,
+          1
+        ],
+        [
+          808,
+          1
+        ],
+        [
+          809,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Fangio",
+      "groupId": "constructor:alfa:f3891f4c8109",
+      "groupLabel": "Alfa Romeo",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fangio:56835a0b6237",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:alfa:f3891f4c8109",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          666,
+          1
+        ],
+        [
+          670,
+          1
+        ],
+        [
+          674,
+          1
+        ],
+        [
+          681,
+          1
+        ],
+        [
+          705,
+          1
+        ],
+        [
+          706,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:vanwall:4ca6f75bd647",
+      "groupLabel": "Vanwall",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:vanwall:4ca6f75bd647",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          60,
+          1
+        ],
+        [
+          62,
+          1
+        ],
+        [
+          63,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          72,
+          1
+        ],
+        [
+          74,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          485,
+          1
+        ],
+        [
+          489,
+          1
+        ],
+        [
+          490,
+          1
+        ],
+        [
+          491,
+          1
+        ],
+        [
+          497,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:reutemann:c573421c6e6f",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          281,
+          1
+        ],
+        [
+          298,
+          1
+        ],
+        [
+          300,
+          1
+        ],
+        [
+          306,
+          1
+        ],
+        [
+          311,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          236,
+          1
+        ],
+        [
+          239,
+          1
+        ],
+        [
+          248,
+          1
+        ],
+        [
+          250,
+          1
+        ],
+        [
+          259,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:berger:721f3dbb508a",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          450,
+          1
+        ],
+        [
+          451,
+          1
+        ],
+        [
+          463,
+          1
+        ],
+        [
+          480,
+          1
+        ],
+        [
+          556,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "groupId": "constructor:lotus-ford:5f3f89c719e0",
+      "groupLabel": "Lotus-Ford",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:clark:59d84c3d9fcb",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          152,
+          1
+        ],
+        [
+          155,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          161,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rindt:46dabdd8ff6b",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          186,
+          1
+        ],
+        [
+          188,
+          1
+        ],
+        [
+          189,
+          1
+        ],
+        [
+          190,
+          1
+        ],
+        [
+          191,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:keke-rosberg:c149e9225f45",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          370,
+          1
+        ],
+        [
+          377,
+          1
+        ],
+        [
+          396,
+          1
+        ],
+        [
+          409,
+          1
+        ],
+        [
+          419,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:perez:03c631191055",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:red-bull:8307f488a798",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1040,
+          1
+        ],
+        [
+          1063,
+          1
+        ],
+        [
+          1073,
+          1
+        ],
+        [
+          1080,
+          1
+        ],
+        [
+          1082,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:reutemann:c573421c6e6f",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          237,
+          1
+        ],
+        [
+          246,
+          1
+        ],
+        [
+          249,
+          1
+        ],
+        [
+          260,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:sainz:f4f0414a0a12",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1066,
+          1
+        ],
+        [
+          1093,
+          1
+        ],
+        [
+          1103,
+          1
+        ],
+        [
+          1120,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:regazzoni:8dabb0375829",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          193,
+          1
+        ],
+        [
+          245,
+          1
+        ],
+        [
+          262,
+          1
+        ],
+        [
+          266,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:irvine:3492559d3bf9",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          630,
+          1
+        ],
+        [
+          638,
+          1
+        ],
+        [
+          639,
+          1
+        ],
+        [
+          644,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          769,
+          1
+        ],
+        [
+          772,
+          1
+        ],
+        [
+          777,
+          1
+        ],
+        [
+          780,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "groupId": "constructor:lotus-ford:5f3f89c719e0",
+      "groupLabel": "Lotus-Ford",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hill:aa2839db1ccc",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          162,
+          1
+        ],
+        [
+          163,
+          1
+        ],
+        [
+          172,
+          1
+        ],
+        [
+          175,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "groupId": "constructor:tyrrell:4668e3d16dc0",
+      "groupLabel": "Tyrrell",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:tyrrell:4668e3d16dc0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          241,
+          1
+        ],
+        [
+          244,
+          1
+        ],
+        [
+          252,
+          1
+        ],
+        [
+          270,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:surtees:5519e1946624",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          116,
+          1
+        ],
+        [
+          126,
+          1
+        ],
+        [
+          128,
+          1
+        ],
+        [
+          142,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:watson:fc3a45a5856b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          350,
+          1
+        ],
+        [
+          361,
+          1
+        ],
+        [
+          363,
+          1
+        ],
+        [
+          374,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          677,
+          1
+        ],
+        [
+          703,
+          1
+        ],
+        [
+          708,
+          1
+        ],
+        [
+          730,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "groupId": "constructor:alfa:f3891f4c8109",
+      "groupLabel": "Alfa Romeo",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:farina:edc963649157",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:alfa:f3891f4c8109",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:arnoux:3628c7479aa0",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          329,
+          1
+        ],
+        [
+          330,
+          1
+        ],
+        [
+          367,
+          1
+        ],
+        [
+          371,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:patrese:57b51e8b4bbf",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          486,
+          1
+        ],
+        [
+          505,
+          1
+        ],
+        [
+          512,
+          1
+        ],
+        [
+          530,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "groupId": "constructor:vanwall:4ca6f75bd647",
+      "groupLabel": "Vanwall",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:brooks:4c43a3935c07",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:vanwall:4ca6f75bd647",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          60,
+          1
+        ],
+        [
+          68,
+          1
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          73,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
+      "entityId": "driver:mclaren:fad4f75a1c8e",
+      "entityName": "Bruce McLaren",
+      "groupId": "constructor:cooper-climax:0088f1fdaee8",
+      "groupLabel": "Cooper-Climax",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mclaren:fad4f75a1c8e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper-climax:0088f1fdaee8",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          83,
+          1
+        ],
+        [
+          84,
+          1
+        ],
+        [
+          103,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:reutemann:c573421c6e6f",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          333,
+          1
+        ],
+        [
+          343,
+          1
+        ],
+        [
+          346,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          209,
+          1
+        ],
+        [
+          226,
+          1
+        ],
+        [
+          235,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "groupId": "constructor:mclaren-ford:aef4e0acf380",
+      "groupLabel": "McLaren-Ford",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren-ford:aef4e0acf380",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          169,
+          1
+        ],
+        [
+          170,
+          1
+        ],
+        [
+          183,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:berger:721f3dbb508a",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          514,
+          1
+        ],
+        [
+          522,
+          1
+        ],
+        [
+          531,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          318,
+          1
+        ],
+        [
+          319,
+          1
+        ],
+        [
+          325,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "groupId": "constructor:wolf:ef46bb436004",
+      "groupLabel": "Wolf",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:wolf:ef46bb436004",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          280,
+          1
+        ],
+        [
+          285,
+          1
+        ],
+        [
+          295,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Fangio",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fangio:56835a0b6237",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          48,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          54,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          741,
+          1
+        ],
+        [
+          745,
+          1
+        ],
+        [
+          747,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alboreto:2d39fb3c5621",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          390,
+          1
+        ],
+        [
+          408,
+          1
+        ],
+        [
+          412,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hawthorn:1ddfcaf579cc",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          27,
+          1
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          69,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "groupId": "constructor:benetton:58d42bf86808",
+      "groupLabel": "Benetton",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:piquet:009ec3fd7514",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:benetton:58d42bf86808",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          498,
+          1
+        ],
+        [
+          499,
+          1
+        ],
+        [
+          504,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mansell:66de70fd9557",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          468,
+          1
+        ],
+        [
+          477,
+          1
+        ],
+        [
+          496,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:collins:98c51dae7baf",
+      "entityName": "Peter Collins",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:collins:98c51dae7baf",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          51,
+          1
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          70,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:phil-hill:35d0f98c0d81",
+      "entityName": "Phil Hill",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:phil-hill:35d0f98c0d81",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          92,
+          1
+        ],
+        [
+          96,
+          1
+        ],
+        [
+          100,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:arnoux:3628c7479aa0",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          380,
+          1
+        ],
+        [
+          382,
+          1
+        ],
+        [
+          384,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:boutsen:956ebe879bfd",
+        "sourcePath": "details/drivers/a.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          473,
+          1
+        ],
+        [
+          483,
+          1
+        ],
+        [
+          493,
+          1
+        ]
+      ],
+      "rank": 81
+    },
+    {
+      "entityId": "driver:vukovich:57f4d36050ed",
+      "entityName": "Bill Vukovich",
+      "groupId": "constructor:kurtis-kraft:2c00f500b995",
+      "groupLabel": "Kurtis Kraft",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:vukovich:57f4d36050ed",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:kurtis-kraft:2c00f500b995",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          24,
+          1
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:gurney:0e0cdc9d2231",
+      "entityName": "Dan Gurney",
+      "groupId": "constructor:brabham-climax:80cd915e63d9",
+      "groupLabel": "Brabham-Climax",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gurney:0e0cdc9d2231",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham-climax:80cd915e63d9",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          124,
+          1
+        ],
+        [
+          130,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "groupId": "constructor:brabham-repco:d0f8fb362bfd",
+      "groupLabel": "Brabham-Repco",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham-repco:d0f8fb362bfd",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          151,
+          1
+        ],
+        [
+          156,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:pironi:e419fd33c039",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          360,
+          1
+        ],
+        [
+          365,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:angelis:e8033183b98b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          369,
+          1
+        ],
+        [
+          406,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "groupId": "constructor:benetton:58d42bf86808",
+      "groupLabel": "Benetton",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:berger:721f3dbb508a",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:benetton:58d42bf86808",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          434,
+          1
+        ],
+        [
+          606,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fisichella:5825d809a2e3",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          731,
+          1
+        ],
+        [
+          751,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "groupId": "constructor:jordan:ef58acfe8635",
+      "groupLabel": "Jordan",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:frentzen:e499a12f83f0",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:jordan:ef58acfe8635",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          636,
+          1
+        ],
+        [
+          642,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:stewart:f46f493c7dd0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          138,
+          1
+        ],
+        [
+          141,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "groupId": "constructor:brabham-ford:3faaa1280444",
+      "groupLabel": "Brabham-Ford",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ickx:9dc972aa2fb0",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham-ford:3faaa1280444",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          179,
+          1
+        ],
+        [
+          181,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:jabouille:1481bda9b6cd",
+      "entityName": "Jean-Pierre Jabouille",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jabouille:1481bda9b6cd",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          320,
+          1
+        ],
+        [
+          337,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:herbert:c13dde1e1e00",
+      "entityName": "Johnny Herbert",
+      "groupId": "constructor:benetton:58d42bf86808",
+      "groupLabel": "Benetton",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:herbert:c13dde1e1e00",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:benetton:58d42bf86808",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          571,
+          1
+        ],
+        [
+          575,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gonzalez:2aa2e506438c",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          11,
+          1
+        ],
+        [
+          36,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "groupId": "constructor:lotus-f1:5a86a09d29b4",
+      "groupLabel": "Lotus F1",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-f1:5a86a09d29b4",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          875,
+          1
+        ],
+        [
+          878,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "groupId": "constructor:tyrrell:4668e3d16dc0",
+      "groupLabel": "Tyrrell",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alboreto:2d39fb3c5621",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:tyrrell:4668e3d16dc0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          372,
+          1
+        ],
+        [
+          379,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          304,
+          1
+        ],
+        [
+          310,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:tambay:da914d6b903c",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          368,
+          1
+        ],
+        [
+          376,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:revson:a43291d81deb",
+      "entityName": "Peter Revson",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:revson:a43291d81deb",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          228,
+          1
+        ],
+        [
+          233,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:patrese:57b51e8b4bbf",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          362,
+          1
+        ],
+        [
+          387,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "groupId": "constructor:brawn:646a8849e021",
+      "groupLabel": "Brawn",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brawn:646a8849e021",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          813,
+          1
+        ],
+        [
+          815,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:cooper-climax:0088f1fdaee8",
+      "groupLabel": "Cooper-Climax",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper-climax:0088f1fdaee8",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          81,
+          1
+        ],
+        [
+          82,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:lotus-climax:6989a1181b17",
+      "groupLabel": "Lotus-Climax",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-climax:6989a1181b17",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          94,
+          1
+        ],
+        [
+          99,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:maserati:e07d701c3181",
+      "groupLabel": "Maserati",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:maserati:e07d701c3181",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          49,
+          1
+        ],
+        [
+          55,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          85,
+          1
+        ],
+        [
+          93,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:brooks:4c43a3935c07",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          78,
+          1
+        ],
+        [
+          80,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:trips:e05d10e5e75a",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          95,
+          1
+        ],
+        [
+          98,
+          1
+        ]
+      ],
+      "rank": 98
+    },
+    {
+      "entityId": "driver:jones:83ac4230619a",
+      "entityName": "Alan Jones",
+      "groupId": "constructor:shadow:e88eac1bd94c",
+      "groupLabel": "Shadow",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jones:83ac4230619a",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:shadow:e88eac1bd94c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          291,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:nannini:93cbec78c64b",
+      "entityName": "Alessandro Nannini",
+      "groupId": "constructor:benetton:58d42bf86808",
+      "groupLabel": "Benetton",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:nannini:93cbec78c64b",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:benetton:58d42bf86808",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          482,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:sweikert:bb85eca755bd",
+      "entityName": "Bob Sweikert",
+      "groupId": "constructor:kurtis-kraft:2c00f500b995",
+      "groupLabel": "Kurtis Kraft",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:sweikert:bb85eca755bd",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:kurtis-kraft:2c00f500b995",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          43,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:mclaren:fad4f75a1c8e",
+      "entityName": "Bruce McLaren",
+      "groupId": "constructor:mclaren-ford:aef4e0acf380",
+      "groupLabel": "McLaren-Ford",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mclaren:fad4f75a1c8e",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren-ford:aef4e0acf380",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          164,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:pace:f2913e9cfb72",
+      "entityName": "Carlos Pace",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:pace:f2913e9cfb72",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          251,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:regazzoni:8dabb0375829",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          321,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "groupId": "constructor:jordan:ef58acfe8635",
+      "groupLabel": "Jordan",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:damon-hill:3cf4df1bacf7",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:jordan:ef58acfe8635",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          626,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:gurney:0e0cdc9d2231",
+      "entityName": "Dan Gurney",
+      "groupId": "constructor:eagle-weslake:9412424e9508",
+      "groupLabel": "Eagle-Weslake",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gurney:0e0cdc9d2231",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:eagle-weslake:9412424e9508",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          153,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:gurney:0e0cdc9d2231",
+      "entityName": "Dan Gurney",
+      "groupId": "constructor:porsche:9c7706838cc2",
+      "groupLabel": "Porsche",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gurney:0e0cdc9d2231",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:porsche:9c7706838cc2",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          105,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ricciardo:677e1f07679b",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1048,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:coulthard:935d583f6514",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          576,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "groupId": "constructor:ligier:08b25bed58af",
+      "groupLabel": "Ligier",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:pironi:e419fd33c039",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ligier:08b25bed58af",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          332,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "groupId": "constructor:alpine:1e11dc0788a1",
+      "groupLabel": "Alpine F1 Team",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ocon:27db7f9b9070",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:alpine:1e11dc0788a1",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1045,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:cevert:fc3ec9f33655",
+      "entityName": "François Cevert",
+      "groupId": "constructor:tyrrell:4668e3d16dc0",
+      "groupLabel": "Tyrrell",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:cevert:fc3ec9f33655",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:tyrrell:4668e3d16dc0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          207,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:baghetti:3a2c6f3478be",
+      "entityName": "Giancarlo Baghetti",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:baghetti:3a2c6f3478be",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          97,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "groupId": "constructor:jordan:ef58acfe8635",
+      "groupLabel": "Jordan",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fisichella:5825d809a2e3",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:jordan:ef58acfe8635",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          699,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:nilsson:4b453af4861c",
+      "entityName": "Gunnar Nilsson",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Team Lotus",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:nilsson:4b453af4861c",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          286,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:kovalainen:dc8d8c106e70",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          795,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:frentzen:e499a12f83f0",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          600,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "groupId": "constructor:lotus-climax:6989a1181b17",
+      "groupLabel": "Lotus-Climax",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ireland:655aaf7bf33d",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-climax:6989a1181b17",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          101,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          184,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "groupId": "constructor:march:373ae2f4adda",
+      "groupLabel": "March",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:stewart:f46f493c7dd0",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:march:373ae2f4adda",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          185,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:hunt:c0af61d2ad52",
+      "entityName": "James Hunt",
+      "groupId": "constructor:hesketh:b24c2bcc04de",
+      "groupLabel": "Hesketh",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hunt:c0af61d2ad52",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:hesketh:b24c2bcc04de",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          257,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "groupId": "constructor:renault:59785f4b9a1f",
+      "groupLabel": "Renault",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:trulli:26a562aa7942",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:renault:59785f4b9a1f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          718,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:alesi:81d9c1b96672",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          569,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:beltoise:a412ddeec9b0",
+      "entityName": "Jean-Pierre Beltoise",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:beltoise:a412ddeec9b0",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          211,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "groupId": "constructor:honda:334b9dc89428",
+      "groupLabel": "Honda",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:button:d29c67aa2fda",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:honda:334b9dc89428",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          762,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "groupId": "constructor:lotus-brm:64b796470f27",
+      "groupLabel": "Lotus-BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:clark:59d84c3d9fcb",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-brm:64b796470f27",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          148,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:rathmann:5dd609a66a0d",
+      "entityName": "Jim Rathmann",
+      "groupId": "constructor:watson:e4276dfa8394",
+      "groupLabel": "Watson",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rathmann:5dd609a66a0d",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:watson:e4276dfa8394",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          86,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:bryan:4eb09601387b",
+      "entityName": "Jimmy Bryan",
+      "groupId": "constructor:epperly:aafa0ffb5fed",
+      "groupLabel": "Epperly",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:bryan:4eb09601387b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:epperly:aafa0ffb5fed",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          67,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:bonnier:5fc11359a468",
+      "entityName": "Jo Bonnier",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:bonnier:5fc11359a468",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          77,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:siffert:d1cfc3fb1fc0",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          204,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "groupId": "constructor:lotus-ford:5f3f89c719e0",
+      "groupLabel": "Lotus-Ford",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:siffert:d1cfc3fb1fc0",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          167,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:mass:35e234910d35",
+      "entityName": "Jochen Mass",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mass:35e234910d35",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          253,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "groupId": "constructor:lotus-ford:5f3f89c719e0",
+      "groupLabel": "Lotus-Ford",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rindt:46dabdd8ff6b",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          182,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "groupId": "constructor:cooper-maserati:e640263488c8",
+      "groupLabel": "Cooper-Maserati",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:surtees:5519e1946624",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper-maserati:e640263488c8",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          149,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "groupId": "constructor:honda:334b9dc89428",
+      "groupLabel": "Honda",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:surtees:5519e1946624",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:honda:334b9dc89428",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          158,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "groupId": "constructor:penske:d9cad6091e78",
+      "groupLabel": "Penske",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:watson:fc3a45a5856b",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:penske:d9cad6091e78",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          274,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:parsons:0c0bd75f4db3",
+      "entityName": "Johnnie Parsons",
+      "groupId": "constructor:kurtis-kraft:2c00f500b995",
+      "groupLabel": "Kurtis Kraft",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:parsons:0c0bd75f4db3",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:kurtis-kraft:2c00f500b995",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          2,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:herbert:c13dde1e1e00",
+      "entityName": "Johnny Herbert",
+      "groupId": "constructor:stewart:fa292c3fe3ad",
+      "groupLabel": "Stewart",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:herbert:c13dde1e1e00",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:stewart:fa292c3fe3ad",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          643,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:wallard:e9ba4db7646c",
+      "entityName": "Lee Wallard",
+      "groupId": "constructor:kurtis-kraft:2c00f500b995",
+      "groupLabel": "Kurtis Kraft",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:wallard:e9ba4db7646c",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:kurtis-kraft:2c00f500b995",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          8,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hamilton:528ad2ac33fa",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1155,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:bandini:7f67fa49cbac",
+      "entityName": "Lorenzo Bandini",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:bandini:7f67fa49cbac",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          127,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:scarfiotti:62e48ae1a222",
+      "entityName": "Ludovico Scarfiotti",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:scarfiotti:62e48ae1a222",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          147,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:fagioli:05eb09dda820",
+      "entityName": "Luigi Fagioli",
+      "groupId": "constructor:alfa:f3891f4c8109",
+      "groupLabel": "Alfa Romeo",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:fagioli:05eb09dda820",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:alfa:f3891f4c8109",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          10,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:musso:d363c09057b8",
+      "entityName": "Luigi Musso",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:musso:d363c09057b8",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          48,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:mario-andretti:9665dc04541a",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          197,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:trintignant:aaf24838e239",
+      "entityName": "Maurice Trintignant",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:trintignant:aaf24838e239",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper:9771c8f26d98",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          65,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:trintignant:aaf24838e239",
+      "entityName": "Maurice Trintignant",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:trintignant:aaf24838e239",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          42,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:farina:edc963649157",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          29,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:panis:b03d10e03261",
+      "entityName": "Olivier Panis",
+      "groupId": "constructor:ligier:08b25bed58af",
+      "groupLabel": "Ligier",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:panis:b03d10e03261",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ligier:08b25bed58af",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          586,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:maldonado:87cbc81409ca",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:williams:4164dc156cb6",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          862,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:flaherty:788ffe6330c5",
+      "entityName": "Pat Flaherty",
+      "groupId": "constructor:watson:e4276dfa8394",
+      "groupLabel": "Watson",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:flaherty:788ffe6330c5",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:watson:e4276dfa8394",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          50,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:depailler:b5cf50bce46d",
+      "entityName": "Patrick Depailler",
+      "groupId": "constructor:ligier:08b25bed58af",
+      "groupLabel": "Ligier",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:depailler:b5cf50bce46d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ligier:08b25bed58af",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          317,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:depailler:b5cf50bce46d",
+      "entityName": "Patrick Depailler",
+      "groupId": "constructor:tyrrell:4668e3d16dc0",
+      "groupLabel": "Tyrrell",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:depailler:b5cf50bce46d",
+        "sourcePath": "details/drivers/1.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:tyrrell:4668e3d16dc0",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          301,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:rodriguez:300e7465db9d",
+      "entityName": "Pedro Rodríguez",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rodriguez:300e7465db9d",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          187,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:rodriguez:300e7465db9d",
+      "entityName": "Pedro Rodríguez",
+      "groupId": "constructor:cooper-maserati:e640263488c8",
+      "groupLabel": "Cooper-Maserati",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rodriguez:300e7465db9d",
+        "sourcePath": "details/drivers/7.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper-maserati:e640263488c8",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          150,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:gethin:87bc51940490",
+      "entityName": "Peter Gethin",
+      "groupId": "constructor:brm:88ba4655b32a",
+      "groupLabel": "BRM",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gethin:87bc51940490",
+        "sourcePath": "details/drivers/3.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:brm:88ba4655b32a",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          205,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:taruffi:4246f1de7460",
+      "entityName": "Piero Taruffi",
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:taruffi:4246f1de7460",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:ferrari:d5aa0140c09c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          15,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "groupId": "constructor:alphatauri:0e8fb3fba42b",
+      "groupLabel": "AlphaTauri",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:gasly:0fca70394caf",
+        "sourcePath": "details/drivers/e.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:alphatauri:0e8fb3fba42b",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1025,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ginther:3e915b11c50f",
+      "entityName": "Richie Ginther",
+      "groupId": "constructor:honda:334b9dc89428",
+      "groupLabel": "Honda",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ginther:3e915b11c50f",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:honda:334b9dc89428",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          140,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "groupId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "groupLabel": "BMW Sauber",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:kubica:54803f2070f9",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:bmw-sauber:fb61ee5b67e2",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          791,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ward:c57d8b2b0b67",
+      "entityName": "Rodger Ward",
+      "groupId": "constructor:watson:e4276dfa8394",
+      "groupLabel": "Watson",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ward:c57d8b2b0b67",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:watson:e4276dfa8394",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          76,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "groupId": "constructor:march:373ae2f4adda",
+      "groupLabel": "March",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:march:373ae2f4adda",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          276,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:hanks:32313f8014e4",
+      "entityName": "Sam Hanks",
+      "groupId": "constructor:epperly:aafa0ffb5fed",
+      "groupLabel": "Epperly",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hanks:32313f8014e4",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:epperly:aafa0ffb5fed",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          58,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "groupId": "constructor:toro-rosso:82757d971dd3",
+      "groupLabel": "Toro Rosso",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:toro-rosso:82757d971dd3",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          798,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "groupId": "constructor:racing-point:484ebe4c85d7",
+      "groupLabel": "Racing Point",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:perez:03c631191055",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:racing-point:484ebe4c85d7",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1033,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper:9771c8f26d98",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          64,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          46,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:ruttman:3e2eedf09bb0",
+      "entityName": "Troy Ruttman",
+      "groupId": "constructor:kuzma:753d7f1cb109",
+      "groupLabel": "Kuzma",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:ruttman:3e2eedf09bb0",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:kuzma:753d7f1cb109",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          16,
+          1
+        ]
+      ],
+      "rank": 124
+    },
+    {
+      "entityId": "driver:brambilla:080b064099a9",
+      "entityName": "Vittorio Brambilla",
+      "groupId": "constructor:march:373ae2f4adda",
+      "groupLabel": "March",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:brambilla:080b064099a9",
+        "sourcePath": "details/drivers/2.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:march:373ae2f4adda",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          261,
+          1
+        ]
+      ],
+      "rank": 124
+    }
+  ],
+  "loadedRowCount": 194,
+  "pagination": null
+}

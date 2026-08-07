@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 5
+handoffVersion: 6
 currentState:
-  status: stable-public-plus-results-and-stats-beta-wip
-  summary: The stable Belgian-cutoff public baseline and Results Archive v1 bytes are unchanged. Separate unstaged Beta v1 packages now expose 77 Results Archive seasons with 1,159 races and 26,094 classifications plus 301 Stats Lab catalogue statuses and five checksum-bound derived documents. Historical 1950-2025 coverage is explicitly provisional, 2026 Rounds 1-10 remain verified, and no commit, push, publication, deployment, canonical edit, or Historical Records dataset was created.
+  status: stats-lab-production-package-validated
+  summary: "The stable Results Archive v1 manifest and 2026 season bytes remain unchanged. Stats Lab v1 is now the single authoritative production channel: 229 public files cover 77 seasons, 1,159 races, 26,121 classifications, 301 registered statistics, 157 evidence-complete public metrics, 144 external-evidence-blocked metrics, and zero evidence-complete actionable metrics remaining. All 157 metric summaries and 71,030 rows reconcile to detail, every manifest identity validates, and Stats Lab Beta is reduced to one retired compatibility manifest pointing at production."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between the verified Belgian-cutoff public baseline, this checksum-portability maintenance, and any later merge, publication, or deployment authority.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: stats-lab-production-v1
+    summary: The authoritative Stats Lab production channel publishes a formal catalogue, event and entity indexes, 157 lazy metric contracts, paginated metric shards where required, generic driver and constructor detail shards, exact range capability, complete provenance and methodology, and an explicit retired Beta compatibility pointer while preserving stable Results Archive v1 byte identities.
   - id: current-season-contracts
     summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
     files:

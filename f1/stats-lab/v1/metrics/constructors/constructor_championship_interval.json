@@ -1,0 +1,970 @@
+{
+  "schemaVersion": "stats-lab-production-metric.v1",
+  "entity": "constructors",
+  "statisticId": "constructor_championship_interval",
+  "metricId": "constructorChampionshipInterval",
+  "title": "Time Between Titles",
+  "definition": "Ranks Formula 1 constructors by elapsed days between the first and last qualifying days occurrences.",
+  "calculationId": "interval",
+  "factType": "championship",
+  "presentation": "duration",
+  "groupingDimension": "entity",
+  "countingUnit": "days",
+  "defaultSort": "desc",
+  "rangeBehavior": {
+    "supported": false,
+    "modes": [
+      "all-time"
+    ],
+    "eventBoundaries": false
+  },
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "asOfRaceDate": "2026-07-19",
+    "seasonCount": 77,
+    "raceCount": 1159,
+    "classificationRowCount": 26121,
+    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+  },
+  "rowCount": 17,
+  "rows": [
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 18690,
+      "firstEvent": {
+        "eventId": "event:1974-15:dcb06a0e2ba0",
+        "eventIndex": 249,
+        "season": 1974,
+        "round": 15,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1974-10-06"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-24:e391c058dffd",
+        "eventIndex": 1148,
+        "season": 2025,
+        "round": 24,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2025-12-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:mclaren:f3759103103f",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1974-15:dcb06a0e2ba0",
+          "event:2025-24:e391c058dffd"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          249,
+          1
+        ],
+        [
+          403,
+          1
+        ],
+        [
+          419,
+          1
+        ],
+        [
+          467,
+          1
+        ],
+        [
+          483,
+          1
+        ],
+        [
+          499,
+          1
+        ],
+        [
+          515,
+          1
+        ],
+        [
+          629,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1148,
+          1
+        ]
+      ],
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 17192,
+      "firstEvent": {
+        "eventId": "event:1961-8:d34f34a8fdec",
+        "eventIndex": 101,
+        "season": 1961,
+        "round": 8,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1961-10-08"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-18:262741f3140e",
+        "eventIndex": 802,
+        "season": 2008,
+        "round": 18,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2008-11-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:ferrari:d5aa0140c09c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1961-8:d34f34a8fdec",
+          "event:2008-18:262741f3140e"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          101,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          263,
+          1
+        ],
+        [
+          279,
+          1
+        ],
+        [
+          296,
+          1
+        ],
+        [
+          327,
+          1
+        ],
+        [
+          372,
+          1
+        ],
+        [
+          387,
+          1
+        ],
+        [
+          645,
+          1
+        ],
+        [
+          662,
+          1
+        ],
+        [
+          679,
+          1
+        ],
+        [
+          696,
+          1
+        ],
+        [
+          712,
+          1
+        ],
+        [
+          730,
+          1
+        ],
+        [
+          784,
+          1
+        ],
+        [
+          802,
+          1
+        ]
+      ],
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 6230,
+      "firstEvent": {
+        "eventId": "event:1980-14:a18abdf1aad8",
+        "eventIndex": 341,
+        "season": 1980,
+        "round": 14,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1980-10-05"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-17:ad611116f382",
+        "eventIndex": 613,
+        "season": 1997,
+        "round": 17,
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "jerez",
+        "eventDate": "1997-10-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:williams:4164dc156cb6",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1980-14:a18abdf1aad8",
+          "event:1997-17:ad611116f382"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          341,
+          1
+        ],
+        [
+          356,
+          1
+        ],
+        [
+          435,
+          1
+        ],
+        [
+          451,
+          1
+        ],
+        [
+          531,
+          1
+        ],
+        [
+          547,
+          1
+        ],
+        [
+          563,
+          1
+        ],
+        [
+          596,
+          1
+        ],
+        [
+          613,
+          1
+        ]
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 4760,
+      "firstEvent": {
+        "eventId": "event:2010-19:de3b61bf0a39",
+        "eventIndex": 838,
+        "season": 2010,
+        "round": 19,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2010-11-14"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-22:4408473167ab",
+        "eventIndex": 1100,
+        "season": 2023,
+        "round": 22,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2023-11-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:red-bull:8307f488a798",
+        "sourcePath": "details/constructors/a.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:2010-19:de3b61bf0a39",
+          "event:2023-22:4408473167ab"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          838,
+          1
+        ],
+        [
+          857,
+          1
+        ],
+        [
+          877,
+          1
+        ],
+        [
+          896,
+          1
+        ],
+        [
+          1078,
+          1
+        ],
+        [
+          1100,
+          1
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Team Lotus",
+      "value": 2905,
+      "firstEvent": {
+        "eventId": "event:1970-13:12bd124a2612",
+        "eventIndex": 196,
+        "season": 1970,
+        "round": 13,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1970-10-25"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-16:46e0f9f91fd9",
+        "eventIndex": 312,
+        "season": 1978,
+        "round": 16,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve",
+        "eventDate": "1978-10-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1970-13:12bd124a2612",
+          "event:1978-16:46e0f9f91fd9"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          196,
+          1
+        ],
+        [
+          219,
+          1
+        ],
+        [
+          234,
+          1
+        ],
+        [
+          312,
+          1
+        ]
+      ],
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 2576,
+      "firstEvent": {
+        "eventId": "event:2014-19:6f40663cb5ce",
+        "eventIndex": 915,
+        "season": 2014,
+        "round": 19,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2014-11-23"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-22:986300d4d137",
+        "eventIndex": 1056,
+        "season": 2021,
+        "round": 22,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2021-12-12"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:mercedes:81ae28b14607",
+        "sourcePath": "details/constructors/e.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:2014-19:6f40663cb5ce",
+          "event:2021-22:986300d4d137"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          915,
+          1
+        ],
+        [
+          934,
+          1
+        ],
+        [
+          955,
+          1
+        ],
+        [
+          975,
+          1
+        ],
+        [
+          996,
+          1
+        ],
+        [
+          1017,
+          1
+        ],
+        [
+          1034,
+          1
+        ],
+        [
+          1056,
+          1
+        ]
+      ],
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:lotus-climax:6989a1181b17",
+      "entityName": "Lotus-Climax",
+      "value": 666,
+      "firstEvent": {
+        "eventId": "event:1963-10:cc756406bc73",
+        "eventIndex": 120,
+        "season": 1963,
+        "round": 10,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "george",
+        "eventDate": "1963-12-28"
+      },
+      "lastEvent": {
+        "eventId": "event:1965-10:c506f1e74aa9",
+        "eventIndex": 140,
+        "season": 1965,
+        "round": 10,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1965-10-24"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:lotus-climax:6989a1181b17",
+        "sourcePath": "details/constructors/c.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1963-10:cc756406bc73",
+          "event:1965-10:c506f1e74aa9"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          120,
+          1
+        ],
+        [
+          140,
+          1
+        ]
+      ],
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 371,
+      "firstEvent": {
+        "eventId": "event:2005-19:6f906504710f",
+        "eventIndex": 749,
+        "season": 2005,
+        "round": 19,
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai",
+        "eventDate": "2005-10-16"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-18:7009c59495eb",
+        "eventIndex": 767,
+        "season": 2006,
+        "round": 18,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2006-10-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:renault:59785f4b9a1f",
+        "sourcePath": "details/constructors/3.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:2005-19:6f906504710f",
+          "event:2006-18:7009c59495eb"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          749,
+          1
+        ],
+        [
+          767,
+          1
+        ]
+      ],
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
+      "entityName": "Brabham-Repco",
+      "value": 364,
+      "firstEvent": {
+        "eventId": "event:1966-9:bbea6a08e5a9",
+        "eventIndex": 149,
+        "season": 1966,
+        "round": 9,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1966-10-23"
+      },
+      "lastEvent": {
+        "eventId": "event:1967-11:e533300a7495",
+        "eventIndex": 160,
+        "season": 1967,
+        "round": 11,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1967-10-22"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1966-9:bbea6a08e5a9",
+          "event:1967-11:e533300a7495"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          149,
+          1
+        ],
+        [
+          160,
+          1
+        ]
+      ],
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:cooper-climax:0088f1fdaee8",
+      "entityName": "Cooper-Climax",
+      "value": 344,
+      "firstEvent": {
+        "eventId": "event:1959-9:4f137a6feb6a",
+        "eventIndex": 83,
+        "season": 1959,
+        "round": 9,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "sebring",
+        "eventDate": "1959-12-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1960-10:a30255324cf5",
+        "eventIndex": 93,
+        "season": 1960,
+        "round": 10,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "riverside",
+        "eventDate": "1960-11-20"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:cooper-climax:0088f1fdaee8",
+        "sourcePath": "details/constructors/7.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1959-9:4f137a6feb6a",
+          "event:1960-10:a30255324cf5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          83,
+          1
+        ],
+        [
+          93,
+          1
+        ]
+      ],
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:brm:88ba4655b32a",
+      "entityName": "BRM",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1962-9:03cdea77e2b5",
+        "eventIndex": 110,
+        "season": 1962,
+        "round": 9,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "george",
+        "eventDate": "1962-12-29"
+      },
+      "lastEvent": {
+        "eventId": "event:1962-9:03cdea77e2b5",
+        "eventIndex": 110,
+        "season": 1962,
+        "round": 9,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "george",
+        "eventDate": "1962-12-29"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:brm:88ba4655b32a",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1962-9:03cdea77e2b5",
+          "event:1962-9:03cdea77e2b5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          110,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1995-17:4f591f1d3fbd",
+        "eventIndex": 580,
+        "season": 1995,
+        "round": 17,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide",
+        "eventDate": "1995-11-12"
+      },
+      "lastEvent": {
+        "eventId": "event:1995-17:4f591f1d3fbd",
+        "eventIndex": 580,
+        "season": 1995,
+        "round": 17,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide",
+        "eventDate": "1995-11-12"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:benetton:58d42bf86808",
+        "sourcePath": "details/constructors/b.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1995-17:4f591f1d3fbd",
+          "event:1995-17:4f591f1d3fbd"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          580,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2009-17:42eed448f174",
+        "eventIndex": 819,
+        "season": 2009,
+        "round": 17,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2009-11-01"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-17:42eed448f174",
+        "eventIndex": 819,
+        "season": 2009,
+        "round": 17,
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina",
+        "eventDate": "2009-11-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:brawn:646a8849e021",
+        "sourcePath": "details/constructors/2.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:2009-17:42eed448f174",
+          "event:2009-17:42eed448f174"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          819,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:lotus-ford:5f3f89c719e0",
+      "entityName": "Lotus-Ford",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1968-12:283a97daa9ed",
+        "eventIndex": 172,
+        "season": 1968,
+        "round": 12,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1968-11-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1968-12:283a97daa9ed",
+        "eventIndex": 172,
+        "season": 1968,
+        "round": 12,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1968-11-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:lotus-ford:5f3f89c719e0",
+        "sourcePath": "details/constructors/8.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1968-12:283a97daa9ed",
+          "event:1968-12:283a97daa9ed"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          172,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:matra-ford:6a9a55beeadd",
+      "entityName": "Matra-Ford",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1969-11:945273ed1e73",
+        "eventIndex": 183,
+        "season": 1969,
+        "round": 11,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1969-10-19"
+      },
+      "lastEvent": {
+        "eventId": "event:1969-11:945273ed1e73",
+        "eventIndex": 183,
+        "season": 1969,
+        "round": 11,
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez",
+        "eventDate": "1969-10-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:matra-ford:6a9a55beeadd",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1969-11:945273ed1e73",
+          "event:1969-11:945273ed1e73"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          183,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1971-11:9ccf2981c106",
+        "eventIndex": 207,
+        "season": 1971,
+        "round": 11,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1971-10-03"
+      },
+      "lastEvent": {
+        "eventId": "event:1971-11:9ccf2981c106",
+        "eventIndex": 207,
+        "season": 1971,
+        "round": 11,
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen",
+        "eventDate": "1971-10-03"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:tyrrell:4668e3d16dc0",
+        "sourcePath": "details/constructors/b.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1971-11:9ccf2981c106",
+          "event:1971-11:9ccf2981c106"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          207,
+          1
+        ]
+      ],
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:vanwall:4ca6f75bd647",
+      "entityName": "Vanwall",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab",
+        "eventDate": "1958-10-19"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab",
+        "eventDate": "1958-10-19"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:vanwall:4ca6f75bd647",
+        "sourcePath": "details/constructors/9.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1958-11:dd814aaa246e",
+          "event:1958-11:dd814aaa246e"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          74,
+          1
+        ]
+      ],
+      "rank": 11
+    }
+  ],
+  "loadedRowCount": 17,
+  "pagination": null
+}

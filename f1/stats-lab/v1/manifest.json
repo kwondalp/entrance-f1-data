@@ -1,262 +1,1431 @@
 {
-  "schemaVersion": "stats-lab.v1",
-  "toolVersion": "0.1.0",
+  "schemaVersion": "stats-lab-production.v1",
+  "apiVersion": "1.0.0",
+  "releaseChannel": "production",
   "dataStatus": "production_ready",
-  "productionApplicationApproved": true,
-  "approvalRequiredBeforePublish": true,
-  "publishApproved": true,
-  "provenance": {
-    "producerRepository": "entrance-f1-data-tools",
-    "producerCommit": "d864b3dc4fd4dad9b05e51f73703a3a43b80befb",
-    "sourceTreeFingerprint": "36b3fd8b9381de0c1b611ef1670afc510df82c14cb717a706eff1258afca1fee",
-    "sourceCanonicalChecksum": "5c90c96994d5b365429c4c448d7b752d3939a521456f6af3b455f13daced8c13",
-    "sourceCanonicalApplicationAuditChecksum": "70b6e964bf539a3cbb76d64394ec2ac8115c9820e340523802c09896b15384c6",
-    "semanticDeltaSha256": "6a0d4b473d0f1b5f6757c436b9b1911d52f75ee011d11e9794d3a3e4e8faa8bf",
-    "productionApplicationApprovalRecord": "fixtures/official-pole-production-application-approval.json",
-    "postBaselineOverlayEvidenceRecord": "fixtures/official-pole-publication-integration.json",
-    "officialPolePublicationApprovalRecord": "fixtures/official-pole-publication-integration.json"
+  "asOfRaceDate": "2026-07-19",
+  "generatedFrom": {
+    "producerId": "entrance-f1-data-tools/stats-lab-production-v1",
+    "producerVersion": "1.0.0",
+    "producerSourceChecksumSha256": "567f61cb76e1f712b54d5e0e3a5996e690b1ca83ca86811d6d934bc61e02b2f9",
+    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788",
+    "resultsArchiveInputSetChecksumSha256": "7551b0cbc22bed41d4855d0ef85344f726e956a09c9856039cf938308bfcd3eb",
+    "registrySha256": "81760926339a723e66bd96de63dc26bcd734c9c45d58fa4b3faaa5cc3da4f2ea",
+    "officialPoleFixtureSha256": "d78c3611c0573970bc2d9c53249663da00a1c635092b5afe899450632c5a8931",
+    "historicalBlockerLedgerSha256": "5799576795cff3f61ca4649c18acc399a5cc74d56d5bb9d4160cec1930cd4098",
+    "generatedAtUtc": "2026-07-27T06:11:59Z"
   },
-  "canonicalSnapshotExcluded": true,
-  "canonicalSnapshotExclusionReason": "file_too_large_for_git_and_browser_delivery",
-  "asOfRaceDate": "2026-06-14",
-  "seasonsCovered": [
-    1950,
-    1951,
-    1952,
-    1953,
-    1954,
-    1955,
-    1956,
-    1957,
-    1958,
-    1959,
-    1960,
-    1961,
-    1962,
-    1963,
-    1964,
-    1965,
-    1966,
-    1967,
-    1968,
-    1969,
-    1970,
-    1971,
-    1972,
-    1973,
-    1974,
-    1975,
-    1976,
-    1977,
-    1978,
-    1979,
-    1980,
-    1981,
-    1982,
-    1983,
-    1984,
-    1985,
-    1986,
-    1987,
-    1988,
-    1989,
-    1990,
-    1991,
-    1992,
-    1993,
-    1994,
-    1995,
-    1996,
-    1997,
-    1998,
-    1999,
-    2000,
-    2001,
-    2002,
-    2003,
-    2004,
-    2005,
-    2006,
-    2007,
-    2008,
-    2009,
-    2010,
-    2011,
-    2012,
-    2013,
-    2014,
-    2015,
-    2016,
-    2017,
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023,
-    2024,
-    2025,
-    2026
-  ],
-  "raceEventCount": 1156,
-  "driverCount": 881,
-  "constructorCount": 213,
-  "circuitCount": 77,
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "seasonCount": 77,
+    "raceCount": 1159,
+    "classificationRowCount": 26121,
+    "driverCount": 823,
+    "constructorCount": 207,
+    "unknownStartRowCount": 224,
+    "unknownGridRowCount": 92,
+    "unknownLapRowCount": 469,
+    "unknownWinnerLapEventCount": 2,
+    "fastestLapEventCount": 442,
+    "historicalEvidenceBlockedRowCount": 13
+  },
+  "metricCounts": {
+    "total": 301,
+    "drivers": 160,
+    "constructors": 141,
+    "production": 157,
+    "externalEvidenceBlocked": 144,
+    "evidenceCompleteActionableRemaining": 0
+  },
+  "paths": {
+    "catalogue": "catalogue.json",
+    "events": "events.json",
+    "drivers": "entities/drivers.json",
+    "constructors": "entities/constructors.json",
+    "metricTemplate": "metrics/{entity}/{statisticId}.json",
+    "detailTemplate": "details/{entity}/{shard}.json"
+  },
   "files": [
     {
-      "artifactKey": "derivedAggregate",
-      "relativePath": "derived/stats-lab-derived.json",
-      "checksumSha256": "d6d021130605eb2cc7298c09d8dc63a1a851914c9f3ee8c3e12b8c2e05eb6e83",
-      "sizeBytes": 5510
+      "path": "catalogue.json",
+      "artifactType": "catalogue",
+      "byteSize": 912918,
+      "sha256": "16b80569519c551f9adab1effe2310a5e652c9a0001d22a2c9b2a87d7ca0a7ef"
     },
     {
-      "artifactKey": "driverStatistics",
-      "relativePath": "derived/driver-statistics.json",
-      "checksumSha256": "03c928446c74294af4b512bfd9915c48b3014fb26a703b700ed8822b73c482c2",
-      "sizeBytes": 1119429
+      "path": "details/constructors/0.json",
+      "artifactType": "detail-shard",
+      "byteSize": 139032,
+      "sha256": "0e94599452fde2cde99ea97c4437a7ce988d18a055198be54084956140114435"
     },
     {
-      "artifactKey": "constructorStatistics",
-      "relativePath": "derived/constructor-statistics.json",
-      "checksumSha256": "ff195911f5e72cd4afa2f2b5a44cbc08d450ef3cb7413e5f5b4d296a9ed77810",
-      "sizeBytes": 199644
+      "path": "details/constructors/1.json",
+      "artifactType": "detail-shard",
+      "byteSize": 227206,
+      "sha256": "cc71311a7eb93a46249ecdde33c23a07a9126307cb2b1dd80e8d30d8bf30e82a"
     },
     {
-      "artifactKey": "circuitStatistics",
-      "relativePath": "derived/circuit-statistics.json",
-      "checksumSha256": "2c15d48f711b75e624149d60ee2c096cf98d2734a5ed62b9d63595cac6073140",
-      "sizeBytes": 77130
+      "path": "details/constructors/2.json",
+      "artifactType": "detail-shard",
+      "byteSize": 100655,
+      "sha256": "6d1ab5d4412de33b47e6522e0445e8d4fa86e8a5089838a926a1e0e7a1b61c1d"
     },
     {
-      "artifactKey": "seasonStatistics",
-      "relativePath": "derived/season-statistics.json",
-      "checksumSha256": "609ca0c359666ea5b68741a0a341fe8b8d53e224bea4b1e96ac30ee651b94a5f",
-      "sizeBytes": 277781
+      "path": "details/constructors/3.json",
+      "artifactType": "detail-shard",
+      "byteSize": 299319,
+      "sha256": "36a5bcb8ec24382078344af53f8943661bd6462ab4114597a1a428af6b18977b"
     },
     {
-      "artifactKey": "recordsLibrary",
-      "relativePath": "derived/records-library.json",
-      "checksumSha256": "0ab786f2fa44bce707075178640e960e1b007b0a103190e731fc068af6afa526",
-      "sizeBytes": 454448
+      "path": "details/constructors/4.json",
+      "artifactType": "detail-shard",
+      "byteSize": 73542,
+      "sha256": "b586adc7547272ef0b78b5b512ad109ba5cc545d571db6432aa69eca72043777"
+    },
+    {
+      "path": "details/constructors/5.json",
+      "artifactType": "detail-shard",
+      "byteSize": 124179,
+      "sha256": "e033a42258338751554c63a065e8f1d057eddaab0c535941cb3addf3e92b6d8b"
+    },
+    {
+      "path": "details/constructors/6.json",
+      "artifactType": "detail-shard",
+      "byteSize": 1051503,
+      "sha256": "28f0c770bfd75e8754871efb7484e29e77b5eeaf3f0b7881b52cff5a8b49ef57"
+    },
+    {
+      "path": "details/constructors/7.json",
+      "artifactType": "detail-shard",
+      "byteSize": 103743,
+      "sha256": "e69f68188e0ad224618a27368739b63ca71597e55ed9dbebff59ae3502d146aa"
+    },
+    {
+      "path": "details/constructors/8.json",
+      "artifactType": "detail-shard",
+      "byteSize": 94345,
+      "sha256": "6e00dc2b08aebf8f496c30c9138f2cc777cad4f2cfb0757bfc2f8854a8ac7eec"
+    },
+    {
+      "path": "details/constructors/9.json",
+      "artifactType": "detail-shard",
+      "byteSize": 235966,
+      "sha256": "06e8f9839945b792d139e2c70ba5391a0cce5f60f53b7dda69d1861f42125277"
+    },
+    {
+      "path": "details/constructors/a.json",
+      "artifactType": "detail-shard",
+      "byteSize": 279102,
+      "sha256": "75e46fde276f5cf1106e235ad5dca198e723e17e0c0fe9edd67b46453a745343"
+    },
+    {
+      "path": "details/constructors/b.json",
+      "artifactType": "detail-shard",
+      "byteSize": 519758,
+      "sha256": "a7b42aa5e3708f5e126e3477ea6c5765723726d198afb4937085fbe01c854016"
+    },
+    {
+      "path": "details/constructors/c.json",
+      "artifactType": "detail-shard",
+      "byteSize": 412185,
+      "sha256": "8fdf298ef69f1ca99fe245eebdda74c059a3a2c5e667c14040426390fdfb7660"
+    },
+    {
+      "path": "details/constructors/d.json",
+      "artifactType": "detail-shard",
+      "byteSize": 394190,
+      "sha256": "626f55738ba42d306170fdaeeb14024bd6e99eb2126546eb0e839b662e80181b"
+    },
+    {
+      "path": "details/constructors/e.json",
+      "artifactType": "detail-shard",
+      "byteSize": 244710,
+      "sha256": "f840e6c837e7a414d7b1f8eabeccfc5536af15161fcc2f6c6985bd8730a8359b"
+    },
+    {
+      "path": "details/constructors/f.json",
+      "artifactType": "detail-shard",
+      "byteSize": 1041861,
+      "sha256": "fc7bcd533055f03daec8901d8bb0925aa982c5a2b2d983ce0acbf5c80fb59074"
+    },
+    {
+      "path": "details/drivers/0.json",
+      "artifactType": "detail-shard",
+      "byteSize": 692528,
+      "sha256": "55d6e2db3a437e7d28f2abf738285173081d29a9f206fffcd82975c48cdc3659"
+    },
+    {
+      "path": "details/drivers/1.json",
+      "artifactType": "detail-shard",
+      "byteSize": 537402,
+      "sha256": "15ab338f19d3185fa018f68c0046bb219e3ff690540f422ae27f0c6111d1331e"
+    },
+    {
+      "path": "details/drivers/2.json",
+      "artifactType": "detail-shard",
+      "byteSize": 546185,
+      "sha256": "87114c118db986cbdb3ce9de0d45bf2a494b44164a836f2de982c37346ca06f6"
+    },
+    {
+      "path": "details/drivers/3.json",
+      "artifactType": "detail-shard",
+      "byteSize": 353572,
+      "sha256": "97d69e8c4426fdb96b6bb9b13ebae663fd3f2d3812b8f3eca841eb3dfc8cea6c"
+    },
+    {
+      "path": "details/drivers/4.json",
+      "artifactType": "detail-shard",
+      "byteSize": 557613,
+      "sha256": "9b23776cbcab71aa43035392cdd2c304e9792411166581d416ffa17fb12efa8e"
+    },
+    {
+      "path": "details/drivers/5.json",
+      "artifactType": "detail-shard",
+      "byteSize": 611120,
+      "sha256": "51fd9f27117b1801127bc642de0b16b6facb5562af8bff199417e7385dbc5f1c"
+    },
+    {
+      "path": "details/drivers/6.json",
+      "artifactType": "detail-shard",
+      "byteSize": 660869,
+      "sha256": "2fe216798ee3a06ffcb0af1e7b3725908890ec4d0c6ead938fd69f317a39fb56"
+    },
+    {
+      "path": "details/drivers/7.json",
+      "artifactType": "detail-shard",
+      "byteSize": 935236,
+      "sha256": "5cd373c19268735a75763e83bc584b69bda0327cd81b7de40ac22a2d7669a655"
+    },
+    {
+      "path": "details/drivers/8.json",
+      "artifactType": "detail-shard",
+      "byteSize": 899971,
+      "sha256": "f0effbd2b895eefd88595cc40761e96e4cd6179910c94d71b2e991ee62c01002"
+    },
+    {
+      "path": "details/drivers/9.json",
+      "artifactType": "detail-shard",
+      "byteSize": 784270,
+      "sha256": "35f3917230f5976a4afa1d071f73bb75dce24e5aa7af281788a15231e1fd0aa7"
+    },
+    {
+      "path": "details/drivers/a.json",
+      "artifactType": "detail-shard",
+      "byteSize": 516707,
+      "sha256": "ed185ac2932a53e1551642b17ed0922d47c591458a66f5b85ac1104c885bfc64"
+    },
+    {
+      "path": "details/drivers/b.json",
+      "artifactType": "detail-shard",
+      "byteSize": 591416,
+      "sha256": "9d83dc4e3e5b909ed750a5ac5ae54fa628bf922120b7454d20c031575306b09d"
+    },
+    {
+      "path": "details/drivers/c.json",
+      "artifactType": "detail-shard",
+      "byteSize": 481293,
+      "sha256": "2348616197141d58a5e22c58cd851a60a813f03272d00d291cd4a058e14cadaa"
+    },
+    {
+      "path": "details/drivers/d.json",
+      "artifactType": "detail-shard",
+      "byteSize": 879593,
+      "sha256": "1d8386c181c8445d1ef03d8c0d85411a8950d1529e979ff54ca041b7e8da220e"
+    },
+    {
+      "path": "details/drivers/e.json",
+      "artifactType": "detail-shard",
+      "byteSize": 587908,
+      "sha256": "7bc31da8ee15be29da9d92b2cba9c0015c4095336254f95fe4e74ebc0bc407c1"
+    },
+    {
+      "path": "details/drivers/f.json",
+      "artifactType": "detail-shard",
+      "byteSize": 863665,
+      "sha256": "de514ea818e11dd6de2cd21a56ebfd7bc2bd44251378cd97864f698a5cda7700"
+    },
+    {
+      "path": "entities/constructors.json",
+      "artifactType": "entity-index",
+      "byteSize": 77030,
+      "sha256": "fe41467b98bf10bb62ba2573e1460bf58bc5c17956693f88505828ec06b66d2a"
+    },
+    {
+      "path": "entities/drivers.json",
+      "artifactType": "entity-index",
+      "byteSize": 283058,
+      "sha256": "2bc1496c988ff3b91d8d0ccf0a630ede6a2051d6fa61a441da65c5af9817c297"
+    },
+    {
+      "path": "events.json",
+      "artifactType": "event-index",
+      "byteSize": 311906,
+      "sha256": "c840ebf860717a55aef6c80bcc9e0723f3b4a32eb8a770571a76348ad60383a3"
+    },
+    {
+      "path": "metrics/constructors/championships_total.json",
+      "artifactType": "metric",
+      "byteSize": 12164,
+      "sha256": "aee8e036bfb4c7ebe776cabf7fd44bcc11386604b578e836aba883df86ef1a26"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_championships.json",
+      "artifactType": "metric",
+      "byteSize": 285921,
+      "sha256": "10f78d4a0c9fbd62b8ef77d74b6b41c38e2b2a8fd81dcfea4a0230a9c057ed54"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_one_twos.json",
+      "artifactType": "metric",
+      "byteSize": 362376,
+      "sha256": "2eab7c4ef8bdc66858bb9ff33f9cb6957d9c867b9e8aef3ff8ba5dca7d8ba8fd"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_podium_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 651260,
+      "sha256": "d4fc25dcc3ae90e1dd721664a24c0fcba8bd97d1281ac2a68a9a54f9325167e0"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_podiums.json",
+      "artifactType": "metric",
+      "byteSize": 613699,
+      "sha256": "d7320551abc66aca3732c094f458ddc7bbc4a619d8f2dbb37fc9a9b6c587e381"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_points.json",
+      "artifactType": "metric",
+      "byteSize": 732279,
+      "sha256": "de4e4d0528a594a78b897a292b055fa0c2d9f76f2f632833448e8e663f53139b"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_points_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 857222,
+      "sha256": "faf96e57e6e4d55d8bd173dcbd6adec962ad4967d61ae424a864cef2a3253c96"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_pole_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 472443,
+      "sha256": "bb6d6ea34589615fac466dcb3d7d1a139648cd24b45d922e8c760965401ff729"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_poles.json",
+      "artifactType": "metric",
+      "byteSize": 476181,
+      "sha256": "267ce32d006b3dae49fb1bb1e49f07cb21aed713033c06fc72b08a7aa94378ff"
+    },
+    {
+      "path": "metrics/constructors/consecutive_constructor_winning_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 455768,
+      "sha256": "605bf5c09029d1985c9b7c228df39a9a147b43abbc8b2d846e3e20eab0f99122"
+    },
+    {
+      "path": "metrics/constructors/constructor_average_points_per_season.json",
+      "artifactType": "metric",
+      "byteSize": 735397,
+      "sha256": "202e9584b06def1c047f04f4318644dd066c278fe2fa2669a5f627efb0fe23ab"
+    },
+    {
+      "path": "metrics/constructors/constructor_championship_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 51832,
+      "sha256": "9493db45f1a0818c51d9966df5ecef611a83b559bb6a3803a3cc78f017f0a481"
+    },
+    {
+      "path": "metrics/constructors/constructor_championship_interval.json",
+      "artifactType": "metric",
+      "byteSize": 22735,
+      "sha256": "1369782fd5a7fc5b2abe6559e836f412293468792b27d159c04bcdf03de9dd12"
+    },
+    {
+      "path": "metrics/constructors/constructor_classified_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 574032,
+      "sha256": "e264f96ac376b2b77a684273964738679acb4b003085d93a8b8bfd48a9bc4b91"
+    },
+    {
+      "path": "metrics/constructors/constructor_different_consecutive_winners.json",
+      "artifactType": "metric",
+      "byteSize": 76279,
+      "sha256": "0e16542e7299b8cc10bcc9ce1c2b3ea4b0e9e3872d5fcff8c0b51687b80db740"
+    },
+    {
+      "path": "metrics/constructors/constructor_different_drivers.json",
+      "artifactType": "metric",
+      "byteSize": 979659,
+      "sha256": "8477e65ff03e0fadf01732d89011dc5546393b3ac94be0cb2409c4c2aec94e58"
+    },
+    {
+      "path": "metrics/constructors/constructor_disqualifications.json",
+      "artifactType": "metric",
+      "byteSize": 31009,
+      "sha256": "674392647f2843191263d0237a8ab827704ab3e1147e2c39b99d97b9c80244db"
+    },
+    {
+      "path": "metrics/constructors/constructor_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 547472,
+      "sha256": "02aec18fae7e0feff03713bec5a7a4211e0cd0018b40f60289a4924747125aa4"
+    },
+    {
+      "path": "metrics/constructors/constructor_last_podium.json",
+      "artifactType": "metric",
+      "byteSize": 192129,
+      "sha256": "57313eab7e991224003c0f180ad018effec06b0f88db62b3d8ff5c6dc802fc1e"
+    },
+    {
+      "path": "metrics/constructors/constructor_last_pole.json",
+      "artifactType": "metric",
+      "byteSize": 91552,
+      "sha256": "300b0435552088189e7013406634bab40e5e628111b17c432c1bb7c83ee5e391"
+    },
+    {
+      "path": "metrics/constructors/constructor_one_two_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 28633,
+      "sha256": "5afc0063d2d1e80432b992981209e94a61fcc2b41b5f8f4845c33dd3dd064d0d"
+    },
+    {
+      "path": "metrics/constructors/constructor_podium_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 737952,
+      "sha256": "661f5808455b32b3207f5f3ec0ee4361d7d059ecc836bdad5f3af64ed65e9de7"
+    },
+    {
+      "path": "metrics/constructors/constructor_podium_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 738355,
+      "sha256": "3ffe02d99ae9a76eb6b80fe653fc3652d44b277aac7ef8b45328b77c368f6339"
+    },
+    {
+      "path": "metrics/constructors/constructor_podium_chronology/page-3.json",
+      "artifactType": "metric-page",
+      "byteSize": 582105,
+      "sha256": "ac97fd358e04af8c4fe0cf46bb314e3cdf7c25a2f573e02265c991f51ddc115b"
+    },
+    {
+      "path": "metrics/constructors/constructor_podium_interval.json",
+      "artifactType": "metric",
+      "byteSize": 217291,
+      "sha256": "f3c4f0431ccf711f428d455e596ef6450ad8ddf6cb6873299e01ca94e9b1ed6a"
+    },
+    {
+      "path": "metrics/constructors/constructor_podium_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 179506,
+      "sha256": "780cf168c694fa47703c32439af866c8b70c763236d61b3810d9a8356ce691e7"
+    },
+    {
+      "path": "metrics/constructors/constructor_podiums_from_season_start.json",
+      "artifactType": "metric",
+      "byteSize": 439932,
+      "sha256": "eba443af7320bfe8775d75cf96520793fa0f6665d01241c6704a21497e2c6ac5"
+    },
+    {
+      "path": "metrics/constructors/constructor_podiums_without_win.json",
+      "artifactType": "metric",
+      "byteSize": 19765,
+      "sha256": "c2e8fa605e21145315bd423a270e5ece0cee48800c76da355d620492b33a62cf"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 739253,
+      "sha256": "c294ed9d1e88816214df29c6cbc26b30267a5aef1c40e53cea32fe1f2e791d63"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 739683,
+      "sha256": "898a8bea0d01048fec26d13bcf9013669f3d1d3a84d8c0e6c651f964d0224ff2"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-3.json",
+      "artifactType": "metric-page",
+      "byteSize": 739744,
+      "sha256": "d78740d58cf9f7ee5c6ffdf4d6df892890b1a47400c74f5d00898c1cff8c9c5b"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-4.json",
+      "artifactType": "metric-page",
+      "byteSize": 739856,
+      "sha256": "4766533650e2dbbcc200b9238a583cc7aad3fb707cd8913e0bb127f710922631"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-5.json",
+      "artifactType": "metric-page",
+      "byteSize": 743005,
+      "sha256": "9ae3fbb468c3f4b81a74109164aae4a690a556c5d5ba4bd26eff1fe7301ab1d8"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-6.json",
+      "artifactType": "metric-page",
+      "byteSize": 743944,
+      "sha256": "3a4be251471d0e8a25d283ab2b6077f88eedc98c6d9ff41c97c072a5b82efe47"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_chronology/page-7.json",
+      "artifactType": "metric-page",
+      "byteSize": 29066,
+      "sha256": "823879ffa476e419fbfcaa289c922dadee13d71e9f91de9c20321d49b570ff29"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_interval.json",
+      "artifactType": "metric",
+      "byteSize": 408416,
+      "sha256": "fc7aa0b867180dcd52c5297ad58c50b94509c40b70382d574ec25be1ab417373"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_scoring_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 340336,
+      "sha256": "89b57adde8e1ba08e970259e84d567b9ec93223ff7ee0e9b4092eb9e3c676617"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_scoring_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 356774,
+      "sha256": "d87c78a46149371e00e9b96cf712b5670154a5c31bd5679a16c99e8ab8b4dbcd"
+    },
+    {
+      "path": "metrics/constructors/constructor_points_without_win.json",
+      "artifactType": "metric",
+      "byteSize": 75367,
+      "sha256": "8aa7191a9a0b76c8dd6ac94be49893a5a76e4ecc730b9358b9c89b6a46760e90"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_and_win.json",
+      "artifactType": "metric",
+      "byteSize": 44326,
+      "sha256": "ef55f9148f157623dcb2bc47c9ec3cb2a9f42301507b5fbab9a691b6c6e7643e"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 736661,
+      "sha256": "64a49a216d5c88bd4307d1ba369c5b58cdfb14f796cfadb854d0960943e285b9"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 117658,
+      "sha256": "663008e84cf9405e72a390c6666b04cfacb05f06e64a5831e79c48863fc4e161"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_interval.json",
+      "artifactType": "metric",
+      "byteSize": 106944,
+      "sha256": "29ed80036aa12ffce6f33411829a18ea4c82fe115d3b9e47a3221f8575c86b8f"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 187285,
+      "sha256": "ff726d9315582f6fcdec3557da8d3595d0541dd1b560f61d3c0aaa1c720d61c4"
+    },
+    {
+      "path": "metrics/constructors/constructor_pole_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 83423,
+      "sha256": "a60be28e526b5bd9f2aa4861264b8792e66df034751bbb644d469c844c989bae"
+    },
+    {
+      "path": "metrics/constructors/constructor_poles_by_circuit.json",
+      "artifactType": "metric",
+      "byteSize": 274134,
+      "sha256": "4fb2badc9393af56ed9ff0cb38104a07bd76f6fe8628f065486705fa1bfbe555"
+    },
+    {
+      "path": "metrics/constructors/constructor_poles_by_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 262873,
+      "sha256": "d811a26a2419655e47822913fbafa9b4a901b66f7cd514cd67371e2f8d623dfd"
+    },
+    {
+      "path": "metrics/constructors/constructor_poles_from_season_start.json",
+      "artifactType": "metric",
+      "byteSize": 370156,
+      "sha256": "3380da4e4205093a031dd111a63793f8a02418f3e32b96493fff46434a4a5e5c"
+    },
+    {
+      "path": "metrics/constructors/constructor_retirements.json",
+      "artifactType": "metric",
+      "byteSize": 422852,
+      "sha256": "d0bf60301e8ead980515d0d21dd09674ac717ab26a622e33b2ae2decb2b7b514"
+    },
+    {
+      "path": "metrics/constructors/constructor_season_count.json",
+      "artifactType": "metric",
+      "byteSize": 735965,
+      "sha256": "67d7f648e6e57be9687be0ebb8c54c5420a78d2eb5517adb70d718959a6c87e6"
+    },
+    {
+      "path": "metrics/constructors/constructor_season_one_twos.json",
+      "artifactType": "metric",
+      "byteSize": 80189,
+      "sha256": "d9b0ecc3569b775088692e58f75df16c52bc452d2e4c51f826426b259e905645"
+    },
+    {
+      "path": "metrics/constructors/constructor_season_podiums.json",
+      "artifactType": "metric",
+      "byteSize": 373491,
+      "sha256": "30287c4541e16c18ecf2a7c53b9b0a7e52f46fa34c348e4160ba6e0ae22646ec"
+    },
+    {
+      "path": "metrics/constructors/constructor_season_points.json",
+      "artifactType": "metric",
+      "byteSize": 661047,
+      "sha256": "92a332572134abf404056797c7c76db3187fbe23b28e5fd10bf1d752c52df179"
+    },
+    {
+      "path": "metrics/constructors/constructor_season_poles.json",
+      "artifactType": "metric",
+      "byteSize": 187326,
+      "sha256": "d9b8e45f1d85dc675a6f29f311f04b71be2974ef9f3c61ff94ac6f9c90f9da38"
+    },
+    {
+      "path": "metrics/constructors/constructor_second_places.json",
+      "artifactType": "metric",
+      "byteSize": 83522,
+      "sha256": "587f4a00572ae3a488160fd384999c24ae22a4c72a5537aec30c5cc2afa9387e"
+    },
+    {
+      "path": "metrics/constructors/constructor_third_places.json",
+      "artifactType": "metric",
+      "byteSize": 89489,
+      "sha256": "13740896b0b972db6b2508b6213956e579ed87d70e1a34e58d7cab0638194f24"
+    },
+    {
+      "path": "metrics/constructors/constructor_title_season_wins.json",
+      "artifactType": "metric",
+      "byteSize": 62937,
+      "sha256": "17a6f296e5f5cea5f692b93591a5af0c6976dc37e99cf29532a2c9a5d87b8918"
+    },
+    {
+      "path": "metrics/constructors/constructor_win_interval.json",
+      "artifactType": "metric",
+      "byteSize": 106909,
+      "sha256": "69479237271b69941f09d9a82e2eaed5406042d52cbe8e5e1082e68420e82a1b"
+    },
+    {
+      "path": "metrics/constructors/constructor_win_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 184137,
+      "sha256": "7b26e99c9251cd8f58270fd8e9eff0f4c56da94cd1479a0f70123cb534a32297"
+    },
+    {
+      "path": "metrics/constructors/constructor_winning_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 83579,
+      "sha256": "26de3baea7af042c3515595b63e1680a2224b670238645c2f7bf1375bec3e209"
+    },
+    {
+      "path": "metrics/constructors/constructor_wins_from_season_start.json",
+      "artifactType": "metric",
+      "byteSize": 358369,
+      "sha256": "34644a9e29f680d98d97601bf5e4a600d59095d6d8d13357aaffa81a382b2d34"
+    },
+    {
+      "path": "metrics/constructors/days_since_last_win.json",
+      "artifactType": "metric",
+      "byteSize": 90429,
+      "sha256": "403a105fcee21cda181c44f6a19592264f80ab8158c4d751a0ae0cdecbe9b920"
+    },
+    {
+      "path": "metrics/constructors/different_constructor_pole_circuits.json",
+      "artifactType": "metric",
+      "byteSize": 116283,
+      "sha256": "843b8c6d45572afb04d9a3c8c07159ae4ac2e65771601336cff312cda871e0d3"
+    },
+    {
+      "path": "metrics/constructors/different_constructor_pole_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 120412,
+      "sha256": "77779cfc25af4ca39a5e0e2f225cf16c83107495e01ae6f8e5a358a7ef045017"
+    },
+    {
+      "path": "metrics/constructors/different_constructor_winning_circuits.json",
+      "artifactType": "metric",
+      "byteSize": 118427,
+      "sha256": "d5617f95db9128cedc6a44680d5b7c76f87b1421d97ecda7e5bce18a0ed6eb68"
+    },
+    {
+      "path": "metrics/constructors/different_constructor_winning_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 122182,
+      "sha256": "05530692845227abefde646f141e4b704ec762b11a267067fa00383c0b1b84b6"
+    },
+    {
+      "path": "metrics/constructors/first_win.json",
+      "artifactType": "metric",
+      "byteSize": 91422,
+      "sha256": "2b5ab9d1c1bb4874c6210020cbba4dad2ec9264501b0699ff453b1c48e0b18a8"
+    },
+    {
+      "path": "metrics/constructors/gps_before_first_constructor_podium.json",
+      "artifactType": "metric",
+      "byteSize": 144443,
+      "sha256": "1973b1c960c42bfb4e985020f93ea28009b531f893f81d99c4622eacfe1b6a61"
+    },
+    {
+      "path": "metrics/constructors/gps_before_first_constructor_pole.json",
+      "artifactType": "metric",
+      "byteSize": 115965,
+      "sha256": "b9d538bdfb0cc148519b4ef2dfafd76029c9c092e82c2e50f60d12f7d7abaa61"
+    },
+    {
+      "path": "metrics/constructors/gps_before_first_constructor_win.json",
+      "artifactType": "metric",
+      "byteSize": 112605,
+      "sha256": "069f0b1e8d281e7e45b696d1e5d85fce4c448617a2663353982d780af3870d39"
+    },
+    {
+      "path": "metrics/constructors/grands_prix_entries.json",
+      "artifactType": "metric",
+      "byteSize": 713084,
+      "sha256": "ac0edfa5451febf43173dc5398b24c039226717d5c1cea960872f915e87b6e80"
+    },
+    {
+      "path": "metrics/constructors/last_win.json",
+      "artifactType": "metric",
+      "byteSize": 91487,
+      "sha256": "d8c2a17af367de97620c1d9baefc07233aef5aaff3706154676819c107ba074a"
+    },
+    {
+      "path": "metrics/constructors/longest_win_streak.json",
+      "artifactType": "metric",
+      "byteSize": 457495,
+      "sha256": "cab11a1f5b10db0bcf0236209c5c0e365665853b7b3a36cc3aad35602587081b"
+    },
+    {
+      "path": "metrics/constructors/podiums_total.json",
+      "artifactType": "metric",
+      "byteSize": 169953,
+      "sha256": "fe105f026d960b4bfac4c8a8e46eeea4ad0bb3ca7282b1342579211754015d28"
+    },
+    {
+      "path": "metrics/constructors/points_total.json",
+      "artifactType": "metric",
+      "byteSize": 342528,
+      "sha256": "8ea989763df2024fafff91aa035829b2aff522549558e33ad23cfdbbe9767e93"
+    },
+    {
+      "path": "metrics/constructors/pole_positions_total.json",
+      "artifactType": "metric",
+      "byteSize": 78019,
+      "sha256": "c87dae58540c9ac1d2de1c68722d58e0909fb75422933460ad95604df6da7cb6"
+    },
+    {
+      "path": "metrics/constructors/races_since_last_win.json",
+      "artifactType": "metric",
+      "byteSize": 90398,
+      "sha256": "bc240a568ad9b8d5dc027a8d5758955db317c3c29a5b95419223f63fa3908e05"
+    },
+    {
+      "path": "metrics/constructors/wins_by_circuit.json",
+      "artifactType": "metric",
+      "byteSize": 286369,
+      "sha256": "9e7da3eb8aa980b408e1a2316a4a52c0b6ed2e3243e84d22e01d7d804407af5a"
+    },
+    {
+      "path": "metrics/constructors/wins_by_gp.json",
+      "artifactType": "metric",
+      "byteSize": 271497,
+      "sha256": "57c3e7acb337cb63b2781d7d7eb146a499e5e4acf4158d4d998a7d1984939380"
+    },
+    {
+      "path": "metrics/constructors/wins_by_season.json",
+      "artifactType": "metric",
+      "byteSize": 192323,
+      "sha256": "c1cfe025dc7dcffc242792c6e6577e939a515f2992cd02a8cb6e21c2b552fc6f"
+    },
+    {
+      "path": "metrics/constructors/wins_timeline.json",
+      "artifactType": "metric",
+      "byteSize": 735348,
+      "sha256": "7a81a682b7a56b877401d625e949138db70d7341e79685d1aa33599631d01858"
+    },
+    {
+      "path": "metrics/constructors/wins_timeline/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 117539,
+      "sha256": "d9b4143aff923992d9174573d3d7b06a16295e69c4e588263ed0d633fef3514f"
+    },
+    {
+      "path": "metrics/constructors/wins_total.json",
+      "artifactType": "metric",
+      "byteSize": 77984,
+      "sha256": "3dd2057af9d35e1796814fc73aa10df215c72c23b277a7eae4f4e2bede311720"
+    },
+    {
+      "path": "metrics/drivers/championship_winning_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 60946,
+      "sha256": "f8763dfe8c033dbab1e45569d5324766b7eacffad1eaf85e66f11b728172ceb8"
+    },
+    {
+      "path": "metrics/drivers/championships_total.json",
+      "artifactType": "metric",
+      "byteSize": 20424,
+      "sha256": "c8337ca910bb64d072d11d3fed0cf4a0e7ab8d0de3a06fe36d382e2b3f52e287"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_championships.json",
+      "artifactType": "metric",
+      "byteSize": 298403,
+      "sha256": "971c8efbaa352d6671cea0e751171813d006f634ab16eb081f9f1ac235c02c06"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_classifications.json",
+      "artifactType": "metric",
+      "byteSize": 2059922,
+      "sha256": "a258d4eb2003decf11266156aa5f3fc3b812887dc8329b3c0696b372eab43f71"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 1994502,
+      "sha256": "32d9ab3e39d5da7db7ec16ae4c65b447b78f1b8047b248f7237ecb330f5d08eb"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_podiums.json",
+      "artifactType": "metric",
+      "byteSize": 1184651,
+      "sha256": "9b196c9b8f387925061cfcbbc1df433b4c89d9243165e1179228bacbb00d9892"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_poles.json",
+      "artifactType": "metric",
+      "byteSize": 795334,
+      "sha256": "28e3e6b0517918a06319d33816e99c220f202b1c153bc2202117d50c056c483d"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_retirements.json",
+      "artifactType": "metric",
+      "byteSize": 2012030,
+      "sha256": "4f8ecbbb307fc3fb9583ef7984502cbb62f31b2a01e03898766ccc1ef71a9071"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_winning_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 797079,
+      "sha256": "73507140cab7eaf56b654cc3d265bafa610a172f5e7b65eaa2bf41426251f23a"
+    },
+    {
+      "path": "metrics/drivers/consecutive_driver_wins.json",
+      "artifactType": "metric",
+      "byteSize": 822426,
+      "sha256": "718f42f2c7401100db1a7f85a61652d0426ec4832bdb1f3169da0d9ec8a4f047"
+    },
+    {
+      "path": "metrics/drivers/consecutive_points_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 1546694,
+      "sha256": "550225aabdea7cc3409b8e2d48245b97a011bf2b680a81768c1029b090dfb44a"
+    },
+    {
+      "path": "metrics/drivers/consecutive_points_finishes_no_sprint.json",
+      "artifactType": "metric",
+      "byteSize": 1546723,
+      "sha256": "2935fc6e16f4c8ec41aa32d73b0c85d1997200b70905be02ea3c214ca6f06042"
+    },
+    {
+      "path": "metrics/drivers/days_since_last_podium.json",
+      "artifactType": "metric",
+      "byteSize": 324262,
+      "sha256": "b79d28d02b0ea36dc291d489a084ec79fe5d9f0125a3a00b75db54a9b075dd16"
+    },
+    {
+      "path": "metrics/drivers/days_since_last_win.json",
+      "artifactType": "metric",
+      "byteSize": 138788,
+      "sha256": "b4c60af8c080e570691b80cf4b75c410a0deb95f1facb431050b746b32867e5f"
+    },
+    {
+      "path": "metrics/drivers/different_winning_circuits.json",
+      "artifactType": "metric",
+      "byteSize": 175737,
+      "sha256": "28c71a548bb4d8acf05a6b299e9daa84cd990210b1986b74f81ac35318b74ce8"
+    },
+    {
+      "path": "metrics/drivers/different_winning_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 188158,
+      "sha256": "b5612901a8c17af933751015db3b996093d4c6d02d9f84fa0083efdfdc794bd2"
+    },
+    {
+      "path": "metrics/drivers/driver_average_points_per_season.json",
+      "artifactType": "metric",
+      "byteSize": 1697781,
+      "sha256": "3ea72eddf7d0f14eae774369e339585dacef4cd9e0e1e43dc1b0c5e83eadf3cd"
+    },
+    {
+      "path": "metrics/drivers/driver_championship_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 57039,
+      "sha256": "88ac18b6ff93c2f8274e45cdd3cb5dbe48938e47377510b472ec4a97ae5fb034"
+    },
+    {
+      "path": "metrics/drivers/driver_championship_interval.json",
+      "artifactType": "metric",
+      "byteSize": 42179,
+      "sha256": "b7033d0eb0f7b1b462e5e053060155ec8d5c906bcd3a285c72749471bf0d2cd0"
+    },
+    {
+      "path": "metrics/drivers/driver_classified_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 1109440,
+      "sha256": "ab60240caa0ef3947daf48bde25a608b0895251c1b1e989dc86c649a37550f3b"
+    },
+    {
+      "path": "metrics/drivers/driver_different_constructors.json",
+      "artifactType": "metric",
+      "byteSize": 1876025,
+      "sha256": "64d5a259864bce36a2232f0d72f8e6f36de1673cba135447e495ab37ec49cff6"
+    },
+    {
+      "path": "metrics/drivers/driver_disqualifications.json",
+      "artifactType": "metric",
+      "byteSize": 52980,
+      "sha256": "cd0bd1bf61ebf84cc10e0f70a09ff30823eda8d2b984997011e31b0d250fd316"
+    },
+    {
+      "path": "metrics/drivers/driver_finish_h2_h.json",
+      "artifactType": "metric",
+      "byteSize": 672100,
+      "sha256": "afec65907626722f2118815fd7492d0916fdb654e10d57fee1b6cf828fc0e236"
+    },
+    {
+      "path": "metrics/drivers/driver_finishes.json",
+      "artifactType": "metric",
+      "byteSize": 1040655,
+      "sha256": "21e33cb0b285c80422fc2f6384feebc91ad76e3b4cc72fe8662163b9fd6f8055"
+    },
+    {
+      "path": "metrics/drivers/driver_first_race_finish.json",
+      "artifactType": "metric",
+      "byteSize": 1226291,
+      "sha256": "dbd9bc1f560cb419443458e47eeded9a91a8cca75f6a26a38902b8a992fe0aee"
+    },
+    {
+      "path": "metrics/drivers/driver_last_race_finish.json",
+      "artifactType": "metric",
+      "byteSize": 1227095,
+      "sha256": "73416f49d61b0214fbed56d889e8386926634a3a27ac45d2b43a1b2fce4e9a3a"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates.json",
+      "artifactType": "metric",
+      "byteSize": 1657268,
+      "sha256": "3c2efed9186904fed1def526c70addcd3e442457206b55c349653c8e14182d24"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-10.json",
+      "artifactType": "metric-page",
+      "byteSize": 223094,
+      "sha256": "48283b004f820b1ac33ef40dc3effe3a9ae9d142045c55189168d34bf5ee1541"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 881373,
+      "sha256": "6c74b509ef5e1f93055a36f846210dca7cc12ca78888841e3034a2eec1f386c0"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-3.json",
+      "artifactType": "metric-page",
+      "byteSize": 739451,
+      "sha256": "3c864ca05224ccad839beac0dd0055b99a4ac5d4e16395dd572d4937bf77f4f9"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-4.json",
+      "artifactType": "metric-page",
+      "byteSize": 702932,
+      "sha256": "1750ce8d0d9128a34cd6712931180f1393dd08b72de71f5edb2d12a89eff4381"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-5.json",
+      "artifactType": "metric-page",
+      "byteSize": 661773,
+      "sha256": "61dc6bb135f091abdbdc1f7abdde96506420a2d82a8f18d464413b2ae78bbc51"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-6.json",
+      "artifactType": "metric-page",
+      "byteSize": 654718,
+      "sha256": "53c0759e3059bf8899c6358484dd42832eb2c30225df91c349166ef4bc79ea78"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-7.json",
+      "artifactType": "metric-page",
+      "byteSize": 655016,
+      "sha256": "91d4e6b4e010f49b2f3595c6dab147254c40e03fa0278c3a900b5aabb4f82066"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-8.json",
+      "artifactType": "metric-page",
+      "byteSize": 656479,
+      "sha256": "c07c3b1348948cb20869be16c46330079b93874daabf88b93fb26a0ae105bedf"
+    },
+    {
+      "path": "metrics/drivers/driver_most_frequent_teammates/page-9.json",
+      "artifactType": "metric-page",
+      "byteSize": 657749,
+      "sha256": "3654f7e77d5569b6de166ef340826a73f3bf8e4cfe585ab6d8e766746971c719"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 726119,
+      "sha256": "292f794ae150d09cda7653f7762dfe9f20bf51bea79d22ef4a44ad154c5091a5"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 730122,
+      "sha256": "ec459b5b7d217759c99f7d57703cfbde57af2b837beb58105a99378404b147a5"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_chronology/page-3.json",
+      "artifactType": "metric-page",
+      "byteSize": 732803,
+      "sha256": "2705e5a12a26aa3b42322953be58fcf87d3966ef911a8e434c111b7d615a7dc7"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_chronology/page-4.json",
+      "artifactType": "metric-page",
+      "byteSize": 364335,
+      "sha256": "68b42b86b21a7c394a6c279ab424e8089197dddc7ecf3a781ffc731c9ae770dc"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_interval.json",
+      "artifactType": "metric",
+      "byteSize": 400977,
+      "sha256": "391f32f05bbfa2d43508fa42e6309fff83dfd4395237465780a5753729590f1e"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 156058,
+      "sha256": "48c5874ea31c591cd20b3ea997c04a087379c519179e11dc67bbdb7b9b64f2a4"
+    },
+    {
+      "path": "metrics/drivers/driver_podium_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 286094,
+      "sha256": "e0d665529b2fd0c6406db52e6aa369cd38ef81656def2bb6edc891af06d5a93f"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_by_circuit.json",
+      "artifactType": "metric",
+      "byteSize": 658494,
+      "sha256": "158680431ab181a316838bb46396006c2ae630db72f958e92af40d283cc59028"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_by_circuit/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 382861,
+      "sha256": "6eefb128823a1386995b300f70bacc999db105118fc39af222721fcad4ba717b"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_by_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 695495,
+      "sha256": "1f7f36bf2227862f3db63fc84c495541741f7a8b77326eaadbc8c4d8123f7780"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_by_grand_prix/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 343647,
+      "sha256": "9685de716df16f68ae2bf1d0e15c3eb580c78c08b1a0fb4858576a22bd03ce7c"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_from_season_start.json",
+      "artifactType": "metric",
+      "byteSize": 769730,
+      "sha256": "5b4af0e4d7ca88d372698aebcdcd56e80cd5173f6f029ba9a6d2e3ed94557576"
+    },
+    {
+      "path": "metrics/drivers/driver_podiums_without_win.json",
+      "artifactType": "metric",
+      "byteSize": 57481,
+      "sha256": "96139abc9dc15c35e78dc9899f230f98012429a33f9f4e351a677de99b67fe5a"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 724720,
+      "sha256": "243f24ed57049bc0e030b29a858278f3e308e1a8d2525eef24d49e3961b82098"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 730391,
+      "sha256": "bcc2b7d1645ff75b8a57ea88c53bfd3ff0027494cb3b8ecb5735ca50602b8e1c"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-3.json",
+      "artifactType": "metric-page",
+      "byteSize": 728137,
+      "sha256": "6efc3a0616a5c09f6e6c50a460c44b9894de7af9579a58e34ab50fb8bb4057e8"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-4.json",
+      "artifactType": "metric-page",
+      "byteSize": 734019,
+      "sha256": "6dd65c070cf042fde4501137db3153ec0cf32e832c869c6d623ab98c51e8fcb8"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-5.json",
+      "artifactType": "metric-page",
+      "byteSize": 734582,
+      "sha256": "ebfda7173a54c2e318387b7fc59558457a25a1c4fee0d5398ae359156ff402ce"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-6.json",
+      "artifactType": "metric-page",
+      "byteSize": 730664,
+      "sha256": "c1b8b19673bedcbca59c4f7130627adcb8df1236ab72b0167fef09f4fba5b68f"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-7.json",
+      "artifactType": "metric-page",
+      "byteSize": 732001,
+      "sha256": "9b4be3fbe780cbe93ee5385beb83d8418f5d6301660aece88ae65cb6e444b133"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-8.json",
+      "artifactType": "metric-page",
+      "byteSize": 731475,
+      "sha256": "8211fdb8d592db0c85efb33cee2129440c5a1499174d42a3777d39ca0c6283d9"
+    },
+    {
+      "path": "metrics/drivers/driver_points_chronology/page-9.json",
+      "artifactType": "metric-page",
+      "byteSize": 370320,
+      "sha256": "d9e5f7c8efa50217a5b09247fe98988ab6d629dccc8e64e8f90bd9e4ea13c602"
+    },
+    {
+      "path": "metrics/drivers/driver_points_h2_h.json",
+      "artifactType": "metric",
+      "byteSize": 578837,
+      "sha256": "8659d3ce0e36b1e398e8b0d56bb5ea3237e0e44026979f59c06b3dbabd655f38"
+    },
+    {
+      "path": "metrics/drivers/driver_points_interval.json",
+      "artifactType": "metric",
+      "byteSize": 789811,
+      "sha256": "58f592bb2103cc9f8d407f490ba532dc2c456742d2376dacd80a9665fcdfa45f"
+    },
+    {
+      "path": "metrics/drivers/driver_points_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 352453,
+      "sha256": "8ad68f7db149bed5aec3cc709af4678cdfd7baceb9265d3ca016494085ee8d32"
+    },
+    {
+      "path": "metrics/drivers/driver_points_scoring_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 604866,
+      "sha256": "33030cd03c1ee2241404a3b84308ce20ae33736ac9a6396a38ff0ac40691cd0e"
+    },
+    {
+      "path": "metrics/drivers/driver_points_without_podium.json",
+      "artifactType": "metric",
+      "byteSize": 86878,
+      "sha256": "4a0a7327ba2d6cc46e9b27f5ecdacc30403eb2bc7322243bb9e40a11e9000ea7"
+    },
+    {
+      "path": "metrics/drivers/driver_points_without_win.json",
+      "artifactType": "metric",
+      "byteSize": 187639,
+      "sha256": "9f023fe4b30c679e7b42ac4d7503c3990457c93fb4259703c40418ae59fd3124"
+    },
+    {
+      "path": "metrics/drivers/driver_pole_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 726859,
+      "sha256": "0d839f4a01f50b966db03ffd08936b53e24cf719815d548dec057b53b46c0cd6"
+    },
+    {
+      "path": "metrics/drivers/driver_pole_chronology/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 116549,
+      "sha256": "20e89efd01f04dcfb658a8a5caf912104169ef4ab86dda9dea33b8c60584681f"
+    },
+    {
+      "path": "metrics/drivers/driver_pole_interval.json",
+      "artifactType": "metric",
+      "byteSize": 170055,
+      "sha256": "c24078d187e3d2e3ad222cdaaf2a984ad85a5ded02ed08737f0434161288fd24"
+    },
+    {
+      "path": "metrics/drivers/driver_pole_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 76073,
+      "sha256": "73f54bc80a57099cf0a991d8990be2c4fff86ae2d53f37a79174a5efa740ca21"
+    },
+    {
+      "path": "metrics/drivers/driver_pole_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 112901,
+      "sha256": "53d623e1ee8309b4756119b0b89d355e45ec7a5cddb9d874ca5d6dcfb3e25c2a"
+    },
+    {
+      "path": "metrics/drivers/driver_poles_by_circuit.json",
+      "artifactType": "metric",
+      "byteSize": 424507,
+      "sha256": "c6479de20e215319f1b580a74caebfa51b840097adcbfbad2da082202f8864f9"
+    },
+    {
+      "path": "metrics/drivers/driver_poles_by_grand_prix.json",
+      "artifactType": "metric",
+      "byteSize": 433546,
+      "sha256": "8893b5607cdfbda0528c049065f3ebc3d32534dd805b62cad8e3bd6a7a6dbe32"
+    },
+    {
+      "path": "metrics/drivers/driver_race_h2_hwins.json",
+      "artifactType": "metric",
+      "byteSize": 1222781,
+      "sha256": "5ea536325e420f7c694e3265cae364bce5f91c9fd7c8f287893a37805f234115"
+    },
+    {
+      "path": "metrics/drivers/driver_retirements.json",
+      "artifactType": "metric",
+      "byteSize": 774798,
+      "sha256": "57417f6a61a3bce85b080351a52116f69b81a101764cbe6f211378ce14749176"
+    },
+    {
+      "path": "metrics/drivers/driver_season_count.json",
+      "artifactType": "metric",
+      "byteSize": 1689029,
+      "sha256": "b171e2fb2ba2f36e66832c2a05ca5845fb6731ffe1ce13c8cf3bec805b53a274"
+    },
+    {
+      "path": "metrics/drivers/driver_season_points.json",
+      "artifactType": "metric",
+      "byteSize": 849757,
+      "sha256": "821bf3758371018773de38ef0f70740378748d52b81cb17ad0b84629f97cbbec"
+    },
+    {
+      "path": "metrics/drivers/driver_season_points/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 305856,
+      "sha256": "f617aa98c41ec3db58c5658755f0aaa68c7f64c1f7253b4470729411d3f4f457"
+    },
+    {
+      "path": "metrics/drivers/driver_second_places.json",
+      "artifactType": "metric",
+      "byteSize": 122168,
+      "sha256": "f75cc0370a19ead342bfc0d421b286828b8791f3d36a3dfa8c7068a1e355634e"
+    },
+    {
+      "path": "metrics/drivers/driver_third_places.json",
+      "artifactType": "metric",
+      "byteSize": 137717,
+      "sha256": "d61d56530be62cd956c9bb5535534cbaef67e86ad6bc6d3fd4f89f875d0ff9ff"
+    },
+    {
+      "path": "metrics/drivers/driver_win_interval.json",
+      "artifactType": "metric",
+      "byteSize": 179525,
+      "sha256": "24544f083d3e58586e9b7d9e1503662e81debe8ef98ee209e088b413759aa238"
+    },
+    {
+      "path": "metrics/drivers/driver_win_record_chronology.json",
+      "artifactType": "metric",
+      "byteSize": 78478,
+      "sha256": "8e52ef41af052224a5a53151373fcce5618cd47c63455c4b7e056ea92c829a46"
+    },
+    {
+      "path": "metrics/drivers/driver_winning_seasons.json",
+      "artifactType": "metric",
+      "byteSize": 117772,
+      "sha256": "5a4547c9871819d86e9153657db717e74db403f96336e57ae9720cab7c58d16e"
+    },
+    {
+      "path": "metrics/drivers/driver_wins_from_season_start.json",
+      "artifactType": "metric",
+      "byteSize": 392393,
+      "sha256": "fd6b4e9c86a09b2e8ad43a26fb8b6279085b52e2691ee570bd9b83e935921d48"
+    },
+    {
+      "path": "metrics/drivers/driver_wins_without_pole.json",
+      "artifactType": "metric",
+      "byteSize": 81886,
+      "sha256": "d7eaeda1285bf442ab158eda56e2bdb980cb8fd79df66e3795b96d6be5fc1bf7"
+    },
+    {
+      "path": "metrics/drivers/first_podium.json",
+      "artifactType": "metric",
+      "byteSize": 329019,
+      "sha256": "2e733a31afa04db96ebd0e04a10f53b15757575d4f9db18eac68c72af31a53ed"
+    },
+    {
+      "path": "metrics/drivers/first_pole.json",
+      "artifactType": "metric",
+      "byteSize": 134826,
+      "sha256": "35b9953f3787b2e57ce917a5a608137e275f45882c8349fd4450efe5058e42bd"
+    },
+    {
+      "path": "metrics/drivers/first_to_last_driver_win.json",
+      "artifactType": "metric",
+      "byteSize": 179538,
+      "sha256": "85bb5d05a9ca3e9e14e0231b59f9c28dda8b621de067b986a411396e46242002"
+    },
+    {
+      "path": "metrics/drivers/first_win.json",
+      "artifactType": "metric",
+      "byteSize": 141330,
+      "sha256": "372fb2a849a13c63e6459f3317437f774130469b4965325a93ef8498e9eb3602"
+    },
+    {
+      "path": "metrics/drivers/gps_before_first_podium.json",
+      "artifactType": "metric",
+      "byteSize": 448774,
+      "sha256": "858a3e6b62ff7f8f4d8301e6433298e5d8b85759c9e4090a8c76a8c0bc1ec232"
+    },
+    {
+      "path": "metrics/drivers/gps_before_first_pole.json",
+      "artifactType": "metric",
+      "byteSize": 410851,
+      "sha256": "4d4eb07522382ea3d859cce99d8d70067d7388f66c9b7e921769f975bd4e8723"
+    },
+    {
+      "path": "metrics/drivers/gps_before_first_win.json",
+      "artifactType": "metric",
+      "byteSize": 450120,
+      "sha256": "0903a713c939345cfa68a8f83ee330690bf88ac033bb96b690e39d40dfb52190"
+    },
+    {
+      "path": "metrics/drivers/grands_prix_entries.json",
+      "artifactType": "metric",
+      "byteSize": 1615792,
+      "sha256": "df6b63e98b525de28f11d45d97177d6641291a83733d4a160cea04993de7185d"
+    },
+    {
+      "path": "metrics/drivers/last_podium.json",
+      "artifactType": "metric",
+      "byteSize": 329240,
+      "sha256": "9bb27f5f0ff9ab334a4ebe7dd2104c98ec122653ca54e3f4322cb8053c0e422f"
+    },
+    {
+      "path": "metrics/drivers/last_pole.json",
+      "artifactType": "metric",
+      "byteSize": 134868,
+      "sha256": "7543a6c30ac7764fa2b54a13a816b9993853293b786b1717a27d6dc83eb9d87d"
+    },
+    {
+      "path": "metrics/drivers/last_win.json",
+      "artifactType": "metric",
+      "byteSize": 141416,
+      "sha256": "f5f844f34e2b1276f37d87281d2b8da13ac6330cf8b6b09bc06c95dd381b1da6"
+    },
+    {
+      "path": "metrics/drivers/podiums_total.json",
+      "artifactType": "metric",
+      "byteSize": 266315,
+      "sha256": "1db6f353abb3f86a1b688594fd10e41f0eb948994f390bd6b8c6dd7eb671bf18"
+    },
+    {
+      "path": "metrics/drivers/points_total.json",
+      "artifactType": "metric",
+      "byteSize": 570879,
+      "sha256": "e0f37838c717d748514dae2b7a3c30b0dcd1cb4d469db26a14f9542686ecee84"
+    },
+    {
+      "path": "metrics/drivers/pole_positions_total.json",
+      "artifactType": "metric",
+      "byteSize": 104070,
+      "sha256": "f0ecb18f8009aca7a8841ee23c95e5c3c05d46a8b171dc089bf308e37731d611"
+    },
+    {
+      "path": "metrics/drivers/races_since_last_podium.json",
+      "artifactType": "metric",
+      "byteSize": 323989,
+      "sha256": "83ca9a511b7004c94b44b5fcb21c5dba2274aaa78c0d125e55d415a6870864e3"
+    },
+    {
+      "path": "metrics/drivers/races_since_last_win.json",
+      "artifactType": "metric",
+      "byteSize": 138652,
+      "sha256": "567924787eba82c98c0e95396a43b0c09e299d72d8c0528d017228ea723d575c"
+    },
+    {
+      "path": "metrics/drivers/season_podiums.json",
+      "artifactType": "metric",
+      "byteSize": 583426,
+      "sha256": "95b5fdde6c188a745ff22c3584d35eef045c2d68ff90cef583d8c297613de1a4"
+    },
+    {
+      "path": "metrics/drivers/season_poles.json",
+      "artifactType": "metric",
+      "byteSize": 231245,
+      "sha256": "55ecf0aeb3a067ce3018e352b1f73924ab1f299d41d675aa061a3a34a446d0b8"
+    },
+    {
+      "path": "metrics/drivers/season_wins.json",
+      "artifactType": "metric",
+      "byteSize": 250929,
+      "sha256": "b36b1a5329aa3bfa30a66f5ec81993945032fa9ee5062e63d6af087ccd7c56e7"
+    },
+    {
+      "path": "metrics/drivers/seasons_before_first_championship.json",
+      "artifactType": "metric",
+      "byteSize": 193812,
+      "sha256": "f61e3468ec2c4d61b71703e4c917d74208bed93b78433be7283323d3209132ee"
+    },
+    {
+      "path": "metrics/drivers/wins_by_circuit.json",
+      "artifactType": "metric",
+      "byteSize": 426055,
+      "sha256": "bad7342ad6208e2c2c247c2d896e535a171b0d53e511f865fa9595e1857d12df"
+    },
+    {
+      "path": "metrics/drivers/wins_by_constructor.json",
+      "artifactType": "metric",
+      "byteSize": 166623,
+      "sha256": "28adf43cb740cfb1f8af3e20a781024997472ab0857802c06d3700918a808314"
+    },
+    {
+      "path": "metrics/drivers/wins_by_gp.json",
+      "artifactType": "metric",
+      "byteSize": 435113,
+      "sha256": "155dc64bc470286aadbfd1a49619f8de80214b77d994f73cfd0ba8797e42acc6"
+    },
+    {
+      "path": "metrics/drivers/wins_timeline.json",
+      "artifactType": "metric",
+      "byteSize": 726843,
+      "sha256": "1d41ffc967bd8d2f9435738847f3f5e63c235686053061d0f9cfb50f344a6c69"
+    },
+    {
+      "path": "metrics/drivers/wins_timeline/page-2.json",
+      "artifactType": "metric-page",
+      "byteSize": 118830,
+      "sha256": "030fb1de43935191ccfc9abf7574b1a02fb2f551d62c624c3f6c764f1540466b"
+    },
+    {
+      "path": "metrics/drivers/wins_total.json",
+      "artifactType": "metric",
+      "byteSize": 107996,
+      "sha256": "3fa9f371597a1da01d0ff31a855f7b76516770d7f9ac04291654aa4759d51494"
     }
   ],
-  "checksums": {
-    "derivedAggregate": "d6d021130605eb2cc7298c09d8dc63a1a851914c9f3ee8c3e12b8c2e05eb6e83",
-    "driverStatistics": "03c928446c74294af4b512bfd9915c48b3014fb26a703b700ed8822b73c482c2",
-    "constructorStatistics": "ff195911f5e72cd4afa2f2b5a44cbc08d450ef3cb7413e5f5b4d296a9ed77810",
-    "circuitStatistics": "2c15d48f711b75e624149d60ee2c096cf98d2734a5ed62b9d63595cac6073140",
-    "seasonStatistics": "609ca0c359666ea5b68741a0a341fe8b8d53e224bea4b1e96ac30ee651b94a5f",
-    "recordsLibrary": "0ab786f2fa44bce707075178640e960e1b007b0a103190e731fc068af6afa526"
-  },
-  "unsupportedMetrics": [
-    {
-      "metricId": "activeRetiredClassification",
-      "scope": "driver",
-      "reason": "The snapshot does not contain explicit active, retired, contract, or final-entry status evidence."
-    },
-    {
-      "metricId": "driverStartsForNullStartedRaceRows",
-      "scope": "driver",
-      "reason": "Rows with startedRace null are not counted as starts; no start is inferred for historical shared-drive rows without explicit evidence."
-    },
-    {
-      "metricId": "constructorStartsForNullStartedRaceRows",
-      "scope": "constructor",
-      "reason": "Constructor starts count only entries with at least one explicit startedRace true participation."
-    }
-  ],
-  "blockingErrors": [],
-  "officialPoleEventCount": 1159,
-  "officialPolePublication": {
-    "schemaVersion": "official-pole-publication-integration.v1",
-    "verificationDate": "2026-07-31",
-    "baseline": {
-      "driverPoleTotal": 1156,
-      "constructorPoleTotal": 1156,
-      "driversWithPoles": 107,
-      "constructorsWithPoles": 50
-    },
-    "baselineCutoff": {
-      "season": 2026,
-      "round": 7,
-      "eventId": "event:2026-7:a4e70b8fc3f5",
-      "eventName": "Barcelona-Catalunya Grand Prix",
-      "eventDate": "2026-06-14"
-    },
-    "postBaselineOverlays": [
-      {
-        "season": 2026,
-        "round": 8,
-        "eventId": "event:2026-8:1863bba66a42",
-        "eventName": "Austrian Grand Prix",
-        "eventDate": "2026-06-28",
-        "currentDriverId": "george-russell",
-        "canonicalDriverId": "driver:russell:0de59c03b0db",
-        "currentConstructorId": "mercedes",
-        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
-        "driverDelta": 1,
-        "constructorDelta": 1,
-        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
-        "verificationDate": "2026-07-31"
-      },
-      {
-        "season": 2026,
-        "round": 9,
-        "eventId": "event:2026-9:c346da3f4460",
-        "eventName": "British Grand Prix",
-        "eventDate": "2026-07-05",
-        "currentDriverId": "kimi-antonelli",
-        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
-        "currentConstructorId": "mercedes",
-        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
-        "driverDelta": 1,
-        "constructorDelta": 1,
-        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
-        "verificationDate": "2026-07-31"
-      },
-      {
-        "season": 2026,
-        "round": 10,
-        "eventId": "event:2026-10:962ab94f681f",
-        "eventName": "Belgian Grand Prix",
-        "eventDate": "2026-07-19",
-        "currentDriverId": "kimi-antonelli",
-        "canonicalDriverId": "driver:antonelli:0ab4d82d3440",
-        "currentConstructorId": "mercedes",
-        "canonicalConstructorId": "constructor:mercedes:81ae28b14607",
-        "driverDelta": 1,
-        "constructorDelta": 1,
-        "qualifyingUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
-        "qualifyingTime": "1:44.361",
-        "verificationDate": "2026-07-31"
-      }
+  "package": {
+    "fileCount": 229,
+    "totalBytesExcludingManifest": 107067139,
+    "largestFileBytes": 2059922,
+    "largestFilePath": "metrics/drivers/consecutive_driver_classifications.json",
+    "initialCatalogueRequestPaths": [
+      "manifest.json",
+      "catalogue.json"
     ],
-    "final": {
-      "driverPoleTotal": 1159,
-      "constructorPoleTotal": 1159,
-      "driversWithPoles": 107,
-      "constructorsWithPoles": 50
-    },
-    "finalCutoff": {
-      "season": 2026,
-      "round": 10,
-      "eventId": "event:2026-10:962ab94f681f",
-      "eventName": "Belgian Grand Prix",
-      "eventDate": "2026-07-19"
-    },
-    "currentSeasonDistribution": {
-      "george-russell": 4,
-      "kimi-antonelli": 6,
-      "lando-norris": 0,
-      "mercedes": 10,
-      "mclaren": 0
-    }
-  },
-  "publicationApproval": {
-    "status": "approved",
-    "authority": "repository_owner",
-    "record": "fixtures/official-pole-publication-integration.json",
-    "mainMergeApproved": false,
-    "deploymentApproved": false
+    "initialRankingRequestPathCount": 5,
+    "detailRequestPathCount": 1
   }
 }
