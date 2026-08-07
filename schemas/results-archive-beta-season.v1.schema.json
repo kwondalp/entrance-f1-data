@@ -259,40 +259,131 @@
     "officialPosition": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["availability", "displayToken", "numericPosition", "tokenKind"],
+      "required": [
+        "availability",
+        "displayToken",
+        "numericPosition",
+        "tokenKind"
+      ],
       "properties": {
-        "availability": {"enum": ["present", "missing", "not_applicable"]},
-        "displayToken": {"type": ["string", "null"], "minLength": 1},
-        "numericPosition": {"type": ["integer", "null"], "minimum": 1},
-        "tokenKind": {"enum": ["numeric", "retired", "not_classified", "did_not_finish", "did_not_start", "disqualified", "withdrew", "other"]}
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "displayToken": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "numericPosition": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "tokenKind": {
+          "enum": [
+            "numeric",
+            "retired",
+            "not_classified",
+            "did_not_finish",
+            "did_not_start",
+            "did_not_qualify",
+            "disqualified",
+            "withdrew",
+            "other"
+          ]
+        }
       }
     },
     "officialTimeOrStatus": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["availability", "displayText", "kind"],
+      "required": [
+        "availability",
+        "displayText",
+        "kind"
+      ],
       "properties": {
-        "availability": {"enum": ["present", "missing", "not_applicable"]},
-        "displayText": {"type": ["string", "null"], "minLength": 1},
-        "kind": {"enum": ["winning_time", "time_gap", "lap_deficit", "display_status", "shared_car_token", "other"]}
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "displayText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "winning_time",
+            "time_gap",
+            "lap_deficit",
+            "display_status",
+            "shared_car_token",
+            "other"
+          ]
+        }
       }
     },
     "officialDisplayLaps": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["availability", "value"],
+      "required": [
+        "availability",
+        "value"
+      ],
       "properties": {
-        "availability": {"enum": ["present", "not_displayed", "missing", "not_applicable"]},
-        "value": {"type": ["integer", "null"], "minimum": 0}
+        "availability": {
+          "enum": [
+            "present",
+            "not_displayed",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
       }
     },
     "retirementReason": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["availability", "text"],
+      "required": [
+        "availability",
+        "text"
+      ],
       "properties": {
-        "availability": {"enum": ["present", "missing", "not_applicable"]},
-        "text": {"type": ["string", "null"], "minLength": 1}
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
       }
     },
     "classification": {
@@ -345,21 +436,55 @@
         "officialDisplayLaps": {
           "$ref": "#/$defs/officialDisplayLaps"
         },
+        "officialDriverDisplayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "officialTeamDisplayName": {
+          "type": "string",
+          "minLength": 1
+        },
         "classificationState": {
-          "enum": ["classified", "not_classified", "disqualified", "did_not_start", "withdrew", "unknown", "not_applicable"]
+          "enum": [
+            "classified",
+            "not_classified",
+            "disqualified",
+            "did_not_start",
+            "did_not_qualify",
+            "withdrew",
+            "unknown",
+            "not_applicable"
+          ]
         },
         "raceCompletionState": {
-          "enum": ["finished", "retired", "did_not_start", "disqualified", "withdrew", "unknown", "not_applicable"]
+          "enum": [
+            "finished",
+            "retired",
+            "did_not_start",
+            "did_not_qualify",
+            "disqualified",
+            "withdrew",
+            "unknown",
+            "not_applicable"
+          ]
         },
         "retirementReason": {
           "$ref": "#/$defs/retirementReason"
         },
         "sharedCarLaps": {
-          "type": ["integer", "null"],
+          "type": [
+            "integer",
+            "null"
+          ],
           "minimum": 0
         },
         "sharedDriveRole": {
-          "enum": ["shared_car_result_row", "shared_participant_row", "not_shared", "unknown"]
+          "enum": [
+            "shared_car_result_row",
+            "shared_participant_row",
+            "not_shared",
+            "unknown"
+          ]
         },
         "driver": {
           "$ref": "#/$defs/identity"
