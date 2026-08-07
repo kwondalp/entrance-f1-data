@@ -1,6 +1,6 @@
 {
   "schemaVersion": "results-archive-beta-season.v1",
-  "apiVersion": "1.0.0",
+  "apiVersion": "1.1.0",
   "releaseChannel": "beta",
   "season": 1954,
   "dataStatus": "provisional",
@@ -3002,8 +3002,65 @@
           "dataStatus": "provisional"
         },
         {
-          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-9dccee5a67627f066566b4cc2717522144747d85d90e9e:ba3202270615",
+          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-f8f72d5958860d615bc99c5c56a15eb777eb7e9a4b7162:3976667fd75f",
           "classificationOrder": 4,
+          "position": 4,
+          "driver": {
+            "id": "driver:hawthorn:1ddfcaf579cc",
+            "name": "Mike Hawthorn",
+            "aliases": []
+          },
+          "constructor": {
+            "id": "constructor:ferrari:d5aa0140c09c",
+            "name": "Ferrari",
+            "aliases": []
+          },
+          "entrant": null,
+          "carNumber": "10",
+          "gridPosition": 5,
+          "officialPole": false,
+          "fastestLap": null,
+          "entered": true,
+          "started": null,
+          "finished": true,
+          "classified": true,
+          "laps": null,
+          "timeOrRetired": "SHC",
+          "points": 1.5,
+          "sharedDrive": true,
+          "sharedDriveGroupId": "shared-drive-group:event-1954-3-13b2f30d8eb2-4-10-constructor-ferrari-d5aa0140c09c:ffe69b558ce4",
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "4",
+            "numericPosition": 4,
+            "tokenKind": "numeric"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "SHC",
+            "kind": "shared_car_token"
+          },
+          "classificationState": "classified",
+          "raceCompletionState": "finished",
+          "retirementReason": {
+            "availability": "not_applicable",
+            "text": null
+          },
+          "officialDisplayLaps": {
+            "availability": "not_displayed",
+            "value": null
+          },
+          "sharedDriveRole": "shared_participant_row",
+          "sharedCarLaps": 35
+        },
+        {
+          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-9dccee5a67627f066566b4cc2717522144747d85d90e9e:ba3202270615",
+          "classificationOrder": 5,
           "position": 4,
           "driver": {
             "id": "driver:gonzalez:2aa2e506438c",
@@ -3033,41 +3090,30 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
-        },
-        {
-          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-f8f72d5958860d615bc99c5c56a15eb777eb7e9a4b7162:3976667fd75f",
-          "classificationOrder": 5,
-          "position": 4,
-          "driver": {
-            "id": "driver:hawthorn:1ddfcaf579cc",
-            "name": "Mike Hawthorn",
-            "aliases": []
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "4",
+            "numericPosition": 4,
+            "tokenKind": "numeric"
           },
-          "constructor": {
-            "id": "constructor:ferrari:d5aa0140c09c",
-            "name": "Ferrari",
-            "aliases": []
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "+1 Lap",
+            "kind": "lap_deficit"
           },
-          "entrant": null,
-          "carNumber": "10",
-          "gridPosition": 5,
-          "officialPole": false,
-          "fastestLap": null,
-          "entered": true,
-          "started": null,
-          "finished": true,
-          "classified": true,
-          "laps": 35,
-          "timeOrRetired": "+1 Lap",
-          "points": 1.5,
-          "sharedDrive": true,
-          "sharedDriveGroupId": "shared-drive-group:event-1954-3-13b2f30d8eb2-4-10-constructor-ferrari-d5aa0140c09c:ffe69b558ce4",
-          "deadHeat": false,
-          "deadHeatGroupId": null,
-          "creditedWin": false,
-          "creditedPodium": false,
-          "dataStatus": "provisional"
+          "classificationState": "classified",
+          "raceCompletionState": "finished",
+          "retirementReason": {
+            "availability": "not_applicable",
+            "text": null
+          },
+          "officialDisplayLaps": {
+            "availability": "present",
+            "value": 35
+          },
+          "sharedDriveRole": "shared_car_result_row",
+          "sharedCarLaps": 35
         },
         {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-d469f06b37d6b0383639417019936df1dec10684423972:4b7699759b80",
@@ -3172,43 +3218,9 @@
           "dataStatus": "provisional"
         },
         {
-          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-49944c80910d8454c1f85c4ad88ffea0f9512289548d0e:d93355cf561c",
-          "classificationOrder": 9,
-          "position": "R",
-          "driver": {
-            "id": "driver:farina:edc963649157",
-            "name": "Nino Farina",
-            "aliases": []
-          },
-          "constructor": {
-            "id": "constructor:ferrari:d5aa0140c09c",
-            "name": "Ferrari",
-            "aliases": []
-          },
-          "entrant": null,
-          "carNumber": "4",
-          "gridPosition": 3,
-          "officialPole": false,
-          "fastestLap": null,
-          "entered": true,
-          "started": true,
-          "finished": false,
-          "classified": false,
-          "laps": 14,
-          "timeOrRetired": "Ignition",
-          "points": 0,
-          "sharedDrive": false,
-          "sharedDriveGroupId": null,
-          "deadHeat": false,
-          "deadHeatGroupId": null,
-          "creditedWin": false,
-          "creditedPodium": false,
-          "dataStatus": "provisional"
-        },
-        {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-bd5d8600a14d5ae43e9fa9cf55d01752ffd432842f7eb5:f71e10f3e54f",
-          "classificationOrder": 10,
-          "position": "R",
+          "classificationOrder": 9,
+          "position": "NC",
           "driver": {
             "id": "driver:frere:a752b5aad887",
             "name": "Paul Frère",
@@ -3229,7 +3241,7 @@
           "finished": false,
           "classified": false,
           "laps": 14,
-          "timeOrRetired": "Engine",
+          "timeOrRetired": "DNF",
           "points": 0,
           "sharedDrive": false,
           "sharedDriveGroupId": null,
@@ -3237,12 +3249,80 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Engine"
+          }
+        },
+        {
+          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-49944c80910d8454c1f85c4ad88ffea0f9512289548d0e:d93355cf561c",
+          "classificationOrder": 10,
+          "position": "NC",
+          "driver": {
+            "id": "driver:farina:edc963649157",
+            "name": "Nino Farina",
+            "aliases": []
+          },
+          "constructor": {
+            "id": "constructor:ferrari:d5aa0140c09c",
+            "name": "Ferrari",
+            "aliases": []
+          },
+          "entrant": null,
+          "carNumber": "4",
+          "gridPosition": 3,
+          "officialPole": false,
+          "fastestLap": null,
+          "entered": true,
+          "started": true,
+          "finished": false,
+          "classified": false,
+          "laps": 14,
+          "timeOrRetired": "DNF",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Ignition"
+          }
         },
         {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-90a481c79019f317aebd323e5d590a292b85c7cbf796d2:ecc655a881d8",
           "classificationOrder": 11,
-          "position": "R",
+          "position": "NC",
           "driver": {
             "id": "driver:behra:ad2c71791765",
             "name": "Jean Behra",
@@ -3263,7 +3343,7 @@
           "finished": false,
           "classified": false,
           "laps": 12,
-          "timeOrRetired": "Suspension",
+          "timeOrRetired": "DNF",
           "points": 0,
           "sharedDrive": false,
           "sharedDriveGroupId": null,
@@ -3271,12 +3351,29 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Suspension"
+          }
         },
         {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-d6bd90a1929d12745a289cc6590c5e9164e49a9037bc1e:a4c7d300896d",
           "classificationOrder": 12,
-          "position": "R",
+          "position": "NC",
           "driver": {
             "id": "driver:marimon:465ea0c5afa2",
             "name": "Onofre Marimón",
@@ -3297,7 +3394,7 @@
           "finished": false,
           "classified": false,
           "laps": 3,
-          "timeOrRetired": "Engine",
+          "timeOrRetired": "DNF",
           "points": 0,
           "sharedDrive": false,
           "sharedDriveGroupId": null,
@@ -3305,46 +3402,29 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
-        },
-        {
-          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-134a13a33ee961feae7c221bb84fa6be3ee3a6ea3ad81d:fb19298ec8f1",
-          "classificationOrder": 13,
-          "position": "R",
-          "driver": {
-            "id": "driver:gonzalez:2aa2e506438c",
-            "name": "José Froilán González",
-            "aliases": []
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
           },
-          "constructor": {
-            "id": "constructor:ferrari:d5aa0140c09c",
-            "name": "Ferrari",
-            "aliases": []
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
           },
-          "entrant": null,
-          "carNumber": "6",
-          "gridPosition": 2,
-          "officialPole": false,
-          "fastestLap": null,
-          "entered": true,
-          "started": true,
-          "finished": false,
-          "classified": false,
-          "laps": 1,
-          "timeOrRetired": "Engine",
-          "points": 0,
-          "sharedDrive": false,
-          "sharedDriveGroupId": null,
-          "deadHeat": false,
-          "deadHeatGroupId": null,
-          "creditedWin": false,
-          "creditedPodium": false,
-          "dataStatus": "provisional"
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Engine"
+          }
         },
         {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-3f0e23d8b64baae07f65cb8742ea6c6d38fca37939b8ba:2db1cd236e18",
-          "classificationOrder": 14,
-          "position": "R",
+          "classificationOrder": 13,
+          "position": "NC",
           "driver": {
             "id": "driver:swaters:7eac52acb079",
             "name": "Jacques Swaters",
@@ -3365,7 +3445,7 @@
           "finished": false,
           "classified": false,
           "laps": 1,
-          "timeOrRetired": "Engine",
+          "timeOrRetired": "DNF",
           "points": 0,
           "sharedDrive": false,
           "sharedDriveGroupId": null,
@@ -3373,12 +3453,80 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Engine"
+          }
+        },
+        {
+          "rowId": "race-classification:event-1954-3-13b2f30d8eb2-134a13a33ee961feae7c221bb84fa6be3ee3a6ea3ad81d:fb19298ec8f1",
+          "classificationOrder": 14,
+          "position": "NC",
+          "driver": {
+            "id": "driver:gonzalez:2aa2e506438c",
+            "name": "José Froilán González",
+            "aliases": []
+          },
+          "constructor": {
+            "id": "constructor:ferrari:d5aa0140c09c",
+            "name": "Ferrari",
+            "aliases": []
+          },
+          "entrant": null,
+          "carNumber": "6",
+          "gridPosition": 2,
+          "officialPole": false,
+          "fastestLap": null,
+          "entered": true,
+          "started": true,
+          "finished": false,
+          "classified": false,
+          "laps": 1,
+          "timeOrRetired": "DNF",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Engine"
+          }
         },
         {
           "rowId": "race-classification:event-1954-3-13b2f30d8eb2-f14e496cee34ea3d561000fe570664cf5207eebdd1e2a4:f7dae764079b",
           "classificationOrder": 15,
-          "position": "R",
+          "position": "NC",
           "driver": {
             "id": "driver:mieres:99cf1a2d3017",
             "name": "Roberto Mieres",
@@ -3399,7 +3547,7 @@
           "finished": false,
           "classified": false,
           "laps": 0,
-          "timeOrRetired": "Heat shield fire",
+          "timeOrRetired": "DNF",
           "points": 0,
           "sharedDrive": false,
           "sharedDriveGroupId": null,
@@ -3407,7 +3555,24 @@
           "deadHeatGroupId": null,
           "creditedWin": false,
           "creditedPodium": false,
-          "dataStatus": "provisional"
+          "dataStatus": "provisional",
+          "officialPosition": {
+            "availability": "present",
+            "displayToken": "NC",
+            "numericPosition": null,
+            "tokenKind": "not_classified"
+          },
+          "officialTimeOrStatus": {
+            "availability": "present",
+            "displayText": "DNF",
+            "kind": "display_status"
+          },
+          "classificationState": "not_classified",
+          "raceCompletionState": "retired",
+          "retirementReason": {
+            "availability": "present",
+            "text": "Heat shield fire"
+          }
         }
       ]
     },
