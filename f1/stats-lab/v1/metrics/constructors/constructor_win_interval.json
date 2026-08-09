@@ -24,13 +24,13 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
-  "rowCount": 47,
+  "rowCount": 38,
   "rows": [
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1669,24 +1669,24 @@
     {
       "entityId": "constructor:mclaren:f3759103103f",
       "entityName": "McLaren",
-      "value": 19608,
+      "value": 21231,
       "firstEvent": {
-        "eventId": "event:1972-2:58e1175fbbf0",
-        "eventIndex": 209,
-        "season": 1972,
-        "round": 2,
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami",
-        "eventDate": "1972-03-04"
+        "eventId": "event:1968-4:4cc1afe483a9",
+        "eventIndex": 164,
+        "season": 1968,
+        "round": 4,
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa",
+        "eventDate": "1968-06-09"
       },
       "lastEvent": {
-        "eventId": "event:2025-21:7c4f80900903",
-        "eventIndex": 1145,
-        "season": 2025,
-        "round": 21,
-        "grandPrixName": "São Paulo Grand Prix",
-        "circuitId": "interlagos",
-        "eventDate": "2025-11-09"
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
       },
       "detail": {
         "type": "interval",
@@ -1694,14 +1694,30 @@
         "sourcePath": "details/constructors/6.json",
         "factType": "win",
         "eventIds": [
-          "event:1972-2:58e1175fbbf0",
-          "event:2025-21:7c4f80900903"
+          "event:1968-4:4cc1afe483a9",
+          "event:2026-11:e63cf3e76869"
         ],
         "groupId": null,
         "season": null,
         "pairId": null
       },
       "series": [
+        [
+          164,
+          1
+        ],
+        [
+          169,
+          1
+        ],
+        [
+          170,
+          1
+        ],
+        [
+          183,
+          1
+        ],
         [
           209,
           1
@@ -2497,6 +2513,10 @@
         [
           1145,
           1
+        ],
+        [
+          1159,
+          1
         ]
       ],
       "rank": 3
@@ -3228,7 +3248,7 @@
     },
     {
       "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
+      "entityName": "Lotus",
       "value": 9884,
       "firstEvent": {
         "eventId": "event:1960-2:805bb8cf9f49",
@@ -3268,6 +3288,142 @@
         ],
         [
           93,
+          1
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          99,
+          1
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          104,
+          1
+        ],
+        [
+          106,
+          1
+        ],
+        [
+          109,
+          1
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          114,
+          1
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          117,
+          1
+        ],
+        [
+          119,
+          1
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          123,
+          1
+        ],
+        [
+          125,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          133,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          135,
+          1
+        ],
+        [
+          136,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          155,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          161,
+          1
+        ],
+        [
+          162,
+          1
+        ],
+        [
+          163,
+          1
+        ],
+        [
+          167,
+          1
+        ],
+        [
+          172,
+          1
+        ],
+        [
+          175,
+          1
+        ],
+        [
+          182,
           1
         ],
         [
@@ -3446,6 +3602,185 @@
       "rank": 7
     },
     {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 7679,
+      "firstEvent": {
+        "eventId": "event:1964-4:300f5d51516d",
+        "eventIndex": 124,
+        "season": 1964,
+        "round": 4,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts",
+        "eventDate": "1964-06-28"
+      },
+      "lastEvent": {
+        "eventId": "event:1985-7:ea4347e8547c",
+        "eventIndex": 410,
+        "season": 1985,
+        "round": 7,
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard",
+        "eventDate": "1985-07-07"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "win",
+        "eventIds": [
+          "event:1964-4:300f5d51516d",
+          "event:1985-7:ea4347e8547c"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          124,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          143,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          151,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          156,
+          1
+        ],
+        [
+          157,
+          1
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          181,
+          1
+        ],
+        [
+          184,
+          1
+        ],
+        [
+          237,
+          1
+        ],
+        [
+          246,
+          1
+        ],
+        [
+          249,
+          1
+        ],
+        [
+          251,
+          1
+        ],
+        [
+          260,
+          1
+        ],
+        [
+          304,
+          1
+        ],
+        [
+          310,
+          1
+        ],
+        [
+          331,
+          1
+        ],
+        [
+          338,
+          1
+        ],
+        [
+          339,
+          1
+        ],
+        [
+          344,
+          1
+        ],
+        [
+          345,
+          1
+        ],
+        [
+          351,
+          1
+        ],
+        [
+          362,
+          1
+        ],
+        [
+          364,
+          1
+        ],
+        [
+          373,
+          1
+        ],
+        [
+          385,
+          1
+        ],
+        [
+          386,
+          1
+        ],
+        [
+          387,
+          1
+        ],
+        [
+          394,
+          1
+        ],
+        [
+          395,
+          1
+        ],
+        [
+          410,
+          1
+        ]
+      ],
+      "rank": 8
+    },
+    {
       "entityId": "constructor:ligier:08b25bed58af",
       "entityName": "Ligier",
       "value": 6909,
@@ -3518,7 +3853,7 @@
           1
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4077,137 +4412,6 @@
           1
         ]
       ],
-      "rank": 9
-    },
-    {
-      "entityId": "constructor:brabham:0f52aed0736c",
-      "entityName": "Brabham",
-      "value": 5601,
-      "firstEvent": {
-        "eventId": "event:1970-1:60cbddca3841",
-        "eventIndex": 184,
-        "season": 1970,
-        "round": 1,
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami",
-        "eventDate": "1970-03-07"
-      },
-      "lastEvent": {
-        "eventId": "event:1985-7:ea4347e8547c",
-        "eventIndex": 410,
-        "season": 1985,
-        "round": 7,
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard",
-        "eventDate": "1985-07-07"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1970-1:60cbddca3841",
-          "event:1985-7:ea4347e8547c"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          184,
-          1
-        ],
-        [
-          237,
-          1
-        ],
-        [
-          246,
-          1
-        ],
-        [
-          249,
-          1
-        ],
-        [
-          251,
-          1
-        ],
-        [
-          260,
-          1
-        ],
-        [
-          304,
-          1
-        ],
-        [
-          310,
-          1
-        ],
-        [
-          331,
-          1
-        ],
-        [
-          338,
-          1
-        ],
-        [
-          339,
-          1
-        ],
-        [
-          344,
-          1
-        ],
-        [
-          345,
-          1
-        ],
-        [
-          351,
-          1
-        ],
-        [
-          362,
-          1
-        ],
-        [
-          364,
-          1
-        ],
-        [
-          373,
-          1
-        ],
-        [
-          385,
-          1
-        ],
-        [
-          386,
-          1
-        ],
-        [
-          387,
-          1
-        ],
-        [
-          394,
-          1
-        ],
-        [
-          395,
-          1
-        ],
-        [
-          410,
-          1
-        ]
-      ],
       "rank": 10
     },
     {
@@ -4596,6 +4800,109 @@
       "rank": 13
     },
     {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "value": 3270,
+      "firstEvent": {
+        "eventId": "event:1958-1:b9b2e746ad00",
+        "eventIndex": 64,
+        "season": 1958,
+        "round": 1,
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez",
+        "eventDate": "1958-01-19"
+      },
+      "lastEvent": {
+        "eventId": "event:1967-1:724dfc728149",
+        "eventIndex": 150,
+        "season": 1967,
+        "round": 1,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami",
+        "eventDate": "1967-01-02"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "win",
+        "eventIds": [
+          "event:1958-1:b9b2e746ad00",
+          "event:1967-1:724dfc728149"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          64,
+          1
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          75,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          82,
+          1
+        ],
+        [
+          83,
+          1
+        ],
+        [
+          84,
+          1
+        ],
+        [
+          87,
+          1
+        ],
+        [
+          88,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          90,
+          1
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          103,
+          1
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          150,
+          1
+        ]
+      ],
+      "rank": 14
+    },
+    {
       "entityId": "constructor:march:373ae2f4adda",
       "entityName": "March",
       "value": 2338,
@@ -4644,7 +4951,7 @@
           1
         ]
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:kurtis-kraft:2c00f500b995",
@@ -4703,7 +5010,7 @@
           1
         ]
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "entityId": "constructor:jordan:ef58acfe8635",
@@ -4755,133 +5062,6 @@
         ],
         [
           699,
-          1
-        ]
-      ],
-      "rank": 16
-    },
-    {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "value": 1540,
-      "firstEvent": {
-        "eventId": "event:1961-1:fa071cd943a7",
-        "eventIndex": 94,
-        "season": 1961,
-        "round": 1,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "1961-05-14"
-      },
-      "lastEvent": {
-        "eventId": "event:1965-7:54e6465839f6",
-        "eventIndex": 137,
-        "season": 1965,
-        "round": 7,
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring",
-        "eventDate": "1965-08-01"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1961-1:fa071cd943a7",
-          "event:1965-7:54e6465839f6"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          94,
-          1
-        ],
-        [
-          99,
-          1
-        ],
-        [
-          101,
-          1
-        ],
-        [
-          104,
-          1
-        ],
-        [
-          106,
-          1
-        ],
-        [
-          109,
-          1
-        ],
-        [
-          112,
-          1
-        ],
-        [
-          113,
-          1
-        ],
-        [
-          114,
-          1
-        ],
-        [
-          115,
-          1
-        ],
-        [
-          117,
-          1
-        ],
-        [
-          119,
-          1
-        ],
-        [
-          120,
-          1
-        ],
-        [
-          122,
-          1
-        ],
-        [
-          123,
-          1
-        ],
-        [
-          125,
-          1
-        ],
-        [
-          131,
-          1
-        ],
-        [
-          133,
-          1
-        ],
-        [
-          134,
-          1
-        ],
-        [
-          135,
-          1
-        ],
-        [
-          136,
-          1
-        ],
-        [
-          137,
           1
         ]
       ],
@@ -5014,176 +5194,6 @@
       "rank": 19
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
-      "value": 1120,
-      "firstEvent": {
-        "eventId": "event:1959-1:86544688a094",
-        "eventIndex": 75,
-        "season": 1959,
-        "round": 1,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "1959-05-10"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-2:8e89d21270a2",
-        "eventIndex": 103,
-        "season": 1962,
-        "round": 2,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "1962-06-03"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1959-1:86544688a094",
-          "event:1962-2:8e89d21270a2"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          75,
-          1
-        ],
-        [
-          79,
-          1
-        ],
-        [
-          81,
-          1
-        ],
-        [
-          82,
-          1
-        ],
-        [
-          83,
-          1
-        ],
-        [
-          84,
-          1
-        ],
-        [
-          87,
-          1
-        ],
-        [
-          88,
-          1
-        ],
-        [
-          89,
-          1
-        ],
-        [
-          90,
-          1
-        ],
-        [
-          91,
-          1
-        ],
-        [
-          103,
-          1
-        ]
-      ],
-      "rank": 20
-    },
-    {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "value": 854,
-      "firstEvent": {
-        "eventId": "event:1967-3:6354a9ddb560",
-        "eventIndex": 152,
-        "season": 1967,
-        "round": 3,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "1967-06-04"
-      },
-      "lastEvent": {
-        "eventId": "event:1969-10:b1ae23299d9b",
-        "eventIndex": 182,
-        "season": 1969,
-        "round": 10,
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen",
-        "eventDate": "1969-10-05"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1967-3:6354a9ddb560",
-          "event:1969-10:b1ae23299d9b"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          152,
-          1
-        ],
-        [
-          155,
-          1
-        ],
-        [
-          159,
-          1
-        ],
-        [
-          160,
-          1
-        ],
-        [
-          161,
-          1
-        ],
-        [
-          162,
-          1
-        ],
-        [
-          163,
-          1
-        ],
-        [
-          167,
-          1
-        ],
-        [
-          172,
-          1
-        ],
-        [
-          175,
-          1
-        ],
-        [
-          182,
-          1
-        ]
-      ],
-      "rank": 21
-    },
-    {
       "entityId": "constructor:alfa:f3891f4c8109",
       "entityName": "Alfa Romeo",
       "value": 533,
@@ -5260,62 +5270,7 @@
           1
         ]
       ],
-      "rank": 22
-    },
-    {
-      "entityId": "constructor:mclaren-ford:aef4e0acf380",
-      "entityName": "McLaren-Ford",
-      "value": 497,
-      "firstEvent": {
-        "eventId": "event:1968-4:4cc1afe483a9",
-        "eventIndex": 164,
-        "season": 1968,
-        "round": 4,
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa",
-        "eventDate": "1968-06-09"
-      },
-      "lastEvent": {
-        "eventId": "event:1969-11:945273ed1e73",
-        "eventIndex": 183,
-        "season": 1969,
-        "round": 11,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1969-10-19"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:mclaren-ford:aef4e0acf380",
-        "sourcePath": "details/constructors/0.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1968-4:4cc1afe483a9",
-          "event:1969-11:945273ed1e73"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          164,
-          1
-        ],
-        [
-          169,
-          1
-        ],
-        [
-          170,
-          1
-        ],
-        [
-          183,
-          1
-        ]
-      ],
-      "rank": 23
+      "rank": 20
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -5390,11 +5345,11 @@
           1
         ]
       ],
-      "rank": 24
+      "rank": 21
     },
     {
-      "entityId": "constructor:matra-ford:6a9a55beeadd",
-      "entityName": "Matra-Ford",
+      "entityId": "constructor:matra:b2bca39208a5",
+      "entityName": "Matra",
       "value": 441,
       "firstEvent": {
         "eventId": "event:1968-5:57972ea5bc56",
@@ -5416,8 +5371,8 @@
       },
       "detail": {
         "type": "interval",
-        "entityId": "constructor:matra-ford:6a9a55beeadd",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:matra:b2bca39208a5",
+        "sourcePath": "details/constructors/2.json",
         "factType": "win",
         "eventIds": [
           "event:1968-5:57972ea5bc56",
@@ -5465,78 +5420,7 @@
           1
         ]
       ],
-      "rank": 25
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "value": 420,
-      "firstEvent": {
-        "eventId": "event:1966-3:fefe5ea0765d",
-        "eventIndex": 143,
-        "season": 1966,
-        "round": 3,
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims",
-        "eventDate": "1966-07-03"
-      },
-      "lastEvent": {
-        "eventId": "event:1967-8:dadca458ceb1",
-        "eventIndex": 157,
-        "season": 1967,
-        "round": 8,
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport",
-        "eventDate": "1967-08-27"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1966-3:fefe5ea0765d",
-          "event:1967-8:dadca458ceb1"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          143,
-          1
-        ],
-        [
-          144,
-          1
-        ],
-        [
-          145,
-          1
-        ],
-        [
-          146,
-          1
-        ],
-        [
-          151,
-          1
-        ],
-        [
-          154,
-          1
-        ],
-        [
-          156,
-          1
-        ],
-        [
-          157,
-          1
-        ]
-      ],
-      "rank": 26
+      "rank": 22
     },
     {
       "entityId": "constructor:epperly:aafa0ffb5fed",
@@ -5583,7 +5467,7 @@
           1
         ]
       ],
-      "rank": 27
+      "rank": 23
     },
     {
       "entityId": "constructor:wolf:ef46bb436004",
@@ -5634,7 +5518,7 @@
           1
         ]
       ],
-      "rank": 28
+      "rank": 24
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -5705,7 +5589,7 @@
           1
         ]
       ],
-      "rank": 29
+      "rank": 25
     },
     {
       "entityId": "constructor:lotus-f1:5a86a09d29b4",
@@ -5752,195 +5636,7 @@
           1
         ]
       ],
-      "rank": 30
-    },
-    {
-      "entityId": "constructor:brabham-climax:80cd915e63d9",
-      "entityName": "Brabham-Climax",
-      "value": 119,
-      "firstEvent": {
-        "eventId": "event:1964-4:300f5d51516d",
-        "eventIndex": 124,
-        "season": 1964,
-        "round": 4,
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts",
-        "eventDate": "1964-06-28"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-10:22e0b2b41f45",
-        "eventIndex": 130,
-        "season": 1964,
-        "round": 10,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1964-10-25"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:brabham-climax:80cd915e63d9",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1964-4:300f5d51516d",
-          "event:1964-10:22e0b2b41f45"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          124,
-          1
-        ],
-        [
-          130,
-          1
-        ]
-      ],
-      "rank": 31
-    },
-    {
-      "entityId": "constructor:cooper:9771c8f26d98",
-      "entityName": "Cooper",
-      "value": 119,
-      "firstEvent": {
-        "eventId": "event:1958-1:b9b2e746ad00",
-        "eventIndex": 64,
-        "season": 1958,
-        "round": 1,
-        "grandPrixName": "Argentine Grand Prix",
-        "circuitId": "galvez",
-        "eventDate": "1958-01-19"
-      },
-      "lastEvent": {
-        "eventId": "event:1958-2:8efe76914f4f",
-        "eventIndex": 65,
-        "season": 1958,
-        "round": 2,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "1958-05-18"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:cooper:9771c8f26d98",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1958-1:b9b2e746ad00",
-          "event:1958-2:8efe76914f4f"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          64,
-          1
-        ],
-        [
-          65,
-          1
-        ]
-      ],
-      "rank": 31
-    },
-    {
-      "entityId": "constructor:cooper-maserati:e640263488c8",
-      "entityName": "Cooper-Maserati",
-      "value": 71,
-      "firstEvent": {
-        "eventId": "event:1966-9:bbea6a08e5a9",
-        "eventIndex": 149,
-        "season": 1966,
-        "round": 9,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1966-10-23"
-      },
-      "lastEvent": {
-        "eventId": "event:1967-1:724dfc728149",
-        "eventIndex": 150,
-        "season": 1967,
-        "round": 1,
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami",
-        "eventDate": "1967-01-02"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:cooper-maserati:e640263488c8",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1966-9:bbea6a08e5a9",
-          "event:1967-1:724dfc728149"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          149,
-          1
-        ],
-        [
-          150,
-          1
-        ]
-      ],
-      "rank": 33
-    },
-    {
-      "entityId": "constructor:brabham-ford:3faaa1280444",
-      "entityName": "Brabham-Ford",
-      "value": 48,
-      "firstEvent": {
-        "eventId": "event:1969-7:6e34aec83a68",
-        "eventIndex": 179,
-        "season": 1969,
-        "round": 7,
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring",
-        "eventDate": "1969-08-03"
-      },
-      "lastEvent": {
-        "eventId": "event:1969-9:5159f993f8a2",
-        "eventIndex": 181,
-        "season": 1969,
-        "round": 9,
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport",
-        "eventDate": "1969-09-20"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:brabham-ford:3faaa1280444",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1969-7:6e34aec83a68",
-          "event:1969-9:5159f993f8a2"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          179,
-          1
-        ],
-        [
-          181,
-          1
-        ]
-      ],
-      "rank": 34
+      "rank": 26
     },
     {
       "entityId": "constructor:alphatauri:0e8fb3fba42b",
@@ -5983,7 +5679,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:alpine:1e11dc0788a1",
@@ -6026,7 +5722,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
@@ -6069,11 +5765,11 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
-      "entityId": "constructor:eagle-weslake:9412424e9508",
-      "entityName": "Eagle-Weslake",
+      "entityId": "constructor:eagle:9bebadf8653f",
+      "entityName": "Eagle",
       "value": 0,
       "firstEvent": {
         "eventId": "event:1967-4:60e9c79d3ac5",
@@ -6095,8 +5791,8 @@
       },
       "detail": {
         "type": "interval",
-        "entityId": "constructor:eagle-weslake:9412424e9508",
-        "sourcePath": "details/constructors/b.json",
+        "entityId": "constructor:eagle:9bebadf8653f",
+        "sourcePath": "details/constructors/3.json",
         "factType": "win",
         "eventIds": [
           "event:1967-4:60e9c79d3ac5",
@@ -6112,7 +5808,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:hesketh:b24c2bcc04de",
@@ -6155,7 +5851,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:kuzma:753d7f1cb109",
@@ -6198,50 +5894,7 @@
           1
         ]
       ],
-      "rank": 35
-    },
-    {
-      "entityId": "constructor:lotus-brm:64b796470f27",
-      "entityName": "Lotus-BRM",
-      "value": 0,
-      "firstEvent": {
-        "eventId": "event:1966-8:3096d2098461",
-        "eventIndex": 148,
-        "season": 1966,
-        "round": 8,
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen",
-        "eventDate": "1966-10-02"
-      },
-      "lastEvent": {
-        "eventId": "event:1966-8:3096d2098461",
-        "eventIndex": 148,
-        "season": 1966,
-        "round": 8,
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen",
-        "eventDate": "1966-10-02"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:lotus-brm:64b796470f27",
-        "sourcePath": "details/constructors/e.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1966-8:3096d2098461",
-          "event:1966-8:3096d2098461"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          148,
-          1
-        ]
-      ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:penske:d9cad6091e78",
@@ -6284,7 +5937,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:porsche:9c7706838cc2",
@@ -6327,7 +5980,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:racing-point:484ebe4c85d7",
@@ -6370,7 +6023,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:shadow:e88eac1bd94c",
@@ -6413,7 +6066,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:stewart:fa292c3fe3ad",
@@ -6456,7 +6109,7 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     },
     {
       "entityId": "constructor:toro-rosso:82757d971dd3",
@@ -6499,9 +6152,9 @@
           1
         ]
       ],
-      "rank": 35
+      "rank": 27
     }
   ],
-  "loadedRowCount": 47,
+  "loadedRowCount": 38,
   "pagination": null
 }

@@ -4,11 +4,11 @@
   "statisticId": "constructor_poles_by_circuit",
   "metricId": "constructorPolesByCircuit",
   "title": "Poles by Circuit",
-  "definition": "Ranks official Grand Prix pole positions for each Formula 1 constructor grouped by constructor.",
+  "definition": "Ranks official Grand Prix pole positions for each Formula 1 constructor grouped by circuit.",
   "calculationId": "grouped_count",
   "factType": "pole",
   "presentation": "grouped",
-  "groupingDimension": "constructor",
+  "groupingDimension": "circuit",
   "countingUnit": "official Grand Prix pole positions",
   "defaultSort": "desc",
   "rangeBehavior": {
@@ -24,13 +24,13 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
-  "rowCount": 411,
+  "rowCount": 385,
   "rows": [
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -963,6 +963,66 @@
     {
       "entityId": "constructor:mclaren:f3759103103f",
       "entityName": "McLaren",
+      "groupId": "hungaroring",
+      "groupLabel": "Hungaroring",
+      "value": 10,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:mclaren:f3759103103f",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "hungaroring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          461,
+          1
+        ],
+        [
+          509,
+          1
+        ],
+        [
+          625,
+          1
+        ],
+        [
+          640,
+          1
+        ],
+        [
+          762,
+          1
+        ],
+        [
+          778,
+          1
+        ],
+        [
+          795,
+          1
+        ],
+        [
+          868,
+          1
+        ],
+        [
+          1113,
+          1
+        ],
+        [
+          1159,
+          1
+        ]
+      ],
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
       "groupId": "imola",
       "groupLabel": "Imola",
       "value": 10,
@@ -1134,63 +1194,63 @@
           1
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
-      "entityId": "constructor:mclaren:f3759103103f",
-      "entityName": "McLaren",
-      "groupId": "hungaroring",
-      "groupLabel": "Hungaroring",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "monaco",
+      "groupLabel": "Monaco",
       "value": 9,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:mclaren:f3759103103f",
+        "entityId": "constructor:team-lotus:85b2937902bf",
         "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "hungaroring",
+        "groupId": "monaco",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          461,
+          85,
           1
         ],
         [
-          509,
+          94,
           1
         ],
         [
-          625,
+          103,
           1
         ],
         [
-          640,
+          111,
           1
         ],
         [
-          762,
+          121,
           1
         ],
         [
-          778,
+          141,
           1
         ],
         [
-          795,
+          163,
           1
         ],
         [
-          868,
+          211,
           1
         ],
         [
-          1113,
+          407,
           1
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -1246,7 +1306,7 @@
           1
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -1302,7 +1362,7 @@
           1
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -1358,7 +1418,7 @@
           1
         ]
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1410,7 +1470,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1462,7 +1522,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1514,7 +1574,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1566,7 +1626,59 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "zandvoort",
+      "groupLabel": "Zandvoort",
+      "value": 8,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "zandvoort",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          87,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          176,
+          1
+        ],
+        [
+          188,
+          1
+        ],
+        [
+          229,
+          1
+        ],
+        [
+          292,
+          1
+        ],
+        [
+          309,
+          1
+        ]
+      ],
+      "rank": 22
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -1618,7 +1730,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -1670,7 +1782,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -1722,7 +1834,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -1774,7 +1886,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -1826,7 +1938,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -1878,7 +1990,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -1930,7 +2042,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -1978,7 +2090,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2026,7 +2138,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2074,7 +2186,103 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "monza",
+      "groupLabel": "Monza",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "monza",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          108,
+          1
+        ],
+        [
+          138,
+          1
+        ],
+        [
+          158,
+          1
+        ],
+        [
+          180,
+          1
+        ],
+        [
+          232,
+          1
+        ],
+        [
+          310,
+          1
+        ],
+        [
+          415,
+          1
+        ]
+      ],
+      "rank": 34
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "watkins_glen",
+      "groupLabel": "Watkins_Glen",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "watkins_glen",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          109,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          171,
+          1
+        ],
+        [
+          182,
+          1
+        ],
+        [
+          234,
+          1
+        ],
+        [
+          311,
+          1
+        ]
+      ],
+      "rank": 34
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -2122,7 +2330,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2170,7 +2378,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2218,7 +2426,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2266,7 +2474,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2314,7 +2522,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2362,7 +2570,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2410,7 +2618,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -2458,7 +2666,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -2506,7 +2714,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -2554,7 +2762,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 34
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2598,7 +2806,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2642,7 +2850,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2686,7 +2894,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2730,7 +2938,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2774,7 +2982,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -2818,7 +3026,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:kurtis-kraft:2c00f500b995",
@@ -2862,7 +3070,95 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "brands_hatch",
+      "groupLabel": "Brands_Hatch",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "brands_hatch",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          125,
+          1
+        ],
+        [
+          167,
+          1
+        ],
+        [
+          190,
+          1
+        ],
+        [
+          306,
+          1
+        ],
+        [
+          386,
+          1
+        ],
+        [
+          417,
+          1
+        ]
+      ],
+      "rank": 49
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "rodriguez",
+      "groupLabel": "Rodriguez",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "rodriguez",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          119,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          140,
+          1
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          172,
+          1
+        ],
+        [
+          434,
+          1
+        ]
+      ],
+      "rank": 49
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -2906,7 +3202,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -2950,7 +3246,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -2994,7 +3290,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -3038,7 +3334,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -3082,7 +3378,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -3126,7 +3422,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3170,7 +3466,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3214,7 +3510,7 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -3258,7 +3554,47 @@
           1
         ]
       ],
-      "rank": 45
+      "rank": 49
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "kyalami",
+      "groupLabel": "Kyalami",
+      "value": 5,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "kyalami",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          150,
+          1
+        ],
+        [
+          173,
+          1
+        ],
+        [
+          252,
+          1
+        ],
+        [
+          299,
+          1
+        ],
+        [
+          389,
+          1
+        ]
+      ],
+      "rank": 67
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -3298,7 +3634,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -3338,7 +3674,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -3378,7 +3714,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -3418,47 +3754,47 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "silverstone",
+      "groupLabel": "Silverstone",
       "value": 5,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "monaco",
+        "groupId": "silverstone",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          94,
+          115,
           1
         ],
         [
-          103,
+          135,
           1
         ],
         [
-          111,
+          155,
           1
         ],
         [
-          121,
+          178,
           1
         ],
         [
-          141,
+          228,
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -3498,7 +3834,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -3538,7 +3874,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -3578,7 +3914,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3618,7 +3954,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3658,7 +3994,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3698,7 +4034,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -3738,47 +4074,7 @@
           1
         ]
       ],
-      "rank": 61
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
-      "value": 5,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "zandvoort",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          87,
-          1
-        ],
-        [
-          188,
-          1
-        ],
-        [
-          229,
-          1
-        ],
-        [
-          292,
-          1
-        ],
-        [
-          309,
-          1
-        ]
-      ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -3818,7 +4114,7 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -3858,7 +4154,43 @@
           1
         ]
       ],
-      "rank": 61
+      "rank": 67
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "zandvoort",
+      "groupLabel": "Zandvoort",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "zandvoort",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          122,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          384,
+          1
+        ],
+        [
+          414,
+          1
+        ]
+      ],
+      "rank": 82
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -3894,7 +4226,79 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "nurburgring",
+      "groupLabel": "Nurburgring",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "nurburgring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          116,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          156,
+          1
+        ]
+      ],
+      "rank": 82
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "red_bull_ring",
+      "groupLabel": "Red_Bull_Ring",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "red_bull_ring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          192,
+          1
+        ],
+        [
+          216,
+          1
+        ],
+        [
+          231,
+          1
+        ],
+        [
+          308,
+          1
+        ]
+      ],
+      "rank": 82
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -3930,7 +4334,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -3966,7 +4370,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -4002,7 +4406,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -4038,7 +4442,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -4074,7 +4478,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4110,7 +4514,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4146,7 +4550,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4182,7 +4586,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4218,7 +4622,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -4254,7 +4658,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -4290,7 +4694,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -4326,7 +4730,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -4362,79 +4766,7 @@
           1
         ]
       ],
-      "rank": 76
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "brands_hatch",
-      "groupLabel": "Brands_Hatch",
-      "value": 4,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "brands_hatch",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          190,
-          1
-        ],
-        [
-          306,
-          1
-        ],
-        [
-          386,
-          1
-        ],
-        [
-          417,
-          1
-        ]
-      ],
-      "rank": 76
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "red_bull_ring",
-      "groupLabel": "Red_Bull_Ring",
-      "value": 4,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "red_bull_ring",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          192,
-          1
-        ],
-        [
-          216,
-          1
-        ],
-        [
-          231,
-          1
-        ],
-        [
-          308,
-          1
-        ]
-      ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -4470,7 +4802,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -4506,7 +4838,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -4542,7 +4874,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -4578,7 +4910,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -4614,7 +4946,7 @@
           1
         ]
       ],
-      "rank": 76
+      "rank": 82
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -4646,13 +4978,13 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
       "entityName": "Brabham",
-      "groupId": "kyalami",
-      "groupLabel": "Kyalami",
+      "groupId": "monaco",
+      "groupLabel": "Monaco",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
@@ -4660,25 +4992,25 @@
         "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "kyalami",
+        "groupId": "monaco",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          252,
+          151,
           1
         ],
         [
-          299,
+          285,
           1
         ],
         [
-          389,
+          347,
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -4710,7 +5042,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4742,7 +5074,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4774,7 +5106,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4806,7 +5138,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4838,7 +5170,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4870,7 +5202,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -4902,18 +5234,50 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "anderstorp",
+      "groupLabel": "Anderstorp",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "anderstorp",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          226,
+          1
+        ],
+        [
+          287,
+          1
+        ],
+        [
+          304,
+          1
+        ]
+      ],
+      "rank": 104
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "george",
       "groupLabel": "George",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "george",
@@ -4934,103 +5298,135 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "nurburgring",
-      "groupLabel": "Nurburgring",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "imola",
+      "groupLabel": "Imola",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "nurburgring",
+        "groupId": "imola",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          116,
+          406,
           1
         ],
         [
-          137,
+          422,
           1
         ],
         [
-          146,
+          437,
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "rodriguez",
-      "groupLabel": "Rodriguez",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "jacarepagua",
+      "groupLabel": "Jacarepagua",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "rodriguez",
+        "groupId": "jacarepagua",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          119,
+          298,
           1
         ],
         [
-          130,
+          388,
           1
         ],
         [
-          140,
+          420,
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "mosport",
+      "groupLabel": "Mosport",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "watkins_glen",
+        "groupId": "mosport",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          159,
+          157,
           1
         ],
         [
-          171,
+          233,
           1
         ],
         [
-          182,
+          295,
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "zolder",
+      "groupLabel": "Zolder",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "zolder",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          224,
+          1
+        ],
+        [
+          286,
+          1
+        ],
+        [
+          302,
+          1
+        ]
+      ],
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5062,7 +5458,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5094,7 +5490,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5126,7 +5522,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5158,7 +5554,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5190,7 +5586,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5222,7 +5618,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5254,7 +5650,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5286,7 +5682,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -5318,7 +5714,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -5350,7 +5746,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -5382,7 +5778,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -5414,7 +5810,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -5446,7 +5842,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5478,7 +5874,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5510,7 +5906,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5542,7 +5938,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5574,7 +5970,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5606,7 +6002,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5638,7 +6034,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5670,7 +6066,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5702,7 +6098,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5734,7 +6130,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -5766,7 +6162,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -5798,7 +6194,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -5830,7 +6226,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -5862,7 +6258,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -5894,199 +6290,7 @@
           1
         ]
       ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "anderstorp",
-      "groupLabel": "Anderstorp",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "anderstorp",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          226,
-          1
-        ],
-        [
-          287,
-          1
-        ],
-        [
-          304,
-          1
-        ]
-      ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "imola",
-      "groupLabel": "Imola",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "imola",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          406,
-          1
-        ],
-        [
-          422,
-          1
-        ],
-        [
-          437,
-          1
-        ]
-      ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "jacarepagua",
-      "groupLabel": "Jacarepagua",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "jacarepagua",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          298,
-          1
-        ],
-        [
-          388,
-          1
-        ],
-        [
-          420,
-          1
-        ]
-      ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "monaco",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          85,
-          1
-        ],
-        [
-          211,
-          1
-        ],
-        [
-          407,
-          1
-        ]
-      ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "monza",
-      "groupLabel": "Monza",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "monza",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          232,
-          1
-        ],
-        [
-          310,
-          1
-        ],
-        [
-          415,
-          1
-        ]
-      ],
-      "rank": 97
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "zolder",
-      "groupLabel": "Zolder",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "zolder",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          224,
-          1
-        ],
-        [
-          286,
-          1
-        ],
-        [
-          302,
-          1
-        ]
-      ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -6118,7 +6322,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -6150,7 +6354,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -6182,7 +6386,7 @@
           1
         ]
       ],
-      "rank": 97
+      "rank": 104
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -6210,7 +6414,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -6238,7 +6442,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -6266,7 +6470,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -6294,7 +6498,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -6322,7 +6526,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -6350,7 +6554,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -6378,7 +6582,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -6406,7 +6610,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -6434,7 +6638,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -6462,7 +6666,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -6490,7 +6694,35 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "brands_hatch",
+      "groupLabel": "Brands_Hatch",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "brands_hatch",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          144,
+          1
+        ],
+        [
+          397,
+          1
+        ]
+      ],
+      "rank": 149
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -6518,35 +6750,7 @@
           1
         ]
       ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:brabham:0f52aed0736c",
-      "entityName": "Brabham",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "monaco",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          285,
-          1
-        ],
-        [
-          347,
-          1
-        ]
-      ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -6574,7 +6778,35 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "nurburgring",
+      "groupLabel": "Nurburgring",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "nurburgring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          179,
+          1
+        ],
+        [
+          402,
+          1
+        ]
+      ],
+      "rank": 149
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -6602,13 +6834,13 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
       "entityName": "Brabham",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
+      "groupId": "watkins_glen",
+      "groupLabel": "Watkins_Glen",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
@@ -6616,21 +6848,21 @@
         "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "zandvoort",
+        "groupId": "watkins_glen",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          384,
+          148,
           1
         ],
         [
-          414,
+          249,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6658,7 +6890,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6686,7 +6918,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6714,7 +6946,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6742,7 +6974,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6770,7 +7002,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6798,7 +7030,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -6826,7 +7058,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -6854,18 +7086,46 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "detroit",
+      "groupLabel": "Detroit",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "detroit",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          409,
+          1
+        ],
+        [
+          426,
+          1
+        ]
+      ],
+      "rank": 149
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "essarts",
       "groupLabel": "Essarts",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "essarts",
@@ -6882,203 +7142,175 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "monza",
-      "groupLabel": "Monza",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "estoril",
+      "groupLabel": "Estoril",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "monza",
+        "groupId": "estoril",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          108,
+          405,
           1
         ],
         [
-          138,
+          433,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "silverstone",
-      "groupLabel": "Silverstone",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "fuji",
+      "groupLabel": "Fuji",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "silverstone",
+        "groupId": "fuji",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          115,
+          279,
           1
         ],
         [
-          135,
+          296,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "galvez",
+      "groupLabel": "Galvez",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "watkins_glen",
+        "groupId": "galvez",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          109,
+          235,
           1
         ],
         [
-          129,
+          297,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "monza",
-      "groupLabel": "Monza",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "jarama",
+      "groupLabel": "Jarama",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "monza",
+        "groupId": "jarama",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          158,
+          284,
           1
         ],
         [
-          180,
+          303,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "rodriguez",
-      "groupLabel": "Rodriguez",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "montjuic",
+      "groupLabel": "Montjuic",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "rodriguez",
+        "groupId": "montjuic",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          160,
+          174,
           1
         ],
         [
-          172,
+          223,
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "silverstone",
-      "groupLabel": "Silverstone",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "villeneuve",
+      "groupLabel": "Villeneuve",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "silverstone",
+        "groupId": "villeneuve",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          155,
+          312,
           1
         ],
         [
-          178,
+          408,
           1
         ]
       ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "zandvoort",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          152,
-          1
-        ],
-        [
-          176,
-          1
-        ]
-      ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -7106,7 +7338,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -7134,7 +7366,35 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
+    },
+    {
+      "entityId": "constructor:matra:b2bca39208a5",
+      "entityName": "Matra",
+      "groupId": "charade",
+      "groupLabel": "Charade",
+      "value": 2,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:matra:b2bca39208a5",
+        "sourcePath": "details/constructors/2.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "charade",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          177,
+          1
+        ],
+        [
+          213,
+          1
+        ]
+      ],
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7162,7 +7422,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7190,7 +7450,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7218,7 +7478,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7246,7 +7506,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7274,7 +7534,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -7302,7 +7562,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -7330,7 +7590,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -7358,7 +7618,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -7386,7 +7646,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -7414,7 +7674,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -7442,7 +7702,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -7470,7 +7730,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -7498,7 +7758,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -7526,7 +7786,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7554,7 +7814,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7582,7 +7842,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7610,7 +7870,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7638,7 +7898,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7666,7 +7926,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7694,7 +7954,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7722,7 +7982,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7750,7 +8010,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -7778,231 +8038,7 @@
           1
         ]
       ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "detroit",
-      "groupLabel": "Detroit",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "detroit",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          409,
-          1
-        ],
-        [
-          426,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "estoril",
-      "groupLabel": "Estoril",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "estoril",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          405,
-          1
-        ],
-        [
-          433,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "fuji",
-      "groupLabel": "Fuji",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "fuji",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          279,
-          1
-        ],
-        [
-          296,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "galvez",
-      "groupLabel": "Galvez",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "galvez",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          235,
-          1
-        ],
-        [
-          297,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "jarama",
-      "groupLabel": "Jarama",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "jarama",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          284,
-          1
-        ],
-        [
-          303,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "mosport",
-      "groupLabel": "Mosport",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "mosport",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          233,
-          1
-        ],
-        [
-          295,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "villeneuve",
-      "groupLabel": "Villeneuve",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "villeneuve",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          312,
-          1
-        ],
-        [
-          408,
-          1
-        ]
-      ],
-      "rank": 146
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "watkins_glen",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          234,
-          1
-        ],
-        [
-          311,
-          1
-        ]
-      ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8030,7 +8066,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8058,7 +8094,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8086,7 +8122,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8114,7 +8150,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8142,7 +8178,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -8170,7 +8206,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -8198,7 +8234,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:watson:e4276dfa8394",
@@ -8226,7 +8262,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8254,7 +8290,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8282,7 +8318,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8310,7 +8346,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8338,7 +8374,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8366,7 +8402,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8394,7 +8430,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -8422,7 +8458,7 @@
           1
         ]
       ],
-      "rank": 146
+      "rank": 149
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -8446,7 +8482,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -8470,7 +8506,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -8494,7 +8530,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -8518,7 +8554,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:arrows:ec6b79b82d1f",
@@ -8542,7 +8578,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:bar:55515af883f6",
@@ -8566,7 +8602,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:bar:55515af883f6",
@@ -8590,7 +8626,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
@@ -8614,7 +8650,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -8638,7 +8674,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -8662,7 +8698,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -8686,7 +8722,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -8710,7 +8746,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -8734,7 +8770,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -8758,7 +8794,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -8782,7 +8818,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -8806,7 +8842,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -8830,31 +8866,7 @@
           1
         ]
       ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham:0f52aed0736c",
-      "entityName": "Brabham",
-      "groupId": "brands_hatch",
-      "groupLabel": "Brands_Hatch",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "brands_hatch",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          397,
-          1
-        ]
-      ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8878,7 +8890,31 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "essarts",
+      "groupLabel": "Essarts",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "essarts",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          166,
+          1
+        ]
+      ],
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8902,7 +8938,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8926,7 +8962,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8950,7 +8986,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8974,7 +9010,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -8998,13 +9034,13 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
       "entityName": "Brabham",
-      "groupId": "nurburgring",
-      "groupLabel": "Nurburgring",
+      "groupId": "mosport",
+      "groupLabel": "Mosport",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -9012,17 +9048,17 @@
         "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "nurburgring",
+        "groupId": "mosport",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          402,
+          181,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
@@ -9046,161 +9082,17 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brabham:0f52aed0736c",
       "entityName": "Brabham",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "watkins_glen",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          249,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-climax:80cd915e63d9",
-      "entityName": "Brabham-Climax",
-      "groupId": "spa",
-      "groupLabel": "Spa",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-climax:80cd915e63d9",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "spa",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          123,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-climax:80cd915e63d9",
-      "entityName": "Brabham-Climax",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-climax:80cd915e63d9",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "zandvoort",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          122,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-ford:3faaa1280444",
-      "entityName": "Brabham-Ford",
-      "groupId": "kyalami",
-      "groupLabel": "Kyalami",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-ford:3faaa1280444",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "kyalami",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          173,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-ford:3faaa1280444",
-      "entityName": "Brabham-Ford",
-      "groupId": "mosport",
-      "groupLabel": "Mosport",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-ford:3faaa1280444",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "mosport",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          181,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-ford:3faaa1280444",
-      "entityName": "Brabham-Ford",
-      "groupId": "nurburgring",
-      "groupLabel": "Nurburgring",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-ford:3faaa1280444",
-        "sourcePath": "details/constructors/f.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "nurburgring",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          179,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-ford:3faaa1280444",
-      "entityName": "Brabham-Ford",
       "groupId": "rodriguez",
       "groupLabel": "Rodriguez",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-ford:3faaa1280444",
+        "entityId": "constructor:brabham:0f52aed0736c",
         "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
@@ -9214,114 +9106,42 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "brands_hatch",
-      "groupLabel": "Brands_Hatch",
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "groupId": "spa",
+      "groupLabel": "Spa",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "brands_hatch",
+        "groupId": "spa",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          144,
+          123,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "essarts",
-      "groupLabel": "Essarts",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "essarts",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          166,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "kyalami",
-      "groupLabel": "Kyalami",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "kyalami",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          150,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "monaco",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          151,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
       "groupId": "tremblant",
       "groupLabel": "Tremblant",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "tremblant",
@@ -9334,55 +9154,7 @@
           1
         ]
       ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "watkins_glen",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          148,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "zandvoort",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          145,
-          1
-        ]
-      ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -9406,7 +9178,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -9430,7 +9202,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -9454,7 +9226,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -9478,7 +9250,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -9502,18 +9274,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "aintree",
       "groupLabel": "Aintree",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "aintree",
@@ -9526,18 +9298,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "galvez",
       "groupLabel": "Galvez",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "galvez",
@@ -9550,18 +9322,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "monaco",
       "groupLabel": "Monaco",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "monaco",
@@ -9574,18 +9346,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "monsanto",
       "groupLabel": "Monsanto",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "monsanto",
@@ -9598,18 +9370,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "monza",
       "groupLabel": "Monza",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "monza",
@@ -9622,18 +9394,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "reims",
       "groupLabel": "Reims",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "reims",
@@ -9646,114 +9418,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
-      "groupId": "sebring",
-      "groupLabel": "Sebring",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "sebring",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          83,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
-      "groupId": "silverstone",
-      "groupLabel": "Silverstone",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "silverstone",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          90,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
-      "groupId": "spa",
-      "groupLabel": "Spa",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "spa",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          88,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
-      "groupId": "watkins_glen",
-      "groupLabel": "Watkins_Glen",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "watkins_glen",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          101,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:cooper-maserati:e640263488c8",
-      "entityName": "Cooper-Maserati",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "groupId": "rodriguez",
       "groupLabel": "Rodriguez",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:cooper-maserati:e640263488c8",
-        "sourcePath": "details/constructors/f.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "rodriguez",
@@ -9766,7 +9442,103 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "groupId": "sebring",
+      "groupLabel": "Sebring",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "sebring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          83,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "groupId": "silverstone",
+      "groupLabel": "Silverstone",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "silverstone",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          90,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "groupId": "spa",
+      "groupLabel": "Spa",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "spa",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          88,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "groupId": "watkins_glen",
+      "groupLabel": "Watkins_Glen",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "watkins_glen",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          101,
+          1
+        ]
+      ],
+      "rank": 223
     },
     {
       "entityId": "constructor:ewing:7f44962a40c5",
@@ -9790,7 +9562,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9814,7 +9586,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9838,7 +9610,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9862,7 +9634,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9886,7 +9658,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9910,7 +9682,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9934,7 +9706,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9958,7 +9730,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -9982,7 +9754,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10006,7 +9778,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10030,7 +9802,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10054,7 +9826,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10078,7 +9850,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10102,7 +9874,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ferrari:d5aa0140c09c",
@@ -10126,7 +9898,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:force-india:9c386edd65d7",
@@ -10150,7 +9922,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:honda:334b9dc89428",
@@ -10174,7 +9946,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:honda:334b9dc89428",
@@ -10198,7 +9970,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:jordan:ef58acfe8635",
@@ -10222,7 +9994,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:jordan:ef58acfe8635",
@@ -10246,7 +10018,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:lancia:c2cb33649936",
@@ -10270,7 +10042,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:lancia:c2cb33649936",
@@ -10294,7 +10066,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:lesovsky:e427ce1d538d",
@@ -10318,7 +10090,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10342,7 +10114,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10366,7 +10138,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10390,7 +10162,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10414,7 +10186,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10438,7 +10210,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10462,7 +10234,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -10486,7 +10258,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:lola:46752ee4a160",
@@ -10510,18 +10282,42 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "adelaide",
+      "groupLabel": "Adelaide",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "adelaide",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          419,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "aintree",
       "groupLabel": "Aintree",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "aintree",
@@ -10534,42 +10330,42 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "brands_hatch",
-      "groupLabel": "Brands_Hatch",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "boavista",
+      "groupLabel": "Boavista",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "brands_hatch",
+        "groupId": "boavista",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          125,
+          91,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "charade",
       "groupLabel": "Charade",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "charade",
@@ -10582,90 +10378,162 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "reims",
-      "groupLabel": "Reims",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "dallas",
+      "groupLabel": "Dallas",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "reims",
+        "groupId": "dallas",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          114,
+          396,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "groupId": "zandvoort",
-      "groupLabel": "Zandvoort",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "dijon",
+      "groupLabel": "Dijon",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "zandvoort",
+        "groupId": "dijon",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          113,
+          288,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "brands_hatch",
-      "groupLabel": "Brands_Hatch",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "hockenheimring",
+      "groupLabel": "Hockenheimring",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "brands_hatch",
+        "groupId": "hockenheimring",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          167,
+          307,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "hungaroring",
+      "groupLabel": "Hungaroring",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "hungaroring",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          430,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "interlagos",
+      "groupLabel": "Interlagos",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "interlagos",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          221,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "jerez",
+      "groupLabel": "Jerez",
+      "value": 1,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "pole",
+        "eventIds": [],
+        "groupId": "jerez",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          421,
+          1
+        ]
+      ],
+      "rank": 223
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "kyalami",
       "groupLabel": "Kyalami",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "kyalami",
@@ -10678,18 +10546,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "lemans",
       "groupLabel": "Lemans",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "lemans",
@@ -10702,114 +10570,114 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "nivelles",
+      "groupLabel": "Nivelles",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "monaco",
+        "groupId": "nivelles",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          163,
+          212,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "montjuic",
-      "groupLabel": "Montjuic",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "reims",
+      "groupLabel": "Reims",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "montjuic",
+        "groupId": "reims",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          174,
+          114,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "mosport",
-      "groupLabel": "Mosport",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "ricard",
+      "groupLabel": "Ricard",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "mosport",
+        "groupId": "ricard",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          157,
+          427,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "groupId": "nurburgring",
-      "groupLabel": "Nurburgring",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "groupId": "riverside",
+      "groupLabel": "Riverside",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "nurburgring",
+        "groupId": "riverside",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          156,
+          93,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
       "groupId": "spa",
       "groupLabel": "Spa",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "spa",
@@ -10822,7 +10690,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
@@ -10846,7 +10714,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
@@ -10870,7 +10738,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
@@ -10894,7 +10762,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
@@ -10918,7 +10786,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
@@ -10942,7 +10810,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -10966,7 +10834,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -10990,7 +10858,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -11014,7 +10882,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -11038,7 +10906,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -11062,7 +10930,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:maserati:e07d701c3181",
@@ -11086,13 +10954,13 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:matra:b2bca39208a5",
       "entityName": "Matra",
-      "groupId": "charade",
-      "groupLabel": "Charade",
+      "groupId": "monaco",
+      "groupLabel": "Monaco",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -11100,17 +10968,17 @@
         "sourcePath": "details/constructors/2.json",
         "factType": "pole",
         "eventIds": [],
-        "groupId": "charade",
+        "groupId": "monaco",
         "season": null,
         "pairId": null
       },
       "series": [
         [
-          213,
+          175,
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:matra:b2bca39208a5",
@@ -11134,55 +11002,7 @@
           1
         ]
       ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:matra-ford:6a9a55beeadd",
-      "entityName": "Matra-Ford",
-      "groupId": "charade",
-      "groupLabel": "Charade",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:matra-ford:6a9a55beeadd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "charade",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          177,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:matra-ford:6a9a55beeadd",
-      "entityName": "Matra-Ford",
-      "groupId": "monaco",
-      "groupLabel": "Monaco",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:matra-ford:6a9a55beeadd",
-        "sourcePath": "details/constructors/1.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "monaco",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          175,
-          1
-        ]
-      ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11206,7 +11026,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11230,7 +11050,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11254,7 +11074,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11278,7 +11098,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11302,7 +11122,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11326,7 +11146,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11350,7 +11170,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11374,7 +11194,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11398,7 +11218,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11422,7 +11242,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11446,7 +11266,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -11470,7 +11290,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11494,7 +11314,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11518,7 +11338,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11542,7 +11362,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11566,7 +11386,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11590,7 +11410,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11614,7 +11434,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11638,7 +11458,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -11662,7 +11482,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:porsche:9c7706838cc2",
@@ -11686,7 +11506,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:racing-point:484ebe4c85d7",
@@ -11710,7 +11530,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -11734,7 +11554,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -11758,7 +11578,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -11782,7 +11602,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -11806,7 +11626,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11830,7 +11650,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11854,7 +11674,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11878,7 +11698,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11902,7 +11722,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11926,7 +11746,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11950,7 +11770,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11974,7 +11794,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -11998,7 +11818,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -12022,18 +11842,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:shadow-ford:9d4bfd60b630",
-      "entityName": "Shadow-Ford",
+      "entityId": "constructor:shadow:e88eac1bd94c",
+      "entityName": "Shadow",
       "groupId": "galvez",
       "groupLabel": "Galvez",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:shadow-ford:9d4bfd60b630",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:shadow:e88eac1bd94c",
+        "sourcePath": "details/constructors/5.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "galvez",
@@ -12046,18 +11866,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:shadow-ford:9d4bfd60b630",
-      "entityName": "Shadow-Ford",
+      "entityId": "constructor:shadow:e88eac1bd94c",
+      "entityName": "Shadow",
       "groupId": "interlagos",
       "groupLabel": "Interlagos",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:shadow-ford:9d4bfd60b630",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:shadow:e88eac1bd94c",
+        "sourcePath": "details/constructors/5.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "interlagos",
@@ -12070,18 +11890,18 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
-      "entityId": "constructor:shadow-ford:9d4bfd60b630",
-      "entityName": "Shadow-Ford",
+      "entityId": "constructor:shadow:e88eac1bd94c",
+      "entityName": "Shadow",
       "groupId": "silverstone",
       "groupLabel": "Silverstone",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
-        "entityId": "constructor:shadow-ford:9d4bfd60b630",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:shadow:e88eac1bd94c",
+        "sourcePath": "details/constructors/5.json",
         "factType": "pole",
         "eventIds": [],
         "groupId": "silverstone",
@@ -12094,7 +11914,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:stevens:ccfd3b4ecec9",
@@ -12118,7 +11938,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:stewart:fa292c3fe3ad",
@@ -12142,343 +11962,7 @@
           1
         ]
       ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "adelaide",
-      "groupLabel": "Adelaide",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "adelaide",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          419,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "boavista",
-      "groupLabel": "Boavista",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "boavista",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          91,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "dallas",
-      "groupLabel": "Dallas",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "dallas",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          396,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "dijon",
-      "groupLabel": "Dijon",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "dijon",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          288,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "hockenheimring",
-      "groupLabel": "Hockenheimring",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "hockenheimring",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          307,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "hungaroring",
-      "groupLabel": "Hungaroring",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "hungaroring",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          430,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "interlagos",
-      "groupLabel": "Interlagos",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "interlagos",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          221,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "jerez",
-      "groupLabel": "Jerez",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "jerez",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          421,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "montjuic",
-      "groupLabel": "Montjuic",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "montjuic",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          223,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "nivelles",
-      "groupLabel": "Nivelles",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "nivelles",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          212,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "ricard",
-      "groupLabel": "Ricard",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "ricard",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          427,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "riverside",
-      "groupLabel": "Riverside",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "riverside",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          93,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "rodriguez",
-      "groupLabel": "Rodriguez",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "rodriguez",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          434,
-          1
-        ]
-      ],
-      "rank": 226
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "groupId": "silverstone",
-      "groupLabel": "Silverstone",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "pole",
-        "eventIds": [],
-        "groupId": "silverstone",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          228,
-          1
-        ]
-      ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:toleman:05f1f04db16b",
@@ -12502,7 +11986,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:toro-rosso:82757d971dd3",
@@ -12526,7 +12010,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:toyota:0942282f2145",
@@ -12550,7 +12034,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:toyota:0942282f2145",
@@ -12574,7 +12058,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:toyota:0942282f2145",
@@ -12598,7 +12082,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -12622,7 +12106,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -12646,7 +12130,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -12670,7 +12154,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -12694,7 +12178,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -12718,7 +12202,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -12742,7 +12226,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -12766,7 +12250,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -12790,7 +12274,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -12814,7 +12298,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -12838,7 +12322,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:williams:4164dc156cb6",
@@ -12862,7 +12346,7 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     },
     {
       "entityId": "constructor:wolf:ef46bb436004",
@@ -12886,9 +12370,9 @@
           1
         ]
       ],
-      "rank": 226
+      "rank": 223
     }
   ],
-  "loadedRowCount": 411,
+  "loadedRowCount": 385,
   "pagination": null
 }

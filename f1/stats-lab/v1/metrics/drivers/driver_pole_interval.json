@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
   "rowCount": 107,
   "rows": [
@@ -2760,7 +2760,7 @@
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "value": 2800,
       "firstEvent": {
         "eventId": "event:1950-2:609d25155bf6",
@@ -4088,6 +4088,113 @@
       "rank": 29
     },
     {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 1764,
+      "firstEvent": {
+        "eventId": "event:2021-15:c71e4df9f38a",
+        "eventIndex": 1049,
+        "season": 2021,
+        "round": 15,
+        "grandPrixName": "Russian Grand Prix",
+        "circuitId": "sochi",
+        "eventDate": "2021-09-26"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2021-15:c71e4df9f38a",
+          "event:2026-11:e63cf3e76869"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1049,
+          1
+        ],
+        [
+          1110,
+          1
+        ],
+        [
+          1113,
+          1
+        ],
+        [
+          1115,
+          1
+        ],
+        [
+          1116,
+          1
+        ],
+        [
+          1118,
+          1
+        ],
+        [
+          1119,
+          1
+        ],
+        [
+          1121,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1125,
+          1
+        ],
+        [
+          1132,
+          1
+        ],
+        [
+          1135,
+          1
+        ],
+        [
+          1137,
+          1
+        ],
+        [
+          1144,
+          1
+        ],
+        [
+          1145,
+          1
+        ],
+        [
+          1146,
+          1
+        ],
+        [
+          1159,
+          1
+        ]
+      ],
+      "rank": 30
+    },
+    {
       "entityId": "driver:laffite:36bfb487a39b",
       "entityName": "Jacques Laffite",
       "value": 1743,
@@ -4152,7 +4259,7 @@
           1
         ]
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "entityId": "driver:bottas:cf1711492eee",
@@ -4271,7 +4378,7 @@
           1
         ]
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "entityId": "driver:rosberg:f41469d63d30",
@@ -4430,7 +4537,7 @@
           1
         ]
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "entityId": "driver:webber:6ffd0bea1a2a",
@@ -4521,7 +4628,7 @@
           1
         ]
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "entityId": "driver:ralf-schumacher:c4bff3218fa9",
@@ -4584,7 +4691,7 @@
           1
         ]
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "entityId": "driver:stewart:f46f493c7dd0",
@@ -4688,109 +4795,6 @@
         ],
         [
           230,
-          1
-        ]
-      ],
-      "rank": 35
-    },
-    {
-      "entityId": "driver:norris:5581145e4767",
-      "entityName": "Lando Norris",
-      "value": 1519,
-      "firstEvent": {
-        "eventId": "event:2021-15:c71e4df9f38a",
-        "eventIndex": 1049,
-        "season": 2021,
-        "round": 15,
-        "grandPrixName": "Russian Grand Prix",
-        "circuitId": "sochi",
-        "eventDate": "2021-09-26"
-      },
-      "lastEvent": {
-        "eventId": "event:2025-22:5c5653c5c0f0",
-        "eventIndex": 1146,
-        "season": 2025,
-        "round": 22,
-        "grandPrixName": "Las Vegas Grand Prix",
-        "circuitId": "vegas",
-        "eventDate": "2025-11-23"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:norris:5581145e4767",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "pole",
-        "eventIds": [
-          "event:2021-15:c71e4df9f38a",
-          "event:2025-22:5c5653c5c0f0"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1049,
-          1
-        ],
-        [
-          1110,
-          1
-        ],
-        [
-          1113,
-          1
-        ],
-        [
-          1115,
-          1
-        ],
-        [
-          1116,
-          1
-        ],
-        [
-          1118,
-          1
-        ],
-        [
-          1119,
-          1
-        ],
-        [
-          1121,
-          1
-        ],
-        [
-          1124,
-          1
-        ],
-        [
-          1125,
-          1
-        ],
-        [
-          1132,
-          1
-        ],
-        [
-          1135,
-          1
-        ],
-        [
-          1137,
-          1
-        ],
-        [
-          1144,
-          1
-        ],
-        [
-          1145,
-          1
-        ],
-        [
-          1146,
           1
         ]
       ],
@@ -7392,7 +7396,7 @@
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Andrea Kimi Antonelli",
+      "entityName": "Kimi Antonelli",
       "value": 126,
       "firstEvent": {
         "eventId": "event:2026-2:f019d4004b94",

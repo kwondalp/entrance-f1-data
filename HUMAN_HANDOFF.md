@@ -6,6 +6,34 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### Stats Lab accuracy release
+
+The current repository candidate advances the coordinated Stats Lab release to
+the 2026 Hungarian Grand Prix, Round 11. The current-season files were generated
+from retained Formula1.com and FIA evidence: Lando Norris won from pole, Charles
+Leclerc set the fastest lap, and the post-race driver and constructor standings
+match the FIA points documents.
+
+Stable Results Archive v1 is unchanged byte-for-byte. Append-only Results
+Archive v2 contains 77 seasons, 1,160 Grands Prix and 26,143 classification
+rows, with `f1/results-archive/current/manifest.json` resolving to v2. Historical
+race classifications and champion identities are verified; non-champion final
+standings remain provisional because official table labels expose unresolved
+chassis-versus-entrant identities such as Lola/Larrousse, Venturi/Larrousse and
+MF1/Spyker.
+
+Stats Lab v1 retains the full 301-product registry. The 157 public metrics were
+independently rebuilt from official archive facts: 155 differ from the previous
+package, 2 are unchanged and none are blocked. Constructor summaries group by
+declared chassis identity while detail shards retain original source constructor
+IDs. The 144 non-public products were each reassessed: 112 have partial official
+evidence, 32 lack a complete official historical source, and zero
+evidence-complete products remain unimplemented.
+
+This section describes the validated repository candidate. Live Hungary
+coverage must not be claimed until the normal push completes and the public
+current-season, Results Archive v2 and Stats Lab endpoints are read back.
+
 ### Authoritative Stats Lab production v1
 
 This section supersedes the older Stats Lab Beta candidate description below.

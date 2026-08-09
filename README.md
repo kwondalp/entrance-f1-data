@@ -20,11 +20,11 @@ It contains no API server, application runtime, or automatic publishing step. Cl
 
 `f1/stats-lab/v1/` is separate from the approved current-season files under `data/`. Its `manifest.json` defines the file list, sizes, SHA-256 checksums, schema version, provenance paths, unsupported metrics, and approval flags.
 
-The current package has passed the separately authorised official-pole production-data application and Belgian-cutoff publication integration. It is marked `production_ready` with `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: true`.
+The accuracy-audited package is bound to Results Archive v2 through the 2026 Hungarian Grand Prix, Round 11. Its formal catalogue retains all 301 products: 157 evidence-complete public metrics and 144 explicitly blocked products. Independent reconstruction from the official archive reconciles all 157 public products with zero blockers; compared with the previous package, 155 are corrected and 2 remain unchanged at the metric-row level.
 
-The approved publication composes the audited Round-7 historical baseline of 1,156 official poles with three verified Grand Prix overlays for Austria, Great Britain, and Belgium. The resulting driver and constructor totals are both 1,159; Mercedes has 154 under its single canonical historical identity. Current-season distribution through Belgium is George Russell 4, Kimi Antonelli 6, Lando Norris 0, Mercedes 10, and McLaren 0. Sprint sessions and Hungary are outside this cutoff.
+Constructor statistics use a declared chassis-identity policy rather than engine-suffixed or organisation-lineage grouping. Original result identities remain available in detail evidence. Driver display policy uses `Kimi Antonelli` publicly while preserving source aliases. The blocked-product reassessment records 112 partial-evidence products, 32 products for which no complete official historical source was found, and zero evidence-complete actionable products left unpublished.
 
-Direct endpoint verification on 2026-08-02 found the same Belgian-cutoff current-season data and all 17 protected public contract files byte-identical to the committed Git baseline. The checksum-portability maintenance changes only the Stats Lab manifest's byte binding and path-scoped EOL policy. Historical approval metadata remains unchanged: `mainMergeApproved: false` and `deploymentApproved: false`; repository presence must not be reinterpreted as new merge, publication, or deployment authority.
+The current-season contracts under `data/` are generated from the same official Hungary reconciliation: race winner Lando Norris, pole Lando Norris, fastest lap Charles Leclerc, and the FIA post-race championship standings. Publication and endpoint verification remain separate from repository-candidate validation and must be performed after the normal push sequence.
 
 ## Historical Records publication contract
 
@@ -39,7 +39,7 @@ eligible, no placeholder dataset is created. See
 `docs/PUBLISHED_HISTORICAL_RECORDS_CONTRACT.md` for the publication and
 compatibility rules.
 
-## Results Archive v1
+## Results Archive v1 and v2
 
 The additive `/f1/results-archive/v1/` package publishes manifest-first,
 checksum-bound race classifications. Current audited coverage is 2026 through
@@ -47,6 +47,17 @@ Belgian Round 10: 10 races and 220 classification rows. No historical season is
 included because archive-specific official review and publication approval are
 still missing. See `docs/RESULTS_ARCHIVE_V1.md` for paths, version handling,
 null/zero semantics, and consumer requirements.
+
+Stable Results Archive v1 is frozen and byte-identical. The append-only
+`f1/results-archive/v2/` package is the current verified race-classification
+archive: 77 seasons, 1,160 Grands Prix, and 26,143 classification rows through
+Hungary on 2026-07-26. `f1/results-archive/current/manifest.json` points to v2.
+All historical race rows reconcile to retained Formula1.com official evidence,
+and the 2026 Hungary boundary additionally records Formula1.com and FIA final
+classification evidence. Historical non-champion final standings remain
+explicitly provisional until season-aware chassis-versus-entrant identities are
+resolved; only official champion identities are promoted from those tables.
+See `docs/RESULTS_ARCHIVE_V2.md` for the consumer and status contract.
 
 ## Results Archive Beta v1 and Stats Lab Beta v1
 

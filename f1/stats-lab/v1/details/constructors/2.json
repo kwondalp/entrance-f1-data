@@ -2,7 +2,7 @@
   "schemaVersion": "stats-lab-production-detail.v1",
   "entity": "constructors",
   "shard": "2",
-  "entityCount": 14,
+  "entityCount": 11,
   "entities": [
     {
       "entityId": "constructor:adams:e539a3669507",
@@ -25,7 +25,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -52,6 +53,9 @@
           [
             27,
             27
+          ],
+          [
+            "constructor:adams:e539a3669507"
           ]
         ]
       ],
@@ -78,7 +82,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -107,6 +112,9 @@
           [
             1,
             2
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -135,6 +143,9 @@
           [
             1,
             5
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -161,6 +172,9 @@
           [
             3,
             4
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -189,6 +203,9 @@
           [
             1,
             5
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -217,6 +234,9 @@
           [
             1,
             2
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -245,6 +265,9 @@
           [
             1,
             2
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -273,6 +296,9 @@
           [
             1,
             "NC"
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -299,6 +325,9 @@
           [
             3,
             6
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -325,6 +354,9 @@
           [
             5,
             6
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -351,6 +383,9 @@
           [
             10,
             7
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -379,6 +414,9 @@
           [
             1,
             7
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -405,6 +443,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -433,6 +474,9 @@
           [
             1,
             2
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -459,6 +503,9 @@
           [
             5,
             6
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -485,6 +532,9 @@
           [
             7,
             8
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -511,6 +561,9 @@
           [
             5,
             8
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ],
         [
@@ -537,6 +590,9 @@
           [
             3,
             4
+          ],
+          [
+            "constructor:brawn:646a8849e021"
           ]
         ]
       ],
@@ -546,81 +602,6 @@
           819
         ]
       ]
-    },
-    {
-      "entityId": "constructor:cooper-ferrari:edd56d718866",
-      "entityName": "Cooper-Ferrari",
-      "eventColumns": [
-        "eventIndex",
-        "driverIds",
-        "winningDriverIds",
-        "entryCount",
-        "startCount",
-        "unknownStartEntryCount",
-        "podiumCount",
-        "secondPlaces",
-        "thirdPlaces",
-        "points",
-        "finishCount",
-        "classifiedCount",
-        "retirementCount",
-        "disqualificationCount",
-        "win",
-        "oneTwo",
-        "pole",
-        "positions"
-      ],
-      "events": [
-        [
-          144,
-          [
-            "driver:lawrence:03e8f57f76b5"
-          ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          [
-            11
-          ]
-        ],
-        [
-          146,
-          [
-            "driver:lawrence:03e8f57f76b5"
-          ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          [
-            "NC"
-          ]
-        ]
-      ],
-      "championships": []
     },
     {
       "entityId": "constructor:dallara:26b4af93e67e",
@@ -643,7 +624,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -668,6 +650,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -692,6 +677,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -716,6 +704,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -740,6 +731,9 @@
           0,
           [
             8
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -764,6 +758,9 @@
           0,
           [
             12
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -788,6 +785,9 @@
           0,
           [
             11
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -812,6 +812,9 @@
           0,
           [
             15
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -836,6 +839,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -860,6 +866,9 @@
           0,
           [
             8
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -884,6 +893,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -908,6 +920,9 @@
           0,
           [
             7
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -932,6 +947,9 @@
           0,
           [
             10
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -956,6 +974,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -980,6 +1001,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1004,6 +1028,9 @@
           0,
           [
             13
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1030,6 +1057,9 @@
           [
             10,
             7
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1056,6 +1086,9 @@
           [
             13,
             4
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1082,6 +1115,9 @@
           [
             13,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1108,6 +1144,9 @@
           [
             8,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1134,6 +1173,9 @@
           [
             3,
             6
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1158,6 +1200,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1182,6 +1227,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1208,6 +1256,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1234,6 +1285,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1260,6 +1314,9 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1286,6 +1343,9 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1312,6 +1372,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1338,6 +1401,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1364,6 +1430,9 @@
           [
             10,
             9
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1390,6 +1459,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1414,6 +1486,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1440,6 +1515,9 @@
           [
             14,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1466,6 +1544,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1492,6 +1573,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1518,6 +1602,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1544,6 +1631,9 @@
           [
             13,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1570,6 +1660,9 @@
           [
             15,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1596,6 +1689,9 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1620,6 +1716,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1646,6 +1745,9 @@
           [
             10,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1672,6 +1774,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1698,6 +1803,9 @@
           [
             10,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1724,6 +1832,9 @@
           [
             15,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1750,6 +1861,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1776,6 +1890,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1802,6 +1919,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1828,6 +1948,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1854,6 +1977,9 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1878,6 +2004,9 @@
           0,
           [
             3
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1904,6 +2033,9 @@
           [
             11,
             6
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1930,6 +2062,9 @@
           [
             9,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1954,6 +2089,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -1978,6 +2116,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2004,6 +2145,9 @@
           [
             10,
             13
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2030,6 +2174,9 @@
           [
             10,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2056,6 +2203,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2082,6 +2232,9 @@
           [
             8,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2108,6 +2261,9 @@
           [
             10,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2134,6 +2290,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2160,6 +2319,9 @@
           [
             15,
             8
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2186,6 +2348,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2212,6 +2377,9 @@
           [
             12,
             7
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2238,6 +2406,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2264,6 +2435,9 @@
           [
             8,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2290,6 +2464,9 @@
           [
             8,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2316,6 +2493,9 @@
           [
             6,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2342,6 +2522,9 @@
           [
             11,
             6
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2368,6 +2551,9 @@
           [
             9,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2394,6 +2580,9 @@
           [
             8,
             9
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2420,6 +2609,9 @@
           [
             10,
             9
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2446,6 +2638,9 @@
           [
             13,
             15
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2472,6 +2667,9 @@
           [
             10,
             11
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2496,6 +2694,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2522,6 +2723,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2548,6 +2752,9 @@
           [
             11,
             8
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2574,6 +2781,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2600,6 +2810,9 @@
           [
             10,
             9
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ],
         [
@@ -2626,6 +2839,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:dallara:26b4af93e67e"
           ]
         ]
       ],
@@ -2652,7 +2868,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -2677,6 +2894,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:derrington:6aeb8d02d546"
           ]
         ]
       ],
@@ -2703,7 +2923,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -2730,6 +2951,9 @@
           [
             3,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2758,6 +2982,9 @@
             3,
             8,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2786,6 +3013,9 @@
             4,
             7,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2814,6 +3044,9 @@
             11,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2842,6 +3075,9 @@
             5,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2870,6 +3106,9 @@
             5,
             6,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2898,6 +3137,9 @@
             14,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2930,6 +3172,9 @@
             7,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2958,6 +3203,9 @@
             6,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -2988,6 +3236,9 @@
             7,
             9,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3018,6 +3269,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3046,6 +3300,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3074,6 +3331,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3100,6 +3360,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3128,6 +3391,9 @@
             5,
             6,
             9
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3156,6 +3422,9 @@
             5,
             "DQ",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3184,6 +3453,9 @@
             5,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3214,6 +3486,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3242,6 +3517,9 @@
             9,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3272,6 +3550,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3300,6 +3581,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3328,6 +3612,9 @@
             6,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3354,6 +3641,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3382,6 +3672,9 @@
             "NC",
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3410,6 +3703,9 @@
             7,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3438,6 +3734,9 @@
             10,
             8,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3466,6 +3765,9 @@
             7,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3494,6 +3796,9 @@
             15,
             16,
             19
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3524,6 +3829,9 @@
             6,
             6,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3552,6 +3860,9 @@
             11,
             8,
             9
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3578,6 +3889,9 @@
           [
             9,
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3606,6 +3920,9 @@
             "NC",
             "NC",
             "WD"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ],
         [
@@ -3634,6 +3951,9 @@
             9,
             "NC",
             "NC"
+          ],
+          [
+            "constructor:gordini:fdcbc8e4367d"
           ]
         ]
       ],
@@ -3660,7 +3980,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -3685,6 +4006,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:jbw:16002d6106a8"
           ]
         ],
         [
@@ -3709,6 +4033,9 @@
           0,
           [
             13
+          ],
+          [
+            "constructor:jbw:16002d6106a8"
           ]
         ],
         [
@@ -3733,6 +4060,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:jbw:16002d6106a8"
           ]
         ],
         [
@@ -3757,6 +4087,9 @@
           0,
           [
             "WD"
+          ],
+          [
+            "constructor:jbw:16002d6106a8"
           ]
         ],
         [
@@ -3781,6 +4114,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:jbw:16002d6106a8"
           ]
         ]
       ],
@@ -3807,7 +4143,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -3832,6 +4169,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:lds:ce185dba7b39"
           ]
         ],
         [
@@ -3858,6 +4198,63 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:lds:ce185dba7b39"
+          ]
+        ],
+        [
+          131,
+          [
+            "driver:tingle:82e1e6abd6a2"
+          ],
+          [],
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          [
+            13
+          ],
+          [
+            "constructor:lds-alfa-romeo:69e381cc6275"
+          ]
+        ],
+        [
+          150,
+          [
+            "driver:tingle:82e1e6abd6a2"
+          ],
+          [],
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          [
+            "NC"
+          ],
+          [
+            "constructor:lds-climax:de9b49dbe7a2"
           ]
         ],
         [
@@ -3882,57 +4279,9 @@
           0,
           [
             "NC"
-          ]
-        ]
-      ],
-      "championships": []
-    },
-    {
-      "entityId": "constructor:lotus-borgward:d2c5a2dcefec",
-      "entityName": "Lotus-Borgward",
-      "eventColumns": [
-        "eventIndex",
-        "driverIds",
-        "winningDriverIds",
-        "entryCount",
-        "startCount",
-        "unknownStartEntryCount",
-        "podiumCount",
-        "secondPlaces",
-        "thirdPlaces",
-        "points",
-        "finishCount",
-        "classifiedCount",
-        "retirementCount",
-        "disqualificationCount",
-        "win",
-        "oneTwo",
-        "pole",
-        "positions"
-      ],
-      "events": [
-        [
-          108,
-          [
-            "driver:kuhnke:12104d29c150"
           ],
-          [],
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           [
-            "WD"
+            "constructor:lds:ce185dba7b39"
           ]
         ]
       ],
@@ -3959,7 +4308,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -3984,6 +4334,9 @@
           0,
           [
             25
+          ],
+          [
+            "constructor:maserati-offenhauser:82a6ee813b57"
           ]
         ]
       ],
@@ -4010,7 +4363,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -4041,6 +4395,9 @@
             8,
             9,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4065,6 +4422,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4091,154 +4451,42 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
-          163,
+          161,
           [
-            "driver:beltoise:a412ddeec9b0"
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
           ],
           [],
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
           1,
           0,
           0,
           0,
           0,
           [
+            6,
             "NC"
-          ]
-        ],
-        [
-          164,
-          [
-            "driver:beltoise:a412ddeec9b0"
           ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
           [
-            8
+            "constructor:matra-ford:6a9a55beeadd"
           ]
         ],
         [
-          165,
-          [
-            "driver:beltoise:a412ddeec9b0"
-          ],
-          [],
-          1,
-          1,
-          0,
-          1,
-          1,
-          0,
-          6,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          [
-            2
-          ]
-        ],
-        [
-          166,
-          [
-            "driver:beltoise:a412ddeec9b0"
-          ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          [
-            9
-          ]
-        ],
-        [
-          167,
-          [
-            "driver:beltoise:a412ddeec9b0"
-          ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          [
-            "NC"
-          ]
-        ],
-        [
-          168,
-          [
-            "driver:beltoise:a412ddeec9b0"
-          ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          [
-            "NC"
-          ]
-        ],
-        [
-          169,
+          162,
           [
             "driver:beltoise:a412ddeec9b0"
           ],
@@ -4259,13 +4507,16 @@
           0,
           [
             5
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
           ]
         ],
         [
-          170,
+          163,
           [
             "driver:beltoise:a412ddeec9b0",
-            "driver:pescarolo:cf6657843db1"
+            "driver:gavin:7a357fa402cb"
           ],
           [],
           2,
@@ -4285,37 +4536,365 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          164,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          [
+            4,
+            8
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          165,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          2,
+          1,
+          0,
+          15,
+          2,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          [
+            1,
+            2
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          166,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          2,
+          2,
+          0,
+          1,
+          0,
+          1,
+          4,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          [
+            3,
+            9
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          167,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          [
+            6,
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          168,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          1,
+          0,
+          0,
+          9,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          [
+            1,
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          169,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          3,
+          3,
+          0,
+          1,
+          1,
+          0,
+          8,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          [
+            2,
+            5,
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          170,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:pescarolo:cf6657843db1",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          [
+            6,
+            "NC",
+            "NC",
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
           171,
           [
-            "driver:beltoise:a412ddeec9b0"
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
           ],
-          [],
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
           0,
           1,
           0,
           0,
+          9,
+          1,
+          1,
+          1,
+          0,
+          1,
           0,
           0,
           [
+            1,
             "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
           172,
           [
             "driver:beltoise:a412ddeec9b0",
-            "driver:pescarolo:cf6657843db1"
+            "driver:gavin:7a357fa402cb",
+            "driver:pescarolo:cf6657843db1",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          [
+            7,
+            9,
+            "NC",
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd",
+            "constructor:matra:b2bca39208a5"
+          ]
+        ],
+        [
+          173,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          1,
+          0,
+          0,
+          10,
+          2,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          [
+            1,
+            6
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          174,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          2,
+          0,
+          1,
+          13,
+          2,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          [
+            1,
+            3
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          175,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
           ],
           [],
           2,
@@ -4325,16 +4904,267 @@
           0,
           0,
           0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          [
+            "NC",
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          176,
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
           1,
           1,
+          0,
+          1,
+          0,
+          0,
+          9,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          [
+            1
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          177,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          2,
+          1,
+          0,
+          15,
+          2,
+          2,
+          0,
+          0,
+          1,
+          1,
+          1,
+          [
+            1,
+            2
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          178,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          1,
+          0,
+          0,
+          9,
+          2,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          [
+            1,
+            9
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          179,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:pescarolo:cf6657843db1",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          4,
+          4,
+          0,
+          1,
+          1,
+          0,
+          6,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          [
+            12,
+            2,
+            5,
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          180,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [
+            "driver:stewart:f46f493c7dd0"
+          ],
+          2,
+          2,
+          0,
+          2,
+          0,
+          1,
+          13,
+          2,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          [
+            1,
+            3
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          181,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          2,
           1,
           0,
           0,
           0,
           0,
           [
-            9,
+            4,
+            6,
             "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          182,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          [
+            "NC",
+            "NC",
+            "NC"
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
+          ]
+        ],
+        [
+          183,
+          [
+            "driver:beltoise:a412ddeec9b0",
+            "driver:gavin:7a357fa402cb",
+            "driver:stewart:f46f493c7dd0"
+          ],
+          [],
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          5,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          [
+            4,
+            5,
+            8
+          ],
+          [
+            "constructor:matra-ford:6a9a55beeadd"
           ]
         ],
         [
@@ -4361,6 +5191,9 @@
           [
             4,
             7
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4387,6 +5220,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4413,6 +5249,9 @@
           [
             3,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4439,6 +5278,9 @@
           [
             3,
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4465,6 +5307,9 @@
           [
             5,
             8
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4491,6 +5336,9 @@
           [
             13,
             5
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4517,6 +5365,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4543,6 +5394,9 @@
           [
             6,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4569,6 +5423,9 @@
           [
             14,
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4595,6 +5452,9 @@
           [
             3,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4621,6 +5481,9 @@
           [
             7,
             8
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4647,6 +5510,9 @@
           [
             8,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4673,6 +5539,9 @@
           [
             5,
             9
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4697,6 +5566,9 @@
           0,
           [
             5
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4723,6 +5595,9 @@
           [
             3,
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4749,6 +5624,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4775,6 +5653,9 @@
           [
             9,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4801,6 +5682,9 @@
           [
             5,
             7
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4827,6 +5711,9 @@
           [
             7,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4851,6 +5738,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4875,6 +5765,9 @@
           1,
           [
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4901,6 +5794,9 @@
           [
             10,
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4927,6 +5823,9 @@
           [
             12,
             8
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4951,6 +5850,9 @@
           0,
           [
             "WD"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4975,6 +5877,9 @@
           0,
           [
             15
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -4999,6 +5904,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5023,6 +5931,9 @@
           0,
           [
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5047,6 +5958,9 @@
           0,
           [
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5071,6 +5985,9 @@
           1,
           [
             3
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5095,6 +6012,9 @@
           0,
           [
             4
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5119,6 +6039,9 @@
           0,
           [
             15
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5143,6 +6066,9 @@
           0,
           [
             5
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5167,6 +6093,9 @@
           0,
           [
             "NC"
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5191,6 +6120,9 @@
           0,
           [
             6
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ],
         [
@@ -5215,10 +6147,18 @@
           0,
           [
             15
+          ],
+          [
+            "constructor:matra:b2bca39208a5"
           ]
         ]
       ],
-      "championships": []
+      "championships": [
+        [
+          1969,
+          183
+        ]
+      ]
     },
     {
       "entityId": "constructor:politoys:bdfcc120a1bb",
@@ -5241,7 +6181,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -5266,137 +6207,9 @@
           0,
           [
             "NC"
-          ]
-        ]
-      ],
-      "championships": []
-    },
-    {
-      "entityId": "constructor:spyker-mf1:9e2a570ba829",
-      "entityName": "Spyker MF1",
-      "eventColumns": [
-        "eventIndex",
-        "driverIds",
-        "winningDriverIds",
-        "entryCount",
-        "startCount",
-        "unknownStartEntryCount",
-        "podiumCount",
-        "secondPlaces",
-        "thirdPlaces",
-        "points",
-        "finishCount",
-        "classifiedCount",
-        "retirementCount",
-        "disqualificationCount",
-        "win",
-        "oneTwo",
-        "pole",
-        "positions"
-      ],
-      "events": [
-        [
-          764,
-          [
-            "driver:albers:257d3e48b3e1",
-            "driver:monteiro:30bc8ae61e96"
           ],
-          [],
-          2,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
           [
-            17,
-            "NC"
-          ]
-        ],
-        [
-          765,
-          [
-            "driver:albers:257d3e48b3e1",
-            "driver:monteiro:30bc8ae61e96"
-          ],
-          [],
-          2,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          [
-            15,
-            "NC"
-          ]
-        ],
-        [
-          766,
-          [
-            "driver:albers:257d3e48b3e1",
-            "driver:monteiro:30bc8ae61e96"
-          ],
-          [],
-          2,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          [
-            16,
-            "NC"
-          ]
-        ],
-        [
-          767,
-          [
-            "driver:albers:257d3e48b3e1",
-            "driver:monteiro:30bc8ae61e96"
-          ],
-          [],
-          2,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          2,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          [
-            14,
-            15
+            "constructor:politoys:bdfcc120a1bb"
           ]
         ]
       ],
@@ -5423,7 +6236,8 @@
         "win",
         "oneTwo",
         "pole",
-        "positions"
+        "positions",
+        "sourceConstructorIds"
       ],
       "events": [
         [
@@ -5450,6 +6264,9 @@
           [
             18,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5476,6 +6293,9 @@
           [
             14,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5502,6 +6322,9 @@
           [
             12,
             13
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5528,6 +6351,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5554,6 +6380,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5580,6 +6409,9 @@
           [
             17,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5606,6 +6438,9 @@
           [
             16,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5632,6 +6467,9 @@
           [
             17,
             18
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5658,6 +6496,9 @@
           [
             15,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5684,6 +6525,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5710,6 +6554,9 @@
           [
             16,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5736,6 +6583,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5762,6 +6612,9 @@
           [
             13,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5788,6 +6641,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5814,6 +6670,9 @@
           [
             16,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5840,6 +6699,9 @@
           [
             16,
             "DQ"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5866,6 +6728,9 @@
           [
             15,
             17
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5892,6 +6757,9 @@
           [
             10,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5918,6 +6786,9 @@
           [
             12,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5944,6 +6815,9 @@
           [
             13,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5970,6 +6844,9 @@
           [
             16,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -5996,6 +6873,9 @@
           [
             11,
             8
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6022,6 +6902,9 @@
           [
             17,
             18
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6048,6 +6931,9 @@
           [
             11,
             6
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6074,6 +6960,9 @@
           [
             11,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6100,6 +6989,9 @@
           [
             16,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6126,6 +7018,9 @@
           [
             14,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6152,6 +7047,9 @@
           [
             12,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6178,6 +7076,9 @@
           [
             15,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6204,6 +7105,9 @@
           [
             14,
             18
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6230,6 +7134,9 @@
           [
             14,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6256,6 +7163,9 @@
           [
             15,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6282,6 +7192,9 @@
           [
             15,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6308,6 +7221,9 @@
           [
             14,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6334,6 +7250,9 @@
           [
             12,
             14
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6360,6 +7279,9 @@
           [
             "NC",
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6386,6 +7308,9 @@
           [
             15,
             16
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6412,6 +7337,9 @@
           [
             16,
             17
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ],
         [
@@ -6438,6 +7366,9 @@
           [
             13,
             "NC"
+          ],
+          [
+            "constructor:super-aguri:e4806191f308"
           ]
         ]
       ],

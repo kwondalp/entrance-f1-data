@@ -4,11 +4,11 @@
   "statisticId": "wins_by_constructor",
   "metricId": "winsByConstructor",
   "title": "Wins by Constructor",
-  "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by constructor.",
+  "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by constructor chassis identity.",
   "calculationId": "grouped_count",
   "factType": "win",
   "presentation": "driver-constructor",
-  "groupingDimension": "constructor",
+  "groupingDimension": "constructor chassis identity",
   "countingUnit": "official Grand Prix wins",
   "defaultSort": "desc",
   "rangeBehavior": {
@@ -24,13 +24,13 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
-  "rowCount": 194,
+  "rowCount": 187,
   "rows": [
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
@@ -1605,6 +1605,126 @@
       "rank": 7
     },
     {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
+      "value": 25,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:clark:59d84c3d9fcb",
+        "sourcePath": "details/drivers/d.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          104,
+          1
+        ],
+        [
+          106,
+          1
+        ],
+        [
+          109,
+          1
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          114,
+          1
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          117,
+          1
+        ],
+        [
+          119,
+          1
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          123,
+          1
+        ],
+        [
+          125,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          133,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          135,
+          1
+        ],
+        [
+          136,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          155,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          161,
+          1
+        ]
+      ],
+      "rank": 8
+    },
+    {
       "entityId": "driver:rosberg:f41469d63d30",
       "entityName": "Nico Rosberg",
       "groupId": "constructor:mercedes:81ae28b14607",
@@ -1714,7 +1834,7 @@
           1
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "entityId": "driver:damon-hill:3cf4df1bacf7",
@@ -1818,7 +1938,7 @@
           1
         ]
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
@@ -1922,7 +2042,7 @@
           1
         ]
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "entityId": "driver:hakkinen:cb6375fb4ba8",
@@ -2022,102 +2142,6 @@
           1
         ]
       ],
-      "rank": 11
-    },
-    {
-      "entityId": "driver:clark:59d84c3d9fcb",
-      "entityName": "Jim Clark",
-      "groupId": "constructor:lotus-climax:6989a1181b17",
-      "groupLabel": "Lotus-Climax",
-      "value": 19,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:clark:59d84c3d9fcb",
-        "sourcePath": "details/drivers/d.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:lotus-climax:6989a1181b17",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          104,
-          1
-        ],
-        [
-          106,
-          1
-        ],
-        [
-          109,
-          1
-        ],
-        [
-          112,
-          1
-        ],
-        [
-          113,
-          1
-        ],
-        [
-          114,
-          1
-        ],
-        [
-          115,
-          1
-        ],
-        [
-          117,
-          1
-        ],
-        [
-          119,
-          1
-        ],
-        [
-          120,
-          1
-        ],
-        [
-          122,
-          1
-        ],
-        [
-          123,
-          1
-        ],
-        [
-          125,
-          1
-        ],
-        [
-          131,
-          1
-        ],
-        [
-          133,
-          1
-        ],
-        [
-          134,
-          1
-        ],
-        [
-          135,
-          1
-        ],
-        [
-          136,
-          1
-        ],
-        [
-          137,
-          1
-        ]
-      ],
       "rank": 12
     },
     {
@@ -2214,7 +2238,7 @@
           1
         ]
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "entityId": "driver:alonso:04d69c1d187a",
@@ -2753,6 +2777,74 @@
       "rank": 20
     },
     {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 12,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1106,
+          1
+        ],
+        [
+          1115,
+          1
+        ],
+        [
+          1118,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1125,
+          1
+        ],
+        [
+          1132,
+          1
+        ],
+        [
+          1135,
+          1
+        ],
+        [
+          1136,
+          1
+        ],
+        [
+          1138,
+          1
+        ],
+        [
+          1144,
+          1
+        ],
+        [
+          1145,
+          1
+        ],
+        [
+          1159,
+          1
+        ]
+      ],
+      "rank": 20
+    },
+    {
       "entityId": "driver:jones:83ac4230619a",
       "entityName": "Alan Jones",
       "groupId": "constructor:williams:4164dc156cb6",
@@ -2814,7 +2906,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -2878,7 +2970,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "driver:alonso:04d69c1d187a",
@@ -2942,7 +3034,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "driver:villeneuve:5349509be1a5",
@@ -3006,77 +3098,13 @@
           1
         ]
       ],
-      "rank": 21
-    },
-    {
-      "entityId": "driver:norris:5581145e4767",
-      "entityName": "Lando Norris",
-      "groupId": "constructor:mclaren:f3759103103f",
-      "groupLabel": "McLaren",
-      "value": 11,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:norris:5581145e4767",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:mclaren:f3759103103f",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1106,
-          1
-        ],
-        [
-          1115,
-          1
-        ],
-        [
-          1118,
-          1
-        ],
-        [
-          1124,
-          1
-        ],
-        [
-          1125,
-          1
-        ],
-        [
-          1132,
-          1
-        ],
-        [
-          1135,
-          1
-        ],
-        [
-          1136,
-          1
-        ],
-        [
-          1138,
-          1
-        ],
-        [
-          1144,
-          1
-        ],
-        [
-          1145,
-          1
-        ]
-      ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "driver:mario-andretti:9665dc04541a",
       "entityName": "Mario Andretti",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 11,
       "detail": {
         "type": "grouped_occurrences",
@@ -3134,7 +3162,7 @@
           1
         ]
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "entityId": "driver:hill:aa2839db1ccc",
@@ -3432,7 +3460,7 @@
       "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
       "entityName": "Emerson Fittipaldi",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 9,
       "detail": {
         "type": "grouped_occurrences",
@@ -3487,8 +3515,8 @@
     {
       "entityId": "driver:stewart:f46f493c7dd0",
       "entityName": "Jackie Stewart",
-      "groupId": "constructor:matra-ford:6a9a55beeadd",
-      "groupLabel": "Matra-Ford",
+      "groupId": "constructor:matra:b2bca39208a5",
+      "groupLabel": "Matra",
       "value": 9,
       "detail": {
         "type": "grouped_occurrences",
@@ -3496,7 +3524,7 @@
         "sourcePath": "details/drivers/8.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:matra-ford:6a9a55beeadd",
+        "groupId": "constructor:matra:b2bca39208a5",
         "season": null,
         "pairId": null
       },
@@ -3768,7 +3796,7 @@
       "entityId": "driver:peterson:112af39f0326",
       "entityName": "Ronnie Peterson",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 9,
       "detail": {
         "type": "grouped_occurrences",
@@ -3930,7 +3958,7 @@
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "groupId": "constructor:mercedes:81ae28b14607",
       "groupLabel": "Mercedes",
       "value": 8,
@@ -4179,8 +4207,8 @@
     {
       "entityId": "driver:jack-brabham:279b9464153a",
       "entityName": "Jack Brabham",
-      "groupId": "constructor:cooper-climax:0088f1fdaee8",
-      "groupLabel": "Cooper-Climax",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
       "value": 7,
       "detail": {
         "type": "grouped_occurrences",
@@ -4188,7 +4216,55 @@
         "sourcePath": "details/drivers/9.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:cooper-climax:0088f1fdaee8",
+        "groupId": "constructor:brabham:0f52aed0736c",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          143,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          157,
+          1
+        ],
+        [
+          184,
+          1
+        ]
+      ],
+      "rank": 43
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
+      "value": 7,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:jack-brabham:279b9464153a",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper:9771c8f26d98",
         "season": null,
         "pairId": null
       },
@@ -4226,7 +4302,7 @@
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
       "value": 7,
@@ -4321,54 +4397,10 @@
       "rank": 43
     },
     {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Andrea Kimi Antonelli",
-      "groupId": "constructor:mercedes:81ae28b14607",
-      "groupLabel": "Mercedes",
-      "value": 6,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:antonelli:0ab4d82d3440",
-        "sourcePath": "details/drivers/8.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:mercedes:81ae28b14607",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1150,
-          1
-        ],
-        [
-          1151,
-          1
-        ],
-        [
-          1152,
-          1
-        ],
-        [
-          1153,
-          1
-        ],
-        [
-          1154,
-          1
-        ],
-        [
-          1158,
-          1
-        ]
-      ],
-      "rank": 49
-    },
-    {
       "entityId": "driver:senna:97c74c7d172e",
       "entityName": "Ayrton Senna",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 6,
       "detail": {
         "type": "grouped_occurrences",
@@ -4406,7 +4438,51 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:hulme:595e5a426963",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mclaren:f3759103103f",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          169,
+          1
+        ],
+        [
+          170,
+          1
+        ],
+        [
+          183,
+          1
+        ],
+        [
+          209,
+          1
+        ],
+        [
+          226,
+          1
+        ],
+        [
+          235,
+          1
+        ]
+      ],
+      "rank": 50
     },
     {
       "entityId": "driver:gilles-villeneuve:92aad873d6ed",
@@ -4450,51 +4526,7 @@
           1
         ]
       ],
-      "rank": 49
-    },
-    {
-      "entityId": "driver:jack-brabham:279b9464153a",
-      "entityName": "Jack Brabham",
-      "groupId": "constructor:brabham-repco:d0f8fb362bfd",
-      "groupLabel": "Brabham-Repco",
-      "value": 6,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:jack-brabham:279b9464153a",
-        "sourcePath": "details/drivers/9.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:brabham-repco:d0f8fb362bfd",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          143,
-          1
-        ],
-        [
-          144,
-          1
-        ],
-        [
-          145,
-          1
-        ],
-        [
-          146,
-          1
-        ],
-        [
-          154,
-          1
-        ],
-        [
-          157,
-          1
-        ]
-      ],
-      "rank": 49
+      "rank": 50
     },
     {
       "entityId": "driver:ickx:9dc972aa2fb0",
@@ -4538,7 +4570,7 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "entityId": "driver:laffite:36bfb487a39b",
@@ -4582,7 +4614,7 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "entityId": "driver:button:d29c67aa2fda",
@@ -4626,11 +4658,55 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:rindt:46dabdd8ff6b",
+        "sourcePath": "details/drivers/6.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          182,
+          1
+        ],
+        [
+          186,
+          1
+        ],
+        [
+          188,
+          1
+        ],
+        [
+          189,
+          1
+        ],
+        [
+          190,
+          1
+        ],
+        [
+          191,
+          1
+        ]
+      ],
+      "rank": 50
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "groupId": "constructor:alfa:f3891f4c8109",
       "groupLabel": "Alfa Romeo",
       "value": 6,
@@ -4670,7 +4746,51 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "value": 6,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:antonelli:0ab4d82d3440",
+        "sourcePath": "details/drivers/8.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:mercedes:81ae28b14607",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1150,
+          1
+        ],
+        [
+          1151,
+          1
+        ],
+        [
+          1152,
+          1
+        ],
+        [
+          1153,
+          1
+        ],
+        [
+          1154,
+          1
+        ],
+        [
+          1158,
+          1
+        ]
+      ],
+      "rank": 50
     },
     {
       "entityId": "driver:ralf-schumacher:c4bff3218fa9",
@@ -4714,7 +4834,7 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -4758,7 +4878,7 @@
           1
         ]
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "entityId": "driver:prost:70f24972bd43",
@@ -4798,7 +4918,7 @@
           1
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:reutemann:c573421c6e6f",
@@ -4838,7 +4958,7 @@
           1
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
@@ -4878,7 +4998,7 @@
           1
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:berger:721f3dbb508a",
@@ -4918,87 +5038,7 @@
           1
         ]
       ],
-      "rank": 59
-    },
-    {
-      "entityId": "driver:clark:59d84c3d9fcb",
-      "entityName": "Jim Clark",
-      "groupId": "constructor:lotus-ford:5f3f89c719e0",
-      "groupLabel": "Lotus-Ford",
-      "value": 5,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:clark:59d84c3d9fcb",
-        "sourcePath": "details/drivers/d.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:lotus-ford:5f3f89c719e0",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          152,
-          1
-        ],
-        [
-          155,
-          1
-        ],
-        [
-          159,
-          1
-        ],
-        [
-          160,
-          1
-        ],
-        [
-          161,
-          1
-        ]
-      ],
-      "rank": 59
-    },
-    {
-      "entityId": "driver:rindt:46dabdd8ff6b",
-      "entityName": "Jochen Rindt",
-      "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
-      "value": 5,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:rindt:46dabdd8ff6b",
-        "sourcePath": "details/drivers/6.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:team-lotus:85b2937902bf",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          186,
-          1
-        ],
-        [
-          188,
-          1
-        ],
-        [
-          189,
-          1
-        ],
-        [
-          190,
-          1
-        ],
-        [
-          191,
-          1
-        ]
-      ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:keke-rosberg:c149e9225f45",
@@ -5038,7 +5078,7 @@
           1
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -5078,7 +5118,7 @@
           1
         ]
       ],
-      "rank": 59
+      "rank": 61
     },
     {
       "entityId": "driver:reutemann:c573421c6e6f",
@@ -5263,8 +5303,8 @@
     {
       "entityId": "driver:hill:aa2839db1ccc",
       "entityName": "Graham Hill",
-      "groupId": "constructor:lotus-ford:5f3f89c719e0",
-      "groupLabel": "Lotus-Ford",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
       "value": 4,
       "detail": {
         "type": "grouped_occurrences",
@@ -5272,7 +5312,7 @@
         "sourcePath": "details/drivers/8.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "groupId": "constructor:team-lotus:85b2937902bf",
         "season": null,
         "pairId": null
       },
@@ -5549,6 +5589,42 @@
       "rank": 67
     },
     {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
+      "value": 4,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:team-lotus:85b2937902bf",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          85,
+          1
+        ],
+        [
+          93,
+          1
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          99,
+          1
+        ]
+      ],
+      "rank": 67
+    },
+    {
       "entityId": "driver:brooks:4c43a3935c07",
       "entityName": "Tony Brooks",
       "groupId": "constructor:vanwall:4ca6f75bd647",
@@ -5587,8 +5663,8 @@
     {
       "entityId": "driver:mclaren:fad4f75a1c8e",
       "entityName": "Bruce McLaren",
-      "groupId": "constructor:cooper-climax:0088f1fdaee8",
-      "groupLabel": "Cooper-Climax",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
       "value": 3,
       "detail": {
         "type": "grouped_occurrences",
@@ -5596,7 +5672,7 @@
         "sourcePath": "details/drivers/6.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:cooper-climax:0088f1fdaee8",
+        "groupId": "constructor:cooper:9771c8f26d98",
         "season": null,
         "pairId": null
       },
@@ -5614,7 +5690,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:reutemann:c573421c6e6f",
@@ -5646,71 +5722,7 @@
           1
         ]
       ],
-      "rank": 81
-    },
-    {
-      "entityId": "driver:hulme:595e5a426963",
-      "entityName": "Denny Hulme",
-      "groupId": "constructor:mclaren:f3759103103f",
-      "groupLabel": "McLaren",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:hulme:595e5a426963",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:mclaren:f3759103103f",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          209,
-          1
-        ],
-        [
-          226,
-          1
-        ],
-        [
-          235,
-          1
-        ]
-      ],
-      "rank": 81
-    },
-    {
-      "entityId": "driver:hulme:595e5a426963",
-      "entityName": "Denny Hulme",
-      "groupId": "constructor:mclaren-ford:aef4e0acf380",
-      "groupLabel": "McLaren-Ford",
-      "value": 3,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:hulme:595e5a426963",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:mclaren-ford:aef4e0acf380",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          169,
-          1
-        ],
-        [
-          170,
-          1
-        ],
-        [
-          183,
-          1
-        ]
-      ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:berger:721f3dbb508a",
@@ -5742,7 +5754,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:scheckter:c14e9982ba2e",
@@ -5774,7 +5786,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:scheckter:c14e9982ba2e",
@@ -5806,11 +5818,11 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
       "value": 3,
@@ -5838,7 +5850,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:montoya:68737b86fe17",
@@ -5870,7 +5882,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:alboreto:2d39fb3c5621",
@@ -5902,7 +5914,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:hawthorn:1ddfcaf579cc",
@@ -5934,7 +5946,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:piquet:009ec3fd7514",
@@ -5966,7 +5978,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:mansell:66de70fd9557",
@@ -5998,7 +6010,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:collins:98c51dae7baf",
@@ -6030,7 +6042,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:phil-hill:35d0f98c0d81",
@@ -6062,7 +6074,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:arnoux:3628c7479aa0",
@@ -6094,7 +6106,39 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
+      "value": 3,
+      "detail": {
+        "type": "grouped_occurrences",
+        "entityId": "driver:moss:74efba0d63c1",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "win",
+        "eventIds": [],
+        "groupId": "constructor:cooper:9771c8f26d98",
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          64,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          82,
+          1
+        ]
+      ],
+      "rank": 82
     },
     {
       "entityId": "driver:boutsen:956ebe879bfd",
@@ -6126,7 +6170,7 @@
           1
         ]
       ],
-      "rank": 81
+      "rank": 82
     },
     {
       "entityId": "driver:vukovich:57f4d36050ed",
@@ -6159,8 +6203,8 @@
     {
       "entityId": "driver:gurney:0e0cdc9d2231",
       "entityName": "Dan Gurney",
-      "groupId": "constructor:brabham-climax:80cd915e63d9",
-      "groupLabel": "Brabham-Climax",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
@@ -6168,7 +6212,7 @@
         "sourcePath": "details/drivers/3.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:brabham-climax:80cd915e63d9",
+        "groupId": "constructor:brabham:0f52aed0736c",
         "season": null,
         "pairId": null
       },
@@ -6187,8 +6231,8 @@
     {
       "entityId": "driver:hulme:595e5a426963",
       "entityName": "Denny Hulme",
-      "groupId": "constructor:brabham-repco:d0f8fb362bfd",
-      "groupLabel": "Brabham-Repco",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
@@ -6196,7 +6240,7 @@
         "sourcePath": "details/drivers/f.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:brabham-repco:d0f8fb362bfd",
+        "groupId": "constructor:brabham:0f52aed0736c",
         "season": null,
         "pairId": null
       },
@@ -6244,7 +6288,7 @@
       "entityId": "driver:angelis:e8033183b98b",
       "entityName": "Elio de Angelis",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
@@ -6383,8 +6427,8 @@
     {
       "entityId": "driver:ickx:9dc972aa2fb0",
       "entityName": "Jacky Ickx",
-      "groupId": "constructor:brabham-ford:3faaa1280444",
-      "groupLabel": "Brabham-Ford",
+      "groupId": "constructor:brabham:0f52aed0736c",
+      "groupLabel": "Brabham",
       "value": 2,
       "detail": {
         "type": "grouped_occurrences",
@@ -6392,7 +6436,7 @@
         "sourcePath": "details/drivers/0.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:brabham-ford:3faaa1280444",
+        "groupId": "constructor:brabham:0f52aed0736c",
         "season": null,
         "pairId": null
       },
@@ -6691,62 +6735,6 @@
     {
       "entityId": "driver:moss:74efba0d63c1",
       "entityName": "Stirling Moss",
-      "groupId": "constructor:cooper-climax:0088f1fdaee8",
-      "groupLabel": "Cooper-Climax",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:moss:74efba0d63c1",
-        "sourcePath": "details/drivers/b.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:cooper-climax:0088f1fdaee8",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          81,
-          1
-        ],
-        [
-          82,
-          1
-        ]
-      ],
-      "rank": 98
-    },
-    {
-      "entityId": "driver:moss:74efba0d63c1",
-      "entityName": "Stirling Moss",
-      "groupId": "constructor:lotus-climax:6989a1181b17",
-      "groupLabel": "Lotus-Climax",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:moss:74efba0d63c1",
-        "sourcePath": "details/drivers/b.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:lotus-climax:6989a1181b17",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          94,
-          1
-        ],
-        [
-          99,
-          1
-        ]
-      ],
-      "rank": 98
-    },
-    {
-      "entityId": "driver:moss:74efba0d63c1",
-      "entityName": "Stirling Moss",
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
       "value": 2,
@@ -6767,34 +6755,6 @@
         ],
         [
           55,
-          1
-        ]
-      ],
-      "rank": 98
-    },
-    {
-      "entityId": "driver:moss:74efba0d63c1",
-      "entityName": "Stirling Moss",
-      "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
-      "value": 2,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:moss:74efba0d63c1",
-        "sourcePath": "details/drivers/b.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:team-lotus:85b2937902bf",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          85,
-          1
-        ],
-        [
-          93,
           1
         ]
       ],
@@ -6878,7 +6838,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:nannini:93cbec78c64b",
@@ -6902,7 +6862,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:sweikert:bb85eca755bd",
@@ -6926,13 +6886,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:mclaren:fad4f75a1c8e",
       "entityName": "Bruce McLaren",
-      "groupId": "constructor:mclaren-ford:aef4e0acf380",
-      "groupLabel": "McLaren-Ford",
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -6940,7 +6900,7 @@
         "sourcePath": "details/drivers/6.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:mclaren-ford:aef4e0acf380",
+        "groupId": "constructor:mclaren:f3759103103f",
         "season": null,
         "pairId": null
       },
@@ -6950,7 +6910,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:pace:f2913e9cfb72",
@@ -6974,7 +6934,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:regazzoni:8dabb0375829",
@@ -6998,7 +6958,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:damon-hill:3cf4df1bacf7",
@@ -7022,13 +6982,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:gurney:0e0cdc9d2231",
       "entityName": "Dan Gurney",
-      "groupId": "constructor:eagle-weslake:9412424e9508",
-      "groupLabel": "Eagle-Weslake",
+      "groupId": "constructor:eagle:9bebadf8653f",
+      "groupLabel": "Eagle",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -7036,7 +6996,7 @@
         "sourcePath": "details/drivers/3.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:eagle-weslake:9412424e9508",
+        "groupId": "constructor:eagle:9bebadf8653f",
         "season": null,
         "pairId": null
       },
@@ -7046,7 +7006,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:gurney:0e0cdc9d2231",
@@ -7070,7 +7030,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ricciardo:677e1f07679b",
@@ -7094,7 +7054,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:coulthard:935d583f6514",
@@ -7118,7 +7078,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:pironi:e419fd33c039",
@@ -7142,7 +7102,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ocon:27db7f9b9070",
@@ -7166,7 +7126,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:cevert:fc3ec9f33655",
@@ -7190,7 +7150,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:baghetti:3a2c6f3478be",
@@ -7214,7 +7174,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:fisichella:5825d809a2e3",
@@ -7238,13 +7198,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:nilsson:4b453af4861c",
       "entityName": "Gunnar Nilsson",
       "groupId": "constructor:team-lotus:85b2937902bf",
-      "groupLabel": "Team Lotus",
+      "groupLabel": "Lotus",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -7262,7 +7222,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:kovalainen:dc8d8c106e70",
@@ -7286,7 +7246,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:frentzen:e499a12f83f0",
@@ -7310,13 +7270,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ireland:655aaf7bf33d",
       "entityName": "Innes Ireland",
-      "groupId": "constructor:lotus-climax:6989a1181b17",
-      "groupLabel": "Lotus-Climax",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -7324,7 +7284,7 @@
         "sourcePath": "details/drivers/4.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:lotus-climax:6989a1181b17",
+        "groupId": "constructor:team-lotus:85b2937902bf",
         "season": null,
         "pairId": null
       },
@@ -7334,31 +7294,7 @@
           1
         ]
       ],
-      "rank": 124
-    },
-    {
-      "entityId": "driver:jack-brabham:279b9464153a",
-      "entityName": "Jack Brabham",
-      "groupId": "constructor:brabham:0f52aed0736c",
-      "groupLabel": "Brabham",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:jack-brabham:279b9464153a",
-        "sourcePath": "details/drivers/9.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:brabham:0f52aed0736c",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          184,
-          1
-        ]
-      ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:stewart:f46f493c7dd0",
@@ -7382,7 +7318,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:hunt:c0af61d2ad52",
@@ -7406,7 +7342,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:trulli:26a562aa7942",
@@ -7430,7 +7366,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:alesi:81d9c1b96672",
@@ -7454,7 +7390,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:beltoise:a412ddeec9b0",
@@ -7478,7 +7414,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:button:d29c67aa2fda",
@@ -7502,31 +7438,7 @@
           1
         ]
       ],
-      "rank": 124
-    },
-    {
-      "entityId": "driver:clark:59d84c3d9fcb",
-      "entityName": "Jim Clark",
-      "groupId": "constructor:lotus-brm:64b796470f27",
-      "groupLabel": "Lotus-BRM",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:clark:59d84c3d9fcb",
-        "sourcePath": "details/drivers/d.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:lotus-brm:64b796470f27",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          148,
-          1
-        ]
-      ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:rathmann:5dd609a66a0d",
@@ -7550,7 +7462,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:bryan:4eb09601387b",
@@ -7574,7 +7486,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:bonnier:5fc11359a468",
@@ -7598,7 +7510,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:siffert:d1cfc3fb1fc0",
@@ -7622,13 +7534,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:siffert:d1cfc3fb1fc0",
       "entityName": "Jo Siffert",
-      "groupId": "constructor:lotus-ford:5f3f89c719e0",
-      "groupLabel": "Lotus-Ford",
+      "groupId": "constructor:team-lotus:85b2937902bf",
+      "groupLabel": "Lotus",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -7636,7 +7548,7 @@
         "sourcePath": "details/drivers/f.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:lotus-ford:5f3f89c719e0",
+        "groupId": "constructor:team-lotus:85b2937902bf",
         "season": null,
         "pairId": null
       },
@@ -7646,7 +7558,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:mass:35e234910d35",
@@ -7670,37 +7582,13 @@
           1
         ]
       ],
-      "rank": 124
-    },
-    {
-      "entityId": "driver:rindt:46dabdd8ff6b",
-      "entityName": "Jochen Rindt",
-      "groupId": "constructor:lotus-ford:5f3f89c719e0",
-      "groupLabel": "Lotus-Ford",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:rindt:46dabdd8ff6b",
-        "sourcePath": "details/drivers/6.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:lotus-ford:5f3f89c719e0",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          182,
-          1
-        ]
-      ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:surtees:5519e1946624",
       "entityName": "John Surtees",
-      "groupId": "constructor:cooper-maserati:e640263488c8",
-      "groupLabel": "Cooper-Maserati",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -7708,7 +7596,7 @@
         "sourcePath": "details/drivers/8.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:cooper-maserati:e640263488c8",
+        "groupId": "constructor:cooper:9771c8f26d98",
         "season": null,
         "pairId": null
       },
@@ -7718,7 +7606,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:surtees:5519e1946624",
@@ -7742,7 +7630,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:watson:fc3a45a5856b",
@@ -7766,7 +7654,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:parsons:0c0bd75f4db3",
@@ -7790,7 +7678,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:herbert:c13dde1e1e00",
@@ -7814,7 +7702,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:wallard:e9ba4db7646c",
@@ -7838,7 +7726,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
@@ -7862,7 +7750,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:bandini:7f67fa49cbac",
@@ -7886,7 +7774,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:scarfiotti:62e48ae1a222",
@@ -7910,7 +7798,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:fagioli:05eb09dda820",
@@ -7934,7 +7822,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:musso:d363c09057b8",
@@ -7958,7 +7846,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:mario-andretti:9665dc04541a",
@@ -7982,7 +7870,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:trintignant:aaf24838e239",
@@ -8006,7 +7894,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:trintignant:aaf24838e239",
@@ -8030,7 +7918,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:farina:edc963649157",
@@ -8054,7 +7942,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:panis:b03d10e03261",
@@ -8078,7 +7966,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:maldonado:87cbc81409ca",
@@ -8102,7 +7990,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:flaherty:788ffe6330c5",
@@ -8126,7 +8014,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:depailler:b5cf50bce46d",
@@ -8150,7 +8038,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:depailler:b5cf50bce46d",
@@ -8174,7 +8062,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:rodriguez:300e7465db9d",
@@ -8198,13 +8086,13 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:rodriguez:300e7465db9d",
       "entityName": "Pedro Rodríguez",
-      "groupId": "constructor:cooper-maserati:e640263488c8",
-      "groupLabel": "Cooper-Maserati",
+      "groupId": "constructor:cooper:9771c8f26d98",
+      "groupLabel": "Cooper",
       "value": 1,
       "detail": {
         "type": "grouped_occurrences",
@@ -8212,7 +8100,7 @@
         "sourcePath": "details/drivers/7.json",
         "factType": "win",
         "eventIds": [],
-        "groupId": "constructor:cooper-maserati:e640263488c8",
+        "groupId": "constructor:cooper:9771c8f26d98",
         "season": null,
         "pairId": null
       },
@@ -8222,7 +8110,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:gethin:87bc51940490",
@@ -8246,7 +8134,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:taruffi:4246f1de7460",
@@ -8270,7 +8158,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:gasly:0fca70394caf",
@@ -8294,7 +8182,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ginther:3e915b11c50f",
@@ -8318,7 +8206,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:kubica:54803f2070f9",
@@ -8342,7 +8230,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ward:c57d8b2b0b67",
@@ -8366,7 +8254,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:peterson:112af39f0326",
@@ -8390,7 +8278,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:hanks:32313f8014e4",
@@ -8414,7 +8302,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:vettel:c74415af2cc1",
@@ -8438,7 +8326,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -8462,31 +8350,7 @@
           1
         ]
       ],
-      "rank": 124
-    },
-    {
-      "entityId": "driver:moss:74efba0d63c1",
-      "entityName": "Stirling Moss",
-      "groupId": "constructor:cooper:9771c8f26d98",
-      "groupLabel": "Cooper",
-      "value": 1,
-      "detail": {
-        "type": "grouped_occurrences",
-        "entityId": "driver:moss:74efba0d63c1",
-        "sourcePath": "details/drivers/b.json",
-        "factType": "win",
-        "eventIds": [],
-        "groupId": "constructor:cooper:9771c8f26d98",
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          64,
-          1
-        ]
-      ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -8510,7 +8374,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:ruttman:3e2eedf09bb0",
@@ -8534,7 +8398,7 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     },
     {
       "entityId": "driver:brambilla:080b064099a9",
@@ -8558,9 +8422,9 @@
           1
         ]
       ],
-      "rank": 124
+      "rank": 121
     }
   ],
-  "loadedRowCount": 194,
+  "loadedRowCount": 187,
   "pagination": null
 }

@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
   "rowCount": 219,
   "rows": [
@@ -6196,7 +6196,7 @@
     {
       "entityId": "driver:max-verstappen:1f6847211200",
       "entityName": "Max Verstappen",
-      "value": 3717,
+      "value": 3724,
       "firstEvent": {
         "eventId": "event:2016-5:c321cfd88c73",
         "eventIndex": 939,
@@ -6207,13 +6207,13 @@
         "eventDate": "2016-05-15"
       },
       "lastEvent": {
-        "eventId": "event:2026-10:962ab94f681f",
-        "eventIndex": 1158,
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
         "season": 2026,
-        "round": 10,
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa",
-        "eventDate": "2026-07-19"
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
       },
       "detail": {
         "type": "interval",
@@ -6222,7 +6222,7 @@
         "factType": "podium",
         "eventIds": [
           "event:2016-5:c321cfd88c73",
-          "event:2026-10:962ab94f681f"
+          "event:2026-11:e63cf3e76869"
         ],
         "groupId": null,
         "season": null,
@@ -6747,6 +6747,10 @@
         ],
         [
           1158,
+          1
+        ],
+        [
+          1159,
           1
         ]
       ],
@@ -11237,7 +11241,7 @@
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "value": 2667,
       "firstEvent": {
         "eventId": "event:1950-2:609d25155bf6",
@@ -12703,239 +12707,9 @@
       "rank": 58
     },
     {
-      "entityId": "driver:sainz:f4f0414a0a12",
-      "entityName": "Carlos Sainz",
-      "value": 2205,
-      "firstEvent": {
-        "eventId": "event:2019-20:c26309bb9c91",
-        "eventIndex": 1016,
-        "season": 2019,
-        "round": 20,
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos",
-        "eventDate": "2019-11-17"
-      },
-      "lastEvent": {
-        "eventId": "event:2025-23:465c7b16bc45",
-        "eventIndex": 1147,
-        "season": 2025,
-        "round": 23,
-        "grandPrixName": "Qatar Grand Prix",
-        "circuitId": "losail",
-        "eventDate": "2025-11-30"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:sainz:f4f0414a0a12",
-        "sourcePath": "details/drivers/4.json",
-        "factType": "podium",
-        "eventIds": [
-          "event:2019-20:c26309bb9c91",
-          "event:2025-23:465c7b16bc45"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1016,
-          1
-        ],
-        [
-          1025,
-          1
-        ],
-        [
-          1039,
-          1
-        ],
-        [
-          1045,
-          1
-        ],
-        [
-          1049,
-          1
-        ],
-        [
-          1056,
-          1
-        ],
-        [
-          1057,
-          1
-        ],
-        [
-          1058,
-          1
-        ],
-        [
-          1061,
-          1
-        ],
-        [
-          1063,
-          1
-        ],
-        [
-          1065,
-          1
-        ],
-        [
-          1066,
-          1
-        ],
-        [
-          1070,
-          1
-        ],
-        [
-          1073,
-          1
-        ],
-        [
-          1077,
-          1
-        ],
-        [
-          1092,
-          1
-        ],
-        [
-          1093,
-          1
-        ],
-        [
-          1096,
-          1
-        ],
-        [
-          1101,
-          1
-        ],
-        [
-          1103,
-          1
-        ],
-        [
-          1104,
-          1
-        ],
-        [
-          1108,
-          1
-        ],
-        [
-          1111,
-          1
-        ],
-        [
-          1119,
-          1
-        ],
-        [
-          1120,
-          1
-        ],
-        [
-          1122,
-          1
-        ],
-        [
-          1124,
-          1
-        ],
-        [
-          1141,
-          1
-        ],
-        [
-          1147,
-          1
-        ]
-      ],
-      "rank": 59
-    },
-    {
-      "entityId": "driver:behra:ad2c71791765",
-      "entityName": "Jean Behra",
-      "value": 2199,
-      "firstEvent": {
-        "eventId": "event:1952-1:1f5bbc70f213",
-        "eventIndex": 15,
-        "season": 1952,
-        "round": 1,
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten",
-        "eventDate": "1952-05-18"
-      },
-      "lastEvent": {
-        "eventId": "event:1958-3:87cc29f3ec4a",
-        "eventIndex": 66,
-        "season": 1958,
-        "round": 3,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "1958-05-26"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:behra:ad2c71791765",
-        "sourcePath": "details/drivers/9.json",
-        "factType": "podium",
-        "eventIds": [
-          "event:1952-1:1f5bbc70f213",
-          "event:1958-3:87cc29f3ec4a"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          15,
-          1
-        ],
-        [
-          42,
-          1
-        ],
-        [
-          48,
-          1
-        ],
-        [
-          49,
-          1
-        ],
-        [
-          52,
-          1
-        ],
-        [
-          53,
-          1
-        ],
-        [
-          54,
-          1
-        ],
-        [
-          56,
-          1
-        ],
-        [
-          66,
-          1
-        ]
-      ],
-      "rank": 60
-    },
-    {
       "entityId": "driver:norris:5581145e4767",
       "entityName": "Lando Norris",
-      "value": 2170,
+      "value": 2212,
       "firstEvent": {
         "eventId": "event:2020-1:7ef015a4d9f1",
         "eventIndex": 1018,
@@ -12946,13 +12720,13 @@
         "eventDate": "2020-07-05"
       },
       "lastEvent": {
-        "eventId": "event:2026-7:a4e70b8fc3f5",
-        "eventIndex": 1155,
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
         "season": 2026,
-        "round": 7,
-        "grandPrixName": "Barcelona-Catalunya Grand Prix",
-        "circuitId": "catalunya",
-        "eventDate": "2026-06-14"
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
       },
       "detail": {
         "type": "interval",
@@ -12961,7 +12735,7 @@
         "factType": "podium",
         "eventIds": [
           "event:2020-1:7ef015a4d9f1",
-          "event:2026-7:a4e70b8fc3f5"
+          "event:2026-11:e63cf3e76869"
         ],
         "groupId": null,
         "season": null,
@@ -13150,6 +12924,240 @@
         ],
         [
           1155,
+          1
+        ],
+        [
+          1159,
+          1
+        ]
+      ],
+      "rank": 59
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 2205,
+      "firstEvent": {
+        "eventId": "event:2019-20:c26309bb9c91",
+        "eventIndex": 1016,
+        "season": 2019,
+        "round": 20,
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos",
+        "eventDate": "2019-11-17"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-23:465c7b16bc45",
+        "eventIndex": 1147,
+        "season": 2025,
+        "round": 23,
+        "grandPrixName": "Qatar Grand Prix",
+        "circuitId": "losail",
+        "eventDate": "2025-11-30"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:sainz:f4f0414a0a12",
+        "sourcePath": "details/drivers/4.json",
+        "factType": "podium",
+        "eventIds": [
+          "event:2019-20:c26309bb9c91",
+          "event:2025-23:465c7b16bc45"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1016,
+          1
+        ],
+        [
+          1025,
+          1
+        ],
+        [
+          1039,
+          1
+        ],
+        [
+          1045,
+          1
+        ],
+        [
+          1049,
+          1
+        ],
+        [
+          1056,
+          1
+        ],
+        [
+          1057,
+          1
+        ],
+        [
+          1058,
+          1
+        ],
+        [
+          1061,
+          1
+        ],
+        [
+          1063,
+          1
+        ],
+        [
+          1065,
+          1
+        ],
+        [
+          1066,
+          1
+        ],
+        [
+          1070,
+          1
+        ],
+        [
+          1073,
+          1
+        ],
+        [
+          1077,
+          1
+        ],
+        [
+          1092,
+          1
+        ],
+        [
+          1093,
+          1
+        ],
+        [
+          1096,
+          1
+        ],
+        [
+          1101,
+          1
+        ],
+        [
+          1103,
+          1
+        ],
+        [
+          1104,
+          1
+        ],
+        [
+          1108,
+          1
+        ],
+        [
+          1111,
+          1
+        ],
+        [
+          1119,
+          1
+        ],
+        [
+          1120,
+          1
+        ],
+        [
+          1122,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1141,
+          1
+        ],
+        [
+          1147,
+          1
+        ]
+      ],
+      "rank": 60
+    },
+    {
+      "entityId": "driver:behra:ad2c71791765",
+      "entityName": "Jean Behra",
+      "value": 2199,
+      "firstEvent": {
+        "eventId": "event:1952-1:1f5bbc70f213",
+        "eventIndex": 15,
+        "season": 1952,
+        "round": 1,
+        "grandPrixName": "Swiss Grand Prix",
+        "circuitId": "bremgarten",
+        "eventDate": "1952-05-18"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-3:87cc29f3ec4a",
+        "eventIndex": 66,
+        "season": 1958,
+        "round": 3,
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort",
+        "eventDate": "1958-05-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:behra:ad2c71791765",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "podium",
+        "eventIds": [
+          "event:1952-1:1f5bbc70f213",
+          "event:1958-3:87cc29f3ec4a"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          15,
+          1
+        ],
+        [
+          42,
+          1
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          49,
+          1
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          66,
           1
         ]
       ],
@@ -18412,8 +18420,8 @@
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Andrea Kimi Antonelli",
-      "value": 399,
+      "entityName": "Kimi Antonelli",
+      "value": 406,
       "firstEvent": {
         "eventId": "event:2025-10:35058df0f227",
         "eventIndex": 1134,
@@ -18424,13 +18432,13 @@
         "eventDate": "2025-06-15"
       },
       "lastEvent": {
-        "eventId": "event:2026-10:962ab94f681f",
-        "eventIndex": 1158,
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
         "season": 2026,
-        "round": 10,
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa",
-        "eventDate": "2026-07-19"
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
       },
       "detail": {
         "type": "interval",
@@ -18439,7 +18447,7 @@
         "factType": "podium",
         "eventIds": [
           "event:2025-10:35058df0f227",
-          "event:2026-10:962ab94f681f"
+          "event:2026-11:e63cf3e76869"
         ],
         "groupId": null,
         "season": null,
@@ -18489,9 +18497,13 @@
         [
           1158,
           1
+        ],
+        [
+          1159,
+          1
         ]
       ],
-      "rank": 127
+      "rank": 126
     },
     {
       "entityId": "driver:marimon:465ea0c5afa2",

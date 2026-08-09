@@ -21,13 +21,13 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
-  "rowCount": 17,
+  "rowCount": 15,
   "rows": [
     {
       "entityId": "constructor:mclaren:f3759103103f",
@@ -287,6 +287,73 @@
       "rank": 3
     },
     {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 5398,
+      "firstEvent": {
+        "eventId": "event:1963-10:cc756406bc73",
+        "eventIndex": 120,
+        "season": 1963,
+        "round": 10,
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "george",
+        "eventDate": "1963-12-28"
+      },
+      "lastEvent": {
+        "eventId": "event:1978-16:46e0f9f91fd9",
+        "eventIndex": 312,
+        "season": 1978,
+        "round": 16,
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve",
+        "eventDate": "1978-10-08"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "constructor:team-lotus:85b2937902bf",
+        "sourcePath": "details/constructors/6.json",
+        "factType": "championship",
+        "eventIds": [
+          "event:1963-10:cc756406bc73",
+          "event:1978-16:46e0f9f91fd9"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          120,
+          1
+        ],
+        [
+          140,
+          1
+        ],
+        [
+          172,
+          1
+        ],
+        [
+          196,
+          1
+        ],
+        [
+          219,
+          1
+        ],
+        [
+          234,
+          1
+        ],
+        [
+          312,
+          1
+        ]
+      ],
+      "rank": 4
+    },
+    {
       "entityId": "constructor:red-bull:8307f488a798",
       "entityName": "Red Bull",
       "value": 4760,
@@ -344,61 +411,6 @@
         ],
         [
           1100,
-          1
-        ]
-      ],
-      "rank": 4
-    },
-    {
-      "entityId": "constructor:team-lotus:85b2937902bf",
-      "entityName": "Team Lotus",
-      "value": 2905,
-      "firstEvent": {
-        "eventId": "event:1970-13:12bd124a2612",
-        "eventIndex": 196,
-        "season": 1970,
-        "round": 13,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1970-10-25"
-      },
-      "lastEvent": {
-        "eventId": "event:1978-16:46e0f9f91fd9",
-        "eventIndex": 312,
-        "season": 1978,
-        "round": 16,
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "villeneuve",
-        "eventDate": "1978-10-08"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:team-lotus:85b2937902bf",
-        "sourcePath": "details/constructors/6.json",
-        "factType": "championship",
-        "eventIds": [
-          "event:1970-13:12bd124a2612",
-          "event:1978-16:46e0f9f91fd9"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          196,
-          1
-        ],
-        [
-          219,
-          1
-        ],
-        [
-          234,
-          1
-        ],
-        [
-          312,
           1
         ]
       ],
@@ -476,53 +488,6 @@
       "rank": 6
     },
     {
-      "entityId": "constructor:lotus-climax:6989a1181b17",
-      "entityName": "Lotus-Climax",
-      "value": 666,
-      "firstEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george",
-        "eventDate": "1963-12-28"
-      },
-      "lastEvent": {
-        "eventId": "event:1965-10:c506f1e74aa9",
-        "eventIndex": 140,
-        "season": 1965,
-        "round": 10,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1965-10-24"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:lotus-climax:6989a1181b17",
-        "sourcePath": "details/constructors/c.json",
-        "factType": "championship",
-        "eventIds": [
-          "event:1963-10:cc756406bc73",
-          "event:1965-10:c506f1e74aa9"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          120,
-          1
-        ],
-        [
-          140,
-          1
-        ]
-      ],
-      "rank": 7
-    },
-    {
       "entityId": "constructor:renault:59785f4b9a1f",
       "entityName": "Renault",
       "value": 371,
@@ -567,11 +532,11 @@
           1
         ]
       ],
-      "rank": 8
+      "rank": 7
     },
     {
-      "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-      "entityName": "Brabham-Repco",
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
       "value": 364,
       "firstEvent": {
         "eventId": "event:1966-9:bbea6a08e5a9",
@@ -593,8 +558,8 @@
       },
       "detail": {
         "type": "interval",
-        "entityId": "constructor:brabham-repco:d0f8fb362bfd",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:brabham:0f52aed0736c",
+        "sourcePath": "details/constructors/f.json",
         "factType": "championship",
         "eventIds": [
           "event:1966-9:bbea6a08e5a9",
@@ -614,11 +579,11 @@
           1
         ]
       ],
-      "rank": 9
+      "rank": 8
     },
     {
-      "entityId": "constructor:cooper-climax:0088f1fdaee8",
-      "entityName": "Cooper-Climax",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "value": 344,
       "firstEvent": {
         "eventId": "event:1959-9:4f137a6feb6a",
@@ -640,8 +605,8 @@
       },
       "detail": {
         "type": "interval",
-        "entityId": "constructor:cooper-climax:0088f1fdaee8",
-        "sourcePath": "details/constructors/7.json",
+        "entityId": "constructor:cooper:9771c8f26d98",
+        "sourcePath": "details/constructors/1.json",
         "factType": "championship",
         "eventIds": [
           "event:1959-9:4f137a6feb6a",
@@ -661,7 +626,7 @@
           1
         ]
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "entityId": "constructor:brm:88ba4655b32a",
@@ -704,7 +669,7 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -747,7 +712,7 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -790,54 +755,11 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     },
     {
-      "entityId": "constructor:lotus-ford:5f3f89c719e0",
-      "entityName": "Lotus-Ford",
-      "value": 0,
-      "firstEvent": {
-        "eventId": "event:1968-12:283a97daa9ed",
-        "eventIndex": 172,
-        "season": 1968,
-        "round": 12,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1968-11-03"
-      },
-      "lastEvent": {
-        "eventId": "event:1968-12:283a97daa9ed",
-        "eventIndex": 172,
-        "season": 1968,
-        "round": 12,
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez",
-        "eventDate": "1968-11-03"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "constructor:lotus-ford:5f3f89c719e0",
-        "sourcePath": "details/constructors/8.json",
-        "factType": "championship",
-        "eventIds": [
-          "event:1968-12:283a97daa9ed",
-          "event:1968-12:283a97daa9ed"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          172,
-          1
-        ]
-      ],
-      "rank": 11
-    },
-    {
-      "entityId": "constructor:matra-ford:6a9a55beeadd",
-      "entityName": "Matra-Ford",
+      "entityId": "constructor:matra:b2bca39208a5",
+      "entityName": "Matra",
       "value": 0,
       "firstEvent": {
         "eventId": "event:1969-11:945273ed1e73",
@@ -859,8 +781,8 @@
       },
       "detail": {
         "type": "interval",
-        "entityId": "constructor:matra-ford:6a9a55beeadd",
-        "sourcePath": "details/constructors/1.json",
+        "entityId": "constructor:matra:b2bca39208a5",
+        "sourcePath": "details/constructors/2.json",
         "factType": "championship",
         "eventIds": [
           "event:1969-11:945273ed1e73",
@@ -876,7 +798,7 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -919,7 +841,7 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
@@ -962,9 +884,9 @@
           1
         ]
       ],
-      "rank": 11
+      "rank": 10
     }
   ],
-  "loadedRowCount": 17,
+  "loadedRowCount": 15,
   "pagination": null
 }

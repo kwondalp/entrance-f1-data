@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-07-19",
+    "asOfRaceDate": "2026-07-26",
     "seasonCount": 77,
-    "raceCount": 1159,
-    "classificationRowCount": 26121,
-    "resultsArchiveManifestSha256": "e9df6e22c48f266c1e658833a046efe9a09e97d33665d3b5e0a662c6e1757788"
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b"
   },
   "rowCount": 116,
   "rows": [
@@ -3473,7 +3473,7 @@
     },
     {
       "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Fangio",
+      "entityName": "Juan Manuel Fangio",
       "value": 2632,
       "firstEvent": {
         "eventId": "event:1950-2:609d25155bf6",
@@ -6535,6 +6535,93 @@
       "rank": 62
     },
     {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 812,
+      "firstEvent": {
+        "eventId": "event:2024-6:75e4ba65b74a",
+        "eventIndex": 1106,
+        "season": 2024,
+        "round": 6,
+        "grandPrixName": "Miami Grand Prix",
+        "circuitId": "miami",
+        "eventDate": "2024-05-05"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2026-07-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "win",
+        "eventIds": [
+          "event:2024-6:75e4ba65b74a",
+          "event:2026-11:e63cf3e76869"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1106,
+          1
+        ],
+        [
+          1115,
+          1
+        ],
+        [
+          1118,
+          1
+        ],
+        [
+          1124,
+          1
+        ],
+        [
+          1125,
+          1
+        ],
+        [
+          1132,
+          1
+        ],
+        [
+          1135,
+          1
+        ],
+        [
+          1136,
+          1
+        ],
+        [
+          1138,
+          1
+        ],
+        [
+          1144,
+          1
+        ],
+        [
+          1145,
+          1
+        ],
+        [
+          1159,
+          1
+        ]
+      ],
+      "rank": 63
+    },
+    {
       "entityId": "driver:ralf-schumacher:c4bff3218fa9",
       "entityName": "Ralf Schumacher",
       "value": 812,
@@ -6678,7 +6765,7 @@
           1
         ]
       ],
-      "rank": 64
+      "rank": 65
     },
     {
       "entityId": "driver:pironi:e419fd33c039",
@@ -6729,7 +6816,7 @@
           1
         ]
       ],
-      "rank": 65
+      "rank": 66
     },
     {
       "entityId": "driver:collins:98c51dae7baf",
@@ -6780,7 +6867,7 @@
           1
         ]
       ],
-      "rank": 66
+      "rank": 67
     },
     {
       "entityId": "driver:ascari:ad5589a1c97f",
@@ -6871,7 +6958,7 @@
           1
         ]
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "entityId": "driver:brooks:4c43a3935c07",
@@ -6931,89 +7018,6 @@
         ],
         [
           80,
-          1
-        ]
-      ],
-      "rank": 68
-    },
-    {
-      "entityId": "driver:norris:5581145e4767",
-      "entityName": "Lando Norris",
-      "value": 553,
-      "firstEvent": {
-        "eventId": "event:2024-6:75e4ba65b74a",
-        "eventIndex": 1106,
-        "season": 2024,
-        "round": 6,
-        "grandPrixName": "Miami Grand Prix",
-        "circuitId": "miami",
-        "eventDate": "2024-05-05"
-      },
-      "lastEvent": {
-        "eventId": "event:2025-21:7c4f80900903",
-        "eventIndex": 1145,
-        "season": 2025,
-        "round": 21,
-        "grandPrixName": "São Paulo Grand Prix",
-        "circuitId": "interlagos",
-        "eventDate": "2025-11-09"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:norris:5581145e4767",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "win",
-        "eventIds": [
-          "event:2024-6:75e4ba65b74a",
-          "event:2025-21:7c4f80900903"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1106,
-          1
-        ],
-        [
-          1115,
-          1
-        ],
-        [
-          1118,
-          1
-        ],
-        [
-          1124,
-          1
-        ],
-        [
-          1125,
-          1
-        ],
-        [
-          1132,
-          1
-        ],
-        [
-          1135,
-          1
-        ],
-        [
-          1136,
-          1
-        ],
-        [
-          1138,
-          1
-        ],
-        [
-          1144,
-          1
-        ],
-        [
-          1145,
           1
         ]
       ],
@@ -7587,7 +7591,7 @@
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Andrea Kimi Antonelli",
+      "entityName": "Kimi Antonelli",
       "value": 126,
       "firstEvent": {
         "eventId": "event:2026-2:f019d4004b94",

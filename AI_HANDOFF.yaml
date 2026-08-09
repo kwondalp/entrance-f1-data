@@ -3,13 +3,13 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 6
+handoffVersion: 7
 currentState:
-  status: stats-lab-production-package-validated
-  summary: "The stable Results Archive v1 manifest and 2026 season bytes remain unchanged. Stats Lab v1 is now the single authoritative production channel: 229 public files cover 77 seasons, 1,159 races, 26,121 classifications, 301 registered statistics, 157 evidence-complete public metrics, 144 external-evidence-blocked metrics, and zero evidence-complete actionable metrics remaining. All 157 metric summaries and 71,030 rows reconcile to detail, every manifest identity validates, and Stats Lab Beta is reduced to one retired compatibility manifest pointing at production."
+  status: stats-lab-accuracy-release-validated
+  summary: "Stable Results Archive v1 remains byte-identical. Append-only Results Archive v2 covers 77 seasons, 1,160 races and 26,143 classifications through Hungary Round 11. Stats Lab v1 retains 301 registered products: 157 independently reconciled public metrics and 144 explicitly reassessed blocked products, with 112 partial-evidence, 32 official-evidence-not-found and zero evidence-complete actionable products remaining. Relative to the prior package, 155 public metrics are corrected and 2 are unchanged."
 currentFocus:
   - id: focus-publish-boundary
-    summary: Preserve the boundary between the verified Belgian-cutoff public baseline, this checksum-portability maintenance, and any later merge, publication, or deployment authority.
+    summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
   - id: focus-safe-updates
     summary: Require source verification, approved diffs, and validation before any production JSON update or promotion.
   - id: focus-historical-records-boundary
@@ -18,7 +18,10 @@ currentFocus:
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
   - id: stats-lab-production-v1
-    summary: The authoritative Stats Lab production channel publishes a formal catalogue, event and entity indexes, 157 lazy metric contracts, paginated metric shards where required, generic driver and constructor detail shards, exact range capability, complete provenance and methodology, and an explicit retired Beta compatibility pointer while preserving stable Results Archive v1 byte identities.
+    summary: The authoritative Stats Lab production channel publishes 157 independently official-reconciled metrics with chassis-identity constructor grouping, original source identities in detail evidence, corrected status semantics, exact lazy-delivery contracts, and an exhaustive 144-product evidence blocker ledger while preserving Stable Results Archive v1 byte identities.
+  - id: results-archive-v2
+    summary: Append-only Results Archive v2 publishes 77 seasons, 1,160 verified Grand Prix classifications and 26,143 rows through Hungary Round 11; current points, pole, grid and fastest-lap evidence bind Formula1.com and FIA sources, while non-champion historical standings remain provisional pending chassis-versus-entrant identity reconciliation.
+    schemaContract: schemas/results-archive-manifest.v2.schema.json and schemas/results-archive-season.v2.schema.json
   - id: current-season-contracts
     summary: Stable static JSON contracts provide the schedule, drivers, constructors, championship standings, driver statistics, race results, current grid, and metric definitions.
     files:
@@ -36,15 +39,15 @@ implemented:
     summary: Direct endpoint verification on 2026-08-02 found 2026 race results through round 10, belgium, with updatedAt 2026-07-26T10:54:55Z; all 17 protected public contract files matched the committed Git baseline byte-for-byte.
     baseUrl: https://kwondalp.github.io/entrance-f1-data/data/
   - id: current-season-candidate
-    summary: The public current-season JSON contains 10 race-result entries through round 10, belgium, with standings, driver statistics, and race results updatedAt 2026-07-26T10:54:55Z; Hungary and the Netherlands remain outside the completed-race cutoff.
-    publicationState: verified public Belgian-cutoff baseline; no later publication or deployment authority inferred
+    summary: The repository candidate contains 11 race-result entries through round 11, hungary, with Formula1.com/FIA reconciled standings, driver statistics, constructor totals and race facts generated at one coherent audit boundary.
+    publicationState: validated Hungary candidate; live endpoint verification pending
   - id: stats-lab-v1-candidate
-    summary: A six-file Stats Lab v1 derived package covers 77 seasons and contains the separately authorised official-pole publication with productionApplicationApproved true, approvalRequiredBeforePublish true, and publishApproved true; checksum and size metadata now bind to committed UTF-8 LF bytes while mainMergeApproved and deploymentApproved remain false.
+    summary: The manifest-bound Stats Lab v1 package covers 77 seasons through Hungary, exposes 157 public metrics and 144 blocked catalogue entries, and passed independent official reconstruction with 2 PASS, 155 CORRECTED and 0 BLOCKED outcomes.
     path: f1/stats-lab/v1/
     schemaVersion: stats-lab.v1
-    asOfRaceDate: "2026-06-14"
-    officialPoleAsOfRaceDate: "2026-07-19"
-    officialPoleTotals: "1159 driver attributions; 1159 constructor attributions; 107 driver holders; 50 constructor holders; canonical historical Mercedes 154"
+    asOfRaceDate: "2026-07-26"
+    officialPoleAsOfRaceDate: "2026-07-26"
+    officialPoleTotals: "1160 driver attributions and 1160 constructor attributions; current 2026 distribution is Kimi Antonelli 6, George Russell 4 and Lando Norris 1"
     sourceSnapshotPath: output/canonical/full-history-canonical-verified-provisional.json
     provenance: stable producer, source-tree, canonical, application-audit, semantic-delta, and approval-record digests are recorded without machine-local paths or execution timestamps
   - id: published-historical-records-v1-schema
@@ -65,9 +68,9 @@ implemented:
     publicationState: audited unstaged Beta candidate; not committed, pushed, deployed, or promoted to stable
 pending:
   - id: pending-main-integration-decision
-    summary: Any new merge or deployment action requires separate authority; publishApproved true and existing repository presence do not grant that authority.
+    summary: The active Stats Lab Accuracy Goal supplies the current publication authority; complete its normal Tools, Data and Web publication sequence and production QA without inferring authority for unrelated work.
   - id: pending-endpoint-verification
-    summary: After any later separately authorised publication or deployment, re-read the public current-season and Stats Lab endpoints before claiming coverage beyond the verified Belgian cutoff or repaired manifest metadata.
+    summary: After this candidate is pushed, re-read current-season, Results Archive v2 and Stats Lab endpoints before claiming Hungary coverage is live.
   - id: pending-historical-records-phase-9b
     summary: Phase 9B may add a read-only producer-to-publisher conformance review, but it must not create a dataset while the producer reports zero production-eligible Historical Records.
   - id: pending-beta-review-and-git-action
@@ -82,8 +85,8 @@ knownIssues:
     summary: The verified public derived artifacts already use committed UTF-8 LF bytes, while publication of the locally repaired manifest metadata remains a separate unapproved action.
   - id: issue-current-provenance
     summary: Current-season JSON files expose updatedAt but do not embed source URLs or audit identifiers, so source and approval evidence must be verified in the approved update workflow.
-  - id: issue-stats-lab-age
-    summary: Stats Lab keeps the general package asOfRaceDate 2026-06-14 while official-pole fields use the explicit officialPoleAsOfRaceDate 2026-07-19; consumers must use the field-specific cutoff.
+  - id: issue-historical-standings-identity
+    summary: Official Formula1.com final tables are retained, but only champion identities are promoted; non-champion historical standings remain provisional because chassis-versus-entrant conflicts such as Lola/Larrousse, Venturi/Larrousse and MF1/Spyker require a season-aware identity ledger.
   - id: issue-no-native-validator
     summary: This repository has no validation scripts or runtime validation dependencies; validation uses the approved Historical Records schema, JSON parsing, explicit integrity checks, manifest checksums, Git diffs, and an existing reviewed validation environment.
 decisions:
@@ -113,7 +116,11 @@ interfaces:
   - id: interface-stats-lab-v1
     summary: f1/stats-lab/v1/manifest.json defines the production-ready package file list, checksums, schema version, stable provenance digests, unsupported metrics, and separate publication state.
     consumer: entrance-web
-    publicationState: Belgian-cutoff endpoint verified 2026-08-02; approval metadata preserved; repaired manifest publication unapproved
+    publicationState: Hungary candidate validated; endpoint verification pending normal publication
+  - id: interface-results-archive-v2
+    summary: f1/results-archive/current/manifest.json resolves consumers to the append-only v2 archive without changing Stable v1.
+    consumer: entrance-web
+    publicationState: Hungary candidate validated; endpoint verification pending normal publication
   - id: interface-historical-records-v1
     summary: "`published-historical-records.v1` is the future stable static contract for entrance-web and ipgutest; Phase 9A defines only its schema and publishes no dataset."
     consumers:
@@ -129,9 +136,9 @@ dependencies:
     summary: entrance-project-control reads this repository and its handoffs but is synchronised only after a real product commit.
 nextActions:
   - id: next-main-integration-decision
-    summary: Obtain separate authority before any main-branch merge or deployment; do not infer it from publishApproved true.
+    summary: Complete the already-authorised Stats Lab Accuracy publication sequence and stop only for a new valid safety condition.
   - id: next-verify-public-endpoints
-    summary: After any separately authorised publication or deployment, verify both public endpoints directly before reporting repaired manifest metadata or coverage beyond Belgium.
+    summary: After publication, verify current-season, Results Archive v2, Stats Lab manifest/catalogue and representative metric/detail endpoints before reporting live Hungary coverage.
   - id: next-historical-records-conformance
     summary: Prepare Phase 9B as a no-publication producer-to-publisher conformance review; do not create a Historical Records JSON file until at least one eligible record and explicit publication approval exist.
   - id: next-sync-control-after-commit
@@ -176,8 +183,8 @@ validation:
       summary: Validate project handoffs by generating project-control status without writing it.
       command: python -X utf8 ../entrance-project-control/scripts/sync_status.py --print
     - id: validate-official-pole-publication
-      summary: Validate the approved Round-7 baseline, exact Round 8-10 overlays, Belgian current-season cutoff, final totals, holder counts, recency, duplicate IDs, public metadata, approval state, and manifest checksums.
-      command: python ../entrance-f1-data-tools/scripts/apply_official_pole_publication_integration.py --data-repo .
+      summary: Independently reconcile every public Stats Lab metric and its detail evidence to Results Archive v2 official facts.
+      command: python ../entrance-f1-data-tools/scripts/audit_stats_lab_official_accuracy.py ../entrance-f1-data-tools/output/stats-lab-accuracy/stats-v1 --archive-root f1/results-archive/v2 --baseline-stats-root f1/stats-lab/v1
     - id: validate-handoff-diff
       summary: Check the intended handoff diff for whitespace errors.
       command: git diff --check -- AGENTS.md AI_HANDOFF.yaml HUMAN_HANDOFF.md
@@ -195,22 +202,22 @@ validation:
       command: Run the in-memory historical-records-api-contract.v1 to published-historical-records.v1 conformance matrix.
   results:
     - id: result-json-parse
-      summary: All 18 tracked repository JSON files parsed successfully.
+      summary: All 410 repository JSON files parsed successfully after the Hungary, manifest-listed Results Archive v2/current pointer and Stats Lab candidate application.
       status: passed
     - id: result-current-integrity
-      summary: Stable IDs, references, round order, race UTC sessions, standings order, driver-stat alignment, and current-grid mappings through the 10-round Belgian cutoff produced zero validation errors.
+      summary: Stable IDs, round order, official Hungary classification, FIA standings, driver-stat deltas and constructor totals through Round 11 produced zero validation errors.
       status: passed
     - id: result-manifest-integrity
-      summary: After the portability repair, all six production-ready Stats Lab derived Git blobs match manifest LF byte sizes and SHA-256 checksums; publishApproved is true while mainMergeApproved and deploymentApproved remain false.
+      summary: All 229 Stats Lab manifest entries and all 78 Results Archive v2 season/source entries match canonical LF byte sizes and SHA-256 checksums; Stable Results Archive v1 retains both frozen hashes.
       status: passed
     - id: result-handoff-schema
       summary: AI_HANDOFF.yaml passed the project-control Draft 2020-12 schema and read-only status generation recognised it as valid.
       status: passed
     - id: result-official-pole-publication
-      summary: The validator reconciled the 1,156 Round-7 baseline plus three verified overlays to 1,159 driver and constructor totals, 107 driver and 50 constructor holders, canonical historical Mercedes 154, 10 race results, and zero duplicate IDs.
+      summary: The independent audit reconciled all 157 public metrics with 2 PASS, 155 CORRECTED and 0 BLOCKED outcomes against the pre-release baseline; official pole attribution now covers all 1,160 Grands Prix through Hungary.
       status: passed
     - id: result-file-policy
-      summary: The integration changed only the five approved Belgian current-season files, four official-pole derived datasets, the Stats Lab manifest, and repository documentation and handoffs; circuit and season derived facts remained unchanged.
+      summary: The integration changed generated current-season data, append-only Results Archive v2/current, Stats Lab v1, v2 schemas, LF policy, and required documentation/handoffs; Stable Results Archive v1 and legacy Beta paths were not changed.
       status: passed
     - id: result-diff-check
       summary: The intended handoff files passed Git whitespace validation.

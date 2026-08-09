@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://data.entrancesports.com/schemas/results-archive-manifest.v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "releaseChannel",
+    "dataStatus",
+    "generatedFrom",
+    "archiveAsOfDate",
+    "coverage",
+    "latestIncludedCutoff",
+    "stableV1Preservation",
+    "officialSourceIndex",
+    "seasons"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "results-archive-manifest.v2"
+    },
+    "apiVersion": {
+      "const": "2.0.0"
+    },
+    "releaseChannel": {
+      "const": "production"
+    },
+    "dataStatus": {
+      "const": "verified"
+    },
+    "generatedFrom": {
+      "type": "object"
+    },
+    "archiveAsOfDate": {
+      "const": "2026-07-26"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "latestIncludedCutoff": {
+      "type": "object"
+    },
+    "stableV1Preservation": {
+      "type": "object"
+    },
+    "officialSourceIndex": {
+      "type": "object"
+    },
+    "seasons": {
+      "type": "array",
+      "minItems": 77,
+      "maxItems": 77,
+      "items": {
+        "type": "object",
+        "required": [
+          "season",
+          "path",
+          "dataStatus",
+          "raceCount",
+          "classificationRowCount",
+          "byteSize",
+          "sha256"
+        ],
+        "properties": {
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

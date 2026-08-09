@@ -1,0 +1,714 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://data.entrancesports.com/schemas/results-archive-season.v2.schema.json",
+  "title": "ENTRANCE Results Archive production season v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "releaseChannel",
+    "season",
+    "dataStatus",
+    "archiveAsOfDate",
+    "sourceCoverage",
+    "coverage",
+    "unsupportedFields",
+    "championship",
+    "standings",
+    "races"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "results-archive-season.v2"
+    },
+    "apiVersion": {
+      "const": "2.0.0"
+    },
+    "releaseChannel": {
+      "const": "production"
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 1950,
+      "maximum": 2026
+    },
+    "dataStatus": {
+      "const": "verified"
+    },
+    "archiveAsOfDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "sourceCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "checkpointType",
+        "sourceChecksumSha256",
+        "statusExplanation"
+      ],
+      "properties": {
+        "checkpointType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceChecksumSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "statusExplanation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raceCount",
+        "classificationRowCount",
+        "verifiedRaceCount",
+        "provisionalRaceCount"
+      ],
+      "properties": {
+        "raceCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "classificationRowCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "verifiedRaceCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "provisionalRaceCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "unsupportedFields": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fieldReason"
+      }
+    },
+    "championship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataStatus",
+        "drivers",
+        "constructors"
+      ],
+      "properties": {
+        "dataStatus": {
+          "enum": [
+            "verified",
+            "unsupported"
+          ]
+        },
+        "drivers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/identity"
+          }
+        },
+        "constructors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/identity"
+          }
+        },
+        "officialEvidence": {
+          "type": "object"
+        }
+      }
+    },
+    "standings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drivers",
+        "constructors"
+      ],
+      "properties": {
+        "drivers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/standing"
+          }
+        },
+        "constructors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/standing"
+          }
+        }
+      }
+    },
+    "races": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/race"
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "aliases"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "fieldReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field",
+        "reasonCode",
+        "reason"
+      ],
+      "properties": {
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reasonCode": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "standing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "entity",
+        "points",
+        "wins",
+        "dataStatus"
+      ],
+      "properties": {
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "entity": {
+          "$ref": "#/$defs/identity"
+        },
+        "points": {
+          "type": "number"
+        },
+        "wins": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dataStatus": {
+          "enum": [
+            "verified",
+            "provisional"
+          ]
+        }
+      }
+    },
+    "position": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "string",
+          "minLength": 1
+        }
+      ]
+    },
+    "officialPosition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "availability",
+        "displayToken",
+        "numericPosition",
+        "tokenKind"
+      ],
+      "properties": {
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "displayToken": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "numericPosition": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "tokenKind": {
+          "enum": [
+            "numeric",
+            "retired",
+            "not_classified",
+            "did_not_finish",
+            "did_not_start",
+            "did_not_qualify",
+            "disqualified",
+            "withdrew",
+            "other"
+          ]
+        }
+      }
+    },
+    "officialTimeOrStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "availability",
+        "displayText",
+        "kind"
+      ],
+      "properties": {
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "displayText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "winning_time",
+            "time_gap",
+            "lap_deficit",
+            "display_status",
+            "shared_car_token",
+            "other"
+          ]
+        }
+      }
+    },
+    "officialDisplayLaps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "availability",
+        "value"
+      ],
+      "properties": {
+        "availability": {
+          "enum": [
+            "present",
+            "not_displayed",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "retirementReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "availability",
+        "text"
+      ],
+      "properties": {
+        "availability": {
+          "enum": [
+            "present",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rowId",
+        "classificationOrder",
+        "position",
+        "driver",
+        "constructor",
+        "entrant",
+        "carNumber",
+        "gridPosition",
+        "officialPole",
+        "fastestLap",
+        "entered",
+        "started",
+        "finished",
+        "classified",
+        "laps",
+        "timeOrRetired",
+        "points",
+        "sharedDrive",
+        "sharedDriveGroupId",
+        "deadHeat",
+        "deadHeatGroupId",
+        "creditedWin",
+        "creditedPodium",
+        "dataStatus"
+      ],
+      "properties": {
+        "rowId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classificationOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "officialPosition": {
+          "$ref": "#/$defs/officialPosition"
+        },
+        "officialTimeOrStatus": {
+          "$ref": "#/$defs/officialTimeOrStatus"
+        },
+        "officialDisplayLaps": {
+          "$ref": "#/$defs/officialDisplayLaps"
+        },
+        "officialDriverDisplayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "officialTeamDisplayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classificationState": {
+          "enum": [
+            "classified",
+            "not_classified",
+            "disqualified",
+            "did_not_start",
+            "did_not_qualify",
+            "withdrew",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "raceCompletionState": {
+          "enum": [
+            "finished",
+            "retired",
+            "did_not_start",
+            "did_not_qualify",
+            "disqualified",
+            "withdrew",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "retirementReason": {
+          "$ref": "#/$defs/retirementReason"
+        },
+        "sharedCarLaps": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sharedDriveRole": {
+          "enum": [
+            "shared_car_result_row",
+            "shared_participant_row",
+            "not_shared",
+            "unknown"
+          ]
+        },
+        "driver": {
+          "$ref": "#/$defs/identity"
+        },
+        "constructor": {
+          "$ref": "#/$defs/identity"
+        },
+        "entrant": {
+          "type": "null"
+        },
+        "carNumber": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gridPosition": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "officialPole": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "fastestLap": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "entered": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "started": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "finished": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "classified": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "laps": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "timeOrRetired": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "points": {
+          "type": "number"
+        },
+        "sharedDrive": {
+          "type": "boolean"
+        },
+        "sharedDriveGroupId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deadHeat": {
+          "type": "boolean"
+        },
+        "deadHeatGroupId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "creditedWin": {
+          "type": "boolean"
+        },
+        "creditedPodium": {
+          "type": "boolean"
+        },
+        "dataStatus": {
+          "enum": [
+            "verified",
+            "provisional"
+          ]
+        },
+        "gridPenalty": {
+          "type": "object"
+        },
+        "fieldAvailability": {
+          "type": "object"
+        }
+      }
+    },
+    "winner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drivers",
+        "constructors",
+        "laps",
+        "time",
+        "sharedDrive",
+        "deadHeat"
+      ],
+      "properties": {
+        "drivers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/identity"
+          }
+        },
+        "constructors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/identity"
+          }
+        },
+        "laps": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sharedDrive": {
+          "type": "boolean"
+        },
+        "deadHeat": {
+          "type": "boolean"
+        }
+      }
+    },
+    "race": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "round",
+        "grandPrixName",
+        "date",
+        "circuitId",
+        "dataStatus",
+        "winner",
+        "classification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "round": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "grandPrixName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "circuitId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dataStatus": {
+          "enum": [
+            "verified",
+            "provisional"
+          ]
+        },
+        "winner": {
+          "$ref": "#/$defs/winner"
+        },
+        "classification": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/classification"
+          }
+        },
+        "officialEvidence": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}
