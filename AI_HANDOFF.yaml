@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 8
+handoffVersion: 9
 currentState:
-  status: stats-core-v1-unstaged-proposal
-  summary: "The additive f1/stats-core/v1 proposal publishes one exact-ID Stats Core contract for 823 Drivers and 171 Constructors through Hungary Round 11. It preserves numeric zeroes and carries entity-level null reasons for incomplete starts and fastest-lap evidence. Its schema, coverage report and checksum manifest are generator-produced and independently auditable. Existing Results Archive and Stats Lab files remain unchanged; no commit, push or publication has occurred."
+  status: 2026-malaysia-calendar-unstaged-proposal
+  summary: "The focused schedule proposal adds the officially relocated Bahrain Grand Prix in Malaysia at Sepang as 2026 Round 16 with a standard five-session weekend, preserving the stable `bahrain` race key and renumbering Singapore through Abu Dhabi as Rounds 17-23. The Tools generator preserves the completed Round 1-11 prefix, all existing race keys, current-season JSON shape, and the schedule file's existing no-final-LF convention. Results, standings, Stats Core v1, Stats Lab, and archive files are unchanged; no commit, push, publication, or deployment has occurred."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: malaysia-calendar-round-16-proposal
+    summary: The generated 2026 schedule candidate publishes 23 consecutive rounds, adds Bahrain Grand Prix in Malaysia at Sepang as Round 16 with verified UTC session starts, retains every existing stable race key, and shifts the seven later rounds forward by one without changing results, standings, or statistics.
   - id: stats-core-v1-proposal
     summary: The additive shared Stats Core v1 candidate contains exact-ID seasons, entries, starts, wins, podiums, poles, fastest laps, points, championships, first and last appearances, status, provenance, per-field unresolved reasons, a coverage report, a versioned schema and a checksum manifest without modifying existing public URLs.
   - id: stats-lab-production-v1

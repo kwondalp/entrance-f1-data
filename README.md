@@ -16,6 +16,11 @@ It contains no API server, application runtime, or automatic publishing step. Cl
 - [data/f1/current-grid.json](data/f1/current-grid.json) — current-grid mapping for data consumers
 - [data/f1/stat-metrics.json](data/f1/stat-metrics.json) — current Stats Lab metric definitions
 
+The 2026 schedule contains 23 consecutive rounds. Round 16 is the Bahrain Grand Prix in
+Malaysia at Sepang International Circuit on 2-4 October, retaining the stable `bahrain`
+race key while using Malaysia as the host country. Session timestamps remain UTC strings in
+the existing consumer contract.
+
 ## Stats Lab production-ready package
 
 `f1/stats-lab/v1/` is separate from the approved current-season files under `data/`. Its `manifest.json` defines the file list, sizes, SHA-256 checksums, schema version, provenance paths, unsupported metrics, and approval flags.

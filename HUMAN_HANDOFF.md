@@ -6,6 +6,21 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### 2026 Bahrain Grand Prix in Malaysia schedule proposal
+
+The generated unstaged schedule candidate follows the current Formula 1 and FIA calendars.
+It adds the Bahrain Grand Prix in Malaysia at Sepang International Circuit on 2-4 October
+2026 as Round 16, retaining the stable `bahrain` race key while recording Malaysia as the
+host country. The cancelled April Bahrain event remains absent. Singapore through Abu Dhabi
+move from Rounds 16-22 to Rounds 17-23, so the season grows from 22 to 23 rounds.
+
+The weekend is the official standard non-Sprint format: Practice 1, Practice 2, Practice 3,
+Qualifying, and Race. Session starts are stored in the existing UTC timestamp shape after
+timezone-aware conversion from Sepang local time (UTC+08:00). All completed Round 1-11
+schedule entries, race results, standings, Stats Core v1, Stats Lab, and archive files remain
+unchanged. This proposal is uncommitted, unstaged, and unpublished pending independent
+review.
+
 ### Stats Core v1 unstaged proposal
 
 The additive `f1/stats-core/v1/` candidate is a shared website/future-app contract generated
@@ -133,7 +148,7 @@ This repository validates the public boundary. It must not reinterpret producer-
 
 | Contract | Purpose | Verified repository state |
 | --- | --- | --- |
-| `data/schedule.json` | 2026 schedule and UTC session times | 22 rounds |
+| `data/schedule.json` | 2026 schedule and UTC session times | 23 rounds |
 | `data/drivers.json` | Stable current driver identities | 22 drivers |
 | `data/constructors.json` | Stable constructor identities | 11 constructors |
 | `data/driver-standings.json` | Driver championship order and points | 22 entries |
