@@ -26,6 +26,15 @@ Constructor statistics use a declared chassis-identity policy rather than engine
 
 The current-season contracts under `data/` are generated from the same official Hungary reconciliation: race winner Lando Norris, pole Lando Norris, fastest lap Charles Leclerc, and the FIA post-race championship standings. Publication and endpoint verification remain separate from repository-candidate validation and must be performed after the normal push sequence.
 
+## Shared Stats Core v1
+
+`f1/stats-core/v1/` is the additive, consumer-neutral career-statistics contract for the
+website and future app consumers. Its exact-ID records cover 823 Drivers and 171
+Constructors and retain raw numeric zeroes. Entity-level `starts` and `fastestLaps` are
+`null` with a structured reason when the verified Results Archive cannot prove a complete
+career total. The checksum manifest, coverage report, and Draft 2020-12 schema are published
+beside `stats.json`; no browser or app consumer should recalculate these totals.
+
 ## Historical Records publication contract
 
 `schemas/published-historical-records.v1.schema.json` defines the future static

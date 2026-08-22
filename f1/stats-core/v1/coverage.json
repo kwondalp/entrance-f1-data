@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "stats-core-coverage.v1",
+  "datasetSchemaVersion": "stats-core.v1",
+  "asOfRaceDate": "2026-07-26",
+  "entities": {
+    "drivers": {
+      "total": 823,
+      "metrics": [
+        {
+          "metric": "seasonCount",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive exact entity IDs and race classifications"
+        },
+        {
+          "metric": "entries",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive entered flags grouped by Grand Prix"
+        },
+        {
+          "metric": "starts",
+          "total": 823,
+          "populated": 818,
+          "null": 5,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 99.39,
+          "source": "Results Archive started flags grouped by Grand Prix"
+        },
+        {
+          "metric": "wins",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive creditedWin flags grouped by Grand Prix"
+        },
+        {
+          "metric": "podiums",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive creditedPodium flags grouped by Grand Prix"
+        },
+        {
+          "metric": "poles",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Approved official-pole fixture joined to Results Archive exact entity IDs"
+        },
+        {
+          "metric": "fastestLaps",
+          "total": 823,
+          "populated": 59,
+          "null": 764,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 7.17,
+          "source": "Results Archive fastestLap flags; null when an entity participated in an event without fastest-lap evidence"
+        },
+        {
+          "metric": "points",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Sum of canonical Results Archive points values"
+        },
+        {
+          "metric": "championships",
+          "total": 823,
+          "populated": 823,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Verified Results Archive season championship identities"
+        }
+      ]
+    },
+    "constructors": {
+      "total": 171,
+      "metrics": [
+        {
+          "metric": "seasonCount",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive exact entity IDs and race classifications"
+        },
+        {
+          "metric": "entries",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive entered flags grouped by Grand Prix"
+        },
+        {
+          "metric": "starts",
+          "total": 171,
+          "populated": 170,
+          "null": 1,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 99.42,
+          "source": "Results Archive started flags grouped by Grand Prix"
+        },
+        {
+          "metric": "wins",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive creditedWin flags grouped by Grand Prix"
+        },
+        {
+          "metric": "podiums",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Results Archive creditedPodium flags grouped by Grand Prix"
+        },
+        {
+          "metric": "poles",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Approved official-pole fixture joined to Results Archive exact entity IDs"
+        },
+        {
+          "metric": "fastestLaps",
+          "total": 171,
+          "populated": 15,
+          "null": 156,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 8.77,
+          "source": "Results Archive fastestLap flags; null when an entity participated in an event without fastest-lap evidence"
+        },
+        {
+          "metric": "points",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Sum of canonical Results Archive points values"
+        },
+        {
+          "metric": "championships",
+          "total": 171,
+          "populated": 171,
+          "null": 0,
+          "missing": 0,
+          "emptyString": 0,
+          "invalidType": 0,
+          "unsubstantiatedZero": 0,
+          "coveragePercent": 100.0,
+          "source": "Verified Results Archive season championship identities"
+        }
+      ]
+    }
+  }
+}

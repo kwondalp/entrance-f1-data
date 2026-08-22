@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "stats-core-manifest.v1",
+  "apiVersion": "1.0.0",
+  "releaseChannel": "production",
+  "dataStatus": "verified",
+  "asOfRaceDate": "2026-07-26",
+  "generatedFrom": {
+    "producerId": "entrance-f1-data-tools/stats-core-v1",
+    "producerVersion": "1.0.0",
+    "producerSourceChecksumSha256": "d8505d4af756ced5912515173995dc9dbb077f3f5274adea950dc7f539d417ed",
+    "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b",
+    "resultsArchiveInputSetChecksumSha256": "d38034d5b3fecf3f3d29bc084a42d4a4e6dbfcb871f5d3f8d614f859d7d2e7ca",
+    "officialPoleFixtureSha256": "7a1e3f545051eea658a881181458e609b0fdc618beb560c72bc86ac52bae4eaf",
+    "constructorIdentityPolicySha256": "60e6ee94ea5752cd0f3556904b2af6c258a523c912b0ea925a5065a492c479ed",
+    "driverIdentityPolicySha256": "878d33d0908506268fdc51c5f97b4296fa137a3950c2d42fd817ddd0bdcdf741",
+    "generatedAtUtc": "2026-08-09T06:21:22Z"
+  },
+  "coverage": {
+    "oldestSeason": 1950,
+    "latestSeason": 2026,
+    "seasonCount": 77,
+    "raceCount": 1160,
+    "classificationRowCount": 26143,
+    "driverCount": 823,
+    "constructorCount": 171
+  },
+  "paths": {
+    "data": "stats.json",
+    "coverage": "coverage.json",
+    "schema": "schema.json"
+  },
+  "files": [
+    {
+      "path": "stats.json",
+      "artifactType": "dataset",
+      "byteSize": 1139217,
+      "sha256": "70f2b6d109a4600c4ed10b2d58da0b5c90d8e5ebcfd94c99ab1160ced4217053"
+    },
+    {
+      "path": "coverage.json",
+      "artifactType": "coverage-report",
+      "byteSize": 6808,
+      "sha256": "fbe52c4f8097c6f3ae6ce38af418dd4b383b106a85dfb90c6c49f2eb1c32c8c1"
+    },
+    {
+      "path": "schema.json",
+      "artifactType": "json-schema",
+      "byteSize": 4660,
+      "sha256": "2e005c518cb25493545bf9923b8190622e9f4f19110ecc2805883b1b8032a517"
+    }
+  ]
+}

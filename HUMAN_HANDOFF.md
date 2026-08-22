@@ -6,6 +6,14 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Current published contract
 
+### Stats Core v1 unstaged proposal
+
+The additive `f1/stats-core/v1/` candidate is a shared website/future-app contract generated
+from Results Archive v2 with exact canonical IDs. It covers 823 Drivers and 171 Constructors,
+keeps proven zeroes numeric, and uses entity-scoped `null` reasons for incomplete starts or
+fastest-lap evidence. Existing Results Archive and Stats Lab paths are unchanged. The four-file
+candidate (`manifest`, `stats`, `coverage`, `schema`) is uncommitted and not yet published.
+
 ### Stats Lab accuracy release
 
 The current repository candidate advances the coordinated Stats Lab release to

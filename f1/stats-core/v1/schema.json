@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://data.entrancesports.com/f1/stats-core/v1/schema.json",
+  "title": "ENTRANCE shared Stats Core v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "releaseChannel",
+    "dataStatus",
+    "asOfRaceDate",
+    "coverage",
+    "drivers",
+    "constructors"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "stats-core.v1" },
+    "apiVersion": { "const": "1.0.0" },
+    "releaseChannel": { "const": "production" },
+    "dataStatus": { "const": "verified" },
+    "asOfRaceDate": { "type": "string", "format": "date" },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "oldestSeason",
+        "latestSeason",
+        "seasonCount",
+        "raceCount",
+        "classificationRowCount",
+        "driverCount",
+        "constructorCount"
+      ],
+      "properties": {
+        "oldestSeason": { "type": "integer", "minimum": 1950 },
+        "latestSeason": { "type": "integer", "minimum": 1950 },
+        "seasonCount": { "type": "integer", "minimum": 1 },
+        "raceCount": { "type": "integer", "minimum": 1 },
+        "classificationRowCount": { "type": "integer", "minimum": 1 },
+        "driverCount": { "type": "integer", "minimum": 1 },
+        "constructorCount": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "drivers": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/entity" }
+    },
+    "constructors": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/entity" }
+    }
+  },
+  "$defs": {
+    "appearance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eventId", "season", "round", "date", "grandPrixName"],
+      "properties": {
+        "eventId": { "type": "string", "minLength": 1 },
+        "season": { "type": "integer", "minimum": 1950 },
+        "round": { "type": "integer", "minimum": 1 },
+        "date": { "type": "string", "format": "date" },
+        "grandPrixName": { "type": "string", "minLength": 1 }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seasonCount",
+        "entries",
+        "starts",
+        "wins",
+        "podiums",
+        "poles",
+        "fastestLaps",
+        "points",
+        "championships"
+      ],
+      "properties": {
+        "seasonCount": { "type": "integer", "minimum": 1 },
+        "entries": { "type": "integer", "minimum": 0 },
+        "starts": { "type": ["integer", "null"], "minimum": 0 },
+        "wins": { "type": "integer", "minimum": 0 },
+        "podiums": { "type": "integer", "minimum": 0 },
+        "poles": { "type": "integer", "minimum": 0 },
+        "fastestLaps": { "type": ["integer", "null"], "minimum": 0 },
+        "points": { "type": "number", "minimum": 0 },
+        "championships": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "unresolvedReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reasonCode", "reason", "affectedEventCount"],
+      "properties": {
+        "reasonCode": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+        "reason": { "type": "string", "minLength": 1 },
+        "affectedEventCount": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entityId",
+        "name",
+        "aliases",
+        "status",
+        "seasons",
+        "firstAppearance",
+        "lastAppearance",
+        "metrics",
+        "unresolved"
+      ],
+      "properties": {
+        "entityId": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "status": { "enum": ["current", "historical"] },
+        "seasons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "integer", "minimum": 1950 }
+        },
+        "firstAppearance": { "$ref": "#/$defs/appearance" },
+        "lastAppearance": { "$ref": "#/$defs/appearance" },
+        "metrics": { "$ref": "#/$defs/metrics" },
+        "unresolved": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "starts": { "$ref": "#/$defs/unresolvedReason" },
+            "fastestLaps": { "$ref": "#/$defs/unresolvedReason" }
+          }
+        }
+      }
+    }
+  }
+}
