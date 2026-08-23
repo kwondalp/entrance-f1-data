@@ -22,13 +22,15 @@
     "counts": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["total", "available", "partial", "completeThroughCutoff", "blocked", "drivers", "constructors"],
+      "required": ["total", "available", "partial", "completeThroughCutoff", "blocked", "permissionRequired", "unavailable", "drivers", "constructors"],
       "properties": {
         "total": { "const": 144 },
         "available": { "type": "integer", "minimum": 1, "maximum": 144 },
         "partial": { "type": "integer", "minimum": 0, "maximum": 144 },
         "completeThroughCutoff": { "type": "integer", "minimum": 0, "maximum": 144 },
         "blocked": { "type": "integer", "minimum": 0, "maximum": 143 },
+        "permissionRequired": { "type": "integer", "minimum": 0, "maximum": 144 },
+        "unavailable": { "type": "integer", "minimum": 0, "maximum": 144 },
         "drivers": { "const": 76 },
         "constructors": { "const": 68 }
       }

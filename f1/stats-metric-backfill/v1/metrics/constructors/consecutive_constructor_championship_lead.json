@@ -1,0 +1,453 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "consecutive_constructor_championship_lead",
+  "metricId": "consecutiveConstructorChampionshipLead",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 18
+    },
+    "target": {
+      "seasonCount": 77,
+      "raceCount": 1160,
+      "classificationRowCount": 26143
+    }
+  },
+  "rowCount": 18,
+  "rows": [
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 58,
+      "firstEvent": {
+        "eventId": "event:2014-2:e3929c81f4de",
+        "eventIndex": 898,
+        "season": 2014,
+        "round": 2,
+        "date": "2014-03-30",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2016-21:33b8b5978437",
+        "eventIndex": 955,
+        "season": 2016,
+        "round": 21,
+        "date": "2016-11-27",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 55,
+      "firstEvent": {
+        "eventId": "event:2022-6:dd0bfef32dd4",
+        "eventIndex": 1062,
+        "season": 2022,
+        "round": 6,
+        "date": "2022-05-22",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "lastEvent": {
+        "eventId": "event:2024-16:77ba99d4bd0d",
+        "eventIndex": 1116,
+        "season": 2024,
+        "round": 16,
+        "date": "2024-09-01",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 39,
+      "firstEvent": {
+        "eventId": "event:1989-2:e9e5c11c40ec",
+        "eventIndex": 469,
+        "season": 1989,
+        "round": 2,
+        "date": "1989-04-23",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "lastEvent": {
+        "eventId": "event:1991-8:82aa32aa22a5",
+        "eventIndex": 507,
+        "season": 1991,
+        "round": 8,
+        "date": "1991-07-14",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 25,
+      "firstEvent": {
+        "eventId": "event:1980-5:f31c408d43ac",
+        "eventIndex": 332,
+        "season": 1980,
+        "round": 5,
+        "date": "1980-05-04",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "zolder"
+      },
+      "lastEvent": {
+        "eventId": "event:1981-15:c77a1b104daa",
+        "eventIndex": 356,
+        "season": 1981,
+        "round": 15,
+        "date": "1981-10-17",
+        "grandPrixName": "Caesars Palace Grand Prix",
+        "circuitId": "las_vegas"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:1975-7:cfc5b7f6b03b",
+        "eventIndex": 256,
+        "season": 1975,
+        "round": 7,
+        "date": "1975-06-08",
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp"
+      },
+      "lastEvent": {
+        "eventId": "event:1976-16:7481b697193c",
+        "eventIndex": 279,
+        "season": 1976,
+        "round": 16,
+        "date": "1976-10-24",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "value": 19,
+      "firstEvent": {
+        "eventId": "event:1959-1:86544688a094",
+        "eventIndex": 75,
+        "season": 1959,
+        "round": 1,
+        "date": "1959-05-10",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:1960-10:a30255324cf5",
+        "eventIndex": 93,
+        "season": 1960,
+        "round": 10,
+        "date": "1960-11-20",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "riverside"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 17,
+      "firstEvent": {
+        "eventId": "event:2009-1:1fd450f686e6",
+        "eventIndex": 803,
+        "season": 2009,
+        "round": 1,
+        "date": "2009-03-29",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-17:42eed448f174",
+        "eventIndex": 819,
+        "season": 2009,
+        "round": 17,
+        "date": "2009-11-01",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 16,
+      "firstEvent": {
+        "eventId": "event:2005-1:647663047297",
+        "eventIndex": 731,
+        "season": 2005,
+        "round": 1,
+        "date": "2005-03-06",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-16:cca172420385",
+        "eventIndex": 746,
+        "season": 2005,
+        "round": 16,
+        "date": "2005-09-11",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 12,
+      "firstEvent": {
+        "eventId": "event:1994-1:78eed49dd8fc",
+        "eventIndex": 548,
+        "season": 1994,
+        "round": 1,
+        "date": "1994-03-27",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1994-12:643419155b95",
+        "eventIndex": 559,
+        "season": 1994,
+        "round": 12,
+        "date": "1994-09-11",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:matra:b2bca39208a5",
+      "entityName": "Matra",
+      "value": 11,
+      "firstEvent": {
+        "eventId": "event:1969-1:ccdf94c8d473",
+        "eventIndex": 173,
+        "season": 1969,
+        "round": 1,
+        "date": "1969-03-01",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "lastEvent": {
+        "eventId": "event:1969-11:945273ed1e73",
+        "eventIndex": 183,
+        "season": 1969,
+        "round": 11,
+        "date": "1969-10-19",
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:1967-2:9d81103b62bc",
+        "eventIndex": 151,
+        "season": 1967,
+        "round": 2,
+        "date": "1967-05-07",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:1967-11:e533300a7495",
+        "eventIndex": 160,
+        "season": 1967,
+        "round": 11,
+        "date": "1967-10-22",
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 8,
+      "firstEvent": {
+        "eventId": "event:1971-5:9ab9189afc6c",
+        "eventIndex": 201,
+        "season": 1971,
+        "round": 5,
+        "date": "1971-07-04",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-1:e205d2ba912a",
+        "eventIndex": 208,
+        "season": 1972,
+        "round": 1,
+        "date": "1972-01-23",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:brm:88ba4655b32a",
+      "entityName": "BRM",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:1962-6:012879192d2a",
+        "eventIndex": 107,
+        "season": 1962,
+        "round": 6,
+        "date": "1962-08-05",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "lastEvent": {
+        "eventId": "event:1963-2:b1ba5a18a41b",
+        "eventIndex": 112,
+        "season": 1963,
+        "round": 2,
+        "date": "1963-06-09",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1979-1:57af70a50a83",
+        "eventIndex": 313,
+        "season": 1979,
+        "round": 1,
+        "date": "1979-01-21",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "lastEvent": {
+        "eventId": "event:1979-3:97954319e32c",
+        "eventIndex": 315,
+        "season": 1979,
+        "round": 3,
+        "date": "1979-03-03",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:vanwall:4ca6f75bd647",
+      "entityName": "Vanwall",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1958-9:93fd5a65d3cd",
+        "eventIndex": 72,
+        "season": 1958,
+        "round": 9,
+        "date": "1958-08-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "boavista"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "date": "1958-10-19",
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:march:373ae2f4adda",
+      "entityName": "March",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:1970-4:3a809fcfeb2b",
+        "eventIndex": 187,
+        "season": 1970,
+        "round": 4,
+        "date": "1970-06-07",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1970-5:754b1ea31f45",
+        "eventIndex": 188,
+        "season": 1970,
+        "round": 5,
+        "date": "1970-06-21",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2008-3:a20cfa7c9d35",
+        "eventIndex": 787,
+        "season": 2008,
+        "round": 3,
+        "date": "2008-04-06",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-3:a20cfa7c9d35",
+        "eventIndex": 787,
+        "season": 2008,
+        "round": 3,
+        "date": "2008-04-06",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "constructor:wolf:ef46bb436004",
+      "entityName": "Wolf",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1977-1:1b39235f6c24",
+        "eventIndex": 280,
+        "season": 1977,
+        "round": 1,
+        "date": "1977-01-09",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "lastEvent": {
+        "eventId": "event:1977-1:1b39235f6c24",
+        "eventIndex": 280,
+        "season": 1977,
+        "round": 1,
+        "date": "1977-01-09",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "rank": 17
+    }
+  ]
+}

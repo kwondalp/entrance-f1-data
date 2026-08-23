@@ -19,7 +19,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 20
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -34,18 +34,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
+      "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorDriverTitles",
@@ -63,7 +78,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 15
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -78,18 +93,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
+      "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorTitleGap",
@@ -107,7 +137,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 57
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -122,18 +152,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
+      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "runnerUpConstructorChampionships",
@@ -151,7 +196,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 13
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -166,18 +211,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
+      "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorFastestLapSeasons",
@@ -212,11 +272,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying seasons across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -258,11 +334,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -304,11 +396,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -350,11 +458,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -397,14 +521,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -440,11 +578,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count distinct seasons containing at least one qualifying seasons occurrence.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -486,11 +640,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -532,11 +702,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -578,11 +764,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -625,14 +827,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -668,11 +884,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -714,11 +946,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -761,14 +1009,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -805,14 +1067,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -849,14 +1125,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -893,14 +1183,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -919,7 +1223,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 18
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -934,18 +1238,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "event-level championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "post-event position",
+        "points",
+        "championship-secured flag",
+        "driver or constructor identity"
+      ],
+      "currentEvidence": "F1DB event standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying completed Formula 1 World Championship seasons across eligible entity appearances.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorChampionshipLeadGrandPrix",
@@ -963,7 +1282,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 18
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -978,18 +1297,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "event-level championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "post-event position",
+        "points",
+        "championship-secured flag",
+        "driver or constructor identity"
+      ],
+      "currentEvidence": "F1DB event standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorStartChronology",
@@ -1027,8 +1361,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1073,8 +1414,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1119,8 +1467,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and driver, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1145,7 +1500,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 298
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -1160,18 +1515,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "engine identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "driver identity",
+        "constructor identity",
+        "engine manufacturer identity",
+        "start or win state"
+      ],
+      "currentEvidence": "F1DB race result engine identities under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
+      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and engine manufacturer, then count or sum each group.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorStartsWithoutFastestLap",
@@ -1206,11 +1576,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1255,8 +1641,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1301,8 +1694,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1347,8 +1747,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix pole positions only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1393,8 +1800,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1439,8 +1853,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1486,8 +1907,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying Grand Prix one-two finishes for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1512,7 +1940,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 74
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -1527,18 +1955,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official qualifying session results",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "qualifying order",
+        "driver identity",
+        "constructor identity",
+        "Q1 time",
+        "Q2 time",
+        "Q3 time"
+      ],
+      "currentEvidence": "F1DB qualifying result rows under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 qualifying result tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorFrontRowLockouts",
@@ -1577,8 +2022,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1624,8 +2076,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1668,14 +2127,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -1712,14 +2186,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -1756,14 +2245,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -1800,14 +2304,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -1826,7 +2345,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 155
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -1841,18 +2360,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "engine identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "driver identity",
+        "constructor identity",
+        "engine manufacturer identity",
+        "start or win state"
+      ],
+      "currentEvidence": "F1DB race result engine identities under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
+      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorDifferentModels",
@@ -1870,7 +2404,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 151
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -1885,18 +2419,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "car model identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "entrant identity",
+        "constructor identity",
+        "driver identity",
+        "rounds",
+        "chassis identity",
+        "win state"
+      ],
+      "currentEvidence": "F1DB entrant/chassis tables under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 entrant and chassis tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact constructor and driver binding; multi-chassis entrant-season rows excluded",
+      "derivationMethod": "Count distinct car model groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorFrontRowLockouts",
@@ -1935,8 +2486,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -1982,8 +2540,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2029,8 +2594,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2076,8 +2648,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2120,14 +2699,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2164,14 +2758,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2207,11 +2816,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2254,14 +2879,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2298,14 +2938,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2342,14 +2997,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2386,14 +3056,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2433,8 +3118,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2477,14 +3169,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2521,14 +3228,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2565,14 +3287,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2612,8 +3349,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official completed-lap attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2656,14 +3400,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -2700,14 +3459,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -2744,14 +3517,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -2788,14 +3575,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -2833,8 +3634,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2878,8 +3693,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix points for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2923,8 +3752,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix pole positions for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2968,8 +3811,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -2994,7 +3851,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 167
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3009,18 +3866,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "car model identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "entrant identity",
+        "constructor identity",
+        "driver identity",
+        "rounds",
+        "chassis identity",
+        "win state"
+      ],
+      "currentEvidence": "F1DB entrant/chassis tables under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 entrant and chassis tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact constructor and driver binding; multi-chassis entrant-season rows excluded",
+      "derivationMethod": "Group qualifying official Grand Prix wins by entity and car model, then count or sum each group.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorWinsByEngine",
@@ -3038,7 +3912,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 56
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3053,18 +3927,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "engine identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "driver identity",
+        "constructor identity",
+        "engine manufacturer identity",
+        "start or win state"
+      ],
+      "currentEvidence": "F1DB race result engine identities under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
+      "derivationMethod": "Group qualifying official Grand Prix wins by entity and engine manufacturer, then count or sum each group.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverChampionshipPodiums",
@@ -3103,8 +3992,21 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
       "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3129,7 +4031,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 35
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3144,18 +4046,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "event-level championship standings",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "post-event position",
+        "points",
+        "championship-secured flag",
+        "driver or constructor identity"
+      ],
+      "currentEvidence": "F1DB event standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "runnerUpDriverChampionships",
@@ -3194,8 +4111,21 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "identity-resolved official complete championship standings",
+      "rawFields": [
+        "season",
+        "final position",
+        "points",
+        "driver identity",
+        "constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
       "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3237,11 +4167,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3283,11 +4229,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3329,11 +4291,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3376,14 +4354,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -3419,11 +4411,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count distinct seasons containing at least one qualifying seasons occurrence.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3465,11 +4473,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3511,11 +4535,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3557,11 +4597,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3604,14 +4660,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -3647,11 +4717,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3693,11 +4779,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Select the earliest qualifying eligible Grand Prix results event for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3739,11 +4841,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3785,11 +4903,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Select the latest qualifying eligible Grand Prix results event for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -3832,14 +4966,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -3876,14 +5024,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -3920,14 +5082,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -3964,14 +5140,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
     },
     {
@@ -4010,8 +5200,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4036,7 +5233,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 768
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4051,18 +5248,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "historical circuit-configuration distances",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "course length",
+        "completed laps",
+        "driver identity"
+      ],
+      "currentEvidence": "F1DB versioned race course lengths under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 races and race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race and driver binding; shared-car rows excluded",
+      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Circuit length changes cannot be reconstructed from the current circuit identity alone."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLapsRaced",
@@ -4101,8 +5313,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official completed-lap attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4147,8 +5366,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4193,8 +5419,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4239,8 +5472,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and constructor chassis identity, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4285,8 +5525,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4331,8 +5578,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4377,8 +5631,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4423,8 +5684,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4469,8 +5737,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Sum official championship points scored by the driver. Count official Grand Prix starts by the driver; entries without a start are excluded. Divide the first quantity by the second.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4495,7 +5770,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 108
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4510,18 +5785,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official qualifying session results",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "qualifying order",
+        "driver identity",
+        "constructor identity",
+        "Q1 time",
+        "Q2 time",
+        "Q3 time"
+      ],
+      "currentEvidence": "F1DB qualifying result rows under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 qualifying result tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverNeverQualified",
@@ -4539,7 +5831,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 255
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4554,18 +5846,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official qualifying session results",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "qualifying order",
+        "driver identity",
+        "constructor identity",
+        "Q1 time",
+        "Q2 time",
+        "Q3 time"
+      ],
+      "currentEvidence": "F1DB qualifying result rows under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 qualifying result tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverQ3Appearances",
@@ -4583,7 +5892,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 72
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4598,18 +5907,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official qualifying session results",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "qualifying order",
+        "driver identity",
+        "constructor identity",
+        "Q1 time",
+        "Q2 time",
+        "Q3 time"
+      ],
+      "currentEvidence": "F1DB qualifying result rows under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 qualifying result tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveDriverFrontRows",
@@ -4648,8 +5974,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4692,14 +6025,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -4736,14 +6084,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -4783,8 +6146,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Sum official starting-grid positions for rows with a published grid position. Count those same official starting-grid rows. Divide the first quantity by the second.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4830,8 +6200,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4856,7 +6233,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 266
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4871,18 +6248,32 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "eligible teammate and session identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "season",
+        "final driver position",
+        "driver identity",
+        "shared constructor identity"
+      ],
+      "currentEvidence": "F1DB final standings and entrant-driver tables under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 season standings and entrant identities",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "two exact driver bindings and one exact shared constructor binding",
+      "derivationMethod": "Compare eligible same-constructor teammate rows in the same Grand Prix and retain the complete pair/event set.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Completed Formula 1 World Championship seasons"
       },
-      "status": "blocked",
-      "blockingReason": "This head-to-head definition needs identity-resolved standings or qualifying evidence beyond same-constructor Grand Prix classifications."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverDidNotStart",
@@ -4920,8 +6311,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official start attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -4946,7 +6344,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 787
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4961,18 +6359,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "engine identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "driver identity",
+        "constructor identity",
+        "engine manufacturer identity",
+        "start or win state"
+      ],
+      "currentEvidence": "F1DB race result engine identities under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
+      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverFirstAcrossLineWithoutWin",
@@ -5008,14 +6421,26 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "pre-penalty finish-line order",
+      "rawFields": [
+        "race identity",
+        "finish-line order before penalties",
+        "official final classification",
+        "penalty decision"
+      ],
+      "currentEvidence": "Neither ENTRANCE nor the licensed open dataset contains complete pre-penalty finish-line order.",
+      "additionalSource": "event decisions and timing order with redistribution permission",
+      "sourceLicense": "not established for a complete reusable corpus",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event and driver identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "The final classification does not preserve complete pre-penalty finish-line order."
     },
     {
@@ -5055,8 +6480,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official completed-lap attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Select the earliest qualifying Grand Prix retirements event for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5102,8 +6534,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Select the earliest qualifying eligible Grand Prix results event for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5149,8 +6588,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and entity, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5196,8 +6642,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5243,8 +6696,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5290,8 +6750,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5334,14 +6801,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5378,14 +6860,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5421,11 +6918,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5468,14 +6981,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5512,14 +7040,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5556,14 +7099,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5600,14 +7158,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5644,14 +7217,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5688,14 +7276,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5714,7 +7317,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 780
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -5729,18 +7332,35 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official qualifying session results",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "qualifying order",
+        "driver identity",
+        "constructor identity",
+        "Q1 time",
+        "Q2 time",
+        "Q3 time"
+      ],
+      "currentEvidence": "F1DB qualifying result rows under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 qualifying result tables",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
+      "derivationMethod": "Compare eligible same-constructor teammate rows in the same Grand Prix and retain the complete pair/event set.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverSeasonFrontRows",
@@ -5779,8 +7399,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5823,14 +7450,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5867,14 +7509,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -5914,8 +7571,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official completed-lap attribution",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -5958,14 +7622,29 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
+      "rawFields": [
+        "event identity",
+        "session type",
+        "lap number",
+        "leader car number",
+        "driver identity",
+        "constructor identity",
+        "circuit-layout distance"
+      ],
+      "currentEvidence": "No redistributable complete official lap-chart corpus is retained.",
+      "additionalSource": "Formula 1 Race and Sprint Lap Charts",
+      "sourceLicense": "prior written permission required",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
     },
     {
@@ -6002,14 +7681,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -6046,14 +7739,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -6090,14 +7797,28 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "permission_required",
       "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
     },
     {
@@ -6135,8 +7856,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6180,8 +7915,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix points for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6225,8 +7974,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix pole positions for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6270,8 +8033,22 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
+      "rawFields": [
+        "Sprint identity",
+        "driver identity",
+        "constructor identity",
+        "fastest-lap flag",
+        "fastest-lap time",
+        "laps led"
+      ],
+      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
+      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
+      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact Sprint, driver and constructor identity",
       "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6313,11 +8090,27 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
+      "rawFields": [
+        "race identity",
+        "circuit layout identity",
+        "driver identity",
+        "constructor identity",
+        "lap time milliseconds",
+        "session type"
+      ],
+      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
+      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
       "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6363,8 +8156,15 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official starting grids",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "Group qualifying official Grand Prix wins by entity and entity, then count or sum each group.",
       "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
@@ -6389,7 +8189,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 190
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -6404,18 +8204,33 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+        "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "engine identities",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
+      "rawFields": [
+        "race identity",
+        "driver identity",
+        "constructor identity",
+        "engine manufacturer identity",
+        "start or win state"
+      ],
+      "currentEvidence": "F1DB race result engine identities under CC BY 4.0.",
+      "additionalSource": "F1DB v2026.11.0 race results",
+      "sourceLicense": "CC-BY-4.0",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
+      "derivationMethod": "Group qualifying official Grand Prix wins by entity and engine manufacturer, then count or sum each group.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverOldestWinners",
@@ -6451,14 +8266,27 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official driver birth dates",
+      "rawFields": [
+        "driver identity",
+        "complete date of birth",
+        "source owner",
+        "source locator",
+        "independence classification"
+      ],
+      "currentEvidence": "F1DB dates are an open-data cross-check but do not satisfy the repository birthdate evidence policy by themselves.",
+      "additionalSource": "official or independently corroborated birthdate evidence",
+      "sourceLicense": "mixed; official Formula 1 material requires permission",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "approved birthdate evidence resolution for every winning driver",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver."
     },
     {
@@ -6495,14 +8323,27 @@
         "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
       ],
       "requiredRawEvidence": "official driver birth dates",
+      "rawFields": [
+        "driver identity",
+        "complete date of birth",
+        "source owner",
+        "source locator",
+        "independence classification"
+      ],
+      "currentEvidence": "F1DB dates are an open-data cross-check but do not satisfy the repository birthdate evidence policy by themselves.",
+      "additionalSource": "official or independently corroborated birthdate evidence",
+      "sourceLicense": "mixed; official Formula 1 material requires permission",
+      "fullHistoricalCoverage": false,
+      "identityDependency": "approved birthdate evidence resolution for every winning driver",
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
+      "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "blocked",
+      "status": "unavailable",
       "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver."
     }
   ]

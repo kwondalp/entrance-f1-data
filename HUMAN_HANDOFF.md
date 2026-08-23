@@ -6,6 +6,14 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Stats metric backfill v1 proposal
 
+The current non-lap extension publishes 96 checksum-bound metric payloads: the
+original 75 plus 21 partial payloads derived from F1DB v2026.11.0 under CC BY
+4.0. Thirty-one catalogue entries are `permission_required` and 17 are
+`unavailable`; those 48 entries have no data path and are never represented as
+zero. Ten lap-record products remain unavailable because the retained evidence
+does not satisfy their circuit-record or highest-average-speed semantics. No
+Formula 1/FIA lap chart or Phase 1B identity evidence is included.
+
 The current unstaged additive package at `f1/stats-metric-backfill/v1/`
 inventories all 144 formerly evidence-blocked production metrics. It exposes 75
 lazy raw numeric payloads: 65 evidence-scoped partial results and ten results

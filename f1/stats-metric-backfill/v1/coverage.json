@@ -3,10 +3,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 75,
-    "partial": 65,
+    "available": 96,
+    "partial": 86,
     "completeThroughCutoff": 10,
-    "blocked": 69,
+    "blocked": 48,
+    "permissionRequired": 31,
+    "unavailable": 17,
     "drivers": 76,
     "constructors": 68
   },
@@ -15,8 +17,8 @@
     "substantivelyEmptyMetricCount": 144
   },
   "after": {
-    "populatedMetricCount": 75,
-    "substantivelyEmptyMetricCount": 69
+    "populatedMetricCount": 96,
+    "substantivelyEmptyMetricCount": 48
   },
   "evidenceClasses": {
     "A": {
@@ -31,8 +33,8 @@
     },
     "C": {
       "total": 69,
-      "available": 0,
-      "blocked": 69
+      "available": 21,
+      "blocked": 48
     }
   },
   "sourceCoverage": {
@@ -44,6 +46,22 @@
     "ambiguousSharedDriveGridGroupCount": 63,
     "unknownLapClassificationRowCount": 469,
     "sharedDriveLapRowsExcluded": 229,
-    "officialSprintSessionPageCount": 56
+    "officialSprintSessionPageCount": 56,
+    "openData": {
+      "mappedRaceCount": 1160,
+      "driverIdentity": {
+        "sourceCount": 917,
+        "resolvedCount": 787,
+        "ambiguousCount": 0
+      },
+      "constructorIdentity": {
+        "sourceCount": 187,
+        "resolvedCount": 156,
+        "ambiguousCount": 2
+      },
+      "sourceId": "f1db-v2026.11.0",
+      "license": "CC-BY-4.0",
+      "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb"
+    }
   }
 }

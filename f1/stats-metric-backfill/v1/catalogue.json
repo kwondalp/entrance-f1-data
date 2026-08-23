@@ -6,10 +6,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 75,
-    "partial": 65,
+    "available": 96,
+    "partial": 86,
     "completeThroughCutoff": 10,
-    "blocked": 69,
+    "blocked": 48,
+    "permissionRequired": 31,
+    "unavailable": 17,
     "drivers": 76,
     "constructors": 68
   },
@@ -27,10 +29,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 20
         },
         "target": {
           "seasonCount": 77,
@@ -38,9 +40,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 20,
+      "dataPath": "metrics/constructors/constructor_championship_podiums.json"
     },
     {
       "registryMetricId": "constructors:constructor_driver_titles",
@@ -55,10 +57,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 15
         },
         "target": {
           "seasonCount": 77,
@@ -66,9 +68,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 15,
+      "dataPath": "metrics/constructors/constructor_driver_titles.json"
     },
     {
       "registryMetricId": "constructors:constructor_title_gap",
@@ -83,10 +85,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 57
         },
         "target": {
           "seasonCount": 77,
@@ -94,9 +96,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 57,
+      "dataPath": "metrics/constructors/constructor_title_gap.json"
     },
     {
       "registryMetricId": "constructors:runner_up_constructor_championships",
@@ -111,10 +113,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 13
         },
         "target": {
           "seasonCount": 77,
@@ -122,9 +124,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 13,
+      "dataPath": "metrics/constructors/runner_up_constructor_championships.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_fastest_lap_seasons",
@@ -607,10 +609,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 18
         },
         "target": {
           "seasonCount": 77,
@@ -618,9 +620,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 18,
+      "dataPath": "metrics/constructors/consecutive_constructor_championship_lead.json"
     },
     {
       "registryMetricId": "constructors:constructor_championship_lead_grand_prix",
@@ -635,10 +637,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 18
         },
         "target": {
           "seasonCount": 77,
@@ -646,9 +648,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 18,
+      "dataPath": "metrics/constructors/constructor_championship_lead_grand_prix.json"
     },
     {
       "registryMetricId": "constructors:constructor_start_chronology",
@@ -753,10 +755,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 298
         },
         "target": {
           "seasonCount": 77,
@@ -764,9 +766,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 298,
+      "dataPath": "metrics/constructors/constructor_starts_with_same_engine.json"
     },
     {
       "registryMetricId": "constructors:constructor_starts_without_fastest_lap",
@@ -992,10 +994,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 74
         },
         "target": {
           "seasonCount": 77,
@@ -1003,9 +1005,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 74,
+      "dataPath": "metrics/constructors/constructor_never_qualified.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_front_row_lockouts",
@@ -1194,10 +1196,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 155
         },
         "target": {
           "seasonCount": 77,
@@ -1205,9 +1207,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 155,
+      "dataPath": "metrics/constructors/constructor_different_engines.json"
     },
     {
       "registryMetricId": "constructors:constructor_different_models",
@@ -1222,10 +1224,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 151
         },
         "target": {
           "seasonCount": 77,
@@ -1233,9 +1235,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 151,
+      "dataPath": "metrics/constructors/constructor_different_models.json"
     },
     {
       "registryMetricId": "constructors:constructor_front_row_lockouts",
@@ -1946,10 +1948,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 167
         },
         "target": {
           "seasonCount": 77,
@@ -1957,9 +1959,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 167,
+      "dataPath": "metrics/constructors/constructor_wins_by_model.json"
     },
     {
       "registryMetricId": "constructors:wins_by_engine",
@@ -1974,10 +1976,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 56
         },
         "target": {
           "seasonCount": 77,
@@ -1985,9 +1987,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 56,
+      "dataPath": "metrics/constructors/wins_by_engine.json"
     },
     {
       "registryMetricId": "drivers:driver_championship_podiums",
@@ -2033,10 +2035,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 35
         },
         "target": {
           "seasonCount": 77,
@@ -2044,9 +2046,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 35,
+      "dataPath": "metrics/drivers/gps_before_first_championship.json"
     },
     {
       "registryMetricId": "drivers:runner_up_driver_championships",
@@ -2620,10 +2622,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 768
         },
         "target": {
           "seasonCount": 77,
@@ -2631,9 +2633,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Circuit length changes cannot be reconstructed from the current circuit identity alone.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 768,
+      "dataPath": "metrics/drivers/driver_kilometres_raced.json"
     },
     {
       "registryMetricId": "drivers:driver_laps_raced",
@@ -2919,10 +2921,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 108
         },
         "target": {
           "seasonCount": 77,
@@ -2930,9 +2932,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 108,
+      "dataPath": "metrics/drivers/driver_fastest_qualifying.json"
     },
     {
       "registryMetricId": "drivers:driver_never_qualified",
@@ -2947,10 +2949,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 255
         },
         "target": {
           "seasonCount": 77,
@@ -2958,9 +2960,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 255,
+      "dataPath": "metrics/drivers/driver_never_qualified.json"
     },
     {
       "registryMetricId": "drivers:driver_q3_appearances",
@@ -2975,10 +2977,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 72
         },
         "target": {
           "seasonCount": 77,
@@ -2986,9 +2988,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 72,
+      "dataPath": "metrics/drivers/driver_q3_appearances.json"
     },
     {
       "registryMetricId": "drivers:consecutive_driver_front_rows",
@@ -3152,10 +3154,10 @@
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 266
         },
         "target": {
           "seasonCount": 77,
@@ -3163,9 +3165,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "This head-to-head definition needs identity-resolved standings or qualifying evidence beyond same-constructor Grand Prix classifications.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 266,
+      "dataPath": "metrics/drivers/driver_championship_h2_h.json"
     },
     {
       "registryMetricId": "drivers:driver_did_not_start",
@@ -3210,10 +3212,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 787
         },
         "target": {
           "seasonCount": 77,
@@ -3221,9 +3223,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 787,
+      "dataPath": "metrics/drivers/driver_different_engines.json"
     },
     {
       "registryMetricId": "drivers:driver_first_across_line_without_win",
@@ -3706,10 +3708,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 780
         },
         "target": {
           "seasonCount": 77,
@@ -3717,9 +3719,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 780,
+      "dataPath": "metrics/drivers/driver_qualifying_h2_hwins.json"
     },
     {
       "registryMetricId": "drivers:driver_season_front_rows",
@@ -4141,10 +4143,10 @@
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 190
         },
         "target": {
           "seasonCount": 77,
@@ -4152,9 +4154,9 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 190,
+      "dataPath": "metrics/drivers/wins_by_engine.json"
     },
     {
       "registryMetricId": "drivers:wins_oldest",

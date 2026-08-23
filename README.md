@@ -109,3 +109,12 @@ payload or blocked metric is not zero. Partial payloads exclude unknown evidence
 rows and must be labelled as evidence-scoped; they must not be presented as
 complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
 and current-season URLs and semantics are unchanged.
+
+The non-lap evidence extension publishes 96 metric payloads: the original 75
+plus 21 partial metrics derived from F1DB v2026.11.0 under CC BY 4.0. Exact
+canonical name-or-alias binding is required and unresolved identities are
+excluded. Of the remaining 48 metrics, 31 are `permission_required` and 17 are
+`unavailable`; all retain a null data path and must render as unavailable, never
+as numeric zero. The unavailable set includes ten lap-record products whose
+circuit-record or highest-average-speed semantics are not safely satisfied by
+the retained source. Formula 1/FIA lap charts are not included or redistributed.
