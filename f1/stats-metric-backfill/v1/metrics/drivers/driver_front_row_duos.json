@@ -1,0 +1,3048 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_front_row_duos",
+  "metricId": "driverFrontRowDuos",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 378,
+      "knownClassificationRowCount": 26051,
+      "unknownGridRowCount": 92,
+      "ambiguousSharedDriveGridGroupCount": 63
+    },
+    "target": {
+      "seasonCount": 77,
+      "raceCount": 1160,
+      "classificationRowCount": 26143
+    }
+  },
+  "rowCount": 378,
+  "rows": [
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 44,
+      "groupId": "driver:rosberg:f41469d63d30",
+      "groupLabel": "Nico Rosberg",
+      "rank": 1
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 44,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 1
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 32,
+      "groupId": "driver:bottas:cf1711492eee",
+      "groupLabel": "Valtteri Bottas",
+      "rank": 3
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 32,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 3
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 23,
+      "groupId": "driver:senna:97c74c7d172e",
+      "groupLabel": "Ayrton Senna",
+      "rank": 5
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 23,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 5
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 23,
+      "groupId": "driver:vettel:c74415af2cc1",
+      "groupLabel": "Sebastian Vettel",
+      "rank": 5
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 23,
+      "groupId": "driver:webber:6ffd0bea1a2a",
+      "groupLabel": "Mark Webber",
+      "rank": 5
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 18,
+      "groupId": "driver:hakkinen:cb6375fb4ba8",
+      "groupLabel": "Mika Häkkinen",
+      "rank": 9
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 18,
+      "groupId": "driver:coulthard:935d583f6514",
+      "groupLabel": "David Coulthard",
+      "rank": 9
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 15,
+      "groupId": "driver:barrichello:ff6039716ac0",
+      "groupLabel": "Rubens Barrichello",
+      "rank": 11
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 15,
+      "groupId": "driver:michael-schumacher:6f4f07ba2368",
+      "groupLabel": "Michael Schumacher",
+      "rank": 11
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 12,
+      "groupId": "driver:damon-hill:3cf4df1bacf7",
+      "groupLabel": "Damon Hill",
+      "rank": 13
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 12,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 13
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 12,
+      "groupId": "driver:patrese:57b51e8b4bbf",
+      "groupLabel": "Riccardo Patrese",
+      "rank": 13
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 12,
+      "groupId": "driver:mansell:66de70fd9557",
+      "groupLabel": "Nigel Mansell",
+      "rank": 13
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 10,
+      "groupId": "driver:arnoux:3628c7479aa0",
+      "groupLabel": "René Arnoux",
+      "rank": 17
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 10,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 17
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 9,
+      "groupId": "driver:villeneuve:5349509be1a5",
+      "groupLabel": "Jacques Villeneuve",
+      "rank": 19
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 9,
+      "groupId": "driver:damon-hill:3cf4df1bacf7",
+      "groupLabel": "Damon Hill",
+      "rank": 19
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 9,
+      "groupId": "driver:mansell:66de70fd9557",
+      "groupLabel": "Nigel Mansell",
+      "rank": 19
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 9,
+      "groupId": "driver:piquet:009ec3fd7514",
+      "groupLabel": "Nelson Piquet",
+      "rank": 19
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 8,
+      "groupId": "driver:berger:721f3dbb508a",
+      "groupLabel": "Gerhard Berger",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "value": 8,
+      "groupId": "driver:lauda:a96b8acf8741",
+      "groupLabel": "Niki Lauda",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 8,
+      "groupId": "driver:senna:97c74c7d172e",
+      "groupLabel": "Ayrton Senna",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 8,
+      "groupId": "driver:farina:edc963649157",
+      "groupLabel": "Nino Farina",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 8,
+      "groupId": "driver:piastri:45bbf3cf700f",
+      "groupLabel": "Oscar Piastri",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 8,
+      "groupId": "driver:perez:03c631191055",
+      "groupLabel": "Sergio Pérez",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 8,
+      "groupId": "driver:regazzoni:8dabb0375829",
+      "groupLabel": "Clay Regazzoni",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 8,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 8,
+      "groupId": "driver:norris:5581145e4767",
+      "groupLabel": "Lando Norris",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 8,
+      "groupId": "driver:max-verstappen:1f6847211200",
+      "groupLabel": "Max Verstappen",
+      "rank": 23
+    },
+    {
+      "entityId": "driver:jabouille:1481bda9b6cd",
+      "entityName": "Jean-Pierre Jabouille",
+      "value": 7,
+      "groupId": "driver:arnoux:3628c7479aa0",
+      "groupLabel": "René Arnoux",
+      "rank": 33
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 7,
+      "groupId": "driver:jabouille:1481bda9b6cd",
+      "groupLabel": "Jean-Pierre Jabouille",
+      "rank": 33
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 6,
+      "groupId": "driver:coulthard:935d583f6514",
+      "groupLabel": "David Coulthard",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 6,
+      "groupId": "driver:damon-hill:3cf4df1bacf7",
+      "groupLabel": "Damon Hill",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 6,
+      "groupId": "driver:ralf-schumacher:c4bff3218fa9",
+      "groupLabel": "Ralf Schumacher",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 6,
+      "groupId": "driver:vettel:c74415af2cc1",
+      "groupLabel": "Sebastian Vettel",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 6,
+      "groupId": "driver:montoya:68737b86fe17",
+      "groupLabel": "Juan Pablo Montoya",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 6,
+      "groupId": "driver:raikkonen:650e2e18533e",
+      "groupLabel": "Kimi Räikkönen",
+      "rank": 35
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "value": 5,
+      "groupId": "driver:farina:edc963649157",
+      "groupLabel": "Nino Farina",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 5,
+      "groupId": "driver:michael-schumacher:6f4f07ba2368",
+      "groupLabel": "Michael Schumacher",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 5,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 5,
+      "groupId": "driver:villeneuve:5349509be1a5",
+      "groupLabel": "Jacques Villeneuve",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 5,
+      "groupId": "driver:frentzen:e499a12f83f0",
+      "groupLabel": "Heinz-Harald Frentzen",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 5,
+      "groupId": "driver:alonso:04d69c1d187a",
+      "groupLabel": "Fernando Alonso",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "value": 5,
+      "groupId": "driver:peterson:112af39f0326",
+      "groupLabel": "Ronnie Peterson",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 5,
+      "groupId": "driver:massa:86ab3cfe923d",
+      "groupLabel": "Felipe Massa",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 5,
+      "groupId": "driver:ascari:ad5589a1c97f",
+      "groupLabel": "Alberto Ascari",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 5,
+      "groupId": "driver:mario-andretti:9665dc04541a",
+      "groupLabel": "Mario Andretti",
+      "rank": 41
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 4,
+      "groupId": "driver:vettel:c74415af2cc1",
+      "groupLabel": "Sebastian Vettel",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 4,
+      "groupId": "driver:raikkonen:650e2e18533e",
+      "groupLabel": "Kimi Räikkönen",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 4,
+      "groupId": "driver:fisichella:5825d809a2e3",
+      "groupLabel": "Giancarlo Fisichella",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 4,
+      "groupId": "driver:antonelli:0ab4d82d3440",
+      "groupLabel": "Kimi Antonelli",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 4,
+      "groupId": "driver:alonso:04d69c1d187a",
+      "groupLabel": "Fernando Alonso",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 4,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 4,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "value": 4,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 4,
+      "groupId": "driver:depailler:b5cf50bce46d",
+      "groupLabel": "Patrick Depailler",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 4,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 4,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 4,
+      "groupId": "driver:ireland:655aaf7bf33d",
+      "groupLabel": "Innes Ireland",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 4,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 4,
+      "groupId": "driver:russell:0de59c03b0db",
+      "groupLabel": "George Russell",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 4,
+      "groupId": "driver:massa:86ab3cfe923d",
+      "groupLabel": "Felipe Massa",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 4,
+      "groupId": "driver:button:d29c67aa2fda",
+      "groupLabel": "Jenson Button",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:depailler:b5cf50bce46d",
+      "entityName": "Patrick Depailler",
+      "value": 4,
+      "groupId": "driver:laffite:36bfb487a39b",
+      "groupLabel": "Jacques Laffite",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 4,
+      "groupId": "driver:arnoux:3628c7479aa0",
+      "groupLabel": "René Arnoux",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 4,
+      "groupId": "driver:tambay:da914d6b903c",
+      "groupLabel": "Patrick Tambay",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 4,
+      "groupId": "driver:leclerc:80a0e9f8790b",
+      "groupLabel": "Charles Leclerc",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 4,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 4,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 51
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 3,
+      "groupId": "driver:leclerc:80a0e9f8790b",
+      "groupLabel": "Charles Leclerc",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 3,
+      "groupId": "driver:sainz:f4f0414a0a12",
+      "groupLabel": "Carlos Sainz",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "value": 3,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:castellotti:29de409c0984",
+      "entityName": "Eugenio Castellotti",
+      "value": 3,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 3,
+      "groupId": "driver:alesi:81d9c1b96672",
+      "groupLabel": "Jean Alesi",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:baghetti:3a2c6f3478be",
+      "entityName": "Giancarlo Baghetti",
+      "value": 3,
+      "groupId": "driver:phil-hill:35d0f98c0d81",
+      "groupLabel": "Phil Hill",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 3,
+      "groupId": "driver:hulme:595e5a426963",
+      "groupLabel": "Denny Hulme",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 3,
+      "groupId": "driver:berger:721f3dbb508a",
+      "groupLabel": "Gerhard Berger",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 3,
+      "groupId": "driver:castellotti:29de409c0984",
+      "groupLabel": "Eugenio Castellotti",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:phil-hill:35d0f98c0d81",
+      "entityName": "Phil Hill",
+      "value": 3,
+      "groupId": "driver:baghetti:3a2c6f3478be",
+      "groupLabel": "Giancarlo Baghetti",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:phil-hill:35d0f98c0d81",
+      "entityName": "Phil Hill",
+      "value": 3,
+      "groupId": "driver:trips:e05d10e5e75a",
+      "groupLabel": "Wolfgang von Trips",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "value": 3,
+      "groupId": "driver:phil-hill:35d0f98c0d81",
+      "groupLabel": "Phil Hill",
+      "rank": 73
+    },
+    {
+      "entityId": "driver:amon:a418aa49b3fe",
+      "entityName": "Chris Amon",
+      "value": 2,
+      "groupId": "driver:stewart:f46f493c7dd0",
+      "groupLabel": "Jackie Stewart",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:amon:a418aa49b3fe",
+      "entityName": "Chris Amon",
+      "value": 2,
+      "groupId": "driver:ickx:9dc972aa2fb0",
+      "groupLabel": "Jacky Ickx",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 2,
+      "groupId": "driver:max-verstappen:1f6847211200",
+      "groupLabel": "Max Verstappen",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "value": 2,
+      "groupId": "driver:michael-schumacher:6f4f07ba2368",
+      "groupLabel": "Michael Schumacher",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 2,
+      "groupId": "driver:mansell:66de70fd9557",
+      "groupLabel": "Nigel Mansell",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 2,
+      "groupId": "driver:peterson:112af39f0326",
+      "groupLabel": "Ronnie Peterson",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 2,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 2,
+      "groupId": "driver:bandini:7f67fa49cbac",
+      "groupLabel": "Lorenzo Bandini",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 2,
+      "groupId": "driver:hamilton:528ad2ac33fa",
+      "groupLabel": "Lewis Hamilton",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:burgess:cae249265d03",
+      "entityName": "Ian Burgess",
+      "value": 2,
+      "groupId": "driver:settember:e9a63ad734fe",
+      "groupLabel": "Tony Settember",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "value": 2,
+      "groupId": "driver:hansgen:500c326babb1",
+      "groupLabel": "Walt Hansgen",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 2,
+      "groupId": "driver:gregory:3ee4901e4cc4",
+      "groupLabel": "Masten Gregory",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 2,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "value": 2,
+      "groupId": "driver:amon:a418aa49b3fe",
+      "groupLabel": "Chris Amon",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 2,
+      "groupId": "driver:amon:a418aa49b3fe",
+      "groupLabel": "Chris Amon",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 2,
+      "groupId": "driver:arundell:09439d8b9577",
+      "groupLabel": "Peter Arundell",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 2,
+      "groupId": "driver:hansgen:500c326babb1",
+      "groupLabel": "Walt Hansgen",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2,
+      "groupId": "driver:russell:0de59c03b0db",
+      "groupLabel": "George Russell",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2,
+      "groupId": "driver:kovalainen:dc8d8c106e70",
+      "groupLabel": "Heikki Kovalainen",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:bandini:7f67fa49cbac",
+      "entityName": "Lorenzo Bandini",
+      "value": 2,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:fagioli:05eb09dda820",
+      "entityName": "Luigi Fagioli",
+      "value": 2,
+      "groupId": "driver:farina:edc963649157",
+      "groupLabel": "Nino Farina",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:musso:d363c09057b8",
+      "entityName": "Luigi Musso",
+      "value": 2,
+      "groupId": "driver:hawthorn:1ddfcaf579cc",
+      "groupLabel": "Mike Hawthorn",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:gregory:3ee4901e4cc4",
+      "entityName": "Masten Gregory",
+      "value": 2,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 2,
+      "groupId": "driver:ricciardo:677e1f07679b",
+      "groupLabel": "Daniel Ricciardo",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2,
+      "groupId": "driver:irvine:3492559d3bf9",
+      "groupLabel": "Eddie Irvine",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 2,
+      "groupId": "driver:musso:d363c09057b8",
+      "groupLabel": "Luigi Musso",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 2,
+      "groupId": "driver:angelis:e8033183b98b",
+      "groupLabel": "Elio de Angelis",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 2,
+      "groupId": "driver:fagioli:05eb09dda820",
+      "groupLabel": "Luigi Fagioli",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:arundell:09439d8b9577",
+      "entityName": "Peter Arundell",
+      "value": 2,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:phil-hill:35d0f98c0d81",
+      "entityName": "Phil Hill",
+      "value": 2,
+      "groupId": "driver:ginther:3e915b11c50f",
+      "groupLabel": "Richie Ginther",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 2,
+      "groupId": "driver:tsunoda:d77287c8b9c8",
+      "groupLabel": "Yuki Tsunoda",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:ginther:3e915b11c50f",
+      "entityName": "Richie Ginther",
+      "value": 2,
+      "groupId": "driver:phil-hill:35d0f98c0d81",
+      "groupLabel": "Phil Hill",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 2,
+      "groupId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "groupLabel": "Emerson Fittipaldi",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 2,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 2,
+      "groupId": "driver:lewis-evans:5822738a2722",
+      "groupLabel": "Stuart Lewis-Evans",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 2,
+      "groupId": "driver:brooks:4c43a3935c07",
+      "groupLabel": "Tony Brooks",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:lewis-evans:5822738a2722",
+      "entityName": "Stuart Lewis-Evans",
+      "value": 2,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "value": 2,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:settember:e9a63ad734fe",
+      "entityName": "Tony Settember",
+      "value": 2,
+      "groupId": "driver:burgess:cae249265d03",
+      "groupLabel": "Ian Burgess",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hansgen:500c326babb1",
+      "entityName": "Walt Hansgen",
+      "value": 2,
+      "groupId": "driver:ireland:655aaf7bf33d",
+      "groupLabel": "Innes Ireland",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:hansgen:500c326babb1",
+      "entityName": "Walt Hansgen",
+      "value": 2,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 2,
+      "groupId": "driver:gasly:0fca70394caf",
+      "groupLabel": "Pierre Gasly",
+      "rank": 85
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1,
+      "groupId": "driver:cheever:a06f9c80c4f3",
+      "groupLabel": "Eddie Cheever",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1,
+      "groupId": "driver:keke-rosberg:c149e9225f45",
+      "groupLabel": "Keke Rosberg",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1,
+      "groupId": "driver:mansell:66de70fd9557",
+      "groupLabel": "Nigel Mansell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jones:83ac4230619a",
+      "entityName": "Alan Jones",
+      "value": 1,
+      "groupId": "driver:reutemann:c573421c6e6f",
+      "groupLabel": "Carlos Reutemann",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "value": 1,
+      "groupId": "driver:gonzalez:2aa2e506438c",
+      "groupLabel": "José Froilán González",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "value": 1,
+      "groupId": "driver:villoresi:f59ed3868399",
+      "groupLabel": "Luigi Villoresi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:blignaut:ac611725fd60",
+      "entityName": "Alex Blignaut",
+      "value": 1,
+      "groupId": "driver:clapham:1f2b39bb426c",
+      "groupLabel": "David Clapham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:thiele:a5492b2316e7",
+      "entityName": "Alfonso Thiele",
+      "value": 1,
+      "groupId": "driver:natili:56514d69567e",
+      "groupLabel": "Massimo Natili",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:thiele:a5492b2316e7",
+      "entityName": "Alfonso Thiele",
+      "value": 1,
+      "groupId": "driver:boffa:0d642672c771",
+      "groupLabel": "Menato Boffa",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:linden:14f0212edda8",
+      "entityName": "Andy Linden",
+      "value": 1,
+      "groupId": "driver:agabashian:09e7d8a15c53",
+      "groupLabel": "Fred Agabashian",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 1,
+      "groupId": "driver:angelis:e8033183b98b",
+      "groupLabel": "Elio de Angelis",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:vukovich:57f4d36050ed",
+      "entityName": "Bill Vukovich",
+      "value": 1,
+      "groupId": "driver:agabashian:09e7d8a15c53",
+      "groupLabel": "Fred Agabashian",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:abate:2b8017fbb403",
+      "entityName": "Carlo Abate",
+      "value": 1,
+      "groupId": "driver:mitter:aa6d7c880886",
+      "groupLabel": "Gerhard Mitter",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:abate:2b8017fbb403",
+      "entityName": "Carlo Abate",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:abate:2b8017fbb403",
+      "entityName": "Carlo Abate",
+      "value": 1,
+      "groupId": "driver:arundell:09439d8b9577",
+      "groupLabel": "Peter Arundell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pace:f2913e9cfb72",
+      "entityName": "Carlos Pace",
+      "value": 1,
+      "groupId": "driver:reutemann:c573421c6e6f",
+      "groupLabel": "Carlos Reutemann",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "value": 1,
+      "groupId": "driver:jones:83ac4230619a",
+      "groupLabel": "Alan Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "value": 1,
+      "groupId": "driver:pace:f2913e9cfb72",
+      "groupLabel": "Carlos Pace",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:reutemann:c573421c6e6f",
+      "entityName": "Carlos Reutemann",
+      "value": 1,
+      "groupId": "driver:gilles-villeneuve:92aad873d6ed",
+      "groupLabel": "Gilles Villeneuve",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:perdisa:a8ab7906bffb",
+      "entityName": "Cesare Perdisa",
+      "value": 1,
+      "groupId": "driver:piotti:b9d67012aa30",
+      "groupLabel": "Luigi Piotti",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:daigh:a8fbefddc4ac",
+      "entityName": "Chuck Daigh",
+      "value": 1,
+      "groupId": "driver:reventlow:9b8cc6691a61",
+      "groupLabel": "Lance Reventlow",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "value": 1,
+      "groupId": "driver:ickx:9dc972aa2fb0",
+      "groupLabel": "Jacky Ickx",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:allison:9fe6fe4e2b78",
+      "entityName": "Cliff Allison",
+      "value": 1,
+      "groupId": "driver:henry-taylor:dad209454f8f",
+      "groupLabel": "Henry Taylor",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:allison:9fe6fe4e2b78",
+      "entityName": "Cliff Allison",
+      "value": 1,
+      "groupId": "driver:burgess:cae249265d03",
+      "groupLabel": "Ian Burgess",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:allison:9fe6fe4e2b78",
+      "entityName": "Cliff Allison",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:allison:9fe6fe4e2b78",
+      "entityName": "Cliff Allison",
+      "value": 1,
+      "groupId": "driver:seidel:fb891518bae0",
+      "groupLabel": "Wolfgang Seidel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1,
+      "groupId": "driver:mansell:66de70fd9557",
+      "groupLabel": "Nigel Mansell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clapham:1f2b39bb426c",
+      "entityName": "David Clapham",
+      "value": 1,
+      "groupId": "driver:blignaut:ac611725fd60",
+      "groupLabel": "Alex Blignaut",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hulme:595e5a426963",
+      "entityName": "Denny Hulme",
+      "value": 1,
+      "groupId": "driver:revson:a43291d81deb",
+      "groupLabel": "Peter Revson",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:dick-rathmann:ee98bc60c01b",
+      "entityName": "Dick Rathmann",
+      "value": 1,
+      "groupId": "driver:elisian:8c0a17d73d5a",
+      "groupLabel": "Ed Elisian",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 1,
+      "groupId": "driver:gilles-villeneuve:92aad873d6ed",
+      "groupLabel": "Gilles Villeneuve",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 1,
+      "groupId": "driver:laffite:36bfb487a39b",
+      "groupLabel": "Jacques Laffite",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:nalon:35ff5963cc4d",
+      "entityName": "Duke Nalon",
+      "value": 1,
+      "groupId": "driver:wallard:e9ba4db7646c",
+      "groupLabel": "Lee Wallard",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:elisian:8c0a17d73d5a",
+      "entityName": "Ed Elisian",
+      "value": 1,
+      "groupId": "driver:dick-rathmann:ee98bc60c01b",
+      "groupLabel": "Dick Rathmann",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:cheever:a06f9c80c4f3",
+      "entityName": "Eddie Cheever",
+      "value": 1,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 1,
+      "groupId": "driver:senna:97c74c7d172e",
+      "groupLabel": "Ayrton Senna",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 1,
+      "groupId": "driver:rindt:46dabdd8ff6b",
+      "groupLabel": "Jochen Rindt",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 1,
+      "groupId": "driver:miles:f263e46706bb",
+      "groupLabel": "John Miles",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:prinoth:97a06434cfae",
+      "entityName": "Ernesto Prinoth",
+      "value": 1,
+      "groupId": "driver:may:8b698a49ddb2",
+      "groupLabel": "Michael May",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:castellotti:29de409c0984",
+      "entityName": "Eugenio Castellotti",
+      "value": 1,
+      "groupId": "driver:trips:e05d10e5e75a",
+      "groupLabel": "Wolfgang von Trips",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 1,
+      "groupId": "driver:bottas:cf1711492eee",
+      "groupLabel": "Valtteri Bottas",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 1,
+      "groupId": "driver:trulli:26a562aa7942",
+      "groupLabel": "Jarno Trulli",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:agabashian:09e7d8a15c53",
+      "entityName": "Fred Agabashian",
+      "value": 1,
+      "groupId": "driver:linden:14f0212edda8",
+      "groupLabel": "Andy Linden",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:agabashian:09e7d8a15c53",
+      "entityName": "Fred Agabashian",
+      "value": 1,
+      "groupId": "driver:vukovich:57f4d36050ed",
+      "groupLabel": "Bill Vukovich",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:starrabba:3184a14a6385",
+      "entityName": "Gaetano Starrabba",
+      "value": 1,
+      "groupId": "driver:seiffert:14f41a004c8a",
+      "groupLabel": "Günther Seiffert",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hocking:5fe423d19124",
+      "entityName": "Gary Hocking",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hocking:5fe423d19124",
+      "entityName": "Gary Hocking",
+      "value": 1,
+      "groupId": "driver:tingle:82e1e6abd6a2",
+      "groupLabel": "Sam Tingle",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hocking:5fe423d19124",
+      "entityName": "Gary Hocking",
+      "value": 1,
+      "groupId": "driver:vyver:8220dbebbfb9",
+      "groupLabel": "Syd van der Vyver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:duke:cb11ca9d4440",
+      "entityName": "Geoff Duke",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:duke:cb11ca9d4440",
+      "entityName": "Geoff Duke",
+      "value": 1,
+      "groupId": "driver:campbell-jones:b5850ec789c2",
+      "groupLabel": "John Campbell-Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:duke:cb11ca9d4440",
+      "entityName": "Geoff Duke",
+      "value": 1,
+      "groupId": "driver:gregory:3ee4901e4cc4",
+      "groupLabel": "Masten Gregory",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:duke:cb11ca9d4440",
+      "entityName": "Geoff Duke",
+      "value": 1,
+      "groupId": "driver:pirocchi:8b9824b5cea6",
+      "groupLabel": "Renato Pirocchi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 1,
+      "groupId": "driver:latifi:75b7e3a4e06c",
+      "groupLabel": "Nicholas Latifi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 1,
+      "groupId": "driver:bottas:cf1711492eee",
+      "groupLabel": "Valtteri Bottas",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 1,
+      "groupId": "driver:alboreto:2d39fb3c5621",
+      "groupLabel": "Michele Alboreto",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 1,
+      "groupId": "driver:fabi:fe5cfb0089b2",
+      "groupLabel": "Teo Fabi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mitter:aa6d7c880886",
+      "entityName": "Gerhard Mitter",
+      "value": 1,
+      "groupId": "driver:abate:2b8017fbb403",
+      "groupLabel": "Carlo Abate",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ashmore:1c6069bab6d5",
+      "entityName": "Gerry Ashmore",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ashmore:1c6069bab6d5",
+      "entityName": "Gerry Ashmore",
+      "value": 1,
+      "groupId": "driver:lewis:f838f58dbc27",
+      "groupLabel": "Jackie Lewis",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ashmore:1c6069bab6d5",
+      "entityName": "Gerry Ashmore",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:baghetti:3a2c6f3478be",
+      "entityName": "Giancarlo Baghetti",
+      "value": 1,
+      "groupId": "driver:maggs:7e92bbb70e97",
+      "groupLabel": "Tony Maggs",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 1,
+      "groupId": "driver:reutemann:c573421c6e6f",
+      "groupLabel": "Carlos Reutemann",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 1,
+      "groupId": "driver:pironi:e419fd33c039",
+      "groupLabel": "Didier Pironi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 1,
+      "groupId": "driver:scheckter:c14e9982ba2e",
+      "groupLabel": "Jody Scheckter",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "groupLabel": "Emerson Fittipaldi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:ashmore:1c6069bab6d5",
+      "groupLabel": "Gerry Ashmore",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:lewis:f838f58dbc27",
+      "groupLabel": "Jackie Lewis",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:oliver:92571f0c676e",
+      "groupLabel": "Jackie Oliver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:rindt:46dabdd8ff6b",
+      "groupLabel": "Jochen Rindt",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
+      "value": 1,
+      "groupId": "driver:miles:f263e46706bb",
+      "groupLabel": "John Miles",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ligier:c5719d2a4e77",
+      "entityName": "Guy Ligier",
+      "value": 1,
+      "groupId": "driver:surtees:5519e1946624",
+      "groupLabel": "John Surtees",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seiffert:14f41a004c8a",
+      "entityName": "Günther Seiffert",
+      "value": 1,
+      "groupId": "driver:starrabba:3184a14a6385",
+      "groupLabel": "Gaetano Starrabba",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:schell:389113d52afd",
+      "entityName": "Harry Schell",
+      "value": 1,
+      "groupId": "driver:taruffi:4246f1de7460",
+      "groupLabel": "Piero Taruffi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:schiller:ea18993c7f44",
+      "entityName": "Heinz Schiller",
+      "value": 1,
+      "groupId": "driver:bonnier:5fc11359a468",
+      "groupLabel": "Jo Bonnier",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 1,
+      "groupId": "driver:wendlinger:e8fbb909096c",
+      "groupLabel": "Karl Wendlinger",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:henry-taylor:dad209454f8f",
+      "entityName": "Henry Taylor",
+      "value": 1,
+      "groupId": "driver:allison:9fe6fe4e2b78",
+      "groupLabel": "Cliff Allison",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:henry-taylor:dad209454f8f",
+      "entityName": "Henry Taylor",
+      "value": 1,
+      "groupId": "driver:burgess:cae249265d03",
+      "groupLabel": "Ian Burgess",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:henry-taylor:dad209454f8f",
+      "entityName": "Henry Taylor",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:henry-taylor:dad209454f8f",
+      "entityName": "Henry Taylor",
+      "value": 1,
+      "groupId": "driver:seidel:fb891518bae0",
+      "groupLabel": "Wolfgang Seidel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:burgess:cae249265d03",
+      "entityName": "Ian Burgess",
+      "value": 1,
+      "groupId": "driver:allison:9fe6fe4e2b78",
+      "groupLabel": "Cliff Allison",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:burgess:cae249265d03",
+      "entityName": "Ian Burgess",
+      "value": 1,
+      "groupId": "driver:henry-taylor:dad209454f8f",
+      "groupLabel": "Henry Taylor",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:burgess:cae249265d03",
+      "entityName": "Ian Burgess",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:burgess:cae249265d03",
+      "entityName": "Ian Burgess",
+      "value": 1,
+      "groupId": "driver:seidel:fb891518bae0",
+      "groupLabel": "Wolfgang Seidel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "value": 1,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
+      "value": 1,
+      "groupId": "driver:monarch:888f7fb55e64",
+      "groupLabel": "Thomas Monarch",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:duke:cb11ca9d4440",
+      "groupLabel": "Geoff Duke",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:ickx:9dc972aa2fb0",
+      "groupLabel": "Jacky Ickx",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:campbell-jones:b5850ec789c2",
+      "groupLabel": "John Campbell-Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:reventlow:9b8cc6691a61",
+      "groupLabel": "Lance Reventlow",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:pirocchi:8b9824b5cea6",
+      "groupLabel": "Renato Pirocchi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 1,
+      "groupId": "driver:brooks:4c43a3935c07",
+      "groupLabel": "Tony Brooks",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mcgrath:f9c176323e1c",
+      "entityName": "Jack McGrath",
+      "value": 1,
+      "groupId": "driver:daywalt:dbbe1aac7c9a",
+      "groupLabel": "Jimmy Daywalt",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:lewis:f838f58dbc27",
+      "entityName": "Jackie Lewis",
+      "value": 1,
+      "groupId": "driver:ashmore:1c6069bab6d5",
+      "groupLabel": "Gerry Ashmore",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:lewis:f838f58dbc27",
+      "entityName": "Jackie Lewis",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:lewis:f838f58dbc27",
+      "entityName": "Jackie Lewis",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:oliver:92571f0c676e",
+      "entityName": "Jackie Oliver",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:oliver:92571f0c676e",
+      "entityName": "Jackie Oliver",
+      "value": 1,
+      "groupId": "driver:mario-andretti:9665dc04541a",
+      "groupLabel": "Mario Andretti",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 1,
+      "groupId": "driver:regazzoni:8dabb0375829",
+      "groupLabel": "Clay Regazzoni",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 1,
+      "groupId": "driver:pironi:e419fd33c039",
+      "groupLabel": "Didier Pironi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 1,
+      "groupId": "driver:alonso:04d69c1d187a",
+      "groupLabel": "Fernando Alonso",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 1,
+      "groupId": "driver:glock:55cf369e2b70",
+      "groupLabel": "Timo Glock",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:behra:ad2c71791765",
+      "entityName": "Jean Behra",
+      "value": 1,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 1,
+      "groupId": "driver:barrichello:ff6039716ac0",
+      "groupLabel": "Rubens Barrichello",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:abate:2b8017fbb403",
+      "groupLabel": "Carlo Abate",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:hocking:5fe423d19124",
+      "groupLabel": "Gary Hocking",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:hall:1c7680ce3c25",
+      "groupLabel": "Jim Hall",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:siffert:d1cfc3fb1fc0",
+      "groupLabel": "Jo Siffert",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:campbell-jones:b5850ec789c2",
+      "groupLabel": "John Campbell-Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:kuhnke:12104d29c150",
+      "groupLabel": "Kurt Kuhnke",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:gregory:3ee4901e4cc4",
+      "groupLabel": "Masten Gregory",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:trintignant:aaf24838e239",
+      "groupLabel": "Maurice Trintignant",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:spence:313ab04cb5b8",
+      "groupLabel": "Mike Spence",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:lederle:e58196dbc192",
+      "groupLabel": "Neville Lederle",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:driver:ab08670fe170",
+      "groupLabel": "Paddy Driver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:tingle:82e1e6abd6a2",
+      "groupLabel": "Sam Tingle",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:vyver:8220dbebbfb9",
+      "groupLabel": "Syd van der Vyver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 1,
+      "groupId": "driver:monarch:888f7fb55e64",
+      "groupLabel": "Thomas Monarch",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hall:1c7680ce3c25",
+      "entityName": "Jim Hall",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:daywalt:dbbe1aac7c9a",
+      "entityName": "Jimmy Daywalt",
+      "value": 1,
+      "groupId": "driver:mcgrath:f9c176323e1c",
+      "groupLabel": "Jack McGrath",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:bonnier:5fc11359a468",
+      "entityName": "Jo Bonnier",
+      "value": 1,
+      "groupId": "driver:schiller:ea18993c7f44",
+      "groupLabel": "Heinz Schiller",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "value": 1,
+      "groupId": "driver:trintignant:aaf24838e239",
+      "groupLabel": "Maurice Trintignant",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 1,
+      "groupId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "groupLabel": "Emerson Fittipaldi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 1,
+      "groupId": "driver:miles:f263e46706bb",
+      "groupLabel": "John Miles",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 1,
+      "groupId": "driver:gilles-villeneuve:92aad873d6ed",
+      "groupLabel": "Gilles Villeneuve",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 1,
+      "groupId": "driver:stuppacher:8988fe658988",
+      "groupLabel": "Otto Stuppacher",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 1,
+      "groupId": "driver:depailler:b5cf50bce46d",
+      "groupLabel": "Patrick Depailler",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:campbell-jones:b5850ec789c2",
+      "entityName": "John Campbell-Jones",
+      "value": 1,
+      "groupId": "driver:duke:cb11ca9d4440",
+      "groupLabel": "Geoff Duke",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:campbell-jones:b5850ec789c2",
+      "entityName": "John Campbell-Jones",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:campbell-jones:b5850ec789c2",
+      "entityName": "John Campbell-Jones",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:campbell-jones:b5850ec789c2",
+      "entityName": "John Campbell-Jones",
+      "value": 1,
+      "groupId": "driver:gregory:3ee4901e4cc4",
+      "groupLabel": "Masten Gregory",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:campbell-jones:b5850ec789c2",
+      "entityName": "John Campbell-Jones",
+      "value": 1,
+      "groupId": "driver:pirocchi:8b9824b5cea6",
+      "groupLabel": "Renato Pirocchi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:miles:f263e46706bb",
+      "entityName": "John Miles",
+      "value": 1,
+      "groupId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "groupLabel": "Emerson Fittipaldi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:miles:f263e46706bb",
+      "entityName": "John Miles",
+      "value": 1,
+      "groupId": "driver:hill:aa2839db1ccc",
+      "groupLabel": "Graham Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:miles:f263e46706bb",
+      "entityName": "John Miles",
+      "value": 1,
+      "groupId": "driver:rindt:46dabdd8ff6b",
+      "groupLabel": "Jochen Rindt",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
+      "value": 1,
+      "groupId": "driver:ligier:c5719d2a4e77",
+      "groupLabel": "Guy Ligier",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 1,
+      "groupId": "driver:ascari:ad5589a1c97f",
+      "groupLabel": "Alberto Ascari",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 1,
+      "groupId": "driver:farina:edc963649157",
+      "groupLabel": "Nino Farina",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 1,
+      "groupId": "driver:manzon:d6fb01b246ff",
+      "groupLabel": "Robert Manzon",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:bordeu:6484c1650864",
+      "entityName": "Juan Manuel Bordeu",
+      "value": 1,
+      "groupId": "driver:seidel:fb891518bae0",
+      "groupLabel": "Wolfgang Seidel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 1,
+      "groupId": "driver:behra:ad2c71791765",
+      "groupLabel": "Jean Behra",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 1,
+      "groupId": "driver:kling:86e14c6bf2df",
+      "groupLabel": "Karl Kling",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 1,
+      "groupId": "driver:fagioli:05eb09dda820",
+      "groupLabel": "Luigi Fagioli",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 1,
+      "groupId": "driver:collins:98c51dae7baf",
+      "groupLabel": "Peter Collins",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 1,
+      "groupId": "driver:trips:e05d10e5e75a",
+      "groupLabel": "Wolfgang von Trips",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 1,
+      "groupId": "driver:raikkonen:650e2e18533e",
+      "groupLabel": "Kimi Räikkönen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:kling:86e14c6bf2df",
+      "entityName": "Karl Kling",
+      "value": 1,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:wendlinger:e8fbb909096c",
+      "entityName": "Karl Wendlinger",
+      "value": 1,
+      "groupId": "driver:frentzen:e499a12f83f0",
+      "groupLabel": "Heinz-Harald Frentzen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 1,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mcalpine:55332cecc122",
+      "entityName": "Kenneth McAlpine",
+      "value": 1,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:kevin-magnussen:10cdaad4587a",
+      "entityName": "Kevin Magnussen",
+      "value": 1,
+      "groupId": "driver:grosjean:47652bcecb94",
+      "groupLabel": "Romain Grosjean",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 1,
+      "groupId": "driver:montoya:68737b86fe17",
+      "groupLabel": "Juan Pablo Montoya",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:kuhnke:12104d29c150",
+      "entityName": "Kurt Kuhnke",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:reventlow:9b8cc6691a61",
+      "entityName": "Lance Reventlow",
+      "value": 1,
+      "groupId": "driver:daigh:a8fbefddc4ac",
+      "groupLabel": "Chuck Daigh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:reventlow:9b8cc6691a61",
+      "entityName": "Lance Reventlow",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 1,
+      "groupId": "driver:vettel:c74415af2cc1",
+      "groupLabel": "Sebastian Vettel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:wallard:e9ba4db7646c",
+      "entityName": "Lee Wallard",
+      "value": 1,
+      "groupId": "driver:nalon:35ff5963cc4d",
+      "groupLabel": "Duke Nalon",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:chiron:fb2a679a6025",
+      "entityName": "Louis Chiron",
+      "value": 1,
+      "groupId": "driver:moss:74efba0d63c1",
+      "groupLabel": "Stirling Moss",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:scarfiotti:62e48ae1a222",
+      "entityName": "Ludovico Scarfiotti",
+      "value": 1,
+      "groupId": "driver:parkes:7f840207ba67",
+      "groupLabel": "Mike Parkes",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fagioli:05eb09dda820",
+      "entityName": "Luigi Fagioli",
+      "value": 1,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:piotti:b9d67012aa30",
+      "entityName": "Luigi Piotti",
+      "value": 1,
+      "groupId": "driver:perdisa:a8ab7906bffb",
+      "groupLabel": "Cesare Perdisa",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:villoresi:f59ed3868399",
+      "entityName": "Luigi Villoresi",
+      "value": 1,
+      "groupId": "driver:ascari:ad5589a1c97f",
+      "groupLabel": "Alberto Ascari",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mario-andretti:9665dc04541a",
+      "entityName": "Mario Andretti",
+      "value": 1,
+      "groupId": "driver:oliver:92571f0c676e",
+      "groupLabel": "Jackie Oliver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:natili:56514d69567e",
+      "entityName": "Massimo Natili",
+      "value": 1,
+      "groupId": "driver:thiele:a5492b2316e7",
+      "groupLabel": "Alfonso Thiele",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:natili:56514d69567e",
+      "entityName": "Massimo Natili",
+      "value": 1,
+      "groupId": "driver:boffa:0d642672c771",
+      "groupLabel": "Menato Boffa",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gregory:3ee4901e4cc4",
+      "entityName": "Masten Gregory",
+      "value": 1,
+      "groupId": "driver:duke:cb11ca9d4440",
+      "groupLabel": "Geoff Duke",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gregory:3ee4901e4cc4",
+      "entityName": "Masten Gregory",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gregory:3ee4901e4cc4",
+      "entityName": "Masten Gregory",
+      "value": 1,
+      "groupId": "driver:campbell-jones:b5850ec789c2",
+      "groupLabel": "John Campbell-Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:gregory:3ee4901e4cc4",
+      "entityName": "Masten Gregory",
+      "value": 1,
+      "groupId": "driver:pirocchi:8b9824b5cea6",
+      "groupLabel": "Renato Pirocchi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trintignant:aaf24838e239",
+      "entityName": "Maurice Trintignant",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trintignant:aaf24838e239",
+      "entityName": "Maurice Trintignant",
+      "value": 1,
+      "groupId": "driver:siffert:d1cfc3fb1fc0",
+      "groupLabel": "Jo Siffert",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:boffa:0d642672c771",
+      "entityName": "Menato Boffa",
+      "value": 1,
+      "groupId": "driver:thiele:a5492b2316e7",
+      "groupLabel": "Alfonso Thiele",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:boffa:0d642672c771",
+      "entityName": "Menato Boffa",
+      "value": 1,
+      "groupId": "driver:natili:56514d69567e",
+      "groupLabel": "Massimo Natili",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:may:8b698a49ddb2",
+      "entityName": "Michael May",
+      "value": 1,
+      "groupId": "driver:prinoth:97a06434cfae",
+      "groupLabel": "Ernesto Prinoth",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 1,
+      "groupId": "driver:rosberg:f41469d63d30",
+      "groupLabel": "Nico Rosberg",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 1,
+      "groupId": "driver:berger:721f3dbb508a",
+      "groupLabel": "Gerhard Berger",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 1,
+      "groupId": "driver:arnoux:3628c7479aa0",
+      "groupLabel": "René Arnoux",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:salo:781a02b584f4",
+      "entityName": "Mika Salo",
+      "value": 1,
+      "groupId": "driver:diniz:cf7429166aa8",
+      "groupLabel": "Pedro Diniz",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 1,
+      "groupId": "driver:brooks:4c43a3935c07",
+      "groupLabel": "Tony Brooks",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:parkes:7f840207ba67",
+      "entityName": "Mike Parkes",
+      "value": 1,
+      "groupId": "driver:scarfiotti:62e48ae1a222",
+      "groupLabel": "Ludovico Scarfiotti",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:spence:313ab04cb5b8",
+      "entityName": "Mike Spence",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 1,
+      "groupId": "driver:patrese:57b51e8b4bbf",
+      "groupLabel": "Riccardo Patrese",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:lederle:e58196dbc192",
+      "entityName": "Neville Lederle",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:lederle:e58196dbc192",
+      "entityName": "Neville Lederle",
+      "value": 1,
+      "groupId": "driver:driver:ab08670fe170",
+      "groupLabel": "Paddy Driver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:latifi:75b7e3a4e06c",
+      "entityName": "Nicholas Latifi",
+      "value": 1,
+      "groupId": "driver:russell:0de59c03b0db",
+      "groupLabel": "George Russell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 1,
+      "groupId": "driver:michael-schumacher:6f4f07ba2368",
+      "groupLabel": "Michael Schumacher",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 1,
+      "groupId": "driver:prost:70f24972bd43",
+      "groupLabel": "Alain Prost",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 1,
+      "groupId": "driver:damon-hill:3cf4df1bacf7",
+      "groupLabel": "Damon Hill",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 1,
+      "groupId": "driver:gonzalez:2aa2e506438c",
+      "groupLabel": "José Froilán González",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 1,
+      "groupId": "driver:taruffi:4246f1de7460",
+      "groupLabel": "Piero Taruffi",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:stuppacher:8988fe658988",
+      "entityName": "Otto Stuppacher",
+      "value": 1,
+      "groupId": "driver:scheckter:c14e9982ba2e",
+      "groupLabel": "Jody Scheckter",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:driver:ab08670fe170",
+      "entityName": "Paddy Driver",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:driver:ab08670fe170",
+      "entityName": "Paddy Driver",
+      "value": 1,
+      "groupId": "driver:lederle:e58196dbc192",
+      "groupLabel": "Neville Lederle",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:depailler:b5cf50bce46d",
+      "entityName": "Patrick Depailler",
+      "value": 1,
+      "groupId": "driver:scheckter:c14e9982ba2e",
+      "groupLabel": "Jody Scheckter",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:paul-russo:bc0ac810efca",
+      "entityName": "Paul Russo",
+      "value": 1,
+      "groupId": "driver:bettenhausen:63acf7dcd43a",
+      "groupLabel": "Tony Bettenhausen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:diniz:cf7429166aa8",
+      "entityName": "Pedro Diniz",
+      "value": 1,
+      "groupId": "driver:salo:781a02b584f4",
+      "groupLabel": "Mika Salo",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:arundell:09439d8b9577",
+      "entityName": "Peter Arundell",
+      "value": 1,
+      "groupId": "driver:abate:2b8017fbb403",
+      "groupLabel": "Carlo Abate",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:collins:98c51dae7baf",
+      "entityName": "Peter Collins",
+      "value": 1,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:revson:a43291d81deb",
+      "entityName": "Peter Revson",
+      "value": 1,
+      "groupId": "driver:hulme:595e5a426963",
+      "groupLabel": "Denny Hulme",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:taruffi:4246f1de7460",
+      "entityName": "Piero Taruffi",
+      "value": 1,
+      "groupId": "driver:schell:389113d52afd",
+      "groupLabel": "Harry Schell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:taruffi:4246f1de7460",
+      "entityName": "Piero Taruffi",
+      "value": 1,
+      "groupId": "driver:farina:edc963649157",
+      "groupLabel": "Nino Farina",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pirocchi:8b9824b5cea6",
+      "entityName": "Renato Pirocchi",
+      "value": 1,
+      "groupId": "driver:duke:cb11ca9d4440",
+      "groupLabel": "Geoff Duke",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pirocchi:8b9824b5cea6",
+      "entityName": "Renato Pirocchi",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pirocchi:8b9824b5cea6",
+      "entityName": "Renato Pirocchi",
+      "value": 1,
+      "groupId": "driver:campbell-jones:b5850ec789c2",
+      "groupLabel": "John Campbell-Jones",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:pirocchi:8b9824b5cea6",
+      "entityName": "Renato Pirocchi",
+      "value": 1,
+      "groupId": "driver:gregory:3ee4901e4cc4",
+      "groupLabel": "Masten Gregory",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 1,
+      "groupId": "driver:alboreto:2d39fb3c5621",
+      "groupLabel": "Michele Alboreto",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:ricardo-rodriguez:fc6425ccdfd4",
+      "entityName": "Ricardo Rodríguez",
+      "value": 1,
+      "groupId": "driver:trips:e05d10e5e75a",
+      "groupLabel": "Wolfgang von Trips",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 1,
+      "groupId": "driver:piquet:009ec3fd7514",
+      "groupLabel": "Nelson Piquet",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 1,
+      "groupId": "driver:boutsen:956ebe879bfd",
+      "groupLabel": "Thierry Boutsen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:manzon:d6fb01b246ff",
+      "entityName": "Robert Manzon",
+      "value": 1,
+      "groupId": "driver:gonzalez:2aa2e506438c",
+      "groupLabel": "José Froilán González",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 1,
+      "groupId": "driver:kevin-magnussen:10cdaad4587a",
+      "groupLabel": "Kevin Magnussen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 1,
+      "groupId": "driver:button:d29c67aa2fda",
+      "groupLabel": "Jenson Button",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:tingle:82e1e6abd6a2",
+      "entityName": "Sam Tingle",
+      "value": 1,
+      "groupId": "driver:hocking:5fe423d19124",
+      "groupLabel": "Gary Hocking",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:tingle:82e1e6abd6a2",
+      "entityName": "Sam Tingle",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:tingle:82e1e6abd6a2",
+      "entityName": "Sam Tingle",
+      "value": 1,
+      "groupId": "driver:vyver:8220dbebbfb9",
+      "groupLabel": "Syd van der Vyver",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1,
+      "groupId": "driver:stroll:ab76996efc92",
+      "groupLabel": "Lance Stroll",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 1,
+      "groupId": "driver:ireland:655aaf7bf33d",
+      "groupLabel": "Innes Ireland",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 1,
+      "groupId": "driver:mcalpine:55332cecc122",
+      "groupLabel": "Kenneth McAlpine",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 1,
+      "groupId": "driver:chiron:fb2a679a6025",
+      "groupLabel": "Louis Chiron",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:vyver:8220dbebbfb9",
+      "entityName": "Syd van der Vyver",
+      "value": 1,
+      "groupId": "driver:hocking:5fe423d19124",
+      "groupLabel": "Gary Hocking",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:vyver:8220dbebbfb9",
+      "entityName": "Syd van der Vyver",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:vyver:8220dbebbfb9",
+      "entityName": "Syd van der Vyver",
+      "value": 1,
+      "groupId": "driver:tingle:82e1e6abd6a2",
+      "groupLabel": "Sam Tingle",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:fabi:fe5cfb0089b2",
+      "entityName": "Teo Fabi",
+      "value": 1,
+      "groupId": "driver:berger:721f3dbb508a",
+      "groupLabel": "Gerhard Berger",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 1,
+      "groupId": "driver:patrese:57b51e8b4bbf",
+      "groupLabel": "Riccardo Patrese",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:monarch:888f7fb55e64",
+      "entityName": "Thomas Monarch",
+      "value": 1,
+      "groupId": "driver:ireland:655aaf7bf33d",
+      "groupLabel": "Innes Ireland",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:monarch:888f7fb55e64",
+      "entityName": "Thomas Monarch",
+      "value": 1,
+      "groupId": "driver:clark:59d84c3d9fcb",
+      "groupLabel": "Jim Clark",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:monarch:888f7fb55e64",
+      "entityName": "Thomas Monarch",
+      "value": 1,
+      "groupId": "driver:hansgen:500c326babb1",
+      "groupLabel": "Walt Hansgen",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 1,
+      "groupId": "driver:trulli:26a562aa7942",
+      "groupLabel": "Jarno Trulli",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:bettenhausen:63acf7dcd43a",
+      "entityName": "Tony Bettenhausen",
+      "value": 1,
+      "groupId": "driver:paul-russo:bc0ac810efca",
+      "groupLabel": "Paul Russo",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "value": 1,
+      "groupId": "driver:jack-brabham:279b9464153a",
+      "groupLabel": "Jack Brabham",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "value": 1,
+      "groupId": "driver:hawthorn:1ddfcaf579cc",
+      "groupLabel": "Mike Hawthorn",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:maggs:7e92bbb70e97",
+      "entityName": "Tony Maggs",
+      "value": 1,
+      "groupId": "driver:baghetti:3a2c6f3478be",
+      "groupLabel": "Giancarlo Baghetti",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:allison:9fe6fe4e2b78",
+      "groupLabel": "Cliff Allison",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:ashmore:1c6069bab6d5",
+      "groupLabel": "Gerry Ashmore",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:henry-taylor:dad209454f8f",
+      "groupLabel": "Henry Taylor",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:burgess:cae249265d03",
+      "groupLabel": "Ian Burgess",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:lewis:f838f58dbc27",
+      "groupLabel": "Jackie Lewis",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:marsh:5480cf2b3bb1",
+      "entityName": "Tony Marsh",
+      "value": 1,
+      "groupId": "driver:seidel:fb891518bae0",
+      "groupLabel": "Wolfgang Seidel",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 1,
+      "groupId": "driver:massa:86ab3cfe923d",
+      "groupLabel": "Felipe Massa",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 1,
+      "groupId": "driver:russell:0de59c03b0db",
+      "groupLabel": "George Russell",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:hansgen:500c326babb1",
+      "entityName": "Walt Hansgen",
+      "value": 1,
+      "groupId": "driver:monarch:888f7fb55e64",
+      "groupLabel": "Thomas Monarch",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seidel:fb891518bae0",
+      "entityName": "Wolfgang Seidel",
+      "value": 1,
+      "groupId": "driver:allison:9fe6fe4e2b78",
+      "groupLabel": "Cliff Allison",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seidel:fb891518bae0",
+      "entityName": "Wolfgang Seidel",
+      "value": 1,
+      "groupId": "driver:henry-taylor:dad209454f8f",
+      "groupLabel": "Henry Taylor",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seidel:fb891518bae0",
+      "entityName": "Wolfgang Seidel",
+      "value": 1,
+      "groupId": "driver:burgess:cae249265d03",
+      "groupLabel": "Ian Burgess",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seidel:fb891518bae0",
+      "entityName": "Wolfgang Seidel",
+      "value": 1,
+      "groupId": "driver:bordeu:6484c1650864",
+      "groupLabel": "Juan Manuel Bordeu",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:seidel:fb891518bae0",
+      "entityName": "Wolfgang Seidel",
+      "value": 1,
+      "groupId": "driver:marsh:5480cf2b3bb1",
+      "groupLabel": "Tony Marsh",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "value": 1,
+      "groupId": "driver:castellotti:29de409c0984",
+      "groupLabel": "Eugenio Castellotti",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "value": 1,
+      "groupId": "driver:fangio:56835a0b6237",
+      "groupLabel": "Juan Manuel Fangio",
+      "rank": 127
+    },
+    {
+      "entityId": "driver:trips:e05d10e5e75a",
+      "entityName": "Wolfgang von Trips",
+      "value": 1,
+      "groupId": "driver:ricardo-rodriguez:fc6425ccdfd4",
+      "groupLabel": "Ricardo Rodríguez",
+      "rank": 127
+    }
+  ]
+}

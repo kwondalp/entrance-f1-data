@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 9
+handoffVersion: 10
 currentState:
-  status: 2026-malaysia-calendar-unstaged-proposal
-  summary: "The focused schedule proposal adds the officially relocated Bahrain Grand Prix in Malaysia at Sepang as 2026 Round 16 with a standard five-session weekend, preserving the stable `bahrain` race key and renumbering Singapore through Abu Dhabi as Rounds 17-23. The Tools generator preserves the completed Round 1-11 prefix, all existing race keys, current-season JSON shape, and the schedule file's existing no-final-LF convention. Results, standings, Stats Core v1, Stats Lab, and archive files are unchanged; no commit, push, publication, or deployment has occurred."
+  status: stats-metric-backfill-v1-unstaged-proposal
+  summary: "The additive Stats metric backfill v1 candidate publishes the exact 144-metric evidence inventory and 75 available raw numeric rankings without changing existing public URLs or Stats Core v1 semantics. Sixty-five payloads are explicitly partial, ten are complete through their stated cutoff, and 69 catalogue entries remain blocked with no data path. The checksum manifest binds all 80 generated files, unknown evidence is never coerced to zero, and no commit, push, publication, or deployment has occurred."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: stats-metric-backfill-v1-proposal
+    summary: The additive versioned package provides an exact 144-metric inventory, 75 lazy raw numeric payloads, 69 fail-closed blocked entries, evidence cutoffs and completeness, provenance, Draft 2020-12 schema, coverage report, and checksum manifest for shared Web and future App consumption.
   - id: malaysia-calendar-round-16-proposal
     summary: The generated 2026 schedule candidate publishes 23 consecutive rounds, adds Bahrain Grand Prix in Malaysia at Sepang as Round 16 with verified UTC session starts, retains every existing stable race key, and shifts the seven later rounds forward by one without changing results, standings, or statistics.
   - id: stats-core-v1-proposal

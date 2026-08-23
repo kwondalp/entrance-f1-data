@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "stats-metric-backfill-coverage.v1",
+  "asOfRaceDate": "2026-07-26",
+  "counts": {
+    "total": 144,
+    "available": 75,
+    "partial": 65,
+    "completeThroughCutoff": 10,
+    "blocked": 69,
+    "drivers": 76,
+    "constructors": 68
+  },
+  "before": {
+    "populatedMetricCount": 0,
+    "substantivelyEmptyMetricCount": 144
+  },
+  "after": {
+    "populatedMetricCount": 75,
+    "substantivelyEmptyMetricCount": 69
+  },
+  "evidenceClasses": {
+    "A": {
+      "total": 67,
+      "available": 67,
+      "blocked": 0
+    },
+    "B": {
+      "total": 8,
+      "available": 8,
+      "blocked": 0
+    },
+    "C": {
+      "total": 69,
+      "available": 0,
+      "blocked": 69
+    }
+  },
+  "sourceCoverage": {
+    "archiveRaceCount": 1160,
+    "archiveClassificationRowCount": 26143,
+    "fastestLapKnownRaceCount": 443,
+    "unknownStartClassificationRowCount": 11,
+    "unknownGridClassificationRowCount": 92,
+    "ambiguousSharedDriveGridGroupCount": 63,
+    "unknownLapClassificationRowCount": 469,
+    "sharedDriveLapRowsExcluded": 229,
+    "officialSprintSessionPageCount": 56
+  }
+}

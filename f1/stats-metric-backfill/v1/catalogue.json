@@ -1,0 +1,4216 @@
+{
+  "schemaVersion": "stats-metric-backfill.v1",
+  "apiVersion": "1.0.0",
+  "releaseChannel": "production",
+  "dataStatus": "evidence_scoped",
+  "asOfRaceDate": "2026-07-26",
+  "counts": {
+    "total": 144,
+    "available": 75,
+    "partial": 65,
+    "completeThroughCutoff": 10,
+    "blocked": 69,
+    "drivers": 76,
+    "constructors": 68
+  },
+  "metrics": [
+    {
+      "registryMetricId": "constructors:constructor_championship_podiums",
+      "entity": "constructors",
+      "statisticId": "constructor_championship_podiums",
+      "metricId": "constructorChampionshipPodiums",
+      "categoryId": "championships",
+      "label": "Championship Top-Three Finishes",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_championship_podiums",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_driver_titles",
+      "entity": "constructors",
+      "statisticId": "constructor_driver_titles",
+      "metricId": "constructorDriverTitles",
+      "categoryId": "championships",
+      "label": "Drivers' Championships Won",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_driver_titles",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_title_gap",
+      "entity": "constructors",
+      "statisticId": "constructor_title_gap",
+      "metricId": "constructorTitleGap",
+      "categoryId": "championships",
+      "label": "Championship Winning Margin",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_title_gap",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:runner_up_constructor_championships",
+      "entity": "constructors",
+      "statisticId": "runner_up_constructor_championships",
+      "metricId": "runnerUpConstructorChampionships",
+      "categoryId": "championships",
+      "label": "Runner-Up Seasons",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=runner_up_constructor_championships",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Formula1.com final tables were retained for 1950-2025, but full-row reconciliation exposed unresolved chassis-versus-entrant identities including Lola/Larrousse, Venturi/Larrousse and Midland/Spyker; only champion identities are promoted.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_fastest_lap_seasons",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_fastest_lap_seasons",
+      "metricId": "consecutiveConstructorFastestLapSeasons",
+      "categoryId": "fastest-laps",
+      "label": "Fastest-Lap Season Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_fastest_lap_seasons",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of seasons.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 19,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 19,
+      "dataPath": "metrics/constructors/consecutive_constructor_fastest_lap_seasons.json"
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_fastest_laps",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_fastest_laps",
+      "metricId": "consecutiveConstructorFastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Fastest-Lap Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_fastest_laps",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 19,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 19,
+      "dataPath": "metrics/constructors/consecutive_constructor_fastest_laps.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_lap_chronology",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_lap_chronology",
+      "metricId": "constructorFastestLapChronology",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Lap Timeline",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 443,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 443,
+      "dataPath": "metrics/constructors/constructor_fastest_lap_chronology.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_lap_interval",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_lap_interval",
+      "metricId": "constructorFastestLapInterval",
+      "categoryId": "fastest-laps",
+      "label": "Time Between Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_interval",
+      "presentation": "duration",
+      "definition": "Ranks Formula 1 constructors by elapsed days between the first and last qualifying days occurrences.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 19,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 19,
+      "dataPath": "metrics/constructors/constructor_fastest_lap_interval.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_lap_record_chronology",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_lap_record_chronology",
+      "metricId": "constructorFastestLapRecordChronology",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Lap Record Timeline",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_record_chronology",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_lap_seasons",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_lap_seasons",
+      "metricId": "constructorFastestLapSeasons",
+      "categoryId": "fastest-laps",
+      "label": "Seasons With a Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_seasons",
+      "presentation": "numeric",
+      "definition": "Ranks constructors by the number of distinct seasons containing at least one seasons occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 19,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 19,
+      "dataPath": "metrics/constructors/constructor_fastest_lap_seasons.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_laps_by_circuit",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_laps_by_circuit",
+      "metricId": "constructorFastestLapsByCircuit",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps by Circuit",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_laps_by_circuit",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by circuit.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 176,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 176,
+      "dataPath": "metrics/constructors/constructor_fastest_laps_by_circuit.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_fastest_laps_by_grand_prix",
+      "entity": "constructors",
+      "statisticId": "constructor_fastest_laps_by_grand_prix",
+      "metricId": "constructorFastestLapsByGrandPrix",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps by GP",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_laps_by_grand_prix",
+      "presentation": "grouped",
+      "definition": "Ranks Grand Prix entries for each Formula 1 constructor grouped by Grand Prix name.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 182,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 182,
+      "dataPath": "metrics/constructors/constructor_fastest_laps_by_grand_prix.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_season_fastest_laps",
+      "entity": "constructors",
+      "statisticId": "constructor_season_fastest_laps",
+      "metricId": "constructorSeasonFastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps in a Season",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_fastest_laps",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 106,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 106,
+      "dataPath": "metrics/constructors/constructor_season_fastest_laps.json"
+    },
+    {
+      "registryMetricId": "constructors:fastest_ever_lap",
+      "entity": "constructors",
+      "statisticId": "fastest_ever_lap",
+      "metricId": "constructorFastestEverLap",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Ever Lap",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=fastest_ever_lap",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:fastest_laps_total",
+      "entity": "constructors",
+      "statisticId": "fastest_laps_total",
+      "metricId": "fastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Total Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=fastest_laps_total",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/fastest_laps_total.json"
+    },
+    {
+      "registryMetricId": "constructors:gps_before_first_constructor_fastest_lap",
+      "entity": "constructors",
+      "statisticId": "gps_before_first_constructor_fastest_lap",
+      "metricId": "gpsBeforeFirstConstructorFastestLap",
+      "categoryId": "fastest-laps",
+      "label": "GPs to First Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=gps_before_first_constructor_fastest_lap",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 19,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 19,
+      "dataPath": "metrics/constructors/gps_before_first_constructor_fastest_lap.json"
+    },
+    {
+      "registryMetricId": "constructors:qualifying_lap_records",
+      "entity": "constructors",
+      "statisticId": "qualifying_lap_records",
+      "metricId": "constructorQualifyingLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Qualifying Lap Records",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=qualifying_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:race_lap_records",
+      "entity": "constructors",
+      "statisticId": "race_lap_records",
+      "metricId": "constructorRaceLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Race Lap Records",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=race_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:sprint_lap_records",
+      "entity": "constructors",
+      "statisticId": "sprint_lap_records",
+      "metricId": "constructorSprintLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Sprint Lap Records",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=sprint_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:track_records",
+      "entity": "constructors",
+      "statisticId": "track_records",
+      "metricId": "constructorTrackRecords",
+      "categoryId": "fastest-laps",
+      "label": "Track Records",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=track_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_championship_lead",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_championship_lead",
+      "metricId": "consecutiveConstructorChampionshipLead",
+      "categoryId": "grands-prix",
+      "label": "Championship Lead Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_championship_lead",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of completed Formula 1 World Championship seasons.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_championship_lead_grand_prix",
+      "entity": "constructors",
+      "statisticId": "constructor_championship_lead_grand_prix",
+      "metricId": "constructorChampionshipLeadGrandPrix",
+      "categoryId": "grands-prix",
+      "label": "Rounds Led in the Championship",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_championship_lead_grand_prix",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_start_chronology",
+      "entity": "constructors",
+      "statisticId": "constructor_start_chronology",
+      "metricId": "constructorStartChronology",
+      "categoryId": "grands-prix",
+      "label": "Grand Prix Start Timeline",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_start_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 25654,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 25654,
+      "dataPath": "metrics/constructors/constructor_start_chronology.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_start_interval",
+      "entity": "constructors",
+      "statisticId": "constructor_start_interval",
+      "metricId": "constructorStartInterval",
+      "categoryId": "grands-prix",
+      "label": "Time Between Starts",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_start_interval",
+      "presentation": "duration",
+      "definition": "Ranks Formula 1 constructors by elapsed days between the first and last qualifying days occurrences.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 165,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 165,
+      "dataPath": "metrics/constructors/constructor_start_interval.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_with_same_driver",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_with_same_driver",
+      "metricId": "constructorStartsWithSameDriver",
+      "categoryId": "grands-prix",
+      "label": "Starts by Driver",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_with_same_driver",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by driver.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 1946,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 1946,
+      "dataPath": "metrics/constructors/constructor_starts_with_same_driver.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_with_same_engine",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_with_same_engine",
+      "metricId": "constructorStartsWithSameEngine",
+      "categoryId": "grands-prix",
+      "label": "Starts by Engine",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_with_same_engine",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by engine manufacturer.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_without_fastest_lap",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_without_fastest_lap",
+      "metricId": "constructorStartsWithoutFastestLap",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_fastest_lap",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 152,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 152,
+      "dataPath": "metrics/constructors/constructor_starts_without_fastest_lap.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_without_podium",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_without_podium",
+      "metricId": "constructorStartsWithoutPodium",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Podium",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_podium",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 108,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 108,
+      "dataPath": "metrics/constructors/constructor_starts_without_podium.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_without_points",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_without_points",
+      "metricId": "constructorStartsWithoutPoints",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without Points",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_points",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 83,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 83,
+      "dataPath": "metrics/constructors/constructor_starts_without_points.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_without_pole",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_without_pole",
+      "metricId": "constructorStartsWithoutPole",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Pole",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_pole",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 169,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 169,
+      "dataPath": "metrics/constructors/constructor_starts_without_pole.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_starts_without_win",
+      "entity": "constructors",
+      "statisticId": "constructor_starts_without_win",
+      "metricId": "constructorStartsWithoutWin",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Win",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_win",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 133,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 133,
+      "dataPath": "metrics/constructors/constructor_starts_without_win.json"
+    },
+    {
+      "registryMetricId": "constructors:grands_prix_starts",
+      "entity": "constructors",
+      "statisticId": "grands_prix_starts",
+      "metricId": "grandPrixStarts",
+      "categoryId": "grands-prix",
+      "label": "Grand Prix Starts",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=grands_prix_starts",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/grands_prix_starts.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_one_two_poles",
+      "entity": "constructors",
+      "statisticId": "constructor_one_two_poles",
+      "metricId": "constructorOneTwoPoles",
+      "categoryId": "pole-positions",
+      "label": "Qualifying Front Row Sweeps",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_one_two_poles",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by Grand Prix one-two finishes, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/constructor_one_two_poles.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_never_qualified",
+      "entity": "constructors",
+      "statisticId": "constructor_never_qualified",
+      "metricId": "constructorNeverQualified",
+      "categoryId": "qualifying",
+      "label": "Did Not Qualify (DNQ)",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_never_qualified",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_front_row_lockouts",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_front_row_lockouts",
+      "metricId": "consecutiveConstructorFrontRowLockouts",
+      "categoryId": "race-performance",
+      "label": "Front Row Lockout Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_front_row_lockouts",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 30,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 30,
+      "dataPath": "metrics/constructors/consecutive_constructor_front_row_lockouts.json"
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_front_rows",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_front_rows",
+      "metricId": "consecutiveConstructorFrontRows",
+      "categoryId": "race-performance",
+      "label": "Front Row Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_front_rows",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 78,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 78,
+      "dataPath": "metrics/constructors/consecutive_constructor_front_rows.json"
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_grand_prix_led",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_grand_prix_led",
+      "metricId": "consecutiveConstructorGrandPrixLed",
+      "categoryId": "race-performance",
+      "label": "GP Lead Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_grand_prix_led",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of Grand Prix entries.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_kilometres_led",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_kilometres_led",
+      "metricId": "consecutiveConstructorKilometresLed",
+      "categoryId": "race-performance",
+      "label": "Kilometres-Led Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_kilometres_led",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_laps_led",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_laps_led",
+      "metricId": "consecutiveConstructorLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps-Led Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_laps_led",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:consecutive_constructor_lead_seasons",
+      "entity": "constructors",
+      "statisticId": "consecutive_constructor_lead_seasons",
+      "metricId": "consecutiveConstructorLeadSeasons",
+      "categoryId": "race-performance",
+      "label": "Lead Season Streak",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_lead_seasons",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of seasons.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_different_engines",
+      "entity": "constructors",
+      "statisticId": "constructor_different_engines",
+      "metricId": "constructorDifferentEngines",
+      "categoryId": "race-performance",
+      "label": "Engine Manufacturers Used",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_different_engines",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by distinct engine manufacturer groups containing eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_different_models",
+      "entity": "constructors",
+      "statisticId": "constructor_different_models",
+      "metricId": "constructorDifferentModels",
+      "categoryId": "race-performance",
+      "label": "Car Models Raced",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_different_models",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by distinct car model groups containing eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_front_row_lockouts",
+      "entity": "constructors",
+      "statisticId": "constructor_front_row_lockouts",
+      "metricId": "constructorFrontRowLockouts",
+      "categoryId": "race-performance",
+      "label": "Front Row Lockouts",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_row_lockouts",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/constructor_front_row_lockouts.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_front_row_starts",
+      "entity": "constructors",
+      "statisticId": "constructor_front_row_starts",
+      "metricId": "constructorFrontRowStarts",
+      "categoryId": "race-performance",
+      "label": "Front Row Starts",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_row_starts",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/constructor_front_row_starts.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_front_rows_by_circuit",
+      "entity": "constructors",
+      "statisticId": "constructor_front_rows_by_circuit",
+      "metricId": "constructorFrontRowsByCircuit",
+      "categoryId": "race-performance",
+      "label": "Front Rows by Circuit",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_rows_by_circuit",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by circuit.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 640,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 640,
+      "dataPath": "metrics/constructors/constructor_front_rows_by_circuit.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_front_rows_by_grand_prix",
+      "entity": "constructors",
+      "statisticId": "constructor_front_rows_by_grand_prix",
+      "metricId": "constructorFrontRowsByGrandPrix",
+      "categoryId": "race-performance",
+      "label": "Front Rows by GP",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_rows_by_grand_prix",
+      "presentation": "grouped",
+      "definition": "Ranks Grand Prix entries for each Formula 1 constructor grouped by Grand Prix name.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 560,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 560,
+      "dataPath": "metrics/constructors/constructor_front_rows_by_grand_prix.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_grand_prix_led",
+      "entity": "constructors",
+      "statisticId": "constructor_grand_prix_led",
+      "metricId": "constructorGrandPrixLed",
+      "categoryId": "race-performance",
+      "label": "GPs Led",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_grand_prix_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_grand_slams",
+      "entity": "constructors",
+      "statisticId": "constructor_grand_slams",
+      "metricId": "constructorGrandSlams",
+      "categoryId": "race-performance",
+      "label": "Grand Slams",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_grand_slams",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_hat_tricks",
+      "entity": "constructors",
+      "statisticId": "constructor_hat_tricks",
+      "metricId": "constructorHatTricks",
+      "categoryId": "race-performance",
+      "label": "Hat Tricks",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_hat_tricks",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/constructor_hat_tricks.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_kilometres_led",
+      "entity": "constructors",
+      "statisticId": "constructor_kilometres_led",
+      "metricId": "constructorKilometresLed",
+      "categoryId": "race-performance",
+      "label": "Kilometres Led",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_kilometres_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_laps_led",
+      "entity": "constructors",
+      "statisticId": "constructor_laps_led",
+      "metricId": "constructorLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps Led",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_laps_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_lead_chronology",
+      "entity": "constructors",
+      "statisticId": "constructor_lead_chronology",
+      "metricId": "constructorLeadChronology",
+      "categoryId": "race-performance",
+      "label": "Race Lead Timeline",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_lead_seasons",
+      "entity": "constructors",
+      "statisticId": "constructor_lead_seasons",
+      "metricId": "constructorLeadSeasons",
+      "categoryId": "race-performance",
+      "label": "Seasons Leading a GP",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_seasons",
+      "presentation": "numeric",
+      "definition": "Ranks constructors by the number of distinct seasons containing at least one seasons occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_season_front_rows",
+      "entity": "constructors",
+      "statisticId": "constructor_season_front_rows",
+      "metricId": "constructorSeasonFrontRows",
+      "categoryId": "race-performance",
+      "label": "Front-Row Starts in a Season",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_front_rows",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 456,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 456,
+      "dataPath": "metrics/constructors/constructor_season_front_rows.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_season_grand_prix_led",
+      "entity": "constructors",
+      "statisticId": "constructor_season_grand_prix_led",
+      "metricId": "constructorSeasonGrandPrixLed",
+      "categoryId": "race-performance",
+      "label": "GPs Led in a Season",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_grand_prix_led",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_season_kilometres_led",
+      "entity": "constructors",
+      "statisticId": "constructor_season_kilometres_led",
+      "metricId": "constructorSeasonKilometresLed",
+      "categoryId": "race-performance",
+      "label": "Kilometres Led in a Season",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_kilometres_led",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_season_laps_led",
+      "entity": "constructors",
+      "statisticId": "constructor_season_laps_led",
+      "metricId": "constructorSeasonLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps Led in a Season",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_laps_led",
+      "presentation": "seasonal",
+      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_winner_lap_finishes",
+      "entity": "constructors",
+      "statisticId": "constructor_winner_lap_finishes",
+      "metricId": "constructorWinnerLapFinishes",
+      "categoryId": "race-performance",
+      "label": "Finishes on Winner's Lap",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_winner_lap_finishes",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 171,
+          "knownClassificationRowCount": 25674,
+          "unknownLapRowCount": 469,
+          "sharedDriveRowsExcluded": 229
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 171,
+      "dataPath": "metrics/constructors/constructor_winner_lap_finishes.json"
+    },
+    {
+      "registryMetricId": "constructors:gps_before_first_constructor_lead",
+      "entity": "constructors",
+      "statisticId": "gps_before_first_constructor_lead",
+      "metricId": "gpsBeforeFirstConstructorLead",
+      "categoryId": "race-performance",
+      "label": "GPs to First Lead",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=gps_before_first_constructor_lead",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_fastest_laps",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_fastest_laps",
+      "metricId": "constructorSprintFastestLaps",
+      "categoryId": "sprint",
+      "label": "Sprint Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_fastest_laps",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_kilometres_led",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_kilometres_led",
+      "metricId": "constructorSprintKilometresLed",
+      "categoryId": "sprint",
+      "label": "Sprint Kilometres Led",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_kilometres_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_laps_led",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_laps_led",
+      "metricId": "constructorSprintLapsLed",
+      "categoryId": "sprint",
+      "label": "Sprint Laps Led",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_laps_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_podiums",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_podiums",
+      "metricId": "constructorSprintPodiums",
+      "categoryId": "sprint",
+      "label": "Sprint Podiums",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_podiums",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 14,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 14,
+      "dataPath": "metrics/constructors/constructor_sprint_podiums.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_points",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_points",
+      "metricId": "constructorSprintPoints",
+      "categoryId": "sprint",
+      "label": "Sprint Points",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_points",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 14,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 14,
+      "dataPath": "metrics/constructors/constructor_sprint_points.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_poles",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_poles",
+      "metricId": "constructorSprintPoles",
+      "categoryId": "sprint",
+      "label": "Sprint Pole Positions",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_poles",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 14,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 14,
+      "dataPath": "metrics/constructors/constructor_sprint_poles.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_sprint_wins",
+      "entity": "constructors",
+      "statisticId": "constructor_sprint_wins",
+      "metricId": "constructorSprintWins",
+      "categoryId": "sprint",
+      "label": "Sprint Wins",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_wins",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 14,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 14,
+      "dataPath": "metrics/constructors/constructor_sprint_wins.json"
+    },
+    {
+      "registryMetricId": "constructors:constructor_wins_by_model",
+      "entity": "constructors",
+      "statisticId": "constructor_wins_by_model",
+      "metricId": "constructorWinsByModel",
+      "categoryId": "wins",
+      "label": "Wins by Car Model",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_wins_by_model",
+      "presentation": "grouped",
+      "definition": "Ranks official Grand Prix wins for each Formula 1 constructor grouped by car model.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned car model identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "constructors:wins_by_engine",
+      "entity": "constructors",
+      "statisticId": "wins_by_engine",
+      "metricId": "constructorWinsByEngine",
+      "categoryId": "wins",
+      "label": "Wins by Engine",
+      "route": "/f1/stats/statistic/?entity=constructors&statistic=wins_by_engine",
+      "presentation": "grouped",
+      "definition": "Ranks official Grand Prix wins for each Formula 1 constructor grouped by engine manufacturer.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_championship_podiums",
+      "entity": "drivers",
+      "statisticId": "driver_championship_podiums",
+      "metricId": "driverChampionshipPodiums",
+      "categoryId": "championships",
+      "label": "Championship Top-Three Finishes",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_championship_podiums",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 72,
+          "completedSeasonCount": 76,
+          "oldestSeason": 1950,
+          "latestSeason": 2025
+        },
+        "target": {
+          "completedSeasonCount": 76,
+          "oldestSeason": 1950,
+          "latestSeason": 2025
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 72,
+      "dataPath": "metrics/drivers/driver_championship_podiums.json"
+    },
+    {
+      "registryMetricId": "drivers:gps_before_first_championship",
+      "entity": "drivers",
+      "statisticId": "gps_before_first_championship",
+      "metricId": "gpsBeforeFirstChampionship",
+      "categoryId": "championships",
+      "label": "GPs to First Title",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_championship",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The archive identifies each season champion but not the exact event at which the first title became mathematically secure.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:runner_up_driver_championships",
+      "entity": "drivers",
+      "statisticId": "runner_up_driver_championships",
+      "metricId": "runnerUpDriverChampionships",
+      "categoryId": "championships",
+      "label": "Runner-Up Seasons",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=runner_up_driver_championships",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 50,
+          "completedSeasonCount": 76,
+          "oldestSeason": 1950,
+          "latestSeason": 2025
+        },
+        "target": {
+          "completedSeasonCount": 76,
+          "oldestSeason": 1950,
+          "latestSeason": 2025
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 50,
+      "dataPath": "metrics/drivers/runner_up_driver_championships.json"
+    },
+    {
+      "registryMetricId": "drivers:consecutive_driver_fastest_laps",
+      "entity": "drivers",
+      "statisticId": "consecutive_driver_fastest_laps",
+      "metricId": "consecutiveDriverFastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Fastest-Lap Streak",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_fastest_laps",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/consecutive_driver_fastest_laps.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_lap_chronology",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_lap_chronology",
+      "metricId": "driverFastestLapChronology",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Lap Timeline",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 443,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 443,
+      "dataPath": "metrics/drivers/driver_fastest_lap_chronology.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_lap_interval",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_lap_interval",
+      "metricId": "driverFastestLapInterval",
+      "categoryId": "fastest-laps",
+      "label": "Time Between Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_interval",
+      "presentation": "duration",
+      "definition": "Ranks Formula 1 drivers by elapsed days between the first and last qualifying days occurrences.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/driver_fastest_lap_interval.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_lap_record_chronology",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_lap_record_chronology",
+      "metricId": "driverFastestLapRecordChronology",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Lap Record Timeline",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_record_chronology",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_lap_seasons",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_lap_seasons",
+      "metricId": "driverFastestLapSeasons",
+      "categoryId": "fastest-laps",
+      "label": "Seasons With a Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_seasons",
+      "presentation": "numeric",
+      "definition": "Ranks drivers by the number of distinct seasons containing at least one seasons occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/driver_fastest_lap_seasons.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_laps_by_circuit",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_laps_by_circuit",
+      "metricId": "driverFastestLapsByCircuit",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps by Circuit",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_laps_by_circuit",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by circuit.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 297,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 297,
+      "dataPath": "metrics/drivers/driver_fastest_laps_by_circuit.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_laps_by_grand_prix",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_laps_by_grand_prix",
+      "metricId": "driverFastestLapsByGrandPrix",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps by GP",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_laps_by_grand_prix",
+      "presentation": "grouped",
+      "definition": "Ranks Grand Prix entries for each Formula 1 driver grouped by Grand Prix name.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 300,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 300,
+      "dataPath": "metrics/drivers/driver_fastest_laps_by_grand_prix.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_season_fastest_laps",
+      "entity": "drivers",
+      "statisticId": "driver_season_fastest_laps",
+      "metricId": "driverSeasonFastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Laps in a Season",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_fastest_laps",
+      "presentation": "seasonal",
+      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 167,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 167,
+      "dataPath": "metrics/drivers/driver_season_fastest_laps.json"
+    },
+    {
+      "registryMetricId": "drivers:fastest_ever_lap",
+      "entity": "drivers",
+      "statisticId": "fastest_ever_lap",
+      "metricId": "driverFastestEverLap",
+      "categoryId": "fastest-laps",
+      "label": "Fastest Ever Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=fastest_ever_lap",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:fastest_laps_total",
+      "entity": "drivers",
+      "statisticId": "fastest_laps_total",
+      "metricId": "fastestLaps",
+      "categoryId": "fastest-laps",
+      "label": "Total Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_total",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/fastest_laps_total.json"
+    },
+    {
+      "registryMetricId": "drivers:first_fastest_lap",
+      "entity": "drivers",
+      "statisticId": "first_fastest_lap",
+      "metricId": "firstFastestLap",
+      "categoryId": "fastest-laps",
+      "label": "First Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=first_fastest_lap",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/first_fastest_lap.json"
+    },
+    {
+      "registryMetricId": "drivers:gps_before_first_fastest_lap",
+      "entity": "drivers",
+      "statisticId": "gps_before_first_fastest_lap",
+      "metricId": "gpsBeforeFirstFastestLap",
+      "categoryId": "fastest-laps",
+      "label": "GPs to First Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_fastest_lap",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/gps_before_first_fastest_lap.json"
+    },
+    {
+      "registryMetricId": "drivers:last_fastest_lap",
+      "entity": "drivers",
+      "statisticId": "last_fastest_lap",
+      "metricId": "lastFastestLap",
+      "categoryId": "fastest-laps",
+      "label": "Last Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=last_fastest_lap",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by the latest event in which each recorded eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 43,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 43,
+      "dataPath": "metrics/drivers/last_fastest_lap.json"
+    },
+    {
+      "registryMetricId": "drivers:qualifying_lap_records",
+      "entity": "drivers",
+      "statisticId": "qualifying_lap_records",
+      "metricId": "driverQualifyingLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Qualifying Lap Records",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=qualifying_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:race_lap_records",
+      "entity": "drivers",
+      "statisticId": "race_lap_records",
+      "metricId": "driverRaceLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Race Lap Records",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=race_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:sprint_lap_records",
+      "entity": "drivers",
+      "statisticId": "sprint_lap_records",
+      "metricId": "driverSprintLapRecords",
+      "categoryId": "fastest-laps",
+      "label": "Sprint Lap Records",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=sprint_lap_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:track_records",
+      "entity": "drivers",
+      "statisticId": "track_records",
+      "metricId": "driverTrackRecords",
+      "categoryId": "fastest-laps",
+      "label": "Track Records",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=track_records",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:consecutive_driver_starts",
+      "entity": "drivers",
+      "statisticId": "consecutive_driver_starts",
+      "metricId": "consecutiveDriverStarts",
+      "categoryId": "grands-prix",
+      "label": "Start Streak",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_starts",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 796,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 796,
+      "dataPath": "metrics/drivers/consecutive_driver_starts.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_kilometres_raced",
+      "entity": "drivers",
+      "statisticId": "driver_kilometres_raced",
+      "metricId": "driverKilometresRaced",
+      "categoryId": "grands-prix",
+      "label": "Kilometres Raced",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_kilometres_raced",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Circuit length changes cannot be reconstructed from the current circuit identity alone.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_laps_raced",
+      "entity": "drivers",
+      "statisticId": "driver_laps_raced",
+      "metricId": "driverLapsRaced",
+      "categoryId": "grands-prix",
+      "label": "Laps Raced",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_raced",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 25674,
+          "unknownLapRowCount": 469,
+          "sharedDriveRowsExcluded": 229
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_laps_raced.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_start_chronology",
+      "entity": "drivers",
+      "statisticId": "driver_start_chronology",
+      "metricId": "driverStartChronology",
+      "categoryId": "grands-prix",
+      "label": "Grand Prix Start Timeline",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_start_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 25682,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 25682,
+      "dataPath": "metrics/drivers/driver_start_chronology.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_start_interval",
+      "entity": "drivers",
+      "statisticId": "driver_start_interval",
+      "metricId": "driverStartInterval",
+      "categoryId": "grands-prix",
+      "label": "Time Between Starts",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_start_interval",
+      "presentation": "duration",
+      "definition": "Ranks Formula 1 drivers by elapsed days between the first and last qualifying days occurrences.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 796,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 796,
+      "dataPath": "metrics/drivers/driver_start_interval.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_starts_with_same_constructor",
+      "entity": "drivers",
+      "statisticId": "driver_starts_with_same_constructor",
+      "metricId": "driverStartsWithSameConstructor",
+      "categoryId": "grands-prix",
+      "label": "Starts by Constructor",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_with_same_constructor",
+      "presentation": "driver-constructor",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by constructor chassis identity.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 1857,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 1857,
+      "dataPath": "metrics/drivers/driver_starts_with_same_constructor.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_starts_without_podium",
+      "entity": "drivers",
+      "statisticId": "driver_starts_without_podium",
+      "metricId": "driverStartsWithoutPodium",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Podium",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_podium",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 604,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 604,
+      "dataPath": "metrics/drivers/driver_starts_without_podium.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_starts_without_points",
+      "entity": "drivers",
+      "statisticId": "driver_starts_without_points",
+      "metricId": "driverStartsWithoutPoints",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without Points",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_points",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 467,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 467,
+      "dataPath": "metrics/drivers/driver_starts_without_points.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_starts_without_win",
+      "entity": "drivers",
+      "statisticId": "driver_starts_without_win",
+      "metricId": "driverStartsWithoutWin",
+      "categoryId": "grands-prix",
+      "label": "Most Starts Without a Win",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_win",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 707,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 707,
+      "dataPath": "metrics/drivers/driver_starts_without_win.json"
+    },
+    {
+      "registryMetricId": "drivers:grands_prix_starts",
+      "entity": "drivers",
+      "statisticId": "grands_prix_starts",
+      "metricId": "grandPrixStarts",
+      "categoryId": "grands-prix",
+      "label": "Grand Prix Starts",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=grands_prix_starts",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/grands_prix_starts.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_average_points_per_start",
+      "entity": "drivers",
+      "statisticId": "driver_average_points_per_start",
+      "metricId": "driverAveragePointsPerStart",
+      "categoryId": "points",
+      "label": "Average Points per Start",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_average_points_per_start",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 796,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 796,
+      "dataPath": "metrics/drivers/driver_average_points_per_start.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_fastest_qualifying",
+      "entity": "drivers",
+      "statisticId": "driver_fastest_qualifying",
+      "metricId": "driverFastestQualifying",
+      "categoryId": "qualifying",
+      "label": "Fastest Qualifying Laps",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_qualifying",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_never_qualified",
+      "entity": "drivers",
+      "statisticId": "driver_never_qualified",
+      "metricId": "driverNeverQualified",
+      "categoryId": "qualifying",
+      "label": "Did Not Qualify (DNQ)",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_never_qualified",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_q3_appearances",
+      "entity": "drivers",
+      "statisticId": "driver_q3_appearances",
+      "metricId": "driverQ3Appearances",
+      "categoryId": "qualifying",
+      "label": "Q3 Appearances",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_q3_appearances",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:consecutive_driver_front_rows",
+      "entity": "drivers",
+      "statisticId": "consecutive_driver_front_rows",
+      "metricId": "consecutiveDriverFrontRows",
+      "categoryId": "race-performance",
+      "label": "Front Row Streak",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_front_rows",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 267,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 267,
+      "dataPath": "metrics/drivers/consecutive_driver_front_rows.json"
+    },
+    {
+      "registryMetricId": "drivers:consecutive_grand_prix_led",
+      "entity": "drivers",
+      "statisticId": "consecutive_grand_prix_led",
+      "metricId": "consecutiveGrandPrixLed",
+      "categoryId": "race-performance",
+      "label": "GP Lead Streak",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_grand_prix_led",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of Grand Prix entries.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:consecutive_laps_led",
+      "entity": "drivers",
+      "statisticId": "consecutive_laps_led",
+      "metricId": "consecutiveLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps-Led Streak",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_laps_led",
+      "presentation": "streak",
+      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_average_grid",
+      "entity": "drivers",
+      "statisticId": "driver_average_grid",
+      "metricId": "driverAverageGrid",
+      "categoryId": "race-performance",
+      "label": "Average Starting Position",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_average_grid",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 817,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 817,
+      "dataPath": "metrics/drivers/driver_average_grid.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_best_grid_gain",
+      "entity": "drivers",
+      "statisticId": "driver_best_grid_gain",
+      "metricId": "driverBestGridGain",
+      "categoryId": "race-performance",
+      "label": "Most Positions Gained in a Race",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_best_grid_gain",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 677,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 677,
+      "dataPath": "metrics/drivers/driver_best_grid_gain.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_championship_h2_h",
+      "entity": "drivers",
+      "statisticId": "driver_championship_h2_h",
+      "metricId": "driverChampionshipH2H",
+      "categoryId": "race-performance",
+      "label": "Championship Head-to-Head",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_championship_h2_h",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers using complete eligible same-constructor teammate comparisons for this result definition.",
+      "scope": "Completed Formula 1 World Championship seasons",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "This head-to-head definition needs identity-resolved standings or qualifying evidence beyond same-constructor Grand Prix classifications.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_did_not_start",
+      "entity": "drivers",
+      "statisticId": "driver_did_not_start",
+      "metricId": "driverDidNotStart",
+      "categoryId": "race-performance",
+      "label": "Did Not Start (DNS)",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_did_not_start",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 26132,
+          "unknownStartRowCount": 11
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_did_not_start.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_different_engines",
+      "entity": "drivers",
+      "statisticId": "driver_different_engines",
+      "metricId": "driverDifferentEngines",
+      "categoryId": "race-performance",
+      "label": "Engine Manufacturers Driven For",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_different_engines",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by distinct engine manufacturer groups containing eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_first_across_line_without_win",
+      "entity": "drivers",
+      "statisticId": "driver_first_across_line_without_win",
+      "metricId": "driverFirstAcrossLineWithoutWin",
+      "categoryId": "race-performance",
+      "label": "First Across the Line Without an Official Win",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_across_line_without_win",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded official Grand Prix wins.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The final classification does not preserve complete pre-penalty finish-line order.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_first_lap_retirements",
+      "entity": "drivers",
+      "statisticId": "driver_first_lap_retirements",
+      "metricId": "driverFirstLapRetirements",
+      "categoryId": "race-performance",
+      "label": "First-Lap DNFs",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_lap_retirements",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded Grand Prix retirements.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 25674,
+          "unknownLapRowCount": 469,
+          "sharedDriveRowsExcluded": 229
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_first_lap_retirements.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_first_race_grid",
+      "entity": "drivers",
+      "statisticId": "driver_first_race_grid",
+      "metricId": "driverFirstRaceGrid",
+      "categoryId": "race-performance",
+      "label": "Starting Position on Debut",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_race_grid",
+      "presentation": "event",
+      "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded eligible Grand Prix results.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 808,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 808,
+      "dataPath": "metrics/drivers/driver_first_race_grid.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_front_row_duos",
+      "entity": "drivers",
+      "statisticId": "driver_front_row_duos",
+      "metricId": "driverFrontRowDuos",
+      "categoryId": "race-performance",
+      "label": "Most Frequent Front Row Pairings",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_row_duos",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by entity.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 378,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 378,
+      "dataPath": "metrics/drivers/driver_front_row_duos.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_front_row_starts",
+      "entity": "drivers",
+      "statisticId": "driver_front_row_starts",
+      "metricId": "driverFrontRowStarts",
+      "categoryId": "race-performance",
+      "label": "Front Row Starts",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_row_starts",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_front_row_starts.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_front_rows_by_circuit",
+      "entity": "drivers",
+      "statisticId": "driver_front_rows_by_circuit",
+      "metricId": "driverFrontRowsByCircuit",
+      "categoryId": "race-performance",
+      "label": "Front Rows by Circuit",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_rows_by_circuit",
+      "presentation": "grouped",
+      "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by circuit.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 1395,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 1395,
+      "dataPath": "metrics/drivers/driver_front_rows_by_circuit.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_front_rows_by_grand_prix",
+      "entity": "drivers",
+      "statisticId": "driver_front_rows_by_grand_prix",
+      "metricId": "driverFrontRowsByGrandPrix",
+      "categoryId": "race-performance",
+      "label": "Front Rows by GP",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_rows_by_grand_prix",
+      "presentation": "grouped",
+      "definition": "Ranks Grand Prix entries for each Formula 1 driver grouped by Grand Prix name.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 1330,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 1330,
+      "dataPath": "metrics/drivers/driver_front_rows_by_grand_prix.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_grand_prix_led",
+      "entity": "drivers",
+      "statisticId": "driver_grand_prix_led",
+      "metricId": "driverGrandPrixLed",
+      "categoryId": "race-performance",
+      "label": "GPs Led",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_grand_prix_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_grand_slams",
+      "entity": "drivers",
+      "statisticId": "driver_grand_slams",
+      "metricId": "driverGrandSlams",
+      "categoryId": "race-performance",
+      "label": "Grand Slams",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_grand_slams",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_hat_tricks",
+      "entity": "drivers",
+      "statisticId": "driver_hat_tricks",
+      "metricId": "driverHatTricks",
+      "categoryId": "race-performance",
+      "label": "Hat Tricks",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_hat_tricks",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_hat_tricks.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_kilometres_led",
+      "entity": "drivers",
+      "statisticId": "driver_kilometres_led",
+      "metricId": "driverKilometresLed",
+      "categoryId": "race-performance",
+      "label": "Kilometres Led",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_kilometres_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_laps_led",
+      "entity": "drivers",
+      "statisticId": "driver_laps_led",
+      "metricId": "driverLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps Led",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_laps_led_without_win",
+      "entity": "drivers",
+      "statisticId": "driver_laps_led_without_win",
+      "metricId": "driverLapsLedWithoutWin",
+      "categoryId": "race-performance",
+      "label": "Laps Led Without a Win",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led_without_win",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_lead_chronology",
+      "entity": "drivers",
+      "statisticId": "driver_lead_chronology",
+      "metricId": "driverLeadChronology",
+      "categoryId": "race-performance",
+      "label": "Race Lead Timeline",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_chronology",
+      "presentation": "event",
+      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_lead_seasons",
+      "entity": "drivers",
+      "statisticId": "driver_lead_seasons",
+      "metricId": "driverLeadSeasons",
+      "categoryId": "race-performance",
+      "label": "Seasons Leading a GP",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_seasons",
+      "presentation": "numeric",
+      "definition": "Ranks drivers by the number of distinct seasons containing at least one seasons occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_lights_to_flag",
+      "entity": "drivers",
+      "statisticId": "driver_lights_to_flag",
+      "metricId": "driverLightsToFlag",
+      "categoryId": "race-performance",
+      "label": "Lights-to-Flag Wins",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lights_to_flag",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_qualifying_h2_hwins",
+      "entity": "drivers",
+      "statisticId": "driver_qualifying_h2_hwins",
+      "metricId": "driverQualifyingH2HWins",
+      "categoryId": "race-performance",
+      "label": "Qualifying Head-to-Head Wins",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_qualifying_h2_hwins",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers using complete eligible same-constructor teammate comparisons for this result definition.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Final race classifications and partial grids do not define complete historical qualifying sessions.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_season_front_rows",
+      "entity": "drivers",
+      "statisticId": "driver_season_front_rows",
+      "metricId": "driverSeasonFrontRows",
+      "categoryId": "race-performance",
+      "label": "Front-Row Starts in a Season",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_front_rows",
+      "presentation": "seasonal",
+      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 769,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 769,
+      "dataPath": "metrics/drivers/driver_season_front_rows.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_season_kilometres_led",
+      "entity": "drivers",
+      "statisticId": "driver_season_kilometres_led",
+      "metricId": "driverSeasonKilometresLed",
+      "categoryId": "race-performance",
+      "label": "Kilometres Led in a Season",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_kilometres_led",
+      "presentation": "seasonal",
+      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_season_laps_led",
+      "entity": "drivers",
+      "statisticId": "driver_season_laps_led",
+      "metricId": "driverSeasonLapsLed",
+      "categoryId": "race-performance",
+      "label": "Laps Led in a Season",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_laps_led",
+      "presentation": "seasonal",
+      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_winner_lap_finishes",
+      "entity": "drivers",
+      "statisticId": "driver_winner_lap_finishes",
+      "metricId": "driverWinnerLapFinishes",
+      "categoryId": "race-performance",
+      "label": "Finishes on Winner's Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_winner_lap_finishes",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownClassificationRowCount": 25674,
+          "unknownLapRowCount": 469,
+          "sharedDriveRowsExcluded": 229
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_winner_lap_finishes.json"
+    },
+    {
+      "registryMetricId": "drivers:gps_before_first_lead",
+      "entity": "drivers",
+      "statisticId": "gps_before_first_lead",
+      "metricId": "gpsBeforeFirstLead",
+      "categoryId": "race-performance",
+      "label": "GPs to First Lead",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_lead",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_fastest_laps",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_fastest_laps",
+      "metricId": "driverSprintFastestLaps",
+      "categoryId": "sprint",
+      "label": "Sprint Fastest Laps",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_fastest_laps",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_kilometres_led",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_kilometres_led",
+      "metricId": "driverSprintKilometresLed",
+      "categoryId": "sprint",
+      "label": "Sprint Kilometres Led",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_kilometres_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_laps_led",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_laps_led",
+      "metricId": "driverSprintLapsLed",
+      "categoryId": "sprint",
+      "label": "Sprint Laps Led",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_laps_led",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_podiums",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_podiums",
+      "metricId": "driverSprintPodiums",
+      "categoryId": "sprint",
+      "label": "Sprint Podiums",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_podiums",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 36,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 36,
+      "dataPath": "metrics/drivers/driver_sprint_podiums.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_points",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_points",
+      "metricId": "driverSprintPoints",
+      "categoryId": "sprint",
+      "label": "Sprint Points",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_points",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 36,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 36,
+      "dataPath": "metrics/drivers/driver_sprint_points.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_poles",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_poles",
+      "metricId": "driverSprintPoles",
+      "categoryId": "sprint",
+      "label": "Sprint Pole Positions",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_poles",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 36,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 36,
+      "dataPath": "metrics/drivers/driver_sprint_poles.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_sprint_wins",
+      "entity": "drivers",
+      "statisticId": "driver_sprint_wins",
+      "metricId": "driverSprintWins",
+      "categoryId": "sprint",
+      "label": "Sprint Wins",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_wins",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "B",
+      "status": "complete_through_cutoff",
+      "completeness": {
+        "current": {
+          "resultRowCount": 36,
+          "sprintResultPageCount": 28,
+          "sprintGridPageCount": 28
+        },
+        "target": {
+          "officialSprintResultPageCount": 28,
+          "officialSprintGridPageCount": 28
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 36,
+      "dataPath": "metrics/drivers/driver_sprint_wins.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_wins_and_fastest_laps",
+      "entity": "drivers",
+      "statisticId": "driver_wins_and_fastest_laps",
+      "metricId": "driverWinsAndFastestLaps",
+      "categoryId": "wins",
+      "label": "Wins With Fastest Lap",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_wins_and_fastest_laps",
+      "presentation": "numeric",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 823,
+          "knownRaceCount": 443,
+          "raceCount": 1160
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 823,
+      "dataPath": "metrics/drivers/driver_wins_and_fastest_laps.json"
+    },
+    {
+      "registryMetricId": "drivers:driver_wins_by_grid",
+      "entity": "drivers",
+      "statisticId": "driver_wins_by_grid",
+      "metricId": "driverWinsByGrid",
+      "categoryId": "wins",
+      "label": "Wins by Grid Position",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_wins_by_grid",
+      "presentation": "grouped",
+      "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by entity.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "A",
+      "status": "partial",
+      "completeness": {
+        "current": {
+          "resultRowCount": 371,
+          "knownClassificationRowCount": 26051,
+          "unknownGridRowCount": 92,
+          "ambiguousSharedDriveGridGroupCount": 63
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": null,
+      "rowCount": 371,
+      "dataPath": "metrics/drivers/driver_wins_by_grid.json"
+    },
+    {
+      "registryMetricId": "drivers:wins_by_engine",
+      "entity": "drivers",
+      "statisticId": "wins_by_engine",
+      "metricId": "driverWinsByEngine",
+      "categoryId": "wins",
+      "label": "Wins by Engine",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_by_engine",
+      "presentation": "grouped",
+      "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by engine manufacturer.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "The canonical archive does not contain a complete versioned engine identities contract.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:wins_oldest",
+      "entity": "drivers",
+      "statisticId": "wins_oldest",
+      "metricId": "driverOldestWinners",
+      "categoryId": "wins",
+      "label": "Oldest GP Winners",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_oldest",
+      "presentation": "age",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver.",
+      "rowCount": 0,
+      "dataPath": null
+    },
+    {
+      "registryMetricId": "drivers:wins_youngest",
+      "entity": "drivers",
+      "statisticId": "wins_youngest",
+      "metricId": "ageAtFirstWin",
+      "categoryId": "wins",
+      "label": "Youngest GP Winners",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_youngest",
+      "presentation": "age",
+      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "cutoff": "2026-07-26",
+      "evidenceClass": "C",
+      "status": "blocked",
+      "completeness": {
+        "current": {
+          "resultRowCount": 0
+        },
+        "target": {
+          "seasonCount": 77,
+          "raceCount": 1160,
+          "classificationRowCount": 26143
+        }
+      },
+      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver.",
+      "rowCount": 0,
+      "dataPath": null
+    }
+  ]
+}

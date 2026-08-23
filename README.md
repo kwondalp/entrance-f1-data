@@ -93,3 +93,19 @@ combinations rather than inventing values. See
 ## Update safety
 
 Current-season post-race changes must follow `POST_RACE_UPDATE_RULES.md`. Preserve all stable IDs and public shapes, validate every changed JSON file, and never infer missing Formula 1 facts from an ingestion API.
+
+## Stats metric backfill v1
+
+`f1/stats-metric-backfill/v1/` is an additive, versioned public contract for the
+exact 144 Stats metrics that required evidence beyond the existing production
+package. `catalogue.json` describes every metric and points only available metrics
+to lazy payloads under `metrics/`; `inventory.json` records the exact A/B/C evidence
+classification; `coverage.json` reports availability; `schema.json` defines the
+contract; and `manifest.json` binds all files by byte size and SHA-256.
+
+Consumers must display raw numeric zero as zero, keep fractional values numeric,
+and use each metric's status, cutoff, completeness, and reason fields. A missing
+payload or blocked metric is not zero. Partial payloads exclude unknown evidence
+rows and must be labelled as evidence-scoped; they must not be presented as
+complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
+and current-season URLs and semantics are unchanged.

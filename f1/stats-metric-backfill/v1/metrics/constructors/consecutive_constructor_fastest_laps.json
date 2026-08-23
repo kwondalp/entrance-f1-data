@@ -1,0 +1,479 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "consecutive_constructor_fastest_laps",
+  "metricId": "consecutiveConstructorFastestLaps",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 19,
+      "knownRaceCount": 443,
+      "raceCount": 1160
+    },
+    "target": {
+      "seasonCount": 77,
+      "raceCount": 1160,
+      "classificationRowCount": 26143
+    }
+  },
+  "rowCount": 19,
+  "rows": [
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 9,
+      "firstEvent": {
+        "eventId": "event:2004-3:a76b931a13c1",
+        "eventIndex": 715,
+        "season": 2004,
+        "round": 3,
+        "date": "2004-04-04",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2004-11:d9c149776369",
+        "eventIndex": 723,
+        "season": 2004,
+        "round": 11,
+        "date": "2004-07-11",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 7,
+      "firstEvent": {
+        "eventId": "event:2014-9:14b405bdf48e",
+        "eventIndex": 905,
+        "season": 2014,
+        "round": 9,
+        "date": "2014-07-06",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:2014-15:9d365bdd6f6b",
+        "eventIndex": 911,
+        "season": 2014,
+        "round": 15,
+        "date": "2014-10-05",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:2005-10:daa97f49f1c6",
+        "eventIndex": 740,
+        "season": 2005,
+        "round": 10,
+        "date": "2005-07-03",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-15:b2d59b647d69",
+        "eventIndex": 745,
+        "season": 2005,
+        "round": 15,
+        "date": "2005-09-04",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 5,
+      "firstEvent": {
+        "eventId": "event:2023-7:a6e96c077c90",
+        "eventIndex": 1085,
+        "season": 2023,
+        "round": 7,
+        "date": "2023-06-04",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-11:c79fa9de36d6",
+        "eventIndex": 1089,
+        "season": 2023,
+        "round": 11,
+        "date": "2023-07-23",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2009-2:9fc931b3c1b2",
+        "eventIndex": 804,
+        "season": 2009,
+        "round": 2,
+        "date": "2009-04-05",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-3:934e056666a8",
+        "eventIndex": 805,
+        "season": 2009,
+        "round": 3,
+        "date": "2009-04-19",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2006-16:7bfaf3863247",
+        "eventIndex": 765,
+        "season": 2006,
+        "round": 16,
+        "date": "2006-10-01",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-17:d5b002633b8f",
+        "eventIndex": 766,
+        "season": 2006,
+        "round": 17,
+        "date": "2006-10-08",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2022-18:fb093cfb1f59",
+        "eventIndex": 1074,
+        "season": 2022,
+        "round": 18,
+        "date": "2022-10-09",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "lastEvent": {
+        "eventId": "event:2022-18:fb093cfb1f59",
+        "eventIndex": 1074,
+        "season": 2022,
+        "round": 18,
+        "date": "2022-10-09",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2024-19:a3e9b634a155",
+        "eventIndex": 1119,
+        "season": 2024,
+        "round": 19,
+        "date": "2024-10-20",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "americas"
+      },
+      "lastEvent": {
+        "eventId": "event:2024-19:a3e9b634a155",
+        "eventIndex": 1119,
+        "season": 2024,
+        "round": 19,
+        "date": "2024-10-20",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "americas"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2023-13:b6146f85fd1b",
+        "eventIndex": 1091,
+        "season": 2023,
+        "round": 13,
+        "date": "2023-08-27",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-13:b6146f85fd1b",
+        "eventIndex": 1091,
+        "season": 2023,
+        "round": 13,
+        "date": "2023-08-27",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2008-2:f37d5bc86c83",
+        "eventIndex": 786,
+        "season": 2008,
+        "round": 2,
+        "date": "2008-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-2:f37d5bc86c83",
+        "eventIndex": 786,
+        "season": 2008,
+        "round": 2,
+        "date": "2008-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2009-13:6a0e47ebce81",
+        "eventIndex": 815,
+        "season": 2009,
+        "round": 13,
+        "date": "2009-09-13",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-13:6a0e47ebce81",
+        "eventIndex": 815,
+        "season": 2009,
+        "round": 13,
+        "date": "2009-09-13",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:haas:6657555dbb08",
+      "entityName": "Haas F1 Team",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2018-15:71c758bcbb38",
+        "eventIndex": 990,
+        "season": 2018,
+        "round": 15,
+        "date": "2018-09-16",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "lastEvent": {
+        "eventId": "event:2018-15:71c758bcbb38",
+        "eventIndex": 990,
+        "season": 2018,
+        "round": 15,
+        "date": "2018-09-16",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2012-2:895faf5b7748",
+        "eventIndex": 859,
+        "season": 2012,
+        "round": 2,
+        "date": "2012-03-25",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-2:895faf5b7748",
+        "eventIndex": 859,
+        "season": 2012,
+        "round": 2,
+        "date": "2012-03-25",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:rb:34926e4c6434",
+      "entityName": "RB F1 Team",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2024-18:eaa69f09f4a4",
+        "eventIndex": 1118,
+        "season": 2024,
+        "round": 18,
+        "date": "2024-09-22",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "lastEvent": {
+        "eventId": "event:2024-18:eaa69f09f4a4",
+        "eventIndex": 1118,
+        "season": 2024,
+        "round": 18,
+        "date": "2024-09-22",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2012-3:db0e49c9ad35",
+        "eventIndex": 860,
+        "season": 2012,
+        "round": 3,
+        "date": "2012-04-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-3:db0e49c9ad35",
+        "eventIndex": 860,
+        "season": 2012,
+        "round": 3,
+        "date": "2012-04-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2016-5:c321cfd88c73",
+        "eventIndex": 939,
+        "season": 2016,
+        "round": 5,
+        "date": "2016-05-15",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "lastEvent": {
+        "eventId": "event:2016-5:c321cfd88c73",
+        "eventIndex": 939,
+        "season": 2016,
+        "round": 5,
+        "date": "2016-05-15",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2005-16:cca172420385",
+        "eventIndex": 746,
+        "season": 2005,
+        "round": 16,
+        "date": "2005-09-11",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-16:cca172420385",
+        "eventIndex": 746,
+        "season": 2005,
+        "round": 16,
+        "date": "2005-09-11",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2004-2:ab2918aa0bbf",
+        "eventIndex": 714,
+        "season": 2004,
+        "round": 2,
+        "date": "2004-03-21",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2004-2:ab2918aa0bbf",
+        "eventIndex": 714,
+        "season": 2004,
+        "round": 2,
+        "date": "2004-03-21",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "rank": 7
+    }
+  ]
+}

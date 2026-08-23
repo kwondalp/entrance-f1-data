@@ -4,6 +4,20 @@
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
 
+## Stats metric backfill v1 proposal
+
+The current unstaged additive package at `f1/stats-metric-backfill/v1/`
+inventories all 144 formerly evidence-blocked production metrics. It exposes 75
+lazy raw numeric payloads: 65 evidence-scoped partial results and ten results
+complete through their declared cutoff. The other 69 metrics remain in the
+catalogue with explicit blocked reasons and no data path.
+
+The package contains 80 checksum-bound files and preserves stable Driver and
+Constructor IDs, fractional values, genuine zeroes, per-metric coverage, source
+provenance, and structured unknowns. Existing public paths and Stats Core v1
+semantics are unchanged. This proposal is not staged, committed, pushed,
+published, or deployed; Web consumption is a separate sibling proposal.
+
 ## Current published contract
 
 ### 2026 Bahrain Grand Prix in Malaysia schedule proposal
