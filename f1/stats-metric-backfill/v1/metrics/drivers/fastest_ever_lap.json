@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "fastest_ever_lap",
+  "metricId": "driverFastestEverLap",
+  "status": "complete_through_cutoff",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 1,
+      "qualifyingResultRowCount": 26954,
+      "qualifyingValidTimeFieldCount": 36953,
+      "raceFastestLapRowCount": 17085,
+      "raceFastestValidTimeCount": 17085,
+      "candidateLapCount": 54038,
+      "higherAverageSpeedCandidateCount": 0,
+      "maximumAverageSpeedKph": 264.682,
+      "officialHistoricalClaimCorroborated": true
+    },
+    "target": {
+      "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+      "candidateLapCount": 54038,
+      "higherAverageSpeedCandidateCount": 0,
+      "officialHistoricalClaimCorroborated": true
+    }
+  },
+  "rowCount": 1,
+  "rows": [
+    {
+      "rank": 1,
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 264.682,
+      "valueEvent": {
+        "eventId": "event:2025-16:783044c500e9",
+        "eventIndex": 1140,
+        "season": 2025,
+        "round": 16,
+        "date": "2025-09-07",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "sessionDate": "2025-09-06",
+      "sessionType": "qualifying",
+      "circuitConfigurationId": "monza-7",
+      "lapTime": "1:18.792",
+      "lapTimeMillis": 78792,
+      "distanceKm": 5.793,
+      "averageSpeedKph": 264.682,
+      "lapValidity": "valid"
+    }
+  ]
+}

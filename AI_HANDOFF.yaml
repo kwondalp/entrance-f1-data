@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 11
+handoffVersion: 13
 currentState:
-  status: stats-non-lap-backfill-unstaged-proposal
-  summary: "The additive Stats package now contains 96 raw numeric payloads, 31 permission-required catalogue entries, and 17 unavailable entries. Twenty-one new partial metrics are generated from F1DB v2026.11.0 under CC BY 4.0 with exact canonical identity binding; ten lap-record products remain fail-closed because the retained evidence cannot safely satisfy their circuit-record or highest-average-speed semantics. No Formula 1/FIA lap-chart source is retained or redistributed, and no commit, push, publication, or deployment has occurred."
+  status: stats-fastest-ever-semantic-release-candidate
+  summary: "The additive Stats package contains 98 payloads, 31 permission-required catalogue entries, and 15 unavailable entries. OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01 replaces the unpublished zero-row minimum_lap_time contract with maximum_average_speed for the unchanged Driver and Constructor fastest_ever_lap IDs/routes. Both are complete through 2026-07-26 at one row each with a licensed F1DB v2026.11.0 recalculation, public manifest attribution, and official Formula 1 factual corroboration. The other 15 final-17 metrics remain fail-closed for their exact evidence blockers; no Formula 1/FIA lap chart or restricted timing source is retained or redistributed."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,10 +17,12 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: stats-final17-fastest-ever-lap-proposal
+    summary: Two checksum-bound complete-through-cutoff payloads add the Driver and Constructor holder of the fastest official qualifying or Grand Prix race lap by average speed under semantic approval OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01, retaining canonical identity, event, session, Monza configuration, lap duration, distance, km/h, fixed F1DB release/licence attribution, and unchanged IDs/routes while leaving the other 15 independently assessed metrics unavailable.
   - id: stats-non-lap-backfill-proposal
     summary: The shared package adds 21 licensed partial metric payloads and explicit permission_required, unavailable, publicationStatus, source-licence, raw-field, identity-dependency and coverage metadata while preserving raw numeric values and null data paths for unresolved metrics.
   - id: stats-metric-backfill-v1-proposal
-    summary: The additive versioned package provides an exact 144-metric inventory, 75 lazy raw numeric payloads, 69 fail-closed blocked entries, evidence cutoffs and completeness, provenance, Draft 2020-12 schema, coverage report, and checksum manifest for shared Web and future App consumption.
+    summary: The additive versioned package provides an exact 144-metric inventory, 98 lazy payloads, 46 fail-closed blocked entries, evidence cutoffs and completeness, provenance, Draft 2020-12 schema, coverage report, and checksum manifest for shared Web and future App consumption.
   - id: malaysia-calendar-round-16-proposal
     summary: The generated 2026 schedule candidate publishes 23 consecutive rounds, adds Bahrain Grand Prix in Malaysia at Sepang as Round 16 with verified UTC session starts, retains every existing stable race key, and shifts the seven later rounds forward by one without changing results, standings, or statistics.
   - id: stats-core-v1-proposal

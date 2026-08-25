@@ -27,6 +27,15 @@ the existing consumer contract.
 
 The accuracy-audited package is bound to Results Archive v2 through the 2026 Hungarian Grand Prix, Round 11. Its formal catalogue retains all 301 products: 157 evidence-complete public metrics and 144 explicitly blocked products. Independent reconstruction from the official archive reconciles all 157 public products with zero blockers; compared with the previous package, 155 are corrected and 2 remain unchanged at the metric-row level.
 
+The additive Stats metric backfill manifest records the owner-approved
+`fastest_ever_lap` semantic migration under
+`OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01`: the unpublished zero-row
+`minimum_lap_time` contract is replaced by `maximum_average_speed` without
+changing either Driver or Constructor metric ID or route. Its generated-source
+metadata exposes the fixed F1DB v2026.11.0 release URL, tag-fixed CC BY 4.0
+licence URL, creator attribution, and ENTRANCE filtering, canonical binding,
+distance/time calculation, and exclusion changes.
+
 Constructor statistics use a declared chassis-identity policy rather than engine-suffixed or organisation-lineage grouping. Original result identities remain available in detail evidence. Driver display policy uses `Kimi Antonelli` publicly while preserving source aliases. The blocked-product reassessment records 112 partial-evidence products, 32 products for which no complete official historical source was found, and zero evidence-complete actionable products left unpublished.
 
 The current-season contracts under `data/` are generated from the same official Hungary reconciliation: race winner Lando Norris, pole Lando Norris, fastest lap Charles Leclerc, and the FIA post-race championship standings. Publication and endpoint verification remain separate from repository-candidate validation and must be performed after the normal push sequence.
@@ -110,11 +119,17 @@ rows and must be labelled as evidence-scoped; they must not be presented as
 complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
 and current-season URLs and semantics are unchanged.
 
-The non-lap evidence extension publishes 96 metric payloads: the original 75
-plus 21 partial metrics derived from F1DB v2026.11.0 under CC BY 4.0. Exact
+The evidence extensions publish 98 metric payloads: the original 75, 21 partial
+metrics derived from F1DB v2026.11.0 under CC BY 4.0, and two
+`complete_through_cutoff` fastest-ever-lap payloads for the Driver and
+Constructor record holder. The latter retain average speed, lap time, session,
+event, circuit configuration, distance, and canonical identities; their public
+value is independently recalculated from licensed structured data and
+corroborated by the official Formula 1 historical-record claim. Exact
 canonical name-or-alias binding is required and unresolved identities are
-excluded. Of the remaining 48 metrics, 31 are `permission_required` and 17 are
+excluded. Of the remaining 46 metrics, 31 are `permission_required` and 15 are
 `unavailable`; all retain a null data path and must render as unavailable, never
-as numeric zero. The unavailable set includes ten lap-record products whose
-circuit-record or highest-average-speed semantics are not safely satisfied by
-the retained source. Formula 1/FIA lap charts are not included or redistributed.
+as numeric zero. Eight configuration/chronology lap-record products and all four
+Sprint fastest-lap products remain unavailable because their complete evidence
+contracts are not safely satisfied. Formula 1/FIA lap charts and restricted
+timing documents are not included or redistributed.

@@ -7,28 +7,44 @@
   "generatedFrom": {
     "producerId": "entrance-f1-data-tools/stats-metric-backfill-v1",
     "producerVersion": "1.0.0",
-    "producerSourceChecksumSha256": "cb8d0adf67b3b0675033a1d0ab0eea70d41ed7a8568636f17a8888bec15275aa",
+    "producerSourceChecksumSha256": "d7491513b6803f9083fd3f3cb21f58027a5357d9387ffb6a66ae7a9997622664",
     "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b",
-    "registrySha256": "2e11ebbdd36a1d7f8844b6745ea5cf15538d1e4b4f44216abb01317901963ec9",
+    "registrySha256": "6a80d73de5d6ea34cf3272913064179c46b832a2963e20abb956b2b4444de6e3",
     "officialPoleFixtureSha256": "7a1e3f545051eea658a881181458e609b0fdc618beb560c72bc86ac52bae4eaf",
     "constructorIdentityPolicySha256": "4c663b393dd3c8939bae40cb2dedb01bb5feae8af27baa30c01d33b56ebed86f",
     "driverIdentityPolicySha256": "488bc2e777580b4530f2abb8a383bc24ae648a0e349226b9a62b1b154ca55177",
     "officialFinalStandingsFixtureSha256": "3b6d07f14c833ec2b54cd170b2f33d3ddd7ef43de5eed264f4146134d72d3e74",
     "officialSprintFixtureSha256": "7e19b2a21ec105b790e6fe1029812a7045b5e6815cc6467bdec041d0ece93be4",
     "currentOfficialResultsFixtureSha256": "d96dcc5a6e752ab70bdbd9503e3ea2ea85db1c6a5a0a30c37ad751f718497642",
-    "nonLapEvidencePolicySha256": "1a2fffc05de94ba8c0b10ac71c664ab32fae164a73c823324cfdf32cef4ed154",
+    "nonLapEvidencePolicySha256": "b867f40a6c8926a4a0cba57034e1a5f1bb2f07ffc0c4b526665c5cb66e601d85",
+    "final17EvidenceAssessmentSha256": "87ef9648801e52aa507521e2f0eeef7e9071a7c97fe5225d5751273b7ca37bb3",
+    "final17EvidenceAssessmentSchemaSha256": "5a2eeb4588064f86c4a156416196f6311fcfdf172ab8bc082951510565404b39",
+    "final17ApprovalReference": "OWNER-20260825-STATS-FINAL17-01",
+    "fastestEverSemanticMigrationApproval": "OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01",
+    "fastestEverPreviousCalculation": "minimum_lap_time",
+    "fastestEverApprovedCalculation": "maximum_average_speed",
+    "fastestEverSourceProject": "F1DB by Marcel Overdijk and contributors",
+    "fastestEverSourceRelease": "F1DB v2026.11.0",
+    "fastestEverSourceUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+    "fastestEverLicense": "CC BY 4.0",
+    "fastestEverLicenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+    "fastestEverAttributionChanges": "ENTRANCE filtered eligible qualifying and race lap records, excluded unverifiable laps, bound canonical driver and constructor identities, and calculated average speed from verified circuit distance and lap time.",
+    "final17RequestAttemptCount": 6,
+    "final17FinalResponseByteCount": 7097782,
+    "final17Http403Count": 0,
+    "final17Http429Count": 0,
     "openDataArchiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
     "openDataLicense": "CC-BY-4.0",
     "openDataAttribution": "F1DB by Marcel Overdijk and contributors, licensed under CC BY 4.0"
   },
   "counts": {
     "total": 144,
-    "available": 96,
+    "available": 98,
     "partial": 86,
-    "completeThroughCutoff": 10,
-    "blocked": 48,
+    "completeThroughCutoff": 12,
+    "blocked": 46,
     "permissionRequired": 31,
-    "unavailable": 17,
+    "unavailable": 15,
     "drivers": 76,
     "constructors": 68
   },
@@ -42,26 +58,26 @@
     {
       "path": "catalogue.json",
       "artifactType": "catalogue",
-      "byteSize": 165013,
-      "sha256": "5ed469db082c15d2d848270da1dab5ebbc9653b5d938aec788d19cdb1bdd99fe"
+      "byteSize": 165743,
+      "sha256": "e5c93bb2b7a8ff581e260b69bf5f839fda2ab726b3e3c781cc43a74b2016df5f"
     },
     {
       "path": "inventory.json",
       "artifactType": "inventory",
-      "byteSize": 348196,
-      "sha256": "8c86b3f2a61e20f83ad1ec2b11074f684819cb62f8836aa0e27090625caa4e51"
+      "byteSize": 350318,
+      "sha256": "5d3534f3c24dea5e3aabecafb4d255d699f2ab8911b8b2ba7a4ab63f267db5d1"
     },
     {
       "path": "coverage.json",
       "artifactType": "coverage-report",
-      "byteSize": 1619,
-      "sha256": "cb11167dc1e85326e256050ead88ff9dfeb474c101f2a01a867fe0a81ae27e80"
+      "byteSize": 2021,
+      "sha256": "f090cae3a2b455e80165ea1bef1c063efeeb2eadcc770d3575dd787abae25398"
     },
     {
       "path": "schema.json",
       "artifactType": "json-schema",
-      "byteSize": 6037,
-      "sha256": "3884dae2acce473cd66b5294f367a43e6a64cdb1b5dc4d249e620a90e1f3ed76"
+      "byteSize": 9134,
+      "sha256": "80a6fea0017c6e76a9651c0451b0f300526f394c750cbc7d231cfb2887c2b3d3"
     },
     {
       "path": "metrics/constructors/constructor_championship_podiums.json",
@@ -134,6 +150,12 @@
       "artifactType": "metric",
       "byteSize": 17105,
       "sha256": "308e7628cee314c2098a164905861c5cd913bb579cc5cb00eb091ce7aa0dd2a1"
+    },
+    {
+      "path": "metrics/constructors/fastest_ever_lap.json",
+      "artifactType": "metric",
+      "byteSize": 1575,
+      "sha256": "518dda06d8b36c91d8bc7facdbe97bb402d28617a55df945049cc2cceece9d3f"
     },
     {
       "path": "metrics/constructors/fastest_laps_total.json",
@@ -392,6 +414,12 @@
       "artifactType": "metric",
       "byteSize": 26951,
       "sha256": "a0daf629915b2e4c0cdbb8a24c4a156b92ed3e489c61b64941d3924d6096aede"
+    },
+    {
+      "path": "metrics/drivers/fastest_ever_lap.json",
+      "artifactType": "metric",
+      "byteSize": 1572,
+      "sha256": "e8ee3c4a369a219da7d5373c23917083b3268561f179ddc310a8f6508eb493f3"
     },
     {
       "path": "metrics/drivers/fastest_laps_total.json",

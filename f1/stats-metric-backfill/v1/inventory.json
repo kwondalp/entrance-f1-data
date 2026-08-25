@@ -518,7 +518,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -543,7 +544,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing."
     },
     {
       "metricId": "constructorFastestLapSeasons",
@@ -809,22 +810,32 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 1,
+        "qualifyingResultRowCount": 26954,
+        "qualifyingValidTimeFieldCount": 36953,
+        "raceFastestLapRowCount": 17085,
+        "raceFastestValidTimeCount": 17085,
+        "candidateLapCount": 54038,
+        "higherAverageSpeedCandidateCount": 0,
+        "maximumAverageSpeedKph": 264.682,
+        "officialHistoricalClaimCorroborated": true
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+        "candidateLapCount": 54038,
+        "higherAverageSpeedCandidateCount": 0,
+        "officialHistoricalClaimCorroborated": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-final17-evidence-assessment.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "https://www.formula1.com/en/results/2025/races/1268/italy/qualifying",
+        "https://www.formula1.com/en/latest/article/facts-and-stats-verstappen-matches-vettel-for-red-bull-poles-as-he-bags-p1.2r7Lru8hEet737DPgmFehd"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -840,16 +851,16 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "derivationMethod": "For each valid eligible lap, divide circuit-configuration distance by lap duration, convert to kilometres per hour, and select the highest value through the declared cut-off.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     },
     {
       "metricId": "fastestLaps",
@@ -1006,7 +1017,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -1031,7 +1043,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing."
     },
     {
       "metricId": "constructorRaceLapRecords",
@@ -1064,7 +1076,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -1089,7 +1102,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing."
     },
     {
       "metricId": "constructorSprintLapRecords",
@@ -1122,7 +1135,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -1147,7 +1161,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing."
     },
     {
       "metricId": "constructorTrackRecords",
@@ -1180,7 +1194,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -1205,7 +1220,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing."
     },
     {
       "metricId": "consecutiveConstructorChampionshipLead",
@@ -3456,7 +3471,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -3481,7 +3497,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "blockingReason": "Explicit Sprint fastest-lap constructor evidence is missing for the complete 28-event cutoff scope."
     },
     {
       "metricId": "constructorSprintKilometresLed",
@@ -4351,7 +4367,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -4376,7 +4393,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing."
     },
     {
       "metricId": "driverFastestLapSeasons",
@@ -4642,22 +4659,32 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 1,
+        "qualifyingResultRowCount": 26954,
+        "qualifyingValidTimeFieldCount": 36953,
+        "raceFastestLapRowCount": 17085,
+        "raceFastestValidTimeCount": 17085,
+        "candidateLapCount": 54038,
+        "higherAverageSpeedCandidateCount": 0,
+        "maximumAverageSpeedKph": 264.682,
+        "officialHistoricalClaimCorroborated": true
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+        "candidateLapCount": 54038,
+        "higherAverageSpeedCandidateCount": 0,
+        "officialHistoricalClaimCorroborated": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-final17-evidence-assessment.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "https://www.formula1.com/en/results/2025/races/1268/italy/qualifying",
+        "https://www.formula1.com/en/latest/article/facts-and-stats-verstappen-matches-vettel-for-red-bull-poles-as-he-bags-p1.2r7Lru8hEet737DPgmFehd"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -4673,16 +4700,16 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "derivationMethod": "For each valid eligible lap, divide circuit-configuration distance by lap duration, convert to kilometres per hour, and select the highest value through the declared cut-off.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     },
     {
       "metricId": "fastestLaps",
@@ -4963,7 +4990,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -4988,7 +5016,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing."
     },
     {
       "metricId": "driverRaceLapRecords",
@@ -5021,7 +5049,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -5046,7 +5075,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing."
     },
     {
       "metricId": "driverSprintLapRecords",
@@ -5079,7 +5108,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -5104,7 +5134,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing."
     },
     {
       "metricId": "driverTrackRecords",
@@ -5137,7 +5167,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official fastest-lap and lap-record results",
       "rawFields": [
@@ -5162,7 +5193,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete."
+      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing."
     },
     {
       "metricId": "consecutiveDriverStarts",
@@ -6418,7 +6449,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "pre-penalty finish-line order",
       "rawFields": [
@@ -6441,7 +6473,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "The final classification does not preserve complete pre-penalty finish-line order."
+      "blockingReason": "No complete historical pre-penalty crossing-order corpus bound to official decisions exists."
     },
     {
       "metricId": "driverFirstLapRetirements",
@@ -7678,7 +7710,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -7703,7 +7736,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "blockingReason": "Explicit Sprint fastest-lap driver evidence is missing for the complete 28-event cutoff scope."
     },
     {
       "metricId": "driverSprintKilometresLed",
@@ -8263,7 +8296,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official driver birth dates",
       "rawFields": [
@@ -8287,7 +8321,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver."
+      "blockingReason": "Sixty-six winner identities remain unresolved, conflicted, or subject to human review; the record-changing Luigi Fagioli decision is pending."
     },
     {
       "metricId": "ageAtFirstWin",
@@ -8320,7 +8354,8 @@
         "https://www.formula1.com/en/results/{season}/races",
         "https://www.formula1.com/en/results/{season}/drivers",
         "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
+        "fixtures/stats-final17-evidence-assessment.v1.json"
       ],
       "requiredRawEvidence": "official driver birth dates",
       "rawFields": [
@@ -8344,7 +8379,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver."
+      "blockingReason": "The 66 unresolved, conflicted, or human-review winner birth dates prevent a complete youngest-winner boundary proof."
     }
   ]
 }

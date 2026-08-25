@@ -6,12 +6,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 96,
+    "available": 98,
     "partial": 86,
-    "completeThroughCutoff": 10,
-    "blocked": 48,
+    "completeThroughCutoff": 12,
+    "blocked": 46,
     "permissionRequired": 31,
-    "unavailable": 17,
+    "unavailable": 15,
     "drivers": 76,
     "constructors": 68
   },
@@ -272,7 +272,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -404,25 +404,34 @@
       "categoryId": "fastest-laps",
       "label": "Fastest Ever Lap",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=fastest_ever_lap",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "speed",
+      "definition": "Highest average speed recorded on a valid qualifying or race lap. Sprint sessions are excluded.",
+      "scope": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "complete_through_cutoff",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 1,
+          "qualifyingResultRowCount": 26954,
+          "qualifyingValidTimeFieldCount": 36953,
+          "raceFastestLapRowCount": 17085,
+          "raceFastestValidTimeCount": 17085,
+          "candidateLapCount": 54038,
+          "higherAverageSpeedCandidateCount": 0,
+          "maximumAverageSpeedKph": 264.682,
+          "officialHistoricalClaimCorroborated": true
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+          "candidateLapCount": 54038,
+          "higherAverageSpeedCandidateCount": 0,
+          "officialHistoricalClaimCorroborated": true
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 1,
+      "dataPath": "metrics/constructors/fastest_ever_lap.json"
     },
     {
       "registryMetricId": "constructors:fastest_laps_total",
@@ -508,7 +517,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -536,7 +545,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -564,7 +573,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -592,7 +601,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -1759,7 +1768,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "blockingReason": "Explicit Sprint fastest-lap constructor evidence is missing for the complete 28-event cutoff scope.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2195,7 +2204,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2327,25 +2336,34 @@
       "categoryId": "fastest-laps",
       "label": "Fastest Ever Lap",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=fastest_ever_lap",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "speed",
+      "definition": "Highest average speed recorded on a valid qualifying or race lap. Sprint sessions are excluded.",
+      "scope": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "complete_through_cutoff",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 1,
+          "qualifyingResultRowCount": 26954,
+          "qualifyingValidTimeFieldCount": 36953,
+          "raceFastestLapRowCount": 17085,
+          "raceFastestValidTimeCount": 17085,
+          "candidateLapCount": 54038,
+          "higherAverageSpeedCandidateCount": 0,
+          "maximumAverageSpeedKph": 264.682,
+          "officialHistoricalClaimCorroborated": true
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+          "candidateLapCount": 54038,
+          "higherAverageSpeedCandidateCount": 0,
+          "officialHistoricalClaimCorroborated": true
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 1,
+      "dataPath": "metrics/drivers/fastest_ever_lap.json"
     },
     {
       "registryMetricId": "drivers:fastest_laps_total",
@@ -2491,7 +2509,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2519,7 +2537,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2547,7 +2565,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2575,7 +2593,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Missing fastest-lap events are unknown rather than zero, so a full-history ranking would be incomplete.",
+      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -3251,7 +3269,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "The final classification does not preserve complete pre-penalty finish-line order.",
+      "blockingReason": "No complete historical pre-penalty crossing-order corpus bound to official decisions exists.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -3893,7 +3911,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history.",
+      "blockingReason": "Explicit Sprint fastest-lap driver evidence is missing for the complete 28-event cutoff scope.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -4182,7 +4200,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver.",
+      "blockingReason": "Sixty-six winner identities remain unresolved, conflicted, or subject to human review; the record-changing Luigi Fagioli decision is pending.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -4210,7 +4228,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "A complete, identity-resolved official birth-date fixture is not production-approved for every eligible winning driver.",
+      "blockingReason": "The 66 unresolved, conflicted, or human-review winner birth dates prevent a complete youngest-winner boundary proof.",
       "rowCount": 0,
       "dataPath": null
     }

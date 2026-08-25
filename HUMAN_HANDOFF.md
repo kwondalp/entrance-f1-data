@@ -6,25 +6,38 @@ This repository owns the stable static JSON contracts published for ENTRANCE con
 
 ## Stats metric backfill v1 proposal
 
-The current non-lap extension publishes 96 checksum-bound metric payloads: the
-original 75 plus 21 partial payloads derived from F1DB v2026.11.0 under CC BY
-4.0. Thirty-one catalogue entries are `permission_required` and 17 are
-`unavailable`; those 48 entries have no data path and are never represented as
-zero. Ten lap-record products remain unavailable because the retained evidence
-does not satisfy their circuit-record or highest-average-speed semantics. No
-Formula 1/FIA lap chart or Phase 1B identity evidence is included.
+The current extensions publish 98 checksum-bound metric payloads: the original
+75, 21 partial payloads derived from F1DB v2026.11.0 under CC BY 4.0, and two
+complete-through-cutoff fastest-ever-lap payloads for the Driver and Constructor
+record holder. Thirty-one catalogue entries are `permission_required` and 15
+are `unavailable`; those 46 entries have no data path and are never represented
+as zero. Eight configuration/chronology lap-record products and all four Sprint
+fastest-lap products remain unavailable because the retained evidence does not
+satisfy their complete contracts. No Formula 1/FIA lap chart, restricted timing
+document, or Phase 1B identity evidence is included.
 
-The current unstaged additive package at `f1/stats-metric-backfill/v1/`
-inventories all 144 formerly evidence-blocked production metrics. It exposes 75
-lazy raw numeric payloads: 65 evidence-scoped partial results and ten results
-complete through their declared cutoff. The other 69 metrics remain in the
-catalogue with explicit blocked reasons and no data path.
+Owner approval `OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01` replaces the
+unpublished zero-row `minimum_lap_time` definition with
+`maximum_average_speed` for both unchanged metric IDs and routes. The manifest
+binds that approval and exposes F1DB by Marcel Overdijk and contributors,
+v2026.11.0, its fixed release and CC BY 4.0 licence URLs, and the ENTRANCE
+filtering, canonical identity binding, and distance/time calculation changes.
 
-The package contains 80 checksum-bound files and preserves stable Driver and
+The validated additive package at `f1/stats-metric-backfill/v1/`
+inventories all 144 formerly evidence-blocked production metrics. It exposes 98
+lazy payloads: 86 evidence-scoped partial results and 12 results complete through
+their declared cutoff. The other 46 metrics remain in the catalogue with
+explicit blocked reasons and no data path.
+
+The package contains 103 JSON files; its manifest binds the other 102 artifacts
+by canonical UTF-8/LF byte size and SHA-256. It preserves stable Driver and
 Constructor IDs, fractional values, genuine zeroes, per-metric coverage, source
 provenance, and structured unknowns. Existing public paths and Stats Core v1
-semantics are unchanged. This proposal is not staged, committed, pushed,
-published, or deployed; Web consumption is a separate sibling proposal.
+semantics are unchanged. All 102 manifest-listed artifacts match canonical
+UTF-8/LF bytes and SHA-256, and the original 96 payload blobs plus all 31
+permission-required inventory objects remain unchanged. Current Git and live
+publication state must be read directly; Web consumption is a separate sibling
+release candidate.
 
 ## Current published contract
 
