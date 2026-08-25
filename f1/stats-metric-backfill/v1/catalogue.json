@@ -6,12 +6,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 98,
-    "partial": 86,
-    "completeThroughCutoff": 12,
-    "blocked": 46,
-    "permissionRequired": 31,
-    "unavailable": 15,
+    "available": 108,
+    "partial": 94,
+    "completeThroughCutoff": 14,
+    "blocked": 36,
+    "permissionRequired": 35,
+    "unavailable": 1,
     "drivers": 76,
     "constructors": 68
   },
@@ -26,6 +26,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_championship_podiums",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -54,6 +60,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_driver_titles",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -82,6 +94,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_title_gap",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "championship",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -110,6 +128,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=runner_up_constructor_championships",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -138,6 +162,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_fastest_lap_seasons",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of seasons.",
+      "formula": "Find the longest uninterrupted sequence of qualifying seasons across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -168,6 +198,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_fastest_laps",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -198,6 +234,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "result",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -228,6 +270,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_interval",
       "presentation": "duration",
       "definition": "Ranks Formula 1 constructors by elapsed days between the first and last qualifying days occurrences.",
+      "formula": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "calculationId": "interval",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "days",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -257,24 +305,332 @@
       "label": "Fastest Lap Record Timeline",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_record_chronology",
       "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "definition": "Lists strict lap-record improvements independently within each verified circuit configuration, using valid qualifying and Grand Prix race fastest laps through the cut-off. Sprint laps are excluded.",
+      "formula": "For each verified circuit configuration, order qualifying before race within an event and emit only a strictly lower valid lap time than the preceding record; equal later times are not improvements.",
+      "calculationId": "configuration_record_chronology",
+      "factType": "lap_record_transition",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "record transitions",
+      "defaultSort": "asc",
+      "scope": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 263,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 89,
+          "excludedCircuitConfigurationCount": 70,
+          "candidateLapCount": 43735,
+          "eligibleSessionTypes": [
+            "qualifying",
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "adelaide-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "clermont-ferrand-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "dijon-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "estoril-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jacarepagua-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "jarama-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "jerez-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mexico-city-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "mexico-city-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nivelles-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "paul-ricard-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "rouen-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "spielberg-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-2",
+              "reason": "record_chronology_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 263,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/constructors/constructor_fastest_lap_record_chronology.json"
     },
     {
       "registryMetricId": "constructors:constructor_fastest_lap_seasons",
@@ -286,6 +642,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_seasons",
       "presentation": "numeric",
       "definition": "Ranks constructors by the number of distinct seasons containing at least one seasons occurrence.",
+      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
+      "calculationId": "season_count",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -316,6 +678,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_laps_by_circuit",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by circuit.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "result",
+      "groupingDimension": "circuit",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -346,6 +714,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_laps_by_grand_prix",
       "presentation": "grouped",
       "definition": "Ranks Grand Prix entries for each Formula 1 constructor grouped by Grand Prix name.",
+      "formula": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -376,6 +750,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_fastest_laps",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -406,6 +786,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=fastest_ever_lap",
       "presentation": "speed",
       "definition": "Highest average speed recorded on a valid qualifying or race lap. Sprint sessions are excluded.",
+      "formula": "For each valid eligible lap, divide circuit-configuration distance by lap duration, convert to kilometres per hour, and select the highest value through the declared cut-off.",
+      "calculationId": "maximum_average_speed",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "kilometres per hour",
+      "defaultSort": "desc",
       "scope": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -443,6 +829,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=fastest_laps_total",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -473,6 +865,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=gps_before_first_constructor_fastest_lap",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculationId": "events_before_first",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -501,25 +899,236 @@
       "categoryId": "fastest-laps",
       "label": "Qualifying Lap Records",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=qualifying_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid qualifying laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid qualifying laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship qualifying laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 17,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 113,
+          "excludedCircuitConfigurationCount": 46,
+          "candidateLapCount": 26650,
+          "eligibleSessionTypes": [
+            "qualifying"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "current_record_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 17,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/constructors/qualifying_lap_records.json"
     },
     {
       "registryMetricId": "constructors:race_lap_records",
@@ -529,25 +1138,204 @@
       "categoryId": "fastest-laps",
       "label": "Race Lap Records",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=race_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid Grand Prix race fastest laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 18,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 121,
+          "excludedCircuitConfigurationCount": 38,
+          "candidateLapCount": 17085,
+          "eligibleSessionTypes": [
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-3",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 18,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/constructors/race_lap_records.json"
     },
     {
       "registryMetricId": "constructors:sprint_lap_records",
@@ -557,9 +1345,15 @@
       "categoryId": "fastest-laps",
       "label": "Sprint Lap Records",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=sprint_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by verified Sprint-only circuit-configuration lap-record ownership. Grand Prix qualifying and race laps are excluded.",
+      "formula": "Within each verified circuit configuration, select the minimum explicitly valid Sprint lap duration and count tied record ownership once per entity.",
+      "calculationId": "sprint_configuration_record_ownership",
+      "factType": "sprint_fastest_lap",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "Sprint circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -573,7 +1367,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing.",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -585,25 +1379,237 @@
       "categoryId": "fastest-laps",
       "label": "Track Records",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=track_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid qualifying and Grand Prix race fastest laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid qualifying and Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 18,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 113,
+          "excludedCircuitConfigurationCount": 46,
+          "candidateLapCount": 43735,
+          "eligibleSessionTypes": [
+            "qualifying",
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "current_record_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 18,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/constructors/track_records.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_championship_lead",
@@ -615,6 +1621,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_championship_lead",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of completed Formula 1 World Championship seasons.",
+      "formula": "Find the longest uninterrupted sequence of qualifying completed Formula 1 World Championship seasons across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -643,6 +1655,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_championship_lead_grand_prix",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -671,6 +1689,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_start_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "start",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -701,6 +1725,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_start_interval",
       "presentation": "duration",
       "definition": "Ranks Formula 1 constructors by elapsed days between the first and last qualifying days occurrences.",
+      "formula": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "calculationId": "interval",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "days",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -731,6 +1761,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_with_same_driver",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by driver.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and driver, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "start",
+      "groupingDimension": "driver",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -761,6 +1797,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_with_same_engine",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by engine manufacturer.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and engine manufacturer, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "start",
+      "groupingDimension": "engine manufacturer",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -789,6 +1831,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_fastest_lap",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -819,6 +1867,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_podium",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "podium",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix podium finishes",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -849,6 +1903,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_points",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "points",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -879,6 +1939,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_pole",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix pole positions only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "pole",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix pole positions",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -909,6 +1975,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_starts_without_win",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -939,6 +2011,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=grands_prix_starts",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -969,6 +2047,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_one_two_poles",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by Grand Prix one-two finishes, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying Grand Prix one-two finishes for each entity.",
+      "calculationId": "total",
+      "factType": "one_two",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix one-two finishes",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1000,6 +2084,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_never_qualified",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1028,6 +2118,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_front_row_lockouts",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1059,6 +2155,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_front_rows",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1090,6 +2192,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_grand_prix_led",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of Grand Prix entries.",
+      "formula": "Find the longest uninterrupted sequence of qualifying Grand Prix entries across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1118,6 +2226,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_kilometres_led",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1146,6 +2260,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_laps_led",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1174,6 +2294,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_lead_seasons",
       "presentation": "streak",
       "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of seasons.",
+      "formula": "Find the longest uninterrupted sequence of qualifying seasons across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1202,6 +2328,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_different_engines",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by distinct engine manufacturer groups containing eligible Grand Prix results.",
+      "formula": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculationId": "distinct_count",
+      "factType": "result",
+      "groupingDimension": "engine manufacturer",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1230,6 +2362,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_different_models",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by distinct car model groups containing eligible Grand Prix results.",
+      "formula": "Count distinct car model groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculationId": "distinct_count",
+      "factType": "result",
+      "groupingDimension": "car model",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1258,6 +2396,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_row_lockouts",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1289,6 +2433,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_row_starts",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1320,6 +2470,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_rows_by_circuit",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 constructor grouped by circuit.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "result",
+      "groupingDimension": "circuit",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1351,6 +2507,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_front_rows_by_grand_prix",
       "presentation": "grouped",
       "definition": "Ranks Grand Prix entries for each Formula 1 constructor grouped by Grand Prix name.",
+      "formula": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1382,6 +2544,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_grand_prix_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying Grand Prix entries for each entity.",
+      "calculationId": "total",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1410,6 +2578,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_grand_slams",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1438,6 +2612,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_hat_tricks",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1468,6 +2648,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_kilometres_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1496,6 +2682,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_laps_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1524,6 +2716,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "result",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1552,6 +2750,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_seasons",
       "presentation": "numeric",
       "definition": "Ranks constructors by the number of distinct seasons containing at least one seasons occurrence.",
+      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
+      "calculationId": "season_count",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1580,6 +2784,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_front_rows",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1611,6 +2821,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_grand_prix_led",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "entry",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1639,6 +2855,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_kilometres_led",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1667,6 +2889,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_laps_led",
       "presentation": "seasonal",
       "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1695,6 +2923,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_winner_lap_finishes",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "calculationId": "total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -1726,6 +2960,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=gps_before_first_constructor_lead",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculationId": "events_before_first",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1753,8 +2993,14 @@
       "label": "Sprint Fastest Laps",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_fastest_laps",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "definition": "Ranks entities by explicitly recorded Sprint fastest laps. Grand Prix qualifying and race fastest laps are excluded.",
+      "formula": "Count Sprint events with an explicit fastest-lap driver and constructor binding; missing events remain unknown and are not zero.",
+      "calculationId": "sprint_fastest_lap_total",
+      "factType": "sprint_fastest_lap",
+      "groupingDimension": "entity",
+      "countingUnit": "Sprint fastest laps",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -1768,7 +3014,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Explicit Sprint fastest-lap constructor evidence is missing for the complete 28-event cutoff scope.",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -1782,6 +3028,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_kilometres_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1810,6 +3062,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_laps_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1838,6 +3096,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_podiums",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
+      "calculationId": "total",
+      "factType": "podium",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix podium finishes",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -1867,6 +3131,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_points",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix points for each entity.",
+      "calculationId": "total",
+      "factType": "points",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -1896,6 +3166,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_poles",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix pole positions for each entity.",
+      "calculationId": "total",
+      "factType": "pole",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix pole positions",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -1925,6 +3201,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_wins",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 constructors by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "calculationId": "total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -1954,6 +3236,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_wins_by_model",
       "presentation": "grouped",
       "definition": "Ranks official Grand Prix wins for each Formula 1 constructor grouped by car model.",
+      "formula": "Group qualifying official Grand Prix wins by entity and car model, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "win",
+      "groupingDimension": "car model",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -1982,6 +3270,12 @@
       "route": "/f1/stats/statistic/?entity=constructors&statistic=wins_by_engine",
       "presentation": "grouped",
       "definition": "Ranks official Grand Prix wins for each Formula 1 constructor grouped by engine manufacturer.",
+      "formula": "Group qualifying official Grand Prix wins by entity and engine manufacturer, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "win",
+      "groupingDimension": "engine manufacturer",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2010,6 +3304,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_championship_podiums",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2041,6 +3341,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_championship",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculationId": "events_before_first",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2069,6 +3375,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=runner_up_driver_championships",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by completed Formula 1 World Championship seasons, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "calculationId": "total",
+      "factType": "championship",
+      "groupingDimension": "entity",
+      "countingUnit": "completed Formula 1 World Championship seasons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2100,6 +3412,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_fastest_laps",
       "presentation": "streak",
       "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2130,6 +3448,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "result",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2160,6 +3484,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_interval",
       "presentation": "duration",
       "definition": "Ranks Formula 1 drivers by elapsed days between the first and last qualifying days occurrences.",
+      "formula": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "calculationId": "interval",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "days",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2189,24 +3519,332 @@
       "label": "Fastest Lap Record Timeline",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_record_chronology",
       "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "definition": "Lists strict lap-record improvements independently within each verified circuit configuration, using valid qualifying and Grand Prix race fastest laps through the cut-off. Sprint laps are excluded.",
+      "formula": "For each verified circuit configuration, order qualifying before race within an event and emit only a strictly lower valid lap time than the preceding record; equal later times are not improvements.",
+      "calculationId": "configuration_record_chronology",
+      "factType": "lap_record_transition",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "record transitions",
+      "defaultSort": "asc",
+      "scope": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 263,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 89,
+          "excludedCircuitConfigurationCount": 70,
+          "candidateLapCount": 43735,
+          "eligibleSessionTypes": [
+            "qualifying",
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "adelaide-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "clermont-ferrand-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "dijon-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "estoril-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jacarepagua-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "jarama-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "jerez-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mexico-city-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "mexico-city-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nivelles-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "paul-ricard-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "rouen-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "spielberg-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-3",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "record_chronology_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-2",
+              "reason": "record_chronology_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 263,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/driver_fastest_lap_record_chronology.json"
     },
     {
       "registryMetricId": "drivers:driver_fastest_lap_seasons",
@@ -2218,6 +3856,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_seasons",
       "presentation": "numeric",
       "definition": "Ranks drivers by the number of distinct seasons containing at least one seasons occurrence.",
+      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
+      "calculationId": "season_count",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2248,6 +3892,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_laps_by_circuit",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by circuit.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "result",
+      "groupingDimension": "circuit",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2278,6 +3928,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_laps_by_grand_prix",
       "presentation": "grouped",
       "definition": "Ranks Grand Prix entries for each Formula 1 driver grouped by Grand Prix name.",
+      "formula": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2308,6 +3964,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_fastest_laps",
       "presentation": "seasonal",
       "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2338,6 +4000,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=fastest_ever_lap",
       "presentation": "speed",
       "definition": "Highest average speed recorded on a valid qualifying or race lap. Sprint sessions are excluded.",
+      "formula": "For each valid eligible lap, divide circuit-configuration distance by lap duration, convert to kilometres per hour, and select the highest value through the declared cut-off.",
+      "calculationId": "maximum_average_speed",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "kilometres per hour",
+      "defaultSort": "desc",
       "scope": "Valid Formula 1 World Championship qualifying and Grand Prix race laps; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2375,6 +4043,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_total",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2405,6 +4079,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=first_fastest_lap",
       "presentation": "event",
       "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded eligible Grand Prix results.",
+      "formula": "Select the earliest qualifying eligible Grand Prix results event for each entity.",
+      "calculationId": "first_boundary",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2435,6 +4115,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_fastest_lap",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculationId": "events_before_first",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2465,6 +4151,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=last_fastest_lap",
       "presentation": "event",
       "definition": "Ranks Formula 1 drivers by the latest event in which each recorded eligible Grand Prix results.",
+      "formula": "Select the latest qualifying eligible Grand Prix results event for each entity.",
+      "calculationId": "last_boundary",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2493,25 +4185,236 @@
       "categoryId": "fastest-laps",
       "label": "Qualifying Lap Records",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=qualifying_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid qualifying laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid qualifying laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship qualifying laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 46,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 113,
+          "excludedCircuitConfigurationCount": 46,
+          "candidateLapCount": 26650,
+          "eligibleSessionTypes": [
+            "qualifying"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "current_record_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 46,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/qualifying_lap_records.json"
     },
     {
       "registryMetricId": "drivers:race_lap_records",
@@ -2521,25 +4424,204 @@
       "categoryId": "fastest-laps",
       "label": "Race Lap Records",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=race_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid Grand Prix race fastest laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 57,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 121,
+          "excludedCircuitConfigurationCount": 38,
+          "candidateLapCount": 17085,
+          "eligibleSessionTypes": [
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-3",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 57,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/race_lap_records.json"
     },
     {
       "registryMetricId": "drivers:sprint_lap_records",
@@ -2549,9 +4631,15 @@
       "categoryId": "fastest-laps",
       "label": "Sprint Lap Records",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=sprint_lap_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by verified Sprint-only circuit-configuration lap-record ownership. Grand Prix qualifying and race laps are excluded.",
+      "formula": "Within each verified circuit configuration, select the minimum explicitly valid Sprint lap duration and count tied record ownership once per entity.",
+      "calculationId": "sprint_configuration_record_ownership",
+      "factType": "sprint_fastest_lap",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "Sprint circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -2565,7 +4653,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing.",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -2577,25 +4665,237 @@
       "categoryId": "fastest-laps",
       "label": "Track Records",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=track_records",
-      "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "presentation": "numeric",
+      "definition": "Ranks entities by the number of verified circuit-configuration records they hold from valid qualifying and Grand Prix race fastest laps through the cut-off. Only verified circuit configurations are included.",
+      "formula": "For each verified circuit configuration, select the minimum lap duration from valid qualifying and Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculationId": "configuration_record_ownership",
+      "factType": "lap_record_ownership",
+      "groupingDimension": "circuit_configuration",
+      "countingUnit": "verified circuit-configuration records",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 46,
+          "observedCircuitConfigurationCount": 159,
+          "verifiedCircuitConfigurationCount": 113,
+          "excludedCircuitConfigurationCount": 46,
+          "candidateLapCount": 43735,
+          "eligibleSessionTypes": [
+            "qualifying",
+            "race"
+          ],
+          "sprintExcluded": true,
+          "layoutExclusions": [
+            {
+              "circuitConfigurationId": "aintree-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "anderstorp-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "brands-hatch-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "buenos-aires-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "bugatti-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "catalunya-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "catalunya-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "dallas-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "detroit-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "east-london-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "fuji-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "hockenheimring-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "hungaroring-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "imola-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "interlagos-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "jarama-2",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "kyalami-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "lusail-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "marina-bay-4",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monaco-5",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monaco-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montjuic-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "montreal-1",
+              "reason": "catalogue_distance_mismatch"
+            },
+            {
+              "circuitConfigurationId": "montreal-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "montreal-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "monza-4",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "monza-6",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "mosport-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "nurburgring-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "porto-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "reims-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "riverside-1",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "silverstone-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-7",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "silverstone-8",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spa-francorchamps-2",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "spielberg-3",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "suzuka-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "watkins-glen-1",
+              "reason": "multiple_observed_distances"
+            },
+            {
+              "circuitConfigurationId": "zandvoort-2",
+              "reason": "current_record_identity_unresolved"
+            },
+            {
+              "circuitConfigurationId": "zolder-1",
+              "reason": "current_record_identity_unresolved"
+            }
+          ]
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "observedCircuitConfigurationCount": 159,
+          "coverageDescription": "Only verified circuit configurations are included.",
+          "sprintExcluded": true
         }
       },
-      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 46,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/track_records.json"
     },
     {
       "registryMetricId": "drivers:consecutive_driver_starts",
@@ -2607,6 +4907,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_starts",
       "presentation": "streak",
       "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2637,6 +4943,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_kilometres_raced",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2665,6 +4977,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_raced",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2696,6 +5014,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_start_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "start",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2726,6 +5050,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_start_interval",
       "presentation": "duration",
       "definition": "Ranks Formula 1 drivers by elapsed days between the first and last qualifying days occurrences.",
+      "formula": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "calculationId": "interval",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "days",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2756,6 +5086,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_with_same_constructor",
       "presentation": "driver-constructor",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by constructor chassis identity.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and constructor chassis identity, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "start",
+      "groupingDimension": "constructor chassis identity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2786,6 +5122,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_podium",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "podium",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix podium finishes",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2816,6 +5158,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_points",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "points",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2846,6 +5194,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_starts_without_win",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2876,6 +5230,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=grands_prix_starts",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2906,6 +5266,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_average_points_per_start",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Sum official championship points scored by the driver. Count official Grand Prix starts by the driver; entries without a start are excluded. Divide the first quantity by the second.",
+      "calculationId": "average",
+      "factType": "points",
+      "groupingDimension": "entity",
+      "countingUnit": "points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -2936,6 +5302,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_qualifying",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2964,6 +5336,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_never_qualified",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -2992,6 +5370,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_q3_appearances",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3020,6 +5404,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_driver_front_rows",
       "presentation": "streak",
       "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3051,6 +5441,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_grand_prix_led",
       "presentation": "streak",
       "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of Grand Prix entries.",
+      "formula": "Find the longest uninterrupted sequence of qualifying Grand Prix entries across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3079,6 +5475,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_laps_led",
       "presentation": "streak",
       "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
+      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "calculationId": "longest_streak",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3107,6 +5509,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_average_grid",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Sum official starting-grid positions for rows with a published grid position. Count those same official starting-grid rows. Divide the first quantity by the second.",
+      "calculationId": "average",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3138,6 +5546,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_best_grid_gain",
       "presentation": "event",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3169,6 +5583,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_championship_h2_h",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers using complete eligible same-constructor teammate comparisons for this result definition.",
+      "formula": "Compare eligible same-constructor teammate rows in the same Grand Prix and retain the complete pair/event set.",
+      "calculationId": "head_to_head",
+      "factType": "championship",
+      "groupingDimension": "teammate pair",
+      "countingUnit": "eligible teammate event comparisons",
+      "defaultSort": "desc",
       "scope": "Completed Formula 1 World Championship seasons",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3197,6 +5617,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_did_not_start",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3227,6 +5653,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_different_engines",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by distinct engine manufacturer groups containing eligible Grand Prix results.",
+      "formula": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "calculationId": "distinct_count",
+      "factType": "result",
+      "groupingDimension": "engine manufacturer",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3254,7 +5686,13 @@
       "label": "First Across the Line Without an Official Win",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_across_line_without_win",
       "presentation": "event",
-      "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded official Grand Prix wins.",
+      "definition": "Lists a driver only when official evidence proves that the driver physically crossed the finish line first but was not the canonical classified winner because of a penalty, disqualification, countback, red-flag or timing ruling.",
+      "formula": "Compare complete official pre-penalty finish-line order with the canonical final classification and bind the reason and decision for every qualifying event.",
+      "calculationId": "first_across_line_without_official_win",
+      "factType": "finish_line_order_exception",
+      "groupingDimension": "entity",
+      "countingUnit": "verified first-on-road non-wins",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3269,7 +5707,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "No complete historical pre-penalty crossing-order corpus bound to official decisions exists.",
+      "blockingReason": "The 113-event risk queue cannot be resolved into a complete first-on-road corpus from the licensed structured source; authoritative pre-penalty crossing order and decision evidence remain missing.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -3283,6 +5721,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_lap_retirements",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded Grand Prix retirements.",
+      "formula": "Select the earliest qualifying Grand Prix retirements event for each entity.",
+      "calculationId": "first_boundary",
+      "factType": "retirement",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix retirements",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3314,6 +5758,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_first_race_grid",
       "presentation": "event",
       "definition": "Ranks Formula 1 drivers by the earliest event in which each recorded eligible Grand Prix results.",
+      "formula": "Select the earliest qualifying eligible Grand Prix results event for each entity.",
+      "calculationId": "first_boundary",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3345,6 +5795,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_row_duos",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by entity.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and entity, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3376,6 +5832,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_row_starts",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "start",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3407,6 +5869,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_rows_by_circuit",
       "presentation": "grouped",
       "definition": "Ranks eligible Grand Prix results for each Formula 1 driver grouped by circuit.",
+      "formula": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "result",
+      "groupingDimension": "circuit",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3438,6 +5906,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_front_rows_by_grand_prix",
       "presentation": "grouped",
       "definition": "Ranks Grand Prix entries for each Formula 1 driver grouped by Grand Prix name.",
+      "formula": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3469,6 +5943,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_grand_prix_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying Grand Prix entries for each entity.",
+      "calculationId": "total",
+      "factType": "entry",
+      "groupingDimension": "Grand Prix name",
+      "countingUnit": "Grand Prix entries",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3497,6 +5977,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_grand_slams",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3525,6 +6011,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_hat_tricks",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3555,6 +6047,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_kilometres_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3583,6 +6081,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3611,6 +6115,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led_without_win",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
+      "calculationId": "conditional_total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3639,6 +6149,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_chronology",
       "presentation": "event",
       "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
+      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "calculationId": "chronology",
+      "factType": "result",
+      "groupingDimension": "event",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3667,6 +6183,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_seasons",
       "presentation": "numeric",
       "definition": "Ranks drivers by the number of distinct seasons containing at least one seasons occurrence.",
+      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
+      "calculationId": "season_count",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3695,6 +6217,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lights_to_flag",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3723,6 +6251,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_qualifying_h2_hwins",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers using complete eligible same-constructor teammate comparisons for this result definition.",
+      "formula": "Compare eligible same-constructor teammate rows in the same Grand Prix and retain the complete pair/event set.",
+      "calculationId": "head_to_head",
+      "factType": "win",
+      "groupingDimension": "teammate pair",
+      "countingUnit": "eligible teammate event comparisons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3751,6 +6285,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_front_rows",
       "presentation": "seasonal",
       "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3782,6 +6322,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_kilometres_led",
       "presentation": "seasonal",
       "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3810,6 +6356,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_laps_led",
       "presentation": "seasonal",
       "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
+      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "calculationId": "by_season",
+      "factType": "result",
+      "groupingDimension": "season",
+      "countingUnit": "seasons",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3838,6 +6390,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_winner_lap_finishes",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "calculationId": "total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -3869,6 +6427,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_lead",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
+      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
+      "calculationId": "events_before_first",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3896,8 +6460,14 @@
       "label": "Sprint Fastest Laps",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_fastest_laps",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "definition": "Ranks entities by explicitly recorded Sprint fastest laps. Grand Prix qualifying and race fastest laps are excluded.",
+      "formula": "Count Sprint events with an explicit fastest-lap driver and constructor binding; missing events remain unknown and are not zero.",
+      "calculationId": "sprint_fastest_lap_total",
+      "factType": "sprint_fastest_lap",
+      "groupingDimension": "entity",
+      "countingUnit": "Sprint fastest laps",
+      "defaultSort": "desc",
+      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -3911,7 +6481,7 @@
           "classificationRowCount": 26143
         }
       },
-      "blockingReason": "Explicit Sprint fastest-lap driver evidence is missing for the complete 28-event cutoff scope.",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -3925,6 +6495,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_kilometres_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3953,6 +6529,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_laps_led",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "calculationId": "total",
+      "factType": "result",
+      "groupingDimension": "entity",
+      "countingUnit": "eligible Grand Prix results",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -3981,6 +6563,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_podiums",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix podium finishes, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
+      "calculationId": "total",
+      "factType": "podium",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix podium finishes",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -4010,6 +6598,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_points",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix points, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix points for each entity.",
+      "calculationId": "total",
+      "factType": "points",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix points",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -4039,6 +6633,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_poles",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix pole positions, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix pole positions for each entity.",
+      "calculationId": "total",
+      "factType": "pole",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix pole positions",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -4068,6 +6668,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_wins",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "calculationId": "total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "B",
@@ -4097,6 +6703,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_wins_and_fastest_laps",
       "presentation": "numeric",
       "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "formula": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "calculationId": "total",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -4127,6 +6739,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_wins_by_grid",
       "presentation": "grouped",
       "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by entity.",
+      "formula": "Group qualifying official Grand Prix wins by entity and entity, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "win",
+      "groupingDimension": "entity",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "A",
@@ -4158,6 +6776,12 @@
       "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_by_engine",
       "presentation": "grouped",
       "definition": "Ranks official Grand Prix wins for each Formula 1 driver grouped by engine manufacturer.",
+      "formula": "Group qualifying official Grand Prix wins by entity and engine manufacturer, then count or sum each group.",
+      "calculationId": "grouped_count",
+      "factType": "win",
+      "groupingDimension": "engine manufacturer",
+      "countingUnit": "official Grand Prix wins",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
@@ -4185,24 +6809,47 @@
       "label": "Oldest GP Winners",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_oldest",
       "presentation": "age",
-      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "definition": "Ranks every canonical credited Grand Prix winner by the oldest age at a credited win through the cut-off, using exact identity-bound birth and event dates.",
+      "formula": "For each of 116 canonical credited winners, calculate event date minus date of birth in whole days for every credited win and select the maximum; display completed calendar years plus remainder days.",
+      "calculationId": "winning_age_maximum",
+      "factType": "credited_win_age",
+      "groupingDimension": "entity",
+      "countingUnit": "whole age days",
+      "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "complete_through_cutoff",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 116,
+          "winnerCount": 116,
+          "f1dbDateCount": 116,
+          "wikidataDateCount": 116,
+          "dateConflictCount": 0
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "winnerCount": 116,
+          "f1dbDateCount": 116,
+          "wikidataDateCount": 116,
+          "dateConflictCount": 0,
+          "cutoff": "2026-07-26"
         }
       },
-      "blockingReason": "Sixty-six winner identities remain unresolved, conflicted, or subject to human review; the record-changing Luigi Fagioli decision is pending.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 116,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/wins_oldest.json"
     },
     {
       "registryMetricId": "drivers:wins_youngest",
@@ -4213,24 +6860,47 @@
       "label": "Youngest GP Winners",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=wins_youngest",
       "presentation": "age",
-      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
+      "definition": "Ranks every canonical credited Grand Prix winner by the youngest age at a credited win through the cut-off, using exact identity-bound birth and event dates.",
+      "formula": "For each of 116 canonical credited winners, calculate event date minus date of birth in whole days for every credited win and select the minimum; display completed calendar years plus remainder days.",
+      "calculationId": "winning_age_minimum",
+      "factType": "credited_win_age",
+      "groupingDimension": "entity",
+      "countingUnit": "whole age days",
+      "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "complete_through_cutoff",
       "completeness": {
         "current": {
-          "resultRowCount": 0
+          "resultRowCount": 116,
+          "winnerCount": 116,
+          "f1dbDateCount": 116,
+          "wikidataDateCount": 116,
+          "dateConflictCount": 0
         },
         "target": {
-          "seasonCount": 77,
-          "raceCount": 1160,
-          "classificationRowCount": 26143
+          "winnerCount": 116,
+          "f1dbDateCount": 116,
+          "wikidataDateCount": 116,
+          "dateConflictCount": 0,
+          "cutoff": "2026-07-26"
         }
       },
-      "blockingReason": "The 66 unresolved, conflicted, or human-review winner birth dates prevent a complete youngest-winner boundary proof.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 116,
+      "sourceAttribution": {
+        "projectCreator": "F1DB by Marcel Overdijk and contributors",
+        "releaseVersion": "F1DB v2026.11.0",
+        "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "changes": "ENTRANCE filters eligible sessions and validity fields, binds canonical driver/constructor/circuit identities, verifies configuration distances, calculates record ownership/chronology and exact winning ages, and excludes unsupported records.",
+        "metadataPath": "manifest.json"
+      },
+      "dataPath": "metrics/drivers/wins_youngest.json"
     }
   ]
 }

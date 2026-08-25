@@ -270,6 +270,44 @@
         },
         "lapValidity": {
           "const": "valid"
+        },
+        "record": {
+          "type": "object"
+        },
+        "recordOwnerships": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "dateOfBirth": {
+          "type": "string",
+          "format": "date"
+        },
+        "ageDays": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ageYears": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ageRemainderDays": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 365
+        },
+        "ageDisplay": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constructorId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constructorName": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "additionalProperties": false
@@ -335,6 +373,34 @@
           "type": "string",
           "minLength": 1
         },
+        "formula": {
+          "type": "string",
+          "minLength": 1
+        },
+        "calculationId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "factType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "groupingDimension": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "countingUnit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "defaultSort": {
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
         "scope": {
           "type": "string",
           "minLength": 1
@@ -388,6 +454,58 @@
         "rowCount": {
           "type": "integer",
           "minimum": 0
+        },
+        "sourceAttribution": {
+          "type": "object",
+          "required": [
+            "projectCreator",
+            "releaseVersion",
+            "releaseUrl",
+            "archiveSha256",
+            "license",
+            "licenseUrl",
+            "licenseSha256",
+            "changes",
+            "metadataPath"
+          ],
+          "properties": {
+            "projectCreator": {
+              "type": "string",
+              "minLength": 1
+            },
+            "releaseVersion": {
+              "type": "string",
+              "minLength": 1
+            },
+            "releaseUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "archiveSha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "license": {
+              "type": "string",
+              "minLength": 1
+            },
+            "licenseUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "licenseSha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "changes": {
+              "type": "string",
+              "minLength": 1
+            },
+            "metadataPath": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         },
         "rows": {
           "type": "array",

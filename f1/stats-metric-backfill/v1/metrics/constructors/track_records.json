@@ -1,0 +1,3138 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "track_records",
+  "metricId": "constructorTrackRecords",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 18,
+      "observedCircuitConfigurationCount": 159,
+      "verifiedCircuitConfigurationCount": 113,
+      "excludedCircuitConfigurationCount": 46,
+      "candidateLapCount": 43735,
+      "eligibleSessionTypes": [
+        "qualifying",
+        "race"
+      ],
+      "sprintExcluded": true,
+      "layoutExclusions": [
+        {
+          "circuitConfigurationId": "aintree-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "anderstorp-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "brands-hatch-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "buenos-aires-2",
+          "reason": "catalogue_distance_mismatch"
+        },
+        {
+          "circuitConfigurationId": "bugatti-1",
+          "reason": "catalogue_distance_mismatch"
+        },
+        {
+          "circuitConfigurationId": "catalunya-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "catalunya-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "dallas-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "detroit-2",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "east-london-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "fuji-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "hockenheimring-3",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "hungaroring-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "imola-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "interlagos-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "interlagos-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "jarama-2",
+          "reason": "catalogue_distance_mismatch"
+        },
+        {
+          "circuitConfigurationId": "kyalami-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "lusail-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "marina-bay-3",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "marina-bay-4",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "monaco-2",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "monaco-4",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "monaco-5",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "monaco-6",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "montjuic-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "montreal-1",
+          "reason": "catalogue_distance_mismatch"
+        },
+        {
+          "circuitConfigurationId": "montreal-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "montreal-3",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "monza-4",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "monza-6",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "mosport-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "nurburgring-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "porto-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "reims-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "riverside-1",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "silverstone-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "silverstone-7",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "silverstone-8",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "spa-francorchamps-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "spa-francorchamps-2",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "spielberg-3",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "suzuka-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "watkins-glen-1",
+          "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "zandvoort-2",
+          "reason": "current_record_identity_unresolved"
+        },
+        {
+          "circuitConfigurationId": "zolder-1",
+          "reason": "current_record_identity_unresolved"
+        }
+      ]
+    },
+    "target": {
+      "observedCircuitConfigurationCount": 159,
+      "coverageDescription": "Only verified circuit configurations are included.",
+      "sprintExcluded": true
+    }
+  },
+  "rowCount": 18,
+  "rows": [
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 24,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "avus-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1959-6:58ca7d89a202",
+              "eventIndex": 80,
+              "season": 1959,
+              "round": 6,
+              "date": "1959-08-02",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "avus",
+              "circuitConfigurationId": "avus-1",
+              "sessionType": "race",
+              "lapTime": "2:04.500",
+              "lapTimeMillis": 124500,
+              "lapNumber": 18,
+              "driverId": "driver:brooks:4c43a3935c07",
+              "driverName": "Tony Brooks",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "baku-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2023-4:ee58147a1a10",
+              "eventIndex": 1082,
+              "season": 2023,
+              "round": 4,
+              "date": "2023-04-30",
+              "grandPrixName": "Azerbaijan Grand Prix",
+              "circuitId": "baku",
+              "circuitConfigurationId": "baku-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:40.203",
+              "lapTimeMillis": 100203,
+              "lapNumber": null,
+              "driverId": "driver:leclerc:80a0e9f8790b",
+              "driverName": "Charles Leclerc",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "catalunya-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2006-6:4736afa2b00e",
+              "eventIndex": 755,
+              "season": 2006,
+              "round": 6,
+              "date": "2006-05-14",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya",
+              "circuitConfigurationId": "catalunya-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.637",
+              "lapTimeMillis": 74637,
+              "lapNumber": null,
+              "driverId": "driver:michael-schumacher:6f4f07ba2368",
+              "driverName": "Michael Schumacher",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "dijon-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1974-9:a5327b3d15a3",
+              "eventIndex": 243,
+              "season": 1974,
+              "round": 9,
+              "date": "1974-07-07",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "dijon",
+              "circuitConfigurationId": "dijon-1",
+              "sessionType": "qualifying",
+              "lapTime": "58.790",
+              "lapTimeMillis": 58790,
+              "lapNumber": null,
+              "driverId": "driver:lauda:a96b8acf8741",
+              "driverName": "Niki Lauda",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "fuji-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2008-16:4cbfbb3f99b1",
+              "eventIndex": 800,
+              "season": 2008,
+              "round": 16,
+              "date": "2008-10-12",
+              "grandPrixName": "Japanese Grand Prix",
+              "circuitId": "fuji",
+              "circuitConfigurationId": "fuji-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:17.287",
+              "lapTimeMillis": 77287,
+              "lapNumber": null,
+              "driverId": "driver:massa:86ab3cfe923d",
+              "driverName": "Felipe Massa",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "hockenheimring-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2018-11:26fc8ff9d820",
+              "eventIndex": 986,
+              "season": 2018,
+              "round": 11,
+              "date": "2018-07-22",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "hockenheimring",
+              "circuitConfigurationId": "hockenheimring-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:11.212",
+              "lapTimeMillis": 71212,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "indianapolis-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2004-9:c7d9e727bda2",
+              "eventIndex": 721,
+              "season": 2004,
+              "round": 9,
+              "date": "2004-06-20",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "indianapolis",
+              "circuitConfigurationId": "indianapolis-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:10.223",
+              "lapTimeMillis": 70223,
+              "lapNumber": null,
+              "driverId": "driver:barrichello:ff6039716ac0",
+              "driverName": "Rubens Barrichello",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "jerez-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1997-17:ad611116f382",
+              "eventIndex": 613,
+              "season": 1997,
+              "round": 17,
+              "date": "1997-10-26",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "jerez",
+              "circuitConfigurationId": "jerez-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:21.072",
+              "lapTimeMillis": 81072,
+              "lapNumber": null,
+              "driverId": "driver:michael-schumacher:6f4f07ba2368",
+              "driverName": "Michael Schumacher",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "long-beach-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1983-2:d14713d22b98",
+              "eventIndex": 374,
+              "season": 1983,
+              "round": 2,
+              "date": "1983-03-27",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach",
+              "circuitConfigurationId": "long-beach-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.117",
+              "lapTimeMillis": 86117,
+              "lapNumber": null,
+              "driverId": "driver:tambay:da914d6b903c",
+              "driverName": "Patrick Tambay",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "marina-bay-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2008-15:a2d47707deda",
+              "eventIndex": 799,
+              "season": 2008,
+              "round": 15,
+              "date": "2008-09-28",
+              "grandPrixName": "Singapore Grand Prix",
+              "circuitId": "marina_bay",
+              "circuitConfigurationId": "marina-bay-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:44.014",
+              "lapTimeMillis": 104014,
+              "lapNumber": null,
+              "driverId": "driver:massa:86ab3cfe923d",
+              "driverName": "Felipe Massa",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "mexico-city-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1970-13:12bd124a2612",
+              "eventIndex": 196,
+              "season": 1970,
+              "round": 13,
+              "date": "1970-10-25",
+              "grandPrixName": "Mexican Grand Prix",
+              "circuitId": "rodriguez",
+              "circuitConfigurationId": "mexico-city-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:41.860",
+              "lapTimeMillis": 101860,
+              "lapNumber": null,
+              "driverId": "driver:regazzoni:8dabb0375829",
+              "driverName": "Clay Regazzoni",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monaco-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1974-6:7804eccbc970",
+              "eventIndex": 240,
+              "season": 1974,
+              "round": 6,
+              "date": "1974-05-26",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco",
+              "circuitConfigurationId": "monaco-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.300",
+              "lapTimeMillis": 86300,
+              "lapNumber": null,
+              "driverId": "driver:lauda:a96b8acf8741",
+              "driverName": "Niki Lauda",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "montreal-5",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2001-8:54f5aa334ed2",
+              "eventIndex": 670,
+              "season": 2001,
+              "round": 8,
+              "date": "2001-06-10",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve",
+              "circuitConfigurationId": "montreal-5",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.782",
+              "lapTimeMillis": 75782,
+              "lapNumber": null,
+              "driverId": "driver:michael-schumacher:6f4f07ba2368",
+              "driverName": "Michael Schumacher",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "montreal-6",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-7:9571bf010ecd",
+              "eventIndex": 1003,
+              "season": 2019,
+              "round": 7,
+              "date": "2019-06-09",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve",
+              "circuitConfigurationId": "montreal-6",
+              "sessionType": "qualifying",
+              "lapTime": "1:10.240",
+              "lapTimeMillis": 70240,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monza-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1960-9:06ca6e69776d",
+              "eventIndex": 92,
+              "season": 1960,
+              "round": 9,
+              "date": "1960-09-04",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza",
+              "circuitConfigurationId": "monza-2",
+              "sessionType": "qualifying",
+              "lapTime": "2:41.400",
+              "lapTimeMillis": 161400,
+              "lapNumber": null,
+              "driverId": "driver:phil-hill:35d0f98c0d81",
+              "driverName": "Phil Hill",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monza-5",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1975-13:f425f0993501",
+              "eventIndex": 262,
+              "season": 1975,
+              "round": 13,
+              "date": "1975-09-07",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza",
+              "circuitConfigurationId": "monza-5",
+              "sessionType": "qualifying",
+              "lapTime": "1:32.240",
+              "lapTimeMillis": 92240,
+              "lapNumber": null,
+              "driverId": "driver:lauda:a96b8acf8741",
+              "driverName": "Niki Lauda",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "nivelles-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1974-5:167c28ac4974",
+              "eventIndex": 239,
+              "season": 1974,
+              "round": 5,
+              "date": "1974-05-12",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "nivelles",
+              "circuitConfigurationId": "nivelles-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:09.820",
+              "lapTimeMillis": 69820,
+              "lapNumber": null,
+              "driverId": "driver:regazzoni:8dabb0375829",
+              "driverName": "Clay Regazzoni",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "nurburgring-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2001-9:fcde494636d6",
+              "eventIndex": 671,
+              "season": 2001,
+              "round": 9,
+              "date": "2001-06-24",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "nurburgring",
+              "circuitConfigurationId": "nurburgring-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.960",
+              "lapTimeMillis": 74960,
+              "lapNumber": null,
+              "driverId": "driver:michael-schumacher:6f4f07ba2368",
+              "driverName": "Michael Schumacher",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "paul-ricard-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1990-7:bb9be1db411b",
+              "eventIndex": 490,
+              "season": 1990,
+              "round": 7,
+              "date": "1990-07-08",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "ricard",
+              "circuitConfigurationId": "paul-ricard-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:04.402",
+              "lapTimeMillis": 64402,
+              "lapNumber": null,
+              "driverId": "driver:mansell:66de70fd9557",
+              "driverName": "Nigel Mansell",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "pedralbes-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1951-8:08cf63e087a4",
+              "eventIndex": 14,
+              "season": 1951,
+              "round": 8,
+              "date": "1951-10-28",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "pedralbes",
+              "circuitConfigurationId": "pedralbes-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:10.590",
+              "lapTimeMillis": 130590,
+              "lapNumber": null,
+              "driverId": "driver:ascari:ad5589a1c97f",
+              "driverName": "Alberto Ascari",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "rouen-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1952-4:1f19140f7090",
+              "eventIndex": 18,
+              "season": 1952,
+              "round": 4,
+              "date": "1952-07-06",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "essarts",
+              "circuitConfigurationId": "rouen-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:14.800",
+              "lapTimeMillis": 134800,
+              "lapNumber": null,
+              "driverId": "driver:ascari:ad5589a1c97f",
+              "driverName": "Alberto Ascari",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "spielberg-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1975-12:bf3ae8d6569c",
+              "eventIndex": 261,
+              "season": 1975,
+              "round": 12,
+              "date": "1975-08-17",
+              "grandPrixName": "Austrian Grand Prix",
+              "circuitId": "red_bull_ring",
+              "circuitConfigurationId": "spielberg-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:34.850",
+              "lapTimeMillis": 94850,
+              "lapNumber": null,
+              "driverId": "driver:lauda:a96b8acf8741",
+              "driverName": "Niki Lauda",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "zandvoort-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1971-4:46ad075a0c34",
+              "eventIndex": 200,
+              "season": 1971,
+              "round": 4,
+              "date": "1971-06-20",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort",
+              "circuitConfigurationId": "zandvoort-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:17.420",
+              "lapTimeMillis": 77420,
+              "lapNumber": null,
+              "driverId": "driver:ickx:9dc972aa2fb0",
+              "driverName": "Jacky Ickx",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "zolder-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1984-3:43613aaf308e",
+              "eventIndex": 390,
+              "season": 1984,
+              "round": 3,
+              "date": "1984-04-29",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "zolder",
+              "circuitConfigurationId": "zolder-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.846",
+              "lapTimeMillis": 74846,
+              "lapNumber": null,
+              "driverId": "driver:alboreto:2d39fb3c5621",
+              "driverName": "Michele Alboreto",
+              "constructorId": "constructor:ferrari:d5aa0140c09c",
+              "constructorName": "Ferrari"
+            }
+          ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 21,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "aida-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1994-2:cb121f88167b",
+              "eventIndex": 549,
+              "season": 1994,
+              "round": 2,
+              "date": "1994-04-17",
+              "grandPrixName": "Pacific Grand Prix",
+              "circuitId": "okayama",
+              "circuitConfigurationId": "aida-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:10.218",
+              "lapTimeMillis": 70218,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "brands-hatch-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1986-9:cdbc6df3a9f2",
+              "eventIndex": 428,
+              "season": 1986,
+              "round": 9,
+              "date": "1986-07-13",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "brands_hatch",
+              "circuitConfigurationId": "brands-hatch-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:06.961",
+              "lapTimeMillis": 66961,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "buenos-aires-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1997-3:7d312d8038d5",
+              "eventIndex": 599,
+              "season": 1997,
+              "round": 3,
+              "date": "1997-04-13",
+              "grandPrixName": "Argentine Grand Prix",
+              "circuitId": "galvez",
+              "circuitConfigurationId": "buenos-aires-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:24.473",
+              "lapTimeMillis": 84473,
+              "lapNumber": null,
+              "driverId": "driver:villeneuve:5349509be1a5",
+              "driverName": "Jacques Villeneuve",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "donington-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1993-3:8ec135d63a75",
+              "eventIndex": 534,
+              "season": 1993,
+              "round": 3,
+              "date": "1993-04-11",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "donington",
+              "circuitConfigurationId": "donington-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:10.458",
+              "lapTimeMillis": 70458,
+              "lapNumber": null,
+              "driverId": "driver:prost:70f24972bd43",
+              "driverName": "Alain Prost",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "estoril-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1993-14:ee00f74f2d48",
+              "eventIndex": 545,
+              "season": 1993,
+              "round": 14,
+              "date": "1993-09-26",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "estoril",
+              "circuitConfigurationId": "estoril-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:11.494",
+              "lapTimeMillis": 71494,
+              "lapNumber": null,
+              "driverId": "driver:damon-hill:3cf4df1bacf7",
+              "driverName": "Damon Hill",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "estoril-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1996-15:e2bca8f2a13b",
+              "eventIndex": 595,
+              "season": 1996,
+              "round": 15,
+              "date": "1996-09-22",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "estoril",
+              "circuitConfigurationId": "estoril-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:20.330",
+              "lapTimeMillis": 80330,
+              "lapNumber": null,
+              "driverId": "driver:damon-hill:3cf4df1bacf7",
+              "driverName": "Damon Hill",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "hockenheimring-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1980-9:01566fc1422d",
+              "eventIndex": 336,
+              "season": 1980,
+              "round": 9,
+              "date": "1980-08-10",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "hockenheimring",
+              "circuitConfigurationId": "hockenheimring-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:45.850",
+              "lapTimeMillis": 105850,
+              "lapNumber": null,
+              "driverId": "driver:jones:83ac4230619a",
+              "driverName": "Alan Jones",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "hockenheimring-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1991-9:2919c7fa7e4b",
+              "eventIndex": 508,
+              "season": 1991,
+              "round": 9,
+              "date": "1991-07-28",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "hockenheimring",
+              "circuitConfigurationId": "hockenheimring-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:37.087",
+              "lapTimeMillis": 97087,
+              "lapNumber": null,
+              "driverId": "driver:mansell:66de70fd9557",
+              "driverName": "Nigel Mansell",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "imola-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1994-3:159644e08a6e",
+              "eventIndex": 550,
+              "season": 1994,
+              "round": 3,
+              "date": "1994-05-01",
+              "grandPrixName": "San Marino Grand Prix",
+              "circuitId": "imola",
+              "circuitConfigurationId": "imola-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:21.548",
+              "lapTimeMillis": 81548,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "jerez-2",
+          "tie": true,
+          "holders": [
+            {
+              "eventId": "event:1997-17:ad611116f382",
+              "eventIndex": 613,
+              "season": 1997,
+              "round": 17,
+              "date": "1997-10-26",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "jerez",
+              "circuitConfigurationId": "jerez-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:21.072",
+              "lapTimeMillis": 81072,
+              "lapNumber": null,
+              "driverId": "driver:frentzen:e499a12f83f0",
+              "driverName": "Heinz-Harald Frentzen",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            },
+            {
+              "eventId": "event:1997-17:ad611116f382",
+              "eventIndex": 613,
+              "season": 1997,
+              "round": 17,
+              "date": "1997-10-26",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "jerez",
+              "circuitConfigurationId": "jerez-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:21.072",
+              "lapTimeMillis": 81072,
+              "lapNumber": null,
+              "driverId": "driver:villeneuve:5349509be1a5",
+              "driverName": "Jacques Villeneuve",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "kyalami-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1992-1:8ba08aef7c60",
+              "eventIndex": 516,
+              "season": 1992,
+              "round": 1,
+              "date": "1992-03-01",
+              "grandPrixName": "South African Grand Prix",
+              "circuitId": "kyalami",
+              "circuitConfigurationId": "kyalami-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.486",
+              "lapTimeMillis": 75486,
+              "lapNumber": null,
+              "driverId": "driver:mansell:66de70fd9557",
+              "driverName": "Nigel Mansell",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "magny-cours-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1991-7:7c37283df2f2",
+              "eventIndex": 506,
+              "season": 1991,
+              "round": 7,
+              "date": "1991-07-07",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "magny_cours",
+              "circuitConfigurationId": "magny-cours-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.559",
+              "lapTimeMillis": 74559,
+              "lapNumber": null,
+              "driverId": "driver:patrese:57b51e8b4bbf",
+              "driverName": "Riccardo Patrese",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "magny-cours-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2002-11:e25d5451caa9",
+              "eventIndex": 690,
+              "season": 2002,
+              "round": 11,
+              "date": "2002-07-21",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "magny_cours",
+              "circuitConfigurationId": "magny-cours-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:11.985",
+              "lapTimeMillis": 71985,
+              "lapNumber": null,
+              "driverId": "driver:montoya:68737b86fe17",
+              "driverName": "Juan Pablo Montoya",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "mexico-city-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1992-2:f2f848a28655",
+              "eventIndex": 517,
+              "season": 1992,
+              "round": 2,
+              "date": "1992-03-22",
+              "grandPrixName": "Mexican Grand Prix",
+              "circuitId": "rodriguez",
+              "circuitConfigurationId": "mexico-city-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:16.346",
+              "lapTimeMillis": 76346,
+              "lapNumber": null,
+              "driverId": "driver:mansell:66de70fd9557",
+              "driverName": "Nigel Mansell",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "paul-ricard-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1985-7:ea4347e8547c",
+              "eventIndex": 410,
+              "season": 1985,
+              "round": 7,
+              "date": "1985-07-07",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "ricard",
+              "circuitConfigurationId": "paul-ricard-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:32.462",
+              "lapTimeMillis": 92462,
+              "lapNumber": null,
+              "driverId": "driver:keke-rosberg:c149e9225f45",
+              "driverName": "Keke Rosberg",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "silverstone-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1985-8:76f6f2285fb4",
+              "eventIndex": 411,
+              "season": 1985,
+              "round": 8,
+              "date": "1985-07-21",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone",
+              "circuitConfigurationId": "silverstone-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:05.591",
+              "lapTimeMillis": 65591,
+              "lapNumber": null,
+              "driverId": "driver:keke-rosberg:c149e9225f45",
+              "driverName": "Keke Rosberg",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "silverstone-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1987-7:9b5ed73317c3",
+              "eventIndex": 442,
+              "season": 1987,
+              "round": 7,
+              "date": "1987-07-12",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone",
+              "circuitConfigurationId": "silverstone-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:07.110",
+              "lapTimeMillis": 67110,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "silverstone-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1992-9:1102df305868",
+              "eventIndex": 524,
+              "season": 1992,
+              "round": 9,
+              "date": "1992-07-12",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone",
+              "circuitConfigurationId": "silverstone-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:18.965",
+              "lapTimeMillis": 78965,
+              "lapNumber": null,
+              "driverId": "driver:mansell:66de70fd9557",
+              "driverName": "Nigel Mansell",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "silverstone-5",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1994-8:95e3dec37a51",
+              "eventIndex": 555,
+              "season": 1994,
+              "round": 8,
+              "date": "1994-07-10",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone",
+              "circuitConfigurationId": "silverstone-5",
+              "sessionType": "qualifying",
+              "lapTime": "1:24.960",
+              "lapTimeMillis": 84960,
+              "lapNumber": null,
+              "driverId": "driver:damon-hill:3cf4df1bacf7",
+              "driverName": "Damon Hill",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "silverstone-6",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1996-10:084ba5bf62cf",
+              "eventIndex": 590,
+              "season": 1996,
+              "round": 10,
+              "date": "1996-07-14",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone",
+              "circuitConfigurationId": "silverstone-6",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.875",
+              "lapTimeMillis": 86875,
+              "lapNumber": null,
+              "driverId": "driver:damon-hill:3cf4df1bacf7",
+              "driverName": "Damon Hill",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "spielberg-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1987-10:a70d144e710a",
+              "eventIndex": 445,
+              "season": 1987,
+              "round": 10,
+              "date": "1987-08-16",
+              "grandPrixName": "Austrian Grand Prix",
+              "circuitId": "red_bull_ring",
+              "circuitConfigurationId": "spielberg-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:23.357",
+              "lapTimeMillis": 83357,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:williams:4164dc156cb6",
+              "constructorName": "Williams"
+            }
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "austin-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-19:c83efa07e98e",
+              "eventIndex": 1015,
+              "season": 2019,
+              "round": 19,
+              "date": "2019-11-03",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "americas",
+              "circuitConfigurationId": "austin-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:32.029",
+              "lapTimeMillis": 92029,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "bahrain-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-15:050ee0f11408",
+              "eventIndex": 1032,
+              "season": 2020,
+              "round": 15,
+              "date": "2020-11-29",
+              "grandPrixName": "Bahrain Grand Prix",
+              "circuitId": "bahrain",
+              "circuitConfigurationId": "bahrain-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:27.264",
+              "lapTimeMillis": 87264,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "bahrain-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-16:fcacc7c1c62b",
+              "eventIndex": 1033,
+              "season": 2020,
+              "round": 16,
+              "date": "2020-12-06",
+              "grandPrixName": "Sakhir Grand Prix",
+              "circuitId": "bahrain",
+              "circuitConfigurationId": "bahrain-3",
+              "sessionType": "qualifying",
+              "lapTime": "53.377",
+              "lapTimeMillis": 53377,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "catalunya-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-5:1c7e13564585",
+              "eventIndex": 1001,
+              "season": 2019,
+              "round": 5,
+              "date": "2019-05-12",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya",
+              "circuitConfigurationId": "catalunya-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.406",
+              "lapTimeMillis": 75406,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "catalunya-5",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2021-4:e11a98ecc160",
+              "eventIndex": 1038,
+              "season": 2021,
+              "round": 4,
+              "date": "2021-05-09",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya",
+              "circuitConfigurationId": "catalunya-5",
+              "sessionType": "qualifying",
+              "lapTime": "1:16.741",
+              "lapTimeMillis": 76741,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "hungaroring-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-3:35066e3127ed",
+              "eventIndex": 1020,
+              "season": 2020,
+              "round": 3,
+              "date": "2020-07-19",
+              "grandPrixName": "Hungarian Grand Prix",
+              "circuitId": "hungaroring",
+              "circuitConfigurationId": "hungaroring-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:13.447",
+              "lapTimeMillis": 73447,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "imola-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-13:2b5e87ce9c45",
+              "eventIndex": 1030,
+              "season": 2020,
+              "round": 13,
+              "date": "2020-11-01",
+              "grandPrixName": "Emilia Romagna Grand Prix",
+              "circuitId": "imola",
+              "circuitConfigurationId": "imola-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:13.609",
+              "lapTimeMillis": 73609,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "istanbul-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2021-16:3ca9f9c049a5",
+              "eventIndex": 1050,
+              "season": 2021,
+              "round": 16,
+              "date": "2021-10-10",
+              "grandPrixName": "Turkish Grand Prix",
+              "circuitId": "istanbul",
+              "circuitConfigurationId": "istanbul-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:22.868",
+              "lapTimeMillis": 82868,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "las-vegas-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2024-22:364548393e81",
+              "eventIndex": 1122,
+              "season": 2024,
+              "round": 22,
+              "date": "2024-11-23",
+              "grandPrixName": "Las Vegas Grand Prix",
+              "circuitId": "vegas",
+              "circuitConfigurationId": "las-vegas-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:32.312",
+              "lapTimeMillis": 92312,
+              "lapNumber": null,
+              "driverId": "driver:russell:0de59c03b0db",
+              "driverName": "George Russell",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "melbourne-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-1:cc835ec4b87c",
+              "eventIndex": 997,
+              "season": 2019,
+              "round": 1,
+              "date": "2019-03-17",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "albert_park",
+              "circuitConfigurationId": "melbourne-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:20.486",
+              "lapTimeMillis": 80486,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "mugello-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-9:436a369aad13",
+              "eventIndex": 1026,
+              "season": 2020,
+              "round": 9,
+              "date": "2020-09-13",
+              "grandPrixName": "Tuscan Grand Prix",
+              "circuitId": "mugello",
+              "circuitConfigurationId": "mugello-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.144",
+              "lapTimeMillis": 75144,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "nurburgring-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-11:d3cf8d427869",
+              "eventIndex": 1028,
+              "season": 2020,
+              "round": 11,
+              "date": "2020-10-11",
+              "grandPrixName": "Eifel Grand Prix",
+              "circuitId": "nurburgring",
+              "circuitConfigurationId": "nurburgring-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:25.269",
+              "lapTimeMillis": 85269,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "paul-ricard-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-8:0aa9f1c82e2f",
+              "eventIndex": 1004,
+              "season": 2019,
+              "round": 8,
+              "date": "2019-06-23",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "ricard",
+              "circuitConfigurationId": "paul-ricard-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:28.319",
+              "lapTimeMillis": 88319,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "portimao-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-12:32a504aa2059",
+              "eventIndex": 1029,
+              "season": 2020,
+              "round": 12,
+              "date": "2020-10-25",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "portimao",
+              "circuitConfigurationId": "portimao-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:16.466",
+              "lapTimeMillis": 76466,
+              "lapNumber": null,
+              "driverId": "driver:bottas:cf1711492eee",
+              "driverName": "Valtteri Bottas",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "sepang-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2017-15:3a9dd3c70d72",
+              "eventIndex": 970,
+              "season": 2017,
+              "round": 15,
+              "date": "2017-10-01",
+              "grandPrixName": "Malaysian Grand Prix",
+              "circuitId": "sepang",
+              "circuitConfigurationId": "sepang-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:30.076",
+              "lapTimeMillis": 90076,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "sochi-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-10:805062ee7202",
+              "eventIndex": 1027,
+              "season": 2020,
+              "round": 10,
+              "date": "2020-09-27",
+              "grandPrixName": "Russian Grand Prix",
+              "circuitId": "sochi",
+              "circuitConfigurationId": "sochi-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:31.304",
+              "lapTimeMillis": 91304,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "yas-marina-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-21:f0312a8dac89",
+              "eventIndex": 1017,
+              "season": 2019,
+              "round": 21,
+              "date": "2019-12-01",
+              "grandPrixName": "Abu Dhabi Grand Prix",
+              "circuitId": "yas_marina",
+              "circuitConfigurationId": "yas-marina-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:34.779",
+              "lapTimeMillis": 94779,
+              "lapNumber": null,
+              "driverId": "driver:hamilton:528ad2ac33fa",
+              "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 12,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "adelaide-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1993-16:323f81d1aebc",
+              "eventIndex": 547,
+              "season": 1993,
+              "round": 16,
+              "date": "1993-11-07",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "adelaide",
+              "circuitConfigurationId": "adelaide-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:13.371",
+              "lapTimeMillis": 73371,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "catalunya-6",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2024-10:020b6acbf038",
+              "eventIndex": 1110,
+              "season": 2024,
+              "round": 10,
+              "date": "2024-06-23",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya",
+              "circuitConfigurationId": "catalunya-6",
+              "sessionType": "qualifying",
+              "lapTime": "1:11.383",
+              "lapTimeMillis": 71383,
+              "lapNumber": null,
+              "driverId": "driver:norris:5581145e4767",
+              "driverName": "Lando Norris",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "hungaroring-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1988-10:cc397529cc79",
+              "eventIndex": 461,
+              "season": 1988,
+              "round": 10,
+              "date": "1988-08-07",
+              "grandPrixName": "Hungarian Grand Prix",
+              "circuitId": "hungaroring",
+              "circuitConfigurationId": "hungaroring-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:27.635",
+              "lapTimeMillis": 87635,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "jacarepagua-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1989-1:b52778407513",
+              "eventIndex": 468,
+              "season": 1989,
+              "round": 1,
+              "date": "1989-03-26",
+              "grandPrixName": "Brazilian Grand Prix",
+              "circuitId": "jacarepagua",
+              "circuitConfigurationId": "jacarepagua-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:25.302",
+              "lapTimeMillis": 85302,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "jerez-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1990-14:16a55c2de67b",
+              "eventIndex": 497,
+              "season": 1990,
+              "round": 14,
+              "date": "1990-09-30",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "jerez",
+              "circuitConfigurationId": "jerez-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:18.387",
+              "lapTimeMillis": 78387,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "melbourne-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-1:7c43929f48ef",
+              "eventIndex": 1125,
+              "season": 2025,
+              "round": 1,
+              "date": "2025-03-16",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "albert_park",
+              "circuitConfigurationId": "melbourne-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.096",
+              "lapTimeMillis": 75096,
+              "lapNumber": null,
+              "driverId": "driver:norris:5581145e4767",
+              "driverName": "Lando Norris",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "phoenix-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1990-1:ec19bc058aa9",
+              "eventIndex": 484,
+              "season": 1990,
+              "round": 1,
+              "date": "1990-03-11",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "phoenix",
+              "circuitConfigurationId": "phoenix-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:28.664",
+              "lapTimeMillis": 88664,
+              "lapNumber": null,
+              "driverId": "driver:berger:721f3dbb508a",
+              "driverName": "Gerhard Berger",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "phoenix-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1991-1:b4836930a7f6",
+              "eventIndex": 500,
+              "season": 1991,
+              "round": 1,
+              "date": "1991-03-10",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "phoenix",
+              "circuitConfigurationId": "phoenix-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:21.434",
+              "lapTimeMillis": 81434,
+              "lapNumber": null,
+              "driverId": "driver:senna:97c74c7d172e",
+              "driverName": "Ayrton Senna",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "shanghai-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-2:e05a33739015",
+              "eventIndex": 1126,
+              "season": 2025,
+              "round": 2,
+              "date": "2025-03-23",
+              "grandPrixName": "Chinese Grand Prix",
+              "circuitId": "shanghai",
+              "circuitConfigurationId": "shanghai-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:30.641",
+              "lapTimeMillis": 90641,
+              "lapNumber": null,
+              "driverId": "driver:piastri:45bbf3cf700f",
+              "driverName": "Oscar Piastri",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "spa-francorchamps-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2004-14:6a8a70266eef",
+              "eventIndex": 726,
+              "season": 2004,
+              "round": 14,
+              "date": "2004-08-29",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa",
+              "circuitConfigurationId": "spa-francorchamps-3",
+              "sessionType": "race",
+              "lapTime": "1:45.108",
+              "lapTimeMillis": 105108,
+              "lapNumber": 42,
+              "driverId": "driver:raikkonen:650e2e18533e",
+              "driverName": "Kimi Räikkönen",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "spa-francorchamps-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-13:bfd2add05949",
+              "eventIndex": 1137,
+              "season": 2025,
+              "round": 13,
+              "date": "2025-07-27",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa",
+              "circuitConfigurationId": "spa-francorchamps-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:40.562",
+              "lapTimeMillis": 100562,
+              "lapNumber": null,
+              "driverId": "driver:norris:5581145e4767",
+              "driverName": "Lando Norris",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "zandvoort-5",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-15:6505ac52ea15",
+              "eventIndex": 1139,
+              "season": 2025,
+              "round": 15,
+              "date": "2025-08-31",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort",
+              "circuitConfigurationId": "zandvoort-5",
+              "sessionType": "qualifying",
+              "lapTime": "1:08.662",
+              "lapTimeMillis": 68662,
+              "lapNumber": null,
+              "driverId": "driver:piastri:45bbf3cf700f",
+              "driverName": "Oscar Piastri",
+              "constructorId": "constructor:mclaren:f3759103103f",
+              "constructorName": "McLaren"
+            }
+          ]
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 11,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "bahrain-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2010-1:17f9c86c9f42",
+              "eventIndex": 820,
+              "season": 2010,
+              "round": 1,
+              "date": "2010-03-14",
+              "grandPrixName": "Bahrain Grand Prix",
+              "circuitId": "bahrain",
+              "circuitConfigurationId": "bahrain-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:53.883",
+              "lapTimeMillis": 113883,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "buddh-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2013-16:5951aad27bda",
+              "eventIndex": 893,
+              "season": 2013,
+              "round": 16,
+              "date": "2013-10-27",
+              "grandPrixName": "Indian Grand Prix",
+              "circuitId": "buddh",
+              "circuitConfigurationId": "buddh-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:24.119",
+              "lapTimeMillis": 84119,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "jeddah-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-5:b499cfad2770",
+              "eventIndex": 1129,
+              "season": 2025,
+              "round": 5,
+              "date": "2025-04-20",
+              "grandPrixName": "Saudi Arabian Grand Prix",
+              "circuitId": "jeddah",
+              "circuitConfigurationId": "jeddah-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:27.294",
+              "lapTimeMillis": 87294,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "marina-bay-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2013-13:efaf565d8ed4",
+              "eventIndex": 890,
+              "season": 2013,
+              "round": 13,
+              "date": "2013-09-22",
+              "grandPrixName": "Singapore Grand Prix",
+              "circuitId": "marina_bay",
+              "circuitConfigurationId": "marina-bay-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:42.841",
+              "lapTimeMillis": 102841,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "mexico-city-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2019-18:0118a6abfbc9",
+              "eventIndex": 1014,
+              "season": 2019,
+              "round": 18,
+              "date": "2019-10-27",
+              "grandPrixName": "Mexican Grand Prix",
+              "circuitId": "rodriguez",
+              "circuitConfigurationId": "mexico-city-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.758",
+              "lapTimeMillis": 74758,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "miami-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-6:5fde0a3e0cba",
+              "eventIndex": 1130,
+              "season": 2025,
+              "round": 6,
+              "date": "2025-05-04",
+              "grandPrixName": "Miami Grand Prix",
+              "circuitId": "miami",
+              "circuitConfigurationId": "miami-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.204",
+              "lapTimeMillis": 86204,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monza-7",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-16:783044c500e9",
+              "eventIndex": 1140,
+              "season": 2025,
+              "round": 16,
+              "date": "2025-09-07",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza",
+              "circuitConfigurationId": "monza-7",
+              "sessionType": "qualifying",
+              "lapTime": "1:18.792",
+              "lapTimeMillis": 78792,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "suzuka-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2025-3:9771dd9e62e4",
+              "eventIndex": 1127,
+              "season": 2025,
+              "round": 3,
+              "date": "2025-04-06",
+              "grandPrixName": "Japanese Grand Prix",
+              "circuitId": "suzuka",
+              "circuitConfigurationId": "suzuka-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.983",
+              "lapTimeMillis": 86983,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "valencia-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2011-8:f61c2b893542",
+              "eventIndex": 846,
+              "season": 2011,
+              "round": 8,
+              "date": "2011-06-26",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "valencia",
+              "circuitConfigurationId": "valencia-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:36.975",
+              "lapTimeMillis": 96975,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "yas-marina-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2021-22:986300d4d137",
+              "eventIndex": 1056,
+              "season": 2021,
+              "round": 22,
+              "date": "2021-12-12",
+              "grandPrixName": "Abu Dhabi Grand Prix",
+              "circuitId": "yas_marina",
+              "circuitConfigurationId": "yas-marina-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:22.109",
+              "lapTimeMillis": 82109,
+              "lapNumber": null,
+              "driverId": "driver:max-verstappen:1f6847211200",
+              "driverName": "Max Verstappen",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "yeongam-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2010-17:0d0388a31e65",
+              "eventIndex": 836,
+              "season": 2010,
+              "round": 17,
+              "date": "2010-10-24",
+              "grandPrixName": "Korean Grand Prix",
+              "circuitId": "yeongam",
+              "circuitConfigurationId": "yeongam-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:35.585",
+              "lapTimeMillis": 95585,
+              "lapNumber": null,
+              "driverId": "driver:vettel:c74415af2cc1",
+              "driverName": "Sebastian Vettel",
+              "constructorId": "constructor:red-bull:8307f488a798",
+              "constructorName": "Red Bull"
+            }
+          ]
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 6,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "bremgarten-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1951-1:7504027adcf2",
+              "eventIndex": 7,
+              "season": 1951,
+              "round": 1,
+              "date": "1951-05-27",
+              "grandPrixName": "Swiss Grand Prix",
+              "circuitId": "bremgarten",
+              "circuitConfigurationId": "bremgarten-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:35.900",
+              "lapTimeMillis": 155900,
+              "lapNumber": null,
+              "driverId": "driver:fangio:56835a0b6237",
+              "driverName": "Juan Manuel Fangio",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "long-beach-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1982-3:1c0928f579d7",
+              "eventIndex": 359,
+              "season": 1982,
+              "round": 3,
+              "date": "1982-04-04",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach",
+              "circuitConfigurationId": "long-beach-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:27.316",
+              "lapTimeMillis": 87316,
+              "lapNumber": null,
+              "driverId": "driver:cesaris:50c29699dea6",
+              "driverName": "Andrea de Cesaris",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monaco-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1950-2:609d25155bf6",
+              "eventIndex": 1,
+              "season": 1950,
+              "round": 2,
+              "date": "1950-05-21",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco",
+              "circuitConfigurationId": "monaco-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:50.200",
+              "lapTimeMillis": 110200,
+              "lapNumber": null,
+              "driverId": "driver:fangio:56835a0b6237",
+              "driverName": "Juan Manuel Fangio",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monza-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1951-7:d41b18061b6a",
+              "eventIndex": 13,
+              "season": 1951,
+              "round": 7,
+              "date": "1951-09-16",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza",
+              "circuitConfigurationId": "monza-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:53.200",
+              "lapTimeMillis": 113200,
+              "lapNumber": null,
+              "driverId": "driver:fangio:56835a0b6237",
+              "driverName": "Juan Manuel Fangio",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "reims-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1951-4:c571f374cdff",
+              "eventIndex": 10,
+              "season": 1951,
+              "round": 4,
+              "date": "1951-07-01",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "reims",
+              "circuitConfigurationId": "reims-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:25.700",
+              "lapTimeMillis": 145700,
+              "lapNumber": null,
+              "driverId": "driver:fangio:56835a0b6237",
+              "driverName": "Juan Manuel Fangio",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "watkins-glen-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1980-14:a18abdf1aad8",
+              "eventIndex": 341,
+              "season": 1980,
+              "round": 14,
+              "date": "1980-10-05",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "watkins_glen",
+              "circuitConfigurationId": "watkins-glen-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:33.291",
+              "lapTimeMillis": 93291,
+              "lapNumber": null,
+              "driverId": "driver:giacomelli:45f5255cb8b8",
+              "driverName": "Bruno Giacomelli",
+              "constructorId": "constructor:alfa:f3891f4c8109",
+              "constructorName": "Alfa Romeo"
+            }
+          ]
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 5,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "buenos-aires-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1981-3:21cd5465d68a",
+              "eventIndex": 344,
+              "season": 1981,
+              "round": 3,
+              "date": "1981-04-12",
+              "grandPrixName": "Argentine Grand Prix",
+              "circuitId": "galvez",
+              "circuitConfigurationId": "buenos-aires-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:42.665",
+              "lapTimeMillis": 102665,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:brabham:0f52aed0736c",
+              "constructorName": "Brabham"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "long-beach-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1980-4:b79d558fd5ba",
+              "eventIndex": 331,
+              "season": 1980,
+              "round": 4,
+              "date": "1980-03-30",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach",
+              "circuitConfigurationId": "long-beach-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:17.694",
+              "lapTimeMillis": 77694,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:brabham:0f52aed0736c",
+              "constructorName": "Brabham"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "rouen-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1968-6:9320431db35f",
+              "eventIndex": 166,
+              "season": 1968,
+              "round": 6,
+              "date": "1968-07-07",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "essarts",
+              "circuitConfigurationId": "rouen-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:56.100",
+              "lapTimeMillis": 116100,
+              "lapNumber": null,
+              "driverId": "driver:rindt:46dabdd8ff6b",
+              "driverName": "Jochen Rindt",
+              "constructorId": "constructor:brabham:0f52aed0736c",
+              "constructorName": "Brabham"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "watkins-glen-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1974-15:dcb06a0e2ba0",
+              "eventIndex": 249,
+              "season": 1974,
+              "round": 15,
+              "date": "1974-10-06",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "watkins_glen",
+              "circuitConfigurationId": "watkins-glen-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:38.978",
+              "lapTimeMillis": 98978,
+              "lapNumber": null,
+              "driverId": "driver:reutemann:c573421c6e6f",
+              "driverName": "Carlos Reutemann",
+              "constructorId": "constructor:brabham:0f52aed0736c",
+              "constructorName": "Brabham"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "zandvoort-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1985-11:624399fc91db",
+              "eventIndex": 414,
+              "season": 1985,
+              "round": 11,
+              "date": "1985-08-25",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort",
+              "circuitConfigurationId": "zandvoort-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:11.074",
+              "lapTimeMillis": 71074,
+              "lapNumber": null,
+              "driverId": "driver:piquet:009ec3fd7514",
+              "driverName": "Nelson Piquet",
+              "constructorId": "constructor:brabham:0f52aed0736c",
+              "constructorName": "Brabham"
+            }
+          ]
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 5,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "caesars-palace-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1982-16:38c4f1148dbf",
+              "eventIndex": 372,
+              "season": 1982,
+              "round": 16,
+              "date": "1982-09-25",
+              "grandPrixName": "Caesars Palace Grand Prix",
+              "circuitId": "las_vegas",
+              "circuitConfigurationId": "caesars-palace-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:16.356",
+              "lapTimeMillis": 76356,
+              "lapNumber": null,
+              "driverId": "driver:prost:70f24972bd43",
+              "driverName": "Alain Prost",
+              "constructorId": "constructor:renault:59785f4b9a1f",
+              "constructorName": "Renault"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "detroit-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1982-7:7bfeab967af6",
+              "eventIndex": 363,
+              "season": 1982,
+              "round": 7,
+              "date": "1982-06-06",
+              "grandPrixName": "Detroit Grand Prix",
+              "circuitId": "detroit",
+              "circuitConfigurationId": "detroit-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:48.537",
+              "lapTimeMillis": 108537,
+              "lapNumber": null,
+              "driverId": "driver:prost:70f24972bd43",
+              "driverName": "Alain Prost",
+              "constructorId": "constructor:renault:59785f4b9a1f",
+              "constructorName": "Renault"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "dijon-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1982-14:7bbf99d18806",
+              "eventIndex": 370,
+              "season": 1982,
+              "round": 14,
+              "date": "1982-08-29",
+              "grandPrixName": "Swiss Grand Prix",
+              "circuitId": "dijon",
+              "circuitConfigurationId": "dijon-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:01.380",
+              "lapTimeMillis": 61380,
+              "lapNumber": null,
+              "driverId": "driver:prost:70f24972bd43",
+              "driverName": "Alain Prost",
+              "constructorId": "constructor:renault:59785f4b9a1f",
+              "constructorName": "Renault"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "magny-cours-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2004-10:b9b628245a4b",
+              "eventIndex": 722,
+              "season": 2004,
+              "round": 10,
+              "date": "2004-07-04",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "magny_cours",
+              "circuitConfigurationId": "magny-cours-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:13.698",
+              "lapTimeMillis": 73698,
+              "lapNumber": null,
+              "driverId": "driver:alonso:04d69c1d187a",
+              "driverName": "Fernando Alonso",
+              "constructorId": "constructor:renault:59785f4b9a1f",
+              "constructorName": "Renault"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "zandvoort-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1979-12:6fcd467fb29c",
+              "eventIndex": 324,
+              "season": 1979,
+              "round": 12,
+              "date": "1979-08-26",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort",
+              "circuitConfigurationId": "zandvoort-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:15.461",
+              "lapTimeMillis": 75461,
+              "lapNumber": null,
+              "driverId": "driver:arnoux:3628c7479aa0",
+              "driverName": "René Arnoux",
+              "constructorId": "constructor:renault:59785f4b9a1f",
+              "constructorName": "Renault"
+            }
+          ]
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
+      "value": 3,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "buenos-aires-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1960-1:95cf842e4620",
+              "eventIndex": 84,
+              "season": 1960,
+              "round": 1,
+              "date": "1960-02-07",
+              "grandPrixName": "Argentine Grand Prix",
+              "circuitId": "galvez",
+              "circuitConfigurationId": "buenos-aires-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:36.900",
+              "lapTimeMillis": 96900,
+              "lapNumber": null,
+              "driverId": "driver:moss:74efba0d63c1",
+              "driverName": "Stirling Moss",
+              "constructorId": "constructor:cooper:9771c8f26d98",
+              "constructorName": "Cooper"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monsanto-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1959-7:2aa7c85a7338",
+              "eventIndex": 81,
+              "season": 1959,
+              "round": 7,
+              "date": "1959-08-23",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "monsanto",
+              "circuitConfigurationId": "monsanto-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:02.890",
+              "lapTimeMillis": 122890,
+              "lapNumber": null,
+              "driverId": "driver:moss:74efba0d63c1",
+              "driverName": "Stirling Moss",
+              "constructorId": "constructor:cooper:9771c8f26d98",
+              "constructorName": "Cooper"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "sebring-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1959-9:4f137a6feb6a",
+              "eventIndex": 83,
+              "season": 1959,
+              "round": 9,
+              "date": "1959-12-12",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "sebring",
+              "circuitConfigurationId": "sebring-1",
+              "sessionType": "qualifying",
+              "lapTime": "3:00.000",
+              "lapTimeMillis": 180000,
+              "lapNumber": null,
+              "driverId": "driver:moss:74efba0d63c1",
+              "driverName": "Stirling Moss",
+              "constructorId": "constructor:cooper:9771c8f26d98",
+              "constructorName": "Cooper"
+            }
+          ]
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:matra:b2bca39208a5",
+      "entityName": "Matra",
+      "value": 2,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "clermont-ferrand-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1972-6:8b5ff0b447af",
+              "eventIndex": 213,
+              "season": 1972,
+              "round": 6,
+              "date": "1972-07-02",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "charade",
+              "circuitConfigurationId": "clermont-ferrand-1",
+              "sessionType": "qualifying",
+              "lapTime": "2:53.400",
+              "lapTimeMillis": 173400,
+              "lapNumber": null,
+              "driverId": "driver:amon:a418aa49b3fe",
+              "driverName": "Chris Amon",
+              "constructorId": "constructor:matra:b2bca39208a5",
+              "constructorName": "Matra"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "monza-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1971-9:8f9c399e946d",
+              "eventIndex": 205,
+              "season": 1971,
+              "round": 9,
+              "date": "1971-09-05",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza",
+              "circuitConfigurationId": "monza-3",
+              "sessionType": "qualifying",
+              "lapTime": "1:22.400",
+              "lapTimeMillis": 82400,
+              "lapNumber": null,
+              "driverId": "driver:amon:a418aa49b3fe",
+              "driverName": "Chris Amon",
+              "constructorId": "constructor:matra:b2bca39208a5",
+              "constructorName": "Matra"
+            }
+          ]
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:vanwall:4ca6f75bd647",
+      "entityName": "Vanwall",
+      "value": 2,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "ain-diab-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1958-11:dd814aaa246e",
+              "eventIndex": 74,
+              "season": 1958,
+              "round": 11,
+              "date": "1958-10-19",
+              "grandPrixName": "Moroccan Grand Prix",
+              "circuitId": "ain-diab",
+              "circuitConfigurationId": "ain-diab-1",
+              "sessionType": "race",
+              "lapTime": "2:22.500",
+              "lapTimeMillis": 142500,
+              "lapNumber": 21,
+              "driverId": "driver:moss:74efba0d63c1",
+              "driverName": "Stirling Moss",
+              "constructorId": "constructor:vanwall:4ca6f75bd647",
+              "constructorName": "Vanwall"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "pescara-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1957-7:3f794b68c907",
+              "eventIndex": 62,
+              "season": 1957,
+              "round": 7,
+              "date": "1957-08-18",
+              "grandPrixName": "Pescara Grand Prix",
+              "circuitId": "pescara",
+              "circuitConfigurationId": "pescara-1",
+              "sessionType": "race",
+              "lapTime": "9:44.600",
+              "lapTimeMillis": 584600,
+              "lapNumber": 9,
+              "driverId": "driver:moss:74efba0d63c1",
+              "driverName": "Stirling Moss",
+              "constructorId": "constructor:vanwall:4ca6f75bd647",
+              "constructorName": "Vanwall"
+            }
+          ]
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:brm:88ba4655b32a",
+      "entityName": "BRM",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "zeltweg-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1964-7:22f560988642",
+              "eventIndex": 127,
+              "season": 1964,
+              "round": 7,
+              "date": "1964-08-23",
+              "grandPrixName": "Austrian Grand Prix",
+              "circuitId": "zeltweg",
+              "circuitConfigurationId": "zeltweg-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:09.840",
+              "lapTimeMillis": 69840,
+              "lapNumber": null,
+              "driverId": "driver:hill:aa2839db1ccc",
+              "driverName": "Graham Hill",
+              "constructorId": "constructor:brm:88ba4655b32a",
+              "constructorName": "BRM"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "montreal-4",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1994-6:6f1934c0a1f5",
+              "eventIndex": 553,
+              "season": 1994,
+              "round": 6,
+              "date": "1994-06-12",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve",
+              "circuitConfigurationId": "montreal-4",
+              "sessionType": "qualifying",
+              "lapTime": "1:26.178",
+              "lapTimeMillis": 86178,
+              "lapNumber": null,
+              "driverId": "driver:michael-schumacher:6f4f07ba2368",
+              "driverName": "Michael Schumacher",
+              "constructorId": "constructor:benetton:58d42bf86808",
+              "constructorName": "Benetton"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "jarama-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1979-5:2343415a83a4",
+              "eventIndex": 317,
+              "season": 1979,
+              "round": 5,
+              "date": "1979-04-29",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "jarama",
+              "circuitConfigurationId": "jarama-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:14.500",
+              "lapTimeMillis": 74500,
+              "lapNumber": null,
+              "driverId": "driver:laffite:36bfb487a39b",
+              "driverName": "Jacques Laffite",
+              "constructorId": "constructor:ligier:08b25bed58af",
+              "constructorName": "Ligier"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:maserati:e07d701c3181",
+      "entityName": "Maserati",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "pescara-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1957-7:3f794b68c907",
+              "eventIndex": 62,
+              "season": 1957,
+              "round": 7,
+              "date": "1957-08-18",
+              "grandPrixName": "Pescara Grand Prix",
+              "circuitId": "pescara",
+              "circuitConfigurationId": "pescara-1",
+              "sessionType": "qualifying",
+              "lapTime": "9:44.600",
+              "lapTimeMillis": 584600,
+              "lapNumber": null,
+              "driverId": "driver:fangio:56835a0b6237",
+              "driverName": "Juan Manuel Fangio",
+              "constructorId": "constructor:maserati:e07d701c3181",
+              "constructorName": "Maserati"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:toleman:05f1f04db16b",
+      "entityName": "Toleman",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "nurburgring-2",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1985-9:b01ccfdc7f94",
+              "eventIndex": 412,
+              "season": 1985,
+              "round": 9,
+              "date": "1985-08-04",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "nurburgring",
+              "circuitConfigurationId": "nurburgring-2",
+              "sessionType": "qualifying",
+              "lapTime": "1:17.429",
+              "lapTimeMillis": 77429,
+              "lapNumber": null,
+              "driverId": "driver:fabi:fe5cfb0089b2",
+              "driverName": "Teo Fabi",
+              "constructorId": "constructor:toleman:05f1f04db16b",
+              "constructorName": "Toleman"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "mont-tremblant-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1970-11:df1e8672f466",
+              "eventIndex": 194,
+              "season": 1970,
+              "round": 11,
+              "date": "1970-09-20",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "tremblant",
+              "circuitConfigurationId": "mont-tremblant-1",
+              "sessionType": "qualifying",
+              "lapTime": "1:31.500",
+              "lapTimeMillis": 91500,
+              "lapNumber": null,
+              "driverId": "driver:stewart:f46f493c7dd0",
+              "driverName": "Jackie Stewart",
+              "constructorId": "constructor:tyrrell:4668e3d16dc0",
+              "constructorName": "Tyrrell"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:watson:e4276dfa8394",
+      "entityName": "Watson",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "indianapolis-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:1960-3:923ea1f02fc0",
+              "eventIndex": 86,
+              "season": 1960,
+              "round": 3,
+              "date": "1960-05-30",
+              "grandPrixName": "Indianapolis 500",
+              "circuitId": "indianapolis",
+              "circuitConfigurationId": "indianapolis-1",
+              "sessionType": "race",
+              "lapTime": "1:01.590",
+              "lapTimeMillis": 61590,
+              "lapNumber": 197,
+              "driverId": "driver:rathmann:5dd609a66a0d",
+              "driverName": "Jim Rathmann",
+              "constructorId": "constructor:watson:e4276dfa8394",
+              "constructorName": "Watson"
+            }
+          ]
+        }
+      ],
+      "rank": 12
+    }
+  ]
+}

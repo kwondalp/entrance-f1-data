@@ -503,48 +503,330 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 263,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 89,
+        "excludedCircuitConfigurationCount": 70,
+        "candidateLapCount": 43735,
+        "eligibleSessionTypes": [
+          "qualifying",
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "adelaide-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "clermont-ferrand-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "dijon-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "estoril-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jacarepagua-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "jarama-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "jerez-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mexico-city-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "mexico-city-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nivelles-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "paul-ricard-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "rouen-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "spielberg-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-2",
+            "reason": "record_chronology_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, order qualifying before race within an event and emit only a strictly lower valid lap time than the preceding record; equal later times are not improvements.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorFastestLapSeasons",
@@ -1002,48 +1284,233 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 17,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 113,
+        "excludedCircuitConfigurationCount": 46,
+        "candidateLapCount": 26650,
+        "eligibleSessionTypes": [
+          "qualifying"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "current_record_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid qualifying laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorRaceLapRecords",
@@ -1061,48 +1528,201 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 18,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 121,
+        "excludedCircuitConfigurationCount": 38,
+        "candidateLapCount": 17085,
+        "eligibleSessionTypes": [
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-3",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSprintLapRecords",
@@ -1132,36 +1752,27 @@
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official Sprint classifications and Sprint grids",
-      "rawFields": [
-        "Sprint identity",
-        "driver identity",
-        "constructor identity",
-        "fastest-lap flag",
-        "fastest-lap time",
-        "laps led"
-      ],
-      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
-      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
-      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact Sprint, driver and constructor identity",
+      "requiredRawEvidence": "licensed explicit Sprint fastest-lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing."
+      "status": "permission_required",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
     },
     {
       "metricId": "constructorTrackRecords",
@@ -1179,48 +1790,234 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 18,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 113,
+        "excludedCircuitConfigurationCount": 46,
+        "candidateLapCount": 43735,
+        "eligibleSessionTypes": [
+          "qualifying",
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "current_record_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid qualifying and Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorChampionshipLead",
@@ -3468,36 +4265,27 @@
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official Sprint classifications and Sprint grids",
-      "rawFields": [
-        "Sprint identity",
-        "driver identity",
-        "constructor identity",
-        "fastest-lap flag",
-        "fastest-lap time",
-        "laps led"
-      ],
-      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
-      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
-      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact Sprint, driver and constructor identity",
+      "requiredRawEvidence": "licensed explicit Sprint fastest-lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Explicit Sprint fastest-lap constructor evidence is missing for the complete 28-event cutoff scope."
+      "status": "permission_required",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
     },
     {
       "metricId": "constructorSprintKilometresLed",
@@ -4352,48 +5140,330 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 263,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 89,
+        "excludedCircuitConfigurationCount": 70,
+        "candidateLapCount": 43735,
+        "eligibleSessionTypes": [
+          "qualifying",
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "adelaide-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "clermont-ferrand-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "dijon-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "estoril-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jacarepagua-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "jarama-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "jerez-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mexico-city-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "mexico-city-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nivelles-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "paul-ricard-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "rouen-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "spielberg-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-3",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "record_chronology_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-2",
+            "reason": "record_chronology_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, order qualifying before race within an event and emit only a strictly lower valid lap time than the preceding record; equal later times are not improvements.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete official fastest-lap record chronology and tie evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverFastestLapSeasons",
@@ -4975,48 +6045,233 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 46,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 113,
+        "excludedCircuitConfigurationCount": 46,
+        "candidateLapCount": 26650,
+        "eligibleSessionTypes": [
+          "qualifying"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "current_record_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid qualifying laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific qualifying record ownership and validity evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverRaceLapRecords",
@@ -5034,48 +6289,201 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 57,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 121,
+        "excludedCircuitConfigurationCount": 38,
+        "candidateLapCount": 17085,
+        "eligibleSessionTypes": [
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-3",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific race lap record ownership and validity evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverSprintLapRecords",
@@ -5105,36 +6513,27 @@
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official Sprint classifications and Sprint grids",
-      "rawFields": [
-        "Sprint identity",
-        "driver identity",
-        "constructor identity",
-        "fastest-lap flag",
-        "fastest-lap time",
-        "laps led"
-      ],
-      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
-      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
-      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact Sprint, driver and constructor identity",
+      "requiredRawEvidence": "licensed explicit Sprint fastest-lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific Sprint lap record evidence is missing."
+      "status": "permission_required",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
     },
     {
       "metricId": "driverTrackRecords",
@@ -5152,48 +6551,234 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 46,
+        "observedCircuitConfigurationCount": 159,
+        "verifiedCircuitConfigurationCount": 113,
+        "excludedCircuitConfigurationCount": 46,
+        "candidateLapCount": 43735,
+        "eligibleSessionTypes": [
+          "qualifying",
+          "race"
+        ],
+        "sprintExcluded": true,
+        "layoutExclusions": [
+          {
+            "circuitConfigurationId": "aintree-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "anderstorp-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "brands-hatch-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "buenos-aires-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "bugatti-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "catalunya-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "catalunya-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "dallas-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "detroit-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "east-london-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "fuji-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "hockenheimring-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "hungaroring-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "imola-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "interlagos-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "jarama-2",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "kyalami-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "lusail-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "marina-bay-4",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monaco-5",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monaco-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montjuic-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "montreal-1",
+            "reason": "catalogue_distance_mismatch"
+          },
+          {
+            "circuitConfigurationId": "montreal-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "montreal-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "monza-4",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "monza-6",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "mosport-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "nurburgring-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "porto-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "reims-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "riverside-1",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "silverstone-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-7",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "silverstone-8",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spa-francorchamps-2",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "spielberg-3",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "suzuka-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "watkins-glen-1",
+            "reason": "multiple_observed_distances"
+          },
+          {
+            "circuitConfigurationId": "zandvoort-2",
+            "reason": "current_record_identity_unresolved"
+          },
+          {
+            "circuitConfigurationId": "zolder-1",
+            "reason": "current_record_identity_unresolved"
+          }
+        ]
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "observedCircuitConfigurationCount": 159,
+        "coverageDescription": "Only verified circuit configurations are included.",
+        "sprintExcluded": true
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official fastest-lap and lap-record results",
-      "rawFields": [
-        "race identity",
-        "circuit layout identity",
-        "driver identity",
-        "constructor identity",
-        "lap time milliseconds",
-        "session type"
-      ],
-      "currentEvidence": "F1DB exposes some event lap times, but the current registry products require circuit-configuration record ownership/progression or highest average speed; comparing raw durations across different circuits would be semantically invalid.",
-      "additionalSource": "A versioned, licence-compatible circuit-configuration lap-record contract with session validity and average speed",
-      "sourceLicense": "CC-BY-4.0",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "verified circuit-configuration lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each verified circuit configuration, select the minimum lap duration from valid qualifying and Grand Prix race fastest laps; credit each tied holder once, then count owned configurations per entity.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship qualifying and race laps with verified circuit configuration and valid duration through 2026-07-26; Sprint sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Complete configuration-specific outright record ownership, validity, and average-speed evidence are missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveDriverStarts",
@@ -6446,24 +8031,17 @@
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "pre-penalty finish-line order",
-      "rawFields": [
-        "race identity",
-        "finish-line order before penalties",
-        "official final classification",
-        "penalty decision"
-      ],
-      "currentEvidence": "Neither ENTRANCE nor the licensed open dataset contains complete pre-penalty finish-line order.",
-      "additionalSource": "event decisions and timing order with redistribution permission",
-      "sourceLicense": "not established for a complete reusable corpus",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact event and driver identity",
+      "requiredRawEvidence": "authoritative pre-penalty finish-line order and decision corpus",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
       "publicationStatus": "unavailable",
@@ -6473,7 +8051,7 @@
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
       "status": "unavailable",
-      "blockingReason": "No complete historical pre-penalty crossing-order corpus bound to official decisions exists."
+      "blockingReason": "The 113-event risk queue cannot be resolved into a complete first-on-road corpus from the licensed structured source; authoritative pre-penalty crossing order and decision evidence remain missing."
     },
     {
       "metricId": "driverFirstLapRetirements",
@@ -7707,36 +9285,27 @@
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
-      "requiredRawEvidence": "official Sprint classifications and Sprint grids",
-      "rawFields": [
-        "Sprint identity",
-        "driver identity",
-        "constructor identity",
-        "fastest-lap flag",
-        "fastest-lap time",
-        "laps led"
-      ],
-      "currentEvidence": "F1DB supplies Sprint fastest-lap flags but no reusable lap time or lap-by-lap leader allocation.",
-      "additionalSource": "F1DB v2026.11.0 Sprint results plus separately licensed timing evidence",
-      "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "exact Sprint, driver and constructor identity",
+      "requiredRawEvidence": "licensed explicit Sprint fastest-lap records",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
       "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Explicit Sprint fastest-lap driver evidence is missing for the complete 28-event cutoff scope."
+      "status": "permission_required",
+      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
     },
     {
       "metricId": "driverSprintKilometresLed",
@@ -8281,47 +9850,46 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 116,
+        "winnerCount": 116,
+        "f1dbDateCount": 116,
+        "wikidataDateCount": 116,
+        "dateConflictCount": 0
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "winnerCount": 116,
+        "f1dbDateCount": 116,
+        "wikidataDateCount": 116,
+        "dateConflictCount": 0,
+        "cutoff": "2026-07-26"
       },
       "evidenceClass": "C",
-      "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousEvidenceState": "official_event_complete",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "https://www.wikidata.org/"
       ],
-      "requiredRawEvidence": "official driver birth dates",
-      "rawFields": [
-        "driver identity",
-        "complete date of birth",
-        "source owner",
-        "source locator",
-        "independence classification"
-      ],
-      "currentEvidence": "F1DB dates are an open-data cross-check but do not satisfy the repository birthdate evidence policy by themselves.",
-      "additionalSource": "official or independently corroborated birthdate evidence",
-      "sourceLicense": "mixed; official Formula 1 material requires permission",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "approved birthdate evidence resolution for every winning driver",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "identity-resolved winning-driver birth dates",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each of 116 canonical credited winners, calculate event date minus date of birth in whole days for every credited win and select the maximum; display completed calendar years plus remainder days.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "Sixty-six winner identities remain unresolved, conflicted, or subject to human review; the record-changing Luigi Fagioli decision is pending."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     },
     {
       "metricId": "ageAtFirstWin",
@@ -8339,47 +9907,46 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 116,
+        "winnerCount": 116,
+        "f1dbDateCount": 116,
+        "wikidataDateCount": 116,
+        "dateConflictCount": 0
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "winnerCount": 116,
+        "f1dbDateCount": 116,
+        "wikidataDateCount": 116,
+        "dateConflictCount": 0,
+        "cutoff": "2026-07-26"
       },
       "evidenceClass": "C",
-      "previousEvidenceState": "official_evidence_partial",
-      "previousVerificationState": "external_evidence_blocked",
+      "previousEvidenceState": "official_event_complete",
+      "previousVerificationState": "production_ready",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
-        "fixtures/stats-final17-evidence-assessment.v1.json"
+        "fixtures/stats-final15-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "https://www.wikidata.org/"
       ],
-      "requiredRawEvidence": "official driver birth dates",
-      "rawFields": [
-        "driver identity",
-        "complete date of birth",
-        "source owner",
-        "source locator",
-        "independence classification"
-      ],
-      "currentEvidence": "F1DB dates are an open-data cross-check but do not satisfy the repository birthdate evidence policy by themselves.",
-      "additionalSource": "official or independently corroborated birthdate evidence",
-      "sourceLicense": "mixed; official Formula 1 material requires permission",
-      "fullHistoricalCoverage": false,
-      "identityDependency": "approved birthdate evidence resolution for every winning driver",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "requiredRawEvidence": "identity-resolved winning-driver birth dates",
+      "rawFields": [],
+      "currentEvidence": null,
+      "additionalSource": null,
+      "sourceLicense": null,
+      "fullHistoricalCoverage": null,
+      "identityDependency": null,
+      "derivationMethod": "For each of 116 canonical credited winners, calculate event date minus date of birth in whole days for every credited win and select the minimum; display completed calendar years plus remainder days.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "The 66 unresolved, conflicted, or human-review winner birth dates prevent a complete youngest-winner boundary proof."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     }
   ]
 }

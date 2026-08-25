@@ -3,12 +3,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 98,
-    "partial": 86,
-    "completeThroughCutoff": 12,
-    "blocked": 46,
-    "permissionRequired": 31,
-    "unavailable": 15,
+    "available": 108,
+    "partial": 94,
+    "completeThroughCutoff": 14,
+    "blocked": 36,
+    "permissionRequired": 35,
+    "unavailable": 1,
     "drivers": 76,
     "constructors": 68
   },
@@ -17,8 +17,8 @@
     "substantivelyEmptyMetricCount": 144
   },
   "after": {
-    "populatedMetricCount": 98,
-    "substantivelyEmptyMetricCount": 46
+    "populatedMetricCount": 108,
+    "substantivelyEmptyMetricCount": 36
   },
   "evidenceClasses": {
     "A": {
@@ -33,8 +33,8 @@
     },
     "C": {
       "total": 69,
-      "available": 23,
-      "blocked": 46
+      "available": 33,
+      "blocked": 36
     }
   },
   "sourceCoverage": {
@@ -55,6 +55,22 @@
       "unavailableDecisionCount": 15,
       "requestAttemptCount": 6,
       "finalResponseByteCount": 7097782,
+      "http403Count": 0,
+      "http429Count": 0
+    },
+    "final15Assessment": {
+      "semanticContractApproval": "OWNER-20260825-STATS-FINAL15-CONTRACT-01",
+      "evidenceAcquisitionApproval": "OWNER-20260825-STATS-FINAL15-EVIDENCE-02",
+      "eolPortabilityApproval": "OWNER-20260825-STATS-EOL-01",
+      "decisionCount": 15,
+      "populatedDecisionCount": 10,
+      "permissionRequiredDecisionCount": 4,
+      "unavailableDecisionCount": 1,
+      "winnerDobLedgerCount": 116,
+      "winnerDobConflictCount": 0,
+      "firstAcrossInvestigationQueueCount": 113,
+      "directRequestAttemptCount": 5,
+      "directResponseByteCount": 137065,
       "http403Count": 0,
       "http429Count": 0
     },

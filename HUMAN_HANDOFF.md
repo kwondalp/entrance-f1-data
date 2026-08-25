@@ -232,6 +232,15 @@ This repository validates the public boundary. It must not reinterpret producer-
 
 Baseline read-only validation commands:
 
+The current Stats metric backfill contract contains 144 unchanged metrics: 108
+available payloads, 35 permission-required products, and one unavailable product.
+The ten final-15 additions are eight explicitly partial circuit-configuration
+record payloads plus two complete-through-2026-07-26 winning-age payloads. The
+four Sprint fastest-lap products remain permission-required and
+`driver_first_across_line_without_win` remains unavailable. Validate every
+manifest size/SHA binding and preserve the previous 98 metric payload blobs
+byte-for-byte on any regeneration.
+
 ```console
 python -c "import json, pathlib; [json.loads(path.read_text(encoding='utf-8')) for path in pathlib.Path('.').rglob('*.json')]"
 git diff --check

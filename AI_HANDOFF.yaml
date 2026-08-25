@@ -5,8 +5,8 @@ project:
 role: published F1 data contract
 handoffVersion: 13
 currentState:
-  status: stats-fastest-ever-semantic-release-candidate
-  summary: "The additive Stats package contains 98 payloads, 31 permission-required catalogue entries, and 15 unavailable entries. OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01 replaces the unpublished zero-row minimum_lap_time contract with maximum_average_speed for the unchanged Driver and Constructor fastest_ever_lap IDs/routes. Both are complete through 2026-07-26 at one row each with a licensed F1DB v2026.11.0 recalculation, public manifest attribution, and official Formula 1 factual corroboration. The other 15 final-17 metrics remain fail-closed for their exact evidence blockers; no Formula 1/FIA lap chart or restricted timing source is retained or redistributed."
+  status: stats-final15-contract-and-evidence-release-candidate
+  summary: "The additive Stats package contains 108 populated payloads, 35 permission-required catalogue entries, and 1 unavailable entry across the unchanged 144 routes. Eight circuit-record metrics are published with exact partial coverage, two winning-age metrics are complete through 2026-07-26, four Sprint fastest-lap metrics remain permission-gated, and first-across-line-without-win remains unavailable under the three final-15 owner approvals. F1DB v2026.11.0 CC BY 4.0 and checksum-bound Wikidata CC0 provenance are exposed without retaining or redistributing restricted Formula 1/FIA timing material."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -253,6 +253,9 @@ validation:
     - id: result-results-and-stats-beta
       summary: The producer audits passed directly against this repository with zero blocking errors and zero warnings. Results Archive Beta contains 77 manifest-listed checksum-valid seasons, 1,159 races, and 26,094 classifications; Stats Lab Beta contains five checksum-valid derived documents and the exact 14 published, 92 provisional, 99 blocked, and 96 unsupported status split. All repository JSON parsed, and stable Results Archive v1 plus existing current-season and Stats Lab v1 paths have no task diff.
       status: passed
+    - id: result-stats-final15
+      summary: The Stats metric backfill publishes 108 checksum-bound payloads, with eight new verified-configuration circuit-record metrics marked partial and two winning-age metrics complete through 2026-07-26. Coverage is 108 available, 35 permission-required, and one unavailable across 144 unchanged routes; all 98 previously populated metric payload blobs are byte-identical to the baseline, and all 113 generated package files are UTF-8 without BOM, LF-only, final-LF, and manifest-valid.
+      status: passed
 lastCompletedWork:
   - id: completed-handoff-bootstrap
     summary: Repository-local AI and human handoffs and operating instructions were created and validated without modifying production JSON or sibling repositories.
@@ -272,6 +275,8 @@ lastCompletedWork:
     summary: Added the separately namespaced 77-season Results Archive Beta package, schemas, and contract documentation while preserving the stable v1 package byte-for-byte and labeling historical seasons provisional.
   - id: completed-stats-lab-beta-v1
     summary: Added the separately namespaced Stats Lab Beta manifest, five derived documents, schemas, and contract documentation with explicit catalogue status, coverage, methodology, exclusion, and unsupported-range boundaries.
+  - id: completed-stats-final15
+    summary: Published the owner-approved final-15 Stats package update with eight honest partial circuit-record payloads, two complete winning-age payloads, portable LF bytes, unchanged IDs and routes, and fail-closed Sprint/first-across products.
 notes:
   - id: note-git-facts
     summary: Git branch, HEAD, upstream, and working-tree facts must always be read directly from Git.

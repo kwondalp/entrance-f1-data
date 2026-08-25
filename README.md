@@ -119,17 +119,26 @@ rows and must be labelled as evidence-scoped; they must not be presented as
 complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
 and current-season URLs and semantics are unchanged.
 
-The evidence extensions publish 98 metric payloads: the original 75, 21 partial
-metrics derived from F1DB v2026.11.0 under CC BY 4.0, and two
+The evidence extensions publish 108 metric payloads: the original 75, 21 partial
+metrics derived from F1DB v2026.11.0 under CC BY 4.0, two
 `complete_through_cutoff` fastest-ever-lap payloads for the Driver and
-Constructor record holder. The latter retain average speed, lap time, session,
+Constructor record holder, eight verified-configuration circuit-record payloads,
+and two complete winning-age payloads. The fastest-ever payloads retain average
+speed, lap time, session,
 event, circuit configuration, distance, and canonical identities; their public
 value is independently recalculated from licensed structured data and
 corroborated by the official Formula 1 historical-record claim. Exact
 canonical name-or-alias binding is required and unresolved identities are
-excluded. Of the remaining 46 metrics, 31 are `permission_required` and 15 are
+excluded. Circuit records are explicitly partial: each payload reports the 159
+observed configurations and its accepted/excluded configuration counts instead
+of implying all-time completeness. Winning ages cover all 116 canonical credited
+winners through 2026-07-26 with independently matching F1DB and Wikidata dates.
+Of the remaining 36 metrics, 35 are `permission_required` and one is
 `unavailable`; all retain a null data path and must render as unavailable, never
-as numeric zero. Eight configuration/chronology lap-record products and all four
-Sprint fastest-lap products remain unavailable because their complete evidence
-contracts are not safely satisfied. Formula 1/FIA lap charts and restricted
-timing documents are not included or redistributed.
+as numeric zero. The four Sprint fastest-lap products require permission because
+the approved 28-event fixture has no explicit fastest-lap facts. Formula 1/FIA
+lap charts and restricted timing documents are not included or redistributed.
+
+All files under `f1/stats-metric-backfill/v1/` are canonical UTF-8 without BOM,
+LF-only, and final-LF. Their manifest sizes and SHA-256 values bind those exact
+bytes across clean Windows and Git-tree checkouts.
