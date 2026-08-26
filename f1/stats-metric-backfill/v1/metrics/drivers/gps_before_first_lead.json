@@ -1,0 +1,1367 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "gps_before_first_lead",
+  "metricId": "gpsBeforeFirstLead",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 49,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 49,
+  "rows": [
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 109,
+      "firstEvent": {
+        "eventId": "event:2015-1:dfd85ecbeb0e",
+        "eventIndex": 916,
+        "season": 2015,
+        "round": 1,
+        "date": "2015-03-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:sutil:46c5d0e2becf",
+      "entityName": "Adrian Sutil",
+      "value": 90,
+      "firstEvent": {
+        "eventId": "event:2007-1:4f36ead3868a",
+        "eventIndex": 768,
+        "season": 2007,
+        "round": 1,
+        "date": "2007-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2013-1:02f42220367e",
+        "eventIndex": 878,
+        "season": 2013,
+        "round": 1,
+        "date": "2013-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 90,
+      "firstEvent": {
+        "eventId": "event:2000-1:288b2d1e04ae",
+        "eventIndex": 646,
+        "season": 2000,
+        "round": 1,
+        "date": "2000-03-12",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2005-7:ed1c5b7920af",
+        "eventIndex": 737,
+        "season": 2005,
+        "round": 7,
+        "date": "2005-05-29",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 77,
+      "firstEvent": {
+        "eventId": "event:2016-13:c2f5a54b2790",
+        "eventIndex": 947,
+        "season": 2016,
+        "round": 13,
+        "date": "2016-08-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "valueEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 74,
+      "firstEvent": {
+        "eventId": "event:2017-1:cc1bdab0d0d7",
+        "eventIndex": 956,
+        "season": 2017,
+        "round": 1,
+        "date": "2017-03-26",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 65,
+      "firstEvent": {
+        "eventId": "event:2000-1:288b2d1e04ae",
+        "eventIndex": 646,
+        "season": 2000,
+        "round": 1,
+        "date": "2000-03-12",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 65,
+      "firstEvent": {
+        "eventId": "event:2021-1:69f181c43033",
+        "eventIndex": 1035,
+        "season": 2021,
+        "round": 1,
+        "date": "2021-03-28",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2023-22:4408473167ab",
+        "eventIndex": 1100,
+        "season": 2023,
+        "round": 22,
+        "date": "2023-11-26",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 54,
+      "firstEvent": {
+        "eventId": "event:2017-15:3a9dd3c70d72",
+        "eventIndex": 970,
+        "season": 2017,
+        "round": 15,
+        "date": "2017-10-01",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 51,
+      "firstEvent": {
+        "eventId": "event:2019-1:cc835ec4b87c",
+        "eventIndex": 997,
+        "season": 2019,
+        "round": 1,
+        "date": "2019-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2021-14:e08fdd10a891",
+        "eventIndex": 1048,
+        "season": 2021,
+        "round": 14,
+        "date": "2021-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 49,
+      "firstEvent": {
+        "eventId": "event:2006-1:fe9e85aa6d7f",
+        "eventIndex": 750,
+        "season": 2006,
+        "round": 1,
+        "date": "2006-03-12",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2008-15:a2d47707deda",
+        "eventIndex": 799,
+        "season": 2008,
+        "round": 15,
+        "date": "2008-09-28",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 46,
+      "firstEvent": {
+        "eventId": "event:1997-1:319ffa505e0b",
+        "eventIndex": 597,
+        "season": 1997,
+        "round": 1,
+        "date": "1997-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1999-14:e9963f4cc046",
+        "eventIndex": 643,
+        "season": 1999,
+        "round": 14,
+        "date": "1999-09-26",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 38,
+      "firstEvent": {
+        "eventId": "event:2010-1:17f9c86c9f42",
+        "eventIndex": 820,
+        "season": 2010,
+        "round": 1,
+        "date": "2010-03-14",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-20:ceb3586239ee",
+        "eventIndex": 877,
+        "season": 2012,
+        "round": 20,
+        "date": "2012-11-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 36,
+      "firstEvent": {
+        "eventId": "event:2019-1:cc835ec4b87c",
+        "eventIndex": 997,
+        "season": 2019,
+        "round": 1,
+        "date": "2019-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-16:fcacc7c1c62b",
+        "eventIndex": 1033,
+        "season": 2020,
+        "round": 16,
+        "date": "2020-12-06",
+        "grandPrixName": "Sakhir Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 34,
+      "firstEvent": {
+        "eventId": "event:2019-1:cc835ec4b87c",
+        "eventIndex": 997,
+        "season": 2019,
+        "round": 1,
+        "date": "2019-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 33,
+      "firstEvent": {
+        "eventId": "event:2002-1:8a55395f9b3c",
+        "eventIndex": 680,
+        "season": 2002,
+        "round": 1,
+        "date": "2002-03-03",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2004-18:e7cbd5b378b0",
+        "eventIndex": 730,
+        "season": 2004,
+        "round": 18,
+        "date": "2004-10-24",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 31,
+      "firstEvent": {
+        "eventId": "event:2002-1:8a55395f9b3c",
+        "eventIndex": 680,
+        "season": 2002,
+        "round": 1,
+        "date": "2002-03-03",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 28,
+      "firstEvent": {
+        "eventId": "event:1993-1:9d7ab5af78f4",
+        "eventIndex": 532,
+        "season": 1993,
+        "round": 1,
+        "date": "1993-03-14",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "valueEvent": {
+        "eventId": "event:1994-13:765bce566d04",
+        "eventIndex": 560,
+        "season": 1994,
+        "round": 13,
+        "date": "1994-09-25",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 27,
+      "firstEvent": {
+        "eventId": "event:2001-1:f3a2cbf68d05",
+        "eventIndex": 663,
+        "season": 2001,
+        "round": 1,
+        "date": "2001-03-04",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2002-11:e25d5451caa9",
+        "eventIndex": 690,
+        "season": 2002,
+        "round": 11,
+        "date": "2002-07-21",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:buemi:d1230df074dd",
+      "entityName": "Sébastien Buemi",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:2009-1:1fd450f686e6",
+        "eventIndex": 803,
+        "season": 2009,
+        "round": 1,
+        "date": "2009-03-29",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2010-8:ecb88e9b5632",
+        "eventIndex": 827,
+        "season": 2010,
+        "round": 8,
+        "date": "2010-06-13",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "driver:sato:1e3f20b0ae9f",
+      "entityName": "Takuma Sato",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:2002-1:8a55395f9b3c",
+        "eventIndex": 680,
+        "season": 2002,
+        "round": 1,
+        "date": "2002-03-03",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2004-7:a3050ebe1d11",
+        "eventIndex": 719,
+        "season": 2004,
+        "round": 7,
+        "date": "2004-05-30",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 23,
+      "firstEvent": {
+        "eventId": "event:2015-1:dfd85ecbeb0e",
+        "eventIndex": 916,
+        "season": 2015,
+        "round": 1,
+        "date": "2015-03-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2016-5:c321cfd88c73",
+        "eventIndex": 939,
+        "season": 2016,
+        "round": 5,
+        "date": "2016-05-15",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 23,
+      "firstEvent": {
+        "eventId": "event:2011-1:cf2a5a839c23",
+        "eventIndex": 839,
+        "season": 2011,
+        "round": 1,
+        "date": "2011-03-27",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "date": "2012-05-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 22,
+      "firstEvent": {
+        "eventId": "event:2018-1:d5e6ec8b97c4",
+        "eventIndex": 976,
+        "season": 2018,
+        "round": 1,
+        "date": "2018-03-25",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2019-2:a0d869828a19",
+        "eventIndex": 998,
+        "season": 2019,
+        "round": 2,
+        "date": "2019-03-31",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "driver:resta:1da1e2d80d70",
+      "entityName": "Paul di Resta",
+      "value": 22,
+      "firstEvent": {
+        "eventId": "event:2011-1:cf2a5a839c23",
+        "eventIndex": 839,
+        "season": 2011,
+        "round": 1,
+        "date": "2011-03-27",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-4:ad47a9e4368a",
+        "eventIndex": 861,
+        "season": 2012,
+        "round": 4,
+        "date": "2012-04-22",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 19,
+      "firstEvent": {
+        "eventId": "event:2011-1:cf2a5a839c23",
+        "eventIndex": 839,
+        "season": 2011,
+        "round": 1,
+        "date": "2011-03-27",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-2:895faf5b7748",
+        "eventIndex": 859,
+        "season": 2012,
+        "round": 2,
+        "date": "2012-03-25",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 25
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 18,
+      "firstEvent": {
+        "eventId": "event:2001-1:f3a2cbf68d05",
+        "eventIndex": 663,
+        "season": 2001,
+        "round": 1,
+        "date": "2001-03-04",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-2:3c5d8ae51f86",
+        "eventIndex": 698,
+        "season": 2003,
+        "round": 2,
+        "date": "2003-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 17,
+      "firstEvent": {
+        "eventId": "event:1996-1:ed8794849812",
+        "eventIndex": 581,
+        "season": 1996,
+        "round": 1,
+        "date": "1996-03-10",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1997-10:88bd4472cb58",
+        "eventIndex": 606,
+        "season": 1997,
+        "round": 10,
+        "date": "1997-07-27",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 17,
+      "firstEvent": {
+        "eventId": "event:1991-11:084f099718ec",
+        "eventIndex": 510,
+        "season": 1991,
+        "round": 11,
+        "date": "1991-08-25",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "valueEvent": {
+        "eventId": "event:1992-12:18f541cdd545",
+        "eventIndex": 527,
+        "season": 1992,
+        "round": 12,
+        "date": "1992-08-30",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "driver:giovinazzi:1f6a3b48d31c",
+      "entityName": "Antonio Giovinazzi",
+      "value": 16,
+      "firstEvent": {
+        "eventId": "event:2017-1:cc1bdab0d0d7",
+        "eventIndex": 956,
+        "season": 2017,
+        "round": 1,
+        "date": "2017-03-26",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2019-15:5b7b7a0be20d",
+        "eventIndex": 1011,
+        "season": 2019,
+        "round": 15,
+        "date": "2019-09-22",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 15,
+      "firstEvent": {
+        "eventId": "event:1984-1:895f211bc000",
+        "eventIndex": 388,
+        "season": 1984,
+        "round": 1,
+        "date": "1984-03-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "jacarepagua"
+      },
+      "valueEvent": {
+        "eventId": "event:1985-2:86ad05fcc4f8",
+        "eventIndex": 405,
+        "season": 1985,
+        "round": 2,
+        "date": "1985-04-21",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "driver:bourdais:b80876a32b7b",
+      "entityName": "Sébastien Bourdais",
+      "value": 15,
+      "firstEvent": {
+        "eventId": "event:2008-1:2cf47aa21c9f",
+        "eventIndex": 785,
+        "season": 2008,
+        "round": 1,
+        "date": "2008-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2008-16:4cbfbb3f99b1",
+        "eventIndex": 800,
+        "season": 2008,
+        "round": 16,
+        "date": "2008-10-12",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "driver:johansson:036b6578adb4",
+      "entityName": "Stefan Johansson",
+      "value": 14,
+      "firstEvent": {
+        "eventId": "event:1983-9:8cf4cb9657c0",
+        "eventIndex": 381,
+        "season": 1983,
+        "round": 9,
+        "date": "1983-07-16",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "valueEvent": {
+        "eventId": "event:1985-3:f550bcea6ba1",
+        "eventIndex": 406,
+        "season": 1985,
+        "round": 3,
+        "date": "1985-05-05",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 32
+    },
+    {
+      "entityId": "driver:pizzonia:12e6382a7d42",
+      "entityName": "Antônio Pizzonia",
+      "value": 13,
+      "firstEvent": {
+        "eventId": "event:2003-1:d3229e097d75",
+        "eventIndex": 697,
+        "season": 2003,
+        "round": 1,
+        "date": "2003-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2004-14:6a8a70266eef",
+        "eventIndex": 726,
+        "season": 2004,
+        "round": 14,
+        "date": "2004-08-29",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 13,
+      "firstEvent": {
+        "eventId": "event:1997-1:319ffa505e0b",
+        "eventIndex": 597,
+        "season": 1997,
+        "round": 1,
+        "date": "1997-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 13,
+      "firstEvent": {
+        "eventId": "event:2023-1:ddc8278a1b9c",
+        "eventIndex": 1079,
+        "season": 2023,
+        "round": 1,
+        "date": "2023-03-05",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2023-14:86074fd29efb",
+        "eventIndex": 1092,
+        "season": 2023,
+        "round": 14,
+        "date": "2023-09-03",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "driver:matta:9a1970495e7a",
+      "entityName": "Cristiano da Matta",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:2003-1:d3229e097d75",
+        "eventIndex": 697,
+        "season": 2003,
+        "round": 1,
+        "date": "2003-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-11:51c94af62694",
+        "eventIndex": 707,
+        "season": 2003,
+        "round": 11,
+        "date": "2003-07-20",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 36
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:2009-11:14ba71d8e005",
+        "eventIndex": 813,
+        "season": 2009,
+        "round": 11,
+        "date": "2009-08-23",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "valencia"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-4:ad47a9e4368a",
+        "eventIndex": 861,
+        "season": 2012,
+        "round": 4,
+        "date": "2012-04-22",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 36
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:2004-8:84701bbfca99",
+        "eventIndex": 720,
+        "season": 2004,
+        "round": 8,
+        "date": "2004-06-13",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "valueEvent": {
+        "eventId": "event:2008-7:f43f9b1d5fd1",
+        "eventIndex": 791,
+        "season": 2008,
+        "round": 7,
+        "date": "2008-06-08",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 36
+    },
+    {
+      "entityId": "driver:piquet-jr:6a7023ce2da9",
+      "entityName": "Nelson Piquet Jr.",
+      "value": 9,
+      "firstEvent": {
+        "eventId": "event:2008-1:2cf47aa21c9f",
+        "eventIndex": 785,
+        "season": 2008,
+        "round": 1,
+        "date": "2008-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2008-10:ee6fc88745e6",
+        "eventIndex": 794,
+        "season": 2008,
+        "round": 10,
+        "date": "2008-07-20",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 39
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:2007-1:4f36ead3868a",
+        "eventIndex": 768,
+        "season": 2007,
+        "round": 1,
+        "date": "2007-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-7:7d6cbd5746db",
+        "eventIndex": 774,
+        "season": 2007,
+        "round": 7,
+        "date": "2007-06-17",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 40
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 5,
+      "firstEvent": {
+        "eventId": "event:1994-5:46fb684cbefb",
+        "eventIndex": 552,
+        "season": 1994,
+        "round": 5,
+        "date": "1994-05-29",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "valueEvent": {
+        "eventId": "event:1994-11:c0617c76ca7a",
+        "eventIndex": 558,
+        "season": 1994,
+        "round": 11,
+        "date": "1994-08-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 41
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 5,
+      "firstEvent": {
+        "eventId": "event:2007-7:7d6cbd5746db",
+        "eventIndex": 774,
+        "season": 2007,
+        "round": 7,
+        "date": "2007-06-17",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-15:7b42716cbcc4",
+        "eventIndex": 782,
+        "season": 2007,
+        "round": 15,
+        "date": "2007-09-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 41
+    },
+    {
+      "entityId": "driver:gutierrez:8297f3d8d107",
+      "entityName": "Esteban Gutiérrez",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:2013-1:02f42220367e",
+        "eventIndex": 878,
+        "season": 2013,
+        "round": 1,
+        "date": "2013-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2013-5:27c04a4c5b9d",
+        "eventIndex": 882,
+        "season": 2013,
+        "round": 5,
+        "date": "2013-05-12",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 43
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2001-1:f3a2cbf68d05",
+        "eventIndex": 663,
+        "season": 2001,
+        "round": 1,
+        "date": "2001-03-04",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2001-3:be5cc2aa9c1e",
+        "eventIndex": 665,
+        "season": 2001,
+        "round": 3,
+        "date": "2001-04-01",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2025-1:7c43929f48ef",
+        "eventIndex": 1125,
+        "season": 2025,
+        "round": 1,
+        "date": "2025-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2025-3:9771dd9e62e4",
+        "eventIndex": 1127,
+        "season": 2025,
+        "round": 3,
+        "date": "2025-04-06",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2006-13:1a4b0f2a1b82",
+        "eventIndex": 762,
+        "season": 2006,
+        "round": 13,
+        "date": "2006-08-06",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueEvent": {
+        "eventId": "event:2006-15:6723d4f460ae",
+        "eventIndex": 764,
+        "season": 2006,
+        "round": 15,
+        "date": "2006-09-10",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:1996-1:ed8794849812",
+        "eventIndex": 581,
+        "season": 1996,
+        "round": 1,
+        "date": "1996-03-10",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1996-1:ed8794849812",
+        "eventIndex": 581,
+        "season": 1996,
+        "round": 1,
+        "date": "1996-03-10",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 47
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2007-1:4f36ead3868a",
+        "eventIndex": 768,
+        "season": 2007,
+        "round": 1,
+        "date": "2007-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-1:4f36ead3868a",
+        "eventIndex": 768,
+        "season": 2007,
+        "round": 1,
+        "date": "2007-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 47
+    },
+    {
+      "entityId": "driver:markus-winkelhock:4101db08ec6e",
+      "entityName": "Markus Winkelhock",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 47
+    }
+  ]
+}

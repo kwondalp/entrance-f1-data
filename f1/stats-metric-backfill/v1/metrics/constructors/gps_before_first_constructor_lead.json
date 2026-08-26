@@ -1,0 +1,503 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "gps_before_first_constructor_lead",
+  "metricId": "gpsBeforeFirstConstructorLead",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 17,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 17,
+  "rows": [
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 81,
+      "firstEvent": {
+        "eventId": "event:1999-1:66dc9959d946",
+        "eventIndex": 630,
+        "season": 1999,
+        "round": 1,
+        "date": "1999-03-07",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 65,
+      "firstEvent": {
+        "eventId": "event:2000-1:288b2d1e04ae",
+        "eventIndex": 646,
+        "season": 2000,
+        "round": 1,
+        "date": "2000-03-12",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 34,
+      "firstEvent": {
+        "eventId": "event:2019-1:cc835ec4b87c",
+        "eventIndex": 997,
+        "season": 2019,
+        "round": 1,
+        "date": "2019-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 34,
+      "firstEvent": {
+        "eventId": "event:1997-1:319ffa505e0b",
+        "eventIndex": 597,
+        "season": 1997,
+        "round": 1,
+        "date": "1997-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1999-2:724c54cc1697",
+        "eventIndex": 631,
+        "season": 1999,
+        "round": 2,
+        "date": "1999-04-11",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 32,
+      "firstEvent": {
+        "eventId": "event:2006-1:fe9e85aa6d7f",
+        "eventIndex": 750,
+        "season": 2006,
+        "round": 1,
+        "date": "2006-03-12",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-15:7b42716cbcc4",
+        "eventIndex": 782,
+        "season": 2007,
+        "round": 15,
+        "date": "2007-09-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 29,
+      "firstEvent": {
+        "eventId": "event:2008-1:2cf47aa21c9f",
+        "eventIndex": 785,
+        "season": 2008,
+        "round": 1,
+        "date": "2008-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2009-12:b89171b7ff18",
+        "eventIndex": 814,
+        "season": 2009,
+        "round": 12,
+        "date": "2009-08-30",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 27,
+      "firstEvent": {
+        "eventId": "event:2002-1:8a55395f9b3c",
+        "eventIndex": 680,
+        "season": 2002,
+        "round": 1,
+        "date": "2002-03-03",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2003-11:51c94af62694",
+        "eventIndex": 707,
+        "season": 2003,
+        "round": 11,
+        "date": "2003-07-20",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 14,
+      "firstEvent": {
+        "eventId": "event:2006-1:fe9e85aa6d7f",
+        "eventIndex": 750,
+        "season": 2006,
+        "round": 1,
+        "date": "2006-03-12",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2006-15:6723d4f460ae",
+        "eventIndex": 764,
+        "season": 2006,
+        "round": 15,
+        "date": "2006-09-10",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 13,
+      "firstEvent": {
+        "eventId": "event:1997-1:319ffa505e0b",
+        "eventIndex": 597,
+        "season": 1997,
+        "round": 1,
+        "date": "1997-03-09",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 11,
+      "firstEvent": {
+        "eventId": "event:1986-1:1d91a6753c33",
+        "eventIndex": 420,
+        "season": 1986,
+        "round": 1,
+        "date": "1986-03-23",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "jacarepagua"
+      },
+      "valueEvent": {
+        "eventId": "event:1986-12:f84fb076dc21",
+        "eventIndex": 431,
+        "season": 1986,
+        "round": 12,
+        "date": "1986-08-17",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:2021-1:69f181c43033",
+        "eventIndex": 1035,
+        "season": 2021,
+        "round": 1,
+        "date": "2021-03-28",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "valueEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 9,
+      "firstEvent": {
+        "eventId": "event:2007-1:4f36ead3868a",
+        "eventIndex": 768,
+        "season": 2007,
+        "round": 1,
+        "date": "2007-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 7,
+      "firstEvent": {
+        "eventId": "event:2020-1:7ef015a4d9f1",
+        "eventIndex": 1018,
+        "season": 2020,
+        "round": 1,
+        "date": "2020-07-05",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "valueEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:2005-1:647663047297",
+        "eventIndex": 731,
+        "season": 2005,
+        "round": 1,
+        "date": "2005-03-06",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2005-7:ed1c5b7920af",
+        "eventIndex": 737,
+        "season": 2005,
+        "round": 7,
+        "date": "2005-05-29",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:1990-1:ec19bc058aa9",
+        "eventIndex": 484,
+        "season": 1990,
+        "round": 1,
+        "date": "1990-03-11",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "phoenix"
+      },
+      "valueEvent": {
+        "eventId": "event:1990-7:bb9be1db411b",
+        "eventIndex": 490,
+        "season": 1990,
+        "round": 7,
+        "date": "1990-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:2012-1:05db492a85ad",
+        "eventIndex": 858,
+        "season": 2012,
+        "round": 1,
+        "date": "2012-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2012-4:ad47a9e4368a",
+        "eventIndex": 861,
+        "season": 2012,
+        "round": 4,
+        "date": "2012-04-22",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 0,
+      "firstEvent": {
+        "eventId": "event:2009-1:1fd450f686e6",
+        "eventIndex": 803,
+        "season": 2009,
+        "round": 1,
+        "date": "2009-03-29",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "valueEvent": {
+        "eventId": "event:2009-1:1fd450f686e6",
+        "eventIndex": 803,
+        "season": 2009,
+        "round": 1,
+        "date": "2009-03-29",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "complete observed career interval from first appearance to first lead"
+      },
+      "rank": 17
+    }
+  ]
+}

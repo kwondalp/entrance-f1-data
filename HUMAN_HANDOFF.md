@@ -4,6 +4,36 @@
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
 
+## CC0 lap-position Stats publication proposal
+
+The additive backfill package contains 140 lazy payloads and four unavailable
+catalogue objects across the unchanged 144 routes. The 29 new payloads publish
+25 bounded Grand Prix leader metrics from 795 positively complete events and
+four bounded Sprint fastest-lap metrics from ten unique explicit rank-one
+observations. All prior 111 payload files remain byte-identical.
+
+The primary structured source is TracingInsights RaceData pinned to commit
+`9e65035dbfc20201bd0d1febf40c9cfb32e3eea4` under the repository's CC0 1.0
+declaration. F1DB v2026.11.0 under CC BY 4.0 supports only event-specific circuit
+configuration and distance bindings. The Data package contains facts,
+calculations, exclusions and provenance, not copied raw CSV, HTML, PDF or timing
+tables.
+
+Grand Prix values are bounded partial over 795 complete events from 1982 through
+2026-07-26. The 357 pre-coverage events and eight later incomplete or ambiguous
+events remain unknown. Seasonal products use only 38 fully complete seasons;
+2026 is excluded as right-censored. Sprint fastest-lap values cover ten of 28
+cutoff Sprint events and disclose the other 18 as missing explicit rank-one
+evidence. The four Sprint lap/kilometres-led routes remain unavailable with
+blocker `explicit_sprint_lap_position_corpus_absent_from_pinned_source` because
+the pinned source has no Sprint lap-position table.
+
+Final proposal validation parses all 559 JSON files, verifies every manifest
+byte size and SHA-256, reproduces all 145 package files in two independent
+candidates, matches those candidates exactly to this Data tree, and finds zero
+changes among the 111 pre-existing metric Git blobs. UTF-8/LF/final-LF,
+whitespace, credential, machine-path and restricted-raw scans pass.
+
 ## Remaining36 Stats publication proposal
 
 The additive backfill package now contains 111 lazy payloads and 33 unavailable

@@ -1,0 +1,764 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_kilometres_led",
+  "metricId": "driverKilometresLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 80,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 80,
+  "rows": [
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 27840.481,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 23867.197,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 19203.092,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 18164.282,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 13117.989,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 11031.858,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 9083.171,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 8675.507,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 7586.849,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 7191.54,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 6613.965,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 6083.255,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 5892.793,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 5019.22,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 4543.539,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 4190.214,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 4153.08,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 3885.858,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 3828.912,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 3624.429,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 20
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 3570.162,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 3239.592,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 2966.287,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 2965.259,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 24
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 2778.268,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 25
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 2586.699,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 2179.855,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 2123.518,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 28
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 2023.337,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 1937.146,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 1910.182,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 31
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 1656.792,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 32
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 1536.191,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 1534.092,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 34
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 1483.749,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 35
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 1202.456,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 36
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 1120.942,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 962.511,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 38
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 932.337,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 39
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "value": 842.893,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 40
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 750.529,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 41
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 682.313,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 42
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 662.199,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 43
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 351.265,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 342.848,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 45
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 337.006,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 46
+    },
+    {
+      "entityId": "driver:herbert:c13dde1e1e00",
+      "entityName": "Johnny Herbert",
+      "value": 226.854,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 47
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 219.426,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 48
+    },
+    {
+      "entityId": "driver:capelli:89a05e194274",
+      "entityName": "Ivan Capelli",
+      "value": 218.465,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 49
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 207.141,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 50
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 201.339,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 51
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "value": 197.577,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 194.423,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 53
+    },
+    {
+      "entityId": "driver:cesaris:50c29699dea6",
+      "entityName": "Andrea de Cesaris",
+      "value": 172.912,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 54
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 172.235,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 55
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 170.816,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 56
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 150.618,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 57
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 150.414,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "driver:nannini:93cbec78c64b",
+      "entityName": "Alessandro Nannini",
+      "value": 133.722,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 59
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 118.087,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 60
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 114.524,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 61
+    },
+    {
+      "entityId": "driver:matta:9a1970495e7a",
+      "entityName": "Cristiano da Matta",
+      "value": 87.397,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "driver:warwick:6b539e5f2748",
+      "entityName": "Derek Warwick",
+      "value": 77.932,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 63
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 67.203,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 64
+    },
+    {
+      "entityId": "driver:piquet-jr:6a7023ce2da9",
+      "entityName": "Nelson Piquet Jr.",
+      "value": 59.385,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 65
+    },
+    {
+      "entityId": "driver:sutil:46c5d0e2becf",
+      "entityName": "Adrian Sutil",
+      "value": 58.333,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 66
+    },
+    {
+      "entityId": "driver:panis:b03d10e03261",
+      "entityName": "Olivier Panis",
+      "value": 53.248,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 67
+    },
+    {
+      "entityId": "driver:markus-winkelhock:4101db08ec6e",
+      "entityName": "Markus Winkelhock",
+      "value": 30.888,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 68
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 26.405,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 69
+    },
+    {
+      "entityId": "driver:resta:1da1e2d80d70",
+      "entityName": "Paul di Resta",
+      "value": 21.648,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 70
+    },
+    {
+      "entityId": "driver:giovinazzi:1f6a3b48d31c",
+      "entityName": "Antonio Giovinazzi",
+      "value": 20.252,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 71
+    },
+    {
+      "entityId": "driver:johansson:036b6578adb4",
+      "entityName": "Stefan Johansson",
+      "value": 18.92,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "driver:bourdais:b80876a32b7b",
+      "entityName": "Sébastien Bourdais",
+      "value": 13.689,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 73
+    },
+    {
+      "entityId": "driver:salo:781a02b584f4",
+      "entityName": "Mika Salo",
+      "value": 12.593,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 74
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 10.789,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 75
+    },
+    {
+      "entityId": "driver:sato:1e3f20b0ae9f",
+      "entityName": "Takuma Sato",
+      "value": 10.296,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 76
+    },
+    {
+      "entityId": "driver:gutierrez:8297f3d8d107",
+      "entityName": "Esteban Gutiérrez",
+      "value": 9.31,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 77
+    },
+    {
+      "entityId": "driver:pizzonia:12e6382a7d42",
+      "entityName": "Antônio Pizzonia",
+      "value": 6.976,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 78
+    },
+    {
+      "entityId": "driver:buemi:d1230df074dd",
+      "entityName": "Sébastien Buemi",
+      "value": 4.361,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "driver:martini:208a122d480a",
+      "entityName": "Pierluigi Martini",
+      "value": 4.349,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 80
+    }
+  ]
+}

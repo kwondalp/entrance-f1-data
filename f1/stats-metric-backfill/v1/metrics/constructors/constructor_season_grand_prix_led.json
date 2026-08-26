@@ -1,0 +1,2599 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "constructor_season_grand_prix_led",
+  "metricId": "constructorSeasonGrandPrixLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 209,
+      "coveredSeasons": [
+        1982,
+        1983,
+        1984,
+        1986,
+        1987,
+        1990,
+        1991,
+        1993,
+        1994,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "excludedSeasons": [
+        1985,
+        1988,
+        1989,
+        1992,
+        1995,
+        2014,
+        2026
+      ],
+      "completeEventCount": 692,
+      "incompleteEventCount": 468,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2025-24:e391c058dffd",
+        "eventIndex": 1148,
+        "season": 2025,
+        "round": 24,
+        "date": "2025-12-07",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
+    }
+  },
+  "rowCount": 209,
+  "rows": [
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 21,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 21,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 20,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 19,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 19,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 19,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 18,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 18,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 18,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 16,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 16,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 16,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 16,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 16,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 16,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 16,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 15,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 15,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 15,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 15,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 15,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 15,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 15,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 15,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 15,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 14,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 14,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 14,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 14,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 14,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 14,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 14,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 13,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 13,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 13,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 13,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 13,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 13,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 13,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 12,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 12,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 12,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 12,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 12,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 12,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 12,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 12,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 11,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 11,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 11,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 11,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 11,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 11,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 10,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 10,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 10,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 10,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 9,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 9,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 9,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 9,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 9,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 9,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 9,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 9,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 9,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 9,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 8,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 8,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 8,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 8,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 8,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 8,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 8,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 7,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 7,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 7,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 7,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 7,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 7,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 7,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 7,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 7,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 7,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 7,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 7,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 6,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 6,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 6,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 6,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 6,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 6,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 6,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 5,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 5,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 5,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 5,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 5,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 5,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 5,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 4,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 4,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 4,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 4,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 4,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 4,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 4,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 4,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 4,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 4,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 3,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 3,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 3,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 3,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 3,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 3,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 3,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 3,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 3,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 3,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 3,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 3,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 3,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 3,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 3,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 3,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 3,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 2,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 2,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 2,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 2,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 2,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 2,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 2,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 2,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 2,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 2,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 2,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 2,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 2,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 2,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 2,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 2,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 2,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 2,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 2,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 2,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 2,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 2,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 1,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 1,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 1,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 1,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 1,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 1,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 1,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:arrows:ec6b79b82d1f",
+      "entityName": "Arrows",
+      "value": 1,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 1,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 1,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 1,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 1,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 1,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 1,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 1,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 1,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 1,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 1,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 1,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 1,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 1,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 1,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 1,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 1,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 1,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 1,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 1,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 1,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 1,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 1,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 1,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 1,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 1,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 1,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 1,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 1,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 1,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 1,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 1,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 1,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 1,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 1,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 1,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 1,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 1,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 1,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    }
+  ]
+}

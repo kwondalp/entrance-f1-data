@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "sprint_lap_records",
+  "metricId": "constructorSprintLapRecords",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 5,
+      "coveredSeasons": [
+        2025,
+        2026
+      ],
+      "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+      "completeEventCount": 10,
+      "incompleteEventCount": 18,
+      "earliestCoveredEvent": {
+        "eventId": "event:2025-2:e05a33739015",
+        "eventIndex": 1126,
+        "season": 2025,
+        "round": 2,
+        "date": "2025-03-23",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-9:c346da3f4460",
+        "eventIndex": 1157,
+        "season": 2026,
+        "round": 9,
+        "date": "2026-07-05",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
+    }
+  },
+  "rowCount": 5,
+  "rows": [
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 3,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "interlagos-2",
+          "event": {
+            "eventId": "event:2025-21:7c4f80900903",
+            "eventIndex": 1145,
+            "season": 2025,
+            "round": 21,
+            "date": "2025-11-09",
+            "grandPrixName": "São Paulo Grand Prix",
+            "circuitId": "interlagos"
+          },
+          "lapTime": "1:12.120",
+          "lapTimeMillis": 72120,
+          "lapNumber": 11,
+          "driverId": "driver:norris:5581145e4767",
+          "constructorId": "constructor:mclaren:f3759103103f",
+          "sessionType": "sprint"
+        },
+        {
+          "circuitConfigurationId": "miami-1",
+          "event": {
+            "eventId": "event:2026-4:0231d16acca3",
+            "eventIndex": 1152,
+            "season": 2026,
+            "round": 4,
+            "date": "2026-05-03",
+            "grandPrixName": "Miami Grand Prix",
+            "circuitId": "miami"
+          },
+          "lapTime": "1:31.885",
+          "lapTimeMillis": 91885,
+          "lapNumber": 10,
+          "driverId": "driver:norris:5581145e4767",
+          "constructorId": "constructor:mclaren:f3759103103f",
+          "sessionType": "sprint"
+        },
+        {
+          "circuitConfigurationId": "spa-francorchamps-4",
+          "event": {
+            "eventId": "event:2025-13:bfd2add05949",
+            "eventIndex": 1137,
+            "season": 2025,
+            "round": 13,
+            "date": "2025-07-27",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          "lapTime": "1:45.914",
+          "lapTimeMillis": 105914,
+          "lapNumber": 6,
+          "driverId": "driver:norris:5581145e4767",
+          "constructorId": "constructor:mclaren:f3759103103f",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 10 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 2,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "montreal-6",
+          "event": {
+            "eventId": "event:2026-5:5e7689ca0c0d",
+            "eventIndex": 1153,
+            "season": 2026,
+            "round": 5,
+            "date": "2026-05-24",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          "lapTime": "1:14.380",
+          "lapTimeMillis": 74380,
+          "lapNumber": 11,
+          "driverId": "driver:antonelli:0ab4d82d3440",
+          "constructorId": "constructor:mercedes:81ae28b14607",
+          "sessionType": "sprint"
+        },
+        {
+          "circuitConfigurationId": "silverstone-8",
+          "event": {
+            "eventId": "event:2026-9:c346da3f4460",
+            "eventIndex": 1157,
+            "season": 2026,
+            "round": 9,
+            "date": "2026-07-05",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          "lapTime": "1:31.607",
+          "lapTimeMillis": 91607,
+          "lapNumber": 17,
+          "driverId": "driver:antonelli:0ab4d82d3440",
+          "constructorId": "constructor:mercedes:81ae28b14607",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 10 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "lusail-1",
+          "event": {
+            "eventId": "event:2025-23:465c7b16bc45",
+            "eventIndex": 1147,
+            "season": 2025,
+            "round": 23,
+            "date": "2025-11-30",
+            "grandPrixName": "Qatar Grand Prix",
+            "circuitId": "losail"
+          },
+          "lapTime": "1:23.188",
+          "lapTimeMillis": 83188,
+          "lapNumber": 19,
+          "driverId": "driver:gasly:0fca70394caf",
+          "constructorId": "constructor:alpine:1e11dc0788a1",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 10 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "shanghai-1",
+          "event": {
+            "eventId": "event:2026-2:f019d4004b94",
+            "eventIndex": 1150,
+            "season": 2026,
+            "round": 2,
+            "date": "2026-03-15",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          "lapTime": "1:34.753",
+          "lapTimeMillis": 94753,
+          "lapNumber": 18,
+          "driverId": "driver:leclerc:80a0e9f8790b",
+          "constructorId": "constructor:ferrari:d5aa0140c09c",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 10 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "austin-1",
+          "event": {
+            "eventId": "event:2025-19:faed7f152902",
+            "eventIndex": 1143,
+            "season": 2025,
+            "round": 19,
+            "date": "2025-10-19",
+            "grandPrixName": "United States Grand Prix",
+            "circuitId": "americas"
+          },
+          "lapTime": "1:36.527",
+          "lapTimeMillis": 96527,
+          "lapNumber": 7,
+          "driverId": "driver:max-verstappen:1f6847211200",
+          "constructorId": "constructor:red-bull:8307f488a798",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 10 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 3
+    }
+  ]
+}

@@ -1,0 +1,4255 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_season_kilometres_led",
+  "metricId": "driverSeasonKilometresLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 347,
+      "coveredSeasons": [
+        1982,
+        1983,
+        1984,
+        1986,
+        1987,
+        1990,
+        1991,
+        1993,
+        1994,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "excludedSeasons": [
+        1985,
+        1988,
+        1989,
+        1992,
+        1995,
+        2014,
+        2026
+      ],
+      "completeEventCount": 692,
+      "incompleteEventCount": 468,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2025-24:e391c058dffd",
+        "eventIndex": 1148,
+        "season": 2025,
+        "round": 24,
+        "date": "2025-12-07",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
+    }
+  },
+  "rowCount": 347,
+  "rows": [
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 4913.776,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 3795.727,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 3638.974,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 3356.664,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 3165.559,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 3162.432,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 3096.354,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 2989.318,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2872.551,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 2840.291,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2831.281,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2765.072,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 2738.287,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 2709.414,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2653.545,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2589.578,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2538.391,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 2514.16,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 2470.046,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 2379.836,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 20
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 2331.198,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 2303.087,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 2186.879,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 2171.54,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 24
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 2094.38,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 25
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 2066.643,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 2032.912,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1948.857,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 28
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 1881.865,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1847.362,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 1814.927,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 31
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 1802.55,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 32
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 1756.919,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 1751.082,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 34
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 1722.41,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 35
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 1695.374,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 36
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 1681.526,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 37
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 1609.564,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 38
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 1595.39,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 39
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 1594.892,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 40
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 1582.362,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 41
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1579.244,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 42
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 1544.337,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 43
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 1511.732,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 44
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 1495.241,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 45
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 1473.52,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 46
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 1447.657,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 47
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 1445.336,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 48
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 1445.122,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 49
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 1433.282,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 50
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 1412.7,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 51
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 1395.278,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 52
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 1369.869,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 53
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 1350.837,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 54
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 1322.324,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 55
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 1321.63,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 56
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1312.933,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 57
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 1252.333,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 58
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 1215.754,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 59
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1212.837,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 60
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 1196.397,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 61
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1169.569,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 62
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 1148.515,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 63
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 1142.888,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 64
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 1142.721,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 65
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 1142.322,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 66
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 1101.335,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 67
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 1044.265,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 68
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1039.9,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 69
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 1016.287,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 70
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 1010.766,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 71
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 963.125,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 72
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 962.189,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 73
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 937.236,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 74
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 921.574,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 75
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 915.972,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 76
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 912.243,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 77
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 883.324,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 78
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 868.239,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 79
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 866.177,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 80
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 808.901,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 81
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 796.404,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 82
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 796.299,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 83
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 782.132,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 84
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 771.848,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 85
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 770.266,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 86
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 768.27,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 87
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 765.914,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 88
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 753.782,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 89
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 744.7,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 90
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 738.344,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 91
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 729.986,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 92
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 718.9,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 93
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 718.755,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 94
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "value": 713.469,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 95
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 696.857,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 96
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 696.504,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 97
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 695.493,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 98
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 687.486,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 99
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 680.568,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 100
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 679.607,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 101
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 665.858,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 102
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 665.605,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 103
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 659.149,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 104
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 651.526,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 105
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 638.732,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 106
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 634.884,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 107
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 634.03,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 108
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 633.704,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 109
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 598.528,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 110
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 597.507,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 111
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 589.708,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 112
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 571.336,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 113
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 569.978,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 114
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 566.472,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 115
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 558.531,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 116
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 536.152,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 117
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 525.405,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 118
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 505.143,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 119
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 491.44,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 120
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 490.977,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 121
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 483.143,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 122
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 480.229,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 123
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 479.053,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 124
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 478.043,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 125
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 462.903,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 126
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 462.667,
+      "season": 2018,
+      "groupId": "2018",
+      "groupLabel": "2018",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 127
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 447.411,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 128
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 446.899,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 129
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 443.61,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 130
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 442.274,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 131
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 441.083,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 132
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 429.758,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 133
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 429.122,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 134
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 428.961,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 135
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 421.306,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 136
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 399.432,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 137
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 396.968,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 138
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 396.732,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 139
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 396.346,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 140
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 393.189,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 141
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 387.173,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 142
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 380.564,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 143
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 376.096,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 144
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 375.176,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 145
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 368.68,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 146
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 366.379,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 147
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 363.761,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 148
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 355.394,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 149
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 353.681,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 150
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 349.607,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 151
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 348.497,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 152
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 345.64,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 153
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 342.848,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 154
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 340.843,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 155
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 340.28,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 156
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 335.247,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 157
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 330.425,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 158
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 325.764,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 159
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 318.532,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 160
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 313.437,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 161
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 308.357,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 162
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 307.624,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 163
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 302.59,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 164
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 302.21,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 165
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 298.19,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 166
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 296.678,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 167
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 290.939,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 168
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 286.107,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 169
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 285.847,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 170
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 283.857,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 171
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 281.898,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 172
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 280.057,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 173
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 278.064,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 174
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 277.83,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 175
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 276.689,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 176
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 276.092,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 177
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 272.15,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 178
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 269.739,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 179
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 265.037,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 180
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 261.648,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 181
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 252.546,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 182
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 246.016,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 183
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 242.256,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 184
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 242.017,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 185
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 239.328,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 186
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 235.54,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 187
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 233.195,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 188
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 233.028,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 189
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 226.128,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 190
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 224.473,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 191
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 222.802,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 192
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 213.545,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 193
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 211.513,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 194
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 209.267,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 195
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 209.037,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 196
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 201.339,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 197
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 200.891,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 198
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 200.429,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 199
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 199.626,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 200
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 194.546,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 201
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 190.161,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 202
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 187.924,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 203
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 186.179,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 204
+    },
+    {
+      "entityId": "driver:tambay:da914d6b903c",
+      "entityName": "Patrick Tambay",
+      "value": 183.654,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 205
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 183.598,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 206
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 181.233,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 207
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 181.168,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 208
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 180.366,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 209
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 172.235,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 210
+    },
+    {
+      "entityId": "driver:capelli:89a05e194274",
+      "entityName": "Ivan Capelli",
+      "value": 171.585,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 211
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 170.816,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 212
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 162.33,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 213
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 160.062,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 214
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 157.354,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 215
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 153.095,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 216
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 150.618,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 217
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 142.644,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 218
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 141.724,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 219
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 136.561,
+      "season": 2017,
+      "groupId": "2017",
+      "groupLabel": "2017",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 220
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 136.08,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 221
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 132.52,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 222
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 131.92,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 223
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 129.27,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 224
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 129.2,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 225
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "value": 125.174,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 226
+    },
+    {
+      "entityId": "driver:cesaris:50c29699dea6",
+      "entityName": "Andrea de Cesaris",
+      "value": 124.92,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 227
+    },
+    {
+      "entityId": "driver:nannini:93cbec78c64b",
+      "entityName": "Alessandro Nannini",
+      "value": 122.002,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 228
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 116.025,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 229
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 115.646,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 230
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 111.929,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 231
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 106.104,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 232
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "value": 101.525,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 233
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 98.64,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 234
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 98.086,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 235
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 97.527,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 236
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 97.326,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 237
+    },
+    {
+      "entityId": "driver:watson:fc3a45a5856b",
+      "entityName": "John Watson",
+      "value": 96.052,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 238
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 95.708,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 239
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 90.149,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 240
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 89.25,
+      "season": 2002,
+      "groupId": "2002",
+      "groupLabel": "2002",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 241
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 87.6,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 242
+    },
+    {
+      "entityId": "driver:matta:9a1970495e7a",
+      "entityName": "Cristiano da Matta",
+      "value": 87.397,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 243
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 87.216,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 244
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 82.631,
+      "season": 1993,
+      "groupId": "1993",
+      "groupLabel": "1993",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 245
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 80.301,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 246
+    },
+    {
+      "entityId": "driver:herbert:c13dde1e1e00",
+      "entityName": "Johnny Herbert",
+      "value": 77.452,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 247
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 76.721,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 248
+    },
+    {
+      "entityId": "driver:alesi:81d9c1b96672",
+      "entityName": "Jean Alesi",
+      "value": 76.064,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 249
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 71.054,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 250
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 70.176,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 251
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 69.684,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 252
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 68.483,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 253
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 68.372,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 254
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 67.49,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 255
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 63.674,
+      "season": 1990,
+      "groupId": "1990",
+      "groupLabel": "1990",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 256
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 62.431,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 257
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 62.225,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 258
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 60.957,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 259
+    },
+    {
+      "entityId": "driver:warwick:6b539e5f2748",
+      "entityName": "Derek Warwick",
+      "value": 60.372,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 260
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 60.326,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 261
+    },
+    {
+      "entityId": "driver:piquet-jr:6a7023ce2da9",
+      "entityName": "Nelson Piquet Jr.",
+      "value": 59.385,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 262
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 58.88,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 263
+    },
+    {
+      "entityId": "driver:sutil:46c5d0e2becf",
+      "entityName": "Adrian Sutil",
+      "value": 58.333,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 264
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 57.473,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 265
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 55.803,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 266
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 54.12,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 267
+    },
+    {
+      "entityId": "driver:panis:b03d10e03261",
+      "entityName": "Olivier Panis",
+      "value": 53.248,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 268
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 52.371,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 269
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 52.299,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 270
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 52.11,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 271
+    },
+    {
+      "entityId": "driver:cesaris:50c29699dea6",
+      "entityName": "Andrea de Cesaris",
+      "value": 47.992,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 272
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 47.893,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 273
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 47.761,
+      "season": 1997,
+      "groupId": "1997",
+      "groupLabel": "1997",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 274
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 47.614,
+      "season": 1984,
+      "groupId": "1984",
+      "groupLabel": "1984",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 275
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 47.241,
+      "season": 2000,
+      "groupId": "2000",
+      "groupLabel": "2000",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 276
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 46.365,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 277
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 43.792,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 278
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 43.608,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 279
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 40.23,
+      "season": 1983,
+      "groupId": "1983",
+      "groupLabel": "1983",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 280
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 39.987,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 281
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 38.591,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 282
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 36.448,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 283
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 34.61,
+      "season": 2016,
+      "groupId": "2016",
+      "groupLabel": "2016",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 284
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 31.668,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 285
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 31.514,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 286
+    },
+    {
+      "entityId": "driver:markus-winkelhock:4101db08ec6e",
+      "entityName": "Markus Winkelhock",
+      "value": 30.888,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 287
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 30.527,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 288
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 30.395,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 289
+    },
+    {
+      "entityId": "driver:angelis:e8033183b98b",
+      "entityName": "Elio de Angelis",
+      "value": 29.71,
+      "season": 1982,
+      "groupId": "1982",
+      "groupLabel": "1982",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 290
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 28.965,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 291
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 28.016,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 292
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 26.405,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 293
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 24.405,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 294
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 24.012,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 295
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 23.818,
+      "season": 1987,
+      "groupId": "1987",
+      "groupLabel": "1987",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 296
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 22.815,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 297
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 21.91,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 298
+    },
+    {
+      "entityId": "driver:giovinazzi:1f6a3b48d31c",
+      "entityName": "Antonio Giovinazzi",
+      "value": 20.252,
+      "season": 2019,
+      "groupId": "2019",
+      "groupLabel": "2019",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 299
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 18.535,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 300
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 18.522,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 301
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 18.224,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 302
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 17.421,
+      "season": 2011,
+      "groupId": "2011",
+      "groupLabel": "2011",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 303
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 16.367,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 304
+    },
+    {
+      "entityId": "driver:resta:1da1e2d80d70",
+      "entityName": "Paul di Resta",
+      "value": 16.236,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 305
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 16.092,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 306
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 14.853,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 307
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 13.946,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 308
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 13.936,
+      "season": 1996,
+      "groupId": "1996",
+      "groupLabel": "1996",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 309
+    },
+    {
+      "entityId": "driver:johansson:036b6578adb4",
+      "entityName": "Stefan Johansson",
+      "value": 13.88,
+      "season": 1986,
+      "groupId": "1986",
+      "groupLabel": "1986",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 310
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 13.689,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 311
+    },
+    {
+      "entityId": "driver:bourdais:b80876a32b7b",
+      "entityName": "Sébastien Bourdais",
+      "value": 13.689,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 311
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 13.083,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 313
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 13.08,
+      "season": 1994,
+      "groupId": "1994",
+      "groupLabel": "1994",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 314
+    },
+    {
+      "entityId": "driver:salo:781a02b584f4",
+      "entityName": "Mika Salo",
+      "value": 12.593,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 315
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 11.37,
+      "season": 1991,
+      "groupId": "1991",
+      "groupLabel": "1991",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 316
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 11.026,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 317
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 10.955,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 318
+    },
+    {
+      "entityId": "driver:sato:1e3f20b0ae9f",
+      "entityName": "Takuma Sato",
+      "value": 10.296,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 319
+    },
+    {
+      "entityId": "driver:kovalainen:dc8d8c106e70",
+      "entityName": "Heikki Kovalainen",
+      "value": 9.8,
+      "season": 2009,
+      "groupId": "2009",
+      "groupLabel": "2009",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 320
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 9.604,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 321
+    },
+    {
+      "entityId": "driver:gutierrez:8297f3d8d107",
+      "entityName": "Esteban Gutiérrez",
+      "value": 9.31,
+      "season": 2013,
+      "groupId": "2013",
+      "groupLabel": "2013",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 322
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 8.822,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 323
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 8.822,
+      "season": 2006,
+      "groupId": "2006",
+      "groupLabel": "2006",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 323
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 8.762,
+      "season": 2021,
+      "groupId": "2021",
+      "groupLabel": "2021",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 325
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 8.618,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 326
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 8.384,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 327
+    },
+    {
+      "entityId": "driver:pizzonia:12e6382a7d42",
+      "entityName": "Antônio Pizzonia",
+      "value": 6.976,
+      "season": 2004,
+      "groupId": "2004",
+      "groupLabel": "2004",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 328
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 5.891,
+      "season": 2015,
+      "groupId": "2015",
+      "groupLabel": "2015",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 329
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 5.807,
+      "season": 2022,
+      "groupId": "2022",
+      "groupLabel": "2022",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 330
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 5.793,
+      "season": 2023,
+      "groupId": "2023",
+      "groupLabel": "2023",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 331
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 5.793,
+      "season": 2024,
+      "groupId": "2024",
+      "groupLabel": "2024",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 331
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 5.543,
+      "season": 2001,
+      "groupId": "2001",
+      "groupLabel": "2001",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 333
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 5.451,
+      "season": 2025,
+      "groupId": "2025",
+      "groupLabel": "2025",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 334
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 5.451,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 334
+    },
+    {
+      "entityId": "driver:resta:1da1e2d80d70",
+      "entityName": "Paul di Resta",
+      "value": 5.412,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 336
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 5.338,
+      "season": 2020,
+      "groupId": "2020",
+      "groupLabel": "2020",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 337
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 5.148,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 338
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 5.148,
+      "season": 2005,
+      "groupId": "2005",
+      "groupLabel": "2005",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 338
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 5.14,
+      "season": 1999,
+      "groupId": "1999",
+      "groupLabel": "1999",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 340
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 4.563,
+      "season": 2007,
+      "groupId": "2007",
+      "groupLabel": "2007",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 341
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 4.361,
+      "season": 2008,
+      "groupId": "2008",
+      "groupLabel": "2008",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 342
+    },
+    {
+      "entityId": "driver:buemi:d1230df074dd",
+      "entityName": "Sébastien Buemi",
+      "value": 4.361,
+      "season": 2010,
+      "groupId": "2010",
+      "groupLabel": "2010",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 342
+    },
+    {
+      "entityId": "driver:fisichella:5825d809a2e3",
+      "entityName": "Giancarlo Fisichella",
+      "value": 4.309,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 344
+    },
+    {
+      "entityId": "driver:irvine:3492559d3bf9",
+      "entityName": "Eddie Irvine",
+      "value": 4.25,
+      "season": 1998,
+      "groupId": "1998",
+      "groupLabel": "1998",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 345
+    },
+    {
+      "entityId": "driver:frentzen:e499a12f83f0",
+      "entityName": "Heinz-Harald Frentzen",
+      "value": 4.192,
+      "season": 2003,
+      "groupId": "2003",
+      "groupLabel": "2003",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 346
+    },
+    {
+      "entityId": "driver:massa:86ab3cfe923d",
+      "entityName": "Felipe Massa",
+      "value": 3.34,
+      "season": 2012,
+      "groupId": "2012",
+      "groupLabel": "2012",
+      "record": {
+        "valueScope": "complete source season"
+      },
+      "rank": 347
+    }
+  ]
+}

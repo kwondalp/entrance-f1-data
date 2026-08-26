@@ -1740,26 +1740,47 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "All Sprint seasons through the cutoff",
-        "completeEventCount": 0,
-        "incompleteEventCount": 28,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "resultRowCount": 5,
+        "coveredSeasons": [
+          2025,
+          2026
+        ],
+        "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+        "completeEventCount": 10,
+        "incompleteEventCount": 18,
+        "earliestCoveredEvent": {
+          "eventId": "event:2025-2:e05a33739015",
+          "eventIndex": 1126,
+          "season": 2025,
+          "round": 2,
+          "date": "2025-03-23",
+          "grandPrixName": "Chinese Grand Prix",
+          "circuitId": "shanghai"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-9:c346da3f4460",
+          "eventIndex": 1157,
+          "season": 2026,
+          "round": 9,
+          "date": "2026-07-05",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -1771,15 +1792,15 @@
       "fullHistoricalCoverage": null,
       "identityDependency": null,
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorTrackRecords",
@@ -2928,26 +2949,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -2967,15 +3006,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorKilometresLed",
@@ -2993,26 +3032,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3032,15 +3089,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorLapsLed",
@@ -3058,26 +3115,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3097,15 +3172,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveConstructorLeadSeasons",
@@ -3123,26 +3198,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 32,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3162,15 +3302,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorDifferentEngines",
@@ -3524,26 +3664,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3563,15 +3721,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorGrandSlams",
@@ -3732,26 +3890,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3771,15 +3947,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorLapsLed",
@@ -3797,26 +3973,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3836,15 +4030,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorLeadChronology",
@@ -3862,26 +4056,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 1580,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3901,15 +4113,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorLeadSeasons",
@@ -3927,26 +4139,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 34,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -3966,15 +4196,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSeasonFrontRows",
@@ -4046,26 +4276,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 209,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4085,15 +4380,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSeasonKilometresLed",
@@ -4111,26 +4406,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 209,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4150,15 +4510,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSeasonLapsLed",
@@ -4176,26 +4536,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 209,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4215,15 +4640,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorWinnerLapFinishes",
@@ -4295,26 +4720,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 17,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4334,15 +4777,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSprintFastestLaps",
@@ -4360,26 +4803,47 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "All Sprint seasons through the cutoff",
-        "completeEventCount": 0,
-        "incompleteEventCount": 28,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "resultRowCount": 5,
+        "coveredSeasons": [
+          2025,
+          2026
+        ],
+        "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+        "completeEventCount": 10,
+        "incompleteEventCount": 18,
+        "earliestCoveredEvent": {
+          "eventId": "event:2025-2:e05a33739015",
+          "eventIndex": 1126,
+          "season": 2025,
+          "round": 2,
+          "date": "2025-03-23",
+          "grandPrixName": "Chinese Grand Prix",
+          "circuitId": "shanghai"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-9:c346da3f4460",
+          "eventIndex": 1157,
+          "season": 2026,
+          "round": 9,
+          "date": "2026-07-05",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4391,15 +4855,15 @@
       "fullHistoricalCoverage": null,
       "identityDependency": null,
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "constructorSprintKilometresLed",
@@ -4424,19 +4888,21 @@
         "incompleteEventCount": 28,
         "earliestCoveredEvent": null,
         "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
         "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4454,16 +4920,16 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
+      "derivationMethod": "No value is emitted because the pinned source contains no explicit Sprint lap-position corpus; final classification is not treated as per-lap leader evidence.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions"
       },
       "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders."
     },
     {
       "metricId": "constructorSprintLapsLed",
@@ -4488,19 +4954,21 @@
         "incompleteEventCount": 28,
         "earliestCoveredEvent": null,
         "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
         "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4518,16 +4986,16 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
+      "derivationMethod": "No value is emitted because the pinned source contains no explicit Sprint lap-position corpus; final classification is not treated as per-lap leader evidence.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions"
       },
       "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders."
     },
     {
       "metricId": "constructorSprintPodiums",
@@ -6627,26 +7095,47 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "All Sprint seasons through the cutoff",
-        "completeEventCount": 0,
-        "incompleteEventCount": 28,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "resultRowCount": 5,
+        "coveredSeasons": [
+          2025,
+          2026
+        ],
+        "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+        "completeEventCount": 10,
+        "incompleteEventCount": 18,
+        "earliestCoveredEvent": {
+          "eventId": "event:2025-2:e05a33739015",
+          "eventIndex": 1126,
+          "season": 2025,
+          "round": 2,
+          "date": "2025-03-23",
+          "grandPrixName": "Chinese Grand Prix",
+          "circuitId": "shanghai"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-9:c346da3f4460",
+          "eventIndex": 1157,
+          "season": 2026,
+          "round": 9,
+          "date": "2026-07-05",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -6658,15 +7147,15 @@
       "fullHistoricalCoverage": null,
       "identityDependency": null,
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverTrackRecords",
@@ -7756,26 +8245,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -7795,15 +8302,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "consecutiveLapsLed",
@@ -7821,26 +8328,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -7860,15 +8385,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverAverageGrid",
@@ -8589,26 +9114,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -8628,15 +9171,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverGrandSlams",
@@ -8797,26 +9340,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -8836,15 +9397,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLapsLed",
@@ -8862,26 +9423,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -8901,15 +9480,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLapsLedWithoutWin",
@@ -8927,26 +9506,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 24,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -8966,15 +9563,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLeadChronology",
@@ -8992,26 +9589,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 1969,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9031,15 +9646,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLeadSeasons",
@@ -9057,26 +9672,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 80,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9096,15 +9729,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverLightsToFlag",
@@ -9122,26 +9755,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 33,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9161,15 +9812,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverQualifyingH2HWins",
@@ -9302,26 +9953,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 347,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9341,15 +10057,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverSeasonLapsLed",
@@ -9367,26 +10083,91 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 347,
+        "coveredSeasons": [
+          1982,
+          1983,
+          1984,
+          1986,
+          1987,
+          1990,
+          1991,
+          1993,
+          1994,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excludedSeasons": [
+          1985,
+          1988,
+          1989,
+          1992,
+          1995,
+          2014,
+          2026
+        ],
+        "completeEventCount": 692,
+        "incompleteEventCount": 468,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2025-24:e391c058dffd",
+          "eventIndex": 1148,
+          "season": 2025,
+          "round": 24,
+          "date": "2025-12-07",
+          "grandPrixName": "Abu Dhabi Grand Prix",
+          "circuitId": "yas_marina"
+        },
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9406,15 +10187,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverWinnerLapFinishes",
@@ -9486,26 +10267,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "1950-2026 through 2026-07-26",
-        "completeEventCount": 0,
-        "incompleteEventCount": 1160,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; missing events are not zero"
+        "resultRowCount": 49,
+        "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+        "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+        "completeEventCount": 795,
+        "incompleteEventCount": 365,
+        "earliestCoveredEvent": {
+          "eventId": "event:1982-1:62f155f2687b",
+          "eventIndex": 357,
+          "season": 1982,
+          "round": 1,
+          "date": "1982-01-23",
+          "grandPrixName": "South African Grand Prix",
+          "circuitId": "kyalami"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; missing events are not zero"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9525,15 +10324,15 @@
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 1982,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverSprintFastestLaps",
@@ -9551,26 +10350,47 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0,
-        "coveredSeasons": [],
-        "excludedSeasons": "All Sprint seasons through the cutoff",
-        "completeEventCount": 0,
-        "incompleteEventCount": 28,
-        "earliestCoveredEvent": null,
-        "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "resultRowCount": 6,
+        "coveredSeasons": [
+          2025,
+          2026
+        ],
+        "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+        "completeEventCount": 10,
+        "incompleteEventCount": 18,
+        "earliestCoveredEvent": {
+          "eventId": "event:2025-2:e05a33739015",
+          "eventIndex": 1126,
+          "season": 2025,
+          "round": 2,
+          "date": "2025-03-23",
+          "grandPrixName": "Chinese Grand Prix",
+          "circuitId": "shanghai"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-9:c346da3f4460",
+          "eventIndex": 1157,
+          "season": 2026,
+          "round": 9,
+          "date": "2026-07-05",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
-        "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9582,15 +10402,15 @@
       "fullHistoricalCoverage": null,
       "identityDependency": null,
       "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverSprintKilometresLed",
@@ -9615,19 +10435,21 @@
         "incompleteEventCount": 28,
         "earliestCoveredEvent": null,
         "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
         "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9645,16 +10467,16 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
+      "derivationMethod": "No value is emitted because the pinned source contains no explicit Sprint lap-position corpus; final classification is not treated as per-lap leader evidence.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions"
       },
       "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders."
     },
     {
       "metricId": "driverSprintLapsLed",
@@ -9679,19 +10501,21 @@
         "incompleteEventCount": 28,
         "earliestCoveredEvent": null,
         "latestCoveredEvent": null,
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "targetCoverage": {
         "cutoff": "2026-07-26",
         "publicationStatus": "unavailable",
-        "valueScope": "unavailable; no totals published"
+        "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-remaining36-evidence.v1.json",
+        "fixtures/stats-cc0-lap-position-evidence.v1.json",
+        "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9709,16 +10533,16 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
+      "derivationMethod": "No value is emitted because the pinned source contains no explicit Sprint lap-position corpus; final classification is not treated as per-lap leader evidence.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
-        "startSeason": 1950,
+        "startSeason": 2021,
         "endSeason": 2026,
-        "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
+        "eventEligibility": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions"
       },
       "status": "unavailable",
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders."
     },
     {
       "metricId": "driverSprintPodiums",

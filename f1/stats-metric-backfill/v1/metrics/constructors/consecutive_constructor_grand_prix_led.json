@@ -1,0 +1,962 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "consecutive_constructor_grand_prix_led",
+  "metricId": "consecutiveConstructorGrandPrixLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 34,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 34,
+  "rows": [
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 39,
+      "firstEvent": {
+        "eventId": "event:2018-20:2694a11de76f",
+        "eventIndex": 995,
+        "season": 2018,
+        "round": 20,
+        "date": "2018-11-11",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-16:fcacc7c1c62b",
+        "eventIndex": 1033,
+        "season": 2020,
+        "round": 16,
+        "date": "2020-12-06",
+        "grandPrixName": "Sakhir Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 31,
+      "firstEvent": {
+        "eventId": "event:1995-7:a330a5f7a299",
+        "eventIndex": 570,
+        "season": 1995,
+        "round": 7,
+        "date": "1995-07-02",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-4:7c2455539363",
+        "eventIndex": 600,
+        "season": 1997,
+        "round": 4,
+        "date": "1997-04-27",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:2010-16:1f3af06ebcf6",
+        "eventIndex": 835,
+        "season": 2010,
+        "round": 16,
+        "date": "2010-10-10",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-1:05db492a85ad",
+        "eventIndex": 858,
+        "season": 2012,
+        "round": 1,
+        "date": "2012-03-18",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 22,
+      "firstEvent": {
+        "eventId": "event:2003-14:4d2193112a49",
+        "eventIndex": 710,
+        "season": 2003,
+        "round": 14,
+        "date": "2003-09-14",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-1:647663047297",
+        "eventIndex": 731,
+        "season": 2005,
+        "round": 1,
+        "date": "2005-03-06",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 15,
+      "firstEvent": {
+        "eventId": "event:1988-2:450c92b8b969",
+        "eventIndex": 453,
+        "season": 1988,
+        "round": 2,
+        "date": "1988-05-01",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "lastEvent": {
+        "eventId": "event:1988-16:3577c0625c57",
+        "eventIndex": 467,
+        "season": 1988,
+        "round": 16,
+        "date": "1988-11-13",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 14,
+      "firstEvent": {
+        "eventId": "event:2005-17:f4430b3fa575",
+        "eventIndex": 747,
+        "season": 2005,
+        "round": 17,
+        "date": "2005-09-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-11:3d37ecc192ee",
+        "eventIndex": 760,
+        "season": 2006,
+        "round": 11,
+        "date": "2006-07-16",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 10,
+      "firstEvent": {
+        "eventId": "event:1983-6:9c1ba891caf8",
+        "eventIndex": 378,
+        "season": 1983,
+        "round": 6,
+        "date": "1983-05-22",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1983-15:3dd1ea5333f4",
+        "eventIndex": 387,
+        "season": 1983,
+        "round": 15,
+        "date": "1983-10-15",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 8,
+      "firstEvent": {
+        "eventId": "event:1994-1:78eed49dd8fc",
+        "eventIndex": 548,
+        "season": 1994,
+        "round": 1,
+        "date": "1994-03-27",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1994-8:95e3dec37a51",
+        "eventIndex": 555,
+        "season": 1994,
+        "round": 8,
+        "date": "1994-07-10",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 7,
+      "firstEvent": {
+        "eventId": "event:2009-1:1fd450f686e6",
+        "eventIndex": 803,
+        "season": 2009,
+        "round": 1,
+        "date": "2009-03-29",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-7:866b50749004",
+        "eventIndex": 809,
+        "season": 2009,
+        "round": 7,
+        "date": "2009-06-07",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 5,
+      "firstEvent": {
+        "eventId": "event:1985-2:86ad05fcc4f8",
+        "eventIndex": 405,
+        "season": 1985,
+        "round": 2,
+        "date": "1985-04-21",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "lastEvent": {
+        "eventId": "event:1985-6:ffb685f1daf7",
+        "eventIndex": 409,
+        "season": 1985,
+        "round": 6,
+        "date": "1985-06-23",
+        "grandPrixName": "Detroit Grand Prix",
+        "circuitId": "detroit"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:2008-2:f37d5bc86c83",
+        "eventIndex": 786,
+        "season": 2008,
+        "round": 2,
+        "date": "2008-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-4:5746f09c7a1b",
+        "eventIndex": 788,
+        "season": 2008,
+        "round": 4,
+        "date": "2008-04-27",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:2006-1:fe9e85aa6d7f",
+        "eventIndex": 750,
+        "season": 2006,
+        "round": 1,
+        "date": "2006-03-12",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-3:83e582d8c59d",
+        "eventIndex": 752,
+        "season": 2006,
+        "round": 3,
+        "date": "2006-04-02",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "lastEvent": {
+        "eventId": "event:2003-16:26680970e3cf",
+        "eventIndex": 712,
+        "season": 2003,
+        "round": 16,
+        "date": "2003-10-12",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2012-20:ceb3586239ee",
+        "eventIndex": 877,
+        "season": 2012,
+        "round": 20,
+        "date": "2012-11-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2013-1:02f42220367e",
+        "eventIndex": 878,
+        "season": 2013,
+        "round": 1,
+        "date": "2013-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:1999-7:4e931d5b186a",
+        "eventIndex": 636,
+        "season": 1999,
+        "round": 7,
+        "date": "1999-06-27",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "lastEvent": {
+        "eventId": "event:1999-8:925b3e5d5536",
+        "eventIndex": 637,
+        "season": 1999,
+        "round": 8,
+        "date": "1999-07-11",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2012-4:ad47a9e4368a",
+        "eventIndex": 861,
+        "season": 2012,
+        "round": 4,
+        "date": "2012-04-22",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "date": "2012-05-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2012-2:895faf5b7748",
+        "eventIndex": 859,
+        "season": 2012,
+        "round": 2,
+        "date": "2012-03-25",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-3:db0e49c9ad35",
+        "eventIndex": 860,
+        "season": 2012,
+        "round": 3,
+        "date": "2012-04-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2005-2:7f61fba13025",
+        "eventIndex": 732,
+        "season": 2005,
+        "round": 2,
+        "date": "2005-03-20",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2005-3:bf5f61ba2f1d",
+        "eventIndex": 733,
+        "season": 2005,
+        "round": 3,
+        "date": "2005-04-03",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "date": "1982-04-04",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "lastEvent": {
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "date": "1982-04-04",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:arrows:ec6b79b82d1f",
+      "entityName": "Arrows",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1989-6:8d21244ee981",
+        "eventIndex": 473,
+        "season": 1989,
+        "round": 6,
+        "date": "1989-06-18",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "lastEvent": {
+        "eventId": "event:1989-6:8d21244ee981",
+        "eventIndex": 473,
+        "season": 1989,
+        "round": 6,
+        "date": "1989-06-18",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2021-6:ede26aa4c1b9",
+        "eventIndex": 1040,
+        "season": 2021,
+        "round": 6,
+        "date": "2021-06-06",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-6:ede26aa4c1b9",
+        "eventIndex": 1040,
+        "season": 2021,
+        "round": 6,
+        "date": "2021-06-06",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "lastEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1990-7:bb9be1db411b",
+        "eventIndex": 490,
+        "season": 1990,
+        "round": 7,
+        "date": "1990-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "lastEvent": {
+        "eventId": "event:1990-7:bb9be1db411b",
+        "eventIndex": 490,
+        "season": 1990,
+        "round": 7,
+        "date": "1990-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1986-7:5d3ce51c2e4a",
+        "eventIndex": 426,
+        "season": 1986,
+        "round": 7,
+        "date": "1986-06-22",
+        "grandPrixName": "Detroit Grand Prix",
+        "circuitId": "detroit"
+      },
+      "lastEvent": {
+        "eventId": "event:1986-7:5d3ce51c2e4a",
+        "eventIndex": 426,
+        "season": 1986,
+        "round": 7,
+        "date": "1986-06-22",
+        "grandPrixName": "Detroit Grand Prix",
+        "circuitId": "detroit"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:march:373ae2f4adda",
+      "entityName": "March",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1988-15:670b23dd6bde",
+        "eventIndex": 466,
+        "season": 1988,
+        "round": 15,
+        "date": "1988-10-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "lastEvent": {
+        "eventId": "event:1988-15:670b23dd6bde",
+        "eventIndex": 466,
+        "season": 1988,
+        "round": 15,
+        "date": "1988-10-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:minardi:9db1254527e2",
+      "entityName": "Minardi",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1989-13:4287bd87a777",
+        "eventIndex": 480,
+        "season": 1989,
+        "round": 13,
+        "date": "1989-09-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "lastEvent": {
+        "eventId": "event:1989-13:4287bd87a777",
+        "eventIndex": 480,
+        "season": 1989,
+        "round": 13,
+        "date": "1989-09-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "lastEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1999-2:724c54cc1697",
+        "eventIndex": 631,
+        "season": 1999,
+        "round": 2,
+        "date": "1999-04-11",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1999-2:724c54cc1697",
+        "eventIndex": 631,
+        "season": 1999,
+        "round": 2,
+        "date": "1999-04-11",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2007-15:7b42716cbcc4",
+        "eventIndex": 782,
+        "season": 2007,
+        "round": 15,
+        "date": "2007-09-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "lastEvent": {
+        "eventId": "event:2007-15:7b42716cbcc4",
+        "eventIndex": 782,
+        "season": 2007,
+        "round": 15,
+        "date": "2007-09-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1982-16:38c4f1148dbf",
+        "eventIndex": 372,
+        "season": 1982,
+        "round": 16,
+        "date": "1982-09-25",
+        "grandPrixName": "Caesars Palace Grand Prix",
+        "circuitId": "las_vegas"
+      },
+      "lastEvent": {
+        "eventId": "event:1982-16:38c4f1148dbf",
+        "eventIndex": 372,
+        "season": 1982,
+        "round": 16,
+        "date": "1982-09-25",
+        "grandPrixName": "Caesars Palace Grand Prix",
+        "circuitId": "las_vegas"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 19
+    }
+  ]
+}

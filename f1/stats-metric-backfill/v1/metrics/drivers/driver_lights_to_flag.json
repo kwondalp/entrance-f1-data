@@ -1,0 +1,1766 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_lights_to_flag",
+  "metricId": "driverLightsToFlag",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 33,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 33,
+  "rows": [
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 22,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2007-11:f830a177af2d",
+            "eventIndex": 778,
+            "season": 2007,
+            "round": 11,
+            "date": "2007-08-05",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:2010-13:fe0c1f030e5c",
+            "eventIndex": 832,
+            "season": 2010,
+            "round": 13,
+            "date": "2010-08-29",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2014-2:e3929c81f4de",
+            "eventIndex": 898,
+            "season": 2014,
+            "round": 2,
+            "date": "2014-03-30",
+            "grandPrixName": "Malaysian Grand Prix",
+            "circuitId": "sepang"
+          },
+          {
+            "eventId": "event:2014-16:2a7752676578",
+            "eventIndex": 912,
+            "season": 2014,
+            "round": 16,
+            "date": "2014-10-12",
+            "grandPrixName": "Russian Grand Prix",
+            "circuitId": "sochi"
+          },
+          {
+            "eventId": "event:2015-12:fdf4076f975e",
+            "eventIndex": 927,
+            "season": 2015,
+            "round": 12,
+            "date": "2015-09-06",
+            "grandPrixName": "Italian Grand Prix",
+            "circuitId": "monza"
+          },
+          {
+            "eventId": "event:2015-14:b984a6450aa2",
+            "eventIndex": 929,
+            "season": 2015,
+            "round": 14,
+            "date": "2015-09-27",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          },
+          {
+            "eventId": "event:2016-12:88d6fa6ddb20",
+            "eventIndex": 946,
+            "season": 2016,
+            "round": 12,
+            "date": "2016-07-31",
+            "grandPrixName": "German Grand Prix",
+            "circuitId": "hockenheimring"
+          },
+          {
+            "eventId": "event:2016-20:6f8589cd40d6",
+            "eventIndex": 954,
+            "season": 2016,
+            "round": 20,
+            "date": "2016-11-13",
+            "grandPrixName": "Brazilian Grand Prix",
+            "circuitId": "interlagos"
+          },
+          {
+            "eventId": "event:2017-2:2774cbf9ec26",
+            "eventIndex": 957,
+            "season": 2017,
+            "round": 2,
+            "date": "2017-04-09",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          {
+            "eventId": "event:2017-7:3efe944bf5f8",
+            "eventIndex": 962,
+            "season": 2017,
+            "round": 7,
+            "date": "2017-06-11",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          {
+            "eventId": "event:2017-10:4cb6b52581ee",
+            "eventIndex": 965,
+            "season": 2017,
+            "round": 10,
+            "date": "2017-07-16",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          {
+            "eventId": "event:2017-14:de35607c758a",
+            "eventIndex": 969,
+            "season": 2017,
+            "round": 14,
+            "date": "2017-09-17",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          },
+          {
+            "eventId": "event:2018-17:babf7215f28e",
+            "eventIndex": 992,
+            "season": 2018,
+            "round": 17,
+            "date": "2018-10-07",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          },
+          {
+            "eventId": "event:2019-3:fc46b9741164",
+            "eventIndex": 999,
+            "season": 2019,
+            "round": 3,
+            "date": "2019-04-14",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          {
+            "eventId": "event:2019-5:1c7e13564585",
+            "eventIndex": 1001,
+            "season": 2019,
+            "round": 5,
+            "date": "2019-05-12",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2019-6:af9ebb10d22b",
+            "eventIndex": 1002,
+            "season": 2019,
+            "round": 6,
+            "date": "2019-05-26",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2019-8:0aa9f1c82e2f",
+            "eventIndex": 1004,
+            "season": 2019,
+            "round": 8,
+            "date": "2019-06-23",
+            "grandPrixName": "French Grand Prix",
+            "circuitId": "ricard"
+          },
+          {
+            "eventId": "event:2019-21:f0312a8dac89",
+            "eventIndex": 1017,
+            "season": 2019,
+            "round": 21,
+            "date": "2019-12-01",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          {
+            "eventId": "event:2020-4:be29cdf37f61",
+            "eventIndex": 1021,
+            "season": 2020,
+            "round": 4,
+            "date": "2020-08-02",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          {
+            "eventId": "event:2020-6:d4aeaf077db5",
+            "eventIndex": 1023,
+            "season": 2020,
+            "round": 6,
+            "date": "2020-08-16",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2020-7:f07d66c130f7",
+            "eventIndex": 1024,
+            "season": 2020,
+            "round": 7,
+            "date": "2020-08-30",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2021-20:0022a6e448f5",
+            "eventIndex": 1054,
+            "season": 2021,
+            "round": 20,
+            "date": "2021-11-21",
+            "grandPrixName": "Qatar Grand Prix",
+            "circuitId": "losail"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 18,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1985-2:86ad05fcc4f8",
+            "eventIndex": 405,
+            "season": 1985,
+            "round": 2,
+            "date": "1985-04-21",
+            "grandPrixName": "Portuguese Grand Prix",
+            "circuitId": "estoril"
+          },
+          {
+            "eventId": "event:1988-2:450c92b8b969",
+            "eventIndex": 453,
+            "season": 1988,
+            "round": 2,
+            "date": "1988-05-01",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:1988-6:0b4a380c0cba",
+            "eventIndex": 457,
+            "season": 1988,
+            "round": 6,
+            "date": "1988-06-19",
+            "grandPrixName": "Detroit Grand Prix",
+            "circuitId": "detroit"
+          },
+          {
+            "eventId": "event:1988-9:cd02811cb14f",
+            "eventIndex": 460,
+            "season": 1988,
+            "round": 9,
+            "date": "1988-07-24",
+            "grandPrixName": "German Grand Prix",
+            "circuitId": "hockenheimring"
+          },
+          {
+            "eventId": "event:1988-10:cc397529cc79",
+            "eventIndex": 461,
+            "season": 1988,
+            "round": 10,
+            "date": "1988-08-07",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:1988-11:eb0639db462f",
+            "eventIndex": 462,
+            "season": 1988,
+            "round": 11,
+            "date": "1988-08-28",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:1989-2:e9e5c11c40ec",
+            "eventIndex": 469,
+            "season": 1989,
+            "round": 2,
+            "date": "1989-04-23",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:1989-3:2d555e5a3b90",
+            "eventIndex": 470,
+            "season": 1989,
+            "round": 3,
+            "date": "1989-05-07",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1989-4:13ae34b52bf2",
+            "eventIndex": 471,
+            "season": 1989,
+            "round": 4,
+            "date": "1989-05-28",
+            "grandPrixName": "Mexican Grand Prix",
+            "circuitId": "rodriguez"
+          },
+          {
+            "eventId": "event:1989-11:0c6624ccbd7e",
+            "eventIndex": 478,
+            "season": 1989,
+            "round": 11,
+            "date": "1989-08-27",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:1990-4:e0a144ead9d0",
+            "eventIndex": 487,
+            "season": 1990,
+            "round": 4,
+            "date": "1990-05-27",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1990-11:5920a400703f",
+            "eventIndex": 494,
+            "season": 1990,
+            "round": 11,
+            "date": "1990-08-26",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:1990-12:6b09db992841",
+            "eventIndex": 495,
+            "season": 1990,
+            "round": 12,
+            "date": "1990-09-09",
+            "grandPrixName": "Italian Grand Prix",
+            "circuitId": "monza"
+          },
+          {
+            "eventId": "event:1991-1:b4836930a7f6",
+            "eventIndex": 500,
+            "season": 1991,
+            "round": 1,
+            "date": "1991-03-10",
+            "grandPrixName": "United States Grand Prix",
+            "circuitId": "phoenix"
+          },
+          {
+            "eventId": "event:1991-2:9435c014bbe2",
+            "eventIndex": 501,
+            "season": 1991,
+            "round": 2,
+            "date": "1991-03-24",
+            "grandPrixName": "Brazilian Grand Prix",
+            "circuitId": "interlagos"
+          },
+          {
+            "eventId": "event:1991-4:bcaa96d42aa2",
+            "eventIndex": 503,
+            "season": 1991,
+            "round": 4,
+            "date": "1991-05-12",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1991-10:ac859c4a19e3",
+            "eventIndex": 509,
+            "season": 1991,
+            "round": 10,
+            "date": "1991-08-11",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:1991-16:4843be5d29a8",
+            "eventIndex": 515,
+            "season": 1991,
+            "round": 16,
+            "date": "1991-11-03",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "adelaide"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 18,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2017-18:00422ed65a6b",
+            "eventIndex": 973,
+            "season": 2017,
+            "round": 18,
+            "date": "2017-10-29",
+            "grandPrixName": "Mexican Grand Prix",
+            "circuitId": "rodriguez"
+          },
+          {
+            "eventId": "event:2020-17:c73b67788001",
+            "eventIndex": 1034,
+            "season": 2020,
+            "round": 17,
+            "date": "2020-12-13",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          {
+            "eventId": "event:2021-5:5b4226959fc3",
+            "eventIndex": 1039,
+            "season": 2021,
+            "round": 5,
+            "date": "2021-05-23",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2021-8:daac5f81705b",
+            "eventIndex": 1042,
+            "season": 2021,
+            "round": 8,
+            "date": "2021-06-27",
+            "grandPrixName": "Styrian Grand Prix",
+            "circuitId": "red_bull_ring"
+          },
+          {
+            "eventId": "event:2021-9:df650534eb11",
+            "eventIndex": 1043,
+            "season": 2021,
+            "round": 9,
+            "date": "2021-07-04",
+            "grandPrixName": "Austrian Grand Prix",
+            "circuitId": "red_bull_ring"
+          },
+          {
+            "eventId": "event:2021-12:2c5882f9d916",
+            "eventIndex": 1046,
+            "season": 2021,
+            "round": 12,
+            "date": "2021-08-29",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2022-4:ca31765a4de3",
+            "eventIndex": 1060,
+            "season": 2022,
+            "round": 4,
+            "date": "2022-04-24",
+            "grandPrixName": "Emilia Romagna Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:2023-6:beb41284c5d9",
+            "eventIndex": 1084,
+            "season": 2023,
+            "round": 6,
+            "date": "2023-05-28",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2023-7:a6e96c077c90",
+            "eventIndex": 1085,
+            "season": 2023,
+            "round": 7,
+            "date": "2023-06-04",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2023-8:a3a923d6575f",
+            "eventIndex": 1086,
+            "season": 2023,
+            "round": 8,
+            "date": "2023-06-18",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          {
+            "eventId": "event:2023-11:c79fa9de36d6",
+            "eventIndex": 1089,
+            "season": 2023,
+            "round": 11,
+            "date": "2023-07-23",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:2023-17:2f65ccae014b",
+            "eventIndex": 1095,
+            "season": 2023,
+            "round": 17,
+            "date": "2023-10-08",
+            "grandPrixName": "Qatar Grand Prix",
+            "circuitId": "losail"
+          },
+          {
+            "eventId": "event:2024-1:6ac832822a49",
+            "eventIndex": 1101,
+            "season": 2024,
+            "round": 1,
+            "date": "2024-03-02",
+            "grandPrixName": "Bahrain Grand Prix",
+            "circuitId": "bahrain"
+          },
+          {
+            "eventId": "event:2024-23:d8fdef9472d0",
+            "eventIndex": 1123,
+            "season": 2024,
+            "round": 23,
+            "date": "2024-12-01",
+            "grandPrixName": "Qatar Grand Prix",
+            "circuitId": "losail"
+          },
+          {
+            "eventId": "event:2025-7:8ac5333180c2",
+            "eventIndex": 1131,
+            "season": 2025,
+            "round": 7,
+            "date": "2025-05-18",
+            "grandPrixName": "Emilia Romagna Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:2025-17:1342a19a0e88",
+            "eventIndex": 1141,
+            "season": 2025,
+            "round": 17,
+            "date": "2025-09-21",
+            "grandPrixName": "Azerbaijan Grand Prix",
+            "circuitId": "baku"
+          },
+          {
+            "eventId": "event:2025-19:faed7f152902",
+            "eventIndex": 1143,
+            "season": 2025,
+            "round": 19,
+            "date": "2025-10-19",
+            "grandPrixName": "United States Grand Prix",
+            "circuitId": "americas"
+          },
+          {
+            "eventId": "event:2025-22:5c5653c5c0f0",
+            "eventIndex": 1146,
+            "season": 2025,
+            "round": 22,
+            "date": "2025-11-23",
+            "grandPrixName": "Las Vegas Grand Prix",
+            "circuitId": "vegas"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 15,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2009-15:5f0b38acc19a",
+            "eventIndex": 817,
+            "season": 2009,
+            "round": 15,
+            "date": "2009-10-04",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          },
+          {
+            "eventId": "event:2010-9:e6aee2b16c88",
+            "eventIndex": 828,
+            "season": 2010,
+            "round": 9,
+            "date": "2010-06-27",
+            "grandPrixName": "European Grand Prix",
+            "circuitId": "valencia"
+          },
+          {
+            "eventId": "event:2011-14:7d49e36352b6",
+            "eventIndex": 852,
+            "season": 2011,
+            "round": 14,
+            "date": "2011-09-25",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          },
+          {
+            "eventId": "event:2011-17:3dbc7bd28739",
+            "eventIndex": 855,
+            "season": 2011,
+            "round": 17,
+            "date": "2011-10-30",
+            "grandPrixName": "Indian Grand Prix",
+            "circuitId": "buddh"
+          },
+          {
+            "eventId": "event:2012-15:511557d22596",
+            "eventIndex": 872,
+            "season": 2012,
+            "round": 15,
+            "date": "2012-10-07",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          },
+          {
+            "eventId": "event:2012-16:44499a37f57c",
+            "eventIndex": 873,
+            "season": 2012,
+            "round": 16,
+            "date": "2012-10-14",
+            "grandPrixName": "Korean Grand Prix",
+            "circuitId": "yeongam"
+          },
+          {
+            "eventId": "event:2012-17:1c9923ac9caf",
+            "eventIndex": 874,
+            "season": 2012,
+            "round": 17,
+            "date": "2012-10-28",
+            "grandPrixName": "Indian Grand Prix",
+            "circuitId": "buddh"
+          },
+          {
+            "eventId": "event:2013-11:b3279f25bad9",
+            "eventIndex": 888,
+            "season": 2013,
+            "round": 11,
+            "date": "2013-08-25",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2013-13:efaf565d8ed4",
+            "eventIndex": 890,
+            "season": 2013,
+            "round": 13,
+            "date": "2013-09-22",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          },
+          {
+            "eventId": "event:2013-14:a161d34a4da6",
+            "eventIndex": 891,
+            "season": 2013,
+            "round": 14,
+            "date": "2013-10-06",
+            "grandPrixName": "Korean Grand Prix",
+            "circuitId": "yeongam"
+          },
+          {
+            "eventId": "event:2013-17:8638acbe65d7",
+            "eventIndex": 894,
+            "season": 2013,
+            "round": 17,
+            "date": "2013-11-03",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          {
+            "eventId": "event:2013-19:bc7e5d06fea2",
+            "eventIndex": 896,
+            "season": 2013,
+            "round": 19,
+            "date": "2013-11-24",
+            "grandPrixName": "Brazilian Grand Prix",
+            "circuitId": "interlagos"
+          },
+          {
+            "eventId": "event:2015-13:0d49be59dd55",
+            "eventIndex": 928,
+            "season": 2015,
+            "round": 13,
+            "date": "2015-09-20",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          },
+          {
+            "eventId": "event:2018-7:2c945aef2beb",
+            "eventIndex": 982,
+            "season": 2018,
+            "round": 7,
+            "date": "2018-06-10",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          {
+            "eventId": "event:2018-13:5f56c61ad229",
+            "eventIndex": 988,
+            "season": 2018,
+            "round": 13,
+            "date": "2018-08-26",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 11,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1994-2:cb121f88167b",
+            "eventIndex": 549,
+            "season": 1994,
+            "round": 2,
+            "date": "1994-04-17",
+            "grandPrixName": "Pacific Grand Prix",
+            "circuitId": "okayama"
+          },
+          {
+            "eventId": "event:1994-4:580df63f73aa",
+            "eventIndex": 551,
+            "season": 1994,
+            "round": 4,
+            "date": "1994-05-15",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1994-6:6f1934c0a1f5",
+            "eventIndex": 553,
+            "season": 1994,
+            "round": 6,
+            "date": "1994-06-12",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          {
+            "eventId": "event:1995-4:0647188b7d96",
+            "eventIndex": 567,
+            "season": 1995,
+            "round": 4,
+            "date": "1995-05-14",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:1997-5:ae8d4d12f46e",
+            "eventIndex": 601,
+            "season": 1997,
+            "round": 5,
+            "date": "1997-05-11",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1999-4:7b47b4d4532a",
+            "eventIndex": 633,
+            "season": 1999,
+            "round": 4,
+            "date": "1999-05-16",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2001-14:3b6865f098b0",
+            "eventIndex": 676,
+            "season": 2001,
+            "round": 14,
+            "date": "2001-09-02",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2002-5:a94848bba0e6",
+            "eventIndex": 684,
+            "season": 2002,
+            "round": 5,
+            "date": "2002-04-28",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2004-1:042187e9e426",
+            "eventIndex": 713,
+            "season": 2004,
+            "round": 1,
+            "date": "2004-03-07",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "albert_park"
+          },
+          {
+            "eventId": "event:2004-13:215a0a6ac19b",
+            "eventIndex": 725,
+            "season": 2004,
+            "round": 13,
+            "date": "2004-08-15",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:2004-17:8335e66f7dab",
+            "eventIndex": 729,
+            "season": 2004,
+            "round": 17,
+            "date": "2004-10-10",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 9,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1986-14:52823a5c3e67",
+            "eventIndex": 433,
+            "season": 1986,
+            "round": 14,
+            "date": "1986-09-21",
+            "grandPrixName": "Portuguese Grand Prix",
+            "circuitId": "estoril"
+          },
+          {
+            "eventId": "event:1987-13:ec24fe9de40c",
+            "eventIndex": 448,
+            "season": 1987,
+            "round": 13,
+            "date": "1987-09-27",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "jerez"
+          },
+          {
+            "eventId": "event:1991-8:82aa32aa22a5",
+            "eventIndex": 507,
+            "season": 1991,
+            "round": 8,
+            "date": "1991-07-14",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          {
+            "eventId": "event:1992-1:8ba08aef7c60",
+            "eventIndex": 516,
+            "season": 1992,
+            "round": 1,
+            "date": "1992-03-01",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          {
+            "eventId": "event:1992-2:f2f848a28655",
+            "eventIndex": 517,
+            "season": 1992,
+            "round": 2,
+            "date": "1992-03-22",
+            "grandPrixName": "Mexican Grand Prix",
+            "circuitId": "rodriguez"
+          },
+          {
+            "eventId": "event:1992-4:42c4a0998c00",
+            "eventIndex": 519,
+            "season": 1992,
+            "round": 4,
+            "date": "1992-05-03",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:1992-5:f41fe2ad864c",
+            "eventIndex": 520,
+            "season": 1992,
+            "round": 5,
+            "date": "1992-05-17",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:1992-9:1102df305868",
+            "eventIndex": 524,
+            "season": 1992,
+            "round": 9,
+            "date": "1992-07-12",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          {
+            "eventId": "event:1992-14:56930fb0e51f",
+            "eventIndex": 529,
+            "season": 1992,
+            "round": 14,
+            "date": "1992-09-27",
+            "grandPrixName": "Portuguese Grand Prix",
+            "circuitId": "estoril"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 7,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2013-6:eb445677153f",
+            "eventIndex": 883,
+            "season": 2013,
+            "round": 6,
+            "date": "2013-05-26",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2014-1:ca3e6c015e94",
+            "eventIndex": 897,
+            "season": 2014,
+            "round": 1,
+            "date": "2014-03-16",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "albert_park"
+          },
+          {
+            "eventId": "event:2014-6:6a44774b38eb",
+            "eventIndex": 902,
+            "season": 2014,
+            "round": 6,
+            "date": "2014-05-25",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2014-10:ea416c13dd74",
+            "eventIndex": 906,
+            "season": 2014,
+            "round": 10,
+            "date": "2014-07-20",
+            "grandPrixName": "German Grand Prix",
+            "circuitId": "hockenheimring"
+          },
+          {
+            "eventId": "event:2016-4:d9ceafbeb3e1",
+            "eventIndex": 938,
+            "season": 2016,
+            "round": 4,
+            "date": "2016-05-01",
+            "grandPrixName": "Russian Grand Prix",
+            "circuitId": "sochi"
+          },
+          {
+            "eventId": "event:2016-8:cc67af311562",
+            "eventIndex": 942,
+            "season": 2016,
+            "round": 8,
+            "date": "2016-06-19",
+            "grandPrixName": "European Grand Prix",
+            "circuitId": "baku"
+          },
+          {
+            "eventId": "event:2016-13:c2f5a54b2790",
+            "eventIndex": 947,
+            "season": 2016,
+            "round": 13,
+            "date": "2016-08-28",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 5,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1984-4:b67a8fdd1723",
+            "eventIndex": 391,
+            "season": 1984,
+            "round": 4,
+            "date": "1984-05-06",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:1984-15:988fbf896742",
+            "eventIndex": 402,
+            "season": 1984,
+            "round": 15,
+            "date": "1984-10-07",
+            "grandPrixName": "European Grand Prix",
+            "circuitId": "nurburgring"
+          },
+          {
+            "eventId": "event:1988-4:46fbd15c7318",
+            "eventIndex": 455,
+            "season": 1988,
+            "round": 4,
+            "date": "1988-05-29",
+            "grandPrixName": "Mexican Grand Prix",
+            "circuitId": "rodriguez"
+          },
+          {
+            "eventId": "event:1988-14:22c204171cd4",
+            "eventIndex": 465,
+            "season": 1988,
+            "round": 14,
+            "date": "1988-10-02",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "jerez"
+          },
+          {
+            "eventId": "event:1989-7:ea9eb8cfc4fa",
+            "eventIndex": 474,
+            "season": 1989,
+            "round": 7,
+            "date": "1989-07-09",
+            "grandPrixName": "French Grand Prix",
+            "circuitId": "ricard"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 4,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1993-11:9afce22aa33f",
+            "eventIndex": 542,
+            "season": 1993,
+            "round": 11,
+            "date": "1993-08-15",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:1995-10:9ccca0a28329",
+            "eventIndex": 573,
+            "season": 1995,
+            "round": 10,
+            "date": "1995-08-13",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          {
+            "eventId": "event:1996-3:9bff9926daa0",
+            "eventIndex": 583,
+            "season": 1996,
+            "round": 3,
+            "date": "1996-04-07",
+            "grandPrixName": "Argentine Grand Prix",
+            "circuitId": "galvez"
+          },
+          {
+            "eventId": "event:1996-16:56c1557d55a4",
+            "eventIndex": 596,
+            "season": 1996,
+            "round": 16,
+            "date": "1996-10-13",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 4,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1998-2:dcd2e8b2f96d",
+            "eventIndex": 615,
+            "season": 1998,
+            "round": 2,
+            "date": "1998-03-29",
+            "grandPrixName": "Brazilian Grand Prix",
+            "circuitId": "interlagos"
+          },
+          {
+            "eventId": "event:1998-6:21ccc2b142f2",
+            "eventIndex": 619,
+            "season": 1998,
+            "round": 6,
+            "date": "1998-05-24",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:1998-16:ebdd68b0ee49",
+            "eventIndex": 629,
+            "season": 1998,
+            "round": 16,
+            "date": "1998-11-01",
+            "grandPrixName": "Japanese Grand Prix",
+            "circuitId": "suzuka"
+          },
+          {
+            "eventId": "event:1999-11:655c01045ae7",
+            "eventIndex": 640,
+            "season": 1999,
+            "round": 11,
+            "date": "1999-08-15",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:coulthard:935d583f6514",
+      "entityName": "David Coulthard",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1998-4:4ab51cee0678",
+            "eventIndex": 617,
+            "season": 1998,
+            "round": 4,
+            "date": "1998-04-26",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:1999-12:83799e8b8c54",
+            "eventIndex": 641,
+            "season": 1999,
+            "round": 12,
+            "date": "1999-08-29",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          },
+          {
+            "eventId": "event:2002-7:720fc9b1d858",
+            "eventIndex": 686,
+            "season": 2002,
+            "round": 7,
+            "date": "2002-05-26",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2005-10:daa97f49f1c6",
+            "eventIndex": 740,
+            "season": 2005,
+            "round": 10,
+            "date": "2005-07-03",
+            "grandPrixName": "French Grand Prix",
+            "circuitId": "magny_cours"
+          },
+          {
+            "eventId": "event:2005-19:6f906504710f",
+            "eventIndex": 749,
+            "season": 2005,
+            "round": 19,
+            "date": "2005-10-16",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          {
+            "eventId": "event:2010-15:fd19ab851182",
+            "eventIndex": 834,
+            "season": 2010,
+            "round": 15,
+            "date": "2010-09-26",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2005-5:c0fc2ce958ed",
+            "eventIndex": 735,
+            "season": 2005,
+            "round": 5,
+            "date": "2005-05-08",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2005-6:587b0d899dcb",
+            "eventIndex": 736,
+            "season": 2005,
+            "round": 6,
+            "date": "2005-05-22",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2005-14:aeba0f110b8a",
+            "eventIndex": 744,
+            "season": 2005,
+            "round": 14,
+            "date": "2005-08-21",
+            "grandPrixName": "Turkish Grand Prix",
+            "circuitId": "istanbul"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2024-18:eaa69f09f4a4",
+            "eventIndex": 1118,
+            "season": 2024,
+            "round": 18,
+            "date": "2024-09-22",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          },
+          {
+            "eventId": "event:2024-24:f8050dd3423a",
+            "eventIndex": 1124,
+            "season": 2024,
+            "round": 24,
+            "date": "2024-12-08",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          {
+            "eventId": "event:2025-20:ffc344e70099",
+            "eventIndex": 1144,
+            "season": 2025,
+            "round": 20,
+            "date": "2025-10-26",
+            "grandPrixName": "Mexico City Grand Prix",
+            "circuitId": "rodriguez"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:webber:6ffd0bea1a2a",
+      "entityName": "Mark Webber",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2010-5:5d68b4860635",
+            "eventIndex": 824,
+            "season": 2010,
+            "round": 5,
+            "date": "2010-05-09",
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "catalunya"
+          },
+          {
+            "eventId": "event:2010-6:4d8cee17c065",
+            "eventIndex": 825,
+            "season": 2010,
+            "round": 6,
+            "date": "2010-05-16",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          },
+          {
+            "eventId": "event:2010-10:12499b7a19bc",
+            "eventIndex": 829,
+            "season": 2010,
+            "round": 10,
+            "date": "2010-07-11",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 2,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2022-3:b1c5d123b7fa",
+            "eventIndex": 1059,
+            "season": 2022,
+            "round": 3,
+            "date": "2022-04-10",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "albert_park"
+          },
+          {
+            "eventId": "event:2024-8:f0cad31a19fb",
+            "eventIndex": 1108,
+            "season": 2024,
+            "round": 8,
+            "date": "2024-05-26",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 2,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1987-16:96f8a3dd476f",
+            "eventIndex": 451,
+            "season": 1987,
+            "round": 16,
+            "date": "1987-11-15",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "adelaide"
+          },
+          {
+            "eventId": "event:1994-9:fb701fce99f6",
+            "eventIndex": 556,
+            "season": 1994,
+            "round": 9,
+            "date": "1994-07-31",
+            "grandPrixName": "German Grand Prix",
+            "circuitId": "hockenheimring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:button:d29c67aa2fda",
+      "entityName": "Jenson Button",
+      "value": 2,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2009-1:1fd450f686e6",
+            "eventIndex": 803,
+            "season": 2009,
+            "round": 1,
+            "date": "2009-03-29",
+            "grandPrixName": "Australian Grand Prix",
+            "circuitId": "albert_park"
+          },
+          {
+            "eventId": "event:2012-12:d0a2b75f68a8",
+            "eventIndex": 869,
+            "season": 2012,
+            "round": 12,
+            "date": "2012-09-02",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "spa"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 2,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1984-7:acb37472cbf7",
+            "eventIndex": 394,
+            "season": 1984,
+            "round": 7,
+            "date": "1984-06-17",
+            "grandPrixName": "Canadian Grand Prix",
+            "circuitId": "villeneuve"
+          },
+          {
+            "eventId": "event:1984-8:9b48cbdbbabb",
+            "eventIndex": 395,
+            "season": 1984,
+            "round": 8,
+            "date": "1984-06-24",
+            "grandPrixName": "Detroit Grand Prix",
+            "circuitId": "detroit"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:ralf-schumacher:c4bff3218fa9",
+      "entityName": "Ralf Schumacher",
+      "value": 2,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2001-4:dda09f2fe211",
+            "eventIndex": 666,
+            "season": 2001,
+            "round": 4,
+            "date": "2001-04-15",
+            "grandPrixName": "San Marino Grand Prix",
+            "circuitId": "imola"
+          },
+          {
+            "eventId": "event:2003-10:544dc3b44c95",
+            "eventIndex": 706,
+            "season": 2003,
+            "round": 10,
+            "date": "2003-07-06",
+            "grandPrixName": "French Grand Prix",
+            "circuitId": "magny_cours"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2023-15:c44f976618b0",
+            "eventIndex": 1093,
+            "season": 2023,
+            "round": 15,
+            "date": "2023-09-17",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:ricciardo:677e1f07679b",
+      "entityName": "Daniel Ricciardo",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2018-6:57699c5685d5",
+            "eventIndex": 981,
+            "season": 2018,
+            "round": 6,
+            "date": "2018-05-27",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:villeneuve:5349509be1a5",
+      "entityName": "Jacques Villeneuve",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1996-4:0960cacafe1b",
+            "eventIndex": 584,
+            "season": 1996,
+            "round": 4,
+            "date": "1996-04-28",
+            "grandPrixName": "European Grand Prix",
+            "circuitId": "nurburgring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2005-15:b2d59b647d69",
+            "eventIndex": 745,
+            "season": 2005,
+            "round": 15,
+            "date": "2005-09-04",
+            "grandPrixName": "Italian Grand Prix",
+            "circuitId": "monza"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:keke-rosberg:c149e9225f45",
+      "entityName": "Keke Rosberg",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1983-5:ae8c826d4b39",
+            "eventIndex": 377,
+            "season": 1983,
+            "round": 5,
+            "date": "1983-05-15",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2026-6:0b0abef937ae",
+            "eventIndex": 1154,
+            "season": 2026,
+            "round": 6,
+            "date": "2026-06-07",
+            "grandPrixName": "Monaco Grand Prix",
+            "circuitId": "monaco"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:alboreto:2d39fb3c5621",
+      "entityName": "Michele Alboreto",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1984-3:43613aaf308e",
+            "eventIndex": 390,
+            "season": 1984,
+            "round": 3,
+            "date": "1984-04-29",
+            "grandPrixName": "Belgian Grand Prix",
+            "circuitId": "zolder"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2025-15:6505ac52ea15",
+            "eventIndex": 1139,
+            "season": 2025,
+            "round": 15,
+            "date": "2025-08-31",
+            "grandPrixName": "Dutch Grand Prix",
+            "circuitId": "zandvoort"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:arnoux:3628c7479aa0",
+      "entityName": "René Arnoux",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1982-15:2b622bc06cba",
+            "eventIndex": 371,
+            "season": 1982,
+            "round": 15,
+            "date": "1982-09-12",
+            "grandPrixName": "Italian Grand Prix",
+            "circuitId": "monza"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2002-9:3733d180252b",
+            "eventIndex": 688,
+            "season": 2002,
+            "round": 9,
+            "date": "2002-06-23",
+            "grandPrixName": "European Grand Prix",
+            "circuitId": "nurburgring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2022-17:39546da4913c",
+            "eventIndex": 1073,
+            "season": 2022,
+            "round": 17,
+            "date": "2022-10-02",
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina_bay"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:boutsen:956ebe879bfd",
+      "entityName": "Thierry Boutsen",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:1990-10:fe1d33cbf821",
+            "eventIndex": 493,
+            "season": 1990,
+            "round": 10,
+            "date": "1990-08-12",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 1,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2020-1:7ef015a4d9f1",
+            "eventIndex": 1018,
+            "season": 2020,
+            "round": 1,
+            "date": "2020-07-05",
+            "grandPrixName": "Austrian Grand Prix",
+            "circuitId": "red_bull_ring"
+          }
+        ],
+        "valueScope": "complete observed events led after every completed lap and officially won"
+      },
+      "rank": 21
+    }
+  ]
+}

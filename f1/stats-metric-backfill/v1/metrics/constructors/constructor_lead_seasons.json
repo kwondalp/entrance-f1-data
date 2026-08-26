@@ -1,0 +1,659 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "constructor_lead_seasons",
+  "metricId": "constructorLeadSeasons",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 34,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 34,
+  "rows": [
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 43,
+      "seasons": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 39,
+      "seasons": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 28,
+      "seasons": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1999,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2008,
+        2009,
+        2012,
+        2014,
+        2015,
+        2025
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 21,
+      "seasons": [
+        2005,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 17,
+      "seasons": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 13,
+      "seasons": [
+        1986,
+        1987,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 10,
+      "seasons": [
+        1982,
+        1983,
+        1984,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 8,
+      "seasons": [
+        1994,
+        1995,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2003
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 5,
+      "seasons": [
+        1982,
+        1984,
+        1985,
+        1986,
+        1987
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 5,
+      "seasons": [
+        2003,
+        2005,
+        2006,
+        2008,
+        2009
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 4,
+      "seasons": [
+        1982,
+        1983,
+        1984,
+        1985
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 4,
+      "seasons": [
+        2009,
+        2012,
+        2013,
+        2014
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 4,
+      "seasons": [
+        2003,
+        2004,
+        2012,
+        2013
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 3,
+      "seasons": [
+        1982,
+        1983,
+        2019
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 3,
+      "seasons": [
+        2021,
+        2022,
+        2024
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 3,
+      "seasons": [
+        2021,
+        2022,
+        2023
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 3,
+      "seasons": [
+        2003,
+        2004,
+        2005
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 3,
+      "seasons": [
+        2006,
+        2007,
+        2008
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 3,
+      "seasons": [
+        2007,
+        2008,
+        2010
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 3,
+      "seasons": [
+        1982,
+        1983,
+        1990
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 2,
+      "seasons": [
+        2020,
+        2023
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:arrows:ec6b79b82d1f",
+      "entityName": "Arrows",
+      "value": 2,
+      "seasons": [
+        1989,
+        1997
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 2,
+      "seasons": [
+        2006,
+        2008
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 2,
+      "seasons": [
+        1986,
+        1996
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 2,
+      "seasons": [
+        2012,
+        2013
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 1,
+      "seasons": [
+        2009
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 1,
+      "seasons": [
+        2003
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 1,
+      "seasons": [
+        1990
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:march:373ae2f4adda",
+      "entityName": "March",
+      "value": 1,
+      "seasons": [
+        1988
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:minardi:9db1254527e2",
+      "entityName": "Minardi",
+      "value": 1,
+      "seasons": [
+        1989
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 1,
+      "seasons": [
+        1997
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 1,
+      "seasons": [
+        2020
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 1,
+      "seasons": [
+        2007
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 1,
+      "seasons": [
+        1999
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 26
+    }
+  ]
+}

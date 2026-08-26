@@ -6,12 +6,12 @@
   "asOfRaceDate": "2026-07-26",
   "counts": {
     "total": 144,
-    "available": 111,
-    "partial": 95,
+    "available": 140,
+    "partial": 124,
     "completeThroughCutoff": 16,
-    "blocked": 33,
+    "blocked": 4,
     "permissionRequired": 0,
-    "unavailable": 33,
+    "unavailable": 4,
     "drivers": 76,
     "constructors": 68
   },
@@ -1346,37 +1346,79 @@
       "label": "Sprint Lap Records",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=sprint_lap_records",
       "presentation": "numeric",
-      "definition": "Ranks entities by verified Sprint-only circuit-configuration lap-record ownership. Grand Prix qualifying and race laps are excluded.",
-      "formula": "Within each verified circuit configuration, select the minimum explicitly valid Sprint lap duration and count tied record ownership once per entity.",
+      "definition": "Ranks entities by Sprint circuit-configuration record ownership within the positively verified fastest-lap subset.",
+      "formula": "Within each verified circuit configuration, select the minimum explicit rank-one Sprint fastest-lap time and count tied ownership; this is not an all-time record claim.",
       "calculationId": "sprint_configuration_record_ownership",
       "factType": "sprint_fastest_lap",
       "groupingDimension": "circuit_configuration",
-      "countingUnit": "Sprint circuit-configuration records",
+      "countingUnit": "observed Sprint circuit-configuration records",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
+      "scope": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "All Sprint seasons through the cutoff",
-          "completeEventCount": 0,
-          "incompleteEventCount": 28,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "resultRowCount": 5,
+          "coveredSeasons": [
+            2025,
+            2026
+          ],
+          "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+          "completeEventCount": 10,
+          "incompleteEventCount": 18,
+          "earliestCoveredEvent": {
+            "eventId": "event:2025-2:e05a33739015",
+            "eventIndex": 1126,
+            "season": 2025,
+            "round": 2,
+            "date": "2025-03-23",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-9:c346da3f4460",
+            "eventIndex": 1157,
+            "season": 2026,
+            "round": 9,
+            "date": "2026-07-05",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 5,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/sprint_lap_records.json"
     },
     {
       "registryMetricId": "constructors:track_records",
@@ -2198,37 +2240,76 @@
       "label": "GP Lead Streak",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_grand_prix_led",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of Grand Prix entries.",
-      "formula": "Find the longest uninterrupted sequence of qualifying Grand Prix entries across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "entry",
-      "groupingDimension": "Grand Prix name",
-      "countingUnit": "Grand Prix entries",
+      "definition": "Ranks constructors by the longest observed run of consecutive complete Grand Prix events in which they led at least one completed lap.",
+      "formula": "Within audited complete-event islands, count consecutive canonical Grand Prix events containing at least one position-1 lap for the constructor; missing or incomplete events break the run.",
+      "calculationId": "bounded_consecutive_grand_prix_led",
+      "factType": "lap_leader",
+      "groupingDimension": "event",
+      "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/consecutive_constructor_grand_prix_led.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_kilometres_led",
@@ -2239,37 +2320,76 @@
       "label": "Kilometres-Led Streak",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_kilometres_led",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
-      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "result",
-      "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "definition": "Ranks constructors by their longest observed uninterrupted distance led across completed Grand Prix laps.",
+      "formula": "Reconstruct contiguous position-1 constructor segments and sum verified event-specific lap distance; leader changes and source gaps break the segment.",
+      "calculationId": "bounded_consecutive_kilometres_led",
+      "factType": "lap_leader",
+      "groupingDimension": "leader_segment",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/consecutive_constructor_kilometres_led.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_laps_led",
@@ -2280,37 +2400,76 @@
       "label": "Laps-Led Streak",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_laps_led",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of eligible Grand Prix results.",
-      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "result",
-      "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "definition": "Ranks constructors by their longest observed uninterrupted run of completed Grand Prix laps led.",
+      "formula": "Reconstruct contiguous position-1 constructor segments; leader changes and source gaps break the segment.",
+      "calculationId": "bounded_consecutive_laps_led",
+      "factType": "lap_leader",
+      "groupingDimension": "leader_segment",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/consecutive_constructor_laps_led.json"
     },
     {
       "registryMetricId": "constructors:consecutive_constructor_lead_seasons",
@@ -2321,37 +2480,123 @@
       "label": "Lead Season Streak",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_constructor_lead_seasons",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 constructors by their longest declared consecutive sequence of seasons.",
-      "formula": "Find the longest uninterrupted sequence of qualifying seasons across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "result",
+      "definition": "Ranks constructors by consecutive fully covered seasons in which they led at least one Grand Prix lap.",
+      "formula": "Count consecutive calendar seasons with an observed position-1 lap, using only seasons whose full Grand Prix event set is complete; incomplete seasons break the sequence.",
+      "calculationId": "bounded_consecutive_lead_seasons",
+      "factType": "lap_leader",
       "groupingDimension": "season",
       "countingUnit": "seasons",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 32,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 32,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/consecutive_constructor_lead_seasons.json"
     },
     {
       "registryMetricId": "constructors:constructor_different_engines",
@@ -2578,37 +2823,76 @@
       "label": "GPs Led",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_grand_prix_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying Grand Prix entries for each entity.",
-      "calculationId": "total",
-      "factType": "entry",
-      "groupingDimension": "Grand Prix name",
-      "countingUnit": "Grand Prix entries",
+      "definition": "Ranks constructors by distinct audited Grand Prix events in which they led at least one completed lap.",
+      "formula": "Count distinct complete events containing at least one position-1 lap bound to the constructor.",
+      "calculationId": "bounded_grand_prix_led_total",
+      "factType": "lap_leader",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_grand_prix_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_grand_slams",
@@ -2723,37 +3007,76 @@
       "label": "Kilometres Led",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_kilometres_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Ranks constructors by observed Grand Prix kilometres led across audited complete events.",
+      "formula": "For each position-1 completed lap, add the verified event-specific circuit-configuration length to the constructor total.",
+      "calculationId": "bounded_kilometres_led_total",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_kilometres_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_laps_led",
@@ -2764,37 +3087,76 @@
       "label": "Laps Led",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_laps_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Ranks constructors by observed completed Grand Prix laps led across audited complete events.",
+      "formula": "Count position-1 completed laps bound to each constructor.",
+      "calculationId": "bounded_laps_led_total",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_laps_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_lead_chronology",
@@ -2805,37 +3167,76 @@
       "label": "Race Lead Timeline",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_chronology",
       "presentation": "event",
-      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 constructors in canonical Grand Prix order.",
-      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
-      "calculationId": "chronology",
-      "factType": "result",
+      "definition": "Lists each audited Grand Prix in which a constructor led at least one completed lap, with reconstructed leader segments.",
+      "formula": "Group position-1 completed laps by constructor and event, reconstruct contiguous segments, and order occurrences by canonical event order.",
+      "calculationId": "bounded_lead_chronology",
+      "factType": "lap_leader",
       "groupingDimension": "event",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "asc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 1580,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 1580,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_lead_chronology.json"
     },
     {
       "registryMetricId": "constructors:constructor_lead_seasons",
@@ -2846,37 +3247,76 @@
       "label": "Seasons Leading a GP",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_lead_seasons",
       "presentation": "numeric",
-      "definition": "Ranks constructors by the number of distinct seasons containing at least one seasons occurrence.",
-      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
-      "calculationId": "season_count",
-      "factType": "result",
+      "definition": "Ranks constructors by distinct observed seasons containing at least one completed Grand Prix lap led.",
+      "formula": "Count distinct seasons containing at least one position-1 completed lap for the constructor; seasons with excluded events remain partial observations.",
+      "calculationId": "bounded_lead_season_count",
+      "factType": "lap_leader",
       "groupingDimension": "season",
       "countingUnit": "seasons",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 34,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 34,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_lead_seasons.json"
     },
     {
       "registryMetricId": "constructors:constructor_season_front_rows",
@@ -2924,37 +3364,123 @@
       "label": "GPs Led in a Season",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_grand_prix_led",
       "presentation": "seasonal",
-      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
-      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
-      "calculationId": "by_season",
-      "factType": "entry",
+      "definition": "Ranks constructor-season rows by distinct Grand Prix events led, using only fully covered source seasons.",
+      "formula": "For each fully complete season, count distinct complete events in which the constructor has at least one position-1 lap.",
+      "calculationId": "complete_season_grand_prix_led",
+      "factType": "lap_leader",
       "groupingDimension": "season",
-      "countingUnit": "seasons",
+      "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 209,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 209,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_season_grand_prix_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_season_kilometres_led",
@@ -2965,37 +3491,123 @@
       "label": "Kilometres Led in a Season",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_kilometres_led",
       "presentation": "seasonal",
-      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
-      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
-      "calculationId": "by_season",
-      "factType": "result",
+      "definition": "Ranks constructor-season rows by Grand Prix kilometres led, using only fully covered source seasons.",
+      "formula": "For each fully complete season, sum verified event-specific lap distance for every position-1 constructor lap.",
+      "calculationId": "complete_season_kilometres_led",
+      "factType": "lap_leader",
       "groupingDimension": "season",
-      "countingUnit": "seasons",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 209,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 209,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_season_kilometres_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_season_laps_led",
@@ -3006,37 +3618,123 @@
       "label": "Laps Led in a Season",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_season_laps_led",
       "presentation": "seasonal",
-      "definition": "Ranks every constructor-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
-      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
-      "calculationId": "by_season",
-      "factType": "result",
+      "definition": "Ranks constructor-season rows by completed Grand Prix laps led, using only fully covered source seasons.",
+      "formula": "For each fully complete season, count position-1 completed laps bound to the constructor.",
+      "calculationId": "complete_season_laps_led",
+      "factType": "lap_leader",
       "groupingDimension": "season",
-      "countingUnit": "seasons",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 209,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 209,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_season_laps_led.json"
     },
     {
       "registryMetricId": "constructors:constructor_winner_lap_finishes",
@@ -3084,37 +3782,76 @@
       "label": "GPs to First Lead",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=gps_before_first_constructor_lead",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
-      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
-      "calculationId": "events_before_first",
-      "factType": "result",
+      "definition": "Ranks constructors by Grand Prix appearances before their first observed lap led, only when the complete pre-first-lead career interval is inside verified coverage.",
+      "formula": "For eligible constructors, count canonical Grand Prix appearances strictly before the first complete event containing a position-1 lap; omit left-censored or gap-crossing careers.",
+      "calculationId": "bounded_events_before_first_lead",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "Grand Prix events",
+      "countingUnit": "Grand Prix appearances",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 17,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 17,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/gps_before_first_constructor_lead.json"
     },
     {
       "registryMetricId": "constructors:constructor_sprint_fastest_laps",
@@ -3125,37 +3862,79 @@
       "label": "Sprint Fastest Laps",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_fastest_laps",
       "presentation": "numeric",
-      "definition": "Ranks entities by explicitly recorded Sprint fastest laps. Grand Prix qualifying and race fastest laps are excluded.",
-      "formula": "Count Sprint events with an explicit fastest-lap driver and constructor binding; missing events remain unknown and are not zero.",
+      "definition": "Ranks entities by explicit Sprint fastest-lap observations in the positively verified event subset.",
+      "formula": "Count Sprint events with exactly one valid rank-one fastest-lap row and verified Driver, Constructor, lap-number, lap-time and circuit-configuration bindings; missing events are unknown.",
       "calculationId": "sprint_fastest_lap_total",
       "factType": "sprint_fastest_lap",
       "groupingDimension": "entity",
       "countingUnit": "Sprint fastest laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
+      "scope": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "All Sprint seasons through the cutoff",
-          "completeEventCount": 0,
-          "incompleteEventCount": 28,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "resultRowCount": 5,
+          "coveredSeasons": [
+            2025,
+            2026
+          ],
+          "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+          "completeEventCount": 10,
+          "incompleteEventCount": 18,
+          "earliestCoveredEvent": {
+            "eventId": "event:2025-2:e05a33739015",
+            "eventIndex": 1126,
+            "season": 2025,
+            "round": 2,
+            "date": "2025-03-23",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-9:c346da3f4460",
+            "eventIndex": 1157,
+            "season": 2026,
+            "round": 9,
+            "date": "2026-07-05",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 5,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/constructors/constructor_sprint_fastest_laps.json"
     },
     {
       "registryMetricId": "constructors:constructor_sprint_kilometres_led",
@@ -3166,14 +3945,14 @@
       "label": "Sprint Kilometres Led",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_kilometres_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Would rank entities by Sprint kilometres led when an explicit per-lap Sprint leader corpus is available.",
+      "formula": "No value is emitted because final Sprint classification does not identify the leader at completion of each Sprint lap.",
+      "calculationId": "sprint_kilometres_led_unavailable",
+      "factType": "sprint_lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -3186,15 +3965,15 @@
           "incompleteEventCount": 28,
           "earliestCoveredEvent": null,
           "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         },
         "target": {
           "cutoff": "2026-07-26",
           "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed.",
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -3207,14 +3986,14 @@
       "label": "Sprint Laps Led",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_sprint_laps_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 constructors by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Would rank entities by Sprint laps led when an explicit per-lap Sprint leader corpus is available.",
+      "formula": "No value is emitted because final Sprint classification does not identify the leader at completion of each Sprint lap.",
+      "calculationId": "sprint_laps_led_unavailable",
+      "factType": "sprint_lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -3227,15 +4006,15 @@
           "incompleteEventCount": 28,
           "earliestCoveredEvent": null,
           "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         },
         "target": {
           "cutoff": "2026-07-26",
           "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed.",
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -4785,37 +5564,79 @@
       "label": "Sprint Lap Records",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=sprint_lap_records",
       "presentation": "numeric",
-      "definition": "Ranks entities by verified Sprint-only circuit-configuration lap-record ownership. Grand Prix qualifying and race laps are excluded.",
-      "formula": "Within each verified circuit configuration, select the minimum explicitly valid Sprint lap duration and count tied record ownership once per entity.",
+      "definition": "Ranks entities by Sprint circuit-configuration record ownership within the positively verified fastest-lap subset.",
+      "formula": "Within each verified circuit configuration, select the minimum explicit rank-one Sprint fastest-lap time and count tied ownership; this is not an all-time record claim.",
       "calculationId": "sprint_configuration_record_ownership",
       "factType": "sprint_fastest_lap",
       "groupingDimension": "circuit_configuration",
-      "countingUnit": "Sprint circuit-configuration records",
+      "countingUnit": "observed Sprint circuit-configuration records",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
+      "scope": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "All Sprint seasons through the cutoff",
-          "completeEventCount": 0,
-          "incompleteEventCount": 28,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "resultRowCount": 5,
+          "coveredSeasons": [
+            2025,
+            2026
+          ],
+          "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+          "completeEventCount": 10,
+          "incompleteEventCount": 18,
+          "earliestCoveredEvent": {
+            "eventId": "event:2025-2:e05a33739015",
+            "eventIndex": 1126,
+            "season": 2025,
+            "round": 2,
+            "date": "2025-03-23",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-9:c346da3f4460",
+            "eventIndex": 1157,
+            "season": 2026,
+            "round": 9,
+            "date": "2026-07-05",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 5,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/sprint_lap_records.json"
     },
     {
       "registryMetricId": "drivers:track_records",
@@ -5600,37 +6421,76 @@
       "label": "GP Lead Streak",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_grand_prix_led",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of Grand Prix entries.",
-      "formula": "Find the longest uninterrupted sequence of qualifying Grand Prix entries across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "entry",
-      "groupingDimension": "Grand Prix name",
-      "countingUnit": "Grand Prix entries",
+      "definition": "Ranks drivers by the longest observed run of consecutive complete Grand Prix events in which they led at least one completed lap.",
+      "formula": "Within audited complete-event islands, count consecutive canonical Grand Prix events containing at least one position-1 lap for the driver; missing or incomplete events break the run.",
+      "calculationId": "bounded_consecutive_grand_prix_led",
+      "factType": "lap_leader",
+      "groupingDimension": "event",
+      "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/consecutive_grand_prix_led.json"
     },
     {
       "registryMetricId": "drivers:consecutive_laps_led",
@@ -5641,37 +6501,76 @@
       "label": "Laps-Led Streak",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_laps_led",
       "presentation": "streak",
-      "definition": "Ranks Formula 1 drivers by their longest declared consecutive sequence of eligible Grand Prix results.",
-      "formula": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
-      "calculationId": "longest_streak",
-      "factType": "result",
-      "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "definition": "Ranks drivers by their longest observed uninterrupted run of completed Grand Prix laps led.",
+      "formula": "Reconstruct contiguous position-1 driver segments; leader changes and source gaps break the segment.",
+      "calculationId": "bounded_consecutive_laps_led",
+      "factType": "lap_leader",
+      "groupingDimension": "leader_segment",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/consecutive_laps_led.json"
     },
     {
       "registryMetricId": "drivers:driver_average_grid",
@@ -6160,37 +7059,76 @@
       "label": "GPs Led",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_grand_prix_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by Grand Prix entries, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying Grand Prix entries for each entity.",
-      "calculationId": "total",
-      "factType": "entry",
-      "groupingDimension": "Grand Prix name",
-      "countingUnit": "Grand Prix entries",
+      "definition": "Ranks drivers by distinct audited Grand Prix events in which they led at least one completed lap.",
+      "formula": "Count distinct complete events containing at least one position-1 lap bound to the driver.",
+      "calculationId": "bounded_grand_prix_led_total",
+      "factType": "lap_leader",
+      "groupingDimension": "entity",
+      "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_grand_prix_led.json"
     },
     {
       "registryMetricId": "drivers:driver_grand_slams",
@@ -6305,37 +7243,76 @@
       "label": "Kilometres Led",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_kilometres_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Ranks drivers by observed Grand Prix kilometres led across audited complete events.",
+      "formula": "For each position-1 completed lap, add the verified event-specific circuit-configuration length to the driver total.",
+      "calculationId": "bounded_kilometres_led_total",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_kilometres_led.json"
     },
     {
       "registryMetricId": "drivers:driver_laps_led",
@@ -6346,37 +7323,76 @@
       "label": "Laps Led",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Ranks drivers by observed completed Grand Prix laps led across audited complete events.",
+      "formula": "Count position-1 completed laps bound to each driver.",
+      "calculationId": "bounded_laps_led_total",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_laps_led.json"
     },
     {
       "registryMetricId": "drivers:driver_laps_led_without_win",
@@ -6387,37 +7403,76 @@
       "label": "Laps Led Without a Win",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_laps_led_without_win",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by official Grand Prix wins, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
-      "calculationId": "conditional_total",
-      "factType": "win",
+      "definition": "Ranks drivers with no credited Grand Prix win through the cutoff by observed completed laps led.",
+      "formula": "Select drivers with zero credited wins in the complete Results Archive, then count their position-1 completed laps in the bounded leader window.",
+      "calculationId": "bounded_laps_led_without_win",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "official Grand Prix wins",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 24,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 24,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_laps_led_without_win.json"
     },
     {
       "registryMetricId": "drivers:driver_lead_chronology",
@@ -6428,37 +7483,76 @@
       "label": "Race Lead Timeline",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_chronology",
       "presentation": "event",
-      "definition": "Lists eligible Grand Prix results occurrences for Formula 1 drivers in canonical Grand Prix order.",
-      "formula": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
-      "calculationId": "chronology",
-      "factType": "result",
+      "definition": "Lists each audited Grand Prix in which a driver led at least one completed lap, with reconstructed leader segments.",
+      "formula": "Group position-1 completed laps by driver and event, reconstruct contiguous segments, and order occurrences by canonical event order.",
+      "calculationId": "bounded_lead_chronology",
+      "factType": "lap_leader",
       "groupingDimension": "event",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "asc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 1969,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 1969,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_lead_chronology.json"
     },
     {
       "registryMetricId": "drivers:driver_lead_seasons",
@@ -6469,37 +7563,76 @@
       "label": "Seasons Leading a GP",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lead_seasons",
       "presentation": "numeric",
-      "definition": "Ranks drivers by the number of distinct seasons containing at least one seasons occurrence.",
-      "formula": "Count distinct seasons containing at least one qualifying seasons occurrence.",
-      "calculationId": "season_count",
-      "factType": "result",
+      "definition": "Ranks drivers by distinct observed seasons containing at least one completed Grand Prix lap led.",
+      "formula": "Count distinct seasons containing at least one position-1 completed lap for the driver; seasons with excluded events remain partial observations.",
+      "calculationId": "bounded_lead_season_count",
+      "factType": "lap_leader",
       "groupingDimension": "season",
       "countingUnit": "seasons",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 80,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 80,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_lead_seasons.json"
     },
     {
       "registryMetricId": "drivers:driver_lights_to_flag",
@@ -6510,37 +7643,76 @@
       "label": "Lights-to-Flag Wins",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_lights_to_flag",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Ranks drivers by audited Grand Prix wins in which they led after every completed lap.",
+      "formula": "Count complete events whose position-1 row is the same driver on every completed lap and whose canonical classified winner is that driver.",
+      "calculationId": "bounded_lights_to_flag_wins",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "Grand Prix wins",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 33,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 33,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_lights_to_flag.json"
     },
     {
       "registryMetricId": "drivers:driver_qualifying_h2_hwins",
@@ -6622,37 +7794,123 @@
       "label": "Kilometres Led in a Season",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_kilometres_led",
       "presentation": "seasonal",
-      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
-      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
-      "calculationId": "by_season",
-      "factType": "result",
+      "definition": "Ranks driver-season rows by Grand Prix kilometres led, using only fully covered source seasons.",
+      "formula": "For each fully complete season, sum verified event-specific lap distance for every position-1 driver lap.",
+      "calculationId": "complete_season_kilometres_led",
+      "factType": "lap_leader",
       "groupingDimension": "season",
-      "countingUnit": "seasons",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 347,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 347,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_season_kilometres_led.json"
     },
     {
       "registryMetricId": "drivers:driver_season_laps_led",
@@ -6663,37 +7921,123 @@
       "label": "Laps Led in a Season",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_season_laps_led",
       "presentation": "seasonal",
-      "definition": "Ranks every driver-season combination by seasons recorded in that Formula 1 season; each row is one entity-season and ties use competition ranking.",
-      "formula": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
-      "calculationId": "by_season",
-      "factType": "result",
+      "definition": "Ranks driver-season rows by completed Grand Prix laps led, using only fully covered source seasons.",
+      "formula": "For each fully complete season, count position-1 completed laps bound to the driver.",
+      "calculationId": "complete_season_laps_led",
+      "factType": "lap_leader",
       "groupingDimension": "season",
-      "countingUnit": "seasons",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 347,
+          "coveredSeasons": [
+            1982,
+            1983,
+            1984,
+            1986,
+            1987,
+            1990,
+            1991,
+            1993,
+            1994,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "excludedSeasons": [
+            1985,
+            1988,
+            1989,
+            1992,
+            1995,
+            2014,
+            2026
+          ],
+          "completeEventCount": 692,
+          "incompleteEventCount": 468,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2025-24:e391c058dffd",
+            "eventIndex": 1148,
+            "season": 2025,
+            "round": 24,
+            "date": "2025-12-07",
+            "grandPrixName": "Abu Dhabi Grand Prix",
+            "circuitId": "yas_marina"
+          },
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "per-season values only for fully complete source seasons; 2026 is excluded as right-censored"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 347,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_season_laps_led.json"
     },
     {
       "registryMetricId": "drivers:driver_winner_lap_finishes",
@@ -6741,37 +8085,76 @@
       "label": "GPs to First Lead",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_lead",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix appearances before their first qualifying Grand Prix events occurrence.",
-      "formula": "Count eligible Grand Prix appearances strictly before the first qualifying Grand Prix events occurrence.",
-      "calculationId": "events_before_first",
-      "factType": "result",
+      "definition": "Ranks drivers by Grand Prix appearances before their first observed lap led, only when the complete pre-first-lead career interval is inside verified coverage.",
+      "formula": "For eligible drivers, count canonical Grand Prix appearances strictly before the first complete event containing a position-1 lap; omit left-censored or gap-crossing careers.",
+      "calculationId": "bounded_events_before_first_lead",
+      "factType": "lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "Grand Prix events",
+      "countingUnit": "Grand Prix appearances",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-07-26; Sprints are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "1950-2026 through 2026-07-26",
-          "completeEventCount": 0,
-          "incompleteEventCount": 1160,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; missing events are not zero"
+          "resultRowCount": 49,
+          "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+          "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+          "completeEventCount": 795,
+          "incompleteEventCount": 365,
+          "earliestCoveredEvent": {
+            "eventId": "event:1982-1:62f155f2687b",
+            "eventIndex": 357,
+            "season": 1982,
+            "round": 1,
+            "date": "1982-01-23",
+            "grandPrixName": "South African Grand Prix",
+            "circuitId": "kyalami"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-11:e63cf3e76869",
+            "eventIndex": 1159,
+            "season": 2026,
+            "round": 11,
+            "date": "2026-07-26",
+            "grandPrixName": "Hungarian Grand Prix",
+            "circuitId": "hungaroring"
+          },
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; missing events are not zero"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 49,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/gps_before_first_lead.json"
     },
     {
       "registryMetricId": "drivers:driver_sprint_fastest_laps",
@@ -6782,37 +8165,79 @@
       "label": "Sprint Fastest Laps",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_fastest_laps",
       "presentation": "numeric",
-      "definition": "Ranks entities by explicitly recorded Sprint fastest laps. Grand Prix qualifying and race fastest laps are excluded.",
-      "formula": "Count Sprint events with an explicit fastest-lap driver and constructor binding; missing events remain unknown and are not zero.",
+      "definition": "Ranks entities by explicit Sprint fastest-lap observations in the positively verified event subset.",
+      "formula": "Count Sprint events with exactly one valid rank-one fastest-lap row and verified Driver, Constructor, lap-number, lap-time and circuit-configuration bindings; missing events are unknown.",
       "calculationId": "sprint_fastest_lap_total",
       "factType": "sprint_fastest_lap",
       "groupingDimension": "entity",
       "countingUnit": "Sprint fastest laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded",
+      "scope": "Formula 1 World Championship Sprint sessions with a unique explicit rank-one fastest-lap row through 2026-07-26; Grand Prix sessions are excluded",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
-      "status": "blocked",
+      "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 0,
-          "coveredSeasons": [],
-          "excludedSeasons": "All Sprint seasons through the cutoff",
-          "completeEventCount": 0,
-          "incompleteEventCount": 28,
-          "earliestCoveredEvent": null,
-          "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "resultRowCount": 6,
+          "coveredSeasons": [
+            2025,
+            2026
+          ],
+          "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
+          "completeEventCount": 10,
+          "incompleteEventCount": 18,
+          "earliestCoveredEvent": {
+            "eventId": "event:2025-2:e05a33739015",
+            "eventIndex": 1126,
+            "season": 2025,
+            "round": 2,
+            "date": "2025-03-23",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          "latestCoveredEvent": {
+            "eventId": "event:2026-9:c346da3f4460",
+            "eventIndex": 1157,
+            "season": 2026,
+            "round": 9,
+            "date": "2026-07-05",
+            "grandPrixName": "British Grand Prix",
+            "circuitId": "silverstone"
+          },
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         },
         "target": {
           "cutoff": "2026-07-26",
-          "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "publicationStatus": "partial",
+          "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations.",
-      "rowCount": 0,
-      "dataPath": null
+      "blockingReason": null,
+      "rowCount": 6,
+      "sourceAttribution": {
+        "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
+        "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "releaseUrl": "https://github.com/TracingInsights/RaceData/tree/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
+        "archiveSha256": "cff31a397fda2588acd25f21e3b3c8c65e62a4e06f3c7edb46af5388b8364631",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://github.com/TracingInsights/RaceData/blob/9e65035dbfc20201bd0d1febf40c9cfb32e3eea4/LICENSE",
+        "licenseSha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328",
+        "changes": "ENTRANCE filters rows at the cutoff, binds canonical event, Driver and Constructor identities, treats position 1 only as the leader at completion of a lap, reconstructs leader segments, rejects incomplete or ambiguous events, and publishes bounded aggregates rather than the source tables.",
+        "metadataPath": "manifest.json",
+        "supportingSources": [
+          {
+            "projectCreator": "F1DB by Marcel Overdijk and contributors",
+            "releaseVersion": "F1DB v2026.11.0",
+            "releaseUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+            "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+            "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+            "changes": "ENTRANCE uses event-specific circuit configuration and course length only; F1DB supplies no leader identity in this workstream."
+          }
+        ]
+      },
+      "dataPath": "metrics/drivers/driver_sprint_fastest_laps.json"
     },
     {
       "registryMetricId": "drivers:driver_sprint_kilometres_led",
@@ -6823,14 +8248,14 @@
       "label": "Sprint Kilometres Led",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_kilometres_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Would rank entities by Sprint kilometres led when an explicit per-lap Sprint leader corpus is available.",
+      "formula": "No value is emitted because final Sprint classification does not identify the leader at completion of each Sprint lap.",
+      "calculationId": "sprint_kilometres_led_unavailable",
+      "factType": "sprint_lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "kilometres",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -6843,15 +8268,15 @@
           "incompleteEventCount": 28,
           "earliestCoveredEvent": null,
           "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         },
         "target": {
           "cutoff": "2026-07-26",
           "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed.",
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders.",
       "rowCount": 0,
       "dataPath": null
     },
@@ -6864,14 +8289,14 @@
       "label": "Sprint Laps Led",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_sprint_laps_led",
       "presentation": "numeric",
-      "definition": "Ranks Formula 1 drivers by eligible Grand Prix results, using Grand Prix results through the declared production cut-off.",
-      "formula": "Count or sum qualifying eligible Grand Prix results for each entity.",
-      "calculationId": "total",
-      "factType": "result",
+      "definition": "Would rank entities by Sprint laps led when an explicit per-lap Sprint leader corpus is available.",
+      "formula": "No value is emitted because final Sprint classification does not identify the leader at completion of each Sprint lap.",
+      "calculationId": "sprint_laps_led_unavailable",
+      "factType": "sprint_lap_leader",
       "groupingDimension": "entity",
-      "countingUnit": "eligible Grand Prix results",
+      "countingUnit": "laps",
       "defaultSort": "desc",
-      "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
+      "scope": "Formula 1 World Championship Sprint laps through 2026-07-26; final classification cannot substitute for per-lap leader positions",
       "cutoff": "2026-07-26",
       "evidenceClass": "C",
       "status": "blocked",
@@ -6884,15 +8309,15 @@
           "incompleteEventCount": 28,
           "earliestCoveredEvent": null,
           "latestCoveredEvent": null,
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         },
         "target": {
           "cutoff": "2026-07-26",
           "publicationStatus": "unavailable",
-          "valueScope": "unavailable; no totals published"
+          "valueScope": "unavailable; explicit Sprint lap-position corpus absent"
         }
       },
-      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed.",
+      "blockingReason": "explicit_sprint_lap_position_corpus_absent_from_pinned_source: The pinned RaceData data/ directory contains no explicit Sprint lap-position table; sprint_results.csv is final classification and cannot identify per-lap leaders.",
       "rowCount": 0,
       "dataPath": null
     },

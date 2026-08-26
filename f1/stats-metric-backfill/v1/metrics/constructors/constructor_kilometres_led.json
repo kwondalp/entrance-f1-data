@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "constructor_kilometres_led",
+  "metricId": "constructorKilometresLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 34,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 34,
+  "rows": [
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 51500.576,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 51359.737,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 37767.217,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 36804.243,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 30957.783,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 9477.639,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 7059.197,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 4100.122,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 2644.54,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 1957.208,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 668.511,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 628.544,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 449.945,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 416.32,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 365.834,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 363.559,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 341.162,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 315.596,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 306.398,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 266.524,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 20
+    },
+    {
+      "entityId": "constructor:arrows:ec6b79b82d1f",
+      "entityName": "Arrows",
+      "value": 263.576,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 257.03,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 193.164,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 177.023,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 24
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 171.585,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 25
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 160.062,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 146.173,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 133.218,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 28
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 121.639,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 53.56,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 30
+    },
+    {
+      "entityId": "constructor:march:373ae2f4adda",
+      "entityName": "March",
+      "value": 46.88,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 31
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 30.888,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 32
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 8.384,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "constructor:minardi:9db1254527e2",
+      "entityName": "Minardi",
+      "value": 4.349,
+      "record": {
+        "valueScope": "bounded partial across 795 complete Grand Prix events"
+      },
+      "rank": 34
+    }
+  ]
+}

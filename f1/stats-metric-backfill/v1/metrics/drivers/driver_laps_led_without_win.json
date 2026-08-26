@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_laps_led_without_win",
+  "metricId": "driverLapsLedWithoutWin",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 24,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 24,
+  "rows": [
+    {
+      "entityId": "driver:capelli:89a05e194274",
+      "entityName": "Ivan Capelli",
+      "value": 53,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 43,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 40,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "driver:cesaris:50c29699dea6",
+      "entityName": "Andrea de Cesaris",
+      "value": 32,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 32,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:heidfeld:93c047ca98eb",
+      "entityName": "Nick Heidfeld",
+      "value": 25,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:matta:9a1970495e7a",
+      "entityName": "Cristiano da Matta",
+      "value": 17,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:warwick:6b539e5f2748",
+      "entityName": "Derek Warwick",
+      "value": 16,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:piquet-jr:6a7023ce2da9",
+      "entityName": "Nelson Piquet Jr.",
+      "value": 13,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:glock:55cf369e2b70",
+      "entityName": "Timo Glock",
+      "value": 13,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:sutil:46c5d0e2becf",
+      "entityName": "Adrian Sutil",
+      "value": 11,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:markus-winkelhock:4101db08ec6e",
+      "entityName": "Markus Winkelhock",
+      "value": 6,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 5,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "driver:giovinazzi:1f6a3b48d31c",
+      "entityName": "Antonio Giovinazzi",
+      "value": 4,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "driver:resta:1da1e2d80d70",
+      "entityName": "Paul di Resta",
+      "value": 4,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "driver:johansson:036b6578adb4",
+      "entityName": "Stefan Johansson",
+      "value": 3,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:bourdais:b80876a32b7b",
+      "entityName": "Sébastien Bourdais",
+      "value": 3,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 2,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:gutierrez:8297f3d8d107",
+      "entityName": "Esteban Gutiérrez",
+      "value": 2,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:salo:781a02b584f4",
+      "entityName": "Mika Salo",
+      "value": 2,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:sato:1e3f20b0ae9f",
+      "entityName": "Takuma Sato",
+      "value": 2,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 18
+    },
+    {
+      "entityId": "driver:pizzonia:12e6382a7d42",
+      "entityName": "Antônio Pizzonia",
+      "value": 1,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "driver:martini:208a122d480a",
+      "entityName": "Pierluigi Martini",
+      "value": 1,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "driver:buemi:d1230df074dd",
+      "entityName": "Sébastien Buemi",
+      "value": 1,
+      "record": {
+        "winScope": "zero credited Grand Prix wins in the complete Results Archive through cutoff",
+        "leaderScope": "bounded partial across 795 complete lap-position events"
+      },
+      "rank": 22
+    }
+  ]
+}

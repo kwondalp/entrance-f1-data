@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 14
+handoffVersion: 15
 currentState:
-  status: stats-remaining36-release-candidate
-  summary: "The additive Stats package contains 111 populated payloads, 0 permission-required catalogue entries, and 33 unavailable entries across the unchanged 144 routes. Complete-through-cutoff Driver and Constructor Grand Slam totals use 71 explicit F1DB v2026.11.0 Grand Slam observations, while first-across-line-without-win publishes nine positively established events as bounded partial from a 113-candidate review. The exact 33 unsupported production objects are unavailable because the retained checksum-bound corpus has no explicit lap-position or Sprint fastest-lap evidence; all prior 108 payload blobs remain byte-identical."
+  status: stats-cc0-lap-position-release-candidate
+  summary: "The additive Stats package contains 140 populated payloads, 0 permission-required catalogue entries, and 4 unavailable entries across the unchanged 144 routes. Twenty-five bounded Grand Prix leader metrics use 795 positively complete RaceData events from 1982 through 2026-07-26, and four bounded Sprint fastest-lap metrics use ten unique explicit rank-one observations. The four Sprint leader metrics remain unavailable because the pinned CC0 source has no Sprint lap-position table; all prior 111 payload blobs remain byte-identical and missing evidence is never zero."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: stats-cc0-lap-position-proposal
+    summary: Twenty-nine lazy payloads publish bounded Grand Prix leader and Sprint fastest-lap observations under OWNER-20260826-STATS-CC0-LAP-POSITION-03, with exact TracingInsights RaceData commit/CC0 attribution and F1DB circuit-distance support. Catalogue, inventory, coverage and manifest metadata keep four Sprint leader products unavailable under the factual missing-table blocker while preserving all prior payload bytes and every route.
   - id: stats-remaining36-proposal
     summary: Three lazy payloads add 28 Driver Grand Slam totals, 14 Constructor Grand Slam totals, and nine bounded-partial first-across-line event rows. Catalogue, inventory, coverage and manifest metadata reclassify the other exact 33 objects to factual-evidence unavailable under OWNER-20260826-STATS-REMAINING36-STATUS-02 while preserving the registry, routes, generic permission-required schema support and every prior payload byte.
   - id: stats-final17-fastest-ever-lap-proposal
@@ -213,6 +215,9 @@ validation:
       summary: Validate a synthetic producer API payload and its consumer-safe projection into the published schema without writing a dataset.
       command: Run the in-memory historical-records-api-contract.v1 to published-historical-records.v1 conformance matrix.
   results:
+    - id: result-stats-cc0-lap-position-proposal
+      summary: The 144-object package validates at 140 populated, 0 permission-required and 4 unavailable across 76 Driver and 68 Constructor routes. All 559 JSON files parse; all 144 manifest entries match bytes and SHA-256; two 145-file generated candidates and the applied Data tree are byte-identical; and all 111 pre-existing metric Git blobs are unchanged. Proposal files pass UTF-8 without BOM, LF/final-LF, whitespace, credential, machine-path and restricted-raw scans.
+      status: passed
     - id: result-json-parse
       summary: All 410 repository JSON files parsed successfully after the Hungary, manifest-listed Results Archive v2/current pointer and Stats Lab candidate application.
       status: passed

@@ -1,0 +1,1098 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "consecutive_constructor_laps_led",
+  "metricId": "consecutiveConstructorLapsLed",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 34,
+      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
+      "completeEventCount": 795,
+      "incompleteEventCount": 365,
+      "earliestCoveredEvent": {
+        "eventId": "event:1982-1:62f155f2687b",
+        "eventIndex": 357,
+        "season": 1982,
+        "round": 1,
+        "date": "1982-01-23",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
+    }
+  },
+  "rowCount": 34,
+  "rows": [
+    {
+      "entityId": "constructor:williams:4164dc156cb6",
+      "entityName": "Williams",
+      "value": 419,
+      "firstEvent": {
+        "eventId": "event:1993-7:5f3867a0ac29",
+        "eventIndex": 538,
+        "season": 1993,
+        "round": 7,
+        "date": "1993-06-13",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "lastEvent": {
+        "eventId": "event:1993-13:2379d4eedb43",
+        "eventIndex": 544,
+        "season": 1993,
+        "round": 13,
+        "date": "1993-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "lapCount": 419,
+        "distanceKm": 2144.975,
+        "firstLap": 1,
+        "lastLap": 53,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 417,
+      "firstEvent": {
+        "eventId": "event:1988-2:450c92b8b969",
+        "eventIndex": 453,
+        "season": 1988,
+        "round": 2,
+        "date": "1988-05-01",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "lastEvent": {
+        "eventId": "event:1988-7:2fa71d62784b",
+        "eventIndex": 458,
+        "season": 1988,
+        "round": 7,
+        "date": "1988-07-03",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "record": {
+        "lapCount": 417,
+        "distanceKm": 1719.59,
+        "firstLap": 1,
+        "lastLap": 80,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 344,
+      "firstEvent": {
+        "eventId": "event:2023-4:ee58147a1a10",
+        "eventIndex": 1082,
+        "season": 2023,
+        "round": 4,
+        "date": "2023-04-30",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "lastEvent": {
+        "eventId": "event:2023-9:ab99f11d9f20",
+        "eventIndex": 1087,
+        "season": 2023,
+        "round": 9,
+        "date": "2023-07-02",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "lapCount": 344,
+        "distanceKm": 1579.181,
+        "firstLap": 3,
+        "lastLap": 24,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 284,
+      "firstEvent": {
+        "eventId": "event:2016-10:16826fa4c0c0",
+        "eventIndex": 944,
+        "season": 2016,
+        "round": 10,
+        "date": "2016-07-10",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:2016-15:79dbb13a1723",
+        "eventIndex": 949,
+        "season": 2016,
+        "round": 15,
+        "date": "2016-09-18",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "record": {
+        "lapCount": 284,
+        "distanceKm": 1509.667,
+        "firstLap": 19,
+        "lastLap": 16,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 225,
+      "firstEvent": {
+        "eventId": "event:2002-3:89acbd76dd75",
+        "eventIndex": 682,
+        "season": 2002,
+        "round": 3,
+        "date": "2002-03-31",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2002-6:1c8c33bb86cc",
+        "eventIndex": 685,
+        "season": 2002,
+        "round": 6,
+        "date": "2002-05-12",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "lapCount": 225,
+        "distanceKm": 1036.785,
+        "firstLap": 45,
+        "lastLap": 71,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 205,
+      "firstEvent": {
+        "eventId": "event:1983-13:568195079099",
+        "eventIndex": 385,
+        "season": 1983,
+        "round": 13,
+        "date": "1983-09-11",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:1983-15:3dd1ea5333f4",
+        "eventIndex": 387,
+        "season": 1983,
+        "round": 15,
+        "date": "1983-10-15",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "record": {
+        "lapCount": 205,
+        "distanceKm": 937.34,
+        "firstLap": 1,
+        "lastLap": 77,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:benetton:58d42bf86808",
+      "entityName": "Benetton",
+      "value": 140,
+      "firstEvent": {
+        "eventId": "event:1994-3:159644e08a6e",
+        "eventIndex": 550,
+        "season": 1994,
+        "round": 3,
+        "date": "1994-05-01",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "lastEvent": {
+        "eventId": "event:1994-5:46fb684cbefb",
+        "eventIndex": 552,
+        "season": 1994,
+        "round": 5,
+        "date": "1994-05-29",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "record": {
+        "lapCount": 140,
+        "distanceKm": 565.574,
+        "firstLap": 19,
+        "lastLap": 22,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "constructor:renault:59785f4b9a1f",
+      "entityName": "Renault",
+      "value": 136,
+      "firstEvent": {
+        "eventId": "event:2006-7:c934939b5afc",
+        "eventIndex": 756,
+        "season": 2006,
+        "round": 7,
+        "date": "2006-05-28",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-9:503c87761866",
+        "eventIndex": 758,
+        "season": 2006,
+        "round": 9,
+        "date": "2006-06-25",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "record": {
+        "lapCount": 136,
+        "distanceKm": 584.762,
+        "firstLap": 25,
+        "lastLap": 22,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "constructor:team-lotus:85b2937902bf",
+      "entityName": "Lotus",
+      "value": 123,
+      "firstEvent": {
+        "eventId": "event:1985-2:86ad05fcc4f8",
+        "eventIndex": 405,
+        "season": 1985,
+        "round": 2,
+        "date": "1985-04-21",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "lastEvent": {
+        "eventId": "event:1985-3:f550bcea6ba1",
+        "eventIndex": 406,
+        "season": 1985,
+        "round": 3,
+        "date": "1985-05-05",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "record": {
+        "lapCount": 123,
+        "distanceKm": 573.623,
+        "firstLap": 1,
+        "lastLap": 56,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "constructor:brawn:646a8849e021",
+      "entityName": "Brawn",
+      "value": 97,
+      "firstEvent": {
+        "eventId": "event:2009-5:f978459da50b",
+        "eventIndex": 807,
+        "season": 2009,
+        "round": 5,
+        "date": "2009-05-10",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-6:f69da8f4ea2e",
+        "eventIndex": 808,
+        "season": 2009,
+        "round": 6,
+        "date": "2009-05-24",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "record": {
+        "lapCount": 97,
+        "distanceKm": 384.47,
+        "firstLap": 21,
+        "lastLap": 51,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 66,
+      "firstEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-11:44ca20ebf567",
+        "eventIndex": 1045,
+        "season": 2021,
+        "round": 11,
+        "date": "2021-08-01",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "lapCount": 66,
+        "distanceKm": 289.146,
+        "firstLap": 5,
+        "lastLap": 70,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:jordan:ef58acfe8635",
+      "entityName": "Jordan",
+      "value": 49,
+      "firstEvent": {
+        "eventId": "event:1999-13:5ea9cbd12c77",
+        "eventIndex": 642,
+        "season": 1999,
+        "round": 13,
+        "date": "1999-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:1999-14:e9963f4cc046",
+        "eventIndex": 643,
+        "season": 1999,
+        "round": 14,
+        "date": "1999-09-26",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "lapCount": 49,
+        "distanceKm": 243.882,
+        "firstLap": 37,
+        "lastLap": 32,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 12
+    },
+    {
+      "entityId": "constructor:arrows:ec6b79b82d1f",
+      "entityName": "Arrows",
+      "value": 47,
+      "firstEvent": {
+        "eventId": "event:1997-11:b43e4b8d84d6",
+        "eventIndex": 607,
+        "season": 1997,
+        "round": 11,
+        "date": "1997-08-10",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-11:b43e4b8d84d6",
+        "eventIndex": 607,
+        "season": 1997,
+        "round": 11,
+        "date": "1997-08-10",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "lapCount": 47,
+        "distanceKm": 186.496,
+        "firstLap": 30,
+        "lastLap": 76,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 13
+    },
+    {
+      "entityId": "constructor:leyton:ae38c7e53541",
+      "entityName": "Leyton House",
+      "value": 45,
+      "firstEvent": {
+        "eventId": "event:1990-7:bb9be1db411b",
+        "eventIndex": 490,
+        "season": 1990,
+        "round": 7,
+        "date": "1990-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "lastEvent": {
+        "eventId": "event:1990-7:bb9be1db411b",
+        "eventIndex": 490,
+        "season": 1990,
+        "round": 7,
+        "date": "1990-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "record": {
+        "lapCount": 45,
+        "distanceKm": 171.585,
+        "firstLap": 33,
+        "lastLap": 77,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 14
+    },
+    {
+      "entityId": "constructor:prost:bfc6df314a1a",
+      "entityName": "Prost",
+      "value": 37,
+      "firstEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "lastEvent": {
+        "eventId": "event:1997-14:852c5ebde518",
+        "eventIndex": 610,
+        "season": 1997,
+        "round": 14,
+        "date": "1997-09-21",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "record": {
+        "lapCount": 37,
+        "distanceKm": 160.062,
+        "firstLap": 1,
+        "lastLap": 37,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "constructor:lotus-f1:5a86a09d29b4",
+      "entityName": "Lotus F1",
+      "value": 36,
+      "firstEvent": {
+        "eventId": "event:2012-18:70b7fff2572d",
+        "eventIndex": 875,
+        "season": 2012,
+        "round": 18,
+        "date": "2012-11-04",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-18:70b7fff2572d",
+        "eventIndex": 875,
+        "season": 2012,
+        "round": 18,
+        "date": "2012-11-04",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "record": {
+        "lapCount": 36,
+        "distanceKm": 199.944,
+        "firstLap": 20,
+        "lastLap": 55,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 16
+    },
+    {
+      "entityId": "constructor:stewart:fa292c3fe3ad",
+      "entityName": "Stewart",
+      "value": 34,
+      "firstEvent": {
+        "eventId": "event:1999-7:4e931d5b186a",
+        "eventIndex": 636,
+        "season": 1999,
+        "round": 7,
+        "date": "1999-06-27",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "lastEvent": {
+        "eventId": "event:1999-7:4e931d5b186a",
+        "eventIndex": 636,
+        "season": 1999,
+        "round": 7,
+        "date": "1999-06-27",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "record": {
+        "lapCount": 34,
+        "distanceKm": 144.5,
+        "firstLap": 10,
+        "lastLap": 43,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "constructor:tyrrell:4668e3d16dc0",
+      "entityName": "Tyrrell",
+      "value": 34,
+      "firstEvent": {
+        "eventId": "event:1990-1:ec19bc058aa9",
+        "eventIndex": 484,
+        "season": 1990,
+        "round": 1,
+        "date": "1990-03-11",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "phoenix"
+      },
+      "lastEvent": {
+        "eventId": "event:1990-1:ec19bc058aa9",
+        "eventIndex": 484,
+        "season": 1990,
+        "round": 1,
+        "date": "1990-03-11",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "phoenix"
+      },
+      "record": {
+        "lapCount": 34,
+        "distanceKm": 129.2,
+        "firstLap": 1,
+        "lastLap": 34,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 17
+    },
+    {
+      "entityId": "constructor:toro-rosso:82757d971dd3",
+      "entityName": "Toro Rosso",
+      "value": 31,
+      "firstEvent": {
+        "eventId": "event:2008-14:e726f4c70321",
+        "eventIndex": 798,
+        "season": 2008,
+        "round": 14,
+        "date": "2008-09-14",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-14:e726f4c70321",
+        "eventIndex": 798,
+        "season": 2008,
+        "round": 14,
+        "date": "2008-09-14",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "lapCount": 31,
+        "distanceKm": 179.583,
+        "firstLap": 23,
+        "lastLap": 53,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 19
+    },
+    {
+      "entityId": "constructor:force-india:9c386edd65d7",
+      "entityName": "Force India",
+      "value": 30,
+      "firstEvent": {
+        "eventId": "event:2012-20:ceb3586239ee",
+        "eventIndex": 877,
+        "season": 2012,
+        "round": 20,
+        "date": "2012-11-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-20:ceb3586239ee",
+        "eventIndex": 877,
+        "season": 2012,
+        "round": 20,
+        "date": "2012-11-25",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "record": {
+        "lapCount": 30,
+        "distanceKm": 129.27,
+        "firstLap": 18,
+        "lastLap": 47,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 20
+    },
+    {
+      "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
+      "entityName": "BMW Sauber",
+      "value": 29,
+      "firstEvent": {
+        "eventId": "event:2008-7:f43f9b1d5fd1",
+        "eventIndex": 791,
+        "season": 2008,
+        "round": 7,
+        "date": "2008-06-08",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "lastEvent": {
+        "eventId": "event:2008-7:f43f9b1d5fd1",
+        "eventIndex": 791,
+        "season": 2008,
+        "round": 7,
+        "date": "2008-06-08",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "record": {
+        "lapCount": 29,
+        "distanceKm": 126.469,
+        "firstLap": 42,
+        "lastLap": 70,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 21
+    },
+    {
+      "entityId": "constructor:alphatauri:0e8fb3fba42b",
+      "entityName": "AlphaTauri",
+      "value": 26,
+      "firstEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "lapCount": 26,
+        "distanceKm": 150.618,
+        "firstLap": 28,
+        "lastLap": 53,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 22
+    },
+    {
+      "entityId": "constructor:bar:55515af883f6",
+      "entityName": "BAR",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:2004-15:0ab86f51d921",
+        "eventIndex": 727,
+        "season": 2004,
+        "round": 15,
+        "date": "2004-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2004-15:0ab86f51d921",
+        "eventIndex": 727,
+        "season": 2004,
+        "round": 15,
+        "date": "2004-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "record": {
+        "lapCount": 24,
+        "distanceKm": 139.032,
+        "firstLap": 11,
+        "lastLap": 34,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "constructor:racing-point:484ebe4c85d7",
+      "entityName": "Racing Point",
+      "value": 24,
+      "firstEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "lastEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "record": {
+        "lapCount": 24,
+        "distanceKm": 128.112,
+        "firstLap": 13,
+        "lastLap": 36,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 23
+    },
+    {
+      "entityId": "constructor:honda:334b9dc89428",
+      "entityName": "Honda",
+      "value": 19,
+      "firstEvent": {
+        "eventId": "event:2006-13:1a4b0f2a1b82",
+        "eventIndex": 762,
+        "season": 2006,
+        "round": 13,
+        "date": "2006-08-06",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:2006-13:1a4b0f2a1b82",
+        "eventIndex": 762,
+        "season": 2006,
+        "round": 13,
+        "date": "2006-08-06",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "record": {
+        "lapCount": 19,
+        "distanceKm": 83.239,
+        "firstLap": 52,
+        "lastLap": 70,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 25
+    },
+    {
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
+      "value": 18,
+      "firstEvent": {
+        "eventId": "event:1983-6:9c1ba891caf8",
+        "eventIndex": 378,
+        "season": 1983,
+        "round": 6,
+        "date": "1983-05-22",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1983-6:9c1ba891caf8",
+        "eventIndex": 378,
+        "season": 1983,
+        "round": 6,
+        "date": "1983-05-22",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "record": {
+        "lapCount": 18,
+        "distanceKm": 124.92,
+        "firstLap": 1,
+        "lastLap": 18,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 26
+    },
+    {
+      "entityId": "constructor:ligier:08b25bed58af",
+      "entityName": "Ligier",
+      "value": 17,
+      "firstEvent": {
+        "eventId": "event:1986-7:5d3ce51c2e4a",
+        "eventIndex": 426,
+        "season": 1986,
+        "round": 7,
+        "date": "1986-06-22",
+        "grandPrixName": "Detroit Grand Prix",
+        "circuitId": "detroit"
+      },
+      "lastEvent": {
+        "eventId": "event:1986-7:5d3ce51c2e4a",
+        "eventIndex": 426,
+        "season": 1986,
+        "round": 7,
+        "date": "1986-06-22",
+        "grandPrixName": "Detroit Grand Prix",
+        "circuitId": "detroit"
+      },
+      "record": {
+        "lapCount": 17,
+        "distanceKm": 68.391,
+        "firstLap": 14,
+        "lastLap": 30,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "constructor:toyota:0942282f2145",
+      "entityName": "Toyota",
+      "value": 17,
+      "firstEvent": {
+        "eventId": "event:2003-11:51c94af62694",
+        "eventIndex": 707,
+        "season": 2003,
+        "round": 11,
+        "date": "2003-07-20",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:2003-11:51c94af62694",
+        "eventIndex": 707,
+        "season": 2003,
+        "round": 11,
+        "date": "2003-07-20",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "record": {
+        "lapCount": 17,
+        "distanceKm": 87.397,
+        "firstLap": 13,
+        "lastLap": 29,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 27
+    },
+    {
+      "entityId": "constructor:march:373ae2f4adda",
+      "entityName": "March",
+      "value": 8,
+      "firstEvent": {
+        "eventId": "event:1988-15:670b23dd6bde",
+        "eventIndex": 466,
+        "season": 1988,
+        "round": 15,
+        "date": "1988-10-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "lastEvent": {
+        "eventId": "event:1988-15:670b23dd6bde",
+        "eventIndex": 466,
+        "season": 1988,
+        "round": 15,
+        "date": "1988-10-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "record": {
+        "lapCount": 8,
+        "distanceKm": 46.88,
+        "firstLap": 12,
+        "lastLap": 19,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "constructor:sauber:c2cbad1133cf",
+      "entityName": "Sauber",
+      "value": 8,
+      "firstEvent": {
+        "eventId": "event:2013-3:ba89b1d3bae5",
+        "eventIndex": 880,
+        "season": 2013,
+        "round": 3,
+        "date": "2013-04-14",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "lastEvent": {
+        "eventId": "event:2013-3:ba89b1d3bae5",
+        "eventIndex": 880,
+        "season": 2013,
+        "round": 3,
+        "date": "2013-04-14",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "record": {
+        "lapCount": 8,
+        "distanceKm": 43.608,
+        "firstLap": 7,
+        "lastLap": 14,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 29
+    },
+    {
+      "entityId": "constructor:spyker:42d89b5e387e",
+      "entityName": "Spyker",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "lastEvent": {
+        "eventId": "event:2007-10:86a00828393e",
+        "eventIndex": 777,
+        "season": 2007,
+        "round": 10,
+        "date": "2007-07-22",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "record": {
+        "lapCount": 6,
+        "distanceKm": 30.888,
+        "firstLap": 2,
+        "lastLap": 7,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 31
+    },
+    {
+      "entityId": "constructor:aston-martin:ebcdcb86f97f",
+      "entityName": "Aston Martin",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:2021-6:ede26aa4c1b9",
+        "eventIndex": 1040,
+        "season": 2021,
+        "round": 6,
+        "date": "2021-06-06",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "lastEvent": {
+        "eventId": "event:2021-6:ede26aa4c1b9",
+        "eventIndex": 1040,
+        "season": 2021,
+        "round": 6,
+        "date": "2021-06-06",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "record": {
+        "lapCount": 4,
+        "distanceKm": 24.012,
+        "firstLap": 14,
+        "lastLap": 17,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 32
+    },
+    {
+      "entityId": "constructor:jaguar:bbdae309829c",
+      "entityName": "Jaguar",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "lastEvent": {
+        "eventId": "event:2003-15:f5f7b1af0458",
+        "eventIndex": 711,
+        "season": 2003,
+        "round": 15,
+        "date": "2003-09-28",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "indianapolis"
+      },
+      "record": {
+        "lapCount": 2,
+        "distanceKm": 8.384,
+        "firstLap": 20,
+        "lastLap": 21,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 33
+    },
+    {
+      "entityId": "constructor:minardi:9db1254527e2",
+      "entityName": "Minardi",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1989-13:4287bd87a777",
+        "eventIndex": 480,
+        "season": 1989,
+        "round": 13,
+        "date": "1989-09-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "lastEvent": {
+        "eventId": "event:1989-13:4287bd87a777",
+        "eventIndex": 480,
+        "season": 1989,
+        "round": 13,
+        "date": "1989-09-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "record": {
+        "lapCount": 1,
+        "distanceKm": 4.349,
+        "firstLap": 40,
+        "lastLap": 40,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 34
+    }
+  ]
+}
