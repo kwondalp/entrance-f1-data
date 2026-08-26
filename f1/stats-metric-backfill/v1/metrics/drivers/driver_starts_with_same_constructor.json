@@ -4,17 +4,17 @@
   "statisticId": "driver_starts_with_same_constructor",
   "metricId": "driverStartsWithSameConstructor",
   "status": "partial",
-  "cutoff": "2026-07-26",
+  "cutoff": "2026-08-23",
   "completeness": {
     "current": {
       "resultRowCount": 1857,
-      "knownClassificationRowCount": 26132,
+      "knownClassificationRowCount": 26154,
       "unknownStartRowCount": 11
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1160,
-      "classificationRowCount": 26143
+      "raceCount": 1161,
+      "classificationRowCount": 26165
     }
   },
   "rowCount": 1857,
@@ -30,7 +30,7 @@
     {
       "entityId": "driver:max-verstappen:1f6847211200",
       "entityName": "Max Verstappen",
-      "value": 221,
+      "value": 222,
       "groupId": "constructor:red-bull:8307f488a798",
       "groupLabel": "Red Bull",
       "rank": 2
@@ -46,7 +46,7 @@
     {
       "entityId": "driver:norris:5581145e4767",
       "entityName": "Lando Norris",
-      "value": 162,
+      "value": 163,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
       "rank": 4
@@ -54,7 +54,7 @@
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
       "entityName": "Charles Leclerc",
-      "value": 161,
+      "value": 162,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
       "rank": 5
@@ -134,7 +134,7 @@
     {
       "entityId": "driver:stroll:ab76996efc92",
       "entityName": "Lance Stroll",
-      "value": 122,
+      "value": 123,
       "groupId": "constructor:aston-martin:ebcdcb86f97f",
       "groupLabel": "Aston Martin",
       "rank": 15
@@ -180,20 +180,20 @@
       "rank": 20
     },
     {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 105,
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "rank": 21
+    },
+    {
       "entityId": "driver:piquet:009ec3fd7514",
       "entityName": "Nelson Piquet",
       "value": 105,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
       "rank": 21
-    },
-    {
-      "entityId": "driver:russell:0de59c03b0db",
-      "entityName": "George Russell",
-      "value": 104,
-      "groupId": "constructor:mercedes:81ae28b14607",
-      "groupLabel": "Mercedes",
-      "rank": 22
     },
     {
       "entityId": "driver:barrichello:ff6039716ac0",
@@ -212,6 +212,14 @@
       "rank": 24
     },
     {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 101,
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "rank": 25
+    },
+    {
       "entityId": "driver:bottas:cf1711492eee",
       "entityName": "Valtteri Bottas",
       "value": 101,
@@ -220,20 +228,12 @@
       "rank": 25
     },
     {
-      "entityId": "driver:albon:20ec6817f0c4",
-      "entityName": "Alexander Albon",
-      "value": 100,
-      "groupId": "constructor:williams:4164dc156cb6",
-      "groupLabel": "Williams",
-      "rank": 26
-    },
-    {
       "entityId": "driver:ricciardo:677e1f07679b",
       "entityName": "Daniel Ricciardo",
       "value": 100,
       "groupId": "constructor:red-bull:8307f488a798",
       "groupLabel": "Red Bull",
-      "rank": 26
+      "rank": 27
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -364,6 +364,14 @@
       "rank": 43
     },
     {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 82,
+      "groupId": "constructor:aston-martin:ebcdcb86f97f",
+      "groupLabel": "Aston Martin",
+      "rank": 44
+    },
+    {
       "entityId": "driver:villeneuve:5349509be1a5",
       "entityName": "Jacques Villeneuve",
       "value": 82,
@@ -372,20 +380,20 @@
       "rank": 44
     },
     {
-      "entityId": "driver:alonso:04d69c1d187a",
-      "entityName": "Fernando Alonso",
-      "value": 81,
-      "groupId": "constructor:aston-martin:ebcdcb86f97f",
-      "groupLabel": "Aston Martin",
-      "rank": 45
-    },
-    {
       "entityId": "driver:ericsson:3110248610a6",
       "entityName": "Marcus Ericsson",
       "value": 81,
       "groupId": "constructor:sauber:c2cbad1133cf",
       "groupLabel": "Sauber",
-      "rank": 45
+      "rank": 46
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 81,
+      "groupId": "constructor:alpine:1e11dc0788a1",
+      "groupLabel": "Alpine F1 Team",
+      "rank": 46
     },
     {
       "entityId": "driver:patrese:57b51e8b4bbf",
@@ -393,7 +401,7 @@
       "value": 81,
       "groupId": "constructor:williams:4164dc156cb6",
       "groupLabel": "Williams",
-      "rank": 45
+      "rank": 46
     },
     {
       "entityId": "driver:jack-brabham:279b9464153a",
@@ -401,7 +409,7 @@
       "value": 80,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 48
+      "rank": 49
     },
     {
       "entityId": "driver:alboreto:2d39fb3c5621",
@@ -409,7 +417,15 @@
       "value": 80,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 48
+      "rank": 49
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 80,
+      "groupId": "constructor:mclaren:f3759103103f",
+      "groupLabel": "McLaren",
+      "rank": 49
     },
     {
       "entityId": "driver:depailler:b5cf50bce46d",
@@ -417,15 +433,7 @@
       "value": 80,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 48
-    },
-    {
-      "entityId": "driver:gasly:0fca70394caf",
-      "entityName": "Pierre Gasly",
-      "value": 80,
-      "groupId": "constructor:alpine:1e11dc0788a1",
-      "groupLabel": "Alpine F1 Team",
-      "rank": 48
+      "rank": 49
     },
     {
       "entityId": "driver:alesi:81d9c1b96672",
@@ -433,7 +441,7 @@
       "value": 79,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 52
+      "rank": 53
     },
     {
       "entityId": "driver:mario-andretti:9665dc04541a",
@@ -441,15 +449,7 @@
       "value": 79,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 52
-    },
-    {
-      "entityId": "driver:piastri:45bbf3cf700f",
-      "entityName": "Oscar Piastri",
-      "value": 79,
-      "groupId": "constructor:mclaren:f3759103103f",
-      "groupLabel": "McLaren",
-      "rank": 52
+      "rank": 53
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -1436,6 +1436,14 @@
       "rank": 175
     },
     {
+      "entityId": "driver:bearman:77f13409c49b",
+      "entityName": "Oliver Bearman",
+      "value": 38,
+      "groupId": "constructor:haas:6657555dbb08",
+      "groupLabel": "Haas F1 Team",
+      "rank": 175
+    },
+    {
       "entityId": "driver:barrichello:ff6039716ac0",
       "entityName": "Rubens Barrichello",
       "value": 38,
@@ -1457,7 +1465,7 @@
       "value": 37,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:cevert:fc3ec9f33655",
@@ -1465,7 +1473,7 @@
       "value": 37,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:kovalainen:dc8d8c106e70",
@@ -1473,7 +1481,7 @@
       "value": 37,
       "groupId": "constructor:lotus-racing:17e669d574d3",
       "groupLabel": "Lotus",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:raikkonen:650e2e18533e",
@@ -1481,7 +1489,7 @@
       "value": 37,
       "groupId": "constructor:lotus-f1:5a86a09d29b4",
       "groupLabel": "Lotus F1",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:stroll:ab76996efc92",
@@ -1489,7 +1497,7 @@
       "value": 37,
       "groupId": "constructor:racing-point:484ebe4c85d7",
       "groupLabel": "Racing Point",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:webber:6ffd0bea1a2a",
@@ -1497,15 +1505,7 @@
       "value": 37,
       "groupId": "constructor:williams:4164dc156cb6",
       "groupLabel": "Williams",
-      "rank": 180
-    },
-    {
-      "entityId": "driver:bearman:77f13409c49b",
-      "entityName": "Oliver Bearman",
-      "value": 37,
-      "groupId": "constructor:haas:6657555dbb08",
-      "groupLabel": "Haas F1 Team",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:maldonado:87cbc81409ca",
@@ -1513,7 +1513,7 @@
       "value": 37,
       "groupId": "constructor:lotus-f1:5a86a09d29b4",
       "groupLabel": "Lotus F1",
-      "rank": 180
+      "rank": 181
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -1521,7 +1521,15 @@
       "value": 37,
       "groupId": "constructor:sauber:c2cbad1133cf",
       "groupLabel": "Sauber",
-      "rank": 180
+      "rank": 181
+    },
+    {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 36,
+      "groupId": "constructor:haas:6657555dbb08",
+      "groupLabel": "Haas F1 Team",
+      "rank": 189
     },
     {
       "entityId": "driver:ireland:655aaf7bf33d",
@@ -1545,6 +1553,22 @@
       "value": 36,
       "groupId": "constructor:williams:4164dc156cb6",
       "groupLabel": "Williams",
+      "rank": 189
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 36,
+      "groupId": "constructor:mercedes:81ae28b14607",
+      "groupLabel": "Mercedes",
+      "rank": 189
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 36,
+      "groupId": "constructor:ferrari:d5aa0140c09c",
+      "groupLabel": "Ferrari",
       "rank": 189
     },
     {
@@ -1572,12 +1596,12 @@
       "rank": 189
     },
     {
-      "entityId": "driver:ocon:27db7f9b9070",
-      "entityName": "Esteban Ocon",
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
       "value": 35,
-      "groupId": "constructor:haas:6657555dbb08",
-      "groupLabel": "Haas F1 Team",
-      "rank": 195
+      "groupId": "constructor:williams:4164dc156cb6",
+      "groupLabel": "Williams",
+      "rank": 198
     },
     {
       "entityId": "driver:kovalainen:dc8d8c106e70",
@@ -1585,7 +1609,7 @@
       "value": 35,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:siffert:d1cfc3fb1fc0",
@@ -1593,7 +1617,7 @@
       "value": 35,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:jolyon-palmer:246f542e4688",
@@ -1601,23 +1625,7 @@
       "value": 35,
       "groupId": "constructor:renault:59785f4b9a1f",
       "groupLabel": "Renault",
-      "rank": 195
-    },
-    {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 35,
-      "groupId": "constructor:mercedes:81ae28b14607",
-      "groupLabel": "Mercedes",
-      "rank": 195
-    },
-    {
-      "entityId": "driver:hamilton:528ad2ac33fa",
-      "entityName": "Lewis Hamilton",
-      "value": 35,
-      "groupId": "constructor:ferrari:d5aa0140c09c",
-      "groupLabel": "Ferrari",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:bandini:7f67fa49cbac",
@@ -1625,7 +1633,7 @@
       "value": 35,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:chilton:eddd89988b12",
@@ -1633,7 +1641,7 @@
       "value": 35,
       "groupId": "constructor:marussia:f4190831348c",
       "groupLabel": "Marussia",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:hawthorn:1ddfcaf579cc",
@@ -1641,7 +1649,7 @@
       "value": 35,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:gasly:0fca70394caf",
@@ -1649,7 +1657,7 @@
       "value": 35,
       "groupId": "constructor:toro-rosso:82757d971dd3",
       "groupLabel": "Toro Rosso",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:sato:1e3f20b0ae9f",
@@ -1657,7 +1665,7 @@
       "value": 35,
       "groupId": "constructor:bar:55515af883f6",
       "groupLabel": "BAR",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:liuzzi:bda938b5eb4d",
@@ -1665,7 +1673,7 @@
       "value": 35,
       "groupId": "constructor:toro-rosso:82757d971dd3",
       "groupLabel": "Toro Rosso",
-      "rank": 195
+      "rank": 198
     },
     {
       "entityId": "driver:reutemann:c573421c6e6f",
@@ -1673,15 +1681,7 @@
       "value": 34,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 207
-    },
-    {
-      "entityId": "driver:sainz:f4f0414a0a12",
-      "entityName": "Carlos Sainz",
-      "value": 34,
-      "groupId": "constructor:williams:4164dc156cb6",
-      "groupLabel": "Williams",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:stuck:1244ac2c6b68",
@@ -1689,7 +1689,7 @@
       "value": 34,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:trulli:26a562aa7942",
@@ -1697,7 +1697,7 @@
       "value": 34,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:verstappen:c40bc02a357d",
@@ -1705,7 +1705,7 @@
       "value": 34,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:jules-bianchi:7db1efb57d7e",
@@ -1713,7 +1713,7 @@
       "value": 34,
       "groupId": "constructor:marussia:f4190831348c",
       "groupLabel": "Marussia",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:webber:6ffd0bea1a2a",
@@ -1721,7 +1721,7 @@
       "value": 34,
       "groupId": "constructor:jaguar:bbdae309829c",
       "groupLabel": "Jaguar",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:panis:b03d10e03261",
@@ -1729,7 +1729,7 @@
       "value": 34,
       "groupId": "constructor:bar:55515af883f6",
       "groupLabel": "BAR",
-      "rank": 207
+      "rank": 208
     },
     {
       "entityId": "driver:mclaren:fad4f75a1c8e",
@@ -2148,6 +2148,14 @@
       "rank": 266
     },
     {
+      "entityId": "driver:colapinto:b0daf67dc8e6",
+      "entityName": "Franco Colapinto",
+      "value": 29,
+      "groupId": "constructor:alpine:1e11dc0788a1",
+      "groupLabel": "Alpine F1 Team",
+      "rank": 266
+    },
+    {
       "entityId": "driver:stewart:f46f493c7dd0",
       "entityName": "Jackie Stewart",
       "value": 29,
@@ -2201,7 +2209,7 @@
       "value": 28,
       "groupId": "constructor:dallara:26b4af93e67e",
       "groupLabel": "Dallara",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:matta:9a1970495e7a",
@@ -2209,7 +2217,7 @@
       "value": 28,
       "groupId": "constructor:toyota:0942282f2145",
       "groupLabel": "Toyota",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
@@ -2217,7 +2225,7 @@
       "value": 28,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:bernoldi:02cf69fbc82a",
@@ -2225,15 +2233,7 @@
       "value": 28,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 273
-    },
-    {
-      "entityId": "driver:colapinto:b0daf67dc8e6",
-      "entityName": "Franco Colapinto",
-      "value": 28,
-      "groupId": "constructor:alpine:1e11dc0788a1",
-      "groupLabel": "Alpine F1 Team",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:capelli:89a05e194274",
@@ -2241,7 +2241,7 @@
       "value": 28,
       "groupId": "constructor:leyton:ae38c7e53541",
       "groupLabel": "Leyton House",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:rindt:46dabdd8ff6b",
@@ -2249,7 +2249,7 @@
       "value": 28,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:scheckter:c14e9982ba2e",
@@ -2257,7 +2257,7 @@
       "value": 28,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:brundle:081c05a34819",
@@ -2265,7 +2265,7 @@
       "value": 28,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:beuttler:ce0d2fbec607",
@@ -2273,7 +2273,7 @@
       "value": 28,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:piquet-jr:6a7023ce2da9",
@@ -2281,7 +2281,7 @@
       "value": 28,
       "groupId": "constructor:renault:59785f4b9a1f",
       "groupLabel": "Renault",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:tambay:da914d6b903c",
@@ -2289,7 +2289,7 @@
       "value": 28,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:tambay:da914d6b903c",
@@ -2297,7 +2297,7 @@
       "value": 28,
       "groupId": "constructor:renault:59785f4b9a1f",
       "groupLabel": "Renault",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:speed:b21a20cc8611",
@@ -2305,7 +2305,7 @@
       "value": 28,
       "groupId": "constructor:toro-rosso:82757d971dd3",
       "groupLabel": "Toro Rosso",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:comas:9039ac4d7d3a",
@@ -2313,7 +2313,7 @@
       "value": 28,
       "groupId": "constructor:ligier:08b25bed58af",
       "groupLabel": "Ligier",
-      "rank": 273
+      "rank": 274
     },
     {
       "entityId": "driver:ascari:ad5589a1c97f",
@@ -2412,12 +2412,20 @@
       "rank": 288
     },
     {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 27,
+      "groupId": "constructor:rb:34926e4c6434",
+      "groupLabel": "RB F1 Team",
+      "rank": 288
+    },
+    {
       "entityId": "driver:albon:20ec6817f0c4",
       "entityName": "Alexander Albon",
       "value": 26,
       "groupId": "constructor:red-bull:8307f488a798",
       "groupLabel": "Red Bull",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:cesaris:50c29699dea6",
@@ -2425,7 +2433,7 @@
       "value": 26,
       "groupId": "constructor:ligier:08b25bed58af",
       "groupLabel": "Ligier",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:beaufort:f4533a5c25d9",
@@ -2433,7 +2441,7 @@
       "value": 26,
       "groupId": "constructor:porsche:9c7706838cc2",
       "groupLabel": "Porsche",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:hulme:595e5a426963",
@@ -2441,7 +2449,7 @@
       "value": 26,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:warwick:6b539e5f2748",
@@ -2449,7 +2457,7 @@
       "value": 26,
       "groupId": "constructor:toleman:05f1f04db16b",
       "groupLabel": "Toleman",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:morbidelli:a451e9fca333",
@@ -2457,7 +2465,7 @@
       "value": 26,
       "groupId": "constructor:footwork:8baef1c6541b",
       "groupLabel": "Footwork",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:sala:d47737adb3ed",
@@ -2465,15 +2473,7 @@
       "value": 26,
       "groupId": "constructor:minardi:9db1254527e2",
       "groupLabel": "Minardi",
-      "rank": 300
-    },
-    {
-      "entityId": "driver:tsunoda:d77287c8b9c8",
-      "entityName": "Yuki Tsunoda",
-      "value": 26,
-      "groupId": "constructor:rb:34926e4c6434",
-      "groupLabel": "RB F1 Team",
-      "rank": 300
+      "rank": 301
     },
     {
       "entityId": "driver:brendon-hartley:5ed700acee55",
@@ -4884,6 +4884,14 @@
       "rank": 581
     },
     {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 12,
+      "groupId": "constructor:cadillac:e6be4349c279",
+      "groupLabel": "Cadillac F1 Team",
+      "rank": 581
+    },
+    {
       "entityId": "driver:modena:529f1b5727b0",
       "entityName": "Stefano Modena",
       "value": 12,
@@ -4916,12 +4924,20 @@
       "rank": 581
     },
     {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 12,
+      "groupId": "constructor:cadillac:e6be4349c279",
+      "groupLabel": "Cadillac F1 Team",
+      "rank": 581
+    },
+    {
       "entityId": "driver:caffi:3c8489b35a99",
       "entityName": "Alex Caffi",
       "value": 11,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:pizzonia:12e6382a7d42",
@@ -4929,7 +4945,7 @@
       "value": 11,
       "groupId": "constructor:jaguar:bbdae309829c",
       "groupLabel": "Jaguar",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:merzario:19a3923be097",
@@ -4937,7 +4953,15 @@
       "value": 11,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 613
+      "rank": 615
+    },
+    {
+      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
+      "entityName": "Arvid Lindblad",
+      "value": 11,
+      "groupId": "constructor:rb:34926e4c6434",
+      "groupLabel": "RB F1 Team",
+      "rank": 615
     },
     {
       "entityId": "driver:pace:f2913e9cfb72",
@@ -4945,7 +4969,7 @@
       "value": 11,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:amon:a418aa49b3fe",
@@ -4953,7 +4977,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:regazzoni:8dabb0375829",
@@ -4961,7 +4985,7 @@
       "value": 11,
       "groupId": "constructor:shadow:e88eac1bd94c",
       "groupLabel": "Shadow",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:ricciardo:677e1f07679b",
@@ -4969,7 +4993,7 @@
       "value": 11,
       "groupId": "constructor:hrt:8f7328498587",
       "groupLabel": "HRT",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:walker:a8ac5e49d1b2",
@@ -4977,7 +5001,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:castellotti:29de409c0984",
@@ -4985,7 +5009,7 @@
       "value": 11,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:bonetto:0c035a17b002",
@@ -4993,7 +5017,15 @@
       "value": 11,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 613
+      "rank": 615
+    },
+    {
+      "entityId": "driver:bortoleto:4d5babd4495f",
+      "entityName": "Gabriel Bortoleto",
+      "value": 11,
+      "groupId": "constructor:audi:c53ccfbe90a3",
+      "groupLabel": "Audi",
+      "rank": 615
     },
     {
       "entityId": "driver:eaton:f9153f0757f9",
@@ -5001,7 +5033,7 @@
       "value": 11,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:frentzen:e499a12f83f0",
@@ -5009,7 +5041,7 @@
       "value": 11,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:rothengatter:982173ca4907",
@@ -5017,7 +5049,7 @@
       "value": 11,
       "groupId": "constructor:zakspeed:e6ac5f260ff0",
       "groupLabel": "Zakspeed",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:hadjar:1f8ff5eef91d",
@@ -5025,7 +5057,7 @@
       "value": 11,
       "groupId": "constructor:red-bull:8307f488a798",
       "groupLabel": "Red Bull",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:ickx:9dc972aa2fb0",
@@ -5033,7 +5065,7 @@
       "value": 11,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:boullion:e557e924793d",
@@ -5041,7 +5073,7 @@
       "value": 11,
       "groupId": "constructor:sauber:c2cbad1133cf",
       "groupLabel": "Sauber",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:jarier:fbd7f044b94b",
@@ -5049,7 +5081,7 @@
       "value": 11,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:hall:1c7680ce3c25",
@@ -5057,7 +5089,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:siffert:d1cfc3fb1fc0",
@@ -5065,7 +5097,7 @@
       "value": 11,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:watson:fc3a45a5856b",
@@ -5073,7 +5105,7 @@
       "value": 11,
       "groupId": "constructor:surtees:d1809eed4c34",
       "groupLabel": "Surtees",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:wilson:fc1b37217d70",
@@ -5081,7 +5113,7 @@
       "value": 11,
       "groupId": "constructor:minardi:9db1254527e2",
       "groupLabel": "Minardi",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:kling:86e14c6bf2df",
@@ -5089,7 +5121,7 @@
       "value": 11,
       "groupId": "constructor:mercedes:81ae28b14607",
       "groupLabel": "Mercedes",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:lombardi:bdeb2af3ff19",
@@ -5097,7 +5129,7 @@
       "value": 11,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:donohue:8cd7743232d5",
@@ -5105,7 +5137,7 @@
       "value": 11,
       "groupId": "constructor:penske:d9cad6091e78",
       "groupLabel": "Penske",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:gregory:3ee4901e4cc4",
@@ -5113,7 +5145,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:baldi:6ef1dc846c10",
@@ -5121,7 +5153,7 @@
       "value": 11,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:hailwood:4e09b7074b10",
@@ -5129,7 +5161,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:hailwood:4e09b7074b10",
@@ -5137,7 +5169,7 @@
       "value": 11,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:heidfeld:93c047ca98eb",
@@ -5145,7 +5177,15 @@
       "value": 11,
       "groupId": "constructor:renault:59785f4b9a1f",
       "groupLabel": "Renault",
-      "rank": 613
+      "rank": 615
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 11,
+      "groupId": "constructor:audi:c53ccfbe90a3",
+      "groupLabel": "Audi",
+      "rank": 615
     },
     {
       "entityId": "driver:marimon:465ea0c5afa2",
@@ -5153,7 +5193,7 @@
       "value": 11,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:fabre:5cc78e7d2cb2",
@@ -5161,7 +5201,7 @@
       "value": 11,
       "groupId": "constructor:ags:831aaa72f8f5",
       "groupLabel": "AGS",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:friesacher:489f29f62612",
@@ -5169,7 +5209,7 @@
       "value": 11,
       "groupId": "constructor:minardi:9db1254527e2",
       "groupLabel": "Minardi",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:arundell:09439d8b9577",
@@ -5177,7 +5217,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:etancelin:9a7ee5820715",
@@ -5185,7 +5225,7 @@
       "value": 11,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:rosset:becc2a7035de",
@@ -5193,7 +5233,7 @@
       "value": 11,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:ginther:3e915b11c50f",
@@ -5201,7 +5241,7 @@
       "value": 11,
       "groupId": "constructor:honda:334b9dc89428",
       "groupLabel": "Honda",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:bucknum:c377f78bebf9",
@@ -5209,15 +5249,7 @@
       "value": 11,
       "groupId": "constructor:honda:334b9dc89428",
       "groupLabel": "Honda",
-      "rank": 613
-    },
-    {
-      "entityId": "driver:perez:03c631191055",
-      "entityName": "Sergio Pérez",
-      "value": 11,
-      "groupId": "constructor:cadillac:e6be4349c279",
-      "groupLabel": "Cadillac F1 Team",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -5225,7 +5257,7 @@
       "value": 11,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -5233,15 +5265,7 @@
       "value": 11,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 613
-    },
-    {
-      "entityId": "driver:bottas:cf1711492eee",
-      "entityName": "Valtteri Bottas",
-      "value": 11,
-      "groupId": "constructor:cadillac:e6be4349c279",
-      "groupLabel": "Cadillac F1 Team",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:wilson-fittipaldi:fdfa1de348a4",
@@ -5249,7 +5273,7 @@
       "value": 11,
       "groupId": "constructor:fittipaldi:c2af5fcecf98",
       "groupLabel": "Fittipaldi",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:bernard:0c1b387aa4df",
@@ -5257,7 +5281,7 @@
       "value": 11,
       "groupId": "constructor:lola:46752ee4a160",
       "groupLabel": "Lola",
-      "rank": 613
+      "rank": 615
     },
     {
       "entityId": "driver:suzuki:4f9f7240fcf2",
@@ -5265,7 +5289,7 @@
       "value": 10,
       "groupId": "constructor:lola:46752ee4a160",
       "groupLabel": "Lola",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:merzario:19a3923be097",
@@ -5273,15 +5297,7 @@
       "value": 10,
       "groupId": "constructor:merzario:4dc94ba459f4",
       "groupLabel": "Merzario",
-      "rank": 656
-    },
-    {
-      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
-      "entityName": "Arvid Lindblad",
-      "value": 10,
-      "groupId": "constructor:rb:34926e4c6434",
-      "groupLabel": "RB F1 Team",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:gachot:a7953aa82405",
@@ -5289,7 +5305,7 @@
       "value": 10,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:lunger:0cd39a92aa25",
@@ -5297,7 +5313,7 @@
       "value": 10,
       "groupId": "constructor:surtees:d1809eed4c34",
       "groupLabel": "Surtees",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:amon:a418aa49b3fe",
@@ -5305,7 +5321,7 @@
       "value": 10,
       "groupId": "constructor:ensign:f4700db0d092",
       "groupLabel": "Ensign",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:danner:38bd3ec72e14",
@@ -5313,7 +5329,7 @@
       "value": 10,
       "groupId": "constructor:arrows:ec6b79b82d1f",
       "groupLabel": "Arrows",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:warwick:6b539e5f2748",
@@ -5321,7 +5337,7 @@
       "value": 10,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:cheever:a06f9c80c4f3",
@@ -5329,7 +5345,7 @@
       "value": 10,
       "groupId": "constructor:osella:22f0301e1459",
       "groupLabel": "Osella",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:pirro:8ce509468845",
@@ -5337,7 +5353,7 @@
       "value": 10,
       "groupId": "constructor:benetton:58d42bf86808",
       "groupLabel": "Benetton",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:migault:d9451b75e6c2",
@@ -5345,15 +5361,7 @@
       "value": 10,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 656
-    },
-    {
-      "entityId": "driver:bortoleto:4d5babd4495f",
-      "entityName": "Gabriel Bortoleto",
-      "value": 10,
-      "groupId": "constructor:audi:c53ccfbe90a3",
-      "groupLabel": "Audi",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:stewart:f46f493c7dd0",
@@ -5361,7 +5369,7 @@
       "value": 10,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:jarier:fbd7f044b94b",
@@ -5369,7 +5377,7 @@
       "value": 10,
       "groupId": "constructor:penske:d9cad6091e78",
       "groupLabel": "Penske",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:bonnier:5fc11359a468",
@@ -5377,7 +5385,7 @@
       "value": 10,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:mass:35e234910d35",
@@ -5385,7 +5393,7 @@
       "value": 10,
       "groupId": "constructor:ats:448bdb7ac78c",
       "groupLabel": "ATS",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:verstappen:c40bc02a357d",
@@ -5393,7 +5401,7 @@
       "value": 10,
       "groupId": "constructor:benetton:58d42bf86808",
       "groupLabel": "Benetton",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:chandhok:1cdb41b27717",
@@ -5401,7 +5409,7 @@
       "value": 10,
       "groupId": "constructor:hrt:8f7328498587",
       "groupLabel": "HRT",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:keke-rosberg:c149e9225f45",
@@ -5409,7 +5417,7 @@
       "value": 10,
       "groupId": "constructor:wolf:ef46bb436004",
       "groupLabel": "Wolf",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:rosier:bd061633165d",
@@ -5417,7 +5425,7 @@
       "value": 10,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:bianchi:fc64150cbdba",
@@ -5425,7 +5433,7 @@
       "value": 10,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:baldi:6ef1dc846c10",
@@ -5433,15 +5441,7 @@
       "value": 10,
       "groupId": "constructor:spirit:efad81a421cc",
       "groupLabel": "Spirit",
-      "rank": 656
-    },
-    {
-      "entityId": "driver:hulkenberg:2b1121e9241c",
-      "entityName": "Nico Hülkenberg",
-      "value": 10,
-      "groupId": "constructor:audi:c53ccfbe90a3",
-      "groupLabel": "Audi",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:de-vries:48a89b05cc83",
@@ -5449,7 +5449,7 @@
       "value": 10,
       "groupId": "constructor:alphatauri:0e8fb3fba42b",
       "groupLabel": "AlphaTauri",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:beretta:cd2d19f01737",
@@ -5457,7 +5457,7 @@
       "value": 10,
       "groupId": "constructor:larrousse:47fb68d71e4a",
       "groupLabel": "Larrousse",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:phil-hill:35d0f98c0d81",
@@ -5465,7 +5465,7 @@
       "value": 10,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:courage:8b390088e81a",
@@ -5473,7 +5473,7 @@
       "value": 10,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:boesel:f2c15029a1d4",
@@ -5481,7 +5481,7 @@
       "value": 10,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:ginther:3e915b11c50f",
@@ -5489,7 +5489,7 @@
       "value": 10,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:johansson:036b6578adb4",
@@ -5497,7 +5497,7 @@
       "value": 10,
       "groupId": "constructor:ligier:08b25bed58af",
       "groupLabel": "Ligier",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:boutsen:956ebe879bfd",
@@ -5505,7 +5505,7 @@
       "value": 10,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:schenken:32468343f520",
@@ -5513,7 +5513,7 @@
       "value": 10,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:mairesse:e49ae6f518af",
@@ -5521,7 +5521,7 @@
       "value": 10,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:cabantous:1a7ae103507a",
@@ -5529,7 +5529,7 @@
       "value": 10,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 656
+      "rank": 659
     },
     {
       "entityId": "driver:ribeiro:58bcf642899f",
@@ -8492,6 +8492,14 @@
       "rank": 989
     },
     {
+      "entityId": "driver:lawson:a9641b5ad41f",
+      "entityName": "Liam Lawson",
+      "value": 3,
+      "groupId": "constructor:red-bull:8307f488a798",
+      "groupLabel": "Red Bull",
+      "rank": 989
+    },
+    {
       "entityId": "driver:bandini:7f67fa49cbac",
       "entityName": "Lorenzo Bandini",
       "value": 3,
@@ -8817,7 +8825,7 @@
       "value": 2,
       "groupId": "constructor:dunn:c775beb981bc",
       "groupLabel": "Dunn",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:herman:fbf69fa43242",
@@ -8825,7 +8833,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:pease:883bea9560b8",
@@ -8833,7 +8841,7 @@
       "value": 2,
       "groupId": "constructor:eagle:9bebadf8653f",
       "groupLabel": "Eagle",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ascari:ad5589a1c97f",
@@ -8841,7 +8849,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:uria:e9714e6e1cd2",
@@ -8849,7 +8857,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:caffi:3c8489b35a99",
@@ -8857,7 +8865,7 @@
       "value": 2,
       "groupId": "constructor:footwork:8baef1c6541b",
       "groupLabel": "Footwork",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:roig:b624d16061fc",
@@ -8865,7 +8873,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:simon:89c28199d8d4",
@@ -8873,7 +8881,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:davidson:979fc289dccf",
@@ -8881,7 +8889,7 @@
       "value": 2,
       "groupId": "constructor:minardi:9db1254527e2",
       "groupLabel": "Minardi",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:foyt:8b2a44b22319",
@@ -8889,7 +8897,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:giovinazzi:1f6a3b48d31c",
@@ -8897,7 +8905,7 @@
       "value": 2,
       "groupId": "constructor:sauber:c2cbad1133cf",
       "groupLabel": "Sauber",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:legat:efe345459a65",
@@ -8905,7 +8913,7 @@
       "value": 2,
       "groupId": "constructor:veritas:1d6a19531960",
       "groupLabel": "Veritas",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:brack:42845b66ce3d",
@@ -8913,7 +8921,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:cheesbourg:f3300a14f80b",
@@ -8921,7 +8929,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:anderson:ccf2002b6b03",
@@ -8929,7 +8937,7 @@
       "value": 2,
       "groupId": "constructor:lola:46752ee4a160",
       "groupLabel": "Lola",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bondurant:26ffb0586056",
@@ -8937,7 +8945,7 @@
       "value": 2,
       "groupId": "constructor:eagle:9bebadf8653f",
       "groupLabel": "Eagle",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bob-scott:cebb680e2d78",
@@ -8945,7 +8953,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:sweikert:bb85eca755bd",
@@ -8953,7 +8961,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:veith:d51d7744ab55",
@@ -8961,7 +8969,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:rahal:327428caddce",
@@ -8969,7 +8977,7 @@
       "value": 2,
       "groupId": "constructor:wolf:ef46bb436004",
       "groupLabel": "Wolf",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:boy-hayje:5adfda65861a",
@@ -8977,7 +8985,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:henton:d3d201de8bb8",
@@ -8985,7 +8993,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:niday:9a20100d1e43",
@@ -8993,7 +9001,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:scarborough:4862f135ba1c",
@@ -9001,7 +9009,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:green:bc7e3e9b1a05",
@@ -9009,7 +9017,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:tornaco:b24e9096b62a",
@@ -9017,7 +9025,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:miller:deec798dc32f",
@@ -9025,7 +9033,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:amon:a418aa49b3fe",
@@ -9033,7 +9041,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:lawrence:03e8f57f76b5",
@@ -9041,7 +9049,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:daigh:a8fbefddc4ac",
@@ -9049,7 +9057,7 @@
       "value": 2,
       "groupId": "constructor:scarab:5048bb76c9ac",
       "groupLabel": "Scarab",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:stevenson:88281a28a51a",
@@ -9057,7 +9065,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:weyant:edee8ab4b2ae",
@@ -9065,7 +9073,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:griffith:1767c112135b",
@@ -9073,7 +9081,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:davis:5233e753928a",
@@ -9081,7 +9089,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:damon-hill:3cf4df1bacf7",
@@ -9089,7 +9097,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ongais:59f189db9bda",
@@ -9097,7 +9105,7 @@
       "value": 2,
       "groupId": "constructor:ensign:f4700db0d092",
       "groupLabel": "Ensign",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ongais:59f189db9bda",
@@ -9105,7 +9113,7 @@
       "value": 2,
       "groupId": "constructor:penske:d9cad6091e78",
       "groupLabel": "Penske",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:charlton:b320c204c3c5",
@@ -9113,7 +9121,7 @@
       "value": 2,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hampshire:a8c86d46dedb",
@@ -9121,7 +9129,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hobbs:6e9d8cb979b2",
@@ -9129,7 +9137,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:piper:661d146b3d00",
@@ -9137,7 +9145,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:prophet:f5a767d43086",
@@ -9145,7 +9153,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:poore:010a6eb221e7",
@@ -9153,7 +9161,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bell:11b9be85b5d4",
@@ -9161,7 +9169,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bell:11b9be85b5d4",
@@ -9169,7 +9177,7 @@
       "value": 2,
       "groupId": "constructor:tecno:90dfaea8f9e6",
       "groupLabel": "Tecno",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:gibson:26d1359e6417",
@@ -9177,7 +9185,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:branson:15e8ebec0028",
@@ -9185,7 +9193,7 @@
       "value": 2,
       "groupId": "constructor:phillips:e24df750424e",
       "groupLabel": "Phillips",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:serrurier:e08bac1ca54a",
@@ -9193,7 +9201,7 @@
       "value": 2,
       "groupId": "constructor:lds:ce185dba7b39",
       "groupLabel": "LDS",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:darter:545e4f35b261",
@@ -9201,7 +9209,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:duncan-hamilton:456278d5e01d",
@@ -9209,7 +9217,7 @@
       "value": 2,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:keizan:0d56c956449c",
@@ -9217,7 +9225,7 @@
       "value": 2,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:salazar:8c84e955f273",
@@ -9225,7 +9233,7 @@
       "value": 2,
       "groupId": "constructor:ram:0da5ddfb7a7b",
       "groupLabel": "RAM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:villota:711a4c9d89ac",
@@ -9233,7 +9241,7 @@
       "value": 2,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:pieterse:ce44e1f8f007",
@@ -9241,7 +9249,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:klodwig:6176f44859a2",
@@ -9249,7 +9257,7 @@
       "value": 2,
       "groupId": "constructor:bmw:26403c577f12",
       "groupLabel": "BMW",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:martin:d3fca8437dac",
@@ -9257,7 +9265,7 @@
       "value": 2,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:lagorce:d5fdae7848eb",
@@ -9265,7 +9273,7 @@
       "value": 2,
       "groupId": "constructor:ligier:08b25bed58af",
       "groupLabel": "Ligier",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:forini:f5ee9be0fd6a",
@@ -9273,7 +9281,7 @@
       "value": 2,
       "groupId": "constructor:osella:22f0301e1459",
       "groupLabel": "Osella",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:orey:fc67f02cd411",
@@ -9281,7 +9289,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:force:f6a0f4c67570",
@@ -9289,7 +9297,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:crossley:796bd93e2f2c",
@@ -9297,7 +9305,7 @@
       "value": 2,
       "groupId": "constructor:alta:983796469300",
       "groupLabel": "Alta",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:abecassis:6926f6846ce5",
@@ -9305,7 +9313,7 @@
       "value": 2,
       "groupId": "constructor:hwm:1ecbc0979a65",
       "groupLabel": "HWM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:george-connor:f086721c167e",
@@ -9313,7 +9321,7 @@
       "value": 2,
       "groupId": "constructor:lesovsky:e427ce1d538d",
       "groupLabel": "Lesovsky",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:mitter:aa6d7c880886",
@@ -9321,7 +9329,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:mitter:aa6d7c880886",
@@ -9329,7 +9337,7 @@
       "value": 2,
       "groupId": "constructor:porsche:9c7706838cc2",
       "groupLabel": "Porsche",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:geki:d7a6f817e25d",
@@ -9337,7 +9345,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:scarlatti:2f7a836a3e7e",
@@ -9345,7 +9353,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:cabianca:ba8c0d079103",
@@ -9353,7 +9361,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:foitek:823e26299090",
@@ -9361,7 +9369,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:binder:995b77b16e75",
@@ -9369,7 +9377,7 @@
       "value": 2,
       "groupId": "constructor:penske:d9cad6091e78",
       "groupLabel": "Penske",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:sharp:5869e9a21007",
@@ -9377,7 +9385,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:sharp:5869e9a21007",
@@ -9385,7 +9393,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:sharp:5869e9a21007",
@@ -9393,7 +9401,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ertl:db6fbc3e0d50",
@@ -9401,7 +9409,7 @@
       "value": 2,
       "groupId": "constructor:ensign:f4700db0d092",
       "groupLabel": "Ensign",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:kovalainen:dc8d8c106e70",
@@ -9409,7 +9417,7 @@
       "value": 2,
       "groupId": "constructor:lotus-f1:5a86a09d29b4",
       "groupLabel": "Lotus F1",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:koinigg:ea2f800a34ae",
@@ -9417,7 +9425,7 @@
       "value": 2,
       "groupId": "constructor:surtees:d1809eed4c34",
       "groupLabel": "Surtees",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:louveau:a43183cb12e1",
@@ -9425,7 +9433,7 @@
       "value": 2,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:pescarolo:cf6657843db1",
@@ -9433,7 +9441,7 @@
       "value": 2,
       "groupId": "constructor:iso-marlboro:bfb5a0fe7b7f",
       "groupLabel": "Iso Marlboro",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ganley:f5a142541732",
@@ -9441,7 +9449,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hahne:11f3a5efeffc",
@@ -9449,7 +9457,7 @@
       "value": 2,
       "groupId": "constructor:lola:46752ee4a160",
       "groupLabel": "Lola",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ashley:4ccb31f7900f",
@@ -9457,7 +9465,7 @@
       "value": 2,
       "groupId": "constructor:token:bd512a163bcb",
       "groupLabel": "Token",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:burgess:cae249265d03",
@@ -9465,7 +9473,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:burgess:cae249265d03",
@@ -9473,7 +9481,7 @@
       "value": 2,
       "groupId": "constructor:scirocco:706e4666541d",
       "groupLabel": "Scirocco",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:raby:5c25e193dec6",
@@ -9481,7 +9489,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ian-scheckter:a161713974de",
@@ -9489,7 +9497,7 @@
       "value": 2,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ian-scheckter:a161713974de",
@@ -9497,7 +9505,7 @@
       "value": 2,
       "groupId": "constructor:williams:4164dc156cb6",
       "groupLabel": "Williams",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ireland:655aaf7bf33d",
@@ -9505,7 +9513,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:capelli:89a05e194274",
@@ -9513,7 +9521,7 @@
       "value": 2,
       "groupId": "constructor:ags:831aaa72f8f5",
       "groupLabel": "AGS",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:capelli:89a05e194274",
@@ -9521,7 +9529,7 @@
       "value": 2,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bueb:85fbafb3faf9",
@@ -9529,7 +9537,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:turner:94ba392b302c",
@@ -9537,7 +9545,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:pretorius:22b306a43e44",
@@ -9545,7 +9553,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ickx:9dc972aa2fb0",
@@ -9553,7 +9561,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ickx:9dc972aa2fb0",
@@ -9561,7 +9569,7 @@
       "value": 2,
       "groupId": "constructor:matra:b2bca39208a5",
       "groupLabel": "Matra",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:swaters:7eac52acb079",
@@ -9569,7 +9577,7 @@
       "value": 2,
       "groupId": "constructor:lago:cdcfefd9f9e7",
       "groupLabel": "Talbot-Lago",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:lammers:91452ecad93c",
@@ -9577,7 +9585,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:deletraz:9346e7ab710f",
@@ -9585,7 +9593,7 @@
       "value": 2,
       "groupId": "constructor:pacific:fd2355ff0b92",
       "groupLabel": "Pacific",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:gounon:e0624316ee31",
@@ -9593,7 +9601,7 @@
       "value": 2,
       "groupId": "constructor:minardi:9db1254527e2",
       "groupLabel": "Minardi",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:jarier:fbd7f044b94b",
@@ -9601,7 +9609,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:crawford:3652c0e0d195",
@@ -9609,7 +9617,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:rathmann:5dd609a66a0d",
@@ -9617,7 +9625,7 @@
       "value": 2,
       "groupId": "constructor:watson:e4276dfa8394",
       "groupLabel": "Watson",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:jackson:6f2b6b455c21",
@@ -9625,7 +9633,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:reece:91fbe88bc7df",
@@ -9633,7 +9641,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:reece:91fbe88bc7df",
@@ -9641,7 +9649,7 @@
       "value": 2,
       "groupId": "constructor:pankratz:50ea40ef641b",
       "groupLabel": "Pankratz",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bonnier:5fc11359a468",
@@ -9649,7 +9657,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:jo-schlesser:7f26878653b4",
@@ -9657,7 +9665,7 @@
       "value": 2,
       "groupId": "constructor:matra:b2bca39208a5",
       "groupLabel": "Matra",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:kelly:8480839b0a3f",
@@ -9665,7 +9673,7 @@
       "value": 2,
       "groupId": "constructor:alta:983796469300",
       "groupLabel": "Alta",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:love:e0b19cc927d9",
@@ -9673,7 +9681,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:tolan:df3276472748",
@@ -9681,7 +9689,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:boyd:a669164bd4b1",
@@ -9689,7 +9697,7 @@
       "value": 2,
       "groupId": "constructor:epperly:aafa0ffb5fed",
       "groupLabel": "Epperly",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:claes:2bd55dabe37c",
@@ -9697,7 +9705,7 @@
       "value": 2,
       "groupId": "constructor:simca:5f5ecdf499a9",
       "groupLabel": "Simca",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:mcdowell:f991b99bc358",
@@ -9705,7 +9713,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:gavin:7a357fa402cb",
@@ -9713,7 +9721,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:thomson:c53e1f767be3",
@@ -9721,7 +9729,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:thomson:c53e1f767be3",
@@ -9729,7 +9737,7 @@
       "value": 2,
       "groupId": "constructor:lesovsky:e427ce1d538d",
       "groupLabel": "Lesovsky",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:daponte:de03a48c82ac",
@@ -9737,7 +9745,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:kobayashi:02f961512374",
@@ -9745,7 +9753,7 @@
       "value": 2,
       "groupId": "constructor:toyota:0942282f2145",
       "groupLabel": "Toyota",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:wendlinger:e8fbb909096c",
@@ -9753,7 +9761,7 @@
       "value": 2,
       "groupId": "constructor:leyton:ae38c7e53541",
       "groupLabel": "Leyton House",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:greene:49a993efb131",
@@ -9761,7 +9769,7 @@
       "value": 2,
       "groupId": "constructor:gilby:6687ccab0d16",
       "groupLabel": "Gilby",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:downing:9765cbc897e7",
@@ -9769,7 +9777,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:wharton:3bde480856c8",
@@ -9777,7 +9785,7 @@
       "value": 2,
       "groupId": "constructor:vanwall:4ca6f75bd647",
       "groupLabel": "Vanwall",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:leoni:5d4b9ddbd04a",
@@ -9785,7 +9793,7 @@
       "value": 2,
       "groupId": "constructor:ensign:f4700db0d092",
       "groupLabel": "Ensign",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:perkins:6fe01e5de9f2",
@@ -9793,7 +9801,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:marr:e6e20bdc0631",
@@ -9801,15 +9809,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
-    },
-    {
-      "entityId": "driver:lawson:a9641b5ad41f",
-      "entityName": "Liam Lawson",
-      "value": 2,
-      "groupId": "constructor:red-bull:8307f488a798",
-      "groupLabel": "Red Bull",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:chiron:fb2a679a6025",
@@ -9817,7 +9817,7 @@
       "value": 2,
       "groupId": "constructor:osca:f51c8ecb7d8e",
       "groupLabel": "OSCA",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:badoer:e8b0007a4461",
@@ -9825,7 +9825,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ayulo:41bf46de6b02",
@@ -9833,7 +9833,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:donohue:8cd7743232d5",
@@ -9841,7 +9841,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:gregory:3ee4901e4cc4",
@@ -9849,7 +9849,7 @@
       "value": 2,
       "groupId": "constructor:lola:46752ee4a160",
       "groupLabel": "Lola",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:rose:9326f1bb5ba7",
@@ -9857,7 +9857,7 @@
       "value": 2,
       "groupId": "constructor:deidt:696f32f6b418",
       "groupLabel": "Deidt",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:may:8b698a49ddb2",
@@ -9865,7 +9865,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:salo:781a02b584f4",
@@ -9873,7 +9873,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:fisher:acfcaf030c37",
@@ -9881,7 +9881,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:magill:316889ab5b76",
@@ -9889,7 +9889,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:nazaruk:edfd4b8e4e79",
@@ -9897,7 +9897,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:wilds:0fb5fa25da6a",
@@ -9905,7 +9905,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hulkenberg:2b1121e9241c",
@@ -9913,7 +9913,7 @@
       "value": 2,
       "groupId": "constructor:aston-martin:ebcdcb86f97f",
       "groupLabel": "Aston Martin",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hulkenberg:2b1121e9241c",
@@ -9921,7 +9921,7 @@
       "value": 2,
       "groupId": "constructor:racing-point:484ebe4c85d7",
       "groupLabel": "Racing Point",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:mansell:66de70fd9557",
@@ -9929,7 +9929,7 @@
       "value": 2,
       "groupId": "constructor:mclaren:f3759103103f",
       "groupLabel": "McLaren",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:flaherty:788ffe6330c5",
@@ -9937,7 +9937,7 @@
       "value": 2,
       "groupId": "constructor:watson:e4276dfa8394",
       "groupLabel": "Watson",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:gaillard:9351b46b2576",
@@ -9945,7 +9945,7 @@
       "value": 2,
       "groupId": "constructor:ensign:f4700db0d092",
       "groupLabel": "Ensign",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:belmondo:5a22ef1ad446",
@@ -9953,7 +9953,7 @@
       "value": 2,
       "groupId": "constructor:pacific:fd2355ff0b92",
       "groupLabel": "Pacific",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:goldsmith:cb970a968540",
@@ -9961,7 +9961,7 @@
       "value": 2,
       "groupId": "constructor:epperly:aafa0ffb5fed",
       "groupLabel": "Epperly",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:hawkins:98612e8f641b",
@@ -9969,7 +9969,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:collins:98c51dae7baf",
@@ -9977,7 +9977,7 @@
       "value": 2,
       "groupId": "constructor:maserati:e07d701c3181",
       "groupLabel": "Maserati",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:collins:98c51dae7baf",
@@ -9985,7 +9985,7 @@
       "value": 2,
       "groupId": "constructor:vanwall:4ca6f75bd647",
       "groupLabel": "Vanwall",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:revson:a43291d81deb",
@@ -9993,7 +9993,7 @@
       "value": 2,
       "groupId": "constructor:shadow:e88eac1bd94c",
       "groupLabel": "Shadow",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:whitehead:bcd77a827191",
@@ -10001,7 +10001,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:klerk:8355cd49ccd3",
@@ -10009,7 +10009,7 @@
       "value": 2,
       "groupId": "constructor:alfa:f3891f4c8109",
       "groupLabel": "Alfa Romeo",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:klerk:8355cd49ccd3",
@@ -10017,7 +10017,7 @@
       "value": 2,
       "groupId": "constructor:brabham:0f52aed0736c",
       "groupLabel": "Brabham",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:adams:7b5eb326fddd",
@@ -10025,7 +10025,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:taruffi:4246f1de7460",
@@ -10033,7 +10033,7 @@
       "value": 2,
       "groupId": "constructor:mercedes:81ae28b14607",
       "groupLabel": "Mercedes",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:courage:8b390088e81a",
@@ -10041,7 +10041,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:pietro-fittipaldi:e1b54b771e36",
@@ -10049,7 +10049,7 @@
       "value": 2,
       "groupId": "constructor:haas:6657555dbb08",
       "groupLabel": "Haas F1 Team",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bira:a4f3f13ea879",
@@ -10057,7 +10057,7 @@
       "value": 2,
       "groupId": "constructor:gordini:fdcbc8e4367d",
       "groupLabel": "Gordini",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bira:a4f3f13ea879",
@@ -10065,7 +10065,7 @@
       "value": 2,
       "groupId": "constructor:simca:5f5ecdf499a9",
       "groupLabel": "Simca",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ray-crawford:720a9092f9db",
@@ -10073,7 +10073,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:sommer:c16ee2e5b125",
@@ -10081,7 +10081,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:reg-parnell:2af78d34e726",
@@ -10089,7 +10089,7 @@
       "value": 2,
       "groupId": "constructor:ferrari:d5aa0140c09c",
       "groupLabel": "Ferrari",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:wisell:37b49d653c8a",
@@ -10097,7 +10097,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:zorzi:35f7baab3192",
@@ -10105,7 +10105,7 @@
       "value": 2,
       "groupId": "constructor:williams:4164dc156cb6",
       "groupLabel": "Williams",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:zonta:477e3a065ce2",
@@ -10113,7 +10113,7 @@
       "value": 2,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:zunino:9278400c233f",
@@ -10121,7 +10121,7 @@
       "value": 2,
       "groupId": "constructor:tyrrell:4668e3d16dc0",
       "groupLabel": "Tyrrell",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:paletti:cc3c96b9d277",
@@ -10129,7 +10129,7 @@
       "value": 2,
       "groupId": "constructor:osella:22f0301e1459",
       "groupLabel": "Osella",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ginther:3e915b11c50f",
@@ -10137,7 +10137,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:kubica:54803f2070f9",
@@ -10145,7 +10145,7 @@
       "value": 2,
       "groupId": "constructor:alfa:f3891f4c8109",
       "groupLabel": "Alfa Romeo",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moreno:0f9812889ee3",
@@ -10153,7 +10153,7 @@
       "value": 2,
       "groupId": "constructor:ags:831aaa72f8f5",
       "groupLabel": "AGS",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moreno:0f9812889ee3",
@@ -10161,7 +10161,7 @@
       "value": 2,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ward:c57d8b2b0b67",
@@ -10169,7 +10169,7 @@
       "value": 2,
       "groupId": "constructor:lesovsky:e427ce1d538d",
       "groupLabel": "Lesovsky",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ward:c57d8b2b0b67",
@@ -10177,7 +10177,7 @@
       "value": 2,
       "groupId": "constructor:watson:e4276dfa8394",
       "groupLabel": "Watson",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:williamson:0a872a6532e6",
@@ -10185,7 +10185,7 @@
       "value": 2,
       "groupId": "constructor:march:373ae2f4adda",
       "groupLabel": "March",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:krause:deaa9b614d0d",
@@ -10193,7 +10193,7 @@
       "value": 2,
       "groupId": "constructor:bmw:26403c577f12",
       "groupLabel": "BMW",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:posey:44e3cee0f1e7",
@@ -10201,7 +10201,7 @@
       "value": 2,
       "groupId": "constructor:surtees:d1809eed4c34",
       "groupLabel": "Surtees",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:templeman:56ee2d8a5772",
@@ -10209,7 +10209,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moser:e2fd9a047f6e",
@@ -10217,7 +10217,7 @@
       "value": 2,
       "groupId": "constructor:bellasi:9b63278a0fd9",
       "groupLabel": "Bellasi",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -10225,7 +10225,7 @@
       "value": 2,
       "groupId": "constructor:brm:88ba4655b32a",
       "groupLabel": "BRM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -10233,7 +10233,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
@@ -10241,7 +10241,7 @@
       "value": 2,
       "groupId": "constructor:hwm:1ecbc0979a65",
       "groupLabel": "HWM",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:helfrich:7310f60bde5c",
@@ -10249,7 +10249,7 @@
       "value": 2,
       "groupId": "constructor:veritas:1d6a19531960",
       "groupLabel": "Veritas",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:parnell:7a7572c2cbc6",
@@ -10257,7 +10257,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:tom-belso:fefce9723dd6",
@@ -10265,7 +10265,7 @@
       "value": 2,
       "groupId": "constructor:iso-marlboro:bfb5a0fe7b7f",
       "groupLabel": "Iso Marlboro",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:belso:ab4073ac8d65",
@@ -10273,7 +10273,7 @@
       "value": 2,
       "groupId": "constructor:iso-marlboro:bfb5a0fe7b7f",
       "groupLabel": "Iso Marlboro",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:byrne:6d62eb7f8efe",
@@ -10281,7 +10281,7 @@
       "value": 2,
       "groupId": "constructor:theodore:00f1ccbd3bae",
       "groupLabel": "Theodore",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ulmen:4f4508839924",
@@ -10289,7 +10289,7 @@
       "value": 2,
       "groupId": "constructor:veritas:1d6a19531960",
       "groupLabel": "Veritas",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bettenhausen:63acf7dcd43a",
@@ -10297,7 +10297,7 @@
       "value": 2,
       "groupId": "constructor:deidt:696f32f6b418",
       "groupLabel": "Deidt",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:bettenhausen:63acf7dcd43a",
@@ -10305,7 +10305,7 @@
       "value": 2,
       "groupId": "constructor:epperly:aafa0ffb5fed",
       "groupLabel": "Epperly",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:marsh:5480cf2b3bb1",
@@ -10313,7 +10313,7 @@
       "value": 2,
       "groupId": "constructor:cooper:9771c8f26d98",
       "groupLabel": "Cooper",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:marsh:5480cf2b3bb1",
@@ -10321,7 +10321,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:rolt:8a90d058b478",
@@ -10329,7 +10329,7 @@
       "value": 2,
       "groupId": "constructor:connaught:c79f99183be6",
       "groupLabel": "Connaught",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:settember:e9a63ad734fe",
@@ -10337,7 +10337,7 @@
       "value": 2,
       "groupId": "constructor:emeryson:8b42fa703a43",
       "groupLabel": "Emeryson",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:toshio-suzuki:bf0646ad3e0f",
@@ -10345,7 +10345,7 @@
       "value": 2,
       "groupId": "constructor:larrousse:47fb68d71e4a",
       "groupLabel": "Larrousse",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:webb:7308e6f882b1",
@@ -10353,7 +10353,7 @@
       "value": 2,
       "groupId": "constructor:bromme:de78e6a65779",
       "groupLabel": "Bromme",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ruttman:3e2eedf09bb0",
@@ -10361,7 +10361,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:ruttman:3e2eedf09bb0",
@@ -10369,7 +10369,7 @@
       "value": 2,
       "groupId": "constructor:watson:e4276dfa8394",
       "groupLabel": "Watson",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:walt-brown:f3abc086e9c5",
@@ -10377,7 +10377,7 @@
       "value": 2,
       "groupId": "constructor:kurtis-kraft:2c00f500b995",
       "groupLabel": "Kurtis Kraft",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:faulkner:8908310cfca3",
@@ -10385,7 +10385,7 @@
       "value": 2,
       "groupId": "constructor:kuzma:753d7f1cb109",
       "groupLabel": "Kuzma",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:mairesse:e49ae6f518af",
@@ -10393,7 +10393,7 @@
       "value": 2,
       "groupId": "constructor:team-lotus:85b2937902bf",
       "groupLabel": "Lotus",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:baumgartner:71368d155b7e",
@@ -10401,7 +10401,7 @@
       "value": 2,
       "groupId": "constructor:jordan:ef58acfe8635",
       "groupLabel": "Jordan",
-      "rank": 1100
+      "rank": 1101
     },
     {
       "entityId": "driver:brudes:ffd8a10ad843",

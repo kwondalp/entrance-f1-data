@@ -4,13 +4,13 @@
   "statisticId": "constructor_lead_chronology",
   "metricId": "constructorLeadChronology",
   "status": "partial",
-  "cutoff": "2026-07-26",
+  "cutoff": "2026-08-23",
   "completeness": {
     "current": {
-      "resultRowCount": 1580,
-      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "resultRowCount": 1583,
+      "coveredSeasons": "1982-2026 through 2026-08-23, excluding eight explicitly audited incomplete or conflicting events",
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 795,
+      "completeEventCount": 796,
       "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
@@ -22,23 +22,23 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-11:e63cf3e76869",
-        "eventIndex": 1159,
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
         "season": 2026,
-        "round": 11,
-        "date": "2026-07-26",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
     },
     "target": {
-      "cutoff": "2026-07-26",
+      "cutoff": "2026-08-23",
       "publicationStatus": "partial",
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
     }
   },
-  "rowCount": 1580,
+  "rowCount": 1583,
   "rows": [
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -60087,6 +60087,130 @@
             "lapCount": 1,
             "driverId": "driver:max-verstappen:1f6847211200",
             "constructorId": "constructor:red-bull:8307f488a798"
+          }
+        ],
+        "valueScope": "positively observed complete event"
+      }
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 9,
+      "rank": 1581,
+      "event": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "circuitConfigurationId": "zandvoort-5",
+      "distanceKm": 38.331,
+      "record": {
+        "firstLedLap": 22,
+        "lastLedLap": 53,
+        "leaderSegmentCount": 2,
+        "leaderSegments": [
+          {
+            "startLap": 22,
+            "endLap": 24,
+            "lapCount": 3,
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "constructorId": "constructor:ferrari:d5aa0140c09c"
+          },
+          {
+            "startLap": 48,
+            "endLap": 53,
+            "lapCount": 6,
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "constructorId": "constructor:ferrari:d5aa0140c09c"
+          }
+        ],
+        "valueScope": "positively observed complete event"
+      }
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 31,
+      "rank": 1582,
+      "event": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "circuitConfigurationId": "zandvoort-5",
+      "distanceKm": 132.029,
+      "record": {
+        "firstLedLap": 1,
+        "lastLedLap": 72,
+        "leaderSegmentCount": 3,
+        "leaderSegments": [
+          {
+            "startLap": 1,
+            "endLap": 4,
+            "lapCount": 4,
+            "driverId": "driver:norris:5581145e4767",
+            "constructorId": "constructor:mclaren:f3759103103f"
+          },
+          {
+            "startLap": 40,
+            "endLap": 47,
+            "lapCount": 8,
+            "driverId": "driver:norris:5581145e4767",
+            "constructorId": "constructor:mclaren:f3759103103f"
+          },
+          {
+            "startLap": 54,
+            "endLap": 72,
+            "lapCount": 19,
+            "driverId": "driver:norris:5581145e4767",
+            "constructorId": "constructor:mclaren:f3759103103f"
+          }
+        ],
+        "valueScope": "positively observed complete event"
+      }
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 32,
+      "rank": 1583,
+      "event": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "circuitConfigurationId": "zandvoort-5",
+      "distanceKm": 136.288,
+      "record": {
+        "firstLedLap": 5,
+        "lastLedLap": 39,
+        "leaderSegmentCount": 2,
+        "leaderSegments": [
+          {
+            "startLap": 5,
+            "endLap": 21,
+            "lapCount": 17,
+            "driverId": "driver:antonelli:0ab4d82d3440",
+            "constructorId": "constructor:mercedes:81ae28b14607"
+          },
+          {
+            "startLap": 25,
+            "endLap": 39,
+            "lapCount": 15,
+            "driverId": "driver:antonelli:0ab4d82d3440",
+            "constructorId": "constructor:mercedes:81ae28b14607"
           }
         ],
         "valueScope": "positively observed complete event"

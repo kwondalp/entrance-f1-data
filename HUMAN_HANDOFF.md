@@ -4,6 +4,34 @@
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
 
+## Dutch cutoff and all 144 Stats routes
+
+The current candidate advances the shared Data contract through the completed
+2026 Dutch Grand Prix weekend. Current race/Sprint results, schedule completion,
+standings, Driver/Constructor totals, Results Archive v2, Stats Lab v1, Stats Core
+and the metric backfill all come from the same 2026-08-23 boundary. Results
+Archive v2 contains 1,161 races and 26,165 classification rows.
+
+All 144 backfill routes are populated. The four new complete-through-cutoff
+Sprint leader payloads contain five Constructor rows for laps, five for
+kilometres, ten Driver rows for laps and ten for kilometres. Their evidence covers
+all 29 Sprints since 2021 and all 580 accepted completed laps, with FastF1 primary
+normalization and 23 passing OpenF1 cross-checks. Grand Prix leader products stay
+bounded partial over 796 complete events, and Sprint fastest-lap products stay
+bounded partial over 11 explicit rank-one observations.
+
+Consumers must use the manifest byte size/SHA-256 bindings (or HTTP ETag when
+served) for cache invalidation. Web and future App clients consume these same
+platform-neutral files and must not recalculate statistics locally.
+
+Final candidate validation parses all 563 Data JSON files, reproduces Results
+Archive, Stats Lab, Stats Core and the 149-file backfill package byte-for-byte in
+independent twin generations, and verifies every manifest byte/SHA binding. The
+Stats Core payload is 1,139,126 bytes with SHA-256
+`d82e7e568365bc71bb1119723fdaa771ae01a8147c4064774287f5c542e43fe9`.
+The Stats Core manifest also binds its schema's canonical 4,660-byte LF Git blob;
+the cross-package staged-blob audit verifies all 458 referenced artifacts.
+
 ## CC0 lap-position Stats publication proposal
 
 The additive backfill package contains 140 lazy payloads and four unavailable

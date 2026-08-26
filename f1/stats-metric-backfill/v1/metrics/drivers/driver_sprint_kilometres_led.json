@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_sprint_kilometres_led",
+  "metricId": "driverSprintKilometresLed",
+  "status": "complete_through_cutoff",
+  "cutoff": "2026-08-23",
+  "completeness": {
+    "current": {
+      "resultRowCount": 10,
+      "coveredSeasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "excludedSeasons": [],
+      "completeEventCount": 29,
+      "incompleteEventCount": 0,
+      "earliestCoveredEvent": {
+        "eventId": "event:2021-10:d711fd4c5fa9",
+        "eventIndex": 1044,
+        "season": 2021,
+        "round": 10,
+        "date": "2021-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "valueScope": "complete Formula 1 Sprint totals from 2021 through the cutoff"
+    },
+    "target": {
+      "cutoff": "2026-08-23",
+      "publicationStatus": "complete_through_cutoff",
+      "valueScope": "complete Formula 1 Sprint totals from 2021 through the cutoff"
+    }
+  },
+  "rowCount": 10,
+  "rows": [
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 1198.467,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 381.628,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 349.185,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 340.614,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:bottas:cf1711492eee",
+      "entityName": "Valtteri Bottas",
+      "value": 207.69,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 199.316,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 135.292,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 69.734,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 60.03,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 9
+    },
+    {
+      "entityId": "driver:kevin-magnussen:10cdaad4587a",
+      "entityName": "Kevin Magnussen",
+      "value": 8.618,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 10
+    }
+  ]
+}

@@ -4,13 +4,13 @@
   "statisticId": "consecutive_grand_prix_led",
   "metricId": "consecutiveGrandPrixLed",
   "status": "partial",
-  "cutoff": "2026-07-26",
+  "cutoff": "2026-08-23",
   "completeness": {
     "current": {
       "resultRowCount": 80,
-      "coveredSeasons": "1982-2026 through 2026-07-26, excluding eight explicitly audited incomplete or conflicting events",
+      "coveredSeasons": "1982-2026 through 2026-08-23, excluding eight explicitly audited incomplete or conflicting events",
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 795,
+      "completeEventCount": 796,
       "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
@@ -22,18 +22,18 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-11:e63cf3e76869",
-        "eventIndex": 1159,
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
         "season": 2026,
-        "round": 11,
-        "date": "2026-07-26",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
     },
     "target": {
-      "cutoff": "2026-07-26",
+      "cutoff": "2026-08-23",
       "publicationStatus": "partial",
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
     }
@@ -203,6 +203,33 @@
       "rank": 6
     },
     {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 11,
+      "firstEvent": {
+        "eventId": "event:2026-2:f019d4004b94",
+        "eventIndex": 1150,
+        "season": 2026,
+        "round": 2,
+        "date": "2026-03-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 6
+    },
+    {
       "entityId": "driver:prost:70f24972bd43",
       "entityName": "Alain Prost",
       "value": 10,
@@ -227,34 +254,7 @@
       "record": {
         "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
       },
-      "rank": 7
-    },
-    {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 10,
-      "firstEvent": {
-        "eventId": "event:2026-2:f019d4004b94",
-        "eventIndex": 1150,
-        "season": 2026,
-        "round": 2,
-        "date": "2026-03-15",
-        "grandPrixName": "Chinese Grand Prix",
-        "circuitId": "shanghai"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-11:e63cf3e76869",
-        "eventIndex": 1159,
-        "season": 2026,
-        "round": 11,
-        "date": "2026-07-26",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "record": {
-        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
-      },
-      "rank": 7
+      "rank": 8
     },
     {
       "entityId": "driver:rosberg:f41469d63d30",

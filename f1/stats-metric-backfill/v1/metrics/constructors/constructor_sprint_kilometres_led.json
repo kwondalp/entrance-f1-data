@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "constructors",
+  "statisticId": "constructor_sprint_kilometres_led",
+  "metricId": "constructorSprintKilometresLed",
+  "status": "complete_through_cutoff",
+  "cutoff": "2026-08-23",
+  "completeness": {
+    "current": {
+      "resultRowCount": 5,
+      "coveredSeasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "excludedSeasons": [],
+      "completeEventCount": 29,
+      "incompleteEventCount": 0,
+      "earliestCoveredEvent": {
+        "eventId": "event:2021-10:d711fd4c5fa9",
+        "eventIndex": 1044,
+        "season": 2021,
+        "round": 10,
+        "date": "2021-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
+        "season": 2026,
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "valueScope": "complete Formula 1 Sprint totals from 2021 through the cutoff"
+    },
+    "target": {
+      "cutoff": "2026-08-23",
+      "publicationStatus": "complete_through_cutoff",
+      "valueScope": "complete Formula 1 Sprint totals from 2021 through the cutoff"
+    }
+  },
+  "rowCount": 5,
+  "rows": [
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 1258.497,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 702.66,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "constructor:mclaren:f3759103103f",
+      "entityName": "McLaren",
+      "value": 689.799,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 291,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "constructor:haas:6657555dbb08",
+      "entityName": "Haas F1 Team",
+      "value": 8.618,
+      "record": {
+        "coveredSprintEvents": 29,
+        "coveredCompletedLaps": 580,
+        "valueScope": "complete Formula 1 Sprint totals from the first Sprint in 2021 through the 2026 Dutch Grand Prix Sprint"
+      },
+      "rank": 5
+    }
+  ]
+}

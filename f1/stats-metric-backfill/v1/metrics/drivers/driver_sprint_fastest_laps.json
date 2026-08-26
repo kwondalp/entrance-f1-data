@@ -4,7 +4,7 @@
   "statisticId": "driver_sprint_fastest_laps",
   "metricId": "driverSprintFastestLaps",
   "status": "partial",
-  "cutoff": "2026-07-26",
+  "cutoff": "2026-08-23",
   "completeness": {
     "current": {
       "resultRowCount": 6,
@@ -13,7 +13,7 @@
         2026
       ],
       "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
-      "completeEventCount": 10,
+      "completeEventCount": 11,
       "incompleteEventCount": 18,
       "earliestCoveredEvent": {
         "eventId": "event:2025-2:e05a33739015",
@@ -25,20 +25,20 @@
         "circuitId": "shanghai"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-9:c346da3f4460",
-        "eventIndex": 1157,
+        "eventId": "event:2026-12:2e33e12944a2",
+        "eventIndex": 1160,
         "season": 2026,
-        "round": 9,
-        "date": "2026-07-05",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
+        "round": 12,
+        "date": "2026-08-23",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
-      "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
+      "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
     },
     "target": {
-      "cutoff": "2026-07-26",
+      "cutoff": "2026-08-23",
       "publicationStatus": "partial",
-      "valueScope": "bounded partial across ten Sprint events with unique explicit rank-one fastest-lap evidence"
+      "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
     }
   },
   "rowCount": 6,
@@ -46,7 +46,7 @@
     {
       "entityId": "driver:norris:5581145e4767",
       "entityName": "Lando Norris",
-      "value": 3,
+      "value": 4,
       "record": {
         "events": [
           {
@@ -75,9 +75,18 @@
             "date": "2026-05-03",
             "grandPrixName": "Miami Grand Prix",
             "circuitId": "miami"
+          },
+          {
+            "eventId": "event:2026-12:2e33e12944a2",
+            "eventIndex": 1160,
+            "season": 2026,
+            "round": 12,
+            "date": "2026-08-23",
+            "grandPrixName": "Dutch Grand Prix",
+            "circuitId": "zandvoort"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 1
     },
@@ -106,7 +115,7 @@
             "circuitId": "silverstone"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 2
     },
@@ -135,7 +144,7 @@
             "circuitId": "miami"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 2
     },
@@ -155,7 +164,7 @@
             "circuitId": "shanghai"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     },
@@ -175,7 +184,7 @@
             "circuitId": "americas"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     },
@@ -195,7 +204,7 @@
             "circuitId": "losail"
           }
         ],
-        "valueScope": "bounded partial across 10 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     }

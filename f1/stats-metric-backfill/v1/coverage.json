@@ -1,14 +1,14 @@
 {
   "schemaVersion": "stats-metric-backfill-coverage.v1",
-  "asOfRaceDate": "2026-07-26",
+  "asOfRaceDate": "2026-08-23",
   "counts": {
     "total": 144,
-    "available": 140,
+    "available": 144,
     "partial": 124,
-    "completeThroughCutoff": 16,
-    "blocked": 4,
+    "completeThroughCutoff": 20,
+    "blocked": 0,
     "permissionRequired": 0,
-    "unavailable": 4,
+    "unavailable": 0,
     "drivers": 76,
     "constructors": 68
   },
@@ -17,8 +17,8 @@
     "substantivelyEmptyMetricCount": 144
   },
   "after": {
-    "populatedMetricCount": 140,
-    "substantivelyEmptyMetricCount": 4
+    "populatedMetricCount": 144,
+    "substantivelyEmptyMetricCount": 0
   },
   "evidenceClasses": {
     "A": {
@@ -33,14 +33,14 @@
     },
     "C": {
       "total": 69,
-      "available": 65,
-      "blocked": 4
+      "available": 69,
+      "blocked": 0
     }
   },
   "sourceCoverage": {
-    "archiveRaceCount": 1160,
-    "archiveClassificationRowCount": 26143,
-    "fastestLapKnownRaceCount": 443,
+    "archiveRaceCount": 1161,
+    "archiveClassificationRowCount": 26165,
+    "fastestLapKnownRaceCount": 444,
     "unknownStartClassificationRowCount": 11,
     "unknownGridClassificationRowCount": 92,
     "ambiguousSharedDriveGridGroupCount": 63,
@@ -89,19 +89,25 @@
     },
     "cc0LapPositionAssessment": {
       "approvalId": "OWNER-20260826-STATS-CC0-LAP-POSITION-03",
+      "supplementalApprovalId": "OWNER-20260826-DUTCH-SPRINT-AUTOMATION-01",
       "sourceCommit": "9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
       "decisionCount": 33,
-      "populatedDecisionCount": 29,
-      "unavailableDecisionCount": 4,
+      "populatedDecisionCount": 33,
+      "unavailableDecisionCount": 0,
       "sourceLapRowCount": 879870,
-      "completeGrandPrixEventCount": 795,
+      "completeGrandPrixEventCount": 796,
       "incompleteGrandPrixEventCount": 365,
-      "completeSprintFastestLapEventCount": 10,
+      "completeSprintFastestLapEventCount": 11,
       "incompleteSprintFastestLapEventCount": 18,
-      "sprintLapPositionCorpusPresent": false
+      "sprintLapPositionCorpusPresent": true,
+      "completeSprintLeaderEventCount": 29,
+      "completeSprintLeaderLapCount": 580,
+      "openF1CrossCheckExpectedEventCount": 23,
+      "openF1CrossCheckPassedEventCount": 23,
+      "openF1CrossCheckUnresolvedEventCount": 0
     },
     "openData": {
-      "mappedRaceCount": 1160,
+      "mappedRaceCount": 1161,
       "driverIdentity": {
         "sourceCount": 917,
         "resolvedCount": 787,

@@ -1,52 +1,14 @@
 {
   "schemaVersion": "results-archive-official-sources.v2",
-  "recordCount": 1599,
+  "recordCount": 1600,
   "records": [
-    {
-      "sourceId": "source:fia-2026-hungary-championship-points",
-      "publisher": "FIA",
-      "sourceUrl": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
-      "contentChecksumSha256": "e6f597ae25f3bbed8301767ea304649eaec425b1d14ef82db20b09723974b3e8",
-      "documentIdentity": "hungary-championship-points.pdf",
-      "evidenceClass": "fia_championship_points",
-      "fieldsSupported": [
-        "fia.championship_points"
-      ]
-    },
-    {
-      "sourceId": "source:fia-2026-hungary-final-classification",
-      "publisher": "FIA",
-      "sourceUrl": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
-      "contentChecksumSha256": "32afe1a052582b6db3760f7daf0830556a5bc456d239939ca7a20e46f2d0b243",
-      "documentIdentity": "hungary-final-race-classification.pdf",
-      "evidenceClass": "fia_final_race_classification",
-      "fieldsSupported": [
-        "formula1.race_result",
-        "fia.final_race_classification"
-      ]
-    },
-    {
-      "sourceId": "source:fia-2026-hungary-final-qualifying",
-      "publisher": "FIA",
-      "sourceUrl": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
-      "contentChecksumSha256": "b238634b1e9abfb46852e1623ce61f8e7205d8046fefcc104cac39c2b53fbd9c",
-      "documentIdentity": "hungary-final-qualifying-classification.pdf",
-      "evidenceClass": "fia_final_qualifying_classification",
-      "fieldsSupported": [
-        "formula1.race_result",
-        "fia.final_race_classification"
-      ]
-    },
     {
       "sourceId": "source:formula1-2026-1-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1279/australia/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -58,9 +20,9 @@
       "sourceId": "source:formula1-2026-10-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -116,12 +78,56 @@
       ]
     },
     {
+      "sourceId": "source:formula1-2026-12-fastest-laps",
+      "publisher": "Formula 1",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/fastest-laps",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
+      "contentChecksumSha256": null,
+      "evidenceClass": "formula1_official_fastest-laps",
+      "fieldsSupported": [
+        "formula1.fastest_laps"
+      ]
+    },
+    {
+      "sourceId": "source:formula1-2026-12-qualifying",
+      "publisher": "Formula 1",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/qualifying",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
+      "contentChecksumSha256": null,
+      "evidenceClass": "formula1_official_qualifying",
+      "fieldsSupported": [
+        "formula1.qualifying"
+      ]
+    },
+    {
+      "sourceId": "source:formula1-2026-12-race-result",
+      "publisher": "Formula 1",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/race-result",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
+      "contentChecksumSha256": null,
+      "evidenceClass": "formula1_official_race-result",
+      "fieldsSupported": [
+        "formula1.race_result"
+      ]
+    },
+    {
+      "sourceId": "source:formula1-2026-12-starting-grid",
+      "publisher": "Formula 1",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/starting-grid",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
+      "contentChecksumSha256": null,
+      "evidenceClass": "formula1_official_starting-grid",
+      "fieldsSupported": [
+        "formula1.starting_grid"
+      ]
+    },
+    {
       "sourceId": "source:formula1-2026-2-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -133,9 +139,9 @@
       "sourceId": "source:formula1-2026-3-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1281/japan/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -147,9 +153,9 @@
       "sourceId": "source:formula1-2026-4-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -161,9 +167,9 @@
       "sourceId": "source:formula1-2026-5-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -175,9 +181,9 @@
       "sourceId": "source:formula1-2026-6-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1286/monaco/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -189,9 +195,9 @@
       "sourceId": "source:formula1-2026-7-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1287/barcelona-catalunya/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -203,9 +209,9 @@
       "sourceId": "source:formula1-2026-8-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",
@@ -217,9 +223,9 @@
       "sourceId": "source:formula1-2026-9-race-result",
       "publisher": "Formula 1",
       "sourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/race-result",
-      "retrievedAtUtc": "2026-08-09T06:21:22Z",
+      "retrievedAtUtc": "2026-08-26T07:23:37Z",
       "contentChecksumSha256": null,
-      "evidenceClass": "formula1_official_current_result",
+      "evidenceClass": "formula1_official_race-result",
       "fieldsSupported": [
         "classification",
         "laps",

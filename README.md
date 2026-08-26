@@ -4,6 +4,13 @@ This repository is the stable static JSON data source for ENTRANCE consumers.
 
 It contains no API server, application runtime, or automatic publishing step. Clients fetch approved files directly, and promotion from `entrance-f1-data-tools` remains a manual, reviewed operation.
 
+The current generated candidate is coherent through the completed 2026 Dutch
+Grand Prix weekend (2026-08-23). The additive Stats backfill exposes all 144
+unchanged routes as populated payloads. The final four Sprint leader routes use
+complete 2021-Dutch lap-end coverage; other bounded products retain their explicit
+coverage and unknown values are never replaced with zero. Consumers should use
+the versioned manifest hashes or HTTP ETags to invalidate cached payloads.
+
 ## Contents
 
 - [data/schedule.json](data/schedule.json) — season race schedule
