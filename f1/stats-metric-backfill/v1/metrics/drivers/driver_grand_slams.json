@@ -1,0 +1,2440 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_grand_slams",
+  "metricId": "driverGrandSlams",
+  "status": "complete_through_cutoff",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 28,
+      "coveredSeasons": "1950-2026 through 2026-07-26",
+      "excludedSeasons": [],
+      "completeEventCount": 1160,
+      "incompleteEventCount": 0,
+      "earliestCoveredEvent": {
+        "eventId": "event:1950-1:17e7244241b0",
+        "eventIndex": 0,
+        "season": 1950,
+        "round": 1,
+        "date": "1950-05-13",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2026-11:e63cf3e76869",
+        "eventIndex": 1159,
+        "season": 2026,
+        "round": 11,
+        "date": "2026-07-26",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "valueScope": "complete totals through cutoff"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "complete_through_cutoff",
+      "valueScope": "complete totals through cutoff"
+    }
+  },
+  "rowCount": 28,
+  "rows": [
+    {
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 8,
+      "seasons": [
+        1962,
+        1963,
+        1964,
+        1965
+      ],
+      "firstEvent": {
+        "eventId": "event:1962-5:a950a9b2e2b3",
+        "eventIndex": 106,
+        "season": 1962,
+        "round": 5,
+        "date": "1962-07-21",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "aintree"
+      },
+      "lastEvent": {
+        "eventId": "event:1965-7:54e6465839f6",
+        "eventIndex": 137,
+        "season": 1965,
+        "round": 7,
+        "date": "1965-08-01",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "evidenceRowCount": 8,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1962-5:a950a9b2e2b3",
+              "eventIndex": 106,
+              "season": 1962,
+              "round": 5,
+              "date": "1962-07-21",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "aintree"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 107,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1963-3:7c24c3177218",
+              "eventIndex": 113,
+              "season": 1963,
+              "round": 3,
+              "date": "1963-06-23",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 114,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1963-4:fcb1f4468424",
+              "eventIndex": 114,
+              "season": 1963,
+              "round": 4,
+              "date": "1963-06-30",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "reims"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 115,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1963-9:975f71324213",
+              "eventIndex": 119,
+              "season": 1963,
+              "round": 9,
+              "date": "1963-10-27",
+              "grandPrixName": "Mexican Grand Prix",
+              "circuitId": "rodriguez"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 120,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1964-5:9e0678f2b9e0",
+              "eventIndex": 125,
+              "season": 1964,
+              "round": 5,
+              "date": "1964-07-11",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "brands_hatch"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 126,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1965-1:4179a2ceebe5",
+              "eventIndex": 131,
+              "season": 1965,
+              "round": 1,
+              "date": "1965-01-01",
+              "grandPrixName": "South African Grand Prix",
+              "circuitId": "george"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 132,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1965-4:536b9a4de07d",
+              "eventIndex": 134,
+              "season": 1965,
+              "round": 4,
+              "date": "1965-06-27",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "charade"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 135,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1965-7:54e6465839f6",
+              "eventIndex": 137,
+              "season": 1965,
+              "round": 7,
+              "date": "1965-08-01",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "nurburgring"
+            },
+            "driverId": "driver:clark:59d84c3d9fcb",
+            "driverName": "Jim Clark",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 138,
+            "sourceDriverId": "jim-clark",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 6,
+      "seasons": [
+        2014,
+        2015,
+        2017,
+        2019
+      ],
+      "firstEvent": {
+        "eventId": "event:2014-2:e3929c81f4de",
+        "eventIndex": 898,
+        "season": 2014,
+        "round": 2,
+        "date": "2014-03-30",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2019-21:f0312a8dac89",
+        "eventIndex": 1017,
+        "season": 2019,
+        "round": 21,
+        "date": "2019-12-01",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "evidenceRowCount": 6,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2014-2:e3929c81f4de",
+              "eventIndex": 898,
+              "season": 2014,
+              "round": 2,
+              "date": "2014-03-30",
+              "grandPrixName": "Malaysian Grand Prix",
+              "circuitId": "sepang"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 899,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2015-12:fdf4076f975e",
+              "eventIndex": 927,
+              "season": 2015,
+              "round": 12,
+              "date": "2015-09-06",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 928,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-2:2774cbf9ec26",
+              "eventIndex": 957,
+              "season": 2017,
+              "round": 2,
+              "date": "2017-04-09",
+              "grandPrixName": "Chinese Grand Prix",
+              "circuitId": "shanghai"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 958,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-7:3efe944bf5f8",
+              "eventIndex": 962,
+              "season": 2017,
+              "round": 7,
+              "date": "2017-06-11",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 963,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-10:4cb6b52581ee",
+              "eventIndex": 965,
+              "season": 2017,
+              "round": 10,
+              "date": "2017-07-16",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 966,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2019-21:f0312a8dac89",
+              "eventIndex": 1017,
+              "season": 2019,
+              "round": 21,
+              "date": "2019-12-01",
+              "grandPrixName": "Abu Dhabi Grand Prix",
+              "circuitId": "yas_marina"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 1018,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 6,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "firstEvent": {
+        "eventId": "event:2021-9:df650534eb11",
+        "eventIndex": 1043,
+        "season": 2021,
+        "round": 9,
+        "date": "2021-07-04",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-17:1342a19a0e88",
+        "eventIndex": 1141,
+        "season": 2025,
+        "round": 17,
+        "date": "2025-09-21",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku"
+      },
+      "evidenceRowCount": 6,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2021-9:df650534eb11",
+              "eventIndex": 1043,
+              "season": 2021,
+              "round": 9,
+              "date": "2021-07-04",
+              "grandPrixName": "Austrian Grand Prix",
+              "circuitId": "red_bull_ring"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1044,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2022-4:ca31765a4de3",
+              "eventIndex": 1060,
+              "season": 2022,
+              "round": 4,
+              "date": "2022-04-24",
+              "grandPrixName": "Emilia Romagna Grand Prix",
+              "circuitId": "imola"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1061,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2023-7:a6e96c077c90",
+              "eventIndex": 1085,
+              "season": 2023,
+              "round": 7,
+              "date": "2023-06-04",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1086,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2023-17:2f65ccae014b",
+              "eventIndex": 1095,
+              "season": 2023,
+              "round": 17,
+              "date": "2023-10-08",
+              "grandPrixName": "Qatar Grand Prix",
+              "circuitId": "losail"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1096,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2024-1:6ac832822a49",
+              "eventIndex": 1101,
+              "season": 2024,
+              "round": 1,
+              "date": "2024-03-02",
+              "grandPrixName": "Bahrain Grand Prix",
+              "circuitId": "bahrain"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1102,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2025-17:1342a19a0e88",
+              "eventIndex": 1141,
+              "season": 2025,
+              "round": 17,
+              "date": "2025-09-21",
+              "grandPrixName": "Azerbaijan Grand Prix",
+              "circuitId": "baku"
+            },
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "driverName": "Max Verstappen",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 1142,
+            "sourceDriverId": "max-verstappen",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
+      "value": 5,
+      "seasons": [
+        1952,
+        1953
+      ],
+      "firstEvent": {
+        "eventId": "event:1952-4:1f19140f7090",
+        "eventIndex": 18,
+        "season": 1952,
+        "round": 4,
+        "date": "1952-07-06",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts"
+      },
+      "lastEvent": {
+        "eventId": "event:1953-6:44c347bd9772",
+        "eventIndex": 28,
+        "season": 1953,
+        "round": 6,
+        "date": "1953-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "evidenceRowCount": 5,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1952-4:1f19140f7090",
+              "eventIndex": 18,
+              "season": 1952,
+              "round": 4,
+              "date": "1952-07-06",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "essarts"
+            },
+            "driverId": "driver:ascari:ad5589a1c97f",
+            "driverName": "Alberto Ascari",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 19,
+            "sourceDriverId": "alberto-ascari",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1952-6:32fc3ad3d7b8",
+              "eventIndex": 20,
+              "season": 1952,
+              "round": 6,
+              "date": "1952-08-03",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "nurburgring"
+            },
+            "driverId": "driver:ascari:ad5589a1c97f",
+            "driverName": "Alberto Ascari",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 21,
+            "sourceDriverId": "alberto-ascari",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1952-7:67119370d631",
+              "eventIndex": 21,
+              "season": 1952,
+              "round": 7,
+              "date": "1952-08-17",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort"
+            },
+            "driverId": "driver:ascari:ad5589a1c97f",
+            "driverName": "Alberto Ascari",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 22,
+            "sourceDriverId": "alberto-ascari",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1953-1:b48e1ad7b925",
+              "eventIndex": 23,
+              "season": 1953,
+              "round": 1,
+              "date": "1953-01-18",
+              "grandPrixName": "Argentine Grand Prix",
+              "circuitId": "galvez"
+            },
+            "driverId": "driver:ascari:ad5589a1c97f",
+            "driverName": "Alberto Ascari",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 24,
+            "sourceDriverId": "alberto-ascari",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1953-6:44c347bd9772",
+              "eventIndex": 28,
+              "season": 1953,
+              "round": 6,
+              "date": "1953-07-18",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone"
+            },
+            "driverId": "driver:ascari:ad5589a1c97f",
+            "driverName": "Alberto Ascari",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 29,
+            "sourceDriverId": "alberto-ascari",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 5,
+      "seasons": [
+        1994,
+        2002,
+        2004
+      ],
+      "firstEvent": {
+        "eventId": "event:1994-4:580df63f73aa",
+        "eventIndex": 551,
+        "season": 1994,
+        "round": 4,
+        "date": "1994-05-15",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:2004-13:215a0a6ac19b",
+        "eventIndex": 725,
+        "season": 2004,
+        "round": 13,
+        "date": "2004-08-15",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "evidenceRowCount": 5,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1994-4:580df63f73aa",
+              "eventIndex": 551,
+              "season": 1994,
+              "round": 4,
+              "date": "1994-05-15",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:michael-schumacher:6f4f07ba2368",
+            "driverName": "Michael Schumacher",
+            "constructorId": "constructor:benetton:58d42bf86808",
+            "constructorName": "Benetton",
+            "sourceRaceId": 552,
+            "sourceDriverId": "michael-schumacher",
+            "sourceConstructorId": "benetton",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1994-6:6f1934c0a1f5",
+              "eventIndex": 553,
+              "season": 1994,
+              "round": 6,
+              "date": "1994-06-12",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "driverId": "driver:michael-schumacher:6f4f07ba2368",
+            "driverName": "Michael Schumacher",
+            "constructorId": "constructor:benetton:58d42bf86808",
+            "constructorName": "Benetton",
+            "sourceRaceId": 554,
+            "sourceDriverId": "michael-schumacher",
+            "sourceConstructorId": "benetton",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2002-5:a94848bba0e6",
+              "eventIndex": 684,
+              "season": 2002,
+              "round": 5,
+              "date": "2002-04-28",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya"
+            },
+            "driverId": "driver:michael-schumacher:6f4f07ba2368",
+            "driverName": "Michael Schumacher",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 685,
+            "sourceDriverId": "michael-schumacher",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2004-1:042187e9e426",
+              "eventIndex": 713,
+              "season": 2004,
+              "round": 1,
+              "date": "2004-03-07",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "albert_park"
+            },
+            "driverId": "driver:michael-schumacher:6f4f07ba2368",
+            "driverName": "Michael Schumacher",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 714,
+            "sourceDriverId": "michael-schumacher",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2004-13:215a0a6ac19b",
+              "eventIndex": 725,
+              "season": 2004,
+              "round": 13,
+              "date": "2004-08-15",
+              "grandPrixName": "Hungarian Grand Prix",
+              "circuitId": "hungaroring"
+            },
+            "driverId": "driver:michael-schumacher:6f4f07ba2368",
+            "driverName": "Michael Schumacher",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 726,
+            "sourceDriverId": "michael-schumacher",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 4,
+      "seasons": [
+        1985,
+        1989,
+        1990
+      ],
+      "firstEvent": {
+        "eventId": "event:1985-2:86ad05fcc4f8",
+        "eventIndex": 405,
+        "season": 1985,
+        "round": 2,
+        "date": "1985-04-21",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "lastEvent": {
+        "eventId": "event:1990-12:6b09db992841",
+        "eventIndex": 495,
+        "season": 1990,
+        "round": 12,
+        "date": "1990-09-09",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "evidenceRowCount": 4,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1985-2:86ad05fcc4f8",
+              "eventIndex": 405,
+              "season": 1985,
+              "round": 2,
+              "date": "1985-04-21",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "estoril"
+            },
+            "driverId": "driver:senna:97c74c7d172e",
+            "driverName": "Ayrton Senna",
+            "constructorId": "constructor:team-lotus:85b2937902bf",
+            "constructorName": "Lotus",
+            "sourceRaceId": 406,
+            "sourceDriverId": "ayrton-senna",
+            "sourceConstructorId": "lotus",
+            "constructorBinding": "explicit_source_id_to_existing_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1989-14:025ad4548eea",
+              "eventIndex": 481,
+              "season": 1989,
+              "round": 14,
+              "date": "1989-10-01",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "jerez"
+            },
+            "driverId": "driver:senna:97c74c7d172e",
+            "driverName": "Ayrton Senna",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 482,
+            "sourceDriverId": "ayrton-senna",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1990-4:e0a144ead9d0",
+              "eventIndex": 487,
+              "season": 1990,
+              "round": 4,
+              "date": "1990-05-27",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:senna:97c74c7d172e",
+            "driverName": "Ayrton Senna",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 488,
+            "sourceDriverId": "ayrton-senna",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1990-12:6b09db992841",
+              "eventIndex": 495,
+              "season": 1990,
+              "round": 12,
+              "date": "1990-09-09",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza"
+            },
+            "driverId": "driver:senna:97c74c7d172e",
+            "driverName": "Ayrton Senna",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 496,
+            "sourceDriverId": "ayrton-senna",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "value": 4,
+      "seasons": [
+        1969,
+        1971,
+        1972
+      ],
+      "firstEvent": {
+        "eventId": "event:1969-5:3a1830108150",
+        "eventIndex": 177,
+        "season": 1969,
+        "round": 5,
+        "date": "1969-07-06",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "charade"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-12:d3de150e68ed",
+        "eventIndex": 219,
+        "season": 1972,
+        "round": 12,
+        "date": "1972-10-08",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen"
+      },
+      "evidenceRowCount": 4,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1969-5:3a1830108150",
+              "eventIndex": 177,
+              "season": 1969,
+              "round": 5,
+              "date": "1969-07-06",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "charade"
+            },
+            "driverId": "driver:stewart:f46f493c7dd0",
+            "driverName": "Jackie Stewart",
+            "constructorId": "constructor:matra:b2bca39208a5",
+            "constructorName": "Matra",
+            "sourceRaceId": 178,
+            "sourceDriverId": "jackie-stewart",
+            "sourceConstructorId": "matra",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1971-3:0dd39acf5265",
+              "eventIndex": 199,
+              "season": 1971,
+              "round": 3,
+              "date": "1971-05-23",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:stewart:f46f493c7dd0",
+            "driverName": "Jackie Stewart",
+            "constructorId": "constructor:tyrrell:4668e3d16dc0",
+            "constructorName": "Tyrrell",
+            "sourceRaceId": 200,
+            "sourceDriverId": "jackie-stewart",
+            "sourceConstructorId": "tyrrell",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1971-5:9ab9189afc6c",
+              "eventIndex": 201,
+              "season": 1971,
+              "round": 5,
+              "date": "1971-07-04",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "ricard"
+            },
+            "driverId": "driver:stewart:f46f493c7dd0",
+            "driverName": "Jackie Stewart",
+            "constructorId": "constructor:tyrrell:4668e3d16dc0",
+            "constructorName": "Tyrrell",
+            "sourceRaceId": 202,
+            "sourceDriverId": "jackie-stewart",
+            "sourceConstructorId": "tyrrell",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1972-12:d3de150e68ed",
+              "eventIndex": 219,
+              "season": 1972,
+              "round": 12,
+              "date": "1972-10-08",
+              "grandPrixName": "United States Grand Prix",
+              "circuitId": "watkins_glen"
+            },
+            "driverId": "driver:stewart:f46f493c7dd0",
+            "driverName": "Jackie Stewart",
+            "constructorId": "constructor:tyrrell:4668e3d16dc0",
+            "constructorName": "Tyrrell",
+            "sourceRaceId": 220,
+            "sourceDriverId": "jackie-stewart",
+            "sourceConstructorId": "tyrrell",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 4,
+      "seasons": [
+        1991,
+        1992
+      ],
+      "firstEvent": {
+        "eventId": "event:1991-8:82aa32aa22a5",
+        "eventIndex": 507,
+        "season": 1991,
+        "round": 8,
+        "date": "1991-07-14",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:1992-9:1102df305868",
+        "eventIndex": 524,
+        "season": 1992,
+        "round": 9,
+        "date": "1992-07-12",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "evidenceRowCount": 4,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1991-8:82aa32aa22a5",
+              "eventIndex": 507,
+              "season": 1991,
+              "round": 8,
+              "date": "1991-07-14",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone"
+            },
+            "driverId": "driver:mansell:66de70fd9557",
+            "driverName": "Nigel Mansell",
+            "constructorId": "constructor:williams:4164dc156cb6",
+            "constructorName": "Williams",
+            "sourceRaceId": 508,
+            "sourceDriverId": "nigel-mansell",
+            "sourceConstructorId": "williams",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1992-1:8ba08aef7c60",
+              "eventIndex": 516,
+              "season": 1992,
+              "round": 1,
+              "date": "1992-03-01",
+              "grandPrixName": "South African Grand Prix",
+              "circuitId": "kyalami"
+            },
+            "driverId": "driver:mansell:66de70fd9557",
+            "driverName": "Nigel Mansell",
+            "constructorId": "constructor:williams:4164dc156cb6",
+            "constructorName": "Williams",
+            "sourceRaceId": 517,
+            "sourceDriverId": "nigel-mansell",
+            "sourceConstructorId": "williams",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1992-4:42c4a0998c00",
+              "eventIndex": 519,
+              "season": 1992,
+              "round": 4,
+              "date": "1992-05-03",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "catalunya"
+            },
+            "driverId": "driver:mansell:66de70fd9557",
+            "driverName": "Nigel Mansell",
+            "constructorId": "constructor:williams:4164dc156cb6",
+            "constructorName": "Williams",
+            "sourceRaceId": 520,
+            "sourceDriverId": "nigel-mansell",
+            "sourceConstructorId": "williams",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1992-9:1102df305868",
+              "eventIndex": 524,
+              "season": 1992,
+              "round": 9,
+              "date": "1992-07-12",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone"
+            },
+            "driverId": "driver:mansell:66de70fd9557",
+            "driverName": "Nigel Mansell",
+            "constructorId": "constructor:williams:4164dc156cb6",
+            "constructorName": "Williams",
+            "sourceRaceId": 525,
+            "sourceDriverId": "nigel-mansell",
+            "sourceConstructorId": "williams",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 4,
+      "seasons": [
+        2011,
+        2012,
+        2013
+      ],
+      "firstEvent": {
+        "eventId": "event:2011-17:3dbc7bd28739",
+        "eventIndex": 855,
+        "season": 2011,
+        "round": 17,
+        "date": "2011-10-30",
+        "grandPrixName": "Indian Grand Prix",
+        "circuitId": "buddh"
+      },
+      "lastEvent": {
+        "eventId": "event:2013-14:a161d34a4da6",
+        "eventIndex": 891,
+        "season": 2013,
+        "round": 14,
+        "date": "2013-10-06",
+        "grandPrixName": "Korean Grand Prix",
+        "circuitId": "yeongam"
+      },
+      "evidenceRowCount": 4,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2011-17:3dbc7bd28739",
+              "eventIndex": 855,
+              "season": 2011,
+              "round": 17,
+              "date": "2011-10-30",
+              "grandPrixName": "Indian Grand Prix",
+              "circuitId": "buddh"
+            },
+            "driverId": "driver:vettel:c74415af2cc1",
+            "driverName": "Sebastian Vettel",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 856,
+            "sourceDriverId": "sebastian-vettel",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2012-15:511557d22596",
+              "eventIndex": 872,
+              "season": 2012,
+              "round": 15,
+              "date": "2012-10-07",
+              "grandPrixName": "Japanese Grand Prix",
+              "circuitId": "suzuka"
+            },
+            "driverId": "driver:vettel:c74415af2cc1",
+            "driverName": "Sebastian Vettel",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 873,
+            "sourceDriverId": "sebastian-vettel",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2013-13:efaf565d8ed4",
+              "eventIndex": 890,
+              "season": 2013,
+              "round": 13,
+              "date": "2013-09-22",
+              "grandPrixName": "Singapore Grand Prix",
+              "circuitId": "marina_bay"
+            },
+            "driverId": "driver:vettel:c74415af2cc1",
+            "driverName": "Sebastian Vettel",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 891,
+            "sourceDriverId": "sebastian-vettel",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2013-14:a161d34a4da6",
+              "eventIndex": 891,
+              "season": 2013,
+              "round": 14,
+              "date": "2013-10-06",
+              "grandPrixName": "Korean Grand Prix",
+              "circuitId": "yeongam"
+            },
+            "driverId": "driver:vettel:c74415af2cc1",
+            "driverName": "Sebastian Vettel",
+            "constructorId": "constructor:red-bull:8307f488a798",
+            "constructorName": "Red Bull",
+            "sourceRaceId": 892,
+            "sourceDriverId": "sebastian-vettel",
+            "sourceConstructorId": "red-bull",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 3,
+      "seasons": [
+        1980,
+        1981,
+        1984
+      ],
+      "firstEvent": {
+        "eventId": "event:1980-4:b79d558fd5ba",
+        "eventIndex": 331,
+        "season": 1980,
+        "round": 4,
+        "date": "1980-03-30",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "lastEvent": {
+        "eventId": "event:1984-7:acb37472cbf7",
+        "eventIndex": 394,
+        "season": 1984,
+        "round": 7,
+        "date": "1984-06-17",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "evidenceRowCount": 3,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1980-4:b79d558fd5ba",
+              "eventIndex": 331,
+              "season": 1980,
+              "round": 4,
+              "date": "1980-03-30",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach"
+            },
+            "driverId": "driver:piquet:009ec3fd7514",
+            "driverName": "Nelson Piquet",
+            "constructorId": "constructor:brabham:0f52aed0736c",
+            "constructorName": "Brabham",
+            "sourceRaceId": 332,
+            "sourceDriverId": "nelson-piquet",
+            "sourceConstructorId": "brabham",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1981-3:21cd5465d68a",
+              "eventIndex": 344,
+              "season": 1981,
+              "round": 3,
+              "date": "1981-04-12",
+              "grandPrixName": "Argentine Grand Prix",
+              "circuitId": "galvez"
+            },
+            "driverId": "driver:piquet:009ec3fd7514",
+            "driverName": "Nelson Piquet",
+            "constructorId": "constructor:brabham:0f52aed0736c",
+            "constructorName": "Brabham",
+            "sourceRaceId": 345,
+            "sourceDriverId": "nelson-piquet",
+            "sourceConstructorId": "brabham",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1984-7:acb37472cbf7",
+              "eventIndex": 394,
+              "season": 1984,
+              "round": 7,
+              "date": "1984-06-17",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "driverId": "driver:piquet:009ec3fd7514",
+            "driverName": "Nelson Piquet",
+            "constructorId": "constructor:brabham:0f52aed0736c",
+            "constructorName": "Brabham",
+            "sourceRaceId": 395,
+            "sourceDriverId": "nelson-piquet",
+            "sourceConstructorId": "brabham",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 10
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 2,
+      "seasons": [
+        1960,
+        1966
+      ],
+      "firstEvent": {
+        "eventId": "event:1960-5:0b005e87e4f2",
+        "eventIndex": 88,
+        "season": 1960,
+        "round": 5,
+        "date": "1960-06-19",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1966-4:71099441b9ba",
+        "eventIndex": 144,
+        "season": 1966,
+        "round": 4,
+        "date": "1966-07-16",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch"
+      },
+      "evidenceRowCount": 2,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1960-5:0b005e87e4f2",
+              "eventIndex": 88,
+              "season": 1960,
+              "round": 5,
+              "date": "1960-06-19",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa"
+            },
+            "driverId": "driver:jack-brabham:279b9464153a",
+            "driverName": "Jack Brabham",
+            "constructorId": "constructor:cooper:9771c8f26d98",
+            "constructorName": "Cooper",
+            "sourceRaceId": 89,
+            "sourceDriverId": "jack-brabham",
+            "sourceConstructorId": "cooper",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1966-4:71099441b9ba",
+              "eventIndex": 144,
+              "season": 1966,
+              "round": 4,
+              "date": "1966-07-16",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "brands_hatch"
+            },
+            "driverId": "driver:jack-brabham:279b9464153a",
+            "driverName": "Jack Brabham",
+            "constructorId": "constructor:brabham:0f52aed0736c",
+            "constructorName": "Brabham",
+            "sourceRaceId": 145,
+            "sourceDriverId": "jack-brabham",
+            "sourceConstructorId": "brabham",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 2,
+      "seasons": [
+        1950,
+        1956
+      ],
+      "firstEvent": {
+        "eventId": "event:1950-2:609d25155bf6",
+        "eventIndex": 1,
+        "season": 1950,
+        "round": 2,
+        "date": "1950-05-21",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:1956-7:0c530d881fc1",
+        "eventIndex": 54,
+        "season": 1956,
+        "round": 7,
+        "date": "1956-08-05",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "evidenceRowCount": 2,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1950-2:609d25155bf6",
+              "eventIndex": 1,
+              "season": 1950,
+              "round": 2,
+              "date": "1950-05-21",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:fangio:56835a0b6237",
+            "driverName": "Juan Manuel Fangio",
+            "constructorId": "constructor:alfa:f3891f4c8109",
+            "constructorName": "Alfa Romeo",
+            "sourceRaceId": 2,
+            "sourceDriverId": "juan-manuel-fangio",
+            "sourceConstructorId": "alfa-romeo",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1956-7:0c530d881fc1",
+              "eventIndex": 54,
+              "season": 1956,
+              "round": 7,
+              "date": "1956-08-05",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "nurburgring"
+            },
+            "driverId": "driver:fangio:56835a0b6237",
+            "driverName": "Juan Manuel Fangio",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 55,
+            "sourceDriverId": "juan-manuel-fangio",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:hakkinen:cb6375fb4ba8",
+      "entityName": "Mika Häkkinen",
+      "value": 2,
+      "seasons": [
+        1998
+      ],
+      "firstEvent": {
+        "eventId": "event:1998-2:dcd2e8b2f96d",
+        "eventIndex": 615,
+        "season": 1998,
+        "round": 2,
+        "date": "1998-03-29",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1998-6:21ccc2b142f2",
+        "eventIndex": 619,
+        "season": 1998,
+        "round": 6,
+        "date": "1998-05-24",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "evidenceRowCount": 2,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1998-2:dcd2e8b2f96d",
+              "eventIndex": 615,
+              "season": 1998,
+              "round": 2,
+              "date": "1998-03-29",
+              "grandPrixName": "Brazilian Grand Prix",
+              "circuitId": "interlagos"
+            },
+            "driverId": "driver:hakkinen:cb6375fb4ba8",
+            "driverName": "Mika Häkkinen",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 616,
+            "sourceDriverId": "mika-hakkinen",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:1998-6:21ccc2b142f2",
+              "eventIndex": 619,
+              "season": 1998,
+              "round": 6,
+              "date": "1998-05-24",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:hakkinen:cb6375fb4ba8",
+            "driverName": "Mika Häkkinen",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 620,
+            "sourceDriverId": "mika-hakkinen",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:rosberg:f41469d63d30",
+      "entityName": "Nico Rosberg",
+      "value": 2,
+      "seasons": [
+        2016
+      ],
+      "firstEvent": {
+        "eventId": "event:2016-4:d9ceafbeb3e1",
+        "eventIndex": 938,
+        "season": 2016,
+        "round": 4,
+        "date": "2016-05-01",
+        "grandPrixName": "Russian Grand Prix",
+        "circuitId": "sochi"
+      },
+      "lastEvent": {
+        "eventId": "event:2016-8:cc67af311562",
+        "eventIndex": 942,
+        "season": 2016,
+        "round": 8,
+        "date": "2016-06-19",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "baku"
+      },
+      "evidenceRowCount": 2,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2016-4:d9ceafbeb3e1",
+              "eventIndex": 938,
+              "season": 2016,
+              "round": 4,
+              "date": "2016-05-01",
+              "grandPrixName": "Russian Grand Prix",
+              "circuitId": "sochi"
+            },
+            "driverId": "driver:rosberg:f41469d63d30",
+            "driverName": "Nico Rosberg",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 939,
+            "sourceDriverId": "nico-rosberg",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2016-8:cc67af311562",
+              "eventIndex": 942,
+              "season": 2016,
+              "round": 8,
+              "date": "2016-06-19",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "baku"
+            },
+            "driverId": "driver:rosberg:f41469d63d30",
+            "driverName": "Nico Rosberg",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 943,
+            "sourceDriverId": "nico-rosberg",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 11
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 1,
+      "seasons": [
+        2022
+      ],
+      "firstEvent": {
+        "eventId": "event:2022-3:b1c5d123b7fa",
+        "eventIndex": 1059,
+        "season": 2022,
+        "round": 3,
+        "date": "2022-04-10",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2022-3:b1c5d123b7fa",
+        "eventIndex": 1059,
+        "season": 2022,
+        "round": 3,
+        "date": "2022-04-10",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2022-3:b1c5d123b7fa",
+              "eventIndex": 1059,
+              "season": 2022,
+              "round": 3,
+              "date": "2022-04-10",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "albert_park"
+            },
+            "driverId": "driver:leclerc:80a0e9f8790b",
+            "driverName": "Charles Leclerc",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 1060,
+            "sourceDriverId": "charles-leclerc",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "value": 1,
+      "seasons": [
+        1976
+      ],
+      "firstEvent": {
+        "eventId": "event:1976-3:9058b8bd92d1",
+        "eventIndex": 266,
+        "season": 1976,
+        "round": 3,
+        "date": "1976-03-28",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "lastEvent": {
+        "eventId": "event:1976-3:9058b8bd92d1",
+        "eventIndex": 266,
+        "season": 1976,
+        "round": 3,
+        "date": "1976-03-28",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1976-3:9058b8bd92d1",
+              "eventIndex": 266,
+              "season": 1976,
+              "round": 3,
+              "date": "1976-03-28",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach"
+            },
+            "driverId": "driver:regazzoni:8dabb0375829",
+            "driverName": "Clay Regazzoni",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 267,
+            "sourceDriverId": "clay-regazzoni",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:damon-hill:3cf4df1bacf7",
+      "entityName": "Damon Hill",
+      "value": 1,
+      "seasons": [
+        1995
+      ],
+      "firstEvent": {
+        "eventId": "event:1995-10:9ccca0a28329",
+        "eventIndex": 573,
+        "season": 1995,
+        "round": 10,
+        "date": "1995-08-13",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:1995-10:9ccca0a28329",
+        "eventIndex": 573,
+        "season": 1995,
+        "round": 10,
+        "date": "1995-08-13",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1995-10:9ccca0a28329",
+              "eventIndex": 573,
+              "season": 1995,
+              "round": 10,
+              "date": "1995-08-13",
+              "grandPrixName": "Hungarian Grand Prix",
+              "circuitId": "hungaroring"
+            },
+            "driverId": "driver:damon-hill:3cf4df1bacf7",
+            "driverName": "Damon Hill",
+            "constructorId": "constructor:williams:4164dc156cb6",
+            "constructorName": "Williams",
+            "sourceRaceId": 574,
+            "sourceDriverId": "damon-hill",
+            "sourceConstructorId": "williams",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 1,
+      "seasons": [
+        2010
+      ],
+      "firstEvent": {
+        "eventId": "event:2010-15:fd19ab851182",
+        "eventIndex": 834,
+        "season": 2010,
+        "round": 15,
+        "date": "2010-09-26",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "lastEvent": {
+        "eventId": "event:2010-15:fd19ab851182",
+        "eventIndex": 834,
+        "season": 2010,
+        "round": 15,
+        "date": "2010-09-26",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina_bay"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2010-15:fd19ab851182",
+              "eventIndex": 834,
+              "season": 2010,
+              "round": 15,
+              "date": "2010-09-26",
+              "grandPrixName": "Singapore Grand Prix",
+              "circuitId": "marina_bay"
+            },
+            "driverId": "driver:alonso:04d69c1d187a",
+            "driverName": "Fernando Alonso",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 835,
+            "sourceDriverId": "fernando-alonso",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:berger:721f3dbb508a",
+      "entityName": "Gerhard Berger",
+      "value": 1,
+      "seasons": [
+        1987
+      ],
+      "firstEvent": {
+        "eventId": "event:1987-16:96f8a3dd476f",
+        "eventIndex": 451,
+        "season": 1987,
+        "round": 16,
+        "date": "1987-11-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide"
+      },
+      "lastEvent": {
+        "eventId": "event:1987-16:96f8a3dd476f",
+        "eventIndex": 451,
+        "season": 1987,
+        "round": 16,
+        "date": "1987-11-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1987-16:96f8a3dd476f",
+              "eventIndex": 451,
+              "season": 1987,
+              "round": 16,
+              "date": "1987-11-15",
+              "grandPrixName": "Australian Grand Prix",
+              "circuitId": "adelaide"
+            },
+            "driverId": "driver:berger:721f3dbb508a",
+            "driverName": "Gerhard Berger",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 452,
+            "sourceDriverId": "gerhard-berger",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:gilles-villeneuve:92aad873d6ed",
+      "entityName": "Gilles Villeneuve",
+      "value": 1,
+      "seasons": [
+        1979
+      ],
+      "firstEvent": {
+        "eventId": "event:1979-4:63ff6ed9258c",
+        "eventIndex": 316,
+        "season": 1979,
+        "round": 4,
+        "date": "1979-04-08",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "lastEvent": {
+        "eventId": "event:1979-4:63ff6ed9258c",
+        "eventIndex": 316,
+        "season": 1979,
+        "round": 4,
+        "date": "1979-04-08",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1979-4:63ff6ed9258c",
+              "eventIndex": 316,
+              "season": 1979,
+              "round": 4,
+              "date": "1979-04-08",
+              "grandPrixName": "United States Grand Prix West",
+              "circuitId": "long_beach"
+            },
+            "driverId": "driver:gilles-villeneuve:92aad873d6ed",
+            "driverName": "Gilles Villeneuve",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 317,
+            "sourceDriverId": "gilles-villeneuve",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 1,
+      "seasons": [
+        1972
+      ],
+      "firstEvent": {
+        "eventId": "event:1972-8:9dad7203a28b",
+        "eventIndex": 215,
+        "season": 1972,
+        "round": 8,
+        "date": "1972-07-30",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-8:9dad7203a28b",
+        "eventIndex": 215,
+        "season": 1972,
+        "round": 8,
+        "date": "1972-07-30",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1972-8:9dad7203a28b",
+              "eventIndex": 215,
+              "season": 1972,
+              "round": 8,
+              "date": "1972-07-30",
+              "grandPrixName": "German Grand Prix",
+              "circuitId": "nurburgring"
+            },
+            "driverId": "driver:ickx:9dc972aa2fb0",
+            "driverName": "Jacky Ickx",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 216,
+            "sourceDriverId": "jacky-ickx",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:laffite:36bfb487a39b",
+      "entityName": "Jacques Laffite",
+      "value": 1,
+      "seasons": [
+        1979
+      ],
+      "firstEvent": {
+        "eventId": "event:1979-2:dcc0704e0feb",
+        "eventIndex": 314,
+        "season": 1979,
+        "round": 2,
+        "date": "1979-02-04",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1979-2:dcc0704e0feb",
+        "eventIndex": 314,
+        "season": 1979,
+        "round": 2,
+        "date": "1979-02-04",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1979-2:dcc0704e0feb",
+              "eventIndex": 314,
+              "season": 1979,
+              "round": 2,
+              "date": "1979-02-04",
+              "grandPrixName": "Brazilian Grand Prix",
+              "circuitId": "interlagos"
+            },
+            "driverId": "driver:laffite:36bfb487a39b",
+            "driverName": "Jacques Laffite",
+            "constructorId": "constructor:ligier:08b25bed58af",
+            "constructorName": "Ligier",
+            "sourceRaceId": 315,
+            "sourceDriverId": "jacques-laffite",
+            "sourceConstructorId": "ligier",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:siffert:d1cfc3fb1fc0",
+      "entityName": "Jo Siffert",
+      "value": 1,
+      "seasons": [
+        1971
+      ],
+      "firstEvent": {
+        "eventId": "event:1971-8:054778c261da",
+        "eventIndex": 204,
+        "season": 1971,
+        "round": 8,
+        "date": "1971-08-15",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "lastEvent": {
+        "eventId": "event:1971-8:054778c261da",
+        "eventIndex": 204,
+        "season": 1971,
+        "round": 8,
+        "date": "1971-08-15",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1971-8:054778c261da",
+              "eventIndex": 204,
+              "season": 1971,
+              "round": 8,
+              "date": "1971-08-15",
+              "grandPrixName": "Austrian Grand Prix",
+              "circuitId": "red_bull_ring"
+            },
+            "driverId": "driver:siffert:d1cfc3fb1fc0",
+            "driverName": "Jo Siffert",
+            "constructorId": "constructor:brm:88ba4655b32a",
+            "constructorName": "BRM",
+            "sourceRaceId": 205,
+            "sourceDriverId": "jo-siffert",
+            "sourceConstructorId": "brm",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 1,
+      "seasons": [
+        2026
+      ],
+      "firstEvent": {
+        "eventId": "event:2026-6:0b0abef937ae",
+        "eventIndex": 1154,
+        "season": 2026,
+        "round": 6,
+        "date": "2026-06-07",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-6:0b0abef937ae",
+        "eventIndex": 1154,
+        "season": 2026,
+        "round": 6,
+        "date": "2026-06-07",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2026-6:0b0abef937ae",
+              "eventIndex": 1154,
+              "season": 2026,
+              "round": 6,
+              "date": "2026-06-07",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:antonelli:0ab4d82d3440",
+            "driverName": "Kimi Antonelli",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 1155,
+            "sourceDriverId": "kimi-antonelli",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 1,
+      "seasons": [
+        1958
+      ],
+      "firstEvent": {
+        "eventId": "event:1958-6:a50649763513",
+        "eventIndex": 69,
+        "season": 1958,
+        "round": 6,
+        "date": "1958-07-06",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-6:a50649763513",
+        "eventIndex": 69,
+        "season": 1958,
+        "round": 6,
+        "date": "1958-07-06",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1958-6:a50649763513",
+              "eventIndex": 69,
+              "season": 1958,
+              "round": 6,
+              "date": "1958-07-06",
+              "grandPrixName": "French Grand Prix",
+              "circuitId": "reims"
+            },
+            "driverId": "driver:hawthorn:1ddfcaf579cc",
+            "driverName": "Mike Hawthorn",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 70,
+            "sourceDriverId": "mike-hawthorn",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 1,
+      "seasons": [
+        1976
+      ],
+      "firstEvent": {
+        "eventId": "event:1976-5:e8e5ad5825bf",
+        "eventIndex": 268,
+        "season": 1976,
+        "round": 5,
+        "date": "1976-05-16",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "zolder"
+      },
+      "lastEvent": {
+        "eventId": "event:1976-5:e8e5ad5825bf",
+        "eventIndex": 268,
+        "season": 1976,
+        "round": 5,
+        "date": "1976-05-16",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "zolder"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1976-5:e8e5ad5825bf",
+              "eventIndex": 268,
+              "season": 1976,
+              "round": 5,
+              "date": "1976-05-16",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "zolder"
+            },
+            "driverId": "driver:lauda:a96b8acf8741",
+            "driverName": "Niki Lauda",
+            "constructorId": "constructor:ferrari:d5aa0140c09c",
+            "constructorName": "Ferrari",
+            "sourceRaceId": 269,
+            "sourceDriverId": "niki-lauda",
+            "sourceConstructorId": "ferrari",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 1,
+      "seasons": [
+        2025
+      ],
+      "firstEvent": {
+        "eventId": "event:2025-15:6505ac52ea15",
+        "eventIndex": 1139,
+        "season": 2025,
+        "round": 15,
+        "date": "2025-08-31",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "lastEvent": {
+        "eventId": "event:2025-15:6505ac52ea15",
+        "eventIndex": 1139,
+        "season": 2025,
+        "round": 15,
+        "date": "2025-08-31",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2025-15:6505ac52ea15",
+              "eventIndex": 1139,
+              "season": 2025,
+              "round": 15,
+              "date": "2025-08-31",
+              "grandPrixName": "Dutch Grand Prix",
+              "circuitId": "zandvoort"
+            },
+            "driverId": "driver:piastri:45bbf3cf700f",
+            "driverName": "Oscar Piastri",
+            "constructorId": "constructor:mclaren:f3759103103f",
+            "constructorName": "McLaren",
+            "sourceRaceId": 1140,
+            "sourceDriverId": "oscar-piastri",
+            "sourceConstructorId": "mclaren",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    },
+    {
+      "entityId": "driver:moss:74efba0d63c1",
+      "entityName": "Stirling Moss",
+      "value": 1,
+      "seasons": [
+        1959
+      ],
+      "firstEvent": {
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
+      },
+      "lastEvent": {
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:1959-7:2aa7c85a7338",
+              "eventIndex": 81,
+              "season": 1959,
+              "round": 7,
+              "date": "1959-08-23",
+              "grandPrixName": "Portuguese Grand Prix",
+              "circuitId": "monsanto"
+            },
+            "driverId": "driver:moss:74efba0d63c1",
+            "driverName": "Stirling Moss",
+            "constructorId": "constructor:cooper:9771c8f26d98",
+            "constructorName": "Cooper",
+            "sourceRaceId": 82,
+            "sourceDriverId": "stirling-moss",
+            "sourceConstructorId": "cooper",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          }
+        ]
+      },
+      "rank": 15
+    }
+  ]
+}

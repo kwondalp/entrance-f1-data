@@ -1740,19 +1740,26 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-final15-evidence.v1.json",
+        "fixtures/stats-remaining36-evidence.v1.json",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -1763,7 +1770,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -1771,8 +1778,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
     },
     {
       "metricId": "constructorTrackRecords",
@@ -2921,22 +2928,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -2953,7 +2966,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -2961,8 +2974,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "consecutiveConstructorKilometresLed",
@@ -2980,22 +2993,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3012,7 +3031,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3020,8 +3039,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "consecutiveConstructorLapsLed",
@@ -3039,22 +3058,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3071,7 +3096,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3079,8 +3104,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "consecutiveConstructorLeadSeasons",
@@ -3098,22 +3123,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3130,7 +3161,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3138,8 +3169,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorDifferentEngines",
@@ -3493,22 +3524,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3525,7 +3562,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3533,8 +3570,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorGrandSlams",
@@ -3552,22 +3589,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 14,
+        "coveredSeasons": "1950-2026 through 2026-07-26",
+        "excludedSeasons": [],
+        "completeEventCount": 1160,
+        "incompleteEventCount": 0,
+        "earliestCoveredEvent": {
+          "eventId": "event:1950-1:17e7244241b0",
+          "eventIndex": 0,
+          "season": 1950,
+          "round": 1,
+          "date": "1950-05-13",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "complete totals through cutoff"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "complete_through_cutoff",
+        "valueScope": "complete totals through cutoff"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3584,16 +3643,16 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "derivationMethod": "Count Grand Prix result rows with an explicit Grand Slam flag. Sprints are excluded.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     },
     {
       "metricId": "constructorHatTricks",
@@ -3673,22 +3732,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3705,7 +3770,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3713,8 +3778,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorLapsLed",
@@ -3732,22 +3797,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3764,7 +3835,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3772,8 +3843,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorLeadChronology",
@@ -3791,22 +3862,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3823,7 +3900,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3831,8 +3908,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorLeadSeasons",
@@ -3850,22 +3927,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3882,7 +3965,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -3890,8 +3973,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorSeasonFrontRows",
@@ -3963,22 +4046,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -3995,7 +4084,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4003,8 +4092,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorSeasonKilometresLed",
@@ -4022,22 +4111,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -4054,7 +4149,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4062,8 +4157,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorSeasonLapsLed",
@@ -4081,22 +4176,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -4113,7 +4214,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4121,8 +4222,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorWinnerLapFinishes",
@@ -4194,22 +4295,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -4226,7 +4333,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4234,8 +4341,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "constructorSprintFastestLaps",
@@ -4253,19 +4360,26 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-final15-evidence.v1.json",
+        "fixtures/stats-remaining36-evidence.v1.json",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -4276,7 +4390,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4284,8 +4398,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
     },
     {
       "metricId": "constructorSprintKilometresLed",
@@ -4303,22 +4417,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -4334,7 +4454,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4342,8 +4462,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
     },
     {
       "metricId": "constructorSprintLapsLed",
@@ -4361,22 +4481,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -4392,7 +4518,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -4400,8 +4526,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
     },
     {
       "metricId": "constructorSprintPodiums",
@@ -6501,19 +6627,26 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-final15-evidence.v1.json",
+        "fixtures/stats-remaining36-evidence.v1.json",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -6524,7 +6657,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -6532,8 +6665,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
     },
     {
       "metricId": "driverTrackRecords",
@@ -7623,22 +7756,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -7655,7 +7794,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -7663,8 +7802,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "consecutiveLapsLed",
@@ -7682,22 +7821,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -7714,7 +7859,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -7722,8 +7867,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverAverageGrid",
@@ -8019,21 +8164,72 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 9,
+        "coveredSeasons": [
+          1976,
+          1980,
+          1982,
+          1985,
+          1989,
+          1994,
+          2008,
+          2019,
+          2024
+        ],
+        "excludedSeasons": "No season is claimed complete; 104 unresolved candidate events remain excluded.",
+        "completeEventCount": 9,
+        "incompleteEventCount": 104,
+        "earliestCoveredEvent": {
+          "eventId": "event:1976-9:6d289573b3c0",
+          "eventIndex": 272,
+          "season": 1976,
+          "round": 9,
+          "date": "1976-07-18",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "brands_hatch"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2024-14:8374d7ca1690",
+          "eventIndex": 1114,
+          "season": 2024,
+          "round": 14,
+          "date": "2024-07-28",
+          "grandPrixName": "Belgian Grand Prix",
+          "circuitId": "spa"
+        },
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "partial",
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-final15-evidence.v1.json",
+        "fixtures/stats-remaining36-evidence.v1.json",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
-        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
+        "https://www.formula1.com/en/results/1976/races/366/great-britain/race-result",
+        "https://www.formula1.com/en/latest/article/from-infamous-title-deciders-to-home-race-heartbreaks-7-of-the-most-dramatic.3gUysRekRcxhLJ1MgzvFDZ",
+        "https://www.formula1.com/en/results/1980/races/92/canada/race-result",
+        "https://www.autosport.com/f1/news/the-top-11-lost-f1-victories-after-the-flag/10812788/",
+        "https://www.formula1.com/en/results/1982/races/438/brazil/race-result",
+        "https://www.formula1.com/en/latest/article/moments-in-time-the-brazilian-grand-prix.5dr3Egu9lleFLsheSjlkQ0.5dr3Egu9lleFLsheSjlkQ0",
+        "https://www.formula1.com/en/results/1985/races/484/san-marino/race-result",
+        "https://www.grandprix.com/races/san-marino-gp-1985.html",
+        "https://www.formula1.com/en/results/1989/races/557/japan/race-result",
+        "https://www.formula1.com/en/latest/article/classic-onboard-senna-passes-nannini-in-vain-at-suzuka-89.OUXLUTi3LwqSGmQJkN91l.OUXLUTi3LwqSGmQJkN91l",
+        "https://www.formula1.com/en/results/1994/races/615/belgium/race-result",
+        "https://www.formula1.com/en/latest/article/from-sennas-suspended-ban-to-vettels-victory-antics-8-crazy-post-race.2Pssou2f1Rh9Iv99fpfcNR",
+        "https://www.formula1.com/en/results/2008/races/837/belgium/race-result",
+        "https://www.formula1.com/en/latest/article/moments-in-time-the-belgian-grand-prix.2bJxwoBEgCzcC1Yrlzj1Qv",
+        "https://www.formula1.com/en/results/2019/races/1006/canada/race-result",
+        "https://www.formula1.com/en/latest/article/canadian-grand-prix-2019-race-report-highlights.4Jhsl7NERcdaUp4igw5vXi",
+        "https://www.formula1.com/en/racing/2024/belgium",
+        "https://www.formula1.com/en/latest/article/breaking-russell-disqualified-from-belgian-grand-prix-for-underweight-car-as.2NIuo4cHgOl1LgplIkGG5D"
       ],
       "requiredRawEvidence": "authoritative pre-penalty finish-line order and decision corpus",
       "rawFields": [],
@@ -8042,16 +8238,16 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "derivationMethod": "Compare complete official pre-penalty finish-line order with the canonical final classification and bind the reason and decision for every qualifying event.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "unavailable",
-      "blockingReason": "The 113-event risk queue cannot be resolved into a complete first-on-road corpus from the licensed structured source; authoritative pre-penalty crossing order and decision evidence remain missing."
+      "status": "partial",
+      "blockingReason": null
     },
     {
       "metricId": "driverFirstLapRetirements",
@@ -8393,22 +8589,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8425,7 +8627,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8433,8 +8635,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverGrandSlams",
@@ -8452,22 +8654,44 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 28,
+        "coveredSeasons": "1950-2026 through 2026-07-26",
+        "excludedSeasons": [],
+        "completeEventCount": 1160,
+        "incompleteEventCount": 0,
+        "earliestCoveredEvent": {
+          "eventId": "event:1950-1:17e7244241b0",
+          "eventIndex": 0,
+          "season": 1950,
+          "round": 1,
+          "date": "1950-05-13",
+          "grandPrixName": "British Grand Prix",
+          "circuitId": "silverstone"
+        },
+        "latestCoveredEvent": {
+          "eventId": "event:2026-11:e63cf3e76869",
+          "eventIndex": 1159,
+          "season": 2026,
+          "round": 11,
+          "date": "2026-07-26",
+          "grandPrixName": "Hungarian Grand Prix",
+          "circuitId": "hungaroring"
+        },
+        "valueScope": "complete totals through cutoff"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "complete_through_cutoff",
+        "valueScope": "complete totals through cutoff"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8484,16 +8708,16 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
-      "calculable": false,
-      "publicationStatus": "unavailable",
+      "derivationMethod": "Count Grand Prix result rows with an explicit Grand Slam flag. Sprints are excluded.",
+      "calculable": true,
+      "publicationStatus": "available",
       "expectedHistoricalRange": {
         "startSeason": 1950,
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "complete_through_cutoff",
+      "blockingReason": null
     },
     {
       "metricId": "driverHatTricks",
@@ -8573,22 +8797,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8605,7 +8835,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8613,8 +8843,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverLapsLed",
@@ -8632,22 +8862,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8664,7 +8900,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8672,8 +8908,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverLapsLedWithoutWin",
@@ -8691,22 +8927,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8723,7 +8965,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8731,8 +8973,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverLeadChronology",
@@ -8750,22 +8992,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8782,7 +9030,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8790,8 +9038,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverLeadSeasons",
@@ -8809,22 +9057,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8841,7 +9095,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8849,8 +9103,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverLightsToFlag",
@@ -8868,22 +9122,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -8900,7 +9160,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -8908,8 +9168,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverQualifyingH2HWins",
@@ -9042,22 +9302,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -9074,7 +9340,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9082,8 +9348,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverSeasonLapsLed",
@@ -9101,22 +9367,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -9133,7 +9405,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9141,8 +9413,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverWinnerLapFinishes",
@@ -9214,22 +9486,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "1950-2026 through 2026-07-26",
+        "completeEventCount": 0,
+        "incompleteEventCount": 1160,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; missing events are not zero"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; missing events are not zero"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_not_found",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official lap-by-lap leader data",
       "rawFields": [
@@ -9246,7 +9524,7 @@
       "sourceLicense": "prior written permission required",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact event, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9254,8 +9532,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No complete official historical lap-leader series is present in the canonical archive."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The checksum-bound retained F1DB split-JSON release contains no race lap-times/lap-position dataset; the asserted 876,525-row table is not present in this retained artifact."
     },
     {
       "metricId": "driverSprintFastestLaps",
@@ -9273,19 +9551,26 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "fixtures/stats-final15-evidence.v1.json",
+        "fixtures/stats-remaining36-evidence.v1.json",
         "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
         "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
@@ -9296,7 +9581,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9304,8 +9589,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Sprint sessions only through 2026-07-26; Grand Prix qualifying and race laps are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "No openly licensed complete or non-empty partial Sprint fastest-lap corpus with explicit driver, constructor, lap time and lap number fields was found; the available official detailed timing materials impose reuse restrictions."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no non-empty explicit Sprint fastest-lap driver/time/lap observations."
     },
     {
       "metricId": "driverSprintKilometresLed",
@@ -9323,22 +9608,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -9354,7 +9645,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9362,8 +9653,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
     },
     {
       "metricId": "driverSprintLapsLed",
@@ -9381,22 +9672,28 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 0
+        "resultRowCount": 0,
+        "coveredSeasons": [],
+        "excludedSeasons": "All Sprint seasons through the cutoff",
+        "completeEventCount": 0,
+        "incompleteEventCount": 28,
+        "earliestCoveredEvent": null,
+        "latestCoveredEvent": null,
+        "valueScope": "unavailable; no totals published"
       },
       "targetCoverage": {
-        "seasonCount": 77,
-        "raceCount": 1160,
-        "classificationRowCount": 26143
+        "cutoff": "2026-07-26",
+        "publicationStatus": "unavailable",
+        "valueScope": "unavailable; no totals published"
       },
       "evidenceClass": "C",
       "previousEvidenceState": "official_evidence_partial",
       "previousVerificationState": "external_evidence_blocked",
       "sourceDependencies": [
         "f1/results-archive/v2/manifest.json",
-        "https://www.formula1.com/en/results/{season}/races",
-        "https://www.formula1.com/en/results/{season}/drivers",
-        "https://www.formula1.com/en/results/{season}/team",
-        "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+        "fixtures/stats-remaining36-evidence.v1.json",
+        "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+        "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE"
       ],
       "requiredRawEvidence": "official Sprint classifications and Sprint grids",
       "rawFields": [
@@ -9412,7 +9709,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "No value is emitted until the named official source class is acquired and exact-ID bound.",
+      "derivationMethod": "No value is emitted because the retained corpus lacks explicit lap-position or Sprint fastest-lap evidence; missing events are not zero.",
       "calculable": false,
       "publicationStatus": "unavailable",
       "expectedHistoricalRange": {
@@ -9420,8 +9717,8 @@
         "endSeason": 2026,
         "eventEligibility": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded"
       },
-      "status": "permission_required",
-      "blockingReason": "Results Archive v1 contains Grand Prix classifications only and cannot support a complete Sprint history."
+      "status": "unavailable",
+      "blockingReason": "explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus: The retained licensed source has no Sprint lap-position series from which unique per-lap leaders can be reconstructed."
     },
     {
       "metricId": "driverSprintPodiums",

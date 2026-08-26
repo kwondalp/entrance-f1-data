@@ -112,6 +112,14 @@ to lazy payloads under `metrics/`; `inventory.json` records the exact A/B/C evid
 classification; `coverage.json` reports availability; `schema.json` defines the
 contract; and `manifest.json` binds all files by byte size and SHA-256.
 
+The current partition is 111 populated, zero permission-required, and 33
+unavailable. Driver and Constructor Grand Slams are complete through 2026-07-26
+from the retained F1DB v2026.11.0 explicit Grand Slam field. Driver first across
+the line without an official win is a nine-event bounded partial result; 104
+reviewed candidates remain unresolved and are not zero. The unavailable objects
+identify the missing explicit lap-position or Sprint fastest-lap fields in the
+retained corpus.
+
 Consumers must display raw numeric zero as zero, keep fractional values numeric,
 and use each metric's status, cutoff, completeness, and reason fields. A missing
 payload or blocked metric is not zero. Partial payloads exclude unknown evidence
@@ -119,11 +127,12 @@ rows and must be labelled as evidence-scoped; they must not be presented as
 complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
 and current-season URLs and semantics are unchanged.
 
-The evidence extensions publish 108 metric payloads: the original 75, 21 partial
+The evidence extensions publish 111 metric payloads: the original 75, 21 partial
 metrics derived from F1DB v2026.11.0 under CC BY 4.0, two
 `complete_through_cutoff` fastest-ever-lap payloads for the Driver and
 Constructor record holder, eight verified-configuration circuit-record payloads,
-and two complete winning-age payloads. The fastest-ever payloads retain average
+two complete winning-age payloads, two complete Grand Slam rankings, and one
+bounded-partial first-across event ledger. The fastest-ever payloads retain average
 speed, lap time, session,
 event, circuit configuration, distance, and canonical identities; their public
 value is independently recalculated from licensed structured data and
@@ -133,11 +142,10 @@ excluded. Circuit records are explicitly partial: each payload reports the 159
 observed configurations and its accepted/excluded configuration counts instead
 of implying all-time completeness. Winning ages cover all 116 canonical credited
 winners through 2026-07-26 with independently matching F1DB and Wikidata dates.
-Of the remaining 36 metrics, 35 are `permission_required` and one is
-`unavailable`; all retain a null data path and must render as unavailable, never
-as numeric zero. The four Sprint fastest-lap products require permission because
-the approved 28-event fixture has no explicit fastest-lap facts. Formula 1/FIA
-lap charts and restricted timing documents are not included or redistributed.
+The other 33 metrics are `unavailable`; all retain a null data path and must
+render as unavailable, never as numeric zero, because the retained corpus lacks
+explicit lap-position or Sprint fastest-lap fields. Formula 1/FIA lap charts and
+restricted timing documents are not included or redistributed.
 
 All files under `f1/stats-metric-backfill/v1/` are canonical UTF-8 without BOM,
 LF-only, and final-LF. Their manifest sizes and SHA-256 values bind those exact

@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 13
+handoffVersion: 14
 currentState:
-  status: stats-final15-contract-and-evidence-release-candidate
-  summary: "The additive Stats package contains 108 populated payloads, 35 permission-required catalogue entries, and 1 unavailable entry across the unchanged 144 routes. Eight circuit-record metrics are published with exact partial coverage, two winning-age metrics are complete through 2026-07-26, four Sprint fastest-lap metrics remain permission-gated, and first-across-line-without-win remains unavailable under the three final-15 owner approvals. F1DB v2026.11.0 CC BY 4.0 and checksum-bound Wikidata CC0 provenance are exposed without retaining or redistributing restricted Formula 1/FIA timing material."
+  status: stats-remaining36-release-candidate
+  summary: "The additive Stats package contains 111 populated payloads, 0 permission-required catalogue entries, and 33 unavailable entries across the unchanged 144 routes. Complete-through-cutoff Driver and Constructor Grand Slam totals use 71 explicit F1DB v2026.11.0 Grand Slam observations, while first-across-line-without-win publishes nine positively established events as bounded partial from a 113-candidate review. The exact 33 unsupported production objects are unavailable because the retained checksum-bound corpus has no explicit lap-position or Sprint fastest-lap evidence; all prior 108 payload blobs remain byte-identical."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: stats-remaining36-proposal
+    summary: Three lazy payloads add 28 Driver Grand Slam totals, 14 Constructor Grand Slam totals, and nine bounded-partial first-across-line event rows. Catalogue, inventory, coverage and manifest metadata reclassify the other exact 33 objects to factual-evidence unavailable under OWNER-20260826-STATS-REMAINING36-STATUS-02 while preserving the registry, routes, generic permission-required schema support and every prior payload byte.
   - id: stats-final17-fastest-ever-lap-proposal
     summary: Two checksum-bound complete-through-cutoff payloads add the Driver and Constructor holder of the fastest official qualifying or Grand Prix race lap by average speed under semantic approval OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01, retaining canonical identity, event, session, Monza configuration, lap duration, distance, km/h, fixed F1DB release/licence attribution, and unchanged IDs/routes while leaving the other 15 independently assessed metrics unavailable.
   - id: stats-non-lap-backfill-proposal

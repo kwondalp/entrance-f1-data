@@ -4,6 +4,30 @@
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
 
+## Remaining36 Stats publication proposal
+
+The additive backfill package now contains 111 lazy payloads and 33 unavailable
+catalogue objects across the unchanged 144 Driver and Constructor routes. No
+permission-required production object remains in this exact package, although
+generic schema support is retained for future evidence sources. The prior 108
+payload files are byte-identical.
+
+The three new payloads publish 28 Driver Grand Slam totals and 14 Constructor
+Grand Slam totals from 71 explicit `grandSlam=true` F1DB v2026.11.0 result
+observations across all 27,533 result rows and 1,160 Grand Prix events through
+2026-07-26. The nine-row Driver first-across payload is explicitly bounded
+partial: it includes only positively established first-on-road/non-winning
+events and does not claim completeness for the 104 unresolved members of the
+113-candidate review.
+
+Under `OWNER-20260826-STATS-REMAINING36-STATUS-02`, the other exact 33 objects use
+the blocker
+`explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus`.
+The retained split-JSON archive has no race lap-times/lap-position dataset and no
+explicit Sprint leader or Sprint fastest-lap identity/time/lap fields. Those
+gaps are not represented as zero. No restricted FIA/F1 timing source or raw
+response is present in this repository.
+
 ## Stats metric backfill v1 proposal
 
 The current extensions publish 98 checksum-bound metric payloads: the original

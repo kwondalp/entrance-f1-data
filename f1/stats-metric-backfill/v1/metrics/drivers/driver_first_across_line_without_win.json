@@ -1,0 +1,504 @@
+{
+  "schemaVersion": "stats-metric-backfill-metric.v1",
+  "entity": "drivers",
+  "statisticId": "driver_first_across_line_without_win",
+  "metricId": "driverFirstAcrossLineWithoutWin",
+  "status": "partial",
+  "cutoff": "2026-07-26",
+  "completeness": {
+    "current": {
+      "resultRowCount": 9,
+      "coveredSeasons": [
+        1976,
+        1980,
+        1982,
+        1985,
+        1989,
+        1994,
+        2008,
+        2019,
+        2024
+      ],
+      "excludedSeasons": "No season is claimed complete; 104 unresolved candidate events remain excluded.",
+      "completeEventCount": 9,
+      "incompleteEventCount": 104,
+      "earliestCoveredEvent": {
+        "eventId": "event:1976-9:6d289573b3c0",
+        "eventIndex": 272,
+        "season": 1976,
+        "round": 9,
+        "date": "1976-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch"
+      },
+      "latestCoveredEvent": {
+        "eventId": "event:2024-14:8374d7ca1690",
+        "eventIndex": 1114,
+        "season": 2024,
+        "round": 14,
+        "date": "2024-07-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero"
+    },
+    "target": {
+      "cutoff": "2026-07-26",
+      "publicationStatus": "partial",
+      "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero"
+    }
+  },
+  "rowCount": 9,
+  "rows": [
+    {
+      "entityId": "driver:hunt:c0af61d2ad52",
+      "entityName": "James Hunt",
+      "value": 272,
+      "valueEvent": {
+        "eventId": "event:1976-9:6d289573b3c0",
+        "eventIndex": 272,
+        "season": 1976,
+        "round": 9,
+        "date": "1976-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1976-9:6d289573b3c0",
+              "eventIndex": 272,
+              "season": 1976,
+              "round": 9,
+              "date": "1976-07-18",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "brands_hatch"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:hunt:c0af61d2ad52",
+            "firstAcrossDriverName": "James Hunt",
+            "classifiedWinnerDriverId": "driver:lauda:a96b8acf8741",
+            "classifiedWinnerDriverName": "Niki Lauda",
+            "reason": "The first-on-road driver was later disqualified; the classified win was awarded to Niki Lauda.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1976/races/366/great-britain/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/from-infamous-title-deciders-to-home-race-heartbreaks-7-of-the-most-dramatic.3gUysRekRcxhLJ1MgzvFDZ",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 1
+    },
+    {
+      "entityId": "driver:pironi:e419fd33c039",
+      "entityName": "Didier Pironi",
+      "value": 340,
+      "valueEvent": {
+        "eventId": "event:1980-13:689d9e105304",
+        "eventIndex": 340,
+        "season": 1980,
+        "round": 13,
+        "date": "1980-09-28",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1980-13:689d9e105304",
+              "eventIndex": 340,
+              "season": 1980,
+              "round": 13,
+              "date": "1980-09-28",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:pironi:e419fd33c039",
+            "firstAcrossDriverName": "Didier Pironi",
+            "classifiedWinnerDriverId": "driver:jones:83ac4230619a",
+            "classifiedWinnerDriverName": "Alan Jones",
+            "reason": "Didier Pironi received a one-minute start penalty after taking the chequered flag; Alan Jones was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1980/races/92/canada/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.autosport.com/f1/news/the-top-11-lost-f1-victories-after-the-flag/10812788/",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 2
+    },
+    {
+      "entityId": "driver:piquet:009ec3fd7514",
+      "entityName": "Nelson Piquet",
+      "value": 358,
+      "valueEvent": {
+        "eventId": "event:1982-2:7b45b224e0d3",
+        "eventIndex": 358,
+        "season": 1982,
+        "round": 2,
+        "date": "1982-03-21",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "jacarepagua"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1982-2:7b45b224e0d3",
+              "eventIndex": 358,
+              "season": 1982,
+              "round": 2,
+              "date": "1982-03-21",
+              "grandPrixName": "Brazilian Grand Prix",
+              "circuitId": "jacarepagua"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:piquet:009ec3fd7514",
+            "firstAcrossDriverName": "Nelson Piquet",
+            "classifiedWinnerDriverId": "driver:prost:70f24972bd43",
+            "classifiedWinnerDriverName": "Alain Prost",
+            "reason": "Nelson Piquet finished first on road and was later disqualified; Alain Prost inherited the classified win.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1982/races/438/brazil/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/moments-in-time-the-brazilian-grand-prix.5dr3Egu9lleFLsheSjlkQ0.5dr3Egu9lleFLsheSjlkQ0",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 3
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 406,
+      "valueEvent": {
+        "eventId": "event:1985-3:f550bcea6ba1",
+        "eventIndex": 406,
+        "season": 1985,
+        "round": 3,
+        "date": "1985-05-05",
+        "grandPrixName": "San Marino Grand Prix",
+        "circuitId": "imola"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1985-3:f550bcea6ba1",
+              "eventIndex": 406,
+              "season": 1985,
+              "round": 3,
+              "date": "1985-05-05",
+              "grandPrixName": "San Marino Grand Prix",
+              "circuitId": "imola"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:prost:70f24972bd43",
+            "firstAcrossDriverName": "Alain Prost",
+            "classifiedWinnerDriverId": "driver:angelis:e8033183b98b",
+            "classifiedWinnerDriverName": "Elio de Angelis",
+            "reason": "Alain Prost crossed first and was disqualified for an underweight car; Elio de Angelis was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1985/races/484/san-marino/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.grandprix.com/races/san-marino-gp-1985.html",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 4
+    },
+    {
+      "entityId": "driver:senna:97c74c7d172e",
+      "entityName": "Ayrton Senna",
+      "value": 482,
+      "valueEvent": {
+        "eventId": "event:1989-15:1af4f63ca3a5",
+        "eventIndex": 482,
+        "season": 1989,
+        "round": 15,
+        "date": "1989-10-22",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1989-15:1af4f63ca3a5",
+              "eventIndex": 482,
+              "season": 1989,
+              "round": 15,
+              "date": "1989-10-22",
+              "grandPrixName": "Japanese Grand Prix",
+              "circuitId": "suzuka"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:senna:97c74c7d172e",
+            "firstAcrossDriverName": "Ayrton Senna",
+            "classifiedWinnerDriverId": "driver:nannini:93cbec78c64b",
+            "classifiedWinnerDriverName": "Alessandro Nannini",
+            "reason": "Ayrton Senna took the chequered flag and was disqualified; Alessandro Nannini was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1989/races/557/japan/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/classic-onboard-senna-passes-nannini-in-vain-at-suzuka-89.OUXLUTi3LwqSGmQJkN91l.OUXLUTi3LwqSGmQJkN91l",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 5
+    },
+    {
+      "entityId": "driver:michael-schumacher:6f4f07ba2368",
+      "entityName": "Michael Schumacher",
+      "value": 558,
+      "valueEvent": {
+        "eventId": "event:1994-11:c0617c76ca7a",
+        "eventIndex": 558,
+        "season": 1994,
+        "round": 11,
+        "date": "1994-08-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:1994-11:c0617c76ca7a",
+              "eventIndex": 558,
+              "season": 1994,
+              "round": 11,
+              "date": "1994-08-28",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:michael-schumacher:6f4f07ba2368",
+            "firstAcrossDriverName": "Michael Schumacher",
+            "classifiedWinnerDriverId": "driver:damon-hill:3cf4df1bacf7",
+            "classifiedWinnerDriverName": "Damon Hill",
+            "reason": "Michael Schumacher finished first on road and was disqualified; Damon Hill was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/1994/races/615/belgium/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/from-sennas-suspended-ban-to-vettels-victory-antics-8-crazy-post-race.2Pssou2f1Rh9Iv99fpfcNR",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 6
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 797,
+      "valueEvent": {
+        "eventId": "event:2008-13:153700e74f37",
+        "eventIndex": 797,
+        "season": 2008,
+        "round": 13,
+        "date": "2008-09-07",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:2008-13:153700e74f37",
+              "eventIndex": 797,
+              "season": 2008,
+              "round": 13,
+              "date": "2008-09-07",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:hamilton:528ad2ac33fa",
+            "firstAcrossDriverName": "Lewis Hamilton",
+            "classifiedWinnerDriverId": "driver:massa:86ab3cfe923d",
+            "classifiedWinnerDriverName": "Felipe Massa",
+            "reason": "Lewis Hamilton took the chequered flag and received a post-race time penalty; Felipe Massa was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/2008/races/837/belgium/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/moments-in-time-the-belgian-grand-prix.2bJxwoBEgCzcC1Yrlzj1Qv",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 7
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 1003,
+      "valueEvent": {
+        "eventId": "event:2019-7:9571bf010ecd",
+        "eventIndex": 1003,
+        "season": 2019,
+        "round": 7,
+        "date": "2019-06-09",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:2019-7:9571bf010ecd",
+              "eventIndex": 1003,
+              "season": 2019,
+              "round": 7,
+              "date": "2019-06-09",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:vettel:c74415af2cc1",
+            "firstAcrossDriverName": "Sebastian Vettel",
+            "classifiedWinnerDriverId": "driver:hamilton:528ad2ac33fa",
+            "classifiedWinnerDriverName": "Lewis Hamilton",
+            "reason": "Sebastian Vettel finished first on road but a five-second penalty placed Lewis Hamilton first in the classification.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/results/2019/races/1006/canada/race-result",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/canadian-grand-prix-2019-race-report-highlights.4Jhsl7NERcdaUp4igw5vXi",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 8
+    },
+    {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 1114,
+      "valueEvent": {
+        "eventId": "event:2024-14:8374d7ca1690",
+        "eventIndex": 1114,
+        "season": 2024,
+        "round": 14,
+        "date": "2024-07-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "evidenceRowCount": 1,
+      "record": {
+        "valueScope": "bounded partial totals from positively established cases; unresolved candidates are not zero",
+        "acceptedCases": [
+          {
+            "event": {
+              "eventId": "event:2024-14:8374d7ca1690",
+              "eventIndex": 1114,
+              "season": 2024,
+              "round": 14,
+              "date": "2024-07-28",
+              "grandPrixName": "Belgian Grand Prix",
+              "circuitId": "spa"
+            },
+            "classification": "accepted",
+            "firstAcrossDriverId": "driver:russell:0de59c03b0db",
+            "firstAcrossDriverName": "George Russell",
+            "classifiedWinnerDriverId": "driver:hamilton:528ad2ac33fa",
+            "classifiedWinnerDriverName": "Lewis Hamilton",
+            "reason": "George Russell crossed first and was disqualified for an underweight car; Lewis Hamilton was classified first.",
+            "sources": [
+              {
+                "url": "https://www.formula1.com/en/racing/2024/belgium",
+                "role": "classified winner and event identity",
+                "accessedDate": "2026-08-26"
+              },
+              {
+                "url": "https://www.formula1.com/en/latest/article/breaking-russell-disqualified-from-belgian-grand-prix-for-underweight-car-as.2NIuo4cHgOl1LgplIkGG5D",
+                "role": "positive first-on-road fact and outcome reason",
+                "accessedDate": "2026-08-26"
+              }
+            ]
+          }
+        ]
+      },
+      "rank": 9
+    }
+  ]
+}

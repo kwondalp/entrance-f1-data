@@ -7,12 +7,12 @@
   "generatedFrom": {
     "producerId": "entrance-f1-data-tools/stats-metric-backfill-v1",
     "producerVersion": "1.0.0",
-    "producerSourceChecksumSha256": "28af7ed81fd6e11e95d7ab03f90de422988ef7b0ec1342d5984aee497173766a",
+    "producerSourceChecksumSha256": "c147b34c76f50ad0ea81cc2ff792b1423591f082ccf86c97cf186f8106151212",
     "resultsArchiveManifestSha256": "090e00d65df095a3d03ac2b0489f59a83e73dda5d19c9bead82c058c260f0b7b",
     "canonicalTextEol": "LF",
     "canonicalTextEncoding": "UTF-8 without BOM",
     "eolPortabilityApproval": "OWNER-20260825-STATS-EOL-01",
-    "registrySha256": "1a48788acb34f1813bd8557636a66c0f2989adecd5e2bc51ad54387a6b65061f",
+    "registrySha256": "c56fa86b6e9b74f1875d0c6f7b6d035cb6e482c1b2b978ab040638f2e9d81207",
     "officialPoleFixtureSha256": "d78c3611c0573970bc2d9c53249663da00a1c635092b5afe899450632c5a8931",
     "constructorIdentityPolicySha256": "60e6ee94ea5752cd0f3556904b2af6c258a523c912b0ea925a5065a492c479ed",
     "driverIdentityPolicySha256": "878d33d0908506268fdc51c5f97b4296fa137a3950c2d42fd817ddd0bdcdf741",
@@ -24,6 +24,8 @@
     "final17EvidenceAssessmentSchemaSha256": "5a2eeb4588064f86c4a156416196f6311fcfdf172ab8bc082951510565404b39",
     "final15EvidenceAssessmentSha256": "60ea4b4505ec9490b307ea4c600abd0297ccdcebd597055df4424c85ef729afb",
     "final15EvidenceAssessmentSchemaSha256": "467dd6bb08b11349787adc8fe7277830f2e7fc2f6e9e983cabb9b579905311bc",
+    "remaining36EvidenceAssessmentSha256": "06dbd03e0211e2fb8654b4f6601bfdfc2e0547a20b88940a193d4238fd9352e3",
+    "remaining36EvidenceAssessmentSchemaSha256": "69340cfe131fdcef97477761e303cd26af045711c31dab98cf75eb048ecb080f",
     "final17ApprovalReference": "OWNER-20260825-STATS-FINAL17-01",
     "fastestEverSemanticMigrationApproval": "OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01",
     "fastestEverPreviousCalculation": "minimum_lap_time",
@@ -45,18 +47,26 @@
     "final15DirectResponseByteCount": 137065,
     "final15Http403Count": 0,
     "final15Http429Count": 0,
+    "remaining36ApprovalId": "OWNER-20260826-STATS-REMAINING36-INDEPENDENT-01",
+    "remaining36StatusApprovalId": "OWNER-20260826-STATS-REMAINING36-STATUS-02",
+    "remaining36FactFingerprintSha256": "dc245e2aa7dbac34f04baf21bc854fc1ddec87bfcb3feb07eeb89ef68b829cdc",
+    "remaining36SourceProject": "F1DB by Marcel Overdijk and contributors",
+    "remaining36SourceRelease": "F1DB v2026.11.0",
+    "remaining36SourceUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+    "remaining36License": "CC BY 4.0",
+    "remaining36LicenseUrl": "https://raw.githubusercontent.com/f1db/f1db/v2026.11.0/LICENSE",
     "openDataArchiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
     "openDataLicense": "CC-BY-4.0",
     "openDataAttribution": "F1DB by Marcel Overdijk and contributors, licensed under CC BY 4.0"
   },
   "counts": {
     "total": 144,
-    "available": 108,
-    "partial": 94,
-    "completeThroughCutoff": 14,
-    "blocked": 36,
-    "permissionRequired": 35,
-    "unavailable": 1,
+    "available": 111,
+    "partial": 95,
+    "completeThroughCutoff": 16,
+    "blocked": 33,
+    "permissionRequired": 0,
+    "unavailable": 33,
     "drivers": 76,
     "constructors": 68
   },
@@ -70,20 +80,20 @@
     {
       "path": "catalogue.json",
       "artifactType": "catalogue",
-      "byteSize": 280550,
-      "sha256": "8de0acf282d5854eb4f6aeaa2a1f7c3db6b9d71766bd9de7fd5e7d8eca46ba6b"
+      "byteSize": 302258,
+      "sha256": "16471220f25c978347e19aeb30f5990a5e169f0c8fd3029f9b1f08cfa0c4f0e6"
     },
     {
       "path": "inventory.json",
       "artifactType": "inventory",
-      "byteSize": 398825,
-      "sha256": "d377e1e507597ae2543ee80fc4b2fa5827bc25b8354c90f09b4ec0cbc9771eaa"
+      "byteSize": 418629,
+      "sha256": "9680a4dddfad44af5afaa53cfc91e219fe65e959bf17937d5e9d8099db4f75ca"
     },
     {
       "path": "coverage.json",
       "artifactType": "coverage-report",
-      "byteSize": 2669,
-      "sha256": "eca21312b2870d3fd58826204d609a5b77f9d81ede0c4ef9b245d3dcb56de78e"
+      "byteSize": 3257,
+      "sha256": "73908bade273a4b5c99287c7d516742224f309ae1f645ba57667810423465d53"
     },
     {
       "path": "schema.json",
@@ -336,6 +346,12 @@
       "artifactType": "metric",
       "byteSize": 122331,
       "sha256": "6f153d4fe20ad195c0c0e218da4db204a3b8be1a0818bc215156ddec27314d89"
+    },
+    {
+      "path": "metrics/constructors/constructor_grand_slams.json",
+      "artifactType": "metric",
+      "byteSize": 69430,
+      "sha256": "3a254cb0978580f52bd910122ae14d13f7debeabfef0228d2c7406157e687dd4"
     },
     {
       "path": "metrics/constructors/constructor_hat_tricks.json",
@@ -626,6 +642,12 @@
       "sha256": "92ea21693fda12f4f745a0a1707cb6d1e23ff965261531451b8236db0ab502a6"
     },
     {
+      "path": "metrics/drivers/driver_first_across_line_without_win.json",
+      "artifactType": "metric",
+      "byteSize": 18953,
+      "sha256": "d029a11c043cb18bbb29371a051cd48446719f2e521c9700678e316f945f6d6a"
+    },
+    {
       "path": "metrics/drivers/driver_first_lap_retirements.json",
       "artifactType": "metric",
       "byteSize": 111018,
@@ -660,6 +682,12 @@
       "artifactType": "metric",
       "byteSize": 292031,
       "sha256": "5a0c43221f1afefdf4ce9b4b06be69dcd16894038bde6d10d07d53c2f2e227a3"
+    },
+    {
+      "path": "metrics/drivers/driver_grand_slams.json",
+      "artifactType": "metric",
+      "byteSize": 82852,
+      "sha256": "a11a1a1a4a12a95d84c1743f5162185f6fa35c0313cb583ce3b0b17f4d7396e0"
     },
     {
       "path": "metrics/drivers/driver_hat_tricks.json",
