@@ -4,6 +4,27 @@
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
 
+## Integrity hardening
+
+Under OWNER-20260827-INTEGRITY-HARDENING-03, the current Dutch sporting values
+remain unchanged while Results Archive, Stats Core, Stats Lab and backfill
+metadata are coherently rebound to stable release-owned producer provenance.
+The Results Archive schema accepts legitimate future ISO archive cutoffs without
+a schema edit and requires the cutoff, coverage metadata, pointer and latest
+included event to agree.
+
+Every manifest entry, byte count, SHA-256 and declared file set closes exactly.
+The schema is byte-identical to the Tools canonical copy, all 144 Stats routes
+are unique and populated, and Sprint leader coverage remains exactly 29 events
+and 580 accepted completed laps. Results Archive non-manifest payloads, all
+three Stats Core calculated payloads and all backfill calculated payloads remain
+byte-identical. The Stats Lab catalogue and 157 payloads differ only in
+source-binding metadata after provenance fields are excluded from comparison.
+
+Machine-generated JSON and schema paths are explicitly LF-pinned. Twin
+generation and the paired Windows-style and LF-only candidate comparisons are
+byte-identical and match the committed candidate bytes.
+
 ## Dutch cutoff and all 144 Stats routes
 
 The current candidate advances the shared Data contract through the completed
