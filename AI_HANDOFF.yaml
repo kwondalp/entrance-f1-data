@@ -224,7 +224,7 @@ validation:
       command: Run the in-memory historical-records-api-contract.v1 to published-historical-records.v1 conformance matrix.
   results:
     - id: result-integrity-hardening
-      summary: Results Archive non-manifest payloads, all three Stats Core calculated payloads and all backfill calculated payloads remain byte-identical to the prior release. Stats Lab catalogue and 157 payloads differ only in source-binding metadata after stripping provenance fields. Schema copies are byte-identical to the canonical Tools schema, and all generated candidates match the Data tree.
+      summary: Results Archive non-manifest payloads, all three Stats Core calculated payloads and all backfill calculated payloads remain byte-identical to the prior release. The clean-clone replay replaces the historical CRLF-derived archive input-set fingerprint with the canonical Git-blob/LF fingerprint. Stats Lab catalogue and 157 payloads differ only in source-binding metadata after stripping provenance fields. Schema copies are byte-identical to the canonical Tools schema, and all generated candidates match the Data tree.
     - id: result-stats-cc0-lap-position-proposal
       summary: The 144-object package validates at 140 populated, 0 permission-required and 4 unavailable across 76 Driver and 68 Constructor routes. All 559 JSON files parse; all 144 manifest entries match bytes and SHA-256; two 145-file generated candidates and the applied Data tree are byte-identical; and all 111 pre-existing metric Git blobs are unchanged. Proposal files pass UTF-8 without BOM, LF/final-LF, whitespace, credential, machine-path and restricted-raw scans.
       status: passed

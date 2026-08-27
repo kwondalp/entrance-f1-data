@@ -20,6 +20,9 @@ and 580 accepted completed laps. Results Archive non-manifest payloads, all
 three Stats Core calculated payloads and all backfill calculated payloads remain
 byte-identical. The Stats Lab catalogue and 157 payloads differ only in
 source-binding metadata after provenance fields are excluded from comparison.
+The clean-clone replay also replaces the previous archive input-set checksum
+that had been calculated from CRLF-converted Windows fixture bytes with the
+canonical Git-blob/LF fingerprint; the resulting cascade is metadata-only.
 
 Machine-generated JSON and schema paths are explicitly LF-pinned. Twin
 generation and the paired Windows-style and LF-only candidate comparisons are
