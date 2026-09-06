@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Web data completion review
+
+Verified Monaco corrections and all dependent manifests are synchronized through the Dutch GP on 2026-08-23. New profiles and catalogue-completion packages retain source hashes and explicit partial coverage. Five statistic routes remain unresolved; eleven future result omissions are a Web presentation choice. This is a feature candidate, not a production activation.
+
+See [docs/web-data-completion.md](docs/web-data-completion.md) for reproduction, precise coverage, unresolved fields and review evidence. Original working directories and the App reference are preserved. Main promotion, production activation and deployment remain separate.
+
 ## Project purpose
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.

@@ -1,5 +1,7 @@
 # entrance-f1-data
 
+Current feature candidate: [Web completion data contract](docs/web-data-completion.md). Production activation remains separate.
+
 This repository is the stable static JSON data source for ENTRANCE consumers.
 
 It contains no API server, application runtime, or automatic publishing step. Clients fetch approved files directly, and promotion from `entrance-f1-data-tools` remains a manual, reviewed operation.

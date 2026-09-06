@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "stats-lab-production-metric.v1",
+  "entity": "drivers",
+  "statisticId": "female_drivers",
+  "metricId": "approvedDriverRacePerformanceFemaleDrivers",
+  "loadedRowCount": 1,
+  "rowCount": 1,
+  "rows": [
+    {
+      "entityId": "driver:lombardi:bdeb2af3ff19",
+      "entityName": "Lella Lombardi",
+      "value": 12,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1975-3:a99a3bc19c13",
+        "event:1975-4:85fa9e1c20e2",
+        "event:1975-6:b45fcf7db6e1",
+        "event:1975-7:cfc5b7f6b03b",
+        "event:1975-8:5c7ca6a25eb1",
+        "event:1975-9:6146e5766961",
+        "event:1975-10:073f5ae90da1",
+        "event:1975-11:7917ab19da50",
+        "event:1975-12:bf3ae8d6569c",
+        "event:1975-13:f425f0993501",
+        "event:1975-14:a7361d2981c9",
+        "event:1976-1:0d14c591747c",
+        "event:1976-11:8aa0f8900724"
+      ],
+      "rank": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:lombardi:bdeb2af3ff19",
+        "sourcePath": "details/drivers/a.json",
+        "eventIds": [
+          "event:1975-3:a99a3bc19c13",
+          "event:1975-4:85fa9e1c20e2",
+          "event:1975-6:b45fcf7db6e1",
+          "event:1975-7:cfc5b7f6b03b",
+          "event:1975-8:5c7ca6a25eb1",
+          "event:1975-9:6146e5766961",
+          "event:1975-10:073f5ae90da1",
+          "event:1975-11:7917ab19da50",
+          "event:1975-12:bf3ae8d6569c",
+          "event:1975-13:f425f0993501",
+          "event:1975-14:a7361d2981c9",
+          "event:1976-1:0d14c591747c",
+          "event:1976-11:8aa0f8900724"
+        ]
+      }
+    }
+  ],
+  "coverage": {
+    "oldestIncludedSeason": 1950,
+    "latestIncludedSeason": 2026,
+    "includedSeasonCount": 77,
+    "includedRaceCount": 1161,
+    "includedClassificationRowCount": 26165,
+    "verifiedSeasonCount": 77,
+    "provisionalSeasonCount": 0,
+    "historicalStandingsStatus": "provisional_identity_reconciliation_required",
+    "asOfRaceDate": "2026-08-23",
+    "resultsArchiveManifestSha256": "e825d14fd0e922a8fe5c8d64e24b6aa98d58fd21538bf1f38db00e0c8255b0fa",
+    "note": "Driver metadata from F1DB v2026.11.0, exact canonical identity matching; value is verified Grand Prix starts.",
+    "knownExclusions": [],
+    "excludedEntityCount": 0
+  },
+  "exclusions": []
+}
