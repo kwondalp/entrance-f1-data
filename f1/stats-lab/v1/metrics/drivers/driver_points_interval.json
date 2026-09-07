@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-08-23",
+    "asOfRaceDate": "2026-09-06",
     "seasonCount": 77,
-    "raceCount": 1161,
-    "classificationRowCount": 26165,
-    "resultsArchiveManifestSha256": "97bbefd8fc2add084197aa2bc61afa886bce658ca99c4dacffa9bcfc56452d27"
+    "raceCount": 1162,
+    "classificationRowCount": 26187,
+    "resultsArchiveManifestSha256": "c33a4e2c2130e3a10364b1038491577a1caa2221e1eab35342d66fc720befcbb"
   },
   "rowCount": 356,
   "rows": [
@@ -3016,7 +3016,7 @@
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
       "entityName": "Lewis Hamilton",
-      "value": 7098,
+      "value": 7112,
       "firstEvent": {
         "eventId": "event:2007-1:4f36ead3868a",
         "eventIndex": 768,
@@ -3027,13 +3027,13 @@
         "eventDate": "2007-03-18"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -3042,7 +3042,7 @@
         "factType": "points",
         "eventIds": [
           "event:2007-1:4f36ead3868a",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -4408,6 +4408,10 @@
         [
           1160,
           12
+        ],
+        [
+          1161,
+          8
         ]
       ],
       "rank": 4
@@ -15382,96 +15386,9 @@
       "rank": 31
     },
     {
-      "entityId": "driver:rosa:5c5a373dd0bb",
-      "entityName": "Pedro de la Rosa",
-      "value": 4165,
-      "firstEvent": {
-        "eventId": "event:1999-1:66dc9959d946",
-        "eventIndex": 630,
-        "season": 1999,
-        "round": 1,
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park",
-        "eventDate": "1999-03-07"
-      },
-      "lastEvent": {
-        "eventId": "event:2010-12:645f8df73a74",
-        "eventIndex": 831,
-        "season": 2010,
-        "round": 12,
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring",
-        "eventDate": "2010-08-01"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:rosa:5c5a373dd0bb",
-        "sourcePath": "details/drivers/0.json",
-        "factType": "points",
-        "eventIds": [
-          "event:1999-1:66dc9959d946",
-          "event:2010-12:645f8df73a74"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          630,
-          1
-        ],
-        [
-          651,
-          1
-        ],
-        [
-          656,
-          1
-        ],
-        [
-          670,
-          1
-        ],
-        [
-          677,
-          2
-        ],
-        [
-          733,
-          4
-        ],
-        [
-          760,
-          2
-        ],
-        [
-          762,
-          8
-        ],
-        [
-          763,
-          4
-        ],
-        [
-          765,
-          4
-        ],
-        [
-          767,
-          1
-        ],
-        [
-          831,
-          6
-        ]
-      ],
-      "rank": 32
-    },
-    {
       "entityId": "driver:max-verstappen:1f6847211200",
       "entityName": "Max Verstappen",
-      "value": 4137,
+      "value": 4179,
       "firstEvent": {
         "eventId": "event:2015-2:39caa3ecc510",
         "eventIndex": 917,
@@ -15482,13 +15399,13 @@
         "eventDate": "2015-03-29"
       },
       "lastEvent": {
-        "eventId": "event:2026-11:e63cf3e76869",
-        "eventIndex": 1159,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 11,
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring",
-        "eventDate": "2026-07-26"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -15497,7 +15414,7 @@
         "factType": "points",
         "eventIds": [
           "event:2015-2:39caa3ecc510",
-          "event:2026-11:e63cf3e76869"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -16311,6 +16228,97 @@
         [
           1159,
           18
+        ],
+        [
+          1161,
+          15
+        ]
+      ],
+      "rank": 32
+    },
+    {
+      "entityId": "driver:rosa:5c5a373dd0bb",
+      "entityName": "Pedro de la Rosa",
+      "value": 4165,
+      "firstEvent": {
+        "eventId": "event:1999-1:66dc9959d946",
+        "eventIndex": 630,
+        "season": 1999,
+        "round": 1,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park",
+        "eventDate": "1999-03-07"
+      },
+      "lastEvent": {
+        "eventId": "event:2010-12:645f8df73a74",
+        "eventIndex": 831,
+        "season": 2010,
+        "round": 12,
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring",
+        "eventDate": "2010-08-01"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:rosa:5c5a373dd0bb",
+        "sourcePath": "details/drivers/0.json",
+        "factType": "points",
+        "eventIds": [
+          "event:1999-1:66dc9959d946",
+          "event:2010-12:645f8df73a74"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          630,
+          1
+        ],
+        [
+          651,
+          1
+        ],
+        [
+          656,
+          1
+        ],
+        [
+          670,
+          1
+        ],
+        [
+          677,
+          2
+        ],
+        [
+          733,
+          4
+        ],
+        [
+          760,
+          2
+        ],
+        [
+          762,
+          8
+        ],
+        [
+          763,
+          4
+        ],
+        [
+          765,
+          4
+        ],
+        [
+          767,
+          1
+        ],
+        [
+          831,
+          6
         ]
       ],
       "rank": 33
@@ -26045,7 +26053,7 @@
     {
       "entityId": "driver:gasly:0fca70394caf",
       "entityName": "Pierre Gasly",
-      "value": 3059,
+      "value": 3073,
       "firstEvent": {
         "eventId": "event:2018-2:b72d6190477a",
         "eventIndex": 977,
@@ -26056,13 +26064,13 @@
         "eventDate": "2018-04-08"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -26071,7 +26079,7 @@
         "factType": "points",
         "eventIds": [
           "event:2018-2:b72d6190477a",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -26396,7 +26404,7 @@
         ],
         [
           1154,
-          15
+          6
         ],
         [
           1155,
@@ -26409,9 +26417,13 @@
         [
           1160,
           1
+        ],
+        [
+          1161,
+          6
         ]
       ],
-      "rank": 71
+      "rank": 70
     },
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
@@ -27753,7 +27765,7 @@
     {
       "entityId": "driver:norris:5581145e4767",
       "entityName": "Lando Norris",
-      "value": 2702,
+      "value": 2716,
       "firstEvent": {
         "eventId": "event:2019-2:a0d869828a19",
         "eventIndex": 998,
@@ -27764,13 +27776,13 @@
         "eventDate": "2019-03-31"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -27779,7 +27791,7 @@
         "factType": "points",
         "eventIds": [
           "event:2019-2:a0d869828a19",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -28305,6 +28317,10 @@
         [
           1160,
           25
+        ],
+        [
+          1161,
+          12
         ]
       ],
       "rank": 79
@@ -31699,7 +31715,7 @@
     {
       "entityId": "driver:russell:0de59c03b0db",
       "entityName": "George Russell",
-      "value": 2086,
+      "value": 2100,
       "firstEvent": {
         "eventId": "event:2020-16:fcacc7c1c62b",
         "eventIndex": 1033,
@@ -31710,13 +31726,13 @@
         "eventDate": "2020-12-06"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -31725,7 +31741,7 @@
         "factType": "points",
         "eventIds": [
           "event:2020-16:fcacc7c1c62b",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -32111,6 +32127,10 @@
         [
           1160,
           15
+        ],
+        [
+          1161,
+          18
         ]
       ],
       "rank": 105
@@ -32393,6 +32413,181 @@
       "rank": 108
     },
     {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 1988,
+      "firstEvent": {
+        "eventId": "event:2021-1:69f181c43033",
+        "eventIndex": 1035,
+        "season": 2021,
+        "round": 1,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2021-03-28"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
+        "season": 2026,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:tsunoda:d77287c8b9c8",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "points",
+        "eventIds": [
+          "event:2021-1:69f181c43033",
+          "event:2026-13:24e3e42cf8a5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1035,
+          2
+        ],
+        [
+          1040,
+          6
+        ],
+        [
+          1042,
+          1
+        ],
+        [
+          1044,
+          1
+        ],
+        [
+          1045,
+          8
+        ],
+        [
+          1051,
+          2
+        ],
+        [
+          1056,
+          12
+        ],
+        [
+          1057,
+          4
+        ],
+        [
+          1060,
+          6
+        ],
+        [
+          1062,
+          1
+        ],
+        [
+          1075,
+          1
+        ],
+        [
+          1081,
+          1
+        ],
+        [
+          1082,
+          1
+        ],
+        [
+          1090,
+          1
+        ],
+        [
+          1096,
+          5
+        ],
+        [
+          1098,
+          2
+        ],
+        [
+          1100,
+          4
+        ],
+        [
+          1103,
+          6
+        ],
+        [
+          1104,
+          1
+        ],
+        [
+          1106,
+          6
+        ],
+        [
+          1107,
+          1
+        ],
+        [
+          1108,
+          4
+        ],
+        [
+          1112,
+          1
+        ],
+        [
+          1113,
+          2
+        ],
+        [
+          1121,
+          6
+        ],
+        [
+          1122,
+          2
+        ],
+        [
+          1128,
+          2
+        ],
+        [
+          1130,
+          1
+        ],
+        [
+          1131,
+          1
+        ],
+        [
+          1139,
+          2
+        ],
+        [
+          1141,
+          8
+        ],
+        [
+          1143,
+          6
+        ],
+        [
+          1147,
+          1
+        ],
+        [
+          1161,
+          1
+        ]
+      ],
+      "rank": 109
+    },
+    {
       "entityId": "driver:gendebien:722aba0155e5",
       "entityName": "Olivier Gendebien",
       "value": 1974,
@@ -32449,7 +32644,7 @@
           3
         ]
       ],
-      "rank": 109
+      "rank": 110
     },
     {
       "entityId": "driver:gregory:3ee4901e4cc4",
@@ -32512,7 +32707,7 @@
           1
         ]
       ],
-      "rank": 110
+      "rank": 111
     },
     {
       "entityId": "driver:depailler:b5cf50bce46d",
@@ -32695,7 +32890,7 @@
           2
         ]
       ],
-      "rank": 111
+      "rank": 112
     },
     {
       "entityId": "driver:mass:35e234910d35",
@@ -32846,7 +33041,7 @@
           3
         ]
       ],
-      "rank": 112
+      "rank": 113
     },
     {
       "entityId": "driver:oliver:92571f0c676e",
@@ -32905,7 +33100,7 @@
           4
         ]
       ],
-      "rank": 113
+      "rank": 114
     },
     {
       "entityId": "driver:glock:55cf369e2b70",
@@ -33000,7 +33195,7 @@
           8
         ]
       ],
-      "rank": 113
+      "rank": 114
     },
     {
       "entityId": "driver:ireland:655aaf7bf33d",
@@ -33095,7 +33290,7 @@
           2
         ]
       ],
-      "rank": 115
+      "rank": 116
     },
     {
       "entityId": "driver:montoya:68737b86fe17",
@@ -33362,7 +33557,7 @@
           3
         ]
       ],
-      "rank": 116
+      "rank": 117
     },
     {
       "entityId": "driver:farina:edc963649157",
@@ -33501,7 +33696,7 @@
           4
         ]
       ],
-      "rank": 117
+      "rank": 118
     },
     {
       "entityId": "driver:suzuki:4f9f7240fcf2",
@@ -33560,7 +33755,7 @@
           1
         ]
       ],
-      "rank": 118
+      "rank": 119
     },
     {
       "entityId": "driver:johansson:036b6578adb4",
@@ -33703,7 +33898,7 @@
           4
         ]
       ],
-      "rank": 118
+      "rank": 119
     },
     {
       "entityId": "driver:hunt:c0af61d2ad52",
@@ -33882,7 +34077,7 @@
           4
         ]
       ],
-      "rank": 120
+      "rank": 121
     },
     {
       "entityId": "driver:rindt:46dabdd8ff6b",
@@ -34005,7 +34200,7 @@
           9
         ]
       ],
-      "rank": 120
+      "rank": 121
     },
     {
       "entityId": "driver:thomson:c53e1f767be3",
@@ -34056,7 +34251,7 @@
           2
         ]
       ],
-      "rank": 120
+      "rank": 121
     },
     {
       "entityId": "driver:hanks:32313f8014e4",
@@ -34111,7 +34306,7 @@
           8
         ]
       ],
-      "rank": 123
+      "rank": 124
     },
     {
       "entityId": "driver:villoresi:f59ed3868399",
@@ -34206,7 +34401,7 @@
           2
         ]
       ],
-      "rank": 124
+      "rank": 125
     },
     {
       "entityId": "driver:scarfiotti:62e48ae1a222",
@@ -34265,7 +34460,7 @@
           3
         ]
       ],
-      "rank": 125
+      "rank": 126
     },
     {
       "entityId": "driver:pace:f2913e9cfb72",
@@ -34366,177 +34561,6 @@
         [
           280,
           6
-        ]
-      ],
-      "rank": 126
-    },
-    {
-      "entityId": "driver:tsunoda:d77287c8b9c8",
-      "entityName": "Yuki Tsunoda",
-      "value": 1708,
-      "firstEvent": {
-        "eventId": "event:2021-1:69f181c43033",
-        "eventIndex": 1035,
-        "season": 2021,
-        "round": 1,
-        "grandPrixName": "Bahrain Grand Prix",
-        "circuitId": "bahrain",
-        "eventDate": "2021-03-28"
-      },
-      "lastEvent": {
-        "eventId": "event:2025-23:465c7b16bc45",
-        "eventIndex": 1147,
-        "season": 2025,
-        "round": 23,
-        "grandPrixName": "Qatar Grand Prix",
-        "circuitId": "losail",
-        "eventDate": "2025-11-30"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:tsunoda:d77287c8b9c8",
-        "sourcePath": "details/drivers/5.json",
-        "factType": "points",
-        "eventIds": [
-          "event:2021-1:69f181c43033",
-          "event:2025-23:465c7b16bc45"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1035,
-          2
-        ],
-        [
-          1040,
-          6
-        ],
-        [
-          1042,
-          1
-        ],
-        [
-          1044,
-          1
-        ],
-        [
-          1045,
-          8
-        ],
-        [
-          1051,
-          2
-        ],
-        [
-          1056,
-          12
-        ],
-        [
-          1057,
-          4
-        ],
-        [
-          1060,
-          6
-        ],
-        [
-          1062,
-          1
-        ],
-        [
-          1075,
-          1
-        ],
-        [
-          1081,
-          1
-        ],
-        [
-          1082,
-          1
-        ],
-        [
-          1090,
-          1
-        ],
-        [
-          1096,
-          5
-        ],
-        [
-          1098,
-          2
-        ],
-        [
-          1100,
-          4
-        ],
-        [
-          1103,
-          6
-        ],
-        [
-          1104,
-          1
-        ],
-        [
-          1106,
-          6
-        ],
-        [
-          1107,
-          1
-        ],
-        [
-          1108,
-          4
-        ],
-        [
-          1112,
-          1
-        ],
-        [
-          1113,
-          2
-        ],
-        [
-          1121,
-          6
-        ],
-        [
-          1122,
-          2
-        ],
-        [
-          1128,
-          2
-        ],
-        [
-          1130,
-          1
-        ],
-        [
-          1131,
-          1
-        ],
-        [
-          1139,
-          2
-        ],
-        [
-          1141,
-          8
-        ],
-        [
-          1143,
-          6
-        ],
-        [
-          1147,
-          1
         ]
       ],
       "rank": 127
@@ -37015,7 +37039,7 @@
     {
       "entityId": "driver:piastri:45bbf3cf700f",
       "entityName": "Oscar Piastri",
-      "value": 1239,
+      "value": 1253,
       "firstEvent": {
         "eventId": "event:2023-3:0ba8ad28a765",
         "eventIndex": 1081,
@@ -37026,13 +37050,13 @@
         "eventDate": "2023-04-02"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -37041,7 +37065,7 @@
         "factType": "points",
         "eventIds": [
           "event:2023-3:0ba8ad28a765",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -37282,7 +37306,7 @@
         ],
         [
           1154,
-          10
+          12
         ],
         [
           1155,
@@ -37299,6 +37323,10 @@
         [
           1160,
           8
+        ],
+        [
+          1161,
+          10
         ]
       ],
       "rank": 161
@@ -38317,7 +38345,7 @@
         ],
         [
           1154,
-          8
+          10
         ],
         [
           1155,
@@ -40296,6 +40324,81 @@
       "rank": 200
     },
     {
+      "entityId": "driver:colapinto:b0daf67dc8e6",
+      "entityName": "Franco Colapinto",
+      "value": 721,
+      "firstEvent": {
+        "eventId": "event:2024-17:02d5649e1702",
+        "eventIndex": 1117,
+        "season": 2024,
+        "round": 17,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "eventDate": "2024-09-15"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
+        "season": 2026,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:colapinto:b0daf67dc8e6",
+        "sourcePath": "details/drivers/f.json",
+        "factType": "points",
+        "eventIds": [
+          "event:2024-17:02d5649e1702",
+          "event:2026-13:24e3e42cf8a5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1117,
+          4
+        ],
+        [
+          1119,
+          1
+        ],
+        [
+          1150,
+          1
+        ],
+        [
+          1152,
+          6
+        ],
+        [
+          1153,
+          8
+        ],
+        [
+          1155,
+          1
+        ],
+        [
+          1157,
+          2
+        ],
+        [
+          1158,
+          1
+        ],
+        [
+          1161,
+          2
+        ]
+      ],
+      "rank": 202
+    },
+    {
       "entityId": "driver:gethin:87bc51940490",
       "entityName": "Peter Gethin",
       "value": 721,
@@ -40415,7 +40518,7 @@
           1
         ]
       ],
-      "rank": 203
+      "rank": 204
     },
     {
       "entityId": "driver:jabouille:1481bda9b6cd",
@@ -40466,7 +40569,7 @@
           9
         ]
       ],
-      "rank": 204
+      "rank": 205
     },
     {
       "entityId": "driver:wendlinger:e8fbb909096c",
@@ -40533,78 +40636,7 @@
           3
         ]
       ],
-      "rank": 204
-    },
-    {
-      "entityId": "driver:colapinto:b0daf67dc8e6",
-      "entityName": "Franco Colapinto",
-      "value": 672,
-      "firstEvent": {
-        "eventId": "event:2024-17:02d5649e1702",
-        "eventIndex": 1117,
-        "season": 2024,
-        "round": 17,
-        "grandPrixName": "Azerbaijan Grand Prix",
-        "circuitId": "baku",
-        "eventDate": "2024-09-15"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-10:962ab94f681f",
-        "eventIndex": 1158,
-        "season": 2026,
-        "round": 10,
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa",
-        "eventDate": "2026-07-19"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:colapinto:b0daf67dc8e6",
-        "sourcePath": "details/drivers/f.json",
-        "factType": "points",
-        "eventIds": [
-          "event:2024-17:02d5649e1702",
-          "event:2026-10:962ab94f681f"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1117,
-          4
-        ],
-        [
-          1119,
-          1
-        ],
-        [
-          1150,
-          1
-        ],
-        [
-          1152,
-          6
-        ],
-        [
-          1153,
-          8
-        ],
-        [
-          1155,
-          1
-        ],
-        [
-          1157,
-          2
-        ],
-        [
-          1158,
-          1
-        ]
-      ],
-      "rank": 206
+      "rank": 205
     },
     {
       "entityId": "driver:fittipaldi:cf4462691f31",
@@ -41208,7 +41240,7 @@
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
       "entityName": "Kimi Antonelli",
-      "value": 525,
+      "value": 539,
       "firstEvent": {
         "eventId": "event:2025-1:7c43929f48ef",
         "eventIndex": 1125,
@@ -41219,13 +41251,13 @@
         "eventDate": "2025-03-16"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
       },
       "detail": {
         "type": "interval",
@@ -41234,7 +41266,7 @@
         "factType": "points",
         "eventIds": [
           "event:2025-1:7c43929f48ef",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-13:24e3e42cf8a5"
         ],
         "groupId": null,
         "season": null,
@@ -41336,6 +41368,10 @@
         [
           1160,
           18
+        ],
+        [
+          1161,
+          25
         ]
       ],
       "rank": 216
@@ -41481,7 +41517,7 @@
         ],
         [
           1154,
-          12
+          15
         ],
         [
           1155,
@@ -43538,6 +43574,77 @@
       "rank": 255
     },
     {
+      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
+      "entityName": "Arvid Lindblad",
+      "value": 182,
+      "firstEvent": {
+        "eventId": "event:2026-1:4bf04bce2aa9",
+        "eventIndex": 1149,
+        "season": 2026,
+        "round": 1,
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park",
+        "eventDate": "2026-03-08"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-13:24e3e42cf8a5",
+        "eventIndex": 1161,
+        "season": 2026,
+        "round": 13,
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza",
+        "eventDate": "2026-09-06"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:arvid-lindblad:0994b6f3b22f",
+        "sourcePath": "details/drivers/b.json",
+        "factType": "points",
+        "eventIds": [
+          "event:2026-1:4bf04bce2aa9",
+          "event:2026-13:24e3e42cf8a5"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          1149,
+          4
+        ],
+        [
+          1154,
+          8
+        ],
+        [
+          1155,
+          2
+        ],
+        [
+          1156,
+          1
+        ],
+        [
+          1157,
+          6
+        ],
+        [
+          1158,
+          2
+        ],
+        [
+          1159,
+          1
+        ],
+        [
+          1161,
+          4
+        ]
+      ],
+      "rank": 256
+    },
+    {
       "entityId": "driver:brendon-hartley:5ed700acee55",
       "entityName": "Brendon Hartley",
       "value": 175,
@@ -43586,7 +43693,7 @@
           2
         ]
       ],
-      "rank": 256
+      "rank": 257
     },
     {
       "entityId": "driver:schenken:32468343f520",
@@ -43637,74 +43744,7 @@
           2
         ]
       ],
-      "rank": 256
-    },
-    {
-      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
-      "entityName": "Arvid Lindblad",
-      "value": 140,
-      "firstEvent": {
-        "eventId": "event:2026-1:4bf04bce2aa9",
-        "eventIndex": 1149,
-        "season": 2026,
-        "round": 1,
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park",
-        "eventDate": "2026-03-08"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-11:e63cf3e76869",
-        "eventIndex": 1159,
-        "season": 2026,
-        "round": 11,
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring",
-        "eventDate": "2026-07-26"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:arvid-lindblad:0994b6f3b22f",
-        "sourcePath": "details/drivers/b.json",
-        "factType": "points",
-        "eventIds": [
-          "event:2026-1:4bf04bce2aa9",
-          "event:2026-11:e63cf3e76869"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          1149,
-          4
-        ],
-        [
-          1154,
-          6
-        ],
-        [
-          1155,
-          2
-        ],
-        [
-          1156,
-          1
-        ],
-        [
-          1157,
-          6
-        ],
-        [
-          1158,
-          2
-        ],
-        [
-          1159,
-          1
-        ]
-      ],
-      "rank": 258
+      "rank": 257
     },
     {
       "entityId": "driver:maglioli:eccaeffcc7b8",

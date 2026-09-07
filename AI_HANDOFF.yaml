@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 17
+handoffVersion: 18
 currentState:
-  status: integrity-hardening-validated-candidate
-  summary: "Under OWNER-20260827-INTEGRITY-HARDENING-03, the Dutch-cutoff Data values are preserved while Results Archive, Stats Core, Stats Lab and backfill metadata are coherently rebound to stable release-owned producer provenance. The reusable archive schema, manifest closure and explicit UTF-8/LF policy validate every declared byte, all 144 routes and all 29 Sprint leader events without changing calculated sporting values."
+  status: italian-round-13-validated-candidate
+  summary: "The approved post-race draft advances current-season results, schedule, standings, Results Archive v2, Stats Core and Stats Lab through the verified 2026 Italian Grand Prix. It also preserves the official Monaco prefix correction. Stable IDs and schemas are unchanged, all regenerated manifests close, and Stats metric backfill preserves its previous valid payload after its independent cutoff gate rejects regeneration."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: italian-round-13-recovery
+    summary: Adds the official 22-car Italian Round 13 classification, qualifying pole and post-race standings, reconciles the previously published Monaco prefix correction, advances the next-race pointer to Spain Round 14, and regenerates manifest-bound archive and statistics packages from the same verified cutoff without importing unrelated candidate work.
   - id: integrity-hardening-provenance-rebind
     summary: The Results Archive schema accepts valid future ISO cutoffs and requires cutoff, coverage and latest-event agreement. All affected manifests and 157 Stats Lab payloads use independently verifiable release-owned producer provenance; machine-generated JSON and schema paths are LF-pinned; every manifest entry, byte count, checksum and declared file set closes exactly; and no calculated sporting value changed.
   - id: dutch-sprint-leader-proposal
@@ -223,6 +225,9 @@ validation:
       summary: Validate a synthetic producer API payload and its consumer-safe projection into the published schema without writing a dataset.
       command: Run the in-memory historical-records-api-contract.v1 to published-historical-records.v1 conformance matrix.
   results:
+    - id: result-italian-round-13-recovery
+      summary: "The draft contains 13 current-season races and 286 current-season archive classification rows, with Kimi Antonelli as Italian winner, Pierre Gasly as pole sitter, Kimi Antonelli leading Drivers on 267 points and Mercedes leading Constructors on 468 points. All repository JSON parses and every Results Archive, Stats Core and Stats Lab manifest byte/SHA declaration closes against the candidate."
+      status: passed
     - id: result-integrity-hardening
       summary: Results Archive non-manifest payloads, all three Stats Core calculated payloads and all backfill calculated payloads remain byte-identical to the prior release. The clean-clone replay replaces the historical CRLF-derived archive input-set fingerprint with the canonical Git-blob/LF fingerprint. Stats Lab catalogue and 157 payloads differ only in source-binding metadata after stripping provenance fields. Schema copies are byte-identical to the canonical Tools schema, and all generated candidates match the Data tree.
     - id: result-stats-cc0-lap-position-proposal
@@ -274,6 +279,8 @@ validation:
       summary: The Stats metric backfill publishes 108 checksum-bound payloads, with eight new verified-configuration circuit-record metrics marked partial and two winning-age metrics complete through 2026-07-26. Coverage is 108 available, 35 permission-required, and one unavailable across 144 unchanged routes; all 98 previously populated metric payload blobs are byte-identical to the baseline, and all 113 generated package files are UTF-8 without BOM, LF-only, final-LF, and manifest-valid.
       status: passed
 lastCompletedWork:
+  - id: completed-italian-round-13-recovery
+    summary: Prepared the exact approved Data publication set for Italian Round 13 plus the verified Monaco correction, leaving profile, catalogue and unrelated Stats work outside the recovery and preserving the prior valid metric-backfill package.
   - id: completed-integrity-hardening
     summary: Rebound generated release provenance and line-ending contracts without changing any calculated Formula 1 value, then validated complete schema, manifest, route and checksum closure.
   - id: completed-handoff-bootstrap

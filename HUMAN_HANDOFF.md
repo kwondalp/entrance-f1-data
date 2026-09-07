@@ -1,5 +1,22 @@
 # Human handoff: ENTRANCE F1 Data
 
+## 2026 Italian Grand Prix recovery candidate
+
+The exact post-race draft advances the shared production contracts through
+Italian Round 13. It includes the official 22-car race classification, Pierre
+Gasly's qualifying pole, post-race Driver and Constructor standings, completed
+session state, and Spain Round 14 as the next race. The full current-season
+prefix was rechecked independently, so the official Monaco correction is
+preserved before Italy is appended.
+
+Results Archive v2 now contains 1,162 races and 26,187 classification rows;
+Stats Core and Stats Lab are regenerated from the same cutoff and all manifest
+byte-size/SHA-256 bindings close. The separate Stats metric backfill generator
+rejected the new archive at its own cutoff gate, so that package is deliberately
+preserved byte-for-byte as the previous valid payload rather than partially
+updated. Stable IDs, schemas, profile/catalogue work and unrelated Stats changes
+are outside this recovery.
+
 ## Project purpose
 
 This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
