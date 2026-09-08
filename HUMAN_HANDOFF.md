@@ -1,5 +1,17 @@
 # Human handoff: ENTRANCE F1 Data
 
+## 2026-09-08 circuit facts normal website connection
+
+The owner clarified that the sourced circuit facts must appear on normal web
+pages, rather than only in an opt-in preview. The additive `f1/circuits/v1`
+package contains all six fields for the 23 calendar identities, except the two
+not-yet-established Madring records. It is independent of the unpublished
+combined profiles package. Its schema, checksums and 437-source replay pass;
+three additional references corroborate the 22 established track records.
+Source-selection details and the bounded historical verification method are in
+the package README and snapshot. No post-race data or canonical approval changes
+are part of this addition.
+
 ## 2026 Italian Grand Prix recovery candidate
 
 The exact post-race draft advances the shared production contracts through

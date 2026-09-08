@@ -1,0 +1,1798 @@
+{
+  "schemaVersion": "entrance-circuits.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "asOf": "2026-09-08",
+  "asOfRaceDate": "2026-09-06",
+  "definitions": {
+    "trackRecord": "Fastest valid lap across historical official F1 Grand Prix weekend practice, qualifying, sprint qualifying/shootout, sprint and Grand Prix race sessions for the relevant F1 circuit configuration. Private tests, demonstrations, invalidated laps and different configurations are excluded.",
+    "lapRecord": "Fastest valid Grand Prix race lap for the relevant F1 circuit configuration; Sprint race laps are excluded.",
+    "firstGrandPrix": "First World Championship Grand Prix at the circuit venue, including earlier configurations; Madring 2026 is scheduled, not a completed event.",
+    "lapsAndDistance": "Scheduled 2026 full Grand Prix distance, not the shortened actual distance of a particular race.",
+    "lengthKm": "Current 2026 Formula1.com circuit panel measurement; small measurement changes alone do not establish a new layout or reset records."
+  },
+  "coverage": {
+    "circuitCount": 23,
+    "basicFieldCount": 92,
+    "trackRecordCandidateCount": 22,
+    "lapRecordCandidateCount": 22,
+    "notYetEstablishedRecordCount": 2,
+    "comparedGrandPrixWeekendCount": 81,
+    "formula1TimingPageCount": 382,
+    "fiaSprintTimingDocumentCount": 22,
+    "allTimeHistoryExhaustive": false,
+    "limitation": "Minima are recomputed across retained official timing pages from each candidate record year onward, including every session type exposed by those event menus and separate FIA Sprint timing. Sessions before each comparisonFromYear have not been exhaustively audited. These are sourced record candidates, not automatically verified all-time claims.",
+    "layoutLimitation": "Existing F1 configuration identity is retained for candidate comparison; exact historical configuration continuity and conflicting distance/record panels require human review before production."
+  },
+  "circuits": [
+    {
+      "raceId": "australia",
+      "circuitId": "albert-park",
+      "name": "Albert Park Circuit",
+      "lengthKm": 5.278,
+      "firstGrandPrix": 1996,
+      "laps": 58,
+      "raceDistanceKm": 306.124,
+      "trackRecord": {
+        "time": "1:15.096",
+        "milliseconds": 75096,
+        "driverName": "Lando Norris",
+        "year": 2025,
+        "holder": "Lando Norris (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-australia"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:19.813",
+        "milliseconds": 79813,
+        "driverName": "Charles Leclerc",
+        "year": 2024,
+        "holder": "Charles Leclerc (2024)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-australia"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-australia",
+        "lightsout-track-records",
+        "q-2025-australia"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-australia"
+        ],
+        "firstGrandPrix": [
+          "circuit-australia"
+        ],
+        "laps": [
+          "circuit-australia"
+        ],
+        "raceDistanceKm": [
+          "circuit-australia"
+        ],
+        "trackRecord": [
+          "q-2025-australia",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-australia"
+        ]
+      }
+    },
+    {
+      "raceId": "china",
+      "circuitId": "shanghai",
+      "name": "Shanghai International Circuit",
+      "lengthKm": 5.451,
+      "firstGrandPrix": 2004,
+      "laps": 56,
+      "raceDistanceKm": 305.066,
+      "trackRecord": {
+        "time": "1:30.641",
+        "milliseconds": 90641,
+        "driverName": "Oscar Piastri",
+        "year": 2025,
+        "holder": "Oscar Piastri (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-china"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:32.238",
+        "milliseconds": 92238,
+        "driverName": "Michael Schumacher",
+        "year": 2004,
+        "holder": "Michael Schumacher (2004)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-china"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-china",
+        "fia-china-record",
+        "lightsout-track-records",
+        "q-2025-china"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-china"
+        ],
+        "firstGrandPrix": [
+          "circuit-china"
+        ],
+        "laps": [
+          "circuit-china"
+        ],
+        "raceDistanceKm": [
+          "circuit-china"
+        ],
+        "trackRecord": [
+          "q-2025-china",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-china"
+        ]
+      }
+    },
+    {
+      "raceId": "japan",
+      "circuitId": "suzuka",
+      "name": "Suzuka International Racing Course",
+      "lengthKm": 5.807,
+      "firstGrandPrix": 1987,
+      "laps": 53,
+      "raceDistanceKm": 307.471,
+      "trackRecord": {
+        "time": "1:26.983",
+        "milliseconds": 86983,
+        "driverName": "Max Verstappen",
+        "year": 2025,
+        "holder": "Max Verstappen (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-japan"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:30.965",
+        "milliseconds": 90965,
+        "driverName": "Kimi Antonelli",
+        "year": 2025,
+        "holder": "Kimi Antonelli (2025)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-japan"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-japan",
+        "lightsout-track-records",
+        "q-2025-japan"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-japan"
+        ],
+        "firstGrandPrix": [
+          "circuit-japan"
+        ],
+        "laps": [
+          "circuit-japan"
+        ],
+        "raceDistanceKm": [
+          "circuit-japan"
+        ],
+        "trackRecord": [
+          "q-2025-japan",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-japan"
+        ]
+      }
+    },
+    {
+      "raceId": "miami",
+      "circuitId": "miami",
+      "name": "Miami International Autodrome",
+      "lengthKm": 5.412,
+      "firstGrandPrix": 2022,
+      "laps": 57,
+      "raceDistanceKm": 308.326,
+      "trackRecord": {
+        "time": "1:26.204",
+        "milliseconds": 86204,
+        "driverName": "Max Verstappen",
+        "year": 2025,
+        "holder": "Max Verstappen (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-miami"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:29.708",
+        "milliseconds": 89708,
+        "driverName": "Max Verstappen",
+        "year": 2023,
+        "holder": "Max Verstappen (2023)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-miami"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-miami",
+        "lightsout-track-records",
+        "q-2025-miami"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-miami"
+        ],
+        "firstGrandPrix": [
+          "circuit-miami"
+        ],
+        "laps": [
+          "circuit-miami"
+        ],
+        "raceDistanceKm": [
+          "circuit-miami"
+        ],
+        "trackRecord": [
+          "q-2025-miami",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-miami"
+        ]
+      }
+    },
+    {
+      "raceId": "canada",
+      "circuitId": "gilles-villeneuve",
+      "name": "Circuit Gilles-Villeneuve",
+      "lengthKm": 4.361,
+      "firstGrandPrix": 1978,
+      "laps": 70,
+      "raceDistanceKm": 305.27,
+      "trackRecord": {
+        "time": "1:10.240",
+        "milliseconds": 70240,
+        "driverName": "Sebastian Vettel",
+        "year": 2019,
+        "holder": "Sebastian Vettel (2019)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2019-canada"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:13.078",
+        "milliseconds": 73078,
+        "driverName": "Valtteri Bottas",
+        "year": 2019,
+        "holder": "Valtteri Bottas (2019)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-canada"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-canada",
+        "lightsout-track-records",
+        "q-2019-canada"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-canada"
+        ],
+        "firstGrandPrix": [
+          "circuit-canada"
+        ],
+        "laps": [
+          "circuit-canada"
+        ],
+        "raceDistanceKm": [
+          "circuit-canada"
+        ],
+        "trackRecord": [
+          "q-2019-canada",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-canada"
+        ]
+      }
+    },
+    {
+      "raceId": "monaco",
+      "circuitId": "monaco",
+      "name": "Circuit de Monaco",
+      "lengthKm": 3.337,
+      "firstGrandPrix": 1950,
+      "laps": 78,
+      "raceDistanceKm": 260.286,
+      "trackRecord": {
+        "time": "1:09.954",
+        "milliseconds": 69954,
+        "driverName": "Lando Norris",
+        "year": 2025,
+        "holder": "Lando Norris (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-monaco"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:12.909",
+        "milliseconds": 72909,
+        "driverName": "Lewis Hamilton",
+        "year": 2021,
+        "holder": "Lewis Hamilton (2021)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-monaco"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-monaco",
+        "f1-monaco-record",
+        "lightsout-track-records",
+        "q-2025-monaco"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-monaco"
+        ],
+        "firstGrandPrix": [
+          "circuit-monaco"
+        ],
+        "laps": [
+          "circuit-monaco"
+        ],
+        "raceDistanceKm": [
+          "circuit-monaco"
+        ],
+        "trackRecord": [
+          "q-2025-monaco",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-monaco"
+        ]
+      }
+    },
+    {
+      "raceId": "barcelona-catalunya",
+      "circuitId": "barcelona-catalunya",
+      "name": "Circuit de Barcelona-Catalunya",
+      "lengthKm": 4.657,
+      "firstGrandPrix": 1991,
+      "laps": 66,
+      "raceDistanceKm": 307.236,
+      "trackRecord": {
+        "time": "1:11.383",
+        "milliseconds": 71383,
+        "driverName": "Lando Norris",
+        "year": 2024,
+        "holder": "Lando Norris (2024)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2024-spain"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:15.743",
+        "milliseconds": 75743,
+        "driverName": "Oscar Piastri",
+        "year": 2025,
+        "holder": "Oscar Piastri (2025)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-barcelona-catalunya"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-barcelona-catalunya",
+        "lightsout-track-records",
+        "q-2024-spain"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-barcelona-catalunya"
+        ],
+        "firstGrandPrix": [
+          "circuit-barcelona-catalunya"
+        ],
+        "laps": [
+          "circuit-barcelona-catalunya"
+        ],
+        "raceDistanceKm": [
+          "circuit-barcelona-catalunya"
+        ],
+        "trackRecord": [
+          "q-2024-spain",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-barcelona-catalunya"
+        ]
+      }
+    },
+    {
+      "raceId": "austria",
+      "circuitId": "red-bull-ring",
+      "name": "Red Bull Ring",
+      "lengthKm": 4.326,
+      "firstGrandPrix": 1970,
+      "laps": 71,
+      "raceDistanceKm": 307.018,
+      "trackRecord": {
+        "time": "1:02.939",
+        "milliseconds": 62939,
+        "driverName": "Valtteri Bottas",
+        "year": 2020,
+        "holder": "Valtteri Bottas (2020)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2020-austria"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:05.619",
+        "milliseconds": 65619,
+        "driverName": "Carlos Sainz",
+        "year": 2020,
+        "holder": "Carlos Sainz (2020)",
+        "session": "race",
+        "segment": "race",
+        "sourceIds": [
+          "fastest-laps-2020-styria"
+        ]
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-austria",
+        "fastest-laps-2020-styria",
+        "fia-austria-media-2025",
+        "fia-austria-record",
+        "fia-japan-media-2026",
+        "lightsout-track-records",
+        "q-2020-austria",
+        "venue-austria"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-austria"
+        ],
+        "firstGrandPrix": [
+          "circuit-austria"
+        ],
+        "laps": [
+          "circuit-austria"
+        ],
+        "raceDistanceKm": [
+          "circuit-austria"
+        ],
+        "trackRecord": [
+          "q-2020-austria",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "fastest-laps-2020-styria"
+        ]
+      }
+    },
+    {
+      "raceId": "great-britain",
+      "circuitId": "silverstone",
+      "name": "Silverstone Circuit",
+      "lengthKm": 5.891,
+      "firstGrandPrix": 1950,
+      "laps": 52,
+      "raceDistanceKm": 306.198,
+      "trackRecord": {
+        "time": "1:24.303",
+        "milliseconds": 84303,
+        "driverName": "Lewis Hamilton",
+        "year": 2020,
+        "holder": "Lewis Hamilton (2020)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2020-great-britain"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:27.097",
+        "milliseconds": 87097,
+        "driverName": "Max Verstappen",
+        "year": 2020,
+        "holder": "Max Verstappen (2020)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-great-britain"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-great-britain",
+        "fia-silverstone-record",
+        "lightsout-track-records",
+        "q-2020-great-britain"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-great-britain"
+        ],
+        "firstGrandPrix": [
+          "circuit-great-britain"
+        ],
+        "laps": [
+          "circuit-great-britain"
+        ],
+        "raceDistanceKm": [
+          "circuit-great-britain"
+        ],
+        "trackRecord": [
+          "q-2020-great-britain",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-great-britain"
+        ]
+      }
+    },
+    {
+      "raceId": "belgium",
+      "circuitId": "spa-francorchamps",
+      "name": "Circuit de Spa-Francorchamps",
+      "lengthKm": 7.004,
+      "firstGrandPrix": 1950,
+      "laps": 44,
+      "raceDistanceKm": 308.052,
+      "trackRecord": {
+        "time": "1:40.510",
+        "milliseconds": 100510,
+        "driverName": "Oscar Piastri",
+        "year": 2025,
+        "holder": "Oscar Piastri (2025)",
+        "session": "sprint-qualifying",
+        "segment": "SQ3",
+        "sourceIds": [
+          "sprint-qualifying-2025-belgium"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:44.701",
+        "milliseconds": 104701,
+        "driverName": "Sergio Perez",
+        "year": 2024,
+        "holder": "Sergio Perez (2024)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-belgium"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-belgium",
+        "sprint-qualifying-2025-belgium",
+        "wikipedia-spa-record"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-belgium"
+        ],
+        "firstGrandPrix": [
+          "circuit-belgium"
+        ],
+        "laps": [
+          "circuit-belgium"
+        ],
+        "raceDistanceKm": [
+          "circuit-belgium"
+        ],
+        "trackRecord": [
+          "sprint-qualifying-2025-belgium",
+          "wikipedia-spa-record"
+        ],
+        "lapRecord": [
+          "circuit-belgium"
+        ]
+      }
+    },
+    {
+      "raceId": "hungary",
+      "circuitId": "hungaroring",
+      "name": "Hungaroring",
+      "lengthKm": 4.381,
+      "firstGrandPrix": 1986,
+      "laps": 70,
+      "raceDistanceKm": 306.63,
+      "trackRecord": {
+        "time": "1:13.447",
+        "milliseconds": 73447,
+        "driverName": "Lewis Hamilton",
+        "year": 2020,
+        "holder": "Lewis Hamilton (2020)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2020-hungary"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:16.627",
+        "milliseconds": 76627,
+        "driverName": "Lewis Hamilton",
+        "year": 2020,
+        "holder": "Lewis Hamilton (2020)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-hungary"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-hungary",
+        "lightsout-track-records",
+        "q-2020-hungary"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-hungary"
+        ],
+        "firstGrandPrix": [
+          "circuit-hungary"
+        ],
+        "laps": [
+          "circuit-hungary"
+        ],
+        "raceDistanceKm": [
+          "circuit-hungary"
+        ],
+        "trackRecord": [
+          "q-2020-hungary",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-hungary"
+        ]
+      }
+    },
+    {
+      "raceId": "netherlands",
+      "circuitId": "zandvoort",
+      "name": "Circuit Zandvoort",
+      "lengthKm": 4.259,
+      "firstGrandPrix": 1952,
+      "laps": 72,
+      "raceDistanceKm": 306.587,
+      "trackRecord": {
+        "time": "1:08.662",
+        "milliseconds": 68662,
+        "driverName": "Oscar Piastri",
+        "year": 2025,
+        "holder": "Oscar Piastri (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-netherlands"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:11.097",
+        "milliseconds": 71097,
+        "driverName": "Lewis Hamilton",
+        "year": 2021,
+        "holder": "Lewis Hamilton (2021)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-netherlands"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-netherlands",
+        "f1-zandvoort-record",
+        "lightsout-track-records",
+        "q-2025-netherlands"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-netherlands"
+        ],
+        "firstGrandPrix": [
+          "circuit-netherlands"
+        ],
+        "laps": [
+          "circuit-netherlands"
+        ],
+        "raceDistanceKm": [
+          "circuit-netherlands"
+        ],
+        "trackRecord": [
+          "q-2025-netherlands",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-netherlands"
+        ]
+      }
+    },
+    {
+      "raceId": "italy",
+      "circuitId": "monza",
+      "name": "Autodromo Nazionale Monza",
+      "lengthKm": 5.793,
+      "firstGrandPrix": 1950,
+      "laps": 53,
+      "raceDistanceKm": 306.72,
+      "trackRecord": {
+        "time": "1:18.792",
+        "milliseconds": 78792,
+        "driverName": "Max Verstappen",
+        "year": 2025,
+        "holder": "Max Verstappen (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-italy"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:20.901",
+        "milliseconds": 80901,
+        "driverName": "Lando Norris",
+        "year": 2025,
+        "holder": "Lando Norris (2025)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-italy"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-italy",
+        "f1-monza-record",
+        "lightsout-track-records",
+        "q-2025-italy"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-italy"
+        ],
+        "firstGrandPrix": [
+          "circuit-italy"
+        ],
+        "laps": [
+          "circuit-italy"
+        ],
+        "raceDistanceKm": [
+          "circuit-italy"
+        ],
+        "trackRecord": [
+          "q-2025-italy",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-italy"
+        ]
+      }
+    },
+    {
+      "raceId": "spain",
+      "circuitId": "madring",
+      "name": "Circuito de Madring",
+      "lengthKm": 5.416,
+      "firstGrandPrix": 2026,
+      "laps": 57,
+      "raceDistanceKm": 308.524,
+      "trackRecord": null,
+      "lapRecord": null,
+      "recordStatus": "not_yet_established",
+      "recordReason": "First F1 weekend has not taken place at the as-of date.",
+      "sourceIds": [
+        "circuit-spain"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-spain"
+        ],
+        "firstGrandPrix": [
+          "circuit-spain"
+        ],
+        "laps": [
+          "circuit-spain"
+        ],
+        "raceDistanceKm": [
+          "circuit-spain"
+        ],
+        "trackRecord": [],
+        "lapRecord": []
+      }
+    },
+    {
+      "raceId": "azerbaijan",
+      "circuitId": "baku",
+      "name": "Baku City Circuit",
+      "lengthKm": 6.003,
+      "firstGrandPrix": 2016,
+      "laps": 51,
+      "raceDistanceKm": 306.049,
+      "trackRecord": {
+        "time": "1:40.203",
+        "milliseconds": 100203,
+        "driverName": "Charles Leclerc",
+        "year": 2023,
+        "holder": "Charles Leclerc (2023)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2023-azerbaijan"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:43.009",
+        "milliseconds": 103009,
+        "driverName": "Charles Leclerc",
+        "year": 2019,
+        "holder": "Charles Leclerc (2019)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-azerbaijan"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-azerbaijan",
+        "lightsout-track-records",
+        "q-2023-azerbaijan"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-azerbaijan"
+        ],
+        "firstGrandPrix": [
+          "circuit-azerbaijan"
+        ],
+        "laps": [
+          "circuit-azerbaijan"
+        ],
+        "raceDistanceKm": [
+          "circuit-azerbaijan"
+        ],
+        "trackRecord": [
+          "q-2023-azerbaijan",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-azerbaijan"
+        ]
+      }
+    },
+    {
+      "raceId": "bahrain",
+      "circuitId": "sepang",
+      "name": "Sepang International Circuit",
+      "lengthKm": 5.543,
+      "firstGrandPrix": 1999,
+      "laps": 56,
+      "raceDistanceKm": 310.408,
+      "trackRecord": {
+        "time": "1:30.076",
+        "milliseconds": 90076,
+        "driverName": "Lewis Hamilton",
+        "year": 2017,
+        "holder": "Lewis Hamilton (2017)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2017-malaysia"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:34.080",
+        "milliseconds": 94080,
+        "driverName": "Sebastian Vettel",
+        "year": 2017,
+        "holder": "Sebastian Vettel (2017)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-bahrain"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-bahrain",
+        "haas-sepang-record",
+        "q-2017-malaysia"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-bahrain"
+        ],
+        "firstGrandPrix": [
+          "circuit-bahrain"
+        ],
+        "laps": [
+          "circuit-bahrain"
+        ],
+        "raceDistanceKm": [
+          "circuit-bahrain"
+        ],
+        "trackRecord": [
+          "q-2017-malaysia",
+          "haas-sepang-record"
+        ],
+        "lapRecord": [
+          "circuit-bahrain"
+        ]
+      }
+    },
+    {
+      "raceId": "singapore",
+      "circuitId": "marina-bay",
+      "name": "Marina Bay Street Circuit",
+      "lengthKm": 4.927,
+      "firstGrandPrix": 2008,
+      "laps": 62,
+      "raceDistanceKm": 305.337,
+      "trackRecord": {
+        "time": "1:29.158",
+        "milliseconds": 89158,
+        "driverName": "George Russell",
+        "year": 2025,
+        "holder": "George Russell (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-singapore"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:33.808",
+        "milliseconds": 93808,
+        "driverName": "Lewis Hamilton",
+        "year": 2025,
+        "holder": "Lewis Hamilton (2025)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-singapore"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-singapore",
+        "f1-singapore-record",
+        "lightsout-track-records",
+        "q-2025-singapore"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-singapore"
+        ],
+        "firstGrandPrix": [
+          "circuit-singapore"
+        ],
+        "laps": [
+          "circuit-singapore"
+        ],
+        "raceDistanceKm": [
+          "circuit-singapore"
+        ],
+        "trackRecord": [
+          "q-2025-singapore",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-singapore"
+        ]
+      }
+    },
+    {
+      "raceId": "united-states",
+      "circuitId": "circuit-of-the-americas",
+      "name": "Circuit of the Americas",
+      "lengthKm": 5.513,
+      "firstGrandPrix": 2012,
+      "laps": 56,
+      "raceDistanceKm": 308.405,
+      "trackRecord": {
+        "time": "1:32.029",
+        "milliseconds": 92029,
+        "driverName": "Valtteri Bottas",
+        "year": 2019,
+        "holder": "Valtteri Bottas (2019)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2019-united-states"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:36.169",
+        "milliseconds": 96169,
+        "driverName": "Charles Leclerc",
+        "year": 2019,
+        "holder": "Charles Leclerc (2019)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-united-states"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-united-states",
+        "lightsout-track-records",
+        "q-2019-united-states"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-united-states"
+        ],
+        "firstGrandPrix": [
+          "circuit-united-states"
+        ],
+        "laps": [
+          "circuit-united-states"
+        ],
+        "raceDistanceKm": [
+          "circuit-united-states"
+        ],
+        "trackRecord": [
+          "q-2019-united-states",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-united-states"
+        ]
+      }
+    },
+    {
+      "raceId": "mexico-city",
+      "circuitId": "hermanos-rodriguez",
+      "name": "Autódromo Hermanos Rodríguez",
+      "lengthKm": 4.304,
+      "firstGrandPrix": 1963,
+      "laps": 71,
+      "raceDistanceKm": 305.354,
+      "trackRecord": {
+        "time": "1:14.758",
+        "milliseconds": 74758,
+        "driverName": "Max Verstappen",
+        "year": 2019,
+        "holder": "Max Verstappen (2019)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2019-mexico"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:17.774",
+        "milliseconds": 77774,
+        "driverName": "Valtteri Bottas",
+        "year": 2021,
+        "holder": "Valtteri Bottas (2021)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-mexico-city"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-mexico-city",
+        "lightsout-track-records",
+        "q-2019-mexico"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-mexico-city"
+        ],
+        "firstGrandPrix": [
+          "circuit-mexico-city"
+        ],
+        "laps": [
+          "circuit-mexico-city"
+        ],
+        "raceDistanceKm": [
+          "circuit-mexico-city"
+        ],
+        "trackRecord": [
+          "q-2019-mexico",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-mexico-city"
+        ]
+      }
+    },
+    {
+      "raceId": "sao-paulo",
+      "circuitId": "interlagos",
+      "name": "Autódromo José Carlos Pace - Interlagos",
+      "lengthKm": 4.309,
+      "firstGrandPrix": 1973,
+      "laps": 71,
+      "raceDistanceKm": 305.879,
+      "trackRecord": {
+        "time": "1:07.281",
+        "milliseconds": 67281,
+        "driverName": "Lewis Hamilton",
+        "year": 2018,
+        "holder": "Lewis Hamilton (2018)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2018-brazil"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:10.540",
+        "milliseconds": 70540,
+        "driverName": "Valtteri Bottas",
+        "year": 2018,
+        "holder": "Valtteri Bottas (2018)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-sao-paulo"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-sao-paulo",
+        "lightsout-track-records",
+        "q-2018-brazil"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-sao-paulo"
+        ],
+        "firstGrandPrix": [
+          "circuit-sao-paulo"
+        ],
+        "laps": [
+          "circuit-sao-paulo"
+        ],
+        "raceDistanceKm": [
+          "circuit-sao-paulo"
+        ],
+        "trackRecord": [
+          "q-2018-brazil",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-sao-paulo"
+        ]
+      }
+    },
+    {
+      "raceId": "las-vegas",
+      "circuitId": "las-vegas",
+      "name": "Las Vegas Street Circuit",
+      "lengthKm": 6.201,
+      "firstGrandPrix": 2023,
+      "laps": 50,
+      "raceDistanceKm": 309.958,
+      "trackRecord": {
+        "time": "1:32.312",
+        "milliseconds": 92312,
+        "driverName": "George Russell",
+        "year": 2024,
+        "holder": "George Russell (2024)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2024-las-vegas"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:33.365",
+        "milliseconds": 93365,
+        "driverName": "Max Verstappen",
+        "year": 2025,
+        "holder": "Max Verstappen (2025)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-las-vegas"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-las-vegas",
+        "lightsout-track-records",
+        "q-2024-las-vegas"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-las-vegas"
+        ],
+        "firstGrandPrix": [
+          "circuit-las-vegas"
+        ],
+        "laps": [
+          "circuit-las-vegas"
+        ],
+        "raceDistanceKm": [
+          "circuit-las-vegas"
+        ],
+        "trackRecord": [
+          "q-2024-las-vegas",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-las-vegas"
+        ]
+      }
+    },
+    {
+      "raceId": "qatar",
+      "circuitId": "lusail",
+      "name": "Losail International Circuit",
+      "lengthKm": 5.419,
+      "firstGrandPrix": 2021,
+      "laps": 57,
+      "raceDistanceKm": 308.611,
+      "trackRecord": {
+        "time": "1:19.387",
+        "milliseconds": 79387,
+        "driverName": "Oscar Piastri",
+        "year": 2025,
+        "holder": "Oscar Piastri (2025)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2025-qatar"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:22.384",
+        "milliseconds": 82384,
+        "driverName": "Lando Norris",
+        "year": 2024,
+        "holder": "Lando Norris (2024)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-qatar"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-qatar",
+        "lightsout-track-records",
+        "q-2025-qatar"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-qatar"
+        ],
+        "firstGrandPrix": [
+          "circuit-qatar"
+        ],
+        "laps": [
+          "circuit-qatar"
+        ],
+        "raceDistanceKm": [
+          "circuit-qatar"
+        ],
+        "trackRecord": [
+          "q-2025-qatar",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-qatar"
+        ]
+      }
+    },
+    {
+      "raceId": "abu-dhabi",
+      "circuitId": "yas-marina",
+      "name": "Yas Marina Circuit",
+      "lengthKm": 5.281,
+      "firstGrandPrix": 2009,
+      "laps": 58,
+      "raceDistanceKm": 306.183,
+      "trackRecord": {
+        "time": "1:22.109",
+        "milliseconds": 82109,
+        "driverName": "Max Verstappen",
+        "year": 2021,
+        "holder": "Max Verstappen (2021)",
+        "session": "qualifying",
+        "segment": "Q3",
+        "sourceIds": [
+          "q-2021-abu-dhabi"
+        ]
+      },
+      "lapRecord": {
+        "time": "1:25.637",
+        "milliseconds": 85637,
+        "driverName": "Kevin Magnussen",
+        "year": 2024,
+        "holder": "Kevin Magnussen (2024)",
+        "session": "race",
+        "sourceIds": [
+          "circuit-abu-dhabi"
+        ],
+        "segment": "race"
+      },
+      "recordStatus": "verified",
+      "recordReason": null,
+      "sourceIds": [
+        "circuit-abu-dhabi",
+        "lightsout-track-records",
+        "q-2021-abu-dhabi"
+      ],
+      "fieldSourceIds": {
+        "lengthKm": [
+          "circuit-abu-dhabi"
+        ],
+        "firstGrandPrix": [
+          "circuit-abu-dhabi"
+        ],
+        "laps": [
+          "circuit-abu-dhabi"
+        ],
+        "raceDistanceKm": [
+          "circuit-abu-dhabi"
+        ],
+        "trackRecord": [
+          "q-2021-abu-dhabi",
+          "lightsout-track-records"
+        ],
+        "lapRecord": [
+          "circuit-abu-dhabi"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuit-abu-dhabi",
+      "url": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
+      "retrievedAt": "2026-09-08T08:34:44.926680Z",
+      "sha256": "d5c4a5d3568385cf0e2a4e61b0d17f4bc28215267e1add1ebc6f9111cfadaeef"
+    },
+    {
+      "id": "circuit-australia",
+      "url": "https://www.formula1.com/en/racing/2026/australia",
+      "retrievedAt": "2026-09-08T08:34:35.754114Z",
+      "sha256": "44530a30103c5eeddff6906569031c00d1d5cbb164e02badcd2cd9c0df06508d"
+    },
+    {
+      "id": "circuit-austria",
+      "url": "https://www.formula1.com/en/racing/2026/austria",
+      "retrievedAt": "2026-09-08T08:34:39.737978Z",
+      "sha256": "ceb54ec614b7dd1876139e101c1cd3cd6fcd60895ce4f465baab226ef7feebaa"
+    },
+    {
+      "id": "circuit-azerbaijan",
+      "url": "https://www.formula1.com/en/racing/2026/azerbaijan",
+      "retrievedAt": "2026-09-08T08:34:42.226321Z",
+      "sha256": "04bb250dace0521f7ab7cd5d57170c1aac054509ff8e60d39a10fdc1618d6906"
+    },
+    {
+      "id": "circuit-bahrain",
+      "url": "https://www.formula1.com/en/racing/2026/bahrain",
+      "retrievedAt": "2026-09-08T08:34:41.660760Z",
+      "sha256": "f937d134629c71f71611c0646935c0c111327d4db17ae04137959d19140c83d7"
+    },
+    {
+      "id": "circuit-barcelona-catalunya",
+      "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+      "retrievedAt": "2026-09-08T08:34:39.776220Z",
+      "sha256": "e3a695b7a46a6aff12bc2b066034dfca65ac26392d7734b15de5a153f3daa561"
+    },
+    {
+      "id": "circuit-belgium",
+      "url": "https://www.formula1.com/en/racing/2026/belgium",
+      "retrievedAt": "2026-09-08T08:34:41.131214Z",
+      "sha256": "d3ae4913867e9f039ab366f3ad4b139b071830c85c18e774c8be9e5354e8e043"
+    },
+    {
+      "id": "circuit-canada",
+      "url": "https://www.formula1.com/en/racing/2026/canada",
+      "retrievedAt": "2026-09-08T08:34:37.807257Z",
+      "sha256": "00189983941b65b955b7e434abf79297687f37193dd5f505d1d10fc2141502ee"
+    },
+    {
+      "id": "circuit-china",
+      "url": "https://www.formula1.com/en/racing/2026/china",
+      "retrievedAt": "2026-09-08T08:34:36.241853Z",
+      "sha256": "fa50e8a395d889ce023d0d938723c868d0fe7fe9d2207b1456c52f5efcd8bf1b"
+    },
+    {
+      "id": "circuit-great-britain",
+      "url": "https://www.formula1.com/en/racing/2026/great-britain",
+      "retrievedAt": "2026-09-08T08:34:39.222723Z",
+      "sha256": "d50d435559d5cd19eda3111bc9b3365d06456deeb636e89d5017555350516712"
+    },
+    {
+      "id": "circuit-hungary",
+      "url": "https://www.formula1.com/en/racing/2026/hungary",
+      "retrievedAt": "2026-09-08T08:34:39.773283Z",
+      "sha256": "2a097f7f4d611316b1e091e631b02a7edae26c597149c6f924125eedf724b26c"
+    },
+    {
+      "id": "circuit-italy",
+      "url": "https://www.formula1.com/en/racing/2026/italy",
+      "retrievedAt": "2026-09-08T08:34:40.320328Z",
+      "sha256": "745215addce123bf524b0b966e25d6101e2fdbafee26a67b41416919878408bf"
+    },
+    {
+      "id": "circuit-japan",
+      "url": "https://www.formula1.com/en/racing/2026/japan",
+      "retrievedAt": "2026-09-08T08:34:35.489192Z",
+      "sha256": "9caea8a3a94ae7348df261b00bb1c48ab856b3799a744fb0624d8bf64a75b3fb"
+    },
+    {
+      "id": "circuit-las-vegas",
+      "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "retrievedAt": "2026-09-08T08:34:44.230437Z",
+      "sha256": "8691ea57d752a20a55e8da881d5e1b236fc0a00f285904d7cc93d73d50ad4b4d"
+    },
+    {
+      "id": "circuit-mexico-city",
+      "url": "https://www.formula1.com/en/racing/2026/mexico",
+      "retrievedAt": "2026-09-08T08:34:42.940117Z",
+      "sha256": "9c191871da8e582de51cdedbfccac199021b0e268655cd1c9b5f1b69bc67eab1"
+    },
+    {
+      "id": "circuit-miami",
+      "url": "https://www.formula1.com/en/racing/2026/miami",
+      "retrievedAt": "2026-09-08T08:34:37.457327Z",
+      "sha256": "d9fe86d754e2caaad3a65ffbc9e0412c08ff12d855eff402ace036d4270baafe"
+    },
+    {
+      "id": "circuit-monaco",
+      "url": "https://www.formula1.com/en/racing/2026/monaco",
+      "retrievedAt": "2026-09-08T08:34:38.676164Z",
+      "sha256": "ea3ceb6f879bfa55deec124f5cb4578692881500bb7add3c000ff3830e78c4f3"
+    },
+    {
+      "id": "circuit-netherlands",
+      "url": "https://www.formula1.com/en/racing/2026/netherlands",
+      "retrievedAt": "2026-09-08T08:34:41.259062Z",
+      "sha256": "bc18f638de1514d3045d76d37862b597326ac395de8912ca72b83e791493d6d1"
+    },
+    {
+      "id": "circuit-qatar",
+      "url": "https://www.formula1.com/en/racing/2026/qatar",
+      "retrievedAt": "2026-09-08T08:34:44.199199Z",
+      "sha256": "e9a28a2392ba576d274d4cddbe7a8ba6704919a9094bd9254b5a75d971fda2f8"
+    },
+    {
+      "id": "circuit-sao-paulo",
+      "url": "https://www.formula1.com/en/racing/2026/brazil",
+      "retrievedAt": "2026-09-08T08:34:43.947434Z",
+      "sha256": "a48ba33e2583541331ffdaf6c8d77ee9ae9674a217b6f0108f0d006ede7afdfd"
+    },
+    {
+      "id": "circuit-singapore",
+      "url": "https://www.formula1.com/en/racing/2026/singapore",
+      "retrievedAt": "2026-09-08T08:34:43.149578Z",
+      "sha256": "48470f070e8f35196beea80dcd3c13c0ddbf0707b4e531ca2f3585a4ae026597"
+    },
+    {
+      "id": "circuit-spain",
+      "url": "https://www.formula1.com/en/racing/2026/spain",
+      "retrievedAt": "2026-09-08T08:34:40.374567Z",
+      "sha256": "b832110baea0dd75ad25afd49a7901792f91dc439e5ff0f7acb4dfc2c82a371b"
+    },
+    {
+      "id": "circuit-united-states",
+      "url": "https://www.formula1.com/en/racing/2026/united-states",
+      "retrievedAt": "2026-09-08T08:34:41.971884Z",
+      "sha256": "521ee8de27b8b515052b3eaa393f5eaee9a15bf495d0d5a3c50211bde188ba78"
+    },
+    {
+      "id": "f1-monaco-record",
+      "url": "https://www.formula1.com/en/latest/article/norris-beats-leclerc-and-piastri-to-pole-with-last-gasp-lap-in-monaco-gp.4puK2BTt1mZoCvSevSPJe8",
+      "retrievedAt": "2026-09-08T08:43:57.202446Z",
+      "sha256": "af8e75ae6f8bbcb9475551c35dc5d60851fc73b08538fde4218f50cb3360d9b9"
+    },
+    {
+      "id": "f1-monza-record",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-beats-norris-and-piastri-to-pole-for-italian-gp-in-qualifying.7j6Ls1jDJUp67EqfCoQhiN",
+      "retrievedAt": "2026-09-08T08:43:58.054708Z",
+      "sha256": "637aebf4e870458e420f5c73ec949a28b11947aaecb064257d21e4aef3da6e1f"
+    },
+    {
+      "id": "f1-singapore-record",
+      "url": "https://www.formula1.com/en/latest/article/russell-charges-to-singapore-gp-pole-over-verstappen-and-piastri.6RlzeBPkBJt6loH3NQWyNZ",
+      "retrievedAt": "2026-09-08T08:43:58.253275Z",
+      "sha256": "0017d33dafdb8a47c0835dfda7cb00e633037d7230b026fba1a305e9007cf3e2"
+    },
+    {
+      "id": "f1-zandvoort-record",
+      "url": "https://www.formula1.com/en/latest/article/facts-and-stats-piastri-and-norris-lock-out-the-front-row-on-bruce-mclarens.3CSYg65rhhW2oWwaqkbljT",
+      "retrievedAt": "2026-09-08T08:43:57.649773Z",
+      "sha256": "4156f296b3b59efeba803893335c0eb5a40115346c67a00f6d9393d27fcbb595"
+    },
+    {
+      "id": "fastest-laps-2020-styria",
+      "url": "https://www.formula1.com/en/results/2020/races/1046/styria/fastest-laps",
+      "retrievedAt": "2026-09-08T08:45:38.397460Z",
+      "sha256": "f134638a49c2036d24706a81beebb0b9b441b2b1e55dd2d8e8a42114253eba54"
+    },
+    {
+      "id": "fia-austria-media-2025",
+      "url": "https://www.fia.com/sites/default/files/spg2025_0062_f1_mediakit_2025_eng_a4_250623_view.pdf",
+      "retrievedAt": "2026-09-08T08:47:56.221126Z",
+      "sha256": "63699e4924b37d57cdf34b8fa64c372bc7c10f003672c16b13e169e649301d09"
+    },
+    {
+      "id": "fia-austria-record",
+      "url": "https://www.fia.com/news/f1-bottas-pole-mercedes-lock-out-front-row-austria",
+      "retrievedAt": "2026-09-08T08:43:56.330535Z",
+      "sha256": "a0db8cebbe065adca7240ec1300b09d6b82eeb2d9a951dbb98afb1d4888459f3"
+    },
+    {
+      "id": "fia-china-record",
+      "url": "https://www.fia.com/news/f1-piastro-pole-china-ahead-russell-and-norris",
+      "retrievedAt": "2026-09-08T08:43:57.438176Z",
+      "sha256": "a7956f366551086ebf3c0d797157131b4e1f46c56eff87a7ed08a2a9506eca80"
+    },
+    {
+      "id": "fia-japan-media-2026",
+      "url": "https://www.fia.com/sites/default/files/2026_f1_japanese_gp_media_kit.pdf",
+      "retrievedAt": "2026-09-08T09:10:29.051263Z",
+      "sha256": "33670117c7d241b04db0398235ce9253facefa3d114421a3947c4b29a7e65b8b"
+    },
+    {
+      "id": "fia-silverstone-record",
+      "url": "https://www.fia.com/news/f1-hamilton-powers-pole-position-silverstone-devastating-show-speed",
+      "retrievedAt": "2026-09-08T08:43:56.346611Z",
+      "sha256": "f4e4e43165ea84b409f87abbc86c8481766de6b474b8c3b90580f4e81a5439e9"
+    },
+    {
+      "id": "q-2017-malaysia",
+      "url": "https://www.formula1.com/en/results/2017/races/973/malaysia/qualifying",
+      "retrievedAt": "2026-09-08T08:40:45.276256Z",
+      "sha256": "29ff682f6731e6c73355a53a123c5b0e0b3b543ef76608a9ea9fd0906b4f71ec"
+    },
+    {
+      "id": "q-2018-brazil",
+      "url": "https://www.formula1.com/en/results/2018/races/998/brazil/qualifying",
+      "retrievedAt": "2026-09-08T08:40:46.488290Z",
+      "sha256": "d87e788d32a71ed555a42035e7fb6a5bad502b2a7dab31e467fd5f69118d1386"
+    },
+    {
+      "id": "q-2019-canada",
+      "url": "https://www.formula1.com/en/results/2019/races/1006/canada/qualifying",
+      "retrievedAt": "2026-09-08T08:40:46.168398Z",
+      "sha256": "b61babd4aa3192f6715fd7259008efffe0154b7b633c205dc92a91f19827ea88"
+    },
+    {
+      "id": "q-2019-mexico",
+      "url": "https://www.formula1.com/en/results/2019/races/1017/mexico/qualifying",
+      "retrievedAt": "2026-09-08T08:40:47.410432Z",
+      "sha256": "3081d39044c03e72422974d73c43ce6053f1b3dea63109a2f7c58c0b0ab21dda"
+    },
+    {
+      "id": "q-2019-united-states",
+      "url": "https://www.formula1.com/en/results/2019/races/1018/united-states/qualifying",
+      "retrievedAt": "2026-09-08T08:40:46.697013Z",
+      "sha256": "bd34f8652ae25d7423f7b2aabdbedefa71f01a6e42c6ebd2c4a4e4affb4e3f11"
+    },
+    {
+      "id": "q-2020-austria",
+      "url": "https://www.formula1.com/en/results/2020/races/1045/austria/qualifying",
+      "retrievedAt": "2026-09-08T08:40:47.270411Z",
+      "sha256": "b211b6011d0f2918047eef3615aa6831ba34663f0ea947d999a88b07864df813"
+    },
+    {
+      "id": "q-2020-great-britain",
+      "url": "https://www.formula1.com/en/results/2020/races/1048/great-britain/qualifying",
+      "retrievedAt": "2026-09-08T08:40:48.957425Z",
+      "sha256": "bbe0c74f1230e03aa6036978e0bf830ae89b5db7b8e95d42d2c0c8d6b2c14e21"
+    },
+    {
+      "id": "q-2020-hungary",
+      "url": "https://www.formula1.com/en/results/2020/races/1047/hungary/qualifying",
+      "retrievedAt": "2026-09-08T08:40:47.483267Z",
+      "sha256": "5ab28a2c178d3c27f585dce9ca24409358ef5aa79772da7e3801a287a1b35dfd"
+    },
+    {
+      "id": "q-2021-abu-dhabi",
+      "url": "https://www.formula1.com/en/results/2021/races/1107/abu-dhabi/qualifying",
+      "retrievedAt": "2026-09-08T08:40:49.058332Z",
+      "sha256": "f1f89eb18507e80208b723689452583a0bf5c1c6c544a894fe7843d7bd7f9120"
+    },
+    {
+      "id": "q-2023-azerbaijan",
+      "url": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/qualifying",
+      "retrievedAt": "2026-09-08T08:40:48.017359Z",
+      "sha256": "f67fda4d28d676d4257f63095acda627f47341aa6ffb359a94177521a224196a"
+    },
+    {
+      "id": "q-2024-las-vegas",
+      "url": "https://www.formula1.com/en/results/2024/races/1250/las-vegas/qualifying",
+      "retrievedAt": "2026-09-08T08:40:51.038450Z",
+      "sha256": "f486773a747acce9d7c903f8191e355e79520e2f2e4089c6a33eae1c370b1ba3"
+    },
+    {
+      "id": "q-2024-spain",
+      "url": "https://www.formula1.com/en/results/2024/races/1238/spain/qualifying",
+      "retrievedAt": "2026-09-08T08:40:49.232059Z",
+      "sha256": "5365792759d7237f228af7c4ded6d16839e0fb1a57c3a139c83e6817a72bfd7c"
+    },
+    {
+      "id": "q-2025-australia",
+      "url": "https://www.formula1.com/en/results/2025/races/1254/australia/qualifying",
+      "retrievedAt": "2026-09-08T08:40:50.880532Z",
+      "sha256": "02091f1a88b1e96283d94d4ba8bdb8806915d95ddab4d5629d83d3bab87430f5"
+    },
+    {
+      "id": "q-2025-china",
+      "url": "https://www.formula1.com/en/results/2025/races/1255/china/qualifying",
+      "retrievedAt": "2026-09-08T08:40:51.400703Z",
+      "sha256": "de412e961d99b7899d4d90ba574dd4dc98c3939accf164f3bde914ae7bca54ea"
+    },
+    {
+      "id": "q-2025-italy",
+      "url": "https://www.formula1.com/en/results/2025/races/1268/italy/qualifying",
+      "retrievedAt": "2026-09-08T08:40:53.800477Z",
+      "sha256": "2741ccdf9022e3d644b1db40b2e992a607098916a8715931a8894738edc182e3"
+    },
+    {
+      "id": "q-2025-japan",
+      "url": "https://www.formula1.com/en/results/2025/races/1256/japan/qualifying",
+      "retrievedAt": "2026-09-08T08:40:51.573044Z",
+      "sha256": "9f3ca5e613152ad2deceff0037d893567e0eea81ebad29bd23b94c1f79cb7be4"
+    },
+    {
+      "id": "q-2025-miami",
+      "url": "https://www.formula1.com/en/results/2025/races/1259/miami/qualifying",
+      "retrievedAt": "2026-09-08T08:40:53.138307Z",
+      "sha256": "8caaf56a51ce90d3b29926f6455fd018d18adcc528d3d7eb5fc8eee54e8d50b6"
+    },
+    {
+      "id": "q-2025-monaco",
+      "url": "https://www.formula1.com/en/results/2025/races/1261/monaco/qualifying",
+      "retrievedAt": "2026-09-08T08:40:51.935348Z",
+      "sha256": "2e7e1f8b39ca15a51b289875e65a29ab9e291fc39e5698578dd665c466071c77"
+    },
+    {
+      "id": "q-2025-netherlands",
+      "url": "https://www.formula1.com/en/results/2025/races/1267/netherlands/qualifying",
+      "retrievedAt": "2026-09-08T08:40:52.683293Z",
+      "sha256": "832edd90346a8521f33f8481c9f768501fc1c0ee8e3346a5936f5e99762ea01d"
+    },
+    {
+      "id": "q-2025-qatar",
+      "url": "https://www.formula1.com/en/results/2025/races/1275/qatar/qualifying",
+      "retrievedAt": "2026-09-08T08:40:54.281076Z",
+      "sha256": "4702ca1b73d874da69e8b629165652ac9a07d4df606b324f6d9431e384b19b56"
+    },
+    {
+      "id": "q-2025-singapore",
+      "url": "https://www.formula1.com/en/results/2025/races/1270/singapore/qualifying",
+      "retrievedAt": "2026-09-08T08:40:53.874201Z",
+      "sha256": "158385c0500c1917b83fc1ac4e41b04f120eadc357c1f32f833e4d03d1d445cf"
+    },
+    {
+      "id": "sprint-qualifying-2025-belgium",
+      "url": "https://www.formula1.com/en/results/2025/races/1265/belgium/sprint-qualifying",
+      "retrievedAt": "2026-09-08T08:45:30.162369Z",
+      "sha256": "615b8e53209d58d2b274bcc763172bd54a333fe55c76fa91e223c8ac0436350c"
+    },
+    {
+      "id": "venue-austria",
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/formula-1-circuit/",
+      "retrievedAt": "2026-09-08T08:43:56.717575Z",
+      "sha256": "ae12b23bfcb83c2b5bcd71735d250adeb4e36a1b556480f9649ece155d770076"
+    },
+    {
+      "id": "lightsout-track-records",
+      "url": "https://www.lightsoutblog.com/f1-lap-records/",
+      "retrievedAt": "2026-09-08T10:04:12.298023Z",
+      "sha256": "6c7df849991e03b740344a814ca5805dc2862192305f066aa72fd69fd1f29c72"
+    },
+    {
+      "id": "haas-sepang-record",
+      "url": "https://www.haasf1team.com/news/malaysian-grand-prix-qualifying-recap",
+      "retrievedAt": "2026-09-08T10:05:45.724193Z",
+      "sha256": "4faf4dbfcc695e6cff6727de8aea578ab93343527cb70562558ac6f6fd42d24a"
+    },
+    {
+      "id": "wikipedia-spa-record",
+      "url": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+      "retrievedAt": "2026-09-08T10:05:46.590497Z",
+      "sha256": "287b5177679e1be806bd6527aff7b21283d0c6abc3beb8c232de47030b60b9bd"
+    }
+  ],
+  "verification": {
+    "method": "Official circuit panels and timing classifications, retained raw-source replay, and independent current-configuration record references; not exhaustive re-ingestion of every historical lap.",
+    "reviewSha256": "27027fe724711095264da109c808656ee30d6a0bf12a20cd95f44608850d5c89",
+    "independentlyCorroboratedTrackRecords": 22,
+    "sourceSelections": [
+      {
+        "raceId": "austria",
+        "field": "lapRecord",
+        "selectedSourceIds": [
+          "venue-austria",
+          "fia-austria-media-2025"
+        ],
+        "selectedTime": "1:05.619",
+        "rejectedPanelTime": "1:07.924",
+        "rationale": "The circuit operator and FIA-hosted promoter media kit explicitly retain Sainz 2020 as the lap record; the official 2020 Styrian GP fastest-laps table independently supplies the exact valid race lap. The same physical GP configuration is used; remeasurement does not turn a slower 2025 lap into an outright fastest lap."
+      },
+      {
+        "raceId": "austria",
+        "field": "raceDistanceKm",
+        "selectedSourceIds": [
+          "circuit-austria",
+          "fia-japan-media-2026"
+        ],
+        "selectedValue": 307.018,
+        "rationale": "Use the current 2026 race specification, independently corroborated on PDF page 16 of the 2026 FIA-hosted Japanese media kit; older race-distance editions are not current specifications."
+      }
+    ]
+  }
+}
