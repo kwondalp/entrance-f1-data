@@ -1,3 +1,5 @@
+> Production integration: the owner approved these exact package payloads. See `completion-publication-approval.json`; the two manifest publication statuses are approved. The preparation observations below remain historical and are not current deployment claims.
+
 # Current profile and catalogue completion candidates
 
 The two additive packages `f1/profiles/v1/` and

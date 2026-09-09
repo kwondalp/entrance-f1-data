@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 20
+handoffVersion: 21
 currentState:
-  status: current-completion-contracts-prepared
-  summary: "Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation."
+  status: completion-contracts-publication-approved
+  summary: "The owner approved publication of the exact checksum-bound completion packages through Italian Round 13. Both manifests now separate approved publication from technical verification; all payload bytes and existing production datasets remain unchanged. The compatibility Web consumer passed its preparation gates. Live publication and recurring wiring are verified externally during rollout."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.

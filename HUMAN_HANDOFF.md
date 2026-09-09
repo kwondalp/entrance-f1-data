@@ -432,3 +432,7 @@ git remote -v
 - Do not modify sibling repositories from this repository.
 - Do not store secrets, personal paths, HEAD hashes, branch names, or working-tree state in handoffs.
 - Do not stage, commit, merge, push, or deploy without explicit approval.
+
+## Completion production integration
+
+The owner approved publication of the exact checksum-bound completion packages through Italian Round 13. Both manifests now separate approved publication from technical verification; all payload bytes and existing production datasets remain unchanged. The compatibility Web consumer passed its preparation gates. Live publication and recurring wiring are verified externally during rollout. The dated remote Web-main backup and exact deployment evidence are retained in the external portable integration handoff; query Git and hosting metadata before any recovery. Earlier preparation-only deployment restrictions are historical. Preserve original refs and use history-preserving scoped reverts if this release must be recovered.

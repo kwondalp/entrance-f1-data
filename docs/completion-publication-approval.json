@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "completion-publication-approval.v1",
+  "approvalId": "OWNER-20260909-COMPLETION-PRODUCTION-INTEGRATION",
+  "reviewer": "kwondalp (repository owner)",
+  "authority": "The owner explicitly authorised the scoped production integration, Data publication, Web deployment and compatible recurring refresh in ENTRANCE-Goal-Production-Integration-Prompt.md.",
+  "recordedAtUtc": "2026-09-09T14:16:45.475984+00:00",
+  "scope": [
+    "f1/profiles/v1",
+    "f1/stats-catalogue-completion/v1"
+  ],
+  "sourceCandidates": {
+    "tools": "2234a5e7cc9bb025b748062b5edc583c83f1e784",
+    "entrance-f1-data": "55d28accd91e6e5e9067bbc1aac988c0a4504c90",
+    "web": "7708dc35c98aa8f10666a393431a944adddffe16"
+  },
+  "cutoff": {
+    "season": 2026,
+    "round": 13,
+    "raceId": "event:2026-13:24e3e42cf8a5",
+    "raceSlug": "italy",
+    "date": "2026-09-06"
+  },
+  "archiveManifestSha256": "8e67760b4e54146275ccb4af64f430c902a1bbf9a645d628973a161fc0698ebd",
+  "baseCatalogueSha256": "51067c09933990aac5b6dd275ff0b2c3c4c5edb7ea289ba4f909ea8b71b5c357",
+  "sportingEvidenceApprovalIsSeparate": true,
+  "canonicalBirthdateApprovalGranted": false,
+  "packages": {
+    "profiles": {
+      "manifestSha256": "f196f7d4008b9f660984a5b1e978d9d713a16a8aaa1f69014083ef5b633a32a1",
+      "schemaVersion": "entrance-profiles-manifest.v1",
+      "dataStatus": "verified",
+      "publicationStatus": "approved",
+      "asOfRaceDate": "2026-09-06",
+      "path": "profiles.8b5b77dbca8f7214.json",
+      "sha256": "8b5b77dbca8f7214720249b0dd634daf3d7dec15fec5eea9330188c49e133338",
+      "byteSize": 104179
+    },
+    "stats-catalogue-completion": {
+      "manifestSha256": "c1f3cc86750bc40c4ae3faa1dd23e9e1573b01835401b2353c6aa9741ed3563a",
+      "schemaVersion": "stats-catalogue-completion-manifest.v1",
+      "dataStatus": "verified",
+      "publicationStatus": "approved",
+      "path": "catalogue.f73feee8c88f7819.json",
+      "sha256": "f73feee8c88f7819d3fd98bb99fa5e8a125321fcd475f2bdc6b382e0f7d8df7e",
+      "byteSize": 338893,
+      "audit": {
+        "path": "audit.json",
+        "sha256": "e9f686cf7de1d363ec254c9e9191f647b470e5b62e06d1062ae885814dc445cf",
+        "byteSize": 6923186
+      }
+    }
+  }
+}
