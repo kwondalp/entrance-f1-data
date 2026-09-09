@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "completion-preparation-provenance.v1",
+  "status": "verified_feature_candidate",
+  "productionApprovalGranted": false,
+  "tools": {
+    "baseOid": "06ce1f13e87fb1337ab0aea8e629a7684ef686a7",
+    "baseTreeOid": "c78cb616badb0f646ce8cb521ce51dbaa0566b8e",
+    "commitOid": "2234a5e7cc9bb025b748062b5edc583c83f1e784",
+    "treeOid": "6de69561201a1de7a11cc45639372e1f9c9aa504",
+    "branch": "fix/current-completion-contracts-20260909",
+    "origin": "https://github.com/kwondalp/entrance-f1-data-tools.git"
+  },
+  "dataBaseOid": "f91d605ed8de711f93be4d90464170199652ef56",
+  "testedWebOid": "3928443044268a6a0157fb5dbe2de682e73dc73c",
+  "cutoff": {
+    "season": 2026,
+    "round": 13,
+    "raceId": "event:2026-13:24e3e42cf8a5",
+    "raceSlug": "italy",
+    "date": "2026-09-06"
+  },
+  "archiveManifestSha256": "8e67760b4e54146275ccb4af64f430c902a1bbf9a645d628973a161fc0698ebd",
+  "baseCatalogueSha256": "51067c09933990aac5b6dd275ff0b2c3c4c5edb7ea289ba4f909ea8b71b5c357",
+  "f1db": {
+    "id": "f1db-v2026.11.0",
+    "publisher": "F1DB",
+    "release": "v2026.11.0",
+    "releaseUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
+    "archiveUrl": "https://github.com/f1db/f1db/releases/download/v2026.11.0/f1db-json-splitted.zip",
+    "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://github.com/f1db/f1db/blob/v2026.11.0/LICENSE",
+    "licenseSha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "attribution": "F1DB by Marcel Overdijk and contributors, licensed under CC BY 4.0",
+    "commercialUseAllowed": true,
+    "derivativePublicationAllowed": true,
+    "coverage": "1950 through the 2026 Hungarian Grand Prix, Round 11",
+    "identityPolicy": "Exact NFC full-name or declared canonical alias matching only; ambiguous and unmatched identities are excluded.",
+    "retrievedAtUtc": "2026-09-09T11:15:35.191265Z",
+    "byteSize": 5891846
+  },
+  "schemaSha256": "04693e1849dc7dfbf68341e8145aeb84fcfdbd290dfa0204b1f01a3c43fb5a33",
+  "officialEvidence": [
+    {
+      "repository": "kwondalp/entrance-f1-data-tools",
+      "commitOid": "2234a5e7cc9bb025b748062b5edc583c83f1e784",
+      "path": "fixtures/official-profile-facts-20260909.json",
+      "sha256": "db48fc7c8c590152d82d6875abdbe2bbac9804f2bb1e2e5b6d9d5271d2f0bc41"
+    },
+    {
+      "repository": "kwondalp/entrance-f1-data-tools",
+      "commitOid": "2234a5e7cc9bb025b748062b5edc583c83f1e784",
+      "path": "fixtures/profile-support-evidence-20260909.json",
+      "sha256": "e95aff4f46e157adb2bd15c7df232ab85875367e5e634ed3f50fc8d54ab1cf80"
+    }
+  ],
+  "rawOfficialEvidenceArchiveSha256": "4b9c47f3606eddc6f2dfa02166e053b0fcf0f455c6541faec48e14b5de35a5ce",
+  "validation": {
+    "toolsPassed": 958,
+    "toolsSkipped": 0,
+    "webMainPassed": 201,
+    "webCandidatePassed": 218,
+    "webCandidateFailed": 6,
+    "twoCleanPackageFilesIdentical": 175,
+    "browserNormalPageChecks": 84,
+    "browserFallbackCases": 6,
+    "browserWidths": [
+      1440,
+      375
+    ],
+    "environment": "Windows 11 / CPython 3.12.14 / Node v22.20.0",
+    "secondOSActuallyRun": false
+  },
+  "packages": {
+    "profiles": {
+      "manifestSha256": "516ba269cf17ac8449a66d5167bb538e1dab7e1cd33102718b1ec75d7eccab4f",
+      "schemaVersion": "entrance-profiles-manifest.v1",
+      "dataStatus": "verified",
+      "publicationStatus": "candidate",
+      "asOfRaceDate": "2026-09-06",
+      "path": "profiles.8b5b77dbca8f7214.json",
+      "sha256": "8b5b77dbca8f7214720249b0dd634daf3d7dec15fec5eea9330188c49e133338",
+      "byteSize": 104179
+    },
+    "stats-catalogue-completion": {
+      "manifestSha256": "dd0cf3cc19a371d89d4c0d1eaeece9ec7976c321180df3254780acf934e84296",
+      "schemaVersion": "stats-catalogue-completion-manifest.v1",
+      "dataStatus": "verified",
+      "publicationStatus": "candidate",
+      "path": "catalogue.f73feee8c88f7819.json",
+      "sha256": "f73feee8c88f7819d3fd98bb99fa5e8a125321fcd475f2bdc6b382e0f7d8df7e",
+      "byteSize": 338893,
+      "audit": {
+        "path": "audit.json",
+        "sha256": "e9f686cf7de1d363ec254c9e9191f647b470e5b62e06d1062ae885814dc445cf",
+        "byteSize": 6923186
+      }
+    }
+  },
+  "remainingConsumerWork": [
+    "Update obsolete Tsunoda seat assertion from the official event evidence.",
+    "Represent inactive driver role without a Reserve label.",
+    "Refresh five stale baseline assertions and rerun the full consumer suite."
+  ],
+  "sourceRetrieval": "New raw official response bytes and their index are retained in the portable handoff; source URLs and hashes are in the committed Tools fixtures. Existing canonical snapshot inputs are pinned by dataBaseOid and bound package provenance."
+}

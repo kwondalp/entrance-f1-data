@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/completion-contracts.v1.schema.json",
+  "$defs": {
+    "binding": {
+      "type": "object", "required": ["path", "sha256", "byteSize"],
+      "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "byteSize": {"type": "integer", "minimum": 1}}
+    },
+    "profileManifest": {
+      "allOf": [{"$ref": "#/$defs/binding"}],
+      "type": "object", "required": ["schemaVersion", "dataStatus", "publicationStatus", "asOfRaceDate"],
+      "properties": {"schemaVersion": {"const": "entrance-profiles-manifest.v1"}, "dataStatus": {"const": "verified"}, "publicationStatus": {"enum": ["candidate", "approved"]}, "asOfRaceDate": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}}
+    },
+    "catalogueManifest": {
+      "allOf": [{"$ref": "#/$defs/binding"}],
+      "type": "object", "required": ["schemaVersion", "dataStatus", "publicationStatus", "audit"],
+      "properties": {"schemaVersion": {"const": "stats-catalogue-completion-manifest.v1"}, "dataStatus": {"const": "verified"}, "publicationStatus": {"enum": ["candidate", "approved"]}, "audit": {"$ref": "#/$defs/binding"}}
+    },
+    "source": {
+      "type": "object", "required": ["url", "retrievedAt", "sha256"],
+      "properties": {"url": {"type": "string", "pattern": "^https://"}, "retrievedAt": {"type": "string", "pattern": "Z$"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    },
+    "entity": {
+      "type": "object", "required": ["id", "history", "season", "career", "sourceUrls"],
+      "properties": {"id": {"type": "string", "minLength": 1}, "history": {"type": "string", "minLength": 1}, "season": {"type": "object", "required": ["position", "points", "races", "wins", "podiums", "poles"]}, "career": {"type": "object", "required": ["entries", "points", "wins", "podiums", "poles", "championships"]}, "sourceUrls": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^https://"}}}
+    },
+    "driver": {
+      "allOf": [{"$ref": "#/$defs/entity"}], "type": "object",
+      "required": ["fullName", "teamId", "seasonTeamId", "reserveTeamId", "role", "biography"],
+      "properties": {"fullName": {"type": "string", "minLength": 1}, "teamId": {"type": ["string", "null"]}, "seasonTeamId": {"type": "string"}, "reserveTeamId": {"type": ["string", "null"]}, "role": {"enum": ["race", "reserve", "inactive"]}, "biography": {"type": "array", "minItems": 1}}
+    },
+    "team": {
+      "allOf": [{"$ref": "#/$defs/entity"}], "type": "object", "required": ["name", "identity", "currentDriverIds"],
+      "properties": {"name": {"type": "string", "minLength": 1}, "identity": {"type": "object", "required": ["fullName", "base", "teamPrincipal", "technicalChief", "chassis", "powerUnit", "lineageFirstEntry"]}, "currentDriverIds": {"type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true, "items": {"type": "string"}}}
+    },
+    "profiles": {
+      "type": "object", "required": ["schemaVersion", "season", "asOfRaceDate", "profileFactsCheckedAt", "resultsArchiveManifestSha256", "currentSeats", "drivers", "teams", "circuits", "sources"],
+      "properties": {"schemaVersion": {"const": "entrance-profiles.v1"}, "season": {"type": "integer"}, "asOfRaceDate": {"type": "string"}, "currentSeats": {"type": "object", "required": ["effectiveSeason", "effectiveEvent", "sourceUrls"]}, "drivers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/driver"}}, "teams": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/team"}}, "circuits": {"type": "array"}, "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}}}
+    },
+    "coverage": {
+      "type": "object", "required": ["asOfRaceDate", "resultsArchiveManifestSha256", "note"],
+      "properties": {"asOfRaceDate": {"type": "string"}, "resultsArchiveManifestSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "note": {"type": "string", "minLength": 1}}
+    },
+    "metric": {
+      "type": "object", "required": ["schemaVersion", "entity", "statisticId", "metricId", "loadedRowCount", "rowCount", "rows", "coverage", "exclusions"],
+      "properties": {"schemaVersion": {"enum": ["stats-lab-production-metric.v1", "stats-catalogue-record-table.v1"]}, "entity": {"enum": ["drivers", "constructors"]}, "statisticId": {"type": "string", "minLength": 1}, "metricId": {"type": "string", "minLength": 1}, "rowCount": {"type": "integer", "minimum": 0}, "loadedRowCount": {"type": "integer", "minimum": 0}, "rows": {"type": "array", "items": {"type": "object", "required": ["value"], "properties": {"value": {"type": "number", "minimum": 0}}}}, "coverage": {"$ref": "#/$defs/coverage"}, "exclusions": {"type": "array"}}
+    },
+    "catalogue": {
+      "type": "object", "required": ["schemaVersion", "archiveManifestSha256", "baseCatalogueSha256", "sourceEvidence", "historicalSource", "metrics"],
+      "properties": {"schemaVersion": {"const": "stats-catalogue-completion.v1"}, "archiveManifestSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "baseCatalogueSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "sourceEvidence": {"type": "array", "minItems": 1}, "historicalSource": {"type": "object", "required": ["archiveSha256", "license", "attribution"]}, "metrics": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["entity", "statisticId", "metricId", "dataPath", "sha256", "byteSize", "rowCount", "coverage", "evidenceUrl", "sourceProducer"], "properties": {"coverage": {"$ref": "#/$defs/coverage"}}}}}
+    }
+  }
+}

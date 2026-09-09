@@ -1,5 +1,17 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Current completion package preparation
+
+Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation.
+
+The shared cutoff is 2026-09-06. The profile separates 23 driver identities,
+22 event race seats, reserve affiliation and inactive participation. Stats adds
+169 metric payloads with 65,852 rows, preserving historical evidence limits.
+Fresh official profile sources and the FIA event entry table replace stale
+seat assumptions. Production approval and canonical birthdate decisions remain
+unchanged. See `docs/current-completion-contracts.md`; Git facts must still be
+read directly, and exact delivery references live in the external review record.
+
 ## 2026-09-08 circuit facts normal website connection
 
 The owner clarified that the sourced circuit facts must appear on normal web
