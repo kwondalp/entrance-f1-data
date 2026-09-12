@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Current-season ranking candidates
+
+Value and descriptive Power now both cover the verified current season through 6 September. Power binds 13 GPs and 24 driver/car combinations; eight measurements pass the fixed evidence threshold. Source timing is joined to canonical sporting identities without patching official statistics. The previous immutable releases are retained.
+
+Independent builds produce identical payload and pointer bytes, and repeated input is a no-op. Candidate verification does not establish a driver-ability model, publication approval, a scheduled run or production activation. See `f1/rankings/README.md` and its producer build receipt.
+
 ## Rankings producer candidate delivery
 
 Separate hash-addressed Value and measured Power candidate contracts and schemas are prepared. Existing production datasets remain unchanged. Value retains the recovered annual USD base-salary definition; Power retains conditional driver/car measurements and withholds unsupported decompositions. Publication is not approved. See f1/rankings/README.md.
