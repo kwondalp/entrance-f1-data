@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Rankings producer candidate delivery
+
+Separate hash-addressed Value and measured Power candidate contracts and schemas are prepared. Existing production datasets remain unchanged. Value retains the recovered annual USD base-salary definition; Power retains conditional driver/car measurements and withholds unsupported decompositions. Publication is not approved. See f1/rankings/README.md.
+
+The delivery evidence records full validation totals, reproducibility, preserved work and exact review dependencies externally. The prior production sections below describe existing features; they do not authorise or establish Rankings production activation.
+
 ## Current completion package preparation
 
 Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation.
