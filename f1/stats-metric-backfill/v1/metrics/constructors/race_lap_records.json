@@ -9,9 +9,9 @@
     "current": {
       "resultRowCount": 18,
       "observedCircuitConfigurationCount": 160,
-      "verifiedCircuitConfigurationCount": 121,
-      "excludedCircuitConfigurationCount": 39,
-      "candidateLapCount": 17085,
+      "verifiedCircuitConfigurationCount": 122,
+      "excludedCircuitConfigurationCount": 38,
+      "candidateLapCount": 17148,
       "eligibleSessionTypes": [
         "race"
       ],
@@ -80,10 +80,6 @@
         {
           "circuitConfigurationId": "lusail-1",
           "reason": "multiple_observed_distances"
-        },
-        {
-          "circuitConfigurationId": "madring-1",
-          "reason": "no_eligible_lap_candidate"
         },
         {
           "circuitConfigurationId": "marina-bay-3",
@@ -1794,7 +1790,7 @@
     {
       "entityId": "constructor:mercedes:81ae28b14607",
       "entityName": "Mercedes",
-      "value": 14,
+      "value": 15,
       "recordOwnerships": [
         {
           "circuitConfigurationId": "bahrain-3",
@@ -1935,6 +1931,30 @@
               "lapNumber": 47,
               "driverId": "driver:hamilton:528ad2ac33fa",
               "driverName": "Lewis Hamilton",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "madring-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2026-14:c5436ea4a949",
+              "eventIndex": 1162,
+              "season": 2026,
+              "round": 14,
+              "date": "2026-09-13",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "madring",
+              "circuitConfigurationId": "madring-1",
+              "sessionType": "race",
+              "lapTime": "1:35.587",
+              "lapTimeMillis": 95587,
+              "lapNumber": 49,
+              "driverId": "driver:russell:0de59c03b0db",
+              "driverName": "George Russell",
               "constructorId": "constructor:mercedes:81ae28b14607",
               "constructorName": "Mercedes"
             }

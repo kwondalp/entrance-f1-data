@@ -4,7 +4,7 @@
   "statisticId": "constructor_lead_seasons",
   "metricId": "constructorLeadSeasons",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-09-13",
   "completeness": {
     "current": {
       "resultRowCount": 34,
@@ -56,7 +56,7 @@
         2026
       ],
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 796,
+      "completeEventCount": 798,
       "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
@@ -68,13 +68,13 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring",
+        "date": "2026-09-13"
       },
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
       "pendingCurrentEventIds": []
@@ -387,6 +387,21 @@
       "rank": 9
     },
     {
+      "entityId": "constructor:alpine:1e11dc0788a1",
+      "entityName": "Alpine F1 Team",
+      "value": 4,
+      "seasons": [
+        2021,
+        2022,
+        2024,
+        2026
+      ],
+      "record": {
+        "valueScope": "distinct observed seasons; incomplete events remain unknown"
+      },
+      "rank": 11
+    },
+    {
       "entityId": "constructor:brabham:0f52aed0736c",
       "entityName": "Brabham",
       "value": 4,
@@ -443,21 +458,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
-    },
-    {
-      "entityId": "constructor:alpine:1e11dc0788a1",
-      "entityName": "Alpine F1 Team",
-      "value": 3,
-      "seasons": [
-        2021,
-        2022,
-        2024
-      ],
-      "record": {
-        "valueScope": "distinct observed seasons; incomplete events remain unknown"
-      },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:aston-martin:ebcdcb86f97f",
@@ -471,7 +472,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:bar:55515af883f6",
@@ -485,7 +486,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:bmw-sauber:fb61ee5b67e2",
@@ -499,7 +500,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:toro-rosso:82757d971dd3",
@@ -513,7 +514,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -527,7 +528,7 @@
       "record": {
         "valueScope": "distinct observed seasons; incomplete events remain unknown"
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "entityId": "constructor:alphatauri:0e8fb3fba42b",

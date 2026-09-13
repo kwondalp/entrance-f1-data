@@ -322,7 +322,7 @@
           "observedCircuitConfigurationCount": 160,
           "verifiedCircuitConfigurationCount": 90,
           "excludedCircuitConfigurationCount": 70,
-          "candidateLapCount": 43799,
+          "candidateLapCount": 43862,
           "eligibleSessionTypes": [
             "qualifying",
             "race"
@@ -801,16 +801,16 @@
           "resultRowCount": 1,
           "qualifyingResultRowCount": 27020,
           "qualifyingValidTimeFieldCount": 37095,
-          "raceFastestLapRowCount": 17085,
-          "raceFastestValidTimeCount": 17085,
-          "candidateLapCount": 54180,
+          "raceFastestLapRowCount": 17148,
+          "raceFastestValidTimeCount": 17148,
+          "candidateLapCount": 54243,
           "higherAverageSpeedCandidateCount": 0,
           "maximumAverageSpeedKph": 264.682,
           "officialHistoricalClaimCorroborated": true
         },
         "target": {
           "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
-          "candidateLapCount": 54180,
+          "candidateLapCount": 54243,
           "higherAverageSpeedCandidateCount": 0,
           "officialHistoricalClaimCorroborated": true
         }
@@ -1154,9 +1154,9 @@
         "current": {
           "resultRowCount": 18,
           "observedCircuitConfigurationCount": 160,
-          "verifiedCircuitConfigurationCount": 121,
-          "excludedCircuitConfigurationCount": 39,
-          "candidateLapCount": 17085,
+          "verifiedCircuitConfigurationCount": 122,
+          "excludedCircuitConfigurationCount": 38,
+          "candidateLapCount": 17148,
           "eligibleSessionTypes": [
             "race"
           ],
@@ -1225,10 +1225,6 @@
             {
               "circuitConfigurationId": "lusail-1",
               "reason": "multiple_observed_distances"
-            },
-            {
-              "circuitConfigurationId": "madring-1",
-              "reason": "no_eligible_lap_candidate"
             },
             {
               "circuitConfigurationId": "marina-bay-3",
@@ -1385,16 +1381,16 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         },
         "target": {
           "cutoff": "2026-08-23",
           "publicationStatus": "partial",
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         }
       },
       "blockingReason": null,
@@ -1450,7 +1446,7 @@
           "observedCircuitConfigurationCount": 160,
           "verifiedCircuitConfigurationCount": 114,
           "excludedCircuitConfigurationCount": 46,
-          "candidateLapCount": 43799,
+          "candidateLapCount": 43862,
           "eligibleSessionTypes": [
             "qualifying",
             "race"
@@ -1862,7 +1858,7 @@
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 298
+          "resultRowCount": 299
         },
         "target": {
           "seasonCount": 77,
@@ -1871,7 +1867,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 298,
+      "rowCount": 299,
       "dataPath": "metrics/constructors/constructor_starts_with_same_engine.json"
     },
     {
@@ -2252,7 +2248,7 @@
       "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -2306,7 +2302,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -2318,13 +2314,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -2379,7 +2375,7 @@
       "countingUnit": "kilometres",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -2433,7 +2429,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -2445,13 +2441,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -2506,7 +2502,7 @@
       "countingUnit": "laps",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -2560,7 +2556,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -2572,13 +2568,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -2976,7 +2972,7 @@
       "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -3030,7 +3026,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -3042,13 +3038,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -3103,15 +3099,15 @@
       "countingUnit": "Grand Slams",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
-      "cutoff": "2026-07-26",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "complete_through_cutoff",
       "completeness": {
         "current": {
           "resultRowCount": 14,
-          "coveredSeasons": "1950-2026 through 2026-07-26",
+          "coveredSeasons": "Verified events through 2026-09-13",
           "excludedSeasons": [],
-          "completeEventCount": 1160,
+          "completeEventCount": 1163,
           "incompleteEventCount": 0,
           "earliestCoveredEvent": {
             "eventId": "event:1950-1:17e7244241b0",
@@ -3123,18 +3119,19 @@
             "circuitId": "silverstone"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-11:e63cf3e76869",
-            "eventIndex": 1159,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 11,
-            "date": "2026-07-26",
-            "grandPrixName": "Hungarian Grand Prix",
-            "circuitId": "hungaroring"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
-          "valueScope": "complete totals through cutoff"
+          "valueScope": "complete totals through cutoff",
+          "pendingCurrentEventIds": []
         },
         "target": {
-          "cutoff": "2026-07-26",
+          "cutoff": "2026-09-13",
           "publicationStatus": "complete_through_cutoff",
           "valueScope": "complete totals through cutoff"
         }
@@ -3207,7 +3204,7 @@
       "countingUnit": "kilometres",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -3261,7 +3258,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -3273,13 +3270,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -3334,7 +3331,7 @@
       "countingUnit": "laps",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -3388,7 +3385,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -3400,13 +3397,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -3461,12 +3458,12 @@
       "countingUnit": "laps",
       "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 1583,
+          "resultRowCount": 1589,
           "coveredSeasons": [
             1982,
             1983,
@@ -3515,7 +3512,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -3527,13 +3524,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -3545,7 +3542,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 1583,
+      "rowCount": 1589,
       "sourceAttribution": {
         "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
         "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
@@ -3588,7 +3585,7 @@
       "countingUnit": "seasons",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -3642,7 +3639,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -3654,13 +3651,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -4170,7 +4167,7 @@
       "countingUnit": "Grand Prix appearances",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -4224,7 +4221,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -4236,13 +4233,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -4324,16 +4321,16 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         },
         "target": {
           "cutoff": "2026-08-23",
           "publicationStatus": "partial",
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         }
       },
       "blockingReason": null,
@@ -4411,9 +4408,9 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
           "valueScope": "Complete Sprint leader observations through 2026-08-23",
           "pendingCurrentEventIds": []
@@ -4507,9 +4504,9 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
           "valueScope": "Complete Sprint leader observations through 2026-08-23",
           "pendingCurrentEventIds": []
@@ -4578,12 +4575,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 14,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -4613,12 +4610,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 14,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -4648,12 +4645,13 @@
       "completeness": {
         "current": {
           "resultRowCount": 14,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29,
+          "pendingCurrentEventIds": []
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -4683,12 +4681,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 14,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -5005,7 +5003,7 @@
           "observedCircuitConfigurationCount": 160,
           "verifiedCircuitConfigurationCount": 90,
           "excludedCircuitConfigurationCount": 70,
-          "candidateLapCount": 43799,
+          "candidateLapCount": 43862,
           "eligibleSessionTypes": [
             "qualifying",
             "race"
@@ -5484,16 +5482,16 @@
           "resultRowCount": 1,
           "qualifyingResultRowCount": 27020,
           "qualifyingValidTimeFieldCount": 37095,
-          "raceFastestLapRowCount": 17085,
-          "raceFastestValidTimeCount": 17085,
-          "candidateLapCount": 54180,
+          "raceFastestLapRowCount": 17148,
+          "raceFastestValidTimeCount": 17148,
+          "candidateLapCount": 54243,
           "higherAverageSpeedCandidateCount": 0,
           "maximumAverageSpeedKph": 264.682,
           "officialHistoricalClaimCorroborated": true
         },
         "target": {
           "coverageDescription": "1950 through the 2026 Hungarian Grand Prix, Round 11",
-          "candidateLapCount": 54180,
+          "candidateLapCount": 54243,
           "higherAverageSpeedCandidateCount": 0,
           "officialHistoricalClaimCorroborated": true
         }
@@ -5909,9 +5907,9 @@
         "current": {
           "resultRowCount": 57,
           "observedCircuitConfigurationCount": 160,
-          "verifiedCircuitConfigurationCount": 121,
-          "excludedCircuitConfigurationCount": 39,
-          "candidateLapCount": 17085,
+          "verifiedCircuitConfigurationCount": 122,
+          "excludedCircuitConfigurationCount": 38,
+          "candidateLapCount": 17148,
           "eligibleSessionTypes": [
             "race"
           ],
@@ -5980,10 +5978,6 @@
             {
               "circuitConfigurationId": "lusail-1",
               "reason": "multiple_observed_distances"
-            },
-            {
-              "circuitConfigurationId": "madring-1",
-              "reason": "no_eligible_lap_candidate"
             },
             {
               "circuitConfigurationId": "marina-bay-3",
@@ -6140,16 +6134,16 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         },
         "target": {
           "cutoff": "2026-08-23",
           "publicationStatus": "partial",
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         }
       },
       "blockingReason": null,
@@ -6205,7 +6199,7 @@
           "observedCircuitConfigurationCount": 160,
           "verifiedCircuitConfigurationCount": 114,
           "excludedCircuitConfigurationCount": 46,
-          "candidateLapCount": 43799,
+          "candidateLapCount": 43862,
           "eligibleSessionTypes": [
             "qualifying",
             "race"
@@ -6477,7 +6471,7 @@
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 768
+          "resultRowCount": 769
         },
         "target": {
           "seasonCount": 77,
@@ -6486,7 +6480,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 768,
+      "rowCount": 769,
       "dataPath": "metrics/drivers/driver_kilometres_raced.json"
     },
     {
@@ -6970,7 +6964,7 @@
       "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -7024,7 +7018,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -7036,13 +7030,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -7097,7 +7091,7 @@
       "countingUnit": "laps",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -7151,7 +7145,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -7163,13 +7157,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -7303,7 +7297,7 @@
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 266
+          "resultRowCount": 267
         },
         "target": {
           "seasonCount": 77,
@@ -7312,7 +7306,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 266,
+      "rowCount": 267,
       "dataPath": "metrics/drivers/driver_championship_h2_h.json"
     },
     {
@@ -7373,7 +7367,7 @@
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 787
+          "resultRowCount": 788
         },
         "target": {
           "seasonCount": 77,
@@ -7382,7 +7376,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 787,
+      "rowCount": 788,
       "dataPath": "metrics/drivers/driver_different_engines.json"
     },
     {
@@ -7702,7 +7696,7 @@
       "countingUnit": "Grand Prix events",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -7756,7 +7750,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -7768,13 +7762,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -7829,15 +7823,15 @@
       "countingUnit": "Grand Slams",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix classifications only; Sprints are excluded",
-      "cutoff": "2026-07-26",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "complete_through_cutoff",
       "completeness": {
         "current": {
           "resultRowCount": 28,
-          "coveredSeasons": "1950-2026 through 2026-07-26",
+          "coveredSeasons": "Verified events through 2026-09-13",
           "excludedSeasons": [],
-          "completeEventCount": 1160,
+          "completeEventCount": 1163,
           "incompleteEventCount": 0,
           "earliestCoveredEvent": {
             "eventId": "event:1950-1:17e7244241b0",
@@ -7849,18 +7843,19 @@
             "circuitId": "silverstone"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-11:e63cf3e76869",
-            "eventIndex": 1159,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 11,
-            "date": "2026-07-26",
-            "grandPrixName": "Hungarian Grand Prix",
-            "circuitId": "hungaroring"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
-          "valueScope": "complete totals through cutoff"
+          "valueScope": "complete totals through cutoff",
+          "pendingCurrentEventIds": []
         },
         "target": {
-          "cutoff": "2026-07-26",
+          "cutoff": "2026-09-13",
           "publicationStatus": "complete_through_cutoff",
           "valueScope": "complete totals through cutoff"
         }
@@ -7933,7 +7928,7 @@
       "countingUnit": "kilometres",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -7987,7 +7982,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -7999,13 +7994,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -8060,7 +8055,7 @@
       "countingUnit": "laps",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -8114,7 +8109,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -8126,13 +8121,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -8187,7 +8182,7 @@
       "countingUnit": "laps",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -8241,7 +8236,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -8253,13 +8248,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -8314,12 +8309,12 @@
       "countingUnit": "laps",
       "defaultSort": "asc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
         "current": {
-          "resultRowCount": 1972,
+          "resultRowCount": 1979,
           "coveredSeasons": [
             1982,
             1983,
@@ -8368,7 +8363,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -8380,13 +8375,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -8398,7 +8393,7 @@
         }
       },
       "blockingReason": null,
-      "rowCount": 1972,
+      "rowCount": 1979,
       "sourceAttribution": {
         "projectCreator": "TracingInsights RaceData, with upstream credits to the jtrotman Formula 1 Race Data and Race Events datasets",
         "releaseVersion": "RaceData commit 9e65035dbfc20201bd0d1febf40c9cfb32e3eea4",
@@ -8441,7 +8436,7 @@
       "countingUnit": "seasons",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -8495,7 +8490,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -8507,13 +8502,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -8568,7 +8563,7 @@
       "countingUnit": "Grand Prix wins",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -8622,7 +8617,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -8634,13 +8629,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -9057,7 +9052,7 @@
       "countingUnit": "Grand Prix appearances",
       "defaultSort": "desc",
       "scope": "Formula 1 World Championship Grand Prix laps with complete per-lap leader coverage between 1982-01-23 and 2026-08-23; Sprints are excluded",
-      "cutoff": "2026-08-23",
+      "cutoff": "2026-09-13",
       "evidenceClass": "C",
       "status": "partial",
       "completeness": {
@@ -9111,7 +9106,7 @@
             2026
           ],
           "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-          "completeEventCount": 796,
+          "completeEventCount": 798,
           "incompleteEventCount": 365,
           "earliestCoveredEvent": {
             "eventId": "event:1982-1:62f155f2687b",
@@ -9123,13 +9118,13 @@
             "circuitId": "kyalami"
           },
           "latestCoveredEvent": {
-            "eventId": "event:2026-12:2e33e12944a2",
-            "eventIndex": 1160,
+            "eventId": "event:2026-14:c5436ea4a949",
+            "eventIndex": 1162,
             "season": 2026,
-            "round": 12,
-            "date": "2026-08-23",
-            "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "round": 14,
+            "grandPrixName": "Spanish Grand Prix",
+            "circuitId": "madring",
+            "date": "2026-09-13"
           },
           "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
           "pendingCurrentEventIds": []
@@ -9211,16 +9206,16 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         },
         "target": {
           "cutoff": "2026-08-23",
           "publicationStatus": "partial",
-          "valueScope": "bounded partial across 11 Sprint events with unique explicit rank-one fastest-lap evidence"
+          "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
         }
       },
       "blockingReason": null,
@@ -9298,9 +9293,9 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
           "valueScope": "Complete Sprint leader observations through 2026-08-23",
           "pendingCurrentEventIds": []
@@ -9394,9 +9389,9 @@
             "eventIndex": 1160,
             "season": 2026,
             "round": 12,
-            "date": "2026-08-23",
             "grandPrixName": "Dutch Grand Prix",
-            "circuitId": "zandvoort"
+            "circuitId": "zandvoort",
+            "date": "2026-08-23"
           },
           "valueScope": "Complete Sprint leader observations through 2026-08-23",
           "pendingCurrentEventIds": []
@@ -9465,12 +9460,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 36,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -9500,12 +9495,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 36,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -9535,12 +9530,13 @@
       "completeness": {
         "current": {
           "resultRowCount": 36,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29,
+          "pendingCurrentEventIds": []
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,
@@ -9570,12 +9566,12 @@
       "completeness": {
         "current": {
           "resultRowCount": 36,
-          "sprintResultPageCount": 28,
-          "sprintGridPageCount": 28
+          "sprintResultPageCount": 29,
+          "sprintGridPageCount": 29
         },
         "target": {
-          "officialSprintResultPageCount": 28,
-          "officialSprintGridPageCount": 28
+          "officialSprintResultPageCount": 29,
+          "officialSprintGridPageCount": 29
         }
       },
       "blockingReason": null,

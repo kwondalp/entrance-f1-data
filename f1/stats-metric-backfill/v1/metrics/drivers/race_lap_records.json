@@ -9,9 +9,9 @@
     "current": {
       "resultRowCount": 57,
       "observedCircuitConfigurationCount": 160,
-      "verifiedCircuitConfigurationCount": 121,
-      "excludedCircuitConfigurationCount": 39,
-      "candidateLapCount": 17085,
+      "verifiedCircuitConfigurationCount": 122,
+      "excludedCircuitConfigurationCount": 38,
+      "candidateLapCount": 17148,
       "eligibleSessionTypes": [
         "race"
       ],
@@ -80,10 +80,6 @@
         {
           "circuitConfigurationId": "lusail-1",
           "reason": "multiple_observed_distances"
-        },
-        {
-          "circuitConfigurationId": "madring-1",
-          "reason": "no_eligible_lap_candidate"
         },
         {
           "circuitConfigurationId": "marina-bay-3",
@@ -2104,6 +2100,62 @@
       "rank": 16
     },
     {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 2,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "bahrain-3",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2020-16:fcacc7c1c62b",
+              "eventIndex": 1033,
+              "season": 2020,
+              "round": 16,
+              "date": "2020-12-06",
+              "grandPrixName": "Sakhir Grand Prix",
+              "circuitId": "bahrain",
+              "circuitConfigurationId": "bahrain-3",
+              "sessionType": "race",
+              "lapTime": "55.404",
+              "lapTimeMillis": 55404,
+              "lapNumber": 80,
+              "driverId": "driver:russell:0de59c03b0db",
+              "driverName": "George Russell",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        },
+        {
+          "circuitConfigurationId": "madring-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2026-14:c5436ea4a949",
+              "eventIndex": 1162,
+              "season": 2026,
+              "round": 14,
+              "date": "2026-09-13",
+              "grandPrixName": "Spanish Grand Prix",
+              "circuitId": "madring",
+              "circuitConfigurationId": "madring-1",
+              "sessionType": "race",
+              "lapTime": "1:35.587",
+              "lapTimeMillis": 95587,
+              "lapNumber": 49,
+              "driverId": "driver:russell:0de59c03b0db",
+              "driverName": "George Russell",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
+            }
+          ]
+        }
+      ],
+      "rank": 16
+    },
+    {
       "entityId": "driver:berger:721f3dbb508a",
       "entityName": "Gerhard Berger",
       "value": 2,
@@ -2581,7 +2633,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:senna:97c74c7d172e",
@@ -2613,7 +2665,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:pace:f2913e9cfb72",
@@ -2645,7 +2697,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:amon:a418aa49b3fe",
@@ -2677,7 +2729,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:gurney:0e0cdc9d2231",
@@ -2709,7 +2761,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:hulme:595e5a426963",
@@ -2741,7 +2793,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -2773,7 +2825,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:alonso:04d69c1d187a",
@@ -2805,7 +2857,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:cevert:fc3ec9f33655",
@@ -2837,39 +2889,7 @@
           ]
         }
       ],
-      "rank": 27
-    },
-    {
-      "entityId": "driver:russell:0de59c03b0db",
-      "entityName": "George Russell",
-      "value": 1,
-      "recordOwnerships": [
-        {
-          "circuitConfigurationId": "bahrain-3",
-          "tie": false,
-          "holders": [
-            {
-              "eventId": "event:2020-16:fcacc7c1c62b",
-              "eventIndex": 1033,
-              "season": 2020,
-              "round": 16,
-              "date": "2020-12-06",
-              "grandPrixName": "Sakhir Grand Prix",
-              "circuitId": "bahrain",
-              "circuitConfigurationId": "bahrain-3",
-              "sessionType": "race",
-              "lapTime": "55.404",
-              "lapTimeMillis": 55404,
-              "lapNumber": 80,
-              "driverId": "driver:russell:0de59c03b0db",
-              "driverName": "George Russell",
-              "constructorId": "constructor:mercedes:81ae28b14607",
-              "constructorName": "Mercedes"
-            }
-          ]
-        }
-      ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:fisichella:5825d809a2e3",
@@ -2901,7 +2921,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:frentzen:e499a12f83f0",
@@ -2933,7 +2953,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:pescarolo:cf6657843db1",
@@ -2965,7 +2985,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:villeneuve:5349509be1a5",
@@ -2997,7 +3017,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:hunt:c0af61d2ad52",
@@ -3029,7 +3049,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:alesi:81d9c1b96672",
@@ -3061,7 +3081,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:rathmann:5dd609a66a0d",
@@ -3093,7 +3113,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:keke-rosberg:c149e9225f45",
@@ -3125,7 +3145,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:kevin-magnussen:10cdaad4587a",
@@ -3157,7 +3177,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
@@ -3189,7 +3209,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:norris:5581145e4767",
@@ -3221,7 +3241,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:trintignant:aaf24838e239",
@@ -3253,7 +3273,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:farina:edc963649157",
@@ -3285,7 +3305,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:piastri:45bbf3cf700f",
@@ -3317,7 +3337,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:phil-hill:35d0f98c0d81",
@@ -3349,7 +3369,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:ralf-schumacher:c4bff3218fa9",
@@ -3381,7 +3401,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:arnoux:3628c7479aa0",
@@ -3413,7 +3433,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:barrichello:ff6039716ac0",
@@ -3445,7 +3465,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -3477,7 +3497,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:glock:55cf369e2b70",
@@ -3509,7 +3529,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "entityId": "driver:brooks:4c43a3935c07",
@@ -3541,7 +3561,7 @@
           ]
         }
       ],
-      "rank": 27
+      "rank": 28
     }
   ]
 }

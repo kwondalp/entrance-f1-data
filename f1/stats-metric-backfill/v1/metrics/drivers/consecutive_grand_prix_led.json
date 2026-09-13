@@ -4,7 +4,7 @@
   "statisticId": "consecutive_grand_prix_led",
   "metricId": "consecutiveGrandPrixLed",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-09-13",
   "completeness": {
     "current": {
       "resultRowCount": 80,
@@ -56,7 +56,7 @@
         2026
       ],
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 796,
+      "completeEventCount": 798,
       "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
@@ -68,13 +68,13 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring",
+        "date": "2026-09-13"
       },
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
       "pendingCurrentEventIds": []
@@ -169,6 +169,33 @@
       "rank": 3
     },
     {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 13,
+      "firstEvent": {
+        "eventId": "event:2026-2:f019d4004b94",
+        "eventIndex": 1150,
+        "season": 2026,
+        "round": 2,
+        "date": "2026-03-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "record": {
+        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
+      },
+      "rank": 4
+    },
+    {
       "entityId": "driver:vettel:c74415af2cc1",
       "entityName": "Sebastian Vettel",
       "value": 13,
@@ -220,7 +247,7 @@
       "record": {
         "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
       },
-      "rank": 5
+      "rank": 6
     },
     {
       "entityId": "driver:senna:97c74c7d172e",
@@ -247,34 +274,7 @@
       "record": {
         "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
       },
-      "rank": 6
-    },
-    {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 11,
-      "firstEvent": {
-        "eventId": "event:2026-2:f019d4004b94",
-        "eventIndex": 1150,
-        "season": 2026,
-        "round": 2,
-        "date": "2026-03-15",
-        "grandPrixName": "Chinese Grand Prix",
-        "circuitId": "shanghai"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "record": {
-        "valueScope": "longest observed streak; incomplete or absent-source events break continuity"
-      },
-      "rank": 6
+      "rank": 7
     },
     {
       "entityId": "driver:prost:70f24972bd43",

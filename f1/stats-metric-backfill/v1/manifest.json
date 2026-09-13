@@ -8,8 +8,13 @@
     "producerId": "entrance-f1-data-tools/stats-metric-backfill-v1",
     "producerVersion": "1.0.4",
     "producerSourceChecksumSha256": "f6b6a499639737e111955d4794f7a0f7606c8cff6d6d879c1f8d36d6ef6e7a88",
-    "resultsArchiveManifestSha256": "5dba4a79bc83aaeb74e0e0c69638cf408d83cff9ee4fc5ac1e1dd63647dcf04c",
+    "resultsArchiveManifestSha256": "525395f2fc713cc1768ee8a49c3b0b0dfdec16abaeb6830d28218502adf1695a",
     "officialCurrentSessionInputs": [
+      {
+        "repository": "entrance-f1-data",
+        "relativePath": "f1/statistics-inputs/v1/inputs.5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9.json",
+        "contentSha256": "5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9"
+      },
       {
         "repository": "entrance-f1-data-tools",
         "relativePath": "fixtures/post-session-ledgers/2026/round-12-qualifying.v1.json",
@@ -39,18 +44,648 @@
         "repository": "entrance-f1-data-tools",
         "relativePath": "fixtures/post-session-ledgers/2026/round-14-race.v1.json",
         "contentSha256": "f3eb5cfcd5cd97dc615928474240a054a1764b52343652a44bb9913d592d62d6"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 1,
+        "session": "qualifying",
+        "raceSlug": "australia",
+        "scheduledStartUtc": "2026-03-07T05:00:00Z",
+        "inputFingerprint": "8b9ca75b7db0a2111d8d3abc538f16730bbcb602e7e12ad9643e6df1037cdcc8",
+        "path": "sessions/59b0a976c33dc22b5cdfcd363223eb377bb8502c1c3058a1a8b7357e4fccfb6a.json",
+        "sha256": "59b0a976c33dc22b5cdfcd363223eb377bb8502c1c3058a1a8b7357e4fccfb6a",
+        "byteSize": 8707,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 1,
+        "session": "race",
+        "raceSlug": "australia",
+        "scheduledStartUtc": "2026-03-08T04:00:00Z",
+        "inputFingerprint": "1c56ef7ba31159bbb16bc4441ebcb44b2be3e3053bfe1ec60f83a0bba5a350b6",
+        "path": "sessions/487ac66fb02dc8b6d939d8219a5c9f9c7ad13104fc6a17c4b2ce67a3871ace09.json",
+        "sha256": "487ac66fb02dc8b6d939d8219a5c9f9c7ad13104fc6a17c4b2ce67a3871ace09",
+        "byteSize": 17970,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 2,
+        "session": "sprint",
+        "raceSlug": "china",
+        "scheduledStartUtc": "2026-03-14T03:00:00Z",
+        "inputFingerprint": "fbd1b29b6e3e4b176aec845f5f099b0a34f5d1437ca1116d3f7b7bb6d29d7b20",
+        "path": "sessions/9e895a796ccbf1bfd947fccfabecebfc6add01cd53916ccd4c2f815eb733cdc4.json",
+        "sha256": "9e895a796ccbf1bfd947fccfabecebfc6add01cd53916ccd4c2f815eb733cdc4",
+        "byteSize": 14836,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 2,
+        "session": "qualifying",
+        "raceSlug": "china",
+        "scheduledStartUtc": "2026-03-14T07:00:00Z",
+        "inputFingerprint": "b9cf91e4f74e565683122072df858969aa297488a354c902e8d636be3501b740",
+        "path": "sessions/cd307f1d1e4cfe9aac63a5eb7acb97680a2fcd813bf08a579dae6fc405d6862c.json",
+        "sha256": "cd307f1d1e4cfe9aac63a5eb7acb97680a2fcd813bf08a579dae6fc405d6862c",
+        "byteSize": 8214,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 2,
+        "session": "race",
+        "raceSlug": "china",
+        "scheduledStartUtc": "2026-03-15T07:00:00Z",
+        "inputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
+        "path": "sessions/52ce46f312f6126418cae317ea04bd3748a92e75cad5f08aa452780e92a4fa1c.json",
+        "sha256": "52ce46f312f6126418cae317ea04bd3748a92e75cad5f08aa452780e92a4fa1c",
+        "byteSize": 17903,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 3,
+        "session": "qualifying",
+        "raceSlug": "japan",
+        "scheduledStartUtc": "2026-03-28T06:00:00Z",
+        "inputFingerprint": "6849483540d9042577b543c57290e19ebe67ef13c292c4d2b89defb4cf30e9de",
+        "path": "sessions/d18ee66f0703271931945d925b165db82cadbd5cb26f7a7e2fe4881d3a9c53c1.json",
+        "sha256": "d18ee66f0703271931945d925b165db82cadbd5cb26f7a7e2fe4881d3a9c53c1",
+        "byteSize": 8217,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 3,
+        "session": "race",
+        "raceSlug": "japan",
+        "scheduledStartUtc": "2026-03-29T05:00:00Z",
+        "inputFingerprint": "6a4fd1a2b69e2c79b8284410b00327ea28fb983c9046d4f13b312ba996ef3989",
+        "path": "sessions/10f24e281ded30f61b4a407caceab7e1746b3d7d5e927fe5fb714971c99f10f5.json",
+        "sha256": "10f24e281ded30f61b4a407caceab7e1746b3d7d5e927fe5fb714971c99f10f5",
+        "byteSize": 18222,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 4,
+        "session": "sprint",
+        "raceSlug": "miami",
+        "scheduledStartUtc": "2026-05-02T16:00:00Z",
+        "inputFingerprint": "5766ccdbdc6fc260a219a9459ebb6ab2a197b85c05318fcb6e23da87e43497c1",
+        "path": "sessions/aad522cac8a807351112582b23d8d71a41e9b0fcb1b4cfc787d56ddd52b85a5d.json",
+        "sha256": "aad522cac8a807351112582b23d8d71a41e9b0fcb1b4cfc787d56ddd52b85a5d",
+        "byteSize": 14844,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 4,
+        "session": "qualifying",
+        "raceSlug": "miami",
+        "scheduledStartUtc": "2026-05-02T20:00:00Z",
+        "inputFingerprint": "1f38cc10e43c95161d6d6fe4c63fbdae43029538f639459ef5479ba16d1fa5d5",
+        "path": "sessions/6fe4dba90180220a48d43b44a77c914dbbf61dc81ab019107cfb10a11707aba0.json",
+        "sha256": "6fe4dba90180220a48d43b44a77c914dbbf61dc81ab019107cfb10a11707aba0",
+        "byteSize": 8212,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 4,
+        "session": "race",
+        "raceSlug": "miami",
+        "scheduledStartUtc": "2026-05-03T17:00:00Z",
+        "inputFingerprint": "8ec2b1e80de314c357935b150d3ba920e1452a24ec5f9216eac3ce4d10c55960",
+        "path": "sessions/bc2ecf44637732d1a4c9af820e552c16ca86705514343305af1cf15c7c37752d.json",
+        "sha256": "bc2ecf44637732d1a4c9af820e552c16ca86705514343305af1cf15c7c37752d",
+        "byteSize": 18192,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 5,
+        "session": "sprint",
+        "raceSlug": "canada",
+        "scheduledStartUtc": "2026-05-23T16:00:00Z",
+        "inputFingerprint": "c2d9fd2aa87282ac6ad0dd670b3212c5604a804d30aaab2186e200b10557ead9",
+        "path": "sessions/3c309f33e0abed5259cc2035f6fe8ab7cdb0001a4af1615d72032ce613f517aa.json",
+        "sha256": "3c309f33e0abed5259cc2035f6fe8ab7cdb0001a4af1615d72032ce613f517aa",
+        "byteSize": 14835,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 5,
+        "session": "qualifying",
+        "raceSlug": "canada",
+        "scheduledStartUtc": "2026-05-23T20:00:00Z",
+        "inputFingerprint": "6de96ac0d91b75ea5a925bad0254935fed891848bfe0661e587bffd91c794210",
+        "path": "sessions/3eae506783f4bc88a4deb39fb390101419a5d4e563c7d023fa9647576a8e5bfd.json",
+        "sha256": "3eae506783f4bc88a4deb39fb390101419a5d4e563c7d023fa9647576a8e5bfd",
+        "byteSize": 8218,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 5,
+        "session": "race",
+        "raceSlug": "canada",
+        "scheduledStartUtc": "2026-05-24T20:00:00Z",
+        "inputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
+        "path": "sessions/278813d3d47490750a15c138dd3ff6cff29f1f90c231ef87efe3e1e29c3058f4.json",
+        "sha256": "278813d3d47490750a15c138dd3ff6cff29f1f90c231ef87efe3e1e29c3058f4",
+        "byteSize": 18287,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 6,
+        "session": "qualifying",
+        "raceSlug": "monaco",
+        "scheduledStartUtc": "2026-06-06T14:00:00Z",
+        "inputFingerprint": "dde76e69709613a212cdf8cee093b4407465624465ea59185e341eecd990424c",
+        "path": "sessions/7f0bcf58db474a48ebd8ea5cd64763c02e1a0241581012381af5a609355801e2.json",
+        "sha256": "7f0bcf58db474a48ebd8ea5cd64763c02e1a0241581012381af5a609355801e2",
+        "byteSize": 8202,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 6,
+        "session": "race",
+        "raceSlug": "monaco",
+        "scheduledStartUtc": "2026-06-07T13:00:00Z",
+        "inputFingerprint": "cb9c71422950ca06c0addb68a676c074104c974ef9ef4f566665fa367f5b2bbe",
+        "path": "sessions/c054fa98517a89e1afa03ebcfdbd5a6339a604f7350395b897a1c93900d0cb54.json",
+        "sha256": "c054fa98517a89e1afa03ebcfdbd5a6339a604f7350395b897a1c93900d0cb54",
+        "byteSize": 18063,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 7,
+        "session": "qualifying",
+        "raceSlug": "barcelona-catalunya",
+        "scheduledStartUtc": "2026-06-13T14:00:00Z",
+        "inputFingerprint": "d5298240978215b90a81ce4ab0d84f2d2e03a3eeeec8d6c967bb36b68a05b5e5",
+        "path": "sessions/9f4d8736d82a1f76446ca9e7463bef463ab4eaf770ec1f55683d9e109f9f80c5.json",
+        "sha256": "9f4d8736d82a1f76446ca9e7463bef463ab4eaf770ec1f55683d9e109f9f80c5",
+        "byteSize": 8258,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 7,
+        "session": "race",
+        "raceSlug": "barcelona-catalunya",
+        "scheduledStartUtc": "2026-06-14T13:00:00Z",
+        "inputFingerprint": "97c238f3186e76bd14623b14fa698322e89109c8a1d1a2b604498f08ddec66fa",
+        "path": "sessions/2dcac58343f7703ef97014367b84706eadabcc0231b1b54a4618d871dae942e4.json",
+        "sha256": "2dcac58343f7703ef97014367b84706eadabcc0231b1b54a4618d871dae942e4",
+        "byteSize": 18261,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 8,
+        "session": "qualifying",
+        "raceSlug": "austria",
+        "scheduledStartUtc": "2026-06-27T14:00:00Z",
+        "inputFingerprint": "5d9c734f73de658cb348641a63380509495e55ff3c4049c8ce1929016edbacb7",
+        "path": "sessions/d0ad87933986cc014fdb690672ad9a21140a1c4c2a9a14e39c06ef1ddcf11957.json",
+        "sha256": "d0ad87933986cc014fdb690672ad9a21140a1c4c2a9a14e39c06ef1ddcf11957",
+        "byteSize": 8204,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 8,
+        "session": "race",
+        "raceSlug": "austria",
+        "scheduledStartUtc": "2026-06-28T13:00:00Z",
+        "inputFingerprint": "9923987a201c1fbf58a7680ee9f22cc5e5c8fdc71c1d997f42c8fa4d66ae62cb",
+        "path": "sessions/34b1293867e5a28584be819175f78e72b7bc08a399338026ab3960a1fe230187.json",
+        "sha256": "34b1293867e5a28584be819175f78e72b7bc08a399338026ab3960a1fe230187",
+        "byteSize": 18061,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 9,
+        "session": "sprint",
+        "raceSlug": "great-britain",
+        "scheduledStartUtc": "2026-07-04T11:00:00Z",
+        "inputFingerprint": "408d9260051cd04887d6e08ec943b93a166638bf85a1c4b307ceebd34eff2db5",
+        "path": "sessions/754c172fc5988a0912e6fe9e5fb028c4f92ea480aac3c16899f207df4255b0e8.json",
+        "sha256": "754c172fc5988a0912e6fe9e5fb028c4f92ea480aac3c16899f207df4255b0e8",
+        "byteSize": 14877,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 9,
+        "session": "qualifying",
+        "raceSlug": "great-britain",
+        "scheduledStartUtc": "2026-07-04T15:00:00Z",
+        "inputFingerprint": "37b95061ec4454f566de49f7655b580c9a94cd0688947419ca131464447c4bd0",
+        "path": "sessions/c58ca112306051f108295a8926b72b1e9097fb68d4a76b7440391a4d96c1728a.json",
+        "sha256": "c58ca112306051f108295a8926b72b1e9097fb68d4a76b7440391a4d96c1728a",
+        "byteSize": 8234,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 9,
+        "session": "race",
+        "raceSlug": "great-britain",
+        "scheduledStartUtc": "2026-07-05T14:00:00Z",
+        "inputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
+        "path": "sessions/ed4e0f7a73393d3ff374744803b72dbc1edd78423d9f09d2fdeb300584174885.json",
+        "sha256": "ed4e0f7a73393d3ff374744803b72dbc1edd78423d9f09d2fdeb300584174885",
+        "byteSize": 18667,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 10,
+        "session": "qualifying",
+        "raceSlug": "belgium",
+        "scheduledStartUtc": "2026-07-18T14:00:00Z",
+        "inputFingerprint": "675b6692a482bcc2e5a9d00bb05b1b2368b3a1b34ed00e300472de38332c9f15",
+        "path": "sessions/09dedceb5d3e745d40f92e8e0481ad0c791838897f845471e07f9a1d025a407e.json",
+        "sha256": "09dedceb5d3e745d40f92e8e0481ad0c791838897f845471e07f9a1d025a407e",
+        "byteSize": 8214,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 10,
+        "session": "race",
+        "raceSlug": "belgium",
+        "scheduledStartUtc": "2026-07-19T13:00:00Z",
+        "inputFingerprint": "6ecd8d20916dd60b1041aa69dcbfaa930aa38ce5241a9ac1d53ec7aafc3f9b93",
+        "path": "sessions/48cd6953a511091500b56d395c4dd61774fed4ccd88924eaf2f63177b6a26684.json",
+        "sha256": "48cd6953a511091500b56d395c4dd61774fed4ccd88924eaf2f63177b6a26684",
+        "byteSize": 18968,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 11,
+        "session": "qualifying",
+        "raceSlug": "hungary",
+        "scheduledStartUtc": "2026-07-25T14:00:00Z",
+        "inputFingerprint": "9c1bb40d7280a7e8a915f2501ae002e6e463bd17f319743d822b34f7d28381a3",
+        "path": "sessions/51c06e7297723e0dd7c1381bd7d444a3e9e5ca8bfd894e3db5febc5edb7759bf.json",
+        "sha256": "51c06e7297723e0dd7c1381bd7d444a3e9e5ca8bfd894e3db5febc5edb7759bf",
+        "byteSize": 8205,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 11,
+        "session": "race",
+        "raceSlug": "hungary",
+        "scheduledStartUtc": "2026-07-26T13:00:00Z",
+        "inputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
+        "path": "sessions/f261c51c8222252ca5e93f3e47c6dfdbb8d542ed297393e1151d4e4bed9f6771.json",
+        "sha256": "f261c51c8222252ca5e93f3e47c6dfdbb8d542ed297393e1151d4e4bed9f6771",
+        "byteSize": 18628,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 12,
+        "session": "sprint",
+        "raceSlug": "netherlands",
+        "scheduledStartUtc": "2026-08-22T10:00:00Z",
+        "inputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
+        "path": "sessions/152ef67f9120a66b222fd2c89d7d9a8ccb98dd6816b924ea2a497708680a7c3e.json",
+        "sha256": "152ef67f9120a66b222fd2c89d7d9a8ccb98dd6816b924ea2a497708680a7c3e",
+        "byteSize": 14864,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 12,
+        "session": "qualifying",
+        "raceSlug": "netherlands",
+        "scheduledStartUtc": "2026-08-22T14:00:00Z",
+        "inputFingerprint": "8c0b161cdedf4b2d3fa6e44332522f4f2ac31565b482996aa7293b87e3b9f0d7",
+        "path": "sessions/8f0134a223d93634daeb60a2b96a56c9104511be87e642a8fa72e5b7413c0912.json",
+        "sha256": "8f0134a223d93634daeb60a2b96a56c9104511be87e642a8fa72e5b7413c0912",
+        "byteSize": 8229,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 12,
+        "session": "race",
+        "raceSlug": "netherlands",
+        "scheduledStartUtc": "2026-08-23T13:00:00Z",
+        "inputFingerprint": "bc5dd22e2745524c9f898768b636a582506c0deb1a36baa240e9a7daa18a9752",
+        "path": "sessions/780407765c3473bd91ec9bb936a03907e2978f51b224afb64e711c1fe2e81091.json",
+        "sha256": "780407765c3473bd91ec9bb936a03907e2978f51b224afb64e711c1fe2e81091",
+        "byteSize": 17963,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 13,
+        "session": "qualifying",
+        "raceSlug": "italy",
+        "scheduledStartUtc": "2026-09-05T14:00:00Z",
+        "inputFingerprint": "ba8a5fe8c312b8a82ab8ec57f0b0290dc055041389aaff93be9ffd114309df7c",
+        "path": "sessions/dde5352f4003e795507071fa31c184b86933cbf383c73511a92dc3dbd8129510.json",
+        "sha256": "dde5352f4003e795507071fa31c184b86933cbf383c73511a92dc3dbd8129510",
+        "byteSize": 8209,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 13,
+        "session": "race",
+        "raceSlug": "italy",
+        "scheduledStartUtc": "2026-09-06T13:00:00Z",
+        "inputFingerprint": "d54145ca53b6aeb22c7ccd5a3b45823ff0280a92408d17f9e543cc850bedb830",
+        "path": "sessions/c7a90eb875a79a6fdfb262fdf66b4af0885895f46f00ad4565515f1ba2c07afa.json",
+        "sha256": "c7a90eb875a79a6fdfb262fdf66b4af0885895f46f00ad4565515f1ba2c07afa",
+        "byteSize": 18949,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 14,
+        "session": "qualifying",
+        "raceSlug": "spain",
+        "scheduledStartUtc": "2026-09-12T14:00:00Z",
+        "inputFingerprint": "f68bacfe8c01ec0422b11d73610f74231591fea96125567df292209b87f31956",
+        "path": "sessions/69ac671acb094bf881fab187dcc73648ac607a5f0bfdd304b4467fef2ccfd6f0.json",
+        "sha256": "69ac671acb094bf881fab187dcc73648ac607a5f0bfdd304b4467fef2ccfd6f0",
+        "byteSize": 8664,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 14,
+        "session": "race",
+        "raceSlug": "spain",
+        "scheduledStartUtc": "2026-09-13T13:00:00Z",
+        "inputFingerprint": "9b022905dab1da2491f532faf32da0eb27021bf4d91664f431b14e07191c9d25",
+        "path": "sessions/9cc25d412a088018e9556a64ea9b894faa7ce2d6954c81e93dc6e4cc9aa572ac.json",
+        "sha256": "9cc25d412a088018e9556a64ea9b894faa7ce2d6954c81e93dc6e4cc9aa572ac",
+        "byteSize": 19334,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 5,
+        "session": "race",
+        "raceSlug": "canada",
+        "officialInputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/81bce8b2faa04df0204bb7e0115ec9f3cac00d7ebb3ce1c1e19d419ebd18669e.json",
+        "sha256": "81bce8b2faa04df0204bb7e0115ec9f3cac00d7ebb3ce1c1e19d419ebd18669e",
+        "byteSize": 8561,
+        "inputFingerprint": "abe99e950ad92572a3097534fbbe6855cafb6f1c82dee3d8b45cb99beef3827e"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 6,
+        "session": "race",
+        "raceSlug": "monaco",
+        "officialInputFingerprint": "cb9c71422950ca06c0addb68a676c074104c974ef9ef4f566665fa367f5b2bbe",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/e8c9b1dae00a1d487aa196a0124a609e514cd9ea8a64974c9f0fa78643c4c0aa.json",
+        "sha256": "e8c9b1dae00a1d487aa196a0124a609e514cd9ea8a64974c9f0fa78643c4c0aa",
+        "byteSize": 8260,
+        "inputFingerprint": "18900fd4f8cedaf56445574663866745d6554545434b3de6cbd487ab0ba0b07a"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 7,
+        "session": "race",
+        "raceSlug": "barcelona-catalunya",
+        "officialInputFingerprint": "97c238f3186e76bd14623b14fa698322e89109c8a1d1a2b604498f08ddec66fa",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/e1ef60f69cd343c57968fe69ee6f1360a39a9c867b53033a0ad5a36614a7772c.json",
+        "sha256": "e1ef60f69cd343c57968fe69ee6f1360a39a9c867b53033a0ad5a36614a7772c",
+        "byteSize": 8596,
+        "inputFingerprint": "6c3e97de55a8b2a80a194083cf227a12e555915fa2ed483711471a18834d7fb4"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 8,
+        "session": "race",
+        "raceSlug": "austria",
+        "officialInputFingerprint": "9923987a201c1fbf58a7680ee9f22cc5e5c8fdc71c1d997f42c8fa4d66ae62cb",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/78c1c7ac98ca457d2667aa8ce181e4059325ba16f91d1a6910eaf4eb7f20bbf3.json",
+        "sha256": "78c1c7ac98ca457d2667aa8ce181e4059325ba16f91d1a6910eaf4eb7f20bbf3",
+        "byteSize": 8785,
+        "inputFingerprint": "19cf97e67534775174b143b2d58d971cbb4460c7417ab2292b0f61d0610b166c"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 9,
+        "session": "sprint",
+        "raceSlug": "great-britain",
+        "officialInputFingerprint": "408d9260051cd04887d6e08ec943b93a166638bf85a1c4b307ceebd34eff2db5",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/4303e062f01b9f03a4938a0e55afa58a4404afca4d84979770454e0c59374508.json",
+        "sha256": "4303e062f01b9f03a4938a0e55afa58a4404afca4d84979770454e0c59374508",
+        "byteSize": 9026,
+        "inputFingerprint": "f2f00501ecdfd1f4b75991850a6548dd1d49c72b4a9aab9c38305271351de5ad"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 9,
+        "session": "race",
+        "raceSlug": "great-britain",
+        "officialInputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/302cd91e4620c54f041efad1fae8331d24b6296724b8552ecdaeed41f385efb7.json",
+        "sha256": "302cd91e4620c54f041efad1fae8331d24b6296724b8552ecdaeed41f385efb7",
+        "byteSize": 7931,
+        "inputFingerprint": "80aea29afce63445dbb771cd88eca21387838a31d0b615951981f7bd4057abb2"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 10,
+        "session": "race",
+        "raceSlug": "belgium",
+        "officialInputFingerprint": "6ecd8d20916dd60b1041aa69dcbfaa930aa38ce5241a9ac1d53ec7aafc3f9b93",
+        "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+        "path": "sessions/8a77e81bb485439ccdf50de0712b5120fca9dd0def5bfd90e603a1959acfb8e4.json",
+        "sha256": "8a77e81bb485439ccdf50de0712b5120fca9dd0def5bfd90e603a1959acfb8e4",
+        "byteSize": 7580,
+        "inputFingerprint": "33ad4a41632be1adcc9beea4cd41a41bf9e11ada20121597aed5ff3aca6721e1"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 11,
+        "session": "race",
+        "raceSlug": "hungary",
+        "officialInputFingerprint": "78ba5f39e984687ae77ed025046a097c7f3eadd639823a08aca7ad61b8ebf79c",
+        "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+        "path": "sessions/37a7a1db94a16da85bd93c045a9b8d3b20f342c3bc10a64215ab34db505e4873.json",
+        "sha256": "37a7a1db94a16da85bd93c045a9b8d3b20f342c3bc10a64215ab34db505e4873",
+        "byteSize": 9297,
+        "inputFingerprint": "53ecd4d06613c1504ff42a54e2a5886773e5403533866d43cae4c58b84da75e4"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 12,
+        "session": "sprint",
+        "raceSlug": "netherlands",
+        "officialInputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
+        "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+        "path": "sessions/cadd578e43c7029fe96d9a1122704ab039c67d1337ea1a0fc3d499a7e170356b.json",
+        "sha256": "cadd578e43c7029fe96d9a1122704ab039c67d1337ea1a0fc3d499a7e170356b",
+        "byteSize": 8857,
+        "inputFingerprint": "83631dbb07e5725238c40a7fd0f7a9e097db2251565dd2c2602965742c46bf9b"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 12,
+        "session": "race",
+        "raceSlug": "netherlands",
+        "officialInputFingerprint": "5c1ae5270afb789a2e92b732a6ddef78eaba54eed7b9a65c2df83de9b7dc3b65",
+        "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+        "path": "sessions/d5aab4cfc133b0b6af69c0bf43c53dad0c5a6d9684aa36fe1ac3ec64308f7e65.json",
+        "sha256": "d5aab4cfc133b0b6af69c0bf43c53dad0c5a6d9684aa36fe1ac3ec64308f7e65",
+        "byteSize": 8937,
+        "inputFingerprint": "b7ae48f5d7f173c869ab333657052aebc0b916c541084bd99ed587471f483037"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 13,
+        "session": "race",
+        "raceSlug": "italy",
+        "officialInputFingerprint": "b5cae13cfee91063633604f742d21c9c76f4adfcc3889a8e4f3972b00da0a4d8",
+        "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+        "path": "sessions/bf70a78ff9dd6af370b058a6dc24033abcc49f1d2f9368d2ea8883d79fb834de.json",
+        "sha256": "bf70a78ff9dd6af370b058a6dc24033abcc49f1d2f9368d2ea8883d79fb834de",
+        "byteSize": 8293,
+        "inputFingerprint": "e50d1c1d840bdd8853abe18156633bb24ee479de54e659e8ff40ca1fb2f93c0f"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-statistics/v1",
+        "season": 2026,
+        "round": 14,
+        "session": "race",
+        "raceSlug": "spain",
+        "officialInputFingerprint": "6b285a0cec273f0a1271a881d278618ae81de9c1a8813bc49a0b3180749bc632",
+        "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+        "path": "sessions/361797ef5497caa2244f98830da13605116b3fb26f3f9c0ed9c6f9c2e68dc2d8.json",
+        "sha256": "361797ef5497caa2244f98830da13605116b3fb26f3f9c0ed9c6f9c2e68dc2d8",
+        "byteSize": 7926,
+        "inputFingerprint": "a75937e3a38f2d1727353067dd1b0df3c34d26a63a27eb919b2942a8e07afc78"
       }
     ],
     "canonicalTextEol": "LF",
     "canonicalTextEncoding": "UTF-8 without BOM",
     "eolPortabilityApproval": "OWNER-20260825-STATS-EOL-01",
-    "registrySha256": "c7c8e062d1b9125c682d1fcf63c119993b9f01d0534e49a3801b2e2dd7dc473c",
+    "registrySha256": "df36d6966154bd372f4bcddfc31b236ff5bcad7d24ac2f8f1f65956f3b314bbb",
     "officialPoleFixtureSha256": "d78c3611c0573970bc2d9c53249663da00a1c635092b5afe899450632c5a8931",
     "constructorIdentityPolicySha256": "60e6ee94ea5752cd0f3556904b2af6c258a523c912b0ea925a5065a492c479ed",
     "driverIdentityPolicySha256": "878d33d0908506268fdc51c5f97b4296fa137a3950c2d42fd817ddd0bdcdf741",
     "officialFinalStandingsFixtureSha256": "fc119e399d20e7f80a36bb48b02d314e2a1c0337254a9f90cb4233e03a01449b",
     "officialSprintFixtureSha256": "b7c46758dd32c435f99d11a625ad82c5cd72582a0f76cb880bcbbb0530398abf",
-    "currentOfficialResultsFixtureSha256": "f6b38c8616da911f0c9a6b472dd817cf52dcfcde5b8cb5a98b7eb39fcf2856ae",
+    "currentOfficialResultsFixtureSha256": "7703c26b79ac71d9511ff44ca4bbdbb727bd3514a9e8136a2b6b798dfe9edd74",
     "nonLapEvidencePolicySha256": "1a2fffc05de94ba8c0b10ac71c664ab32fae164a73c823324cfdf32cef4ed154",
     "final17EvidenceAssessmentSha256": "87ef9648801e52aa507521e2f0eeef7e9071a7c97fe5225d5751273b7ca37bb3",
     "final17EvidenceAssessmentSchemaSha256": "5a2eeb4588064f86c4a156416196f6311fcfdf172ab8bc082951510565404b39",
@@ -125,20 +760,20 @@
     {
       "path": "catalogue.json",
       "artifactType": "catalogue",
-      "byteSize": 405346,
-      "sha256": "b021526bb93838b459e15b7806e221b3182b8bf5062866d20103824a4d76f499"
+      "byteSize": 405134,
+      "sha256": "8082476362f1bbc8a689b9ce57736871109e9725f2b473aa2d3260303d1d78fd"
     },
     {
       "path": "inventory.json",
       "artifactType": "inventory",
-      "byteSize": 461002,
-      "sha256": "d77e4ddea221b6de0a70773916727a2921ec5e0025599045daf1986812d6e898"
+      "byteSize": 460798,
+      "sha256": "0eea2beae89b80f5f8698739da469a777c0bcdf0aacb3611b6f590fd1eae0501"
     },
     {
       "path": "coverage.json",
       "artifactType": "coverage-report",
-      "byteSize": 5668,
-      "sha256": "19c5b7ce14995b7812a73db7d9caef957461bb5bc247a6fac3ae9e059795f31b"
+      "byteSize": 35903,
+      "sha256": "940037856dace645d034af28d8d7e852e8aecbc847d92430494872c1e402f2f4"
     },
     {
       "path": "schema.json",
@@ -198,7 +833,7 @@
       "path": "metrics/constructors/constructor_fastest_lap_record_chronology.json",
       "artifactType": "metric",
       "byteSize": 297798,
-      "sha256": "e6cf0f3c376ebb06b420d654a71c01a4e764cda597b328ec20e409df8a1ca05d"
+      "sha256": "07bef3b444e6d2b7225e191557d845e1a7ff4e647f11cfdfebc13b89faa1b069"
     },
     {
       "path": "metrics/constructors/constructor_fastest_lap_seasons.json",
@@ -228,7 +863,7 @@
       "path": "metrics/constructors/fastest_ever_lap.json",
       "artifactType": "metric",
       "byteSize": 1575,
-      "sha256": "f372405322f0dc5ea7ee3ba4e60bc8525fd496973f035fc933888070377fcbce"
+      "sha256": "d6835fe084e482e992a4b3b1343b24269bdb5ed71051843ac9492d491194ae5b"
     },
     {
       "path": "metrics/constructors/fastest_laps_total.json",
@@ -251,20 +886,20 @@
     {
       "path": "metrics/constructors/race_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 110751,
-      "sha256": "a65595343a2e959b306c1cece67d3cd7a694b6f9842479f78129eb509876ad3c"
+      "byteSize": 111474,
+      "sha256": "8d7287500f57af653b38f2a682faabe33f4fec14c81f5f052b42dbad13a73846"
     },
     {
       "path": "metrics/constructors/sprint_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 8395,
-      "sha256": "9541ad9f9a771417a4854d60620042e83d85fb0be61db0843f42e33f96558ffc"
+      "byteSize": 8369,
+      "sha256": "012cd6067758b655534a7829087428feec7c91770f2731e24ff1a2b687b7f94c"
     },
     {
       "path": "metrics/constructors/track_records.json",
       "artifactType": "metric",
       "byteSize": 108996,
-      "sha256": "ea7f84b2826102990b860269d530b077df84c1d883789daa8c52260c234790a3"
+      "sha256": "fd90318172e236039177ba2032902692de8a38b1a118cafa7b286a83c4a99264"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_championship_lead.json",
@@ -299,8 +934,8 @@
     {
       "path": "metrics/constructors/constructor_starts_with_same_engine.json",
       "artifactType": "metric",
-      "byteSize": 57693,
-      "sha256": "3b7ae9a83ee7b25ed45a2c193731d3133f64169c07d4c245ab835a18ebd430e4"
+      "byteSize": 57896,
+      "sha256": "6c64e0884fd818cbbd8e24318642d821855253fdbc9dce2730d407bbbb4f06bb"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_fastest_lap.json",
@@ -366,19 +1001,19 @@
       "path": "metrics/constructors/consecutive_constructor_grand_prix_led.json",
       "artifactType": "metric",
       "byteSize": 28817,
-      "sha256": "51a86723ce5355198a9701a8ce428f7234a7fb281cd277eb2067a3bb68b94d00"
+      "sha256": "bde3c97a0ee80cebaf92252e1450bdb88c125bc33d8437248c2fc5d8bf4cd995"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_kilometres_led.json",
       "artifactType": "metric",
       "byteSize": 32132,
-      "sha256": "94efa1f7ec49a4edc841fc8fc5a7d94951f7f4dc0d8a55c2a6e6f0ff689afe46"
+      "sha256": "ff0e2a5fcd0415f9fe9e2e1ba0bc2cf7c3c0c893d71dbfbbd189bb69494bfe6b"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_laps_led.json",
       "artifactType": "metric",
       "byteSize": 31969,
-      "sha256": "f05dc98d6f5202f4049c909eb704c52b8839c7238cd94ce442a52581cb663871"
+      "sha256": "fcd446fd7ba1af2b9e8523613a361e8115a9c0990029cf838118df1681ae697d"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_lead_seasons.json",
@@ -390,13 +1025,13 @@
       "path": "metrics/constructors/constructor_different_engines.json",
       "artifactType": "metric",
       "byteSize": 20950,
-      "sha256": "d0170748b87cb51632dd89a94c599becb8bf4c75f42515b2e5a16a28ad0def5a"
+      "sha256": "79ac84491464a68e598a2b2d59a97496bf0445d843596e70c8c61458ee7ab41a"
     },
     {
       "path": "metrics/constructors/constructor_different_models.json",
       "artifactType": "metric",
       "byteSize": 20439,
-      "sha256": "069d63bb525f11e13ed97d0a93eeff20c5f4c8e34283bbbc6c93a05cbab687aa"
+      "sha256": "6661761f71e1ca93267e44c67bbf7740ed58ffa7b2bb46df0412dc0d61d6247d"
     },
     {
       "path": "metrics/constructors/constructor_front_row_lockouts.json",
@@ -426,13 +1061,13 @@
       "path": "metrics/constructors/constructor_grand_prix_led.json",
       "artifactType": "metric",
       "byteSize": 10230,
-      "sha256": "8bd5692151fdb8a7cb1f21c0aa71f0ca9ee4fa17094b9e407cd95d381b710218"
+      "sha256": "87727d5f3a155e8e9fb2f3674cb6002ae8697f6350f1cc40b987792a93250ab8"
     },
     {
       "path": "metrics/constructors/constructor_grand_slams.json",
       "artifactType": "metric",
-      "byteSize": 69430,
-      "sha256": "3a254cb0978580f52bd910122ae14d13f7debeabfef0228d2c7406157e687dd4"
+      "byteSize": 69466,
+      "sha256": "bc419156cd2a89ce28c136192c80af529b301860b795425af94fde54d6d1f682"
     },
     {
       "path": "metrics/constructors/constructor_hat_tricks.json",
@@ -443,26 +1078,26 @@
     {
       "path": "metrics/constructors/constructor_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 10418,
-      "sha256": "0c6266da0dcc738f8f7c82921404a84ac905226898286ae4bfb80ec05ad5087a"
+      "byteSize": 10417,
+      "sha256": "b73b10938253b20306996e8e8ede3020d007ad051820e821f67e4582e0fe9675"
     },
     {
       "path": "metrics/constructors/constructor_laps_led.json",
       "artifactType": "metric",
       "byteSize": 10249,
-      "sha256": "d514dfa41ec7cb739a8f83a53a584e4e72e4b7ada5243e13306d32369edcfd0b"
+      "sha256": "de6c44eea4c583154cea3a47310e223397aeca8e6ac894e5bea5654608f092d1"
     },
     {
       "path": "metrics/constructors/constructor_lead_chronology.json",
       "artifactType": "metric",
-      "byteSize": 1742259,
-      "sha256": "cc5e408feb0406c67c1856391c7309c0696f2a0e9ea1d44b2d092253695d1bf5"
+      "byteSize": 1748569,
+      "sha256": "da45a83738d7f22e53e2440c1573b9b2cbcb204a75bac69161f4a396d6d306ed"
     },
     {
       "path": "metrics/constructors/constructor_lead_seasons.json",
       "artifactType": "metric",
-      "byteSize": 14709,
-      "sha256": "87b6dd3d82ba0e77d94923616676abd74aaf44c42d3c5bc5c779705f2459fcdd"
+      "byteSize": 14723,
+      "sha256": "7c752533e7fbc60179b56abde1539e9445c5a3fc0a9a16e3388559711f3b9eea"
     },
     {
       "path": "metrics/constructors/constructor_season_front_rows.json",
@@ -498,61 +1133,61 @@
       "path": "metrics/constructors/gps_before_first_constructor_lead.json",
       "artifactType": "metric",
       "byteSize": 15413,
-      "sha256": "33503169e9700e09304e9edca64f65225fe97f2a2b451e72e52918266adde4e5"
+      "sha256": "72d433eb6689e85d547ab86fdeefef66d2586942a61c829a399b737e352825dd"
     },
     {
       "path": "metrics/constructors/constructor_sprint_fastest_laps.json",
       "artifactType": "metric",
-      "byteSize": 5949,
-      "sha256": "b889e7e1e4f4b2cd328a2372fec17201b9876af368a53cd38af78c0ea41d3328"
+      "byteSize": 5923,
+      "sha256": "055291f6e651a7647c575e9a1c25e8758eb009ea6ad76cf9c30e063f85885949"
     },
     {
       "path": "metrics/constructors/constructor_sprint_kilometres_led.json",
       "artifactType": "metric",
       "byteSize": 2993,
-      "sha256": "f375abb71a7612b489474ab7c6b24356300478e39cffe1f057b97e3b7aeb4061"
+      "sha256": "91eb1e65504b33b0f42a8cf8f60a352dd9db75e021d94c9d3ad3b56642238c97"
     },
     {
       "path": "metrics/constructors/constructor_sprint_laps_led.json",
       "artifactType": "metric",
       "byteSize": 2964,
-      "sha256": "2dbd7af31ca7a106c39329a1dabc6c0a4194fd503586531661691284fc5672ed"
+      "sha256": "3ac23b2c8c38795beaed259f3a1cbc7a494da0b8362a7a5fd5ca80ca4cee318b"
     },
     {
       "path": "metrics/constructors/constructor_sprint_podiums.json",
       "artifactType": "metric",
       "byteSize": 2404,
-      "sha256": "55b6ed8f54c13584059bc7e7a6c0217662dc02eaad7d949fa17062f6c28ea01d"
+      "sha256": "37cf39e245a5ad1c79379117fc8b5297df40c1e05fff3e873dc05731c615e54c"
     },
     {
       "path": "metrics/constructors/constructor_sprint_points.json",
       "artifactType": "metric",
       "byteSize": 2416,
-      "sha256": "bddefd08a681fc1a91be8a28527b8cbba071cd5817297d65bfecf3833a1bfcf9"
+      "sha256": "ec4b4bf3461248f7fcb9719ac06388c0fa8bcd282ca164e99561b20c1147e3fb"
     },
     {
       "path": "metrics/constructors/constructor_sprint_poles.json",
       "artifactType": "metric",
-      "byteSize": 2397,
-      "sha256": "3932c9a60741b810abaa42a1ca880c4d29f848384c78fcd3abea3c12a5426a21"
+      "byteSize": 2433,
+      "sha256": "c31159d1ee4de62c8e531370f9fd84065770d9020ae90bbdb504491209a09153"
     },
     {
       "path": "metrics/constructors/constructor_sprint_wins.json",
       "artifactType": "metric",
       "byteSize": 2395,
-      "sha256": "38f97fca05498c979b243a934df3873717daab8c14be5e4a244c2b3c131ac5cd"
+      "sha256": "98dc0a8e061a003d2ba61343bd86b89ac23e2f5bfe8cb30b2e94433a7235b0e2"
     },
     {
       "path": "metrics/constructors/constructor_wins_by_model.json",
       "artifactType": "metric",
-      "byteSize": 34810,
-      "sha256": "ec63633363d17bd10388e2d5b35a12a8d3db45b9b3e3c8cebe5ea2a6053ea65e"
+      "byteSize": 34811,
+      "sha256": "2c94571f83c3e8f9a50997d4fe2a15c947465c2810611891eba446a4a501d8e4"
     },
     {
       "path": "metrics/constructors/wins_by_engine.json",
       "artifactType": "metric",
       "byteSize": 11133,
-      "sha256": "db0890370a9aa5fd654e3d7d8c2dba81d61be29bf506e259c0a7bc91769241ce"
+      "sha256": "3409d6cc413d4c117a95ff89ed9b54c894bfa42b39bcc52e3b62d254618f7f40"
     },
     {
       "path": "metrics/drivers/driver_championship_podiums.json",
@@ -594,7 +1229,7 @@
       "path": "metrics/drivers/driver_fastest_lap_record_chronology.json",
       "artifactType": "metric",
       "byteSize": 298589,
-      "sha256": "5c682601e119b8b0ab8375d1121e0020805f2e7e0e50c21725c6f5defc23762d"
+      "sha256": "43ff38f3e62cf044f2699221a708433934f54589096ef9efdfa3d78a4d351067"
     },
     {
       "path": "metrics/drivers/driver_fastest_lap_seasons.json",
@@ -624,7 +1259,7 @@
       "path": "metrics/drivers/fastest_ever_lap.json",
       "artifactType": "metric",
       "byteSize": 1572,
-      "sha256": "86d54278fd42d16eadc37d733a4f96a9b4c8de01011b298ee65eeeabac845485"
+      "sha256": "c6247543eb24b0bf73ef9cebc825c61f6b99b483ab443d6f13f85ab346b5d3c9"
     },
     {
       "path": "metrics/drivers/fastest_laps_total.json",
@@ -659,20 +1294,20 @@
     {
       "path": "metrics/drivers/race_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 117477,
-      "sha256": "71202edd478f673c1a8220e13b25efb17aec8d669e93e411de7e730c3fda2786"
+      "byteSize": 118200,
+      "sha256": "511ce90db946151982ab41b4ce2fa51be50e58de071d94ad08c21c4371771637"
     },
     {
       "path": "metrics/drivers/sprint_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 8388,
-      "sha256": "cddf9d23f5395e1961e9b90654936e6403892f9bed9dc723178065c25ca3df3f"
+      "byteSize": 8362,
+      "sha256": "cdbac01abc1daa6e6b63529f69c1c5e016f331f19ec7909fb051d62ce38eb9e8"
     },
     {
       "path": "metrics/drivers/track_records.json",
       "artifactType": "metric",
       "byteSize": 113938,
-      "sha256": "94deb42e3bf53a8c79e33eedb71bffdf100b5de9f9461fb1d02e350c2547f2c2"
+      "sha256": "3cd435e216e21c04b1b0750b10585fce268aced8f5a52f6384e31d523945a6d9"
     },
     {
       "path": "metrics/drivers/consecutive_driver_starts.json",
@@ -683,8 +1318,8 @@
     {
       "path": "metrics/drivers/driver_kilometres_raced.json",
       "artifactType": "metric",
-      "byteSize": 109331,
-      "sha256": "e25b62c789e510481dd47b54702b912288237e45eb9f9899237228f3e245eb6e"
+      "byteSize": 109473,
+      "sha256": "67581a3013604bc824ff672a2b8f543194ca9fecc533d30926480361f4b5cdad"
     },
     {
       "path": "metrics/drivers/driver_laps_raced.json",
@@ -768,13 +1403,13 @@
       "path": "metrics/drivers/consecutive_grand_prix_led.json",
       "artifactType": "metric",
       "byteSize": 65042,
-      "sha256": "7db3964f15aeb9ad631a07c562dfeeebd811f698fe381f6b7452816b12594445"
+      "sha256": "d86ab327ae73d41199ad1ac4520427390d2ea87164d8ce70460cd1c8f00a29e2"
     },
     {
       "path": "metrics/drivers/consecutive_laps_led.json",
       "artifactType": "metric",
       "byteSize": 72472,
-      "sha256": "bb7b40d0c852598f6a90eceb4758012b1c8cc6c886bfec3778a507ddda3869d5"
+      "sha256": "9b3f99ec9cbaf71ab9e74d2b39bf9b19b749aa436331eb9abad682c77caa33b8"
     },
     {
       "path": "metrics/drivers/driver_average_grid.json",
@@ -791,8 +1426,8 @@
     {
       "path": "metrics/drivers/driver_championship_h2_h.json",
       "artifactType": "metric",
-      "byteSize": 36546,
-      "sha256": "0159653229eb48ae53e1ef3a68fd12b0f57097b70c3368ea1dcfa840b81f803f"
+      "byteSize": 36679,
+      "sha256": "97c0baf0921a3070464524c074cb261b18c85d1c670c56c9e775dcc09d767da1"
     },
     {
       "path": "metrics/drivers/driver_did_not_start.json",
@@ -803,8 +1438,8 @@
     {
       "path": "metrics/drivers/driver_different_engines.json",
       "artifactType": "metric",
-      "byteSize": 106932,
-      "sha256": "401e77c7606387c96f5a6bd865ff9d0394669fdfd0a04a0379602dc543e04ef3"
+      "byteSize": 107063,
+      "sha256": "719ad8b1b2f073edd32762facb8ca283fe89c96d46c92cba8f9cb8f1a900cc3b"
     },
     {
       "path": "metrics/drivers/driver_first_across_line_without_win.json",
@@ -852,13 +1487,13 @@
       "path": "metrics/drivers/driver_grand_prix_led.json",
       "artifactType": "metric",
       "byteSize": 21386,
-      "sha256": "c61a7bda93a1e30bf765de9f6b1048b031797d1a8494ab633a1b99ba69e37bc2"
+      "sha256": "1c2b411362c70dd71bcb9f999113c86e90eb372f17949b778f4585dce4923416"
     },
     {
       "path": "metrics/drivers/driver_grand_slams.json",
       "artifactType": "metric",
-      "byteSize": 82852,
-      "sha256": "a11a1a1a4a12a95d84c1743f5162185f6fa35c0313cb583ce3b0b17f4d7396e0"
+      "byteSize": 82888,
+      "sha256": "16bc2a8e0523fb0ccd7b93f45a4fa5159cce4c2e75f3d2020585fa846ddc006a"
     },
     {
       "path": "metrics/drivers/driver_hat_tricks.json",
@@ -869,38 +1504,38 @@
     {
       "path": "metrics/drivers/driver_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 21837,
-      "sha256": "0d502c2b901c06e41a9738147905e997f26c5beffb9c95158be289e3f1d5c6de"
+      "byteSize": 21838,
+      "sha256": "f32786c70fb094c70e92085397844b3bc9e872831055438eb113fdc2605f6a05"
     },
     {
       "path": "metrics/drivers/driver_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 21453,
-      "sha256": "34d90efe6268ac3778120a36105e14304a4967a1a7e81b1f64e1243ae5d98ddb"
+      "byteSize": 21454,
+      "sha256": "ee3ccea4f5a55f5da31ee5737f38a42d9c638feeb6734493ad87274eec213627"
     },
     {
       "path": "metrics/drivers/driver_laps_led_without_win.json",
       "artifactType": "metric",
       "byteSize": 10351,
-      "sha256": "4fe874e46084a05f5a8e313fe32de42538041912e6536c74f6cd607cccd8710b"
+      "sha256": "a9d8e5b4c3abfedde615d20693a506182861856cf1619a49be5c47a8490f5be8"
     },
     {
       "path": "metrics/drivers/driver_lead_chronology.json",
       "artifactType": "metric",
-      "byteSize": 2011171,
-      "sha256": "51e6cdf7f5eacbbe5bb91fb751768c9254464173a81f072c6c2c23ca5aad600b"
+      "byteSize": 2018157,
+      "sha256": "0be310033e1c264d06bab8b1ba40d2b7e502ad72a87255aaf36b01d5f894ef99"
     },
     {
       "path": "metrics/drivers/driver_lead_seasons.json",
       "artifactType": "metric",
-      "byteSize": 29575,
-      "sha256": "090dd74c41bbd7df43e7af6b128d23c02b27b22897997546f896627bba6ee52b"
+      "byteSize": 29589,
+      "sha256": "cf0f8edd0b46191fc32d120948fceb4d73456e336b58a93484630bd5d7adedfe"
     },
     {
       "path": "metrics/drivers/driver_lights_to_flag.json",
       "artifactType": "metric",
       "byteSize": 54380,
-      "sha256": "f021f5f28d243d343f19be6698bdda63291a71b4a2eff136b2497bcf7bbb94ca"
+      "sha256": "cdb81da12317d5e5b5eebfc80d3295d9206b70b924264da2d22fe08bb1d081a1"
     },
     {
       "path": "metrics/drivers/driver_qualifying_h2_hwins.json",
@@ -936,49 +1571,49 @@
       "path": "metrics/drivers/gps_before_first_lead.json",
       "artifactType": "metric",
       "byteSize": 40494,
-      "sha256": "ef5b8a42cd5cc60e16fbb03b75aa791c7eada72a05f9929d9c2eda1e18d25eb7"
+      "sha256": "6cb2c4a1400211597dc952624e71a3f7b5292d0ed4f314cb95d94c4a997b588d"
     },
     {
       "path": "metrics/drivers/driver_sprint_fastest_laps.json",
       "artifactType": "metric",
-      "byteSize": 6220,
-      "sha256": "b21718c3447429ecace273fef975d34ff1812353ea706f218eb1a02ddb46d744"
+      "byteSize": 6194,
+      "sha256": "5c27e40291ce91a89dbac6af8e25ef591e2ffeb5eb5c850820e0a7a454dfcea6"
     },
     {
       "path": "metrics/drivers/driver_sprint_kilometres_led.json",
       "artifactType": "metric",
       "byteSize": 4589,
-      "sha256": "44dce754d9849983cf1c6fc32ceee3da9fc8c013899745ef339728c9db6f5e8b"
+      "sha256": "88cdc2c4034274ebcbf31323621e4a220710421d0f391305bb6ee22f9ffb490c"
     },
     {
       "path": "metrics/drivers/driver_sprint_laps_led.json",
       "artifactType": "metric",
       "byteSize": 4532,
-      "sha256": "e0593075aec4075f9b46356a688dcbf7bcb7009e4c5d2228e8f4a1f8007e90d1"
+      "sha256": "269c800597dff03859796b58c07fd2b66a0f1ec5215a3fbd6e58ea665c132e26"
     },
     {
       "path": "metrics/drivers/driver_sprint_podiums.json",
       "artifactType": "metric",
       "byteSize": 5382,
-      "sha256": "54fac30d0080116a87b30a50a20bcfe68bec94b73ca945342a8f558f08fabff4"
+      "sha256": "87c57d38bb4d51a5181c0a7999ec0fa824aa499228796a7e6f8a49b0a5d931c7"
     },
     {
       "path": "metrics/drivers/driver_sprint_points.json",
       "artifactType": "metric",
       "byteSize": 5395,
-      "sha256": "22813307aee74e091a5c88418ad89405ed0f6bd5d43e9dc58ecd73abbcf534b2"
+      "sha256": "9d004f793cba2841156dfc1f979b3c8f4e7ba351abee8713ee0446f17c69e28d"
     },
     {
       "path": "metrics/drivers/driver_sprint_poles.json",
       "artifactType": "metric",
-      "byteSize": 5377,
-      "sha256": "7257dafc4f246310179499575d0263166e0e7d6a49f69467ade855cb28e4d74a"
+      "byteSize": 5413,
+      "sha256": "9b0206e637af55a4af11f2ade09ef24e5a084653e509b1981f33308d4d560498"
     },
     {
       "path": "metrics/drivers/driver_sprint_wins.json",
       "artifactType": "metric",
       "byteSize": 5348,
-      "sha256": "30516ea38853b04e77b09f231eb4168c434e731fdbd1882732038003518ae376"
+      "sha256": "cf5a201214532ee0e24ed51d59fed2bd5196e6e98da2c6daefca71bf5e670661"
     },
     {
       "path": "metrics/drivers/driver_wins_and_fastest_laps.json",
@@ -996,7 +1631,7 @@
       "path": "metrics/drivers/wins_by_engine.json",
       "artifactType": "metric",
       "byteSize": 37183,
-      "sha256": "fd46239878de153f76c9ef2a68e409c25672c252759cd3b2f6ff8de11ee1d0ff"
+      "sha256": "44933307b23e9dbd392324b16979a254bdf9185c681475e0476732dcbcb6d145"
     },
     {
       "path": "metrics/drivers/wins_oldest.json",
