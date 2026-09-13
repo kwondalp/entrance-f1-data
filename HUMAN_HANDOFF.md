@@ -449,3 +449,8 @@ The owner approved publication of the exact checksum-bound completion packages t
 ## Power Rating v1 operational phase
 
 The Power v2 seed contains real historical/current sufficient statistics and the prior failure/repair audit under the owner operational authorisation. No raw provider timing is redistributed. The first current release is intentionally delegated to the deployed producer; cloud execution and live publication are not yet claimed. See f1/rankings/power/v2/README.md.
+
+
+## Power Rating verified operation
+
+The deployed Power-only producer published power-2026-r13-00674a8107d324f7 through the verified Italian GP. Public release bytes and all artifact bindings were checked. Cloud unchanged-input and actual two-GP source recheck runs created no additional release. Empirical validation is explicitly retrospective with a reused evaluation period, and all component intervals remain model-conditional. The approved seed is retained for reproducibility.
