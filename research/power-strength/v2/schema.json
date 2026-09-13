@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/schemas/power-strength-review.v1.schema.json",
+  "title": "Immutable current-strength research bundle, never a live release pointer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "publicationStatus", "releaseId", "modelGate", "productionActivated", "season", "asOfRaceDate", "generatedAt", "methodologyVersion", "generatorCommit", "inputFingerprint", "files"],
+  "properties": {
+    "schemaVersion": {"const": "entrance-power-strength-review.v1"},
+    "publicationStatus": {"const": "research"},
+    "releaseId": {"type": "string", "pattern": "^strength-[0-9]{4}-[a-f0-9]{20}$"},
+    "modelGate": {"enum": ["pass", "fail"]},
+    "productionActivated": {"const": false},
+    "season": {"type": "integer", "minimum": 1950},
+    "asOfRaceDate": {"type": "string", "format": "date"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "methodologyVersion": {"type": "string", "minLength": 1},
+    "generatorCommit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "inputFingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "files": {"type": "object", "minProperties": 8, "additionalProperties": {"type": "object", "additionalProperties": false, "required": ["path", "sha256", "byteSize"], "properties": {
+      "path": {"type": "string", "pattern": "^[a-z-]+\\.json$"},
+      "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+      "byteSize": {"type": "integer", "minimum": 1}
+    }}}
+  }
+}

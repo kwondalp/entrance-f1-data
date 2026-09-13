@@ -1,5 +1,9 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Current-strength decision and Stats correction
+
+The current product decision supersedes cumulative event scoring. The new two-axis research bundle remains unapproved because qualifying coverage fails its frozen threshold. It has real source bindings, thirteen current GP snapshots, a verified identical-input no-op and separate generation/coverage dates. See research/power-strength/v2/README.md. A shared-car Stats repair was generated and independently reconciled; see docs/stats-shared-driver-repair.md. Neither the correction's operational publication nor the research model's activation is complete. Existing approved ranking pointers remain unchanged; earlier research below describes a different model.
+
 ## Separate Power model research contract
 
 The model-review namespace contains actual producer-derived current-season estimates, with 9 Power entries, 21 distinct Driver estimates and 8 distinct Car estimates. Unsupported entries remain null. The schema and producer validate hash bindings, component evidence and the additive model relation. The existing approved ranking pointers are byte-identical. Model validation is not promoted: predictive and subgroup gates fail, and the reference was revised after diagnostics. Raw historical timing and diagnostic fitted coefficients remain external. See f1/rankings/model-review/README.md. A review feature and its browser do not establish production activation or scheduled execution.
