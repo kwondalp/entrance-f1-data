@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "entrance-ranking-manifest.v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "season",
+    "cutoff",
+    "releaseId",
+    "idempotencyKey",
+    "path",
+    "sha256",
+    "byteSize",
+    "publicationStatus",
+    "generatedAtUtc",
+    "methodologyVersion",
+    "modelVersion",
+    "referenceVersion",
+    "lineage",
+    "releases"
+  ],
+  "properties": {
+    "path": {
+      "type": "string",
+      "pattern": "^release\\.[a-f0-9]{64}\\.json$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "byteSize": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "schemaVersion": {
+      "const": "entrance-ranking-manifest.v1"
+    },
+    "kind": {
+      "enum": [
+        "value",
+        "power"
+      ]
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 1950
+    },
+    "cutoff": {
+      "type": "string",
+      "format": "date"
+    },
+    "publicationStatus": {
+      "enum": [
+        "candidate",
+        "approved"
+      ]
+    },
+    "generatedAtUtc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "releases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256",
+          "byteSize"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "byteSize": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "required": [
+        "previousReleaseId",
+        "revisionKind",
+        "comparable"
+      ],
+      "properties": {
+        "previousReleaseId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "revisionKind": {
+          "enum": [
+            "initial",
+            "evidence_advance",
+            "correction",
+            "methodology_change"
+          ]
+        },
+        "comparable": {
+          "type": "boolean"
+        }
+      }
+    },
+    "releaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "idempotencyKey": {
+      "type": "string",
+      "minLength": 1
+    },
+    "methodologyVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modelVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "referenceVersion": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

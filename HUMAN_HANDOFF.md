@@ -1,5 +1,9 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Owner-approved ranking publication
+
+Value and descriptive Power have explicit owner approval with exact input and producer bindings in f1/rankings/approval.v1.json. The producer's approved publication functions generated these immutable payloads without changing sporting facts. Only current approved releases are included. Hosting convergence and scheduled execution must be observed separately.
+
 ## Current completion package preparation
 
 Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation.

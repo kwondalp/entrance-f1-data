@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 21
+handoffVersion: 24
 currentState:
-  status: completion-contracts-publication-approved
-  summary: "The owner approved publication of the exact checksum-bound completion packages through Italian Round 13. Both manifests now separate approved publication from technical verification; all payload bytes and existing production datasets remain unchanged. The compatibility Web consumer passed its preparation gates. Live publication and recurring wiring are verified externally during rollout."
+  status: approved-current-season-ranking-contracts
+  summary: "Owner-approved current-season Value and descriptive Power contracts are staged through reviewed producer policies. Only approved current releases enter production pointers; development history remains separate. Hosting and actual scheduled execution are separate verification steps."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
