@@ -444,3 +444,8 @@ git remote -v
 ## Completion production integration
 
 The owner approved publication of the exact checksum-bound completion packages through Italian Round 13. Both manifests now separate approved publication from technical verification; all payload bytes and existing production datasets remain unchanged. The compatibility Web consumer passed its preparation gates. Live publication and recurring wiring are verified externally during rollout. The dated remote Web-main backup and exact deployment evidence are retained in the external portable integration handoff; query Git and hosting metadata before any recovery. Earlier preparation-only deployment restrictions are historical. Preserve original refs and use history-preserving scoped reverts if this release must be recovered.
+
+
+## Power Rating v1 operational phase
+
+The Power v2 seed contains real historical/current sufficient statistics and the prior failure/repair audit under the owner operational authorisation. No raw provider timing is redistributed. The first current release is intentionally delegated to the deployed producer; cloud execution and live publication are not yet claimed. See f1/rankings/power/v2/README.md.

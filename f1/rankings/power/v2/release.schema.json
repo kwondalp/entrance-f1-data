@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kwondalp.github.io/entrance-f1-data/f1/rankings/power/v2/release.schema.json",
+  "title": "ENTRANCE Power Rating release",
+  "type": "object",
+  "required": ["schemaVersion", "releaseId", "season", "round", "cutoff", "methodologyVersion", "methodologySha256", "producerSha256", "display", "rows", "includedGPs", "artifacts", "empiricalValidation"],
+  "properties": {
+    "schemaVersion": {"const": "entrance-power-rating-release.v1"},
+    "releaseId": {"type": "string", "pattern": "^power-[0-9]{4}-r[0-9]+-[a-f0-9]{16}$"},
+    "season": {"type": "integer"},
+    "round": {"type": "integer", "minimum": 1},
+    "cutoff": {"type": "string", "format": "date"},
+    "publicationStatus": {"const": "approved"},
+    "dataStatus": {"const": "verified"},
+    "display": {"type": "object", "required": ["baseline", "pointsPerPerformanceUnit", "direction", "maximum"], "properties": {
+      "baseline": {"const": 1000}, "pointsPerPerformanceUnit": {"const": 100}, "direction": {"const": "higher"}, "maximum": {"type": "null"}
+    }},
+    "rows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "driverId", "constructorId", "name", "team", "components"],
+      "properties": {"components": {"type": "object", "required": ["overall", "driver", "car"], "additionalProperties": false,
+        "properties": {"overall": {"$ref": "#/$defs/score"}, "driver": {"$ref": "#/$defs/score"}, "car": {"$ref": "#/$defs/score"}}}}
+    }}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "required": ["value", "rank", "status", "interval", "contributingGPs", "currentPairGPs", "posteriorVarianceFraction", "change"],
+      "properties": {
+        "value": {"type": ["number", "null"]}, "rank": {"type": ["integer", "null"], "minimum": 1},
+        "status": {"enum": ["rated", "provisional", "prior-only", "unavailable"]},
+        "interval": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+        "contributingGPs": {"type": "integer", "minimum": 0},
+        "currentPairGPs": {"type": "integer", "minimum": 0},
+        "posteriorVarianceFraction": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"enum": ["prior-only", "unavailable"]}}}, "then": {"properties": {"value": {"type": "null"}, "rank": {"type": "null"}}}},
+        {"if": {"properties": {"status": {"enum": ["rated", "provisional"]}}}, "then": {"properties": {"value": {"type": "number"}, "rank": {"type": "integer"}}}}
+      ]
+    }
+  }
+}
