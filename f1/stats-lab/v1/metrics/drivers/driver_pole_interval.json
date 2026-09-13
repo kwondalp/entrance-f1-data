@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-09-06",
+    "asOfRaceDate": "2026-09-13",
     "seasonCount": 77,
-    "raceCount": 1162,
-    "classificationRowCount": 26187,
-    "resultsArchiveManifestSha256": "8e67760b4e54146275ccb4af64f430c902a1bbf9a645d628973a161fc0698ebd"
+    "raceCount": 1163,
+    "classificationRowCount": 26209,
+    "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152"
   },
   "rowCount": 108,
   "rows": [
@@ -4033,64 +4033,9 @@
       "rank": 28
     },
     {
-      "entityId": "driver:trulli:26a562aa7942",
-      "entityName": "Jarno Trulli",
-      "value": 1799,
-      "firstEvent": {
-        "eventId": "event:2004-6:eb2ccd4a4c2b",
-        "eventIndex": 718,
-        "season": 2004,
-        "round": 6,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "2004-05-23"
-      },
-      "lastEvent": {
-        "eventId": "event:2009-4:e5cfc76c7bdb",
-        "eventIndex": 806,
-        "season": 2009,
-        "round": 4,
-        "grandPrixName": "Bahrain Grand Prix",
-        "circuitId": "bahrain",
-        "eventDate": "2009-04-26"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:trulli:26a562aa7942",
-        "sourcePath": "details/drivers/5.json",
-        "factType": "pole",
-        "eventIds": [
-          "event:2004-6:eb2ccd4a4c2b",
-          "event:2009-4:e5cfc76c7bdb"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          718,
-          1
-        ],
-        [
-          726,
-          1
-        ],
-        [
-          739,
-          1
-        ],
-        [
-          806,
-          1
-        ]
-      ],
-      "rank": 29
-    },
-    {
       "entityId": "driver:norris:5581145e4767",
       "entityName": "Lando Norris",
-      "value": 1792,
+      "value": 1813,
       "firstEvent": {
         "eventId": "event:2021-15:c71e4df9f38a",
         "eventIndex": 1049,
@@ -4101,13 +4046,13 @@
         "eventDate": "2021-09-26"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "eventDate": "2026-08-23"
+        "round": 14,
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring",
+        "eventDate": "2026-09-13"
       },
       "detail": {
         "type": "interval",
@@ -4116,7 +4061,7 @@
         "factType": "pole",
         "eventIds": [
           "event:2021-15:c71e4df9f38a",
-          "event:2026-12:2e33e12944a2"
+          "event:2026-14:c5436ea4a949"
         ],
         "groupId": null,
         "season": null,
@@ -4193,6 +4138,65 @@
         ],
         [
           1160,
+          1
+        ],
+        [
+          1162,
+          1
+        ]
+      ],
+      "rank": 29
+    },
+    {
+      "entityId": "driver:trulli:26a562aa7942",
+      "entityName": "Jarno Trulli",
+      "value": 1799,
+      "firstEvent": {
+        "eventId": "event:2004-6:eb2ccd4a4c2b",
+        "eventIndex": 718,
+        "season": 2004,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "2004-05-23"
+      },
+      "lastEvent": {
+        "eventId": "event:2009-4:e5cfc76c7bdb",
+        "eventIndex": 806,
+        "season": 2009,
+        "round": 4,
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain",
+        "eventDate": "2009-04-26"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:trulli:26a562aa7942",
+        "sourcePath": "details/drivers/5.json",
+        "factType": "pole",
+        "eventIds": [
+          "event:2004-6:eb2ccd4a4c2b",
+          "event:2009-4:e5cfc76c7bdb"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          718,
+          1
+        ],
+        [
+          726,
+          1
+        ],
+        [
+          739,
+          1
+        ],
+        [
+          806,
           1
         ]
       ],
