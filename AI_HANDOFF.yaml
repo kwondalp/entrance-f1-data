@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 24
+handoffVersion: 25
 currentState:
-  status: approved-current-season-ranking-contracts
-  summary: "Owner-approved current-season Value and descriptive Power contracts are staged through reviewed producer policies. Only approved current releases enter production pointers; development history remains separate. Hosting and actual scheduled execution are separate verification steps."
+  status: power-model-research-contract-separated
+  summary: "A separate unpublished current-season Power model-review contract supplies supported additive Power, Driver and Car estimates, component uncertainty and validation evidence. Existing approved Value and descriptive Power pointers are unchanged. This research contract has not passed independent model validation or production activation."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
@@ -17,6 +17,8 @@ currentFocus:
   - id: focus-stats-lab-publication-boundary
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
+  - id: power-driver-car-research-model
+    summary: "A separate unpublished current-season Power model-review contract supplies supported additive Power, Driver and Car estimates, component uncertainty and validation evidence. Existing approved Value and descriptive Power pointers are unchanged. This research contract has not passed independent model validation or production activation."
   - id: current-completion-contracts-preparation
     summary: "Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation. See docs/current-completion-contracts.md for evidence, semantics, validation and refresh dependencies."
   - id: circuit-facts-normal-connection

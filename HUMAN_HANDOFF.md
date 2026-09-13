@@ -1,5 +1,9 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Separate Power model research contract
+
+The model-review namespace contains actual producer-derived current-season estimates, with 9 Power entries, 21 distinct Driver estimates and 8 distinct Car estimates. Unsupported entries remain null. The schema and producer validate hash bindings, component evidence and the additive model relation. The existing approved ranking pointers are byte-identical. Model validation is not promoted: predictive and subgroup gates fail, and the reference was revised after diagnostics. Raw historical timing and diagnostic fitted coefficients remain external. See f1/rankings/model-review/README.md. A review feature and its browser do not establish production activation or scheduled execution.
+
 ## Owner-approved ranking publication
 
 Value and descriptive Power have explicit owner approval with exact input and producer bindings in f1/rankings/approval.v1.json. The producer's approved publication functions generated these immutable payloads without changing sporting facts. Only current approved releases are included. Hosting convergence and scheduled execution must be observed separately.
