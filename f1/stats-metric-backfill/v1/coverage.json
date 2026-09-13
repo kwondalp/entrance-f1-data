@@ -1,6 +1,6 @@
 {
   "schemaVersion": "stats-metric-backfill-coverage.v1",
-  "asOfRaceDate": "2026-08-23",
+  "asOfRaceDate": "2026-09-13",
   "counts": {
     "total": 144,
     "available": 144,
@@ -38,9 +38,9 @@
     }
   },
   "sourceCoverage": {
-    "archiveRaceCount": 1161,
-    "archiveClassificationRowCount": 26165,
-    "fastestLapKnownRaceCount": 444,
+    "archiveRaceCount": 1163,
+    "archiveClassificationRowCount": 26209,
+    "fastestLapKnownRaceCount": 446,
     "unknownStartClassificationRowCount": 11,
     "unknownGridClassificationRowCount": 92,
     "ambiguousSharedDriveGridGroupCount": 63,
@@ -107,7 +107,7 @@
       "openF1CrossCheckUnresolvedEventCount": 0
     },
     "openData": {
-      "mappedRaceCount": 1161,
+      "mappedRaceCount": 1163,
       "driverIdentity": {
         "sourceCount": 917,
         "resolvedCount": 787,
@@ -118,6 +118,38 @@
         "resolvedCount": 156,
         "ambiguousCount": 2
       },
+      "officialCurrentSessionInputs": [
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-12-qualifying.v1.json",
+          "contentSha256": "bdde0e9b621e2aa5893c0e07d22d72962a7f1ff294657b2e80ad9aba5be8988c"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-12-race.v1.json",
+          "contentSha256": "a407d8a71b4434b2bcbe456ab5aa176ecd3619cdc54c1122b1bc8b06d9d19d43"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-13-qualifying.v1.json",
+          "contentSha256": "0bda56294d34e5e319ae6fe17458bfafaf2f6e6410b839f55de5e1caa450c588"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-13-race.v1.json",
+          "contentSha256": "bd48545e6a6df4b56cdc5cbf6211e9a8bd7280d1a1fd4eebba85923fd3839bd1"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-14-qualifying.v1.json",
+          "contentSha256": "a4be84a4988e3c18f28d9dc1c3a9abb3590a20d148f7575ae2ec9527c027a941"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-14-race.v1.json",
+          "contentSha256": "ae58150d7a2781b20cf9a73634a66abc861f5df41abe64729e867accbda7cbec"
+        }
+      ],
       "sourceId": "f1db-v2026.11.0",
       "license": "CC-BY-4.0",
       "archiveSha256": "7da222e8c2cafe223e4be2c1fb22fd67fb529779075f224c00eebac0acdecdeb"

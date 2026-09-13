@@ -4,17 +4,17 @@
   "statisticId": "driver_start_interval",
   "metricId": "driverStartInterval",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-09-13",
   "completeness": {
     "current": {
       "resultRowCount": 796,
-      "knownClassificationRowCount": 26154,
+      "knownClassificationRowCount": 26198,
       "unknownStartRowCount": 11
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1161,
-      "classificationRowCount": 26165
+      "raceCount": 1163,
+      "classificationRowCount": 26209
     }
   },
   "rowCount": 796,
@@ -22,7 +22,7 @@
     {
       "entityId": "driver:alonso:04d69c1d187a",
       "entityName": "Fernando Alonso",
-      "value": 9303,
+      "value": 9324,
       "firstEvent": {
         "eventId": "event:2001-1:f3a2cbf68d05",
         "eventIndex": 663,
@@ -33,13 +33,13 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 1
     },
@@ -94,7 +94,7 @@
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
       "entityName": "Lewis Hamilton",
-      "value": 7098,
+      "value": 7119,
       "firstEvent": {
         "eventId": "event:2007-1:4f36ead3868a",
         "eventIndex": 768,
@@ -105,13 +105,13 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 4
     },
@@ -188,6 +188,30 @@
       "rank": 7
     },
     {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 6027,
+      "firstEvent": {
+        "eventId": "event:2010-1:17f9c86c9f42",
+        "eventIndex": 820,
+        "season": 2010,
+        "round": 1,
+        "date": "2010-03-14",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 8
+    },
+    {
       "entityId": "driver:badoer:e8b0007a4461",
       "entityName": "Luca Badoer",
       "value": 6013,
@@ -209,7 +233,7 @@
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "spa"
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "entityId": "driver:patrese:57b51e8b4bbf",
@@ -233,31 +257,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 8
-    },
-    {
-      "entityId": "driver:hulkenberg:2b1121e9241c",
-      "entityName": "Nico Hülkenberg",
-      "value": 6006,
-      "firstEvent": {
-        "eventId": "event:2010-1:17f9c86c9f42",
-        "eventIndex": 820,
-        "season": 2010,
-        "round": 1,
-        "date": "2010-03-14",
-        "grandPrixName": "Bahrain Grand Prix",
-        "circuitId": "bahrain"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 10
+      "rank": 9
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -284,6 +284,30 @@
       "rank": 11
     },
     {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 5649,
+      "firstEvent": {
+        "eventId": "event:2011-1:cf2a5a839c23",
+        "eventIndex": 839,
+        "season": 2011,
+        "round": 1,
+        "date": "2011-03-27",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 12
+    },
+    {
       "entityId": "driver:vettel:c74415af2cc1",
       "entityName": "Sebastian Vettel",
       "value": 5635,
@@ -304,30 +328,6 @@
         "date": "2022-11-20",
         "grandPrixName": "Abu Dhabi Grand Prix",
         "circuitId": "yas_marina"
-      },
-      "rank": 12
-    },
-    {
-      "entityId": "driver:perez:03c631191055",
-      "entityName": "Sergio Pérez",
-      "value": 5628,
-      "firstEvent": {
-        "eventId": "event:2011-1:cf2a5a839c23",
-        "eventIndex": 839,
-        "season": 2011,
-        "round": 1,
-        "date": "2011-03-27",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
       },
       "rank": 13
     },
@@ -694,7 +694,7 @@
     {
       "entityId": "driver:bottas:cf1711492eee",
       "entityName": "Valtteri Bottas",
-      "value": 4907,
+      "value": 4928,
       "firstEvent": {
         "eventId": "event:2013-1:02f42220367e",
         "eventIndex": 878,
@@ -705,13 +705,13 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 29
     },
@@ -1172,6 +1172,54 @@
       "rank": 48
     },
     {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 4200,
+      "firstEvent": {
+        "eventId": "event:2015-1:dfd85ecbeb0e",
+        "eventIndex": 916,
+        "season": 2015,
+        "round": 1,
+        "date": "2015-03-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 48
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 4200,
+      "firstEvent": {
+        "eventId": "event:2015-1:dfd85ecbeb0e",
+        "eventIndex": 916,
+        "season": 2015,
+        "round": 1,
+        "date": "2015-03-15",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 48
+    },
+    {
       "entityId": "driver:arnoux:3628c7479aa0",
       "entityName": "René Arnoux",
       "value": 4186,
@@ -1193,55 +1241,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 49
-    },
-    {
-      "entityId": "driver:sainz:f4f0414a0a12",
-      "entityName": "Carlos Sainz",
-      "value": 4179,
-      "firstEvent": {
-        "eventId": "event:2015-1:dfd85ecbeb0e",
-        "eventIndex": 916,
-        "season": 2015,
-        "round": 1,
-        "date": "2015-03-15",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 50
-    },
-    {
-      "entityId": "driver:max-verstappen:1f6847211200",
-      "entityName": "Max Verstappen",
-      "value": 4179,
-      "firstEvent": {
-        "eventId": "event:2015-1:dfd85ecbeb0e",
-        "eventIndex": 916,
-        "season": 2015,
-        "round": 1,
-        "date": "2015-03-15",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 50
+      "rank": 51
     },
     {
       "entityId": "driver:heidfeld:93c047ca98eb",
@@ -1748,6 +1748,30 @@
       "rank": 72
     },
     {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 3668,
+      "firstEvent": {
+        "eventId": "event:2016-13:c2f5a54b2790",
+        "eventIndex": 947,
+        "season": 2016,
+        "round": 13,
+        "date": "2016-08-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 73
+    },
+    {
       "entityId": "driver:dick-rathmann:ee98bc60c01b",
       "entityName": "Dick Rathmann",
       "value": 3653,
@@ -1769,7 +1793,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "entityId": "driver:darter:545e4f35b261",
@@ -1793,7 +1817,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "entityId": "driver:hartley:48f844bd8664",
@@ -1817,7 +1841,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "entityId": "driver:rathmann:5dd609a66a0d",
@@ -1841,7 +1865,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "entityId": "driver:bettenhausen:63acf7dcd43a",
@@ -1865,7 +1889,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "entityId": "driver:ruttman:3e2eedf09bb0",
@@ -1889,31 +1913,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 73
-    },
-    {
-      "entityId": "driver:ocon:27db7f9b9070",
-      "entityName": "Esteban Ocon",
-      "value": 3647,
-      "firstEvent": {
-        "eventId": "event:2016-13:c2f5a54b2790",
-        "eventIndex": 947,
-        "season": 2016,
-        "round": 13,
-        "date": "2016-08-28",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 79
+      "rank": 74
     },
     {
       "entityId": "driver:oliver:92571f0c676e",
@@ -2110,7 +2110,7 @@
     {
       "entityId": "driver:stroll:ab76996efc92",
       "entityName": "Lance Stroll",
-      "value": 3437,
+      "value": 3458,
       "firstEvent": {
         "eventId": "event:2017-1:cc1bdab0d0d7",
         "eventIndex": 956,
@@ -2121,13 +2121,13 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 88
     },
@@ -2422,7 +2422,7 @@
     {
       "entityId": "driver:gasly:0fca70394caf",
       "entityName": "Pierre Gasly",
-      "value": 3248,
+      "value": 3269,
       "firstEvent": {
         "eventId": "event:2017-15:3a9dd3c70d72",
         "eventIndex": 970,
@@ -2433,13 +2433,13 @@
         "circuitId": "sepang"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 101
     },
@@ -2492,6 +2492,30 @@
       "rank": 103
     },
     {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 3094,
+      "firstEvent": {
+        "eventId": "event:2018-1:d5e6ec8b97c4",
+        "eventIndex": 976,
+        "season": 2018,
+        "round": 1,
+        "date": "2018-03-25",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 104
+    },
+    {
       "entityId": "driver:ghinzani:299259c20157",
       "entityName": "Piercarlo Ghinzani",
       "value": 3094,
@@ -2537,30 +2561,6 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 105
-    },
-    {
-      "entityId": "driver:leclerc:80a0e9f8790b",
-      "entityName": "Charles Leclerc",
-      "value": 3073,
-      "firstEvent": {
-        "eventId": "event:2018-1:d5e6ec8b97c4",
-        "eventIndex": 976,
-        "season": 2018,
-        "round": 1,
-        "date": "2018-03-25",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
       "rank": 106
     },
     {
@@ -2585,7 +2585,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 106
+      "rank": 107
     },
     {
       "entityId": "driver:bianchi:fc64150cbdba",
@@ -3142,7 +3142,7 @@
     {
       "entityId": "driver:albon:20ec6817f0c4",
       "entityName": "Alexander Albon",
-      "value": 2716,
+      "value": 2737,
       "firstEvent": {
         "eventId": "event:2019-1:cc835ec4b87c",
         "eventIndex": 997,
@@ -3153,20 +3153,20 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 131
     },
     {
       "entityId": "driver:russell:0de59c03b0db",
       "entityName": "George Russell",
-      "value": 2716,
+      "value": 2737,
       "firstEvent": {
         "eventId": "event:2019-1:cc835ec4b87c",
         "eventIndex": 997,
@@ -3177,13 +3177,37 @@
         "circuitId": "albert_park"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 131
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 2737,
+      "firstEvent": {
+        "eventId": "event:2019-1:cc835ec4b87c",
+        "eventIndex": 997,
+        "season": 2019,
+        "round": 1,
+        "date": "2019-03-17",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 131
     },
@@ -3209,31 +3233,7 @@
         "grandPrixName": "South African Grand Prix",
         "circuitId": "kyalami"
       },
-      "rank": 131
-    },
-    {
-      "entityId": "driver:norris:5581145e4767",
-      "entityName": "Lando Norris",
-      "value": 2716,
-      "firstEvent": {
-        "eventId": "event:2019-1:cc835ec4b87c",
-        "eventIndex": 997,
-        "season": 2019,
-        "round": 1,
-        "date": "2019-03-17",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 131
+      "rank": 134
     },
     {
       "entityId": "driver:ireland:655aaf7bf33d",
@@ -4700,6 +4700,30 @@
       "rank": 195
     },
     {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 1995,
+      "firstEvent": {
+        "eventId": "event:2021-1:69f181c43033",
+        "eventIndex": 1035,
+        "season": 2021,
+        "round": 1,
+        "date": "2021-03-28",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 196
+    },
+    {
       "entityId": "driver:marques:c003eb983613",
       "entityName": "Tarso Marques",
       "value": 1981,
@@ -4720,30 +4744,6 @@
         "date": "2001-09-02",
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "spa"
-      },
-      "rank": 196
-    },
-    {
-      "entityId": "driver:tsunoda:d77287c8b9c8",
-      "entityName": "Yuki Tsunoda",
-      "value": 1974,
-      "firstEvent": {
-        "eventId": "event:2021-1:69f181c43033",
-        "eventIndex": 1035,
-        "season": 2021,
-        "round": 1,
-        "date": "2021-03-28",
-        "grandPrixName": "Bahrain Grand Prix",
-        "circuitId": "bahrain"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
       },
       "rank": 197
     },
@@ -7004,6 +7004,30 @@
       "rank": 290
     },
     {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 1288,
+      "firstEvent": {
+        "eventId": "event:2023-1:ddc8278a1b9c",
+        "eventIndex": 1079,
+        "season": 2023,
+        "round": 1,
+        "date": "2023-03-05",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 292
+    },
+    {
       "entityId": "driver:gould:6f30a6e51031",
       "entityName": "Horace Gould",
       "value": 1282,
@@ -7024,30 +7048,6 @@
         "date": "1958-01-19",
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
-      },
-      "rank": 292
-    },
-    {
-      "entityId": "driver:piastri:45bbf3cf700f",
-      "entityName": "Oscar Piastri",
-      "value": 1267,
-      "firstEvent": {
-        "eventId": "event:2023-1:ddc8278a1b9c",
-        "eventIndex": 1079,
-        "season": 2023,
-        "round": 1,
-        "date": "2023-03-05",
-        "grandPrixName": "Bahrain Grand Prix",
-        "circuitId": "bahrain"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
       },
       "rank": 293
     },
@@ -7412,6 +7412,30 @@
       "rank": 308
     },
     {
+      "entityId": "driver:lawson:a9641b5ad41f",
+      "entityName": "Liam Lawson",
+      "value": 1113,
+      "firstEvent": {
+        "eventId": "event:2023-13:b6146f85fd1b",
+        "eventIndex": 1091,
+        "season": 2023,
+        "round": 13,
+        "date": "2023-08-27",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 308
+    },
+    {
       "entityId": "driver:marimon:465ea0c5afa2",
       "entityName": "Onofre Marimón",
       "value": 1112,
@@ -7433,7 +7457,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 309
+      "rank": 310
     },
     {
       "entityId": "driver:ertl:db6fbc3e0d50",
@@ -7457,7 +7481,7 @@
         "grandPrixName": "Austrian Grand Prix",
         "circuitId": "red_bull_ring"
       },
-      "rank": 310
+      "rank": 311
     },
     {
       "entityId": "driver:nazaruk:edfd4b8e4e79",
@@ -7481,7 +7505,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 311
+      "rank": 312
     },
     {
       "entityId": "driver:holland:f2f212d0a58e",
@@ -7505,7 +7529,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 312
+      "rank": 313
     },
     {
       "entityId": "driver:sachs:79e7e4b605c6",
@@ -7529,7 +7553,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 312
+      "rank": 313
     },
     {
       "entityId": "driver:holmes:18f990a39ffe",
@@ -7553,7 +7577,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 312
+      "rank": 313
     },
     {
       "entityId": "driver:cross:44b4f269c23f",
@@ -7577,7 +7601,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 315
+      "rank": 316
     },
     {
       "entityId": "driver:turner:94ba392b302c",
@@ -7601,7 +7625,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 315
+      "rank": 316
     },
     {
       "entityId": "driver:allison:9fe6fe4e2b78",
@@ -7625,7 +7649,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:lees:8b906895f7bb",
@@ -7649,7 +7673,7 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "ricard"
       },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:bailey:14e14d739408",
@@ -7673,7 +7697,7 @@
         "grandPrixName": "San Marino Grand Prix",
         "circuitId": "imola"
       },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:mcalpine:55332cecc122",
@@ -7697,7 +7721,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "aintree"
       },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:ahrens:9352a39503ef",
@@ -7721,31 +7745,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 317
-    },
-    {
-      "entityId": "driver:lawson:a9641b5ad41f",
-      "entityName": "Liam Lawson",
-      "value": 1092,
-      "firstEvent": {
-        "eventId": "event:2023-13:b6146f85fd1b",
-        "eventIndex": 1091,
-        "season": 2023,
-        "round": 13,
-        "date": "2023-08-27",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:hansgen:500c326babb1",
@@ -7769,7 +7769,7 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "rank": 317
+      "rank": 318
     },
     {
       "entityId": "driver:gavin:7a357fa402cb",
@@ -8230,7 +8230,7 @@
     {
       "entityId": "driver:bearman:77f13409c49b",
       "entityName": "Oliver Bearman",
-      "value": 897,
+      "value": 918,
       "firstEvent": {
         "eventId": "event:2024-2:c8123e9f9a1f",
         "eventIndex": 1102,
@@ -8241,13 +8241,13 @@
         "circuitId": "jeddah"
       },
       "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
         "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
       },
       "rank": 343
     },
@@ -8804,6 +8804,30 @@
       "rank": 366
     },
     {
+      "entityId": "driver:colapinto:b0daf67dc8e6",
+      "entityName": "Franco Colapinto",
+      "value": 742,
+      "firstEvent": {
+        "eventId": "event:2024-16:77ba99d4bd0d",
+        "eventIndex": 1116,
+        "season": 2024,
+        "round": 16,
+        "date": "2024-09-01",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 367
+    },
+    {
       "entityId": "driver:nakajima:93aa20648b71",
       "entityName": "Kazuki Nakajima",
       "value": 742,
@@ -8849,7 +8873,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 368
+      "rank": 369
     },
     {
       "entityId": "driver:foyt:8b2a44b22319",
@@ -8873,7 +8897,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:schindler:259eb479a84f",
@@ -8897,7 +8921,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:bob-scott:cebb680e2d78",
@@ -8921,7 +8945,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:scarborough:4862f135ba1c",
@@ -8945,7 +8969,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:dempsey-wilson:7602262a1dab",
@@ -8969,7 +8993,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:nalon:35ff5963cc4d",
@@ -8993,7 +9017,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:george-connor:f086721c167e",
@@ -9017,7 +9041,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:fonder:e69d91d36ea2",
@@ -9041,7 +9065,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:banks:3b326228b426",
@@ -9065,7 +9089,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:mcdowell:f991b99bc358",
@@ -9089,7 +9113,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:sutton:012959b935f1",
@@ -9113,7 +9137,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:ayulo:41bf46de6b02",
@@ -9137,7 +9161,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:goldsmith:cb970a968540",
@@ -9161,7 +9185,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 369
+      "rank": 370
     },
     {
       "entityId": "driver:cheesbourg:f3300a14f80b",
@@ -9185,7 +9209,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 382
+      "rank": 383
     },
     {
       "entityId": "driver:garrett:8dd43bb8da15",
@@ -9209,7 +9233,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 382
+      "rank": 383
     },
     {
       "entityId": "driver:niday:9a20100d1e43",
@@ -9233,7 +9257,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 382
+      "rank": 383
     },
     {
       "entityId": "driver:tolan:df3276472748",
@@ -9257,7 +9281,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 382
+      "rank": 383
     },
     {
       "entityId": "driver:magill:316889ab5b76",
@@ -9281,7 +9305,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 382
+      "rank": 383
     },
     {
       "entityId": "driver:keizan:0d56c956449c",
@@ -9305,7 +9329,7 @@
         "grandPrixName": "South African Grand Prix",
         "circuitId": "kyalami"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:castellotti:29de409c0984",
@@ -9329,7 +9353,7 @@
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:cabianca:ba8c0d079103",
@@ -9353,7 +9377,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:hahne:11f3a5efeffc",
@@ -9377,7 +9401,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:fitch:2e1d2e44df04",
@@ -9401,7 +9425,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:birger:e3a8cf39225e",
@@ -9425,7 +9449,7 @@
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "rank": 387
+      "rank": 388
     },
     {
       "entityId": "driver:helfrich:7310f60bde5c",
@@ -9449,31 +9473,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 387
-    },
-    {
-      "entityId": "driver:colapinto:b0daf67dc8e6",
-      "entityName": "Franco Colapinto",
-      "value": 721,
-      "firstEvent": {
-        "eventId": "event:2024-16:77ba99d4bd0d",
-        "eventIndex": 1116,
-        "season": 2024,
-        "round": 16,
-        "date": "2024-09-01",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 394
+      "rank": 388
     },
     {
       "entityId": "driver:raby:5c25e193dec6",
@@ -9497,7 +9497,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 394
+      "rank": 395
     },
     {
       "entityId": "driver:eaton:f9153f0757f9",
@@ -10124,6 +10124,54 @@
       "rank": 421
     },
     {
+      "entityId": "driver:bortoleto:4d5babd4495f",
+      "entityName": "Gabriel Bortoleto",
+      "value": 546,
+      "firstEvent": {
+        "eventId": "event:2025-1:7c43929f48ef",
+        "eventIndex": 1125,
+        "season": 2025,
+        "round": 1,
+        "date": "2025-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 422
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 546,
+      "firstEvent": {
+        "eventId": "event:2025-1:7c43929f48ef",
+        "eventIndex": 1125,
+        "season": 2025,
+        "round": 1,
+        "date": "2025-03-16",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 422
+    },
+    {
       "entityId": "driver:sargeant:83f8b17a86c0",
       "entityName": "Logan Sargeant",
       "value": 539,
@@ -10145,7 +10193,7 @@
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 422
+      "rank": 424
     },
     {
       "entityId": "driver:guerrero:bfd59734a9ea",
@@ -10169,7 +10217,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "brands_hatch"
       },
-      "rank": 422
+      "rank": 424
     },
     {
       "entityId": "driver:lombardi:bdeb2af3ff19",
@@ -10193,7 +10241,7 @@
         "grandPrixName": "Austrian Grand Prix",
         "circuitId": "red_bull_ring"
       },
-      "rank": 424
+      "rank": 426
     },
     {
       "entityId": "driver:ambrosio:f4bfa2843766",
@@ -10217,55 +10265,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 425
-    },
-    {
-      "entityId": "driver:bortoleto:4d5babd4495f",
-      "entityName": "Gabriel Bortoleto",
-      "value": 525,
-      "firstEvent": {
-        "eventId": "event:2025-1:7c43929f48ef",
-        "eventIndex": 1125,
-        "season": 2025,
-        "round": 1,
-        "date": "2025-03-16",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 426
-    },
-    {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 525,
-      "firstEvent": {
-        "eventId": "event:2025-1:7c43929f48ef",
-        "eventIndex": 1125,
-        "season": 2025,
-        "round": 1,
-        "date": "2025-03-16",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 426
+      "rank": 427
     },
     {
       "entityId": "driver:ligier:c5719d2a4e77",
@@ -13460,6 +13460,30 @@
       "rank": 560
     },
     {
+      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
+      "entityName": "Arvid Lindblad",
+      "value": 189,
+      "firstEvent": {
+        "eventId": "event:2026-1:4bf04bce2aa9",
+        "eventIndex": 1149,
+        "season": 2026,
+        "round": 1,
+        "date": "2026-03-08",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "albert_park"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-14:c5436ea4a949",
+        "eventIndex": 1162,
+        "season": 2026,
+        "round": 14,
+        "date": "2026-09-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "madring"
+      },
+      "rank": 561
+    },
+    {
       "entityId": "driver:pantano:c50358aef4b2",
       "entityName": "Giorgio Pantano",
       "value": 189,
@@ -13505,7 +13529,7 @@
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "rank": 562
+      "rank": 563
     },
     {
       "entityId": "driver:andretti:f3ccdb5cedb4",
@@ -13529,7 +13553,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 563
+      "rank": 564
     },
     {
       "entityId": "driver:larrauri:13726141b789",
@@ -13553,31 +13577,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 563
-    },
-    {
-      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
-      "entityName": "Arvid Lindblad",
-      "value": 168,
-      "firstEvent": {
-        "eventId": "event:2026-1:4bf04bce2aa9",
-        "eventIndex": 1149,
-        "season": 2026,
-        "round": 1,
-        "date": "2026-03-08",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
-        "season": 2026,
-        "round": 12,
-        "date": "2026-08-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 565
+      "rank": 564
     },
     {
       "entityId": "driver:gartner:cf22bb25110a",
@@ -13601,7 +13601,7 @@
         "grandPrixName": "Portuguese Grand Prix",
         "circuitId": "estoril"
       },
-      "rank": 565
+      "rank": 566
     },
     {
       "entityId": "driver:fabre:5cc78e7d2cb2",
@@ -13625,7 +13625,7 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "jerez"
       },
-      "rank": 565
+      "rank": 566
     },
     {
       "entityId": "driver:wunderink:5ff00d65f27e",

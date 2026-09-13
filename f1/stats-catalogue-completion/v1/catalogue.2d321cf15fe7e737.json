@@ -1,8 +1,38 @@
 {
   "schemaVersion": "stats-catalogue-completion.v1",
-  "archiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-  "baseCatalogueSha256": "112bd49a229fc09e20992d224e636418ff6c1094bf987b26e3559dc05c37c94f",
+  "archiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+  "baseCatalogueSha256": "c3442a70043373e1b19900b68bd7dd720ac67e9e752e3b831e15f8331f60aa74",
   "sourceEvidence": [
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-12-qualifying.v1.json",
+      "contentSha256": "bdde0e9b621e2aa5893c0e07d22d72962a7f1ff294657b2e80ad9aba5be8988c"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-12-race.v1.json",
+      "contentSha256": "a407d8a71b4434b2bcbe456ab5aa176ecd3619cdc54c1122b1bc8b06d9d19d43"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-13-qualifying.v1.json",
+      "contentSha256": "0bda56294d34e5e319ae6fe17458bfafaf2f6e6410b839f55de5e1caa450c588"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-13-race.v1.json",
+      "contentSha256": "bd48545e6a6df4b56cdc5cbf6211e9a8bd7280d1a1fd4eebba85923fd3839bd1"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-14-qualifying.v1.json",
+      "contentSha256": "a4be84a4988e3c18f28d9dc1c3a9abb3590a20d148f7575ae2ec9527c027a941"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/post-session-ledgers/2026/round-14-race.v1.json",
+      "contentSha256": "ae58150d7a2781b20cf9a73634a66abc861f5df41abe64729e867accbda7cbec"
+    },
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-non-lap-evidence-policy.v1.json",
@@ -26,7 +56,7 @@
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/results-archive-2026-rechecked-results.json",
-      "contentSha256": "1040db3140b65ff86a274ff69b67c88e5cd2ebefe192690ea1c5189c87f56d27"
+      "contentSha256": "ef62daf639b9fb118ccec9a21350509b95f92a54c6745ce517b8fe897fc1b269"
     },
     {
       "repository": "entrance-f1-data-tools",
@@ -46,7 +76,7 @@
     {
       "repository": "entrance-f1-data",
       "relativePath": "f1/stats-metric-backfill/v1/metrics/drivers/driver_lead_chronology.json",
-      "contentSha256": "a6a646cd7b116a455ad19eea7325f9514dcd8ab9f4811bc60c0a4488834be2c8"
+      "contentSha256": "fcf4170d8fefb92acac1a0fad0890314349254805fd3d6b4786f0846751b9c65"
     }
   ],
   "historicalSource": {
@@ -81,7 +111,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -97,7 +127,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_champions.json",
-      "sha256": "83acd847ac14d60f32956b939cb4bbb1e888a3315da2f87f2606c872fcb82288",
+      "sha256": "6bc4913662d8b39e76e329e1319d2ddc1aa004d77d9eee2fe3ff0e420ce2da9e",
       "byteSize": 30186,
       "rowCount": 35,
       "rangeModes": [
@@ -119,7 +149,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -135,7 +165,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_champions.json",
-      "sha256": "a9fccdb7959a4fa7858aa5029056004fe0b15b97e8a662d33849904aaaeb37ac",
+      "sha256": "d2abd7ebac232b7a4dc36da36125fd657aacc5005320994176e42b1c783b1e21",
       "byteSize": 30173,
       "rowCount": 35,
       "rangeModes": [
@@ -157,7 +187,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -173,7 +203,7 @@
       "grouping": "entity",
       "countingUnit": "years",
       "dataPath": "metrics/drivers/longest_gap_between_championships.json",
-      "sha256": "8048b90101b7f99d39bd7406911d4a0241fe0b26a44196cde3b4c2ba88cd1358",
+      "sha256": "8dbd73b4eb459c6c8bd865cd0e864d8d2a1750b710f853691d7254834aeb71da",
       "byteSize": 4072,
       "rowCount": 17,
       "rangeModes": [
@@ -195,7 +225,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Final, completed-season standings from F1DB; season champion identities are checked against verified archive champions. Current unfinished championships are excluded.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -211,7 +241,7 @@
       "grouping": "season",
       "countingUnit": "points",
       "dataPath": "metrics/drivers/championship_winning_margin.json",
-      "sha256": "ba5fe14df5dda7121e3b7aa189a17ab4d815f0df5075efa360a9d21fe486dbbd",
+      "sha256": "fd513895288c9c2ecb3f7ce74afc2077ea4960ad72aa06cbbdf61c74390c39f9",
       "byteSize": 20903,
       "rowCount": 76,
       "rangeModes": [
@@ -233,7 +263,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Team or engine at championship-clinching event is not bound."
@@ -251,7 +281,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/championships_with_different_teams.json",
-      "sha256": "5486b03834d242dc071d9aa22effbb55c5e2381582493c95fd3140f0276cfe79",
+      "sha256": "7d3007c25f6f7b7852c3672c9bf663f4316e7bf09a572895193993648e6df2f5",
       "byteSize": 19868,
       "rowCount": 34,
       "rangeModes": [
@@ -273,7 +303,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Team or engine at championship-clinching event is not bound."
@@ -291,7 +321,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/championships_with_different_engines.json",
-      "sha256": "637955ce1b9a0ce93140bc6e5d0621f30b891dd825a84c8c9b252d546b1ac147",
+      "sha256": "194e36e941a8d6a1225250fdc2c7cfbe5d5928bbd87e0858049804d7bf5a07ce",
       "byteSize": 19841,
       "rowCount": 34,
       "rangeModes": [
@@ -313,7 +343,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -329,7 +359,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/constructor_championships_as_a_driver.json",
-      "sha256": "66d7106cbdf3b7283d783d090f834f519f8b828e8d8dbd261b6b01e9a7ec52e9",
+      "sha256": "c21eea32a4c7ce8957017be7f71c13a04a3fc7567dc917331ac497ebbd7e9f7f",
       "byteSize": 247868,
       "rowCount": 156,
       "rangeModes": [
@@ -351,7 +381,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Final, completed-season standings from F1DB; season champion identities are checked against verified archive champions. Current unfinished championships are excluded.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -367,7 +397,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/best_championship_finish.json",
-      "sha256": "dfe2836e0311c5639cdc69cc75d9471a06afa857483e1abb5c9eda7080b2cf50",
+      "sha256": "47c922fd1a4896a5d2f42fae7b2cdd3f7da4bd9be82bebe7e9ff0e5cba990ffa",
       "byteSize": 71184,
       "rowCount": 377,
       "rangeModes": [
@@ -389,7 +419,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -409,7 +439,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_on_birthday.json",
-      "sha256": "9b60822019388fa98a1eb0d6e2e1ad1c49735a8143ed4173203efbce5f4c57bd",
+      "sha256": "b484ee22d4edf0c229cbe5d344b19e7023159d819bbc633d2830bbb209d38787",
       "byteSize": 159259,
       "rowCount": 2,
       "rangeModes": [
@@ -431,7 +461,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -451,7 +481,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_winners_by_nation.json",
-      "sha256": "57952d3bae0680b56088c87403cd450949f40abae3f4e6d46edf8757fe8f56f9",
+      "sha256": "45f123262040a70d8bae5ff01ae46559645db1ea6a57154133dac2b0bd59c370",
       "byteSize": 179107,
       "rowCount": 23,
       "rangeModes": [
@@ -473,7 +503,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -489,7 +519,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_wins.json",
-      "sha256": "bbe906c7677a7333f7ed345bde8e8dd83fc80fdeec53395e115b47834552061f",
+      "sha256": "36d23756b8354f564762988ecb0ff87d132cdac73ffd6f92711811384fa8c95a",
       "byteSize": 119155,
       "rowCount": 82,
       "rangeModes": [
@@ -511,7 +541,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -527,7 +557,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_before_first_championship.json",
-      "sha256": "b87e1ac1f0e0cab00f2015effe1a45caa5a5693b47b72306e5ce65cc4c679dc2",
+      "sha256": "751075c57dc66cfc940ef049a96117386651f377fc27deea519d04c658ae1cc4",
       "byteSize": 38488,
       "rowCount": 35,
       "rangeModes": [
@@ -549,7 +579,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -565,7 +595,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_with_different_teams.json",
-      "sha256": "64a6be19abc74c851d92d02514f8dd705c34cf6272a172445f9f059a6005193b",
+      "sha256": "22feb90aced342b77f627948df2288e8feb77ca7714cd965e0156f71f3ac0a32",
       "byteSize": 134375,
       "rowCount": 116,
       "rangeModes": [
@@ -587,7 +617,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -607,7 +637,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_with_different_engines.json",
-      "sha256": "1deea7aef1502f4206710265cb60543dc05939568ed11d870b6f8789352a9908",
+      "sha256": "5994b6bb5179407d0acf8f113d04b6faf2fa0ea4249f082043dc12a07b136af8",
       "byteSize": 134113,
       "rowCount": 115,
       "rangeModes": [
@@ -629,7 +659,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -645,7 +675,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_wins_at_the_same_grand_prix.json",
-      "sha256": "480e39f27bc525a35fc16750b6c8da62429c600c2a5c3c22e0d421cb9fe34696",
+      "sha256": "f37af28c398e1e7006416a64da2b756b1add353b13bbd4fdcd2db32381cf0c5a",
       "byteSize": 409322,
       "rowCount": 688,
       "rangeModes": [
@@ -667,7 +697,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -683,7 +713,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_wins_at_the_same_circuit.json",
-      "sha256": "5835fcef3e2147f55c22d86ff5a31a0ed51ec0547d5638a41ef99741edf2ecf4",
+      "sha256": "b59dd939f0127f5c37ac11da3f08a96c62b09e3f6a22f2892135d8baea7933e9",
       "byteSize": 415263,
       "rowCount": 713,
       "rangeModes": [
@@ -705,7 +735,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values."
@@ -723,7 +753,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_winning_grid_positions.json",
-      "sha256": "71bc7b9e1c4651e52d8f86326b89af33d944b4b4a15d1b53889a7f6eb7290a81",
+      "sha256": "4e22a7c33830d029d369dc49fa90565d81f5a3c3988bbc993c8d9fa53b11e624",
       "byteSize": 134537,
       "rowCount": 116,
       "rangeModes": [
@@ -745,7 +775,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -765,7 +795,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/last_lap_lead_wins.json",
-      "sha256": "58c4e7e0cc3f30842089e85853acb05e67e8fd9d84f8d30296bd18e7294e5b32",
+      "sha256": "fba1338664565cc25ced36d61affcb0b966df973c96b1802be40973dc2e7f2de",
       "byteSize": 126061,
       "rowCount": 6,
       "rangeModes": [
@@ -787,7 +817,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -803,7 +833,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_in_non_championship_seasons.json",
-      "sha256": "47c178708db5536473efbdb364a419ea6f81bd33afe96be5727f3824c994e7a9",
+      "sha256": "22f575a1c1f0eacfd8720f155cbac40dfd63c8d0dbc676f1daea98c906316872",
       "byteSize": 97192,
       "rowCount": 116,
       "rangeModes": [
@@ -825,7 +855,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -845,7 +875,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_without_leading_a_lap.json",
-      "sha256": "1f3e2458d3517758a05131e28c4ef0a828032a6a011ef998e3843fe89eaee892",
+      "sha256": "93f435898c93b3502f28f7429cbb2410e377fafb7d8309cea066b76bff04ebfe",
       "byteSize": 124599,
       "rowCount": 3,
       "rangeModes": [
@@ -867,7 +897,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Official classified time gap from winner to runner-up, in seconds. Lapped runner-up and unresolved timing evidence are excluded.",
         "knownExclusions": [
           "Lapped or missing runner-up gap cannot be converted to seconds.",
@@ -887,7 +917,7 @@
       "grouping": "event",
       "countingUnit": "seconds",
       "dataPath": "metrics/drivers/winning_margin.json",
-      "sha256": "5d4f4afc07b97b767f62351431e278f4e5bfa7f948de2bb3bc0103db96d3c0f4",
+      "sha256": "930f1b0424e577b5513b321e1c720927360aa5c8946b7ba1feb78a79fdadb20f",
       "byteSize": 1025459,
       "rowCount": 1122,
       "rangeModes": [
@@ -909,7 +939,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Longest distinct-winner interval ending at each race; shared winners form one event.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -945,7 +975,7 @@
         }
       ],
       "dataPath": "metrics/drivers/consecutive_races_with_different_winners.json",
-      "sha256": "8196c46981e6b1de8d6f3898f21d1541eac86a03960505646c2883718ae16886",
+      "sha256": "09660ac1ea8d083abb0fdb9d50623b6096d4709b680578d16530330502cbebbf",
       "byteSize": 207045,
       "rowCount": 825,
       "rangeModes": [
@@ -967,7 +997,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -999,7 +1029,7 @@
         }
       ],
       "dataPath": "metrics/drivers/different_winners_in_a_season.json",
-      "sha256": "32b5c01320c77c00508d3a02240de7e266daf0cc8741627c2fe49c8c8e5af9f5",
+      "sha256": "4ae4bee8f37162279d1dbabc28cde2c09a2101c0a24f5b8bbd4a3ca5a0d61bbb",
       "byteSize": 16128,
       "rowCount": 77,
       "rangeModes": [
@@ -1021,7 +1051,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1037,7 +1067,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/second_and_third_place_finishes.json",
-      "sha256": "f08eeb1f734959a3cc25620f78e5c9cb078781b61a840d3499df2838938aea80",
+      "sha256": "71fd96bca15dff704992e195468d41f824eeb7424ff67f847ee8bc3eac00a00d",
       "byteSize": 320980,
       "rowCount": 329,
       "rangeModes": [
@@ -1059,7 +1089,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -1079,7 +1109,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_podium_finishers.json",
-      "sha256": "7dec1fd4658e43375efae97859bd49a415ce0a3f0079a936497002ba3f4ca35e",
+      "sha256": "4200e6b25b817c98fcb871d1ee1668e5fc6d69944998dea14f43ad84c9db41bc",
       "byteSize": 254597,
       "rowCount": 116,
       "rangeModes": [
@@ -1101,7 +1131,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -1121,7 +1151,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_on_birthday.json",
-      "sha256": "9538486ee71bfcbcb9d941e55efadf02567be2ce85301725d763066d34eaa828",
+      "sha256": "e1529c31d7c115704417eec68e5676dc18a325925f958e944455dc6b080c0002",
       "byteSize": 161090,
       "rowCount": 6,
       "rangeModes": [
@@ -1143,7 +1173,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -1163,7 +1193,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_podium_finishers_by_nation.json",
-      "sha256": "a00a03c137d95bcda71b88e088a34529b07b782a6d6a75b31a9fb91ddddf926a",
+      "sha256": "fbf886c765d7f08af99194c8866d20ef9425f69d593235cb4e1cc61e124cdbb2",
       "byteSize": 179071,
       "rowCount": 23,
       "rangeModes": [
@@ -1185,7 +1215,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -1205,7 +1235,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_podium_finishers.json",
-      "sha256": "2de9d3dad09395c59e0e1c7c8325f8869f4c0570bd5fae7d3aa4d638247ac71d",
+      "sha256": "233ed6d6a361ed50b4cbacdb1d117ab974c03a15ec073191b937efa8504e14f3",
       "byteSize": 254888,
       "rowCount": 116,
       "rangeModes": [
@@ -1227,7 +1257,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1243,7 +1273,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_podiums.json",
-      "sha256": "6a7505f782b454103781f57e85b7cd8b1ce2836b282e01c54eceb1e8dfcc5ddf",
+      "sha256": "a1fdde0980495eba90f0311dd79151523ef0facd0b62dcddcd0342252cfd4d5e",
       "byteSize": 322701,
       "rowCount": 151,
       "rangeModes": [
@@ -1265,7 +1295,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1281,7 +1311,7 @@
       "grouping": "entity",
       "countingUnit": "seasons",
       "dataPath": "metrics/drivers/consecutive_seasons_with_a_podium.json",
-      "sha256": "59f3f74da82783c5b415c18b57cee947cfecffe9123a17930a8469f557abf25f",
+      "sha256": "c926d532d9e11fa919644d369cf20f171f07a34d583ebe81960ab3c5be6c6d92",
       "byteSize": 353400,
       "rowCount": 219,
       "rangeModes": [
@@ -1303,7 +1333,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1319,7 +1349,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_before_first_win.json",
-      "sha256": "a1b93f4c59ec808059c21a2aeff8eaa39724c6d55f3e62f38368b495dad5d7ae",
+      "sha256": "9cf9ff9e4ba726da4543a1c823f772850482f1db179e9ff333a0c2b1bc6969ec",
       "byteSize": 72175,
       "rowCount": 116,
       "rangeModes": [
@@ -1341,7 +1371,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1357,7 +1387,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_before_first_championship.json",
-      "sha256": "8da769a1c08c6def452c16fb873e789d21b0ce4f0c120dbcbefefb51ac721df9",
+      "sha256": "3e6b47a085c7ccc9610fafb60367208323456e708116e1a498293e410ad5a833",
       "byteSize": 73333,
       "rowCount": 35,
       "rangeModes": [
@@ -1379,7 +1409,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1395,7 +1425,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_with_the_same_team.json",
-      "sha256": "3555c616761afe7fb58c3fbe23ebc33adf7804b9148ade8567c15746e7c2f13e",
+      "sha256": "315d774b737835582ff00d922f3327bdca50b22e66a671fba82f03076ecb5d8c",
       "byteSize": 457553,
       "rowCount": 404,
       "rangeModes": [
@@ -1417,7 +1447,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values."
@@ -1435,7 +1465,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_with_different_teams.json",
-      "sha256": "de9b94b51fdb2eb02804e3142d82970811bff5c74f0b907b3974fc52531a9a79",
+      "sha256": "12cb00e56917ccd9d08d1d742077667102baf277fcc46fd90e527d63b9ec8239",
       "byteSize": 353172,
       "rowCount": 218,
       "rangeModes": [
@@ -1457,7 +1487,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1473,7 +1503,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_with_the_same_engine.json",
-      "sha256": "536121d9724845fb5d815c927baa116876de74b02f4a6a73168517a7ec55a0d9",
+      "sha256": "47a65b1e591c966ee91cc9e0933c80d5b41eb96a5104525a27588ab00e42a861",
       "byteSize": 438045,
       "rowCount": 390,
       "rangeModes": [
@@ -1495,7 +1525,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -1515,7 +1545,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_with_different_engines.json",
-      "sha256": "c6712bf8fe0b276fef17d6c01f1fa2af9455deb2b68331badba9ac59019da520",
+      "sha256": "8dafa0213d47a5ec8a635f32bec89516f801342eb52a906bce33773079609116",
       "byteSize": 350348,
       "rowCount": 216,
       "rangeModes": [
@@ -1537,7 +1567,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1553,7 +1583,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_podiums_at_the_same_grand_prix.json",
-      "sha256": "4a1362d0755cc94cbd75b3bda9e73cf01cb0861389f431a3704bceb74cd07403",
+      "sha256": "6f73dfae9effcd745fba3518fc10b666935ed78dcc2f9756616eb7fc6399c9b5",
       "byteSize": 999135,
       "rowCount": 1575,
       "rangeModes": [
@@ -1575,7 +1605,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1591,7 +1621,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_grands_prix_with_a_podium.json",
-      "sha256": "6eca46184b74b0539c603be297c407707c08590cce921dadc6cf652af076de3e",
+      "sha256": "ebce8875dc8a4163f2077a7a87df5b20e0dd5e4fc679f85d811760dec3c83aa1",
       "byteSize": 353485,
       "rowCount": 219,
       "rangeModes": [
@@ -1613,7 +1643,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1629,7 +1659,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_podiums_at_the_same_circuit.json",
-      "sha256": "dee737d74d0fd0aa4fe29006e0f7fe30daf164aeedb4f6112ceb7d1a285f9ade",
+      "sha256": "1b6592b39793113fb2efec8b8c6b98ff3777b9d2e4def4e484af9971bf86ac06",
       "byteSize": 1033962,
       "rowCount": 1679,
       "rangeModes": [
@@ -1651,7 +1681,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -1667,7 +1697,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_circuits_with_a_podium.json",
-      "sha256": "25ccf962287990644c0a92ef3612b3fbc8399206fee9396bdf0a9a0b4b40cccf",
+      "sha256": "017e0aaee7a983102a7944592822ebd8c7dcda60abd0bde774e94ef4a42359f8",
       "byteSize": 353484,
       "rowCount": 219,
       "rangeModes": [
@@ -1689,7 +1719,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -1709,7 +1739,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_podium_grid_positions.json",
-      "sha256": "03db19c6f5147268a4f929aa7616d239b0835e4bb72783bdbd1ab887e0fea8c6",
+      "sha256": "0d5c7423d7d685809a09d87da533ecb4ad5d13d3e1d87a9cf5af3294e8179a05",
       "byteSize": 353866,
       "rowCount": 219,
       "rangeModes": [
@@ -1731,7 +1761,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
         "knownExclusions": [
           "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
@@ -1767,7 +1797,7 @@
         }
       ],
       "dataPath": "metrics/drivers/average_age_of_podium.json",
-      "sha256": "d4c109c9dceacaf2a85da03d9724a2321291da6b1d5d133430b4a3cd8d968c04",
+      "sha256": "7a14b1eafaa41aa4b4adcf58ace7ec3643446f87f5eb3b301b6490d290a3465a",
       "byteSize": 257033,
       "rowCount": 957,
       "rangeModes": [
@@ -1789,7 +1819,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Exact finishing order is used for identical lineups; duo/trio tables ignore order. Ambiguous shared podiums are explicitly excluded.",
         "knownExclusions": [
           "A shared or incomplete podium is not a unique three-person lineup.",
@@ -1821,7 +1851,7 @@
         }
       ],
       "dataPath": "metrics/drivers/identical_podium_line_ups.json",
-      "sha256": "867bc7176f61582d87da00027cc387c17fa712ed8f5089fcc01bc3693c4e581b",
+      "sha256": "94147c638959e57d6a08917592427945117cf6b02c6dfc1866209384d9d39718",
       "byteSize": 297807,
       "rowCount": 952,
       "rangeModes": [
@@ -1843,7 +1873,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Exact finishing order is used for identical lineups; duo/trio tables ignore order. Ambiguous shared podiums are explicitly excluded.",
         "knownExclusions": [
           "A shared or incomplete podium is not a unique three-person lineup.",
@@ -1875,7 +1905,7 @@
         }
       ],
       "dataPath": "metrics/drivers/most_frequent_podium_trios.json",
-      "sha256": "bfa05c25a9618d0a9372bd0ab43071822694852792f21890c13fada9c4afd3d7",
+      "sha256": "e58a50807c8de2a5df7aec6d35abf43206fc3e92dbae1478eeb83b5a94845f95",
       "byteSize": 232793,
       "rowCount": 718,
       "rangeModes": [
@@ -1897,7 +1927,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Exact finishing order is used for identical lineups; duo/trio tables ignore order. Ambiguous shared podiums are explicitly excluded.",
         "knownExclusions": [
           "A shared or incomplete podium is not a unique three-person lineup.",
@@ -1929,7 +1959,7 @@
         }
       ],
       "dataPath": "metrics/drivers/most_frequent_podium_duos.json",
-      "sha256": "eb188d0ce12ec2cd53ac15cc3b6e855eb0ed9d91fb37ee692282266b34239d86",
+      "sha256": "b7bae47713074c81fa6923abb5157b98639a1ac3ebc02f63f8f2a97b9908d1bd",
       "byteSize": 328062,
       "rowCount": 919,
       "rangeModes": [
@@ -1951,7 +1981,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Exact finishing order is used for identical lineups; duo/trio tables ignore order. Ambiguous shared podiums are explicitly excluded.",
         "knownExclusions": [
           "A shared or incomplete podium is not a unique three-person lineup.",
@@ -1983,7 +2013,7 @@
         }
       ],
       "dataPath": "metrics/drivers/most_frequent_1_2_duos.json",
-      "sha256": "e0ed00b696b59f6dcfe0d3d09c6480f1cb43b83ae4b0e6875a33b3829543741c",
+      "sha256": "c56d0bf5420e952567cf59dc78ee6def5f9347d4e5ca14d552b0603d2094b1bc",
       "byteSize": 137475,
       "rowCount": 429,
       "rangeModes": [
@@ -2005,7 +2035,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2025,7 +2055,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_pole_sitters.json",
-      "sha256": "ea714f6e7cbe847d700422378c6a7cf1c8706aa8fab9e7f0ed04d0064c80a890",
+      "sha256": "8ed3a7bcd35c85f2ce8a3e427195134eab4442ecb942b3bfd20c3dbe23f3f564",
       "byteSize": 230703,
       "rowCount": 87,
       "rangeModes": [
@@ -2047,7 +2077,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2067,7 +2097,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_on_birthday.json",
-      "sha256": "4befc7434aee6fae5d6f4c3112ac2a9af38ee0ef668bbfb0cb2ddae02907a5eb",
+      "sha256": "ae070b6ded0d165231486ce3a1442ca18c06e658ebed09a3bbc22a269414dbfb",
       "byteSize": 159290,
       "rowCount": 2,
       "rangeModes": [
@@ -2089,7 +2119,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2109,7 +2139,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_pole_sitters_by_nation.json",
-      "sha256": "3bdd1c4c0d4b8f63d1da7481bfe1dc890cc0cb43e3b5232d9d9e3fdc31b8bb40",
+      "sha256": "f865822182e4cb26a82011324099c979320ef4e83fabb5e5ce208b87cca21442",
       "byteSize": 179144,
       "rowCount": 23,
       "rangeModes": [
@@ -2131,7 +2161,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2151,7 +2181,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_pole_sitters.json",
-      "sha256": "964903b4163670661e00b86f3623692292a0720a003eabaea81485184ecdd769",
+      "sha256": "b90bb52854d0fea62e63b3a4c363cd4f289ea4fb30d45582ffb609b056e4429a",
       "byteSize": 230820,
       "rowCount": 87,
       "rangeModes": [
@@ -2173,7 +2203,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2189,7 +2219,7 @@
       "grouping": "season",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_from_season_start.json",
-      "sha256": "4caf2c14064f9381fe5604f04160ad2c59638946e320c05c832027bfe508777a",
+      "sha256": "99530578b8830008c4326394c696a41628024f00ec09842933645a0207625a9d",
       "byteSize": 69594,
       "rowCount": 77,
       "rangeModes": [
@@ -2211,7 +2241,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2227,7 +2257,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_poles.json",
-      "sha256": "50afcf887cc02c669ca957b81939c683cd46b48cecea50f58a0d7845a19d7c0a",
+      "sha256": "5e79c6195b6089da4e407915666c410427aed0383ea4bf20e21dc1bdd246dc3c",
       "byteSize": 116777,
       "rowCount": 76,
       "rangeModes": [
@@ -2249,7 +2279,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2265,7 +2295,7 @@
       "grouping": "entity",
       "countingUnit": "seasons",
       "dataPath": "metrics/drivers/consecutive_seasons_with_a_pole.json",
-      "sha256": "0c7f0ce893909fa9be016686584e827ca84691f8489bf8d07ba232b9a2d182a3",
+      "sha256": "53fea612907a728c67b2f1d9fdf3e329c5ef3d4ecd23eecd6d89cb8dfb443d66",
       "byteSize": 131169,
       "rowCount": 108,
       "rangeModes": [
@@ -2287,7 +2317,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2303,7 +2333,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_before_first_championship.json",
-      "sha256": "8616dadadf7b5be5eb28090c6d96ce340d6877a05fa636513bd81bf748a03899",
+      "sha256": "41ce78a334c7fd247466b792f604c88f5e2dee676b7f7c63a8a1f907a5a6e9e1",
       "byteSize": 40250,
       "rowCount": 35,
       "rangeModes": [
@@ -2325,7 +2355,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2341,7 +2371,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_with_the_same_team.json",
-      "sha256": "cafba26474e377161363e507f16f728f643f2d33c719d1a86a85fbe3b6809aba",
+      "sha256": "9f52b167c211c79ac6f38c1ca3de22ae9370f29eb7d0406015f8d79ca045fd09",
       "byteSize": 173237,
       "rowCount": 179,
       "rangeModes": [
@@ -2363,7 +2393,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2379,7 +2409,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_with_different_teams.json",
-      "sha256": "e232c526583069d17e75bd3c21a0bf92fdac60819130b8ac649a1f7c1f62255f",
+      "sha256": "e51e15876dcd34361d736d514e53909dadd24ab1cc69db2bb79ed68eaa1fe726",
       "byteSize": 131152,
       "rowCount": 108,
       "rangeModes": [
@@ -2401,7 +2431,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2417,7 +2447,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_with_the_same_engine.json",
-      "sha256": "9d840ca14f47fc353f2e4d31d8c6b1f36f67a7e0863aefa1477bfb29f4ca29b5",
+      "sha256": "7d3ced106b78c3a06dbf5c980bf6984c32dbfd86b5ab3774cd0004e86eff58a4",
       "byteSize": 165219,
       "rowCount": 173,
       "rangeModes": [
@@ -2439,7 +2469,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -2459,7 +2489,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_with_different_engines.json",
-      "sha256": "6fca0794dc01697bd2db0e71c92c621917d5a34af87ec3563b84bde84e3f3fa9",
+      "sha256": "930c800651d086baa617de46df0a06bfd7c20ac436b1647dd65aecb2aeefa8e5",
       "byteSize": 130359,
       "rowCount": 106,
       "rangeModes": [
@@ -2481,7 +2511,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2497,7 +2527,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_poles_at_the_same_grand_prix.json",
-      "sha256": "d05c93a423d5f9fdc3b04691a78cf1dc7beb1b7b700029f9f5dfddd411a2a58f",
+      "sha256": "41c4408eba7294383b37ca50fbd0587c8b58bf1ff973c8ee49394466d484d215",
       "byteSize": 406749,
       "rowCount": 684,
       "rangeModes": [
@@ -2519,7 +2549,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2535,7 +2565,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_grands_prix_with_a_pole.json",
-      "sha256": "c4a1a095665f9de58238fa766e78fa0f4fc6032122d5f06deba4849bfc941416",
+      "sha256": "18ff5666f15bc12e11b4da3b3c2d5d1a91773794c2b8877b1d12c904bd4f7506",
       "byteSize": 131198,
       "rowCount": 108,
       "rangeModes": [
@@ -2557,7 +2587,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2573,7 +2603,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_poles_at_the_same_circuit.json",
-      "sha256": "c5e5e31dbd9420c6f69abfe5f29cffc7f27013713120888942bd1c8b081bf4b1",
+      "sha256": "0ff7668372721996c8952d19d2e6c714f0cacfc988c1d2c5aea375069032f52b",
       "byteSize": 413323,
       "rowCount": 710,
       "rangeModes": [
@@ -2595,7 +2625,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2611,7 +2641,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_circuits_with_a_pole.json",
-      "sha256": "13709cbd35dc6cbc9bbb4aaba21e3a457fb206f8bff6a83da85e3bb9954c5ab2",
+      "sha256": "4144208ee3cad5b045b2c92ee016bd4ff193993fb0047f3a6d222bf63a2c9f05",
       "byteSize": 131197,
       "rowCount": 108,
       "rangeModes": [
@@ -2633,7 +2663,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2649,7 +2679,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/pole_to_win_conversions.json",
-      "sha256": "bb04096a9868ca000cbce3e8104d84ea7735d3d8fb6923e789f4ed162b1cc46a",
+      "sha256": "f25b81a9e10af1de1ef28648df372945ad0cd257c8f99df264c625e690a05038",
       "byteSize": 73386,
       "rowCount": 108,
       "rangeModes": [
@@ -2671,7 +2701,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2687,7 +2717,7 @@
       "grouping": "entity",
       "countingUnit": "percent",
       "dataPath": "metrics/drivers/win_rate_from_pole.json",
-      "sha256": "0ac378af2241e0f0714bc3c546534ffa221b2e85d53542343e34e9d4ac2cd636",
+      "sha256": "cdd2b1fa5db7b2db26c4475ad82faa022a998210dae119b723cd6c9323c1771f",
       "byteSize": 73859,
       "rowCount": 108,
       "rangeModes": [
@@ -2709,7 +2739,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2725,7 +2755,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_without_a_win.json",
-      "sha256": "2d9f0edf55c37002b1ca6ec47137e6718ec6e1b07c30973760b13e5b9ae45875",
+      "sha256": "9cf2116e94cf9fcf1cfccf8eeaf802c082d12e771b3befd99f8ef5a5d9107cdd",
       "byteSize": 91107,
       "rowCount": 108,
       "rangeModes": [
@@ -2747,7 +2777,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2763,7 +2793,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_without_starting.json",
-      "sha256": "6e600b643248927c243acb06e2d4b1ea5d7a6aa4e4ff3c4b0adb694aa7c27888",
+      "sha256": "285ce86dba19007b860bfa3d41950dec45f4c2afef46c02a3ff59510e71ce190",
       "byteSize": 21612,
       "rowCount": 108,
       "rangeModes": [
@@ -2785,7 +2815,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -2817,7 +2847,7 @@
         }
       ],
       "dataPath": "metrics/drivers/different_pole_sitters_in_a_season.json",
-      "sha256": "14969425963c4654dc551edcf5e2385dac454e0df237f66330bb62ce0cecc1db",
+      "sha256": "bc53c4a31302f8f720e8f6a67dff2e79baf936cb1a78b8a638147657c17d7bdb",
       "byteSize": 15504,
       "rowCount": 77,
       "rangeModes": [
@@ -2839,7 +2869,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2859,7 +2889,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_fastest_lap_setters.json",
-      "sha256": "e19e1820df364b174507ec9675fecdb8ca118281dec31791b805a1b60f8c900e",
+      "sha256": "b9cac016019ce774c7b04697c09b912a49db0b36435b0791e6e35f980a6f83b0",
       "byteSize": 240619,
       "rowCount": 99,
       "rangeModes": [
@@ -2881,7 +2911,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2901,7 +2931,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_fastest_lap_setters_by_nation.json",
-      "sha256": "0a6179e4b8b5eb0e88f06f283d0109bc0ab8564ffe3963f7c79d0ac87f4b6ca2",
+      "sha256": "8406489ec15944130f3b7c8c69707d27dafcf10061286b9e77826f99423f289d",
       "byteSize": 178168,
       "rowCount": 22,
       "rangeModes": [
@@ -2923,7 +2953,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -2943,7 +2973,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_fastest_lap_setters.json",
-      "sha256": "6bda992bddd1124dc691dbadd0a979889f252cc59a6794c4dddd13f892b55038",
+      "sha256": "268810f82272ba309c6abbefaa9ccfeb76c0eae611841a769dbafbd0cf85c100",
       "byteSize": 240785,
       "rowCount": 99,
       "rangeModes": [
@@ -2965,7 +2995,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Incomplete fastest-lap attribution can change the longest gap.",
@@ -2985,7 +3015,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_fastest_laps.json",
-      "sha256": "2567dfef530880fb86e3adb0c43966ca78c75f91f3f80d8fce9531537d48d1eb",
+      "sha256": "05097e18a1ebfb5c2fefae2acfb0d8a064abba16d63045ab8ea1ca031682520a",
       "byteSize": 125660,
       "rowCount": 90,
       "rangeModes": [
@@ -3007,7 +3037,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3023,7 +3053,7 @@
       "grouping": "entity",
       "countingUnit": "seasons",
       "dataPath": "metrics/drivers/consecutive_seasons_with_a_fastest_lap.json",
-      "sha256": "d3c31a106204d03bb0252b207758a0930eef60e2ad96f7087d93eeba446d06c1",
+      "sha256": "7d7b1c8123aa81050262905eb074bc5f9989b0a4d41ec60dcf3535b255c5a929",
       "byteSize": 144875,
       "rowCount": 141,
       "rangeModes": [
@@ -3045,7 +3075,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3061,7 +3091,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/fastest_laps_with_the_same_team.json",
-      "sha256": "55a52514986f6e04e01458d90c8ad9b2c911b338aeb212d0eb76b3068ac03edd",
+      "sha256": "eab7887e3acca36a7a1ebcbc7359d6bd5333aae9998b4a4fdd69ccdae84ed455",
       "byteSize": 198070,
       "rowCount": 230,
       "rangeModes": [
@@ -3083,7 +3113,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3099,7 +3129,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/fastest_laps_with_different_teams.json",
-      "sha256": "d2a9c125d7e1b50d4c2fb7e20146de6aee6bf2a6a90a9c3a43349d0c79520b46",
+      "sha256": "9aa78c8cf605e32c9670d935eb6dc1d6c208f63a39a74afaf774d00b690f1771",
       "byteSize": 144852,
       "rowCount": 141,
       "rangeModes": [
@@ -3121,7 +3151,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3137,7 +3167,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/fastest_laps_with_the_same_engine.json",
-      "sha256": "8f9dc87b766f3f5b476f6af8ee1c95b9c0b15b1eb738da47a495699451dd0c4e",
+      "sha256": "332acd05047119bd8c83b80721b274ba1760fbc0e1b6ad0d226e560b98051987",
       "byteSize": 191863,
       "rowCount": 231,
       "rangeModes": [
@@ -3159,7 +3189,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -3179,7 +3209,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/fastest_laps_with_different_engines.json",
-      "sha256": "d63874ffc4e151eab23aaccfcf0920cab2ca4d034d9e10950db0822a0c68d051",
+      "sha256": "b483c0110abd08177ceffac7518b760dfc7d7068dab5d9457bf7f3605668c522",
       "byteSize": 144759,
       "rowCount": 140,
       "rangeModes": [
@@ -3201,7 +3231,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3217,7 +3247,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_fastest_laps_at_the_same_grand_prix.json",
-      "sha256": "b020ab8fe7ffdb3a4e2383e096c953528d4aee32adc716d1a38d58d79e6c07a0",
+      "sha256": "cfe8c98f97fb6956dcac79a1c03df71a0293c5b303a0d275444403f819b23a7b",
       "byteSize": 451274,
       "rowCount": 777,
       "rangeModes": [
@@ -3239,7 +3269,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3255,7 +3285,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_grands_prix_with_a_fastest_lap.json",
-      "sha256": "7b61e9232fa286869d1c356c5367a4e7bfee6823f6f707a18fc7d70516d80c34",
+      "sha256": "e1e17e863007b575032453903a50b95c7063ad0839ba914a62a6205ff8c642e4",
       "byteSize": 144904,
       "rowCount": 141,
       "rangeModes": [
@@ -3277,7 +3307,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3293,7 +3323,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/different_circuits_with_a_fastest_lap.json",
-      "sha256": "f15f069d7140bd0620e80ea550afe1a735d184f5718c6155f84e865533bd777a",
+      "sha256": "1d156817e170c02f23c5a1f6c6dae08fd935005b4d30f814caf86baa3fc7db0a",
       "byteSize": 144901,
       "rowCount": 141,
       "rangeModes": [
@@ -3315,7 +3345,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -3335,7 +3365,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_points_scorers.json",
-      "sha256": "45f05d52282ad49953d7f8740e451b79d3fb460126d0543f0d424a83108bbe8e",
+      "sha256": "4e844e4474903320303e7c4685fdda2860928a9f0ae6d0b6a3ab2f17c0627711",
       "byteSize": 254613,
       "rowCount": 116,
       "rangeModes": [
@@ -3357,7 +3387,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -3377,7 +3407,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_points_scorers_by_nation.json",
-      "sha256": "4fe02e7129bf7d6e4cd6bc3a8692f9c211bd0b5500b5b3a6138a7448f9b21a0f",
+      "sha256": "7018b66017bb3fd659e33f9d4ef2cdc80bbc7e78874b54027ffe74d30e60e1e0",
       "byteSize": 179044,
       "rowCount": 23,
       "rangeModes": [
@@ -3399,7 +3429,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -3419,7 +3449,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_points_scorers.json",
-      "sha256": "96dfbc4d6b2dd30dde7a0b34f60c1369ba5ef86f7ab434ccc9c315f224b1e00e",
+      "sha256": "47ed0de7c1e312f5c428989507f73a7feda5f350724193407642419d969a0bf8",
       "byteSize": 254931,
       "rowCount": 116,
       "rangeModes": [
@@ -3441,7 +3471,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3457,7 +3487,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_points_finishes.json",
-      "sha256": "0b62ac0ce0b288dbf5af444bdea5b078cad55cb483bc096ae91f40ef5eb1a74d",
+      "sha256": "d26b0b4fa293a8cff710bddef7b944fa9917dbda408f91901f679d442c5146b0",
       "byteSize": 757466,
       "rowCount": 277,
       "rangeModes": [
@@ -3479,7 +3509,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3495,7 +3525,7 @@
       "grouping": "season",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/total_points_scored_in_a_season.json",
-      "sha256": "6c2c5dcb6c653bca002ae504a5635a80e7c3c052d556f798ca0310f9f67f199d",
+      "sha256": "d0bb937e12a22f77d31ffcad36817a34cb538ce3bfb56a8d959b7bc8a8da7049",
       "byteSize": 1370466,
       "rowCount": 1564,
       "rangeModes": [
@@ -3517,7 +3547,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3533,7 +3563,7 @@
       "grouping": "entity",
       "countingUnit": "seasons",
       "dataPath": "metrics/drivers/consecutive_points_scoring_seasons.json",
-      "sha256": "2cd003ceab757a2a227a8011555653b535b54b15fd18218b67e9c841b6103ba7",
+      "sha256": "0168aed65a414b418b98e4791387169da4ddcf9bef1427e2955e3597c33cc88f",
       "byteSize": 792873,
       "rowCount": 356,
       "rangeModes": [
@@ -3555,7 +3585,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3571,7 +3601,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_before_first_points.json",
-      "sha256": "1e1745fe543ef8d0f1be6726e67da1c7387ea04dca77cc4d6f868cee859c0b3b",
+      "sha256": "6b69c14c4856fd2a2a1bb790eb0c2c45aa0dbfafdae7625434e0dde70df73d48",
       "byteSize": 271513,
       "rowCount": 356,
       "rangeModes": [
@@ -3593,7 +3623,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3609,7 +3639,7 @@
       "grouping": "entity",
       "countingUnit": "points",
       "dataPath": "metrics/drivers/points_within_a_selected_gp_range.json",
-      "sha256": "3e4448928416d41e810beef7d3876db688371c8536bc69121011dce102b811db",
+      "sha256": "40eb1382e4ac0636bfb76434f9aef692fd1837b9151e88787eca27f74400e03c",
       "byteSize": 1208640,
       "rowCount": 356,
       "rangeModes": [
@@ -3634,7 +3664,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -3653,7 +3683,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/points_with_different_teams.json",
-      "sha256": "702fffa1ab74eae71fff34c5115f069de9085e44c173bf2cb6f087008c3bca43",
+      "sha256": "89e1d0eb3ddde5ad8b2fc19410c90ec3370d1f586fe175a1b585e7ff64f522b6",
       "byteSize": 793113,
       "rowCount": 356,
       "rangeModes": [
@@ -3675,7 +3705,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Unbound source rows excluded from distinct values.",
@@ -3695,7 +3725,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/points_with_different_engines.json",
-      "sha256": "0c91fe69b11f7906c43b61d4769c8234b37de91ca4955ae8a2f5140a7f7a83d4",
+      "sha256": "d3a0cf6a96492722ba3ac1a9527c4801cdda809d615cad638784cb539f4212c6",
       "byteSize": 777009,
       "rowCount": 346,
       "rangeModes": [
@@ -3717,7 +3747,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Chronological progression, including equal record holders; entries and non-starts do not count.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3749,7 +3779,7 @@
         }
       ],
       "dataPath": "metrics/drivers/gp_start_record_progression.json",
-      "sha256": "5f35185c3e781312e811fbe6162bf971dabd142396e08b1cee7be34f6ade240e",
+      "sha256": "76494c19add195cd5f0220c837eb4ccfd4f35c17258baeaf3e3740ff8957d831",
       "byteSize": 73216,
       "rowCount": 452,
       "rangeModes": [
@@ -3771,8 +3801,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Post-Grand-Prix championship position from identity-bound F1DB event standings through round 11 of 2026. Sprint-only lead changes between Grands Prix are not represented.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Post-Grand-Prix championship position from identity-bound historical event standings and accepted official current-session ledgers. Sprint-only lead changes between Grands Prix are not represented.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -3781,14 +3811,14 @@
       "label": "GPs Leading the Championship",
       "categoryId": "grands-prix",
       "description": "Explore GPs leading the championship across Formula 1 drivers.",
-      "scope": "Post-Grand-Prix championship position from identity-bound F1DB event standings through round 11 of 2026. Sprint-only lead changes between Grands Prix are not represented.",
+      "scope": "Post-Grand-Prix championship position from identity-bound historical event standings and accepted official current-session ledgers. Sprint-only lead changes between Grands Prix are not represented.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_leading_the_championship.json",
-      "sha256": "3ab77e0fe20cd2b29d562d3aa9307752a1bbf34107a3fa5f50462b76e1f2c3e4",
-      "byteSize": 117486,
+      "sha256": "e0dff2f5e253481d6134d3a4120d9f3f21141cfc710bac19722b2b1af53783c5",
+      "byteSize": 117748,
       "rowCount": 69,
       "rangeModes": [
         "all-time"
@@ -3809,7 +3839,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved."
@@ -3827,7 +3857,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_championship_leaders.json",
-      "sha256": "953ffd318d47c9af9abef052fbb52d1dd9992a82af6903dc9868d0c24bf4ce3f",
+      "sha256": "9cd7380a090f40c2ef15c6155af1cd5ac922e0b53b29dfe529f6353148ff2315",
       "byteSize": 57817,
       "rowCount": 68,
       "rangeModes": [
@@ -3849,8 +3879,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Post-Grand-Prix championship position from identity-bound F1DB event standings through round 11 of 2026. Sprint-only lead changes between Grands Prix are not represented.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Post-Grand-Prix championship position from identity-bound historical event standings and accepted official current-session ledgers. Sprint-only lead changes between Grands Prix are not represented.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -3859,14 +3889,14 @@
       "label": "Consecutive GPs Leading the Championship",
       "categoryId": "grands-prix",
       "description": "Explore consecutive GPs leading the championship across Formula 1 drivers.",
-      "scope": "Post-Grand-Prix championship position from identity-bound F1DB event standings through round 11 of 2026. Sprint-only lead changes between Grands Prix are not represented.",
+      "scope": "Post-Grand-Prix championship position from identity-bound historical event standings and accepted official current-session ledgers. Sprint-only lead changes between Grands Prix are not represented.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_gps_leading_the_championship.json",
-      "sha256": "a9d44d14c06a542be4a357d7d9a0263230a084d8dead12c3da6bf58e5a47f382",
-      "byteSize": 117502,
+      "sha256": "be60c310680b2f0f97c35121a78b6bce416a8da68e0410cd133fe8348da90e0d",
+      "byteSize": 117764,
       "rowCount": 69,
       "rangeModes": [
         "all-time"
@@ -3887,7 +3917,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3903,7 +3933,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_a_world_champion.json",
-      "sha256": "abb2d10f59edd62c823051d38c857d1246b212b584bbdbe415234aedde273a4e",
+      "sha256": "339094b130c406f921fef66f15ddeaca27b83284e11c6f7e23f8ef36becc9fc9",
       "byteSize": 2135110,
       "rowCount": 662,
       "rangeModes": [
@@ -3925,7 +3955,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3941,7 +3971,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_a_race_winner.json",
-      "sha256": "2b33f0170120da7675d3ae7146017fddc32bae931b303dd9491f03fe38b03840",
+      "sha256": "a4d5c672d1415dc53eb2d107bbcbff70f1b5b58b7c1535cca734e997f34c77db",
       "byteSize": 2270389,
       "rowCount": 784,
       "rangeModes": [
@@ -3963,7 +3993,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -3979,7 +4009,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_the_same_engine.json",
-      "sha256": "45f65a2b8e94eb177ca8b84212713ae820e1c73a6fc18cc76cedf1c9833de9e8",
+      "sha256": "d30b829e6a25e70e3fd262f8543bd0b70febcef86d694d3c6680a513c29828e3",
       "byteSize": 2600567,
       "rowCount": 1517,
       "rangeModes": [
@@ -4001,7 +4031,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4021,7 +4051,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_gp_starters.json",
-      "sha256": "7ba2d849adba87d487d19faaa6246bce629073fa064bf6a01eb30b0b4fd3d964",
+      "sha256": "870917e8b28a8411af41c44845c5f7d1d2e2cd00f94d03f202b1c0f8a35ad473",
       "byteSize": 254662,
       "rowCount": 116,
       "rangeModes": [
@@ -4043,7 +4073,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4063,7 +4093,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_gp_starters_by_nation.json",
-      "sha256": "9a8e22e6a5f38afb2765ecb88e5fb24be9cc43599bdfbd8f868346cbccd8f364",
+      "sha256": "b4bae8ed9ba9142546c21e9809defa217da918ec32eb34fa60e8e3af4aa0e8d0",
       "byteSize": 179117,
       "rowCount": 23,
       "rangeModes": [
@@ -4085,7 +4115,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4105,7 +4135,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_gp_starters.json",
-      "sha256": "9c1f31707998aea3352871f3c0a460955fdd5eb96b963b20b384a3fb6243f31e",
+      "sha256": "33095a800d9d9c6c0b095aee07219845896df32c21fdd047b9c7856618cffaba",
       "byteSize": 255047,
       "rowCount": 116,
       "rangeModes": [
@@ -4127,7 +4157,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
         "knownExclusions": [
           "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
@@ -4163,7 +4193,7 @@
         }
       ],
       "dataPath": "metrics/drivers/average_driver_age_by_gp.json",
-      "sha256": "fc3336ab966c0d40ca704a1808d3f73e2afeb067f62f6feb8ec42ddc70eb64a7",
+      "sha256": "9d343ef9d00f429ce57d8788191dd270317b085b39b576b4031288c65cf66195",
       "byteSize": 731077,
       "rowCount": 0,
       "rangeModes": [
@@ -4185,7 +4215,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -4201,7 +4231,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_gp_starts.json",
-      "sha256": "5cd05a56214f0bf021a1eecccab7ddd8ad42097f08ba7ff6fe165b1f8b294ce8",
+      "sha256": "ebe50429b2a8807fab8f3af6af4ae1b21d387a5586703e63e823c7c721c918c9",
       "byteSize": 2207444,
       "rowCount": 633,
       "rangeModes": [
@@ -4223,7 +4253,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -4239,7 +4269,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_pole.json",
-      "sha256": "a988408cef450ce25abda1a9ab33fd4a3f3a7a58574f12c62c98823c71d3aab0",
+      "sha256": "5473232bf23b7d8407baea1c220857bb7fb6eb759674a451667813dacb021528",
       "byteSize": 2191704,
       "rowCount": 796,
       "rangeModes": [
@@ -4261,7 +4291,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Missing fastest-lap evidence prevents verified negative outcomes.",
@@ -4281,7 +4311,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_fastest_lap.json",
-      "sha256": "012aea8061f84eb57ab7fe76f5be14774a8dd1b5b013a69b8d1175ad465a4be6",
+      "sha256": "0988bc6ca7257dc423cdad3c0c38c053ac341ac0efc6a30c7cd3b223398e0d4e",
       "byteSize": 2148733,
       "rowCount": 774,
       "rangeModes": [
@@ -4303,7 +4333,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Missing fastest-lap evidence prevents verified negative outcomes.",
@@ -4323,7 +4353,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_win_pole_or_fastest_lap.json",
-      "sha256": "95c1db3b67b7cbb594c9bc563cccd9cab3d4706558526cc589dca3b03dc6f5fe",
+      "sha256": "0b56eb761b2300fb675f3cfef3268055fb162d8b5bf4fabf9cc478a305960515",
       "byteSize": 2053203,
       "rowCount": 774,
       "rangeModes": [
@@ -4345,7 +4375,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -4365,7 +4395,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_leading_a_lap.json",
-      "sha256": "dd3dfbbe7edeeabd348eaf01fec0e8f1be7edecfe9985a6250fa80542fca7e50",
+      "sha256": "fd704d1b076aabcab201c5192c2946f88a6fd7dc7585c80c1fb7b8f14d948ddb",
       "byteSize": 1427424,
       "rowCount": 258,
       "rangeModes": [
@@ -4387,7 +4417,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4407,7 +4437,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_front_row_starters.json",
-      "sha256": "f94ac1124fe3bbfb764c1a76d5fd99a623f8ed05c9637a0057673aa37bcd4108",
+      "sha256": "7f2b0a644fa914f5f208c0ac579847b2aa26a8ec5f1ff3e25806832fcd378c63",
       "byteSize": 242311,
       "rowCount": 101,
       "rangeModes": [
@@ -4429,8 +4459,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -4439,15 +4469,15 @@
       "label": "Q2 Appearances",
       "categoryId": "qualifying",
       "description": "Explore q2 appearances across Formula 1 drivers.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/q2_appearances.json",
-      "sha256": "ecad3c136c1dbaf378689148b16668fb54883ca7065e6c2da520efdeed9d03e3",
-      "byteSize": 662739,
-      "rowCount": 85,
+      "sha256": "d8ff541b78264ce85abfb482196b52d1ee250c8ce7edbeb941bfbcf85e95f8c9",
+      "byteSize": 668332,
+      "rowCount": 86,
       "rangeModes": [
         "all-time"
       ]
@@ -4467,8 +4497,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -4477,15 +4507,15 @@
       "label": "Q1 Exits",
       "categoryId": "qualifying",
       "description": "Explore q1 exits across Formula 1 drivers.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/q1_exits.json",
-      "sha256": "b2dab884d57067376f7b0d1d4a973e65f0dc357fb54da44c3cc0a70df4092089",
-      "byteSize": 683975,
-      "rowCount": 101,
+      "sha256": "6f5354075eb88e6adc81134a3a6356ae6f0cfc4e00db054af8083d584a242995",
+      "byteSize": 689568,
+      "rowCount": 102,
       "rangeModes": [
         "all-time"
       ]
@@ -4505,8 +4535,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -4515,14 +4545,14 @@
       "label": "Consecutive Q3 Appearances",
       "categoryId": "qualifying",
       "description": "Explore consecutive Q3 appearances across Formula 1 drivers.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_q3_appearances.json",
-      "sha256": "ff347b29f7a2e36c171294cb4d30caeefcf81dda1cc8d989627f7806bec247a1",
-      "byteSize": 635007,
+      "sha256": "ce56bf5eab993c07f7d520fb72466c72907a8544452569fa9394ee5193109509",
+      "byteSize": 639994,
       "rowCount": 72,
       "rangeModes": [
         "all-time"
@@ -4543,8 +4573,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -4553,15 +4583,15 @@
       "label": "Consecutive Q2 Appearances",
       "categoryId": "qualifying",
       "description": "Explore consecutive q2 appearances across Formula 1 drivers.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_q2_appearances.json",
-      "sha256": "9ed2032bac7eba70b7e552551c41ca19fb640a3e69db8a4e99cbd5625e61b076",
-      "byteSize": 662726,
-      "rowCount": 85,
+      "sha256": "182e40cc6c7346a87adf8f2f9438ac75e8cd7a30357c54dbb065b8db601b4a63",
+      "byteSize": 668320,
+      "rowCount": 86,
       "rangeModes": [
         "all-time"
       ]
@@ -4581,8 +4611,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -4591,15 +4621,15 @@
       "label": "Consecutive Q1 Exits",
       "categoryId": "qualifying",
       "description": "Explore consecutive q1 exits across Formula 1 drivers.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_q1_exits.json",
-      "sha256": "890e65e00b9071f0f81cd281dacb5781e54c33f861f494e2b2957090c2b1e6e6",
-      "byteSize": 683960,
-      "rowCount": 101,
+      "sha256": "355cbcc7cd1cd89a7ea8d91e01d924d72f55b0f98871335a96c05b789f427d5a",
+      "byteSize": 689553,
+      "rowCount": 102,
       "rangeModes": [
         "all-time"
       ]
@@ -4619,7 +4649,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4639,7 +4669,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_race_leaders.json",
-      "sha256": "9353ff6b42cad65b89ba95a1c1864e4a2e3990210b30ffd50be498d63e730fbf",
+      "sha256": "0363f97b48fd4580c24264910a6fffc5fd02ba647b60fc66e6446339ed300f99",
       "byteSize": 205023,
       "rowCount": 56,
       "rangeModes": [
@@ -4661,7 +4691,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4681,7 +4711,7 @@
       "grouping": "group",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_race_leaders_by_nation.json",
-      "sha256": "4dc0a42f1c030c7653d5f2936d9b091e2e95ce28003d7066330f58c59b5496e0",
+      "sha256": "ea28be1750b3102604160064c1f4ddbfe2225a6365bd511bb06e1db37d7a3d5c",
       "byteSize": 173705,
       "rowCount": 17,
       "rangeModes": [
@@ -4703,7 +4733,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -4723,7 +4753,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_race_leaders.json",
-      "sha256": "9a8e0ccf1e5205bbe7b47cd44269cd5c76c692086adfd6336b0cb59a31541d5e",
+      "sha256": "19f28b7371475966c5a78663a484aa5f252aa546b0848487ffb901b49f3ea131",
       "byteSize": 205097,
       "rowCount": 56,
       "rangeModes": [
@@ -4745,7 +4775,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Maximum continuous completed-lap leadership distance across adjacent covered Grand Prix events; missing events break continuity. Limited to complete CC0 leader charts and verified circuit distances.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -4761,7 +4791,7 @@
       "grouping": "entity",
       "countingUnit": "kilometres",
       "dataPath": "metrics/drivers/consecutive_distance_led.json",
-      "sha256": "8b945214ece68112062ca1ac8994cbd6b1934e9b0beb9134bef41767f8299d6b",
+      "sha256": "10db017c6bb8e6dc33c03fefb18b361850aa88589e7ec9860b0ac16dd60835d6",
       "byteSize": 37941,
       "rowCount": 80,
       "rangeModes": [
@@ -4783,7 +4813,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Missing complete leader charts can change the longest gap.",
@@ -4803,7 +4833,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_leading_gps.json",
-      "sha256": "5ba9469795fca436f0064e7c9491236289d04ec9e8605b79d870b71f25a0e7e6",
+      "sha256": "2e99f03eeb047236cd9c41d0a5f127bb2aaedd44b73b745d846a405b78a799d0",
       "byteSize": 132968,
       "rowCount": 12,
       "rangeModes": [
@@ -4825,7 +4855,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -4845,7 +4875,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/span_between_first_and_last_lead.json",
-      "sha256": "d6e351e4fef8d32a2962cbcae5894c2c8a6483a62dfdea1b70dc33b3235893a7",
+      "sha256": "db6100a26d5ca3d042cd4e3d75c288bfc5765c08ed4b59b2ae2e30ef9b70ae98",
       "byteSize": 305640,
       "rowCount": 80,
       "rangeModes": [
@@ -4867,7 +4897,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -4887,7 +4917,7 @@
       "grouping": "season",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_led_in_a_season.json",
-      "sha256": "d0719b42b72e52bf5e0807a27fc2e7eb227705072aa695ad3e478249d03a5209",
+      "sha256": "3eacfbf06cf064e1468279c68edb405898d74598ab15ef8257b3709a1fb0a5f6",
       "byteSize": 456992,
       "rowCount": 399,
       "rangeModes": [
@@ -4909,7 +4939,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -4929,7 +4959,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_seasons_leading_a_gp.json",
-      "sha256": "e94cc1a99cbcd349d45dc35043d525f365be05e5a526b704578e34d8625a1f62",
+      "sha256": "b8596f93e1eb783a5a85b0343cd9821f54d65db50f595617dbab514c08c70290",
       "byteSize": 305478,
       "rowCount": 80,
       "rangeModes": [
@@ -4951,7 +4981,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -4971,7 +5001,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/laps_led_by_grand_prix.json",
-      "sha256": "f1f5c9c6ade5731cc85a1a0bb829f70451f966e85b33d56b13f3001d22a7b78b",
+      "sha256": "acbf275b5dbebfc8ebd13a5e8b1d1d45860fbf0c43ff0bff161f4d82fc30bd79",
       "byteSize": 662414,
       "rowCount": 833,
       "rangeModes": [
@@ -4993,7 +5023,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -5013,7 +5043,7 @@
       "grouping": "group",
       "countingUnit": "kilometres",
       "dataPath": "metrics/drivers/distance_led_by_grand_prix.json",
-      "sha256": "b7464d9c0dc8dc1559b2f93cfd57da2a1c35bf4b2cde75456c0ca50be3d50946",
+      "sha256": "06951fa3d4192b40a60f2a1d32b3e756ef906cef0099fa5fdd91f6785da55c88",
       "byteSize": 666078,
       "rowCount": 833,
       "rangeModes": [
@@ -5035,7 +5065,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -5055,7 +5085,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/laps_led_by_circuit.json",
-      "sha256": "c44f71e1b1f9db0d8110a0737ed62c3a8f60ee45c1e5ef9cbadad28ddfac9845",
+      "sha256": "5ffecd1cf05d2cbabecf4f9f1650fdaf5bc47910504bd5dcaadc5ea3b6577cd1",
       "byteSize": 661999,
       "rowCount": 846,
       "rangeModes": [
@@ -5077,7 +5107,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -5097,7 +5127,7 @@
       "grouping": "group",
       "countingUnit": "kilometres",
       "dataPath": "metrics/drivers/distance_led_by_circuit.json",
-      "sha256": "c906c1d0f28b5f172dd800bc28cd676c0d8cf1ff939e8928e4255c9120619c61",
+      "sha256": "f8bb6f93ebb9a3135499dad137f9b8fb6d6b36052eca2c7ea8b9b583094ce8ff",
       "byteSize": 665715,
       "rowCount": 846,
       "rangeModes": [
@@ -5119,7 +5149,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -5139,7 +5169,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/leading_with_different_teams.json",
-      "sha256": "c97b87534858713537de54b81503ecba1f1dfab5c933b56a84a7caa7dd931de0",
+      "sha256": "e3229bf7aeeee1c79e9f7d8aad5b6a3d8a312fa8c38523c1179a798d165fb146",
       "byteSize": 305449,
       "rowCount": 80,
       "rangeModes": [
@@ -5161,7 +5191,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
         "knownExclusions": [
           "Grand Prix without a complete validated leader chart is excluded.",
@@ -5181,7 +5211,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/leading_with_different_engines.json",
-      "sha256": "f81b8cdbdfa3f416e5c59d2e89f975cdf4b780f5d12835026769178241a48d6a",
+      "sha256": "277477eb7645bc614d853d883a172a151ef6ec820592c3a3a4b3db078de663f2",
       "byteSize": 303224,
       "rowCount": 79,
       "rangeModes": [
@@ -5203,7 +5233,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -5223,7 +5253,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_hat_trick_drivers.json",
-      "sha256": "27c043cfc82d3712ec3271bfe60d64abf88b29834564154e6281980d785a8f09",
+      "sha256": "22df12ffc73a827019303ccac490941a419ef901e672c68b0b830156c41b03a6",
       "byteSize": 200779,
       "rowCount": 51,
       "rangeModes": [
@@ -5245,7 +5275,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved.",
@@ -5265,7 +5295,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_grand_slam_drivers.json",
-      "sha256": "5d0081e8c29f846d748defba91c7c008ca2b7381713cc949453911d09df6c393",
+      "sha256": "ab9f4566631537f634cb205096f73930212455ce4d3c024286f954e6e1bde8a1",
       "byteSize": 181683,
       "rowCount": 28,
       "rangeModes": [
@@ -5287,7 +5317,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5303,7 +5333,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/results_by_position.json",
-      "sha256": "0e6cb4a9a3205adf3addcb1662044476757afa8e5d0d0ebf9ea14354f263a5d3",
+      "sha256": "1890b4abb7fa23fb77c368eaa8ec85974ae408de95d760a40dd8be3ee49713f2",
       "byteSize": 3146794,
       "rowCount": 4355,
       "rangeModes": [
@@ -5325,7 +5355,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5341,7 +5371,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/competitors_faced.json",
-      "sha256": "8c2104a9d2c8b5315b92e93df9d9cbaebe23758e2a6716406eb6ccda3c517413",
+      "sha256": "15de23727596a9c27bd7066139b94fcddd6bbbeabc50fdac5c2eda66ecf873ec",
       "byteSize": 2319756,
       "rowCount": 823,
       "rangeModes": [
@@ -5363,7 +5393,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Weekend practice-only appearances with a recorded lap or time, absent from both Grand Prix qualifying and race classifications. Counts weekends once. F1DB practice evidence is bounded, beginning in 1986 and ending at the 2026 Hungarian GP; participants without canonical identity bindings are excluded.",
         "knownExclusions": [
           "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented.",
@@ -5383,7 +5413,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/third_driver_only_appearances.json",
-      "sha256": "3fc23005c333209836334cca24ccba25bd0d1d31ec913143323ae5e3158b2228",
+      "sha256": "a3733c692bff21edc9a20057c98d6d3ff6e1750f694eb317b49851596090ce72",
       "byteSize": 141105,
       "rowCount": 72,
       "rangeModes": [
@@ -5405,7 +5435,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Driver metadata from F1DB v2026.11.0, exact canonical identity matching; value is verified Grand Prix starts.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5421,7 +5451,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/female_drivers.json",
-      "sha256": "fbc3f56584b9f30963a42e9e563d91ee49e63a5e660f10aaa0ab7940fc6b3a4f",
+      "sha256": "3c628431c098628e95c881cd411568188f1048865a1ab446c8c6b4526170a361",
       "byteSize": 2290,
       "rowCount": 1,
       "rangeModes": [
@@ -5443,7 +5473,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "F1DB v2026.11.0 family relationships, retained only when both people match canonical Grand Prix participant identities. Relationships are not a numerical ranking.",
         "knownExclusions": [
           "Both canonical driver identities and the relationship type must be bound.",
@@ -5479,7 +5509,7 @@
         }
       ],
       "dataPath": "metrics/drivers/driver_family_relationships.json",
-      "sha256": "e322b764f7ce7db8e128b8e55a54cc00c8932635315c37c613ed0d0e02ed7dc9",
+      "sha256": "459facb111e69f77f9432126266bbcee32cc149c5abc5ab5a00dcfcccadad528",
       "byteSize": 22791,
       "rowCount": 69,
       "rangeModes": [
@@ -5501,7 +5531,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Driver metadata from F1DB v2026.11.0, exact canonical identity matching; value is verified Grand Prix starts.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5517,7 +5547,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/deceased_drivers.json",
-      "sha256": "690865e723908769947d82d90af6a2a9d83130e9c5fac324ec25a834eb2462aa",
+      "sha256": "5f44b53b2da5d4560b7b811aa0a1f1c38530aba8f6a9a5b5b34359e84fc8ac7a",
       "byteSize": 695877,
       "rowCount": 466,
       "rangeModes": [
@@ -5539,8 +5569,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -5549,14 +5579,14 @@
       "label": "Consecutive Race H2H Wins",
       "categoryId": "race-performance",
       "description": "Explore consecutive race h2h wins across Formula 1 drivers.",
-      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_race_h2_h_wins.json",
-      "sha256": "854c41c47e97bfcc278a7d76d846555ae20c8a215eeed984e4d5ebfd71ebdb10",
-      "byteSize": 3090525,
+      "sha256": "86fb0e01b9af3cd67d962ee27db02bdb52a1795e53e6c2c37c36fbfa334f08f8",
+      "byteSize": 3090592,
       "rowCount": 4075,
       "rangeModes": [
         "all-time"
@@ -5577,8 +5607,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -5587,14 +5617,14 @@
       "label": "Consecutive Race H2H Losses",
       "categoryId": "race-performance",
       "description": "Explore consecutive race h2h losses across Formula 1 drivers.",
-      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_race_h2_h_losses.json",
-      "sha256": "42ba1eb020b1e2264fd408112778976c2c11c88209f2148fd2a2f20a4053fa70",
-      "byteSize": 3113974,
+      "sha256": "b9a61f6bcb05c74539ef7c382b7d2e0b8c14c984dcf62b4ae127cf5a050707c8",
+      "byteSize": 3114041,
       "rowCount": 4117,
       "rangeModes": [
         "all-time"
@@ -5615,8 +5645,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -5625,15 +5655,15 @@
       "label": "Consecutive Qualifying H2H Wins",
       "categoryId": "race-performance",
       "description": "Explore consecutive qualifying h2h wins across Formula 1 drivers.",
-      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_qualifying_h2_h_wins.json",
-      "sha256": "b630ffc3fd04a92a06349846f925fb0c597713c025916e95b8775de849a1699d",
-      "byteSize": 4600312,
-      "rowCount": 5089,
+      "sha256": "f159163ed1008ee13df07f4bf65799c1e8a1fdd74b31b0e318bbb82c0e7d1d08",
+      "byteSize": 4606141,
+      "rowCount": 5092,
       "rangeModes": [
         "all-time"
       ]
@@ -5653,8 +5683,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -5663,15 +5693,15 @@
       "label": "Consecutive Qualifying H2H Losses",
       "categoryId": "race-performance",
       "description": "Explore consecutive qualifying h2h losses across Formula 1 drivers.",
-      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Qualifying source coverage ends at F1DB round 11 of 2026.",
+      "scope": "Consecutive pairwise comparisons while both team-mates have numeric official classification positions. Missing or unclassified comparisons are excluded. Accepted official current-session ledgers extend the historical qualifying source through the completed Grand Prix boundary.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_qualifying_h2_h_losses.json",
-      "sha256": "e9a0d67766ed6377d7dcaea64e04e8203889768b022580a8b86a189ac7e4213a",
-      "byteSize": 4599878,
-      "rowCount": 5089,
+      "sha256": "7065f3d145113942b0bac73f72d35d0f6608685224ba3e370192d79a107b0ad9",
+      "byteSize": 4605700,
+      "rowCount": 5092,
       "rangeModes": [
         "all-time"
       ]
@@ -5691,7 +5721,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5707,7 +5737,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_races_without_a_dnf.json",
-      "sha256": "0da59c8ed17589dfbe57c00dd0a9f4f466afa263caecf5657a343a532c827a47",
+      "sha256": "dc4e7df8d646a1f7735d8a69d9438f84b360f3e335241fb3ad55ec95dc945b76",
       "byteSize": 2245182,
       "rowCount": 672,
       "rangeModes": [
@@ -5729,7 +5759,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5745,7 +5775,7 @@
       "grouping": "entity",
       "countingUnit": "years",
       "dataPath": "metrics/constructors/longest_gap_between_championships.json",
-      "sha256": "7f1918f2d9018f95cb9e0ac3ba92579ca75fcf5224eb2a670a444987b78d2e63",
+      "sha256": "f6dc9463d853a529f220a7eb5ca602bd45e451dfe19918aadb44e15647677b5c",
       "byteSize": 2577,
       "rowCount": 9,
       "rangeModes": [
@@ -5767,7 +5797,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5783,7 +5813,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_wins.json",
-      "sha256": "d45002ffec1f820cc8f42c5879970c0c31561dcc969788d2e14b2f250c916fc2",
+      "sha256": "f0427fc4552162e1d30d96d3246b3971490a77e178154573f3d9a62612134deb",
       "byteSize": 99402,
       "rowCount": 26,
       "rangeModes": [
@@ -5805,7 +5835,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [
           "No identity-bound championship clinching event in source."
@@ -5823,7 +5853,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/wins_before_first_championship.json",
-      "sha256": "283f51f5a1bec113393d6188b386abdf724eab09ce4c0d9f67a542f2f3e9bb5c",
+      "sha256": "0ae011727f91337138574803cd81940a2a2d5040a5aa988ddc2d2c489f49d91e",
       "byteSize": 20784,
       "rowCount": 14,
       "rangeModes": [
@@ -5845,7 +5875,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5861,7 +5891,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_wins_at_the_same_circuit.json",
-      "sha256": "472113b2bc5028d4bf6bc6c3afa78a59455f3c1e68bc5f076df9c6110a98f6aa",
+      "sha256": "76753029870fc79cdc67d974f62f3bb0a7d88d5e1a4aadf476a4572055b82cb7",
       "byteSize": 279253,
       "rowCount": 409,
       "rangeModes": [
@@ -5883,7 +5913,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5899,7 +5929,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/second_and_third_place_finishes.json",
-      "sha256": "fac78291a5280318aab8ab4815d7890daa279635aca8b6243dd99b000ba55fdd",
+      "sha256": "f4003778b743e8553e31331fc6d239890fcc895375ac4a7d7e8d2921d69619c3",
       "byteSize": 225918,
       "rowCount": 107,
       "rangeModes": [
@@ -5921,7 +5951,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5937,7 +5967,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/first_podium.json",
-      "sha256": "03178147ac8db990eb766308892c3d7a92195bac533d076625646e0cf7c929bc",
+      "sha256": "a6836156c134437255832fc4c2ccccbcf8d9038e9cafaec50eb86799682570e5",
       "byteSize": 46415,
       "rowCount": 63,
       "rangeModes": [
@@ -5959,7 +5989,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -5975,7 +6005,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_podiums.json",
-      "sha256": "3c7ce046a2f28f5321161c8ea881a765aab08499f1f12a9ebe562b51f34eaef1",
+      "sha256": "e5477ef179fa32c562ca0f33be041bf27d5c42dc4318c4c5db5324b416915e0c",
       "byteSize": 235379,
       "rowCount": 53,
       "rangeModes": [
@@ -5997,7 +6027,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [
           "No identity-bound championship clinching event in source."
@@ -6015,7 +6045,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/podiums_before_first_championship.json",
-      "sha256": "e2427c5aa4672eb67218070ab32ae3d317129d7a464cdf7d1597c7d8c85086dd",
+      "sha256": "e404f4224d2b5142043be1a61c9dba065afca8942c0334494c01f16c309fa6e1",
       "byteSize": 37282,
       "rowCount": 14,
       "rangeModes": [
@@ -6037,7 +6067,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6053,7 +6083,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/podiums_at_the_same_circuit.json",
-      "sha256": "51cb1975782c7aa210674a65e00711f3d265e09f32fdf18f7483cc82154f15b5",
+      "sha256": "5fc6922a7be2ce9b17f12fff7426aa70194df831449ce0207405b5744012cdee",
       "byteSize": 542618,
       "rowCount": 708,
       "rangeModes": [
@@ -6075,7 +6105,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6091,7 +6121,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_podiums_at_the_same_circuit.json",
-      "sha256": "4789cf22434d12cd787028118ba0cb82cf15a653070e7579a1127a0835775138",
+      "sha256": "1d59c1e8e92bdde715bb14449565952273e41d7adaa268634f9dca4b6ab39889",
       "byteSize": 542550,
       "rowCount": 708,
       "rangeModes": [
@@ -6113,7 +6143,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6129,7 +6159,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/first_pole.json",
-      "sha256": "5bc89ae7c0070e03fee2f94025d1775a24c7bc8b048410574958c0147035cb56",
+      "sha256": "34160a6a733ef6ba51bf5de7310b9faa323f3f164069ec950cf9f1805d34ccd1",
       "byteSize": 30557,
       "rowCount": 41,
       "rangeModes": [
@@ -6151,7 +6181,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6167,7 +6197,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_poles.json",
-      "sha256": "35ea0a6604c9d51d1102e98705d50bc7c36af0f83a8a45d53a20fc6a59f06f5e",
+      "sha256": "9de6e5248a90b584928ea21831cfe433025601a3fd9549e08d48ce2c15fe3888",
       "byteSize": 99637,
       "rowCount": 27,
       "rangeModes": [
@@ -6189,7 +6219,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct. Strictly before (excluding) the first championship-clinching Grand Prix recorded by F1DB; champion identities are verified against the archive.",
         "knownExclusions": [
           "No identity-bound championship clinching event in source."
@@ -6207,7 +6237,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/poles_before_first_championship.json",
-      "sha256": "8d25d06a3b5e9f996ae48bf8e9a6a5d3ea70df2704aa47e70ea4702440e09832",
+      "sha256": "48b6c61a72c69e8dd93f019cd29c071fcc72c66b12ba6709c1818973f154d13a",
       "byteSize": 20036,
       "rowCount": 14,
       "rangeModes": [
@@ -6229,7 +6259,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6245,7 +6275,7 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_poles_at_the_same_circuit.json",
-      "sha256": "7f1e08220a86e2185d54afeeddb14f197f29c1209ffbebe5e3d7c85a352c88d4",
+      "sha256": "8b7b427c91651a630bb0dc7dd9022c4ed028c7c0530d5157c6c4f84ca31bffeb",
       "byteSize": 269226,
       "rowCount": 387,
       "rangeModes": [
@@ -6267,7 +6297,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Incomplete fastest-lap attribution can change the longest gap.",
@@ -6287,7 +6317,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_fastest_laps.json",
-      "sha256": "98e07598ac2dd68ab0d5856c83d4ae62a84f134532b57134298bfaf771ef987a",
+      "sha256": "800471987607868af141ae73c16f693c5834ed768a653b352330a461e3863ab7",
       "byteSize": 60431,
       "rowCount": 25,
       "rangeModes": [
@@ -6309,7 +6339,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6325,7 +6355,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_points_finishes.json",
-      "sha256": "cfb0651a77a453fa2df6b8526e1989c6a0852d1345514d2b611a250de665808a",
+      "sha256": "863f56b3b140a85b2884a68f13aa6b99c444954090b440ad2b0b52fdc560ace3",
       "byteSize": 494765,
       "rowCount": 77,
       "rangeModes": [
@@ -6347,7 +6377,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6363,7 +6393,7 @@
       "grouping": "entity",
       "countingUnit": "points",
       "dataPath": "metrics/constructors/points_within_a_selected_gp_range.json",
-      "sha256": "3dd12e5d29700e25350516295a8f6596da503fb096f367e0d12d2de6c3495428",
+      "sha256": "7119c4788228fe5c3238e7462dcb31784dca3ddf80fc73d905f49ce8d6c09973",
       "byteSize": 793481,
       "rowCount": 88,
       "rangeModes": [
@@ -6388,7 +6418,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6404,7 +6434,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_gps.json",
-      "sha256": "4fce48c2722728a42d3548d4a90f101084384a40f6e449ab9537f782fdba8601",
+      "sha256": "c8167ac366feb3e1238dc317c699a6256d1843831e89231b9c92b14b31df2063",
       "byteSize": 1041885,
       "rowCount": 165,
       "rangeModes": [
@@ -6426,7 +6456,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6442,7 +6472,7 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/constructors/longest_gap_between_gps.json",
-      "sha256": "cd392ed54bb22b23620f1df36cf289cab973711dd988652471c3c9c79ee0141f",
+      "sha256": "16b95210d2201c0d61a704f5ca5b84911e3d4865fb0db1cc4073c0f5db591165",
       "byteSize": 1024367,
       "rowCount": 137,
       "rangeModes": [
@@ -6464,7 +6494,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [
           "Missing fastest-lap evidence prevents verified negative outcomes.",
@@ -6484,7 +6514,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/gps_without_a_win_pole_or_fastest_lap.json",
-      "sha256": "0ef6c623eb5bb03e9be773940c8152e50c4beb57be8066837fdfff3aa640d25b",
+      "sha256": "281fc43d1ccf66ed020d1e723a1810ca28fa7692e019c961ec2a029304022edb",
       "byteSize": 562851,
       "rowCount": 128,
       "rangeModes": [
@@ -6506,7 +6536,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6522,7 +6552,7 @@
       "grouping": "season",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/first_row_lockouts_in_a_season.json",
-      "sha256": "d0a0985ef02fff2f0f7fcc04b2c92141210cbc3c6852aa341ffc386f9eb8e8eb",
+      "sha256": "85e32a6c9309a04b5dd7b5a661acc714e2b7a87dd32ae7b221983e05185a347e",
       "byteSize": 92293,
       "rowCount": 130,
       "rangeModes": [
@@ -6544,8 +6574,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6554,14 +6584,14 @@
       "label": "Q3 Appearances",
       "categoryId": "qualifying",
       "description": "Explore Q3 appearances across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/q3_appearances.json",
-      "sha256": "b6211cd690889f5abecace62e40938b079388ae70d6c5c22cf0bd38ec9567770",
-      "byteSize": 304667,
+      "sha256": "d2b41d56112515051d95cba2e6a67b6d0ea80ccbb84e040c48ebcd623b17918c",
+      "byteSize": 307080,
       "rowCount": 22,
       "rangeModes": [
         "all-time"
@@ -6582,8 +6612,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6592,14 +6622,14 @@
       "label": "Q2 Appearances",
       "categoryId": "qualifying",
       "description": "Explore q2 appearances across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/q2_appearances.json",
-      "sha256": "e299985db7a18b5bdb9a13e722ad49de1813b2ae491ce95f694a09e0f9e06937",
-      "byteSize": 318701,
+      "sha256": "4bce72849e33f1eba057742b8c7256ea2bba23fbf7441b1bee7f332a3fb7f867",
+      "byteSize": 321114,
       "rowCount": 25,
       "rangeModes": [
         "all-time"
@@ -6620,8 +6650,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6630,14 +6660,14 @@
       "label": "Q1 Exits",
       "categoryId": "qualifying",
       "description": "Explore q1 exits across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/q1_exits.json",
-      "sha256": "64357c45838879b6088c4a09cad720122822bddd4e1eb0aa25671d39173236e0",
-      "byteSize": 324691,
+      "sha256": "486e70b09edeebf72a1b8fb1e4be3ab881562d2c085e6e33a52dee52497a0120",
+      "byteSize": 327338,
       "rowCount": 27,
       "rangeModes": [
         "all-time"
@@ -6658,8 +6688,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6668,14 +6698,14 @@
       "label": "Consecutive Q3 Appearances",
       "categoryId": "qualifying",
       "description": "Explore consecutive Q3 appearances across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_q3_appearances.json",
-      "sha256": "a503e779166d9d01ccf93ec76b92af14840a55d4927cc1417051885830368c43",
-      "byteSize": 304678,
+      "sha256": "7ea2c8dd797d686ec8bf085a5440bca4ada98b1b7783b24833a8b3d6d3541afc",
+      "byteSize": 307091,
       "rowCount": 22,
       "rangeModes": [
         "all-time"
@@ -6696,8 +6726,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6706,14 +6736,14 @@
       "label": "Consecutive Q2 Appearances",
       "categoryId": "qualifying",
       "description": "Explore consecutive q2 appearances across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_q2_appearances.json",
-      "sha256": "869135715a291e1c6ac33627b739655a95de5c509ff51ab9d2d78607c33e5a8f",
-      "byteSize": 318715,
+      "sha256": "9c6c42cdee22d33ce07dd87893bd6aa0a79eb1fb265852cc46b0260cbd43bd94",
+      "byteSize": 321128,
       "rowCount": 25,
       "rangeModes": [
         "all-time"
@@ -6734,8 +6764,8 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
-        "note": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
+        "note": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
         "knownExclusions": [],
         "excludedEntityCount": 0
       },
@@ -6744,14 +6774,14 @@
       "label": "Consecutive Q1 Exits",
       "categoryId": "qualifying",
       "description": "Explore consecutive q1 exits across Formula 1 constructors.",
-      "scope": "Recorded timed participation in knockout qualifying from 2006 through F1DB v2026.11.0; a session reached without a recorded time remains outside this source coverage.",
+      "scope": "Recorded timed participation in knockout qualifying from 2006, extended by accepted official current-session ledgers through the completed Grand Prix boundary; a session reached without a recorded time remains outside this source coverage.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_q1_exits.json",
-      "sha256": "0d0d41ecfbe098812fdf5aef81274ccdaeaa628e4f296694d67670c70767564a",
-      "byteSize": 324703,
+      "sha256": "52eb0f18c921743dbb269d6c6f4264656e0482c7cf9b1ac62128113b010d7181",
+      "byteSize": 327350,
       "rowCount": 27,
       "rangeModes": [
         "all-time"
@@ -6772,7 +6802,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6788,7 +6818,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_dnfs.json",
-      "sha256": "f7de76a0db2388d02bafdb6cb8c662d2f2c7ea91a95a29fea01dcb0d9a758e46",
+      "sha256": "b61f7aaeb6bbc8eb04e75abb7f7ed412ac5aff6f280b271cf254d234536f682c",
       "byteSize": 1023138,
       "rowCount": 147,
       "rangeModes": [
@@ -6810,7 +6840,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6826,7 +6856,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_finishes.json",
-      "sha256": "33d7504a5d19721141b9238a0af61e291b34b4ff42b7db81214f8ad8a788d9a4",
+      "sha256": "30e3b30bac09c859a41adb30ae3c09966ff1ab65d80709c87833f94af0e0f1b9",
       "byteSize": 1020096,
       "rowCount": 130,
       "rangeModes": [
@@ -6848,7 +6878,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
         "knownExclusions": [],
         "excludedEntityCount": 0
@@ -6864,7 +6894,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/constructors/consecutive_races_without_a_dnf.json",
-      "sha256": "c6c7495f3e27afadc8ba4630c0fcb133d06536cc318090462b9465d0df91b872",
+      "sha256": "522c0b8c16878919bc5cf658a6e82296b1219b6507e4c321fd4a6c3c09f0b63d",
       "byteSize": 1021361,
       "rowCount": 132,
       "rangeModes": [
@@ -6886,7 +6916,7 @@
         "provisionalSeasonCount": 0,
         "historicalStandingsStatus": "provisional_identity_reconciliation_required",
         "asOfRaceDate": "2026-09-13",
-        "resultsArchiveManifestSha256": "977e62012edd52efef0cc3c3cff1bb636f5b7afab1f549036307e182fb53a152",
+        "resultsArchiveManifestSha256": "fd25f454894e9f37a5d72fa67498eddfaf3f3ba4b2ee4f92837b7d31d19c4999",
         "note": "Complete career attribution from the verified archive and identity-bound F1DB historical results. Confirmed non-starts cannot set race fastest laps. The 2021 Belgian GP has a separately evidenced not-awarded status. Incomplete careers are excluded, not assigned zero.",
         "knownExclusions": [
           "Complete career attribution is not established; the partial count is not a career total.",
@@ -6906,7 +6936,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/fastest_laps_total.json",
-      "sha256": "214c962776a03b2e7f126f11e107ad6a35aad4f2612171f3639850547e810f71",
+      "sha256": "2d310cee0e9670af074dba5bed5bf1b6872ddef2378f3e257a9f552161a2bfa3",
       "byteSize": 1507007,
       "rowCount": 801,
       "rangeModes": [

@@ -4,13 +4,13 @@
   "statisticId": "race_lap_records",
   "metricId": "driverRaceLapRecords",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-09-13",
   "completeness": {
     "current": {
       "resultRowCount": 57,
-      "observedCircuitConfigurationCount": 159,
+      "observedCircuitConfigurationCount": 160,
       "verifiedCircuitConfigurationCount": 121,
-      "excludedCircuitConfigurationCount": 38,
+      "excludedCircuitConfigurationCount": 39,
       "candidateLapCount": 17085,
       "eligibleSessionTypes": [
         "race"
@@ -80,6 +80,10 @@
         {
           "circuitConfigurationId": "lusail-1",
           "reason": "multiple_observed_distances"
+        },
+        {
+          "circuitConfigurationId": "madring-1",
+          "reason": "no_eligible_lap_candidate"
         },
         {
           "circuitConfigurationId": "marina-bay-3",
