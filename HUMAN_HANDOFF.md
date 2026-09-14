@@ -1,5 +1,9 @@
 # Human handoff: ENTRANCE F1 Data
 
+## 2026-09-14 current recovery checkpoint
+
+Generated R14 core matches all official driver and constructor points. Seven immutable current payloads and exact prior profile input snapshots are retained. Additional 168 populated metrics have independent output-value checks. Profile/circuit facts, approved ranking pointers and bounded backfill retain their original cutoff. Operational activation remains pending. Read [the recovery report](docs/post-session-recovery-20260914.md) first. Older sections below retain historical implementation and observation states.
+
 ## Current-strength decision and Stats correction
 
 The current product decision supersedes cumulative event scoring. The new two-axis research bundle remains unapproved because qualifying coverage fails its frozen threshold. It has real source bindings, thirteen current GP snapshots, a verified identical-input no-op and separate generation/coverage dates. See research/power-strength/v2/README.md. A shared-car Stats repair was generated and independently reconciled; see docs/stats-shared-driver-repair.md. Neither the correction's operational publication nor the research model's activation is complete. Existing approved ranking pointers remain unchanged; earlier research below describes a different model.

@@ -1,0 +1,1540 @@
+{
+  "schemaVersion": "entrance-catalogue-numeric-audit.v1",
+  "method": "Separate formulas and raw-table regrouping; normalized source/identity boundary is shared. This checks every emitted value, not complete eligible population or independent source normalization. Age event choice remains a separate completeness check.",
+  "catalogueSha256": "dfd6b7863b3d98ebbc4f26ecde738836cd0a07e13b9d02b696b2b740840a5b32",
+  "cutoff": {
+    "season": 2026,
+    "round": 14,
+    "raceId": "event:2026-14:c5436ea4a949",
+    "raceSlug": "spain",
+    "date": "2026-09-13"
+  },
+  "counts": {
+    "row_values_verified": 168,
+    "source_unavailable": 1
+  },
+  "rows": 65874,
+  "metrics": [
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_champions",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_champions",
+      "rows": 35,
+      "recounted": 35,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_champions",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_champions",
+      "rows": 35,
+      "recounted": 35,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_championships",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_championships",
+      "rows": 17,
+      "recounted": 17,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "championship_winning_margin",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=championship_winning_margin",
+      "rows": 76,
+      "recounted": 76,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "championships_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=championships_with_different_teams",
+      "rows": 34,
+      "recounted": 34,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "championships_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=championships_with_different_engines",
+      "rows": 34,
+      "recounted": 34,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "constructor_championships_as_a_driver",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=constructor_championships_as_a_driver",
+      "rows": 156,
+      "recounted": 156,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "best_championship_finish",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=best_championship_finish",
+      "rows": 377,
+      "recounted": 377,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_on_birthday",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_on_birthday",
+      "rows": 2,
+      "recounted": 2,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_winners_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_winners_by_nation",
+      "rows": 23,
+      "recounted": 23,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_wins",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_wins",
+      "rows": 82,
+      "recounted": 82,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_before_first_championship",
+      "rows": 35,
+      "recounted": 35,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_with_different_teams",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_with_different_engines",
+      "rows": 115,
+      "recounted": 115,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_wins_at_the_same_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_wins_at_the_same_grand_prix",
+      "rows": 688,
+      "recounted": 688,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_wins_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_wins_at_the_same_circuit",
+      "rows": 713,
+      "recounted": 713,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_winning_grid_positions",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_winning_grid_positions",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "last_lap_lead_wins",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=last_lap_lead_wins",
+      "rows": 6,
+      "recounted": 6,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_in_non_championship_seasons",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_in_non_championship_seasons",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "wins_without_leading_a_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=wins_without_leading_a_lap",
+      "rows": 3,
+      "recounted": 3,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "winning_margin",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=winning_margin",
+      "rows": 1122,
+      "recounted": 1122,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_races_with_different_winners",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_races_with_different_winners",
+      "rows": 825,
+      "recounted": 825,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_winners_in_a_season",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_winners_in_a_season",
+      "rows": 77,
+      "recounted": 77,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "second_and_third_place_finishes",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=second_and_third_place_finishes",
+      "rows": 329,
+      "recounted": 329,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_podium_finishers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_podium_finishers",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_on_birthday",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_on_birthday",
+      "rows": 6,
+      "recounted": 6,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_podium_finishers_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_podium_finishers_by_nation",
+      "rows": 23,
+      "recounted": 23,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_podium_finishers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_podium_finishers",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_podiums",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_podiums",
+      "rows": 151,
+      "recounted": 151,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_seasons_with_a_podium",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_seasons_with_a_podium",
+      "rows": 219,
+      "recounted": 219,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_before_first_win",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_before_first_win",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_before_first_championship",
+      "rows": 35,
+      "recounted": 35,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_with_the_same_team",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_with_the_same_team",
+      "rows": 404,
+      "recounted": 404,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_with_different_teams",
+      "rows": 218,
+      "recounted": 218,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_with_the_same_engine",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_with_the_same_engine",
+      "rows": 390,
+      "recounted": 390,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "podiums_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=podiums_with_different_engines",
+      "rows": 216,
+      "recounted": 216,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_podiums_at_the_same_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_podiums_at_the_same_grand_prix",
+      "rows": 1575,
+      "recounted": 1575,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_grands_prix_with_a_podium",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_grands_prix_with_a_podium",
+      "rows": 219,
+      "recounted": 219,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_podiums_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_podiums_at_the_same_circuit",
+      "rows": 1679,
+      "recounted": 1679,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_circuits_with_a_podium",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_circuits_with_a_podium",
+      "rows": 219,
+      "recounted": 219,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_podium_grid_positions",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_podium_grid_positions",
+      "rows": 219,
+      "recounted": 219,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "average_age_of_podium",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=average_age_of_podium",
+      "rows": 957,
+      "recounted": 957,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "identical_podium_line_ups",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=identical_podium_line_ups",
+      "rows": 952,
+      "recounted": 952,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "most_frequent_podium_trios",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=most_frequent_podium_trios",
+      "rows": 718,
+      "recounted": 718,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "most_frequent_podium_duos",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=most_frequent_podium_duos",
+      "rows": 919,
+      "recounted": 919,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "most_frequent_1_2_duos",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=most_frequent_1_2_duos",
+      "rows": 429,
+      "recounted": 429,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_pole_sitters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters",
+      "rows": 87,
+      "recounted": 87,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_on_birthday",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_on_birthday",
+      "rows": 2,
+      "recounted": 2,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_pole_sitters_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters_by_nation",
+      "rows": 23,
+      "recounted": 23,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_pole_sitters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_pole_sitters",
+      "rows": 87,
+      "recounted": 87,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_from_season_start",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_from_season_start",
+      "rows": 77,
+      "recounted": 77,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_poles",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_poles",
+      "rows": 76,
+      "recounted": 76,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_seasons_with_a_pole",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_seasons_with_a_pole",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_before_first_championship",
+      "rows": 35,
+      "recounted": 35,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_with_the_same_team",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_with_the_same_team",
+      "rows": 179,
+      "recounted": 179,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_with_different_teams",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_with_the_same_engine",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_with_the_same_engine",
+      "rows": 173,
+      "recounted": 173,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_with_different_engines",
+      "rows": 106,
+      "recounted": 106,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_poles_at_the_same_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_poles_at_the_same_grand_prix",
+      "rows": 684,
+      "recounted": 684,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_grands_prix_with_a_pole",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_grands_prix_with_a_pole",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_poles_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_poles_at_the_same_circuit",
+      "rows": 710,
+      "recounted": 710,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_circuits_with_a_pole",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_circuits_with_a_pole",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "pole_to_win_conversions",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=pole_to_win_conversions",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "win_rate_from_pole",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=win_rate_from_pole",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_without_a_win",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_without_a_win",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "poles_without_starting",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=poles_without_starting",
+      "rows": 108,
+      "recounted": 108,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_pole_sitters_in_a_season",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_pole_sitters_in_a_season",
+      "rows": 77,
+      "recounted": 77,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_fastest_lap_setters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_fastest_lap_setters",
+      "rows": 99,
+      "recounted": 99,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_fastest_lap_setters_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_fastest_lap_setters_by_nation",
+      "rows": 22,
+      "recounted": 22,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_fastest_lap_setters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_fastest_lap_setters",
+      "rows": 99,
+      "recounted": 99,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_fastest_laps",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_fastest_laps",
+      "rows": 90,
+      "recounted": 90,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_seasons_with_a_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_seasons_with_a_fastest_lap",
+      "rows": 141,
+      "recounted": 141,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "fastest_laps_with_the_same_team",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_with_the_same_team",
+      "rows": 230,
+      "recounted": 230,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "fastest_laps_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_with_different_teams",
+      "rows": 141,
+      "recounted": 141,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "fastest_laps_with_the_same_engine",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_with_the_same_engine",
+      "rows": 231,
+      "recounted": 231,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "fastest_laps_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_with_different_engines",
+      "rows": 140,
+      "recounted": 140,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_fastest_laps_at_the_same_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_fastest_laps_at_the_same_grand_prix",
+      "rows": 777,
+      "recounted": 777,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_grands_prix_with_a_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_grands_prix_with_a_fastest_lap",
+      "rows": 141,
+      "recounted": 141,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "different_circuits_with_a_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=different_circuits_with_a_fastest_lap",
+      "rows": 141,
+      "recounted": 141,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_points_scorers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_points_scorers_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers_by_nation",
+      "rows": 23,
+      "recounted": 23,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_points_scorers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_points_scorers",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_points_finishes",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_points_finishes",
+      "rows": 277,
+      "recounted": 277,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "total_points_scored_in_a_season",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=total_points_scored_in_a_season",
+      "rows": 1564,
+      "recounted": 1564,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_points_scoring_seasons",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_points_scoring_seasons",
+      "rows": 356,
+      "recounted": 356,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_before_first_points",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_before_first_points",
+      "rows": 356,
+      "recounted": 356,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "points_within_a_selected_gp_range",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=points_within_a_selected_gp_range",
+      "rows": 356,
+      "recounted": 356,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "points_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=points_with_different_teams",
+      "rows": 356,
+      "recounted": 356,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "points_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=points_with_different_engines",
+      "rows": 346,
+      "recounted": 346,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gp_start_record_progression",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gp_start_record_progression",
+      "rows": 452,
+      "recounted": 452,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_leading_the_championship",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_leading_the_championship",
+      "rows": 69,
+      "recounted": 69,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_championship_leaders",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_championship_leaders",
+      "rows": 68,
+      "recounted": 68,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_gps_leading_the_championship",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_gps_leading_the_championship",
+      "rows": 69,
+      "recounted": 69,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_with_a_world_champion",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_with_a_world_champion",
+      "rows": 662,
+      "recounted": 662,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_with_a_race_winner",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_with_a_race_winner",
+      "rows": 784,
+      "recounted": 784,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_with_the_same_engine",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_with_the_same_engine",
+      "rows": 1517,
+      "recounted": 1517,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_gp_starters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_gp_starters_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters_by_nation",
+      "rows": 23,
+      "recounted": 23,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_gp_starters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_gp_starters",
+      "rows": 116,
+      "recounted": 116,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "average_driver_age_by_gp",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=average_driver_age_by_gp",
+      "rows": 0,
+      "recounted": 0,
+      "status": "source_unavailable",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_gp_starts",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_gp_starts",
+      "rows": 633,
+      "recounted": 633,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_without_a_pole",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_without_a_pole",
+      "rows": 796,
+      "recounted": 796,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_without_a_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_without_a_fastest_lap",
+      "rows": 774,
+      "recounted": 774,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_without_a_win_pole_or_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_without_a_win_pole_or_fastest_lap",
+      "rows": 774,
+      "recounted": 774,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_without_leading_a_lap",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_without_leading_a_lap",
+      "rows": 258,
+      "recounted": 258,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_front_row_starters",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_front_row_starters",
+      "rows": 101,
+      "recounted": 101,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "q2_appearances",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=q2_appearances",
+      "rows": 85,
+      "recounted": 85,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "q1_exits",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=q1_exits",
+      "rows": 101,
+      "recounted": 101,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_q3_appearances",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_q3_appearances",
+      "rows": 72,
+      "recounted": 72,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_q2_appearances",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_q2_appearances",
+      "rows": 85,
+      "recounted": 85,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_q1_exits",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_q1_exits",
+      "rows": 101,
+      "recounted": 101,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_race_leaders",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders",
+      "rows": 56,
+      "recounted": 56,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_race_leaders_by_nation",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders_by_nation",
+      "rows": 17,
+      "recounted": 17,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_race_leaders",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=oldest_race_leaders",
+      "rows": 56,
+      "recounted": 56,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_distance_led",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_distance_led",
+      "rows": 80,
+      "recounted": 80,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "longest_gap_between_leading_gps",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_leading_gps",
+      "rows": 12,
+      "recounted": 12,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "span_between_first_and_last_lead",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=span_between_first_and_last_lead",
+      "rows": 80,
+      "recounted": 80,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "gps_led_in_a_season",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=gps_led_in_a_season",
+      "rows": 399,
+      "recounted": 399,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_seasons_leading_a_gp",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_seasons_leading_a_gp",
+      "rows": 80,
+      "recounted": 80,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "laps_led_by_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=laps_led_by_grand_prix",
+      "rows": 833,
+      "recounted": 833,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "distance_led_by_grand_prix",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=distance_led_by_grand_prix",
+      "rows": 833,
+      "recounted": 833,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "laps_led_by_circuit",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=laps_led_by_circuit",
+      "rows": 846,
+      "recounted": 846,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "distance_led_by_circuit",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=distance_led_by_circuit",
+      "rows": 846,
+      "recounted": 846,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "leading_with_different_teams",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=leading_with_different_teams",
+      "rows": 80,
+      "recounted": 80,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "leading_with_different_engines",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=leading_with_different_engines",
+      "rows": 79,
+      "recounted": 79,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_hat_trick_drivers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_hat_trick_drivers",
+      "rows": 51,
+      "recounted": 51,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_grand_slam_drivers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=youngest_grand_slam_drivers",
+      "rows": 28,
+      "recounted": 28,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "results_by_position",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=results_by_position",
+      "rows": 4355,
+      "recounted": 4355,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "competitors_faced",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=competitors_faced",
+      "rows": 823,
+      "recounted": 823,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "third_driver_only_appearances",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=third_driver_only_appearances",
+      "rows": 72,
+      "recounted": 72,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "female_drivers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=female_drivers",
+      "rows": 1,
+      "recounted": 1,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "driver_family_relationships",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=driver_family_relationships",
+      "rows": 69,
+      "recounted": 69,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "deceased_drivers",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=deceased_drivers",
+      "rows": 466,
+      "recounted": 466,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_race_h2_h_wins",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_race_h2_h_wins",
+      "rows": 4075,
+      "recounted": 4075,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_race_h2_h_losses",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_race_h2_h_losses",
+      "rows": 4117,
+      "recounted": 4117,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_qualifying_h2_h_wins",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_qualifying_h2_h_wins",
+      "rows": 5089,
+      "recounted": 5089,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_qualifying_h2_h_losses",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_qualifying_h2_h_losses",
+      "rows": 5089,
+      "recounted": 5089,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "consecutive_races_without_a_dnf",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=consecutive_races_without_a_dnf",
+      "rows": 672,
+      "recounted": 672,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_championships",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_championships",
+      "rows": 9,
+      "recounted": 9,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_wins",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_wins",
+      "rows": 26,
+      "recounted": 26,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "wins_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=wins_before_first_championship",
+      "rows": 14,
+      "recounted": 14,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_wins_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_wins_at_the_same_circuit",
+      "rows": 409,
+      "recounted": 409,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "second_and_third_place_finishes",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=second_and_third_place_finishes",
+      "rows": 107,
+      "recounted": 107,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "first_podium",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=first_podium",
+      "rows": 63,
+      "recounted": 63,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_podiums",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_podiums",
+      "rows": 53,
+      "recounted": 53,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "podiums_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=podiums_before_first_championship",
+      "rows": 14,
+      "recounted": 14,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "podiums_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=podiums_at_the_same_circuit",
+      "rows": 708,
+      "recounted": 708,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_podiums_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_podiums_at_the_same_circuit",
+      "rows": 708,
+      "recounted": 708,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "first_pole",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=first_pole",
+      "rows": 41,
+      "recounted": 41,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_poles",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_poles",
+      "rows": 27,
+      "recounted": 27,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "poles_before_first_championship",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=poles_before_first_championship",
+      "rows": 14,
+      "recounted": 14,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_poles_at_the_same_circuit",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_poles_at_the_same_circuit",
+      "rows": 387,
+      "recounted": 387,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_fastest_laps",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_fastest_laps",
+      "rows": 25,
+      "recounted": 25,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_points_finishes",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_points_finishes",
+      "rows": 77,
+      "recounted": 77,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "points_within_a_selected_gp_range",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=points_within_a_selected_gp_range",
+      "rows": 88,
+      "recounted": 88,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_gps",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_gps",
+      "rows": 165,
+      "recounted": 165,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "longest_gap_between_gps",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=longest_gap_between_gps",
+      "rows": 137,
+      "recounted": 137,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "gps_without_a_win_pole_or_fastest_lap",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=gps_without_a_win_pole_or_fastest_lap",
+      "rows": 128,
+      "recounted": 128,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "first_row_lockouts_in_a_season",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=first_row_lockouts_in_a_season",
+      "rows": 130,
+      "recounted": 130,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "q3_appearances",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=q3_appearances",
+      "rows": 22,
+      "recounted": 22,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "q2_appearances",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=q2_appearances",
+      "rows": 25,
+      "recounted": 25,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "q1_exits",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=q1_exits",
+      "rows": 27,
+      "recounted": 27,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_q3_appearances",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_q3_appearances",
+      "rows": 22,
+      "recounted": 22,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_q2_appearances",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_q2_appearances",
+      "rows": 25,
+      "recounted": 25,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_q1_exits",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_q1_exits",
+      "rows": 27,
+      "recounted": 27,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_dnfs",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_dnfs",
+      "rows": 147,
+      "recounted": 147,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_finishes",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_finishes",
+      "rows": 130,
+      "recounted": 130,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "constructors",
+      "statisticId": "consecutive_races_without_a_dnf",
+      "url": "/f1/stats/statistic/?entity=constructors&statistic=consecutive_races_without_a_dnf",
+      "rows": 132,
+      "recounted": 132,
+      "status": "row_values_verified",
+      "failures": []
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "fastest_laps_total",
+      "url": "/f1/stats/statistic/?entity=drivers&statistic=fastest_laps_total",
+      "rows": 801,
+      "recounted": 801,
+      "status": "row_values_verified",
+      "failures": []
+    }
+  ]
+}

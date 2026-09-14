@@ -1,0 +1,106 @@
+{
+  "archiveManifestSha256": "fa294210140a10f2f2f3940effd2fb5db8d809d0560f709384e1838f67cedabf",
+  "checks": [
+    {
+      "check": "driver full official standings",
+      "rows": 23,
+      "status": "pass"
+    },
+    {
+      "check": "constructor full official standings",
+      "rows": 11,
+      "status": "pass"
+    },
+    {
+      "check": "Value official points independent of missing Power",
+      "rows": 23,
+      "first": {
+        "outcome": "changed",
+        "components": [
+          {
+            "kind": "value",
+            "outcome": "changed",
+            "reason": "initial",
+            "releaseId": "value-5879495e0d06d0d1ecd9f399",
+            "idempotencyKey": "5879495e0d06d0d1ecd9f399de4675b0d2b7191826c6aa408bddffc2c30620e9",
+            "payloadSha256": "cece3428b3b36178dd83308166d89815e06be1c4c06217c801a8e8300c4c3302",
+            "byteSize": 36246,
+            "ranked": 20,
+            "entities": 23,
+            "affectedEntities": [
+              "profiles-driver:kimi-antonelli",
+              "profiles-driver:liam-lawson",
+              "profiles-driver:arvid-lindblad",
+              "profiles-driver:franco-colapinto",
+              "profiles-driver:oliver-bearman",
+              "profiles-driver:isack-hadjar",
+              "profiles-driver:oscar-piastri",
+              "profiles-driver:george-russell",
+              "profiles-driver:lando-norris",
+              "profiles-driver:gabriel-bortoleto",
+              "profiles-driver:charles-leclerc",
+              "profiles-driver:pierre-gasly",
+              "profiles-driver:lewis-hamilton",
+              "profiles-driver:max-verstappen",
+              "profiles-driver:nico-hulkenberg",
+              "profiles-driver:yuki-tsunoda",
+              "profiles-driver:carlos-sainz",
+              "profiles-driver:esteban-ocon",
+              "profiles-driver:alexander-albon",
+              "profiles-driver:fernando-alonso",
+              "profiles-driver:lance-stroll",
+              "profiles-driver:sergio-perez",
+              "profiles-driver:valtteri-bottas"
+            ],
+            "changedPaths": [
+              "f1/rankings/value/v1/release.cece3428b3b36178dd83308166d89815e06be1c4c06217c801a8e8300c4c3302.json",
+              "f1/rankings/value/v1/manifest.json"
+            ]
+          },
+          {
+            "kind": "power",
+            "outcome": "withheld",
+            "reason": "input_not_supplied",
+            "lastValidReleaseId": null,
+            "changedPaths": []
+          }
+        ],
+        "changedPaths": [
+          "f1/rankings/value/v1/release.cece3428b3b36178dd83308166d89815e06be1c4c06217c801a8e8300c4c3302.json",
+          "f1/rankings/value/v1/manifest.json"
+        ],
+        "productionWrites": false,
+        "refsChanged": false,
+        "clock": "2026-09-14T00:42:40.886401Z"
+      },
+      "repeat": {
+        "outcome": "partial",
+        "components": [
+          {
+            "kind": "value",
+            "outcome": "noop",
+            "reason": "same_declared_evidence_and_configuration",
+            "releaseId": "value-5879495e0d06d0d1ecd9f399",
+            "idempotencyKey": "5879495e0d06d0d1ecd9f399de4675b0d2b7191826c6aa408bddffc2c30620e9",
+            "changedPaths": []
+          },
+          {
+            "kind": "power",
+            "outcome": "withheld",
+            "reason": "input_not_supplied",
+            "lastValidReleaseId": null,
+            "changedPaths": []
+          }
+        ],
+        "changedPaths": [],
+        "productionWrites": false,
+        "refsChanged": false,
+        "clock": "2026-09-14T00:42:40.886401Z"
+      }
+    },
+    {
+      "check": "identical current snapshot no-op",
+      "status": "pass"
+    }
+  ]
+}
