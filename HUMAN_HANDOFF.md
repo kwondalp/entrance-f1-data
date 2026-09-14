@@ -1,5 +1,13 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Current automation publication evidence
+
+Current timing recovery covers all fourteen completed Grands Prix and five Sprints. FIA collection discovers official event/timing links from the season index, handles localized titles and wide continuation pages, preserves unknown completion totals, and records bounded HTTP retries without hiding persistent errors. Actual hosted publications succeeded.
+
+The hosted publisher activated refreshed R14 Results, Standings, Stats Core, all 144 backfill metrics and current Catalogue data. Current F1DB secondary inputs and official session/timing extensions are durable published contracts. Power, Value and Team independently published at the current cutoff; unchanged-input no-ops preserve releases. Live public verification passed. Revised Core scheduled success remains unobserved.
+
+The consolidated Tools automation-recovery record contains exact run links, failure causes, product boundaries, source-to-consumer responsibilities and remaining quality limits. Manual and downstream executions are not labelled as scheduled successes. Known unreviewed age/nationality and model candidates remain excluded; the approved Value salary policy is unchanged.
+
 Current recovery has published R14 Results, Standings, current snapshots and
 regenerated Stats. Approved Power, Value, team statistics and session results
 have independent production runs. Revised Power has also published from an
