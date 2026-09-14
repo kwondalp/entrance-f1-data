@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 9,
+  "session": "race",
+  "raceSlug": "great-britain",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
+  "completedLaps": 52,
+  "segments": [
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "startLap": 1,
+      "endLap": 25,
+      "lapCount": 25
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 26,
+      "endLap": 35,
+      "lapCount": 10
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "startLap": 36,
+      "endLap": 52,
+      "lapCount": 17
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "lap": 37,
+      "timeMillis": 91777
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 1
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 2
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 3
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 4
+    },
+    {
+      "driverId": "isack-hadjar",
+      "constructorId": "red-bull",
+      "position": 5
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 6
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 7
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 8
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 9
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "rb",
+      "position": 10
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 11
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 12
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 13
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 14
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 15
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 16
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 17
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 18
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 19
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 20
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 21
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-14T14:43:27.824487Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/results/?limit=100",
+        "sha256": "8c0cb08ef31b197211cd987da1c63e03730255b18855a36aa45a314b9a32db0b",
+        "byteSize": 13126
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=0",
+        "sha256": "102878150514a8e0ec321026cb060b0bc3a674dadcc3ba6a60b1669d36c0e1a8",
+        "byteSize": 6404
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=100",
+        "sha256": "3e7da3e8931c2ae556898c2d49ec2e85fb21c0a2aaee1ead7d7268110f201811",
+        "byteSize": 6425
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=200",
+        "sha256": "5a88d19377c47e7021e4865555783a0e776f9a945ec24ef8f4bca937d5e6e26b",
+        "byteSize": 6411
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=300",
+        "sha256": "3c23e747f1bf7c485af20f4b9b4337b2240ab330a73a6d81a06e08b8b7d1dbf1",
+        "byteSize": 6431
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=400",
+        "sha256": "2b6dcad1baf8a685d8bfe89bed0c0eb306347a36c55c1e2bb85b6a6c1e7eae70",
+        "byteSize": 6417
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=500",
+        "sha256": "314b52d1a96a605a078b99f8f7bea6751e57a44a6daa9a9a8c5504840abcddc0",
+        "byteSize": 6429
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=600",
+        "sha256": "318dd0ba215b56e9e0f3634c1be0602fcb28943ddb6021a808936c4fc059286e",
+        "byteSize": 6408
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=700",
+        "sha256": "7c8296ffabd1f30a9c2ec47c6c17d1d625c1ced454bfcb8664915fb21d8ec4e9",
+        "byteSize": 6430
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=800",
+        "sha256": "b6dc8a14cb2e3da22b4cf45f7cfedcd59b2e812acdbe7b34cb0125c7accf537e",
+        "byteSize": 6425
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=900",
+        "sha256": "d14d5e08719baa25ac2ef540666b04717884a6812aed610f087ccabb2ccfad24",
+        "byteSize": 6419
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=1000",
+        "sha256": "4e4501d26a5d33e0fd9acc8602104b988da231a44cf5793d2dffcee02bda3e50",
+        "byteSize": 6388
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/9/laps/?limit=2000&offset=1100",
+        "sha256": "4ce12729481413dbeacee3acb0fc77176b22d556847d11799e61a1b413709c8d",
+        "byteSize": 1232
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-07-05_British_Grand_Prix/2026-07-05_Race/TimingData.jsonStream",
+        "status": 403,
+        "message": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-07-05_British_Grand_Prix/2026-07-05_Race/TimingData.jsonStream",
+        "status": 404,
+        "message": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" href=\"https://www.cloudflare.com/favicon.ico\" />\n    <title>Not Found</title>\n    <style>\n      body {\n        font-family: system-"
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 9,
+      "session": "race",
+      "raceSlug": "great-britain",
+      "scheduledStartUtc": "2026-07-05T14:00:00Z",
+      "inputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
+      "path": "sessions/ed4e0f7a73393d3ff374744803b72dbc1edd78423d9f09d2fdeb300584174885.json",
+      "sha256": "ed4e0f7a73393d3ff374744803b72dbc1edd78423d9f09d2fdeb300584174885",
+      "byteSize": 18667,
+      "publicationState": "complete"
+    }
+  }
+}

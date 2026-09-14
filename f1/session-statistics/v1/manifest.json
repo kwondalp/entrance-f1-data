@@ -3,15 +3,45 @@
   "publicationStatus": "approved",
   "dataStatus": "verified",
   "policy": {
-    "version": 2,
-    "provider": "FastF1 3.8.3; Jolpica explicit GP lap positions with official classification binding",
+    "version": 3,
+    "provider": "FastF1 3.8.3; Jolpica explicit GP positions; FIA official lap charts with official classification binding",
     "leaders": "Exactly one rank-one driver at completion of every official winner lap",
     "identity": "Session car number and official classification; no inferred driver or constructor",
     "fastest": "Recorded non-deleted lap times; fallback fastest times come only from official classification",
     "unknown": "Withhold incomplete leader sessions; absent times remain unknown"
   },
-  "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "policies": {
+    "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7": {
+      "version": 2,
+      "provider": "FastF1 3.8.3; Jolpica explicit GP lap positions with official classification binding",
+      "leaders": "Exactly one rank-one driver at completion of every official winner lap",
+      "identity": "Session car number and official classification; no inferred driver or constructor",
+      "fastest": "Recorded non-deleted lap times; fallback fastest times come only from official classification",
+      "unknown": "Withhold incomplete leader sessions; absent times remain unknown"
+    },
+    "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618": {
+      "version": 3,
+      "provider": "FastF1 3.8.3; Jolpica explicit GP positions; FIA official lap charts with official classification binding",
+      "leaders": "Exactly one rank-one driver at completion of every official winner lap",
+      "identity": "Session car number and official classification; no inferred driver or constructor",
+      "fastest": "Recorded non-deleted lap times; fallback fastest times come only from official classification",
+      "unknown": "Withhold incomplete leader sessions; absent times remain unknown"
+    }
+  },
   "sessions": [
+    {
+      "season": 2026,
+      "round": 9,
+      "session": "race",
+      "raceSlug": "great-britain",
+      "officialInputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
+      "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+      "path": "sessions/302cd91e4620c54f041efad1fae8331d24b6296724b8552ecdaeed41f385efb7.json",
+      "sha256": "302cd91e4620c54f041efad1fae8331d24b6296724b8552ecdaeed41f385efb7",
+      "byteSize": 7931,
+      "inputFingerprint": "80aea29afce63445dbb771cd88eca21387838a31d0b615951981f7bd4057abb2"
+    },
     {
       "season": 2026,
       "round": 10,
