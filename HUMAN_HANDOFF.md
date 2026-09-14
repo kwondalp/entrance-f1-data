@@ -1,5 +1,14 @@
 # Human handoff: ENTRANCE F1 Data
 
+Current recovery has published R14 Results, Standings, current snapshots and
+regenerated Stats. Approved Power, Value, team statistics and session results
+have independent production runs. Revised Power has also published from an
+actual schedule event. The session-statistics contract adds checked timing
+inputs for Stats without making core publication depend on timing availability.
+Revised core schedule success and final timing-consumer integration remain
+required; historical status sections below are not current run evidence.
+
+
 The owner approved necessary automatic publication across Tools, Data and Web.
 The current snapshot publishes the exact existing seven current documents under
 immutable hashes and one manifest. Tools regenerates it in post-session

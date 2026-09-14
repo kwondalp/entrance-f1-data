@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 29
+handoffVersion: 30
 currentState:
   status: automated-current-snapshot-publication
-  summary: "R14 core Results and Standings are published. Value has advanced through the independent approved-formula publisher. The additive current snapshot binds all seven current documents and the Results archive hash; missing or corrupt bound payloads must not permit mutable fallback. Power repair and full automation schedule observation remain separate checkpoints."
+  summary: "R14 Results, Standings, current snapshots and regenerated Stats are published. Independent Power, Value, team-statistics and session-results publishers have real production observations; revised Power also has an observed scheduled publication. The additive session-statistics contract defines independently verified timing inputs for Stats and is being connected to its producer. Core schedule success and final timing integration remain separate completion gates."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.

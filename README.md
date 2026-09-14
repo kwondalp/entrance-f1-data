@@ -2,7 +2,7 @@
 
 This repository is the stable static JSON data source for ENTRANCE consumers.
 
-It contains no API server, application runtime, or automatic publishing step. Clients fetch approved files directly, and promotion from `entrance-f1-data-tools` remains a manual, reviewed operation.
+It serves static files without an API server. Tools workflows automatically validate and publish approved sporting, Stats and ranking data; clients fetch those releases directly. Promotion from `entrance-f1-data-tools` remains a manual, reviewed operation.
 
 The current generated candidate is coherent through the completed 2026 Dutch
 Grand Prix weekend (2026-08-23). The additive Stats backfill exposes all 144
