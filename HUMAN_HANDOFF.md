@@ -479,3 +479,7 @@ The Power v2 seed contains real historical/current sufficient statistics and the
 ## Power Rating verified operation
 
 The deployed Power-only producer published power-2026-r13-00674a8107d324f7 through the verified Italian GP. Public release bytes and all artifact bindings were checked. Cloud unchanged-input and actual two-GP source recheck runs created no additional release. Empirical validation is explicitly retrospective with a reused evaluation period, and all component intervals remain model-conditional. The approved seed is retained for reproducibility.
+
+## Independent timing and official session detail inputs
+
+The session-statistics contract now has real server-published Italian and Spanish GP lap leaders. The fallback uses explicit Jolpica positions with complete official identity, classification and lap-count checks; unknown deletion flags never establish lap records. Official session results also define actual Sprint grids and personal fastest-lap tables. Stats consumes these immutable contracts through Tools, with source fingerprints separate from generator policy. Integration publication and revised core schedule outcomes remain separately tracked.

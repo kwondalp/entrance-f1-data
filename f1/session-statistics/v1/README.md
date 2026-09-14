@@ -14,6 +14,8 @@ normalised result fingerprint. `sessions/<sha256>.json` contains:
 - Season, round, session type and the existing stable race slug.
 - Official completed-lap count and contiguous lap-end leader segments.
 - Recorded, non-deleted personal fastest laps and known starting-grid places.
+  The GP fallback certifies only times from the official fastest classification;
+  other personal lap times remain unknown.
 - Existing Driver and Constructor IDs from the matching official session.
 - Source library/version, retrieval time and the separately published official
   session binding. No DOB, nationality, salary or unknown record is inferred.
@@ -33,5 +35,16 @@ unchanged, including retrieval metadata. Concurrent Data advancement is retried
 from a fresh checkout using a normal push; force updates are not used.
 
 FastF1 3.8.3 supplies timing. Its MIT licence applies to the software, not to
-upstream Formula 1 timing data. The publisher retains normalised facts and
-provenance; raw provider caches remain outside this repository.
+upstream Formula 1 timing data. When live timing is unavailable, GP lap leaders
+can come from Jolpica's explicit per-lap position observations. Every source car,
+name, classified position and completed-lap count must match the official result;
+the session date must match, every winner lap needs one leader, and source pages
+must be complete. Source URLs, HTTP failures of the primary provider and
+checksums remain in provenance. Unknown lap-deletion status never certifies a
+fastest-lap record. Raw provider caches remain outside this repository.
+
+Stats consumers can reuse a timing release after an official detail-only update
+only when the original immutable official payload still has exactly the same
+season, round, event, session and classification. Sporting corrections invalidate
+that reuse. This permits adding an official grid or personal fastest-lap table
+without discarding independently verified, unchanged leader observations.

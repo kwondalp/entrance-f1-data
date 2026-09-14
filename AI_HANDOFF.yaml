@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 30
+handoffVersion: 31
 currentState:
   status: automated-current-snapshot-publication
-  summary: "R14 Results, Standings, current snapshots and regenerated Stats are published. Independent Power, Value, team-statistics and session-results publishers have real production observations; revised Power also has an observed scheduled publication. The additive session-statistics contract defines independently verified timing inputs for Stats and is being connected to its producer. Core schedule success and final timing integration remain separate completion gates."
+  summary: "R14 Results, Standings and current snapshots are published. Independent approved Power, Value, team statistics and session details have real production observations; revised Power has a scheduled publication. R13/R14 explicit lap leaders were published by the independent timing runner after official live timing returned 403 and its mirror returned 404. Published-session Stats integration and revised core scheduled execution remain separately observed completion gates."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
