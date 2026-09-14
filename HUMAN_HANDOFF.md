@@ -1,5 +1,15 @@
 # Human handoff: ENTRANCE F1 Data
 
+The owner approved necessary automatic publication across Tools, Data and Web.
+The current snapshot publishes the exact existing seven current documents under
+immutable hashes and one manifest. Tools regenerates it in post-session
+transactions; Web distinguishes absent manifests from broken bound payloads.
+Value's approved salary/formula now recalculates independently using current
+official points. Public Power and model candidates keep separate gates.
+Actual published cutoffs and server runs belong in the operational report,
+not inferred from historical handoff summaries.
+
+
 ## Core recovery scope correction (2026-09-14)
 
 Official R14 qualifying completion is published. R14 race, championship points and derived Stats remain a verified candidate pending the Web profile-consumer exception. Legacy Value and descriptive Power pointers are restored after a core replay refreshed them outside the recovery scope; immutable release artifacts remain retained.

@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 28
+handoffVersion: 29
 currentState:
-  status: qualifying-published-race-pending-web-exception
-  summary: "Official R14 qualifying completion is published. R14 race, championship points and derived Stats remain a verified candidate pending the Web profile-consumer exception. Legacy Value and descriptive Power pointers are restored after a core replay refreshed them outside the recovery scope; immutable release artifacts remain retained."
+  status: automated-current-snapshot-publication
+  summary: "R14 core Results and Standings are published. Value has advanced through the independent approved-formula publisher. The additive current snapshot binds all seven current documents and the Results archive hash; missing or corrupt bound payloads must not permit mutable fallback. Power repair and full automation schedule observation remain separate checkpoints."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
