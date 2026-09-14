@@ -483,3 +483,14 @@ The deployed Power-only producer published power-2026-r13-00674a8107d324f7 throu
 ## Independent timing and official session detail inputs
 
 The session-statistics contract now has real server-published Italian and Spanish GP lap leaders. The fallback uses explicit Jolpica positions with complete official identity, classification and lap-count checks; unknown deletion flags never establish lap records. Official session results also define actual Sprint grids and personal fastest-lap tables. Stats consumes these immutable contracts through Tools, with source fingerprints separate from generator policy. Integration publication and revised core schedule outcomes remain separately tracked.
+
+FIA-sourced Dutch and Belgian Sprint leaders and fastest tables subsequently
+passed actual server publication. The additive statistics-inputs contract now
+documents current F1DB secondary facts after the reviewed historical boundary.
+Every current sporting row must agree with official outcomes; the immutable
+input retains release, archive and licence hashes, attribution and event-level
+classification fingerprints. Corrections hold stale secondary facts until
+verified replacement. No birthdate, nationality or historical identity approval
+is imported. Actual-source candidate generation passed both catalogue and 144
+metric audits; production activation is tracked in the consolidated Tools
+automation recovery record.

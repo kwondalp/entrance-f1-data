@@ -48,3 +48,11 @@ only when the original immutable official payload still has exactly the same
 season, round, event, session and classification. Sporting corrections invalidate
 that reuse. This permits adding an official grid or personal fastest-lap table
 without discarding independently verified, unchanged leader observations.
+
+For Sprint sessions, the FIA event timing page supplies exact lap-chart and
+fastest-lap PDFs when live timing is unavailable. The producer requires the
+matching season, round, event and session, one explicit leader for every official
+winner lap, and exact official car identities. The fastest table requires unique
+ordered ranks and valid recorded times/laps. PDF URLs and hashes are retained;
+raw documents stay in the producer cache. Manifest policy history preserves the
+original policy binding of older valid session payloads.

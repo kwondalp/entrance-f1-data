@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 31
+handoffVersion: 32
 currentState:
   status: automated-current-snapshot-publication
-  summary: "R14 Results, Standings and current snapshots are published. Independent approved Power, Value, team statistics and session details have real production observations; revised Power has a scheduled publication. R13/R14 explicit lap leaders were published by the independent timing runner after official live timing returned 403 and its mirror returned 404. Published-session Stats integration and revised core scheduled execution remain separately observed completion gates."
+  summary: "R14 Results, Standings, current snapshots and integrated catalogue Stats are published. FIA Sprint lap charts and fastest tables now supply verified Dutch/Belgian timing. The current secondary Stats input contract requires current F1DB archive/licence hashes and exact official classification agreement, with per-event correction invalidation. Its independent server publisher is prepared; hosted input and regenerated metric publication remain to be observed. Revised core scheduled success is not yet observed."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
