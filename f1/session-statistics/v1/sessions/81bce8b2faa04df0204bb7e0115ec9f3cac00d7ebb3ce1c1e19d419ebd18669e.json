@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 5,
+  "session": "race",
+  "raceSlug": "canada",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
+  "completedLaps": 68,
+  "segments": [
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 1,
+      "endLap": 1,
+      "lapCount": 1
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 2,
+      "endLap": 5,
+      "lapCount": 4
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "startLap": 6,
+      "endLap": 21,
+      "lapCount": 16
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 22,
+      "endLap": 24,
+      "lapCount": 3
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "startLap": 25,
+      "endLap": 29,
+      "lapCount": 5
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 30,
+      "endLap": 68,
+      "lapCount": 39
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "lap": 68,
+      "timeMillis": 74210
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 1
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 2
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 3
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 4
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 5
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 6
+    },
+    {
+      "driverId": "isack-hadjar",
+      "constructorId": "red-bull",
+      "position": 7
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 8
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 9
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 10
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 11
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "rb",
+      "position": 12
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 13
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 14
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 15
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 16
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 17
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 18
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 19
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 20
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 21
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-14T15:42:28.832534Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/results/?limit=100",
+        "sha256": "9cfd5a9078a3c6af7d95daa2f561a7ade6f01992fa109773de812af69b2295f6",
+        "byteSize": 12898
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=0",
+        "sha256": "63d739e185b5dcc4f768e0eba3537bb5f245f4c4e16297144b96af3e0aebe0f0",
+        "byteSize": 6375
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=100",
+        "sha256": "f49069dafa5e1d1378b5ef1fa9aaa821335c78c6606b9d0addd7cc5e5b62469a",
+        "byteSize": 6412
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=200",
+        "sha256": "7166da3448ae1a064ea25b3b344235e01d96e09e473742d28f1bcab810d0830a",
+        "byteSize": 6417
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=300",
+        "sha256": "97d887def2ac4e48cf4c3eb671d79c1bb8857537087c800ad322c36d3b148cf4",
+        "byteSize": 6420
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=400",
+        "sha256": "d5a7d4e7336ab58b67aff414d5dd63cd1a70b3e866748b859e51577337518d2b",
+        "byteSize": 6421
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=500",
+        "sha256": "2e6d854a5c637f451788dfe9650ebaf6202019e54bdb3cdff864cf71b90d10b5",
+        "byteSize": 6424
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=600",
+        "sha256": "33a55eb5245232c462ff06abaa36dc9547779c083a7b902132d17c6d10cf257d",
+        "byteSize": 6452
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=700",
+        "sha256": "c4aa1c9bd956b047437c20063a5f0f6f0559558ad098274d9efed509aab240bc",
+        "byteSize": 6457
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=800",
+        "sha256": "c38fb8b84aa44d954bc48c2da379ac234174cc32005e1dd9baba428e7d5027c3",
+        "byteSize": 6459
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=900",
+        "sha256": "c27a900e696f5c112bbae80b1c379b013d1c8d0c88c0b1f7354f23725ed04bb7",
+        "byteSize": 6467
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=1000",
+        "sha256": "d83edf58af0fd50585069601ccddad867bc424906f287178ab48e2caabb54c92",
+        "byteSize": 6461
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=1100",
+        "sha256": "6c2bbf891bbcc58d775d5c02f5b1b55b287303eaea12ecaae4e2f6502c50010c",
+        "byteSize": 6470
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/5/laps/?limit=2000&offset=1200",
+        "sha256": "28ae33acd293ea3574c51687cb987be30d252eaccceadf71c60d213ea9bf628e",
+        "byteSize": 989
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-05-24_Canadian_Grand_Prix/2026-05-24_Race/TimingData.jsonStream",
+        "status": 403,
+        "message": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-05-24_Canadian_Grand_Prix/2026-05-24_Race/TimingData.jsonStream",
+        "status": 404,
+        "message": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" href=\"https://www.cloudflare.com/favicon.ico\" />\n    <title>Not Found</title>\n    <style>\n      body {\n        font-family: system-"
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 5,
+      "session": "race",
+      "raceSlug": "canada",
+      "scheduledStartUtc": "2026-05-24T20:00:00Z",
+      "inputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
+      "path": "sessions/278813d3d47490750a15c138dd3ff6cff29f1f90c231ef87efe3e1e29c3058f4.json",
+      "sha256": "278813d3d47490750a15c138dd3ff6cff29f1f90c231ef87efe3e1e29c3058f4",
+      "byteSize": 18287,
+      "publicationState": "complete"
+    }
+  }
+}
