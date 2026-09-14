@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Core recovery scope correction (2026-09-14)
+
+Official R14 qualifying completion is published. R14 race, championship points and derived Stats remain a verified candidate pending the Web profile-consumer exception. Legacy Value and descriptive Power pointers are restored after a core replay refreshed them outside the recovery scope; immutable release artifacts remain retained.
+
+The actual successful qualifying run is 34803363064. Replay 34803898278 left sporting data unchanged but advanced legacy ranking pointers. This is not a complete no-op. The correction preserves prior approved pointers and all existing immutable release bytes; the core publisher no longer admits ranking paths. The separate existing Power Rating workflow and the unactivated strength research model are unchanged.
+
 ## Separate Power model research contract
 
 The model-review namespace contains actual producer-derived current-season estimates, with 9 Power entries, 21 distinct Driver estimates and 8 distinct Car estimates. Unsupported entries remain null. The schema and producer validate hash bindings, component evidence and the additive model relation. The existing approved ranking pointers are byte-identical. Model validation is not promoted: predictive and subgroup gates fail, and the reference was revised after diagnostics. Raw historical timing and diagnostic fitted coefficients remain external. See f1/rankings/model-review/README.md. A review feature and its browser do not establish production activation or scheduled execution.
