@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "entrance-session-statistics-manifest.v1",
+  "publicationStatus": "approved",
+  "dataStatus": "verified",
+  "policy": {
+    "version": 2,
+    "provider": "FastF1 3.8.3; Jolpica explicit GP lap positions with official classification binding",
+    "leaders": "Exactly one rank-one driver at completion of every official winner lap",
+    "identity": "Session car number and official classification; no inferred driver or constructor",
+    "fastest": "Recorded non-deleted lap times; fallback fastest times come only from official classification",
+    "unknown": "Withhold incomplete leader sessions; absent times remain unknown"
+  },
+  "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+  "sessions": [
+    {
+      "season": 2026,
+      "round": 13,
+      "session": "race",
+      "raceSlug": "italy",
+      "officialInputFingerprint": "b5cae13cfee91063633604f742d21c9c76f4adfcc3889a8e4f3972b00da0a4d8",
+      "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+      "path": "sessions/bf70a78ff9dd6af370b058a6dc24033abcc49f1d2f9368d2ea8883d79fb834de.json",
+      "sha256": "bf70a78ff9dd6af370b058a6dc24033abcc49f1d2f9368d2ea8883d79fb834de",
+      "byteSize": 8293,
+      "inputFingerprint": "e50d1c1d840bdd8853abe18156633bb24ee479de54e659e8ff40ca1fb2f93c0f"
+    },
+    {
+      "season": 2026,
+      "round": 14,
+      "session": "race",
+      "raceSlug": "spain",
+      "officialInputFingerprint": "6b285a0cec273f0a1271a881d278618ae81de9c1a8813bc49a0b3180749bc632",
+      "policySha256": "b31db30d06270d6c98e3c8b0218926dfb03de998d3dfa93ffa656af8e630c6f7",
+      "path": "sessions/361797ef5497caa2244f98830da13605116b3fb26f3f9c0ed9c6f9c2e68dc2d8.json",
+      "sha256": "361797ef5497caa2244f98830da13605116b3fb26f3f9c0ed9c6f9c2e68dc2d8",
+      "byteSize": 7926,
+      "inputFingerprint": "a75937e3a38f2d1727353067dd1b0df3c34d26a63a27eb919b2942a8e07afc78"
+    }
+  ]
+}
