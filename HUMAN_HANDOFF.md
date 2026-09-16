@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Complete statistics repair candidate
+
+Complete statistics candidate assessed 472 unique metrics plus four aliases. Adjacent awarded-title pairs, start-boundary results and classification ranks, grid eligibility and units, first-lap/lead-lap counts and shared-result comparisons are repaired. 52 evidence/semantic blockers and four unsupported routes remain; no production promotion is claimed. The single detailed ledger is entrance-web/docs/stats-catalogue-audit-20260917.json.
+
+Canonical regeneration compared 553 package files under identical pinned inputs with no changes. Independent base reconciliation passes all 157 public base metrics; six repaired backfill metrics pass complete raw-archive row comparison. The controlled next-title fixture and targeted consumer tests pass. Existing production approval/profile gates and the unrelated workflow assertion remain explicit in the ledger. The corrected builders remain on the existing regeneration path. Do not treat this candidate as a published release or restart earlier automation work from this audit.
+
 ## Current automation publication evidence
 
 Current timing recovery covers all fourteen completed Grands Prix and five Sprints. FIA collection discovers official event/timing links from the season index, handles localized titles and wide continuation pages, preserves unknown completion totals, and records bounded HTTP retries without hiding persistent errors. Actual hosted publications succeeded.
