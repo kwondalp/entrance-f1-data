@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 34
+handoffVersion: 35
 currentState:
-  status: stats-controlled-release-prepared
-  summary: "Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate."
+  status: stats-release-live-research-separated
+  summary: "The owner-approved Stats release is published and live hashes were verified. A separate generated development candidate retains 155 available and 14 withheld metrics, updates leader-evidence coverage only, and carries candidate status without reusing the production approval. Published profiles/circuits retain their original approved evidence scope."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.

@@ -508,3 +508,10 @@ verified replacement. No birthdate, nationality or historical identity approval
 is imported. Actual-source candidate generation passed both catalogue and 144
 metric audits; production activation is tracked in the consolidated Tools
 automation recovery record.
+
+
+## Verified Stats release and separate historical continuation
+
+The owner-approved Stats release is published and live hashes were verified. A separate generated development candidate retains 155 available and 14 withheld metrics, updates leader-evidence coverage only, and carries candidate status without reusing the production approval. Published profiles/circuits retain their original approved evidence scope.
+
+The owner release approval was executed. The two automation switches were restored to their original enabled state after live verification. Exact production snapshots, backup refs and live checks are recorded in the Web production activation report; Git remains authoritative for repository state. Historical progress and exact unresolved facts are recorded in the Tools withheld-progress report. No additional metric availability may change until its declared population is complete and validated.
