@@ -1,10 +1,870 @@
 {
-  "schemaVersion": "stats-catalogue-unavailable.v1",
+  "schemaVersion": "stats-lab-production-metric.v1",
   "entity": "drivers",
   "statisticId": "youngest_race_leaders_by_nation",
   "metricId": "approvedDriverRacePerformanceYoungestRaceLeadersByNation",
-  "availability": "verification_pending",
-  "message": "Data verification in progress",
+  "loadedRowCount": 26,
+  "rowCount": 26,
+  "rows": [
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 6799,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2025-3:9771dd9e62e4"
+      ],
+      "groupId": "italy",
+      "groupLabel": "Italy",
+      "ageDays": 6799,
+      "ageYears": 18,
+      "ageRemainderDays": 224,
+      "dateOfBirth": "2006-08-25",
+      "valueEvent": {
+        "eventId": "event:2025-3:9771dd9e62e4",
+        "eventIndex": 1127,
+        "season": 2025,
+        "round": 3,
+        "date": "2025-04-06",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "rank": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:antonelli:0ab4d82d3440",
+        "sourcePath": "details/drivers/8.json",
+        "eventIds": [
+          "event:2025-3:9771dd9e62e4"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 6802,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2016-5:c321cfd88c73"
+      ],
+      "groupId": "netherlands",
+      "groupLabel": "Netherlands",
+      "ageDays": 6802,
+      "ageYears": 18,
+      "ageRemainderDays": 228,
+      "dateOfBirth": "1997-09-30",
+      "valueEvent": {
+        "eventId": "event:2016-5:c321cfd88c73",
+        "eventIndex": 939,
+        "season": 2016,
+        "round": 5,
+        "date": "2016-05-15",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "rank": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:max-verstappen:1f6847211200",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2016-5:c321cfd88c73"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 7394,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2007-15:7b42716cbcc4"
+      ],
+      "groupId": "germany",
+      "groupLabel": "Germany",
+      "ageDays": 7394,
+      "ageYears": 20,
+      "ageRemainderDays": 89,
+      "dateOfBirth": "1987-07-03",
+      "valueEvent": {
+        "eventId": "event:2007-15:7b42716cbcc4",
+        "eventIndex": 782,
+        "season": 2007,
+        "round": 15,
+        "date": "2007-09-30",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "fuji"
+      },
+      "rank": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "eventIds": [
+          "event:2007-15:7b42716cbcc4"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 7836,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2019-2:a0d869828a19"
+      ],
+      "groupId": "monaco",
+      "groupLabel": "Monaco",
+      "ageDays": 7836,
+      "ageYears": 21,
+      "ageRemainderDays": 166,
+      "dateOfBirth": "1997-10-16",
+      "valueEvent": {
+        "eventId": "event:2019-2:a0d869828a19",
+        "eventIndex": 998,
+        "season": 2019,
+        "round": 2,
+        "date": "2019-03-31",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "rank": 4,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:leclerc:80a0e9f8790b",
+        "sourcePath": "details/drivers/5.json",
+        "eventIds": [
+          "event:2019-2:a0d869828a19"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:buemi:d1230df074dd",
+      "entityName": "Sébastien Buemi",
+      "value": 7895,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2010-8:ecb88e9b5632"
+      ],
+      "groupId": "switzerland",
+      "groupLabel": "Switzerland",
+      "ageDays": 7895,
+      "ageYears": 21,
+      "ageRemainderDays": 225,
+      "dateOfBirth": "1988-10-31",
+      "valueEvent": {
+        "eventId": "event:2010-8:ecb88e9b5632",
+        "eventIndex": 827,
+        "season": 2010,
+        "round": 8,
+        "date": "2010-06-13",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "villeneuve"
+      },
+      "rank": 5,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:buemi:d1230df074dd",
+        "sourcePath": "details/drivers/8.json",
+        "eventIds": [
+          "event:2010-8:ecb88e9b5632"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 7907,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2003-2:3c5d8ae51f86"
+      ],
+      "groupId": "spain",
+      "groupLabel": "Spain",
+      "ageDays": 7907,
+      "ageYears": 21,
+      "ageRemainderDays": 237,
+      "dateOfBirth": "1981-07-29",
+      "valueEvent": {
+        "eventId": "event:2003-2:3c5d8ae51f86",
+        "eventIndex": 698,
+        "season": 2003,
+        "round": 2,
+        "date": "2003-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "rank": 6,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "eventIds": [
+          "event:2003-2:3c5d8ae51f86"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 7947,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2006-15:6723d4f460ae"
+      ],
+      "groupId": "poland",
+      "groupLabel": "Poland",
+      "ageDays": 7947,
+      "ageYears": 21,
+      "ageRemainderDays": 277,
+      "dateOfBirth": "1984-12-07",
+      "valueEvent": {
+        "eventId": "event:2006-15:6723d4f460ae",
+        "eventIndex": 764,
+        "season": 2006,
+        "round": 15,
+        "date": "2006-09-10",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 7,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:kubica:54803f2070f9",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2006-15:6723d4f460ae"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:gutierrez:8297f3d8d107",
+      "entityName": "Esteban Gutiérrez",
+      "value": 7951,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2013-5:27c04a4c5b9d"
+      ],
+      "groupId": "mexico",
+      "groupLabel": "Mexico",
+      "ageDays": 7951,
+      "ageYears": 21,
+      "ageRemainderDays": 280,
+      "dateOfBirth": "1991-08-05",
+      "valueEvent": {
+        "eventId": "event:2013-5:27c04a4c5b9d",
+        "eventIndex": 882,
+        "season": 2013,
+        "round": 5,
+        "date": "2013-05-12",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "rank": 8,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gutierrez:8297f3d8d107",
+        "sourcePath": "details/drivers/1.json",
+        "eventIds": [
+          "event:2013-5:27c04a4c5b9d"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:davies:97de160688cf",
+      "entityName": "Jimmy Davies",
+      "value": 7965,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1951-2:9f5b3cbfb678"
+      ],
+      "groupId": "united-states-of-america",
+      "groupLabel": "United States of America",
+      "ageDays": 7965,
+      "ageYears": 21,
+      "ageRemainderDays": 295,
+      "dateOfBirth": "1929-08-08",
+      "valueEvent": {
+        "eventId": "event:1951-2:9f5b3cbfb678",
+        "eventIndex": 8,
+        "season": 1951,
+        "round": 2,
+        "date": "1951-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 9,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:davies:97de160688cf",
+        "sourcePath": "details/drivers/3.json",
+        "eventIds": [
+          "event:1951-2:9f5b3cbfb678"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 7974,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2021-14:e08fdd10a891"
+      ],
+      "groupId": "united-kingdom",
+      "groupLabel": "United Kingdom",
+      "ageDays": 7974,
+      "ageYears": 21,
+      "ageRemainderDays": 303,
+      "dateOfBirth": "1999-11-13",
+      "valueEvent": {
+        "eventId": "event:2021-14:e08fdd10a891",
+        "eventIndex": 1048,
+        "season": 2021,
+        "round": 14,
+        "date": "2021-09-12",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 10,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "eventIds": [
+          "event:2021-14:e08fdd10a891"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 8053,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2020-14:25feaca11eb8"
+      ],
+      "groupId": "canada",
+      "groupLabel": "Canada",
+      "ageDays": 8053,
+      "ageYears": 22,
+      "ageRemainderDays": 17,
+      "dateOfBirth": "1998-10-29",
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "rank": 11,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:stroll:ab76996efc92",
+        "sourcePath": "details/drivers/2.json",
+        "eventIds": [
+          "event:2020-14:25feaca11eb8"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:mclaren:fad4f75a1c8e",
+      "entityName": "Bruce McLaren",
+      "value": 8139,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1959-9:4f137a6feb6a"
+      ],
+      "groupId": "new-zealand",
+      "groupLabel": "New Zealand",
+      "ageDays": 8139,
+      "ageYears": 22,
+      "ageRemainderDays": 104,
+      "dateOfBirth": "1937-08-30",
+      "valueEvent": {
+        "eventId": "event:1959-9:4f137a6feb6a",
+        "eventIndex": 83,
+        "season": 1959,
+        "round": 9,
+        "date": "1959-12-12",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "sebring"
+      },
+      "rank": 12,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:mclaren:fad4f75a1c8e",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:1959-9:4f137a6feb6a"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 8160,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1994-13:765bce566d04"
+      ],
+      "groupId": "brazil",
+      "groupLabel": "Brazil",
+      "ageDays": 8160,
+      "ageYears": 22,
+      "ageRemainderDays": 125,
+      "dateOfBirth": "1972-05-23",
+      "valueEvent": {
+        "eventId": "event:1994-13:765bce566d04",
+        "eventIndex": 560,
+        "season": 1994,
+        "round": 13,
+        "date": "1994-09-25",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "estoril"
+      },
+      "rank": 13,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "eventIds": [
+          "event:1994-13:765bce566d04"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 8185,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2023-14:86074fd29efb"
+      ],
+      "groupId": "australia",
+      "groupLabel": "Australia",
+      "ageDays": 8185,
+      "ageYears": 22,
+      "ageRemainderDays": 150,
+      "dateOfBirth": "2001-04-06",
+      "valueEvent": {
+        "eventId": "event:2023-14:86074fd29efb",
+        "eventIndex": 1092,
+        "season": 2023,
+        "round": 14,
+        "date": "2023-09-03",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 14,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:piastri:45bbf3cf700f",
+        "sourcePath": "details/drivers/a.json",
+        "eventIds": [
+          "event:2023-14:86074fd29efb"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 8313,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2002-11:e25d5451caa9"
+      ],
+      "groupId": "finland",
+      "groupLabel": "Finland",
+      "ageDays": 8313,
+      "ageYears": 22,
+      "ageRemainderDays": 277,
+      "dateOfBirth": "1979-10-17",
+      "valueEvent": {
+        "eventId": "event:2002-11:e25d5451caa9",
+        "eventIndex": 690,
+        "season": 2002,
+        "round": 11,
+        "date": "2002-07-21",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "magny_cours"
+      },
+      "rank": 15,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:2002-11:e25d5451caa9"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 8434,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1973-3:251b61ad7700"
+      ],
+      "groupId": "south-africa",
+      "groupLabel": "South Africa",
+      "ageDays": 8434,
+      "ageYears": 23,
+      "ageRemainderDays": 33,
+      "dateOfBirth": "1950-01-29",
+      "valueEvent": {
+        "eventId": "event:1973-3:251b61ad7700",
+        "eventIndex": 222,
+        "season": 1973,
+        "round": 3,
+        "date": "1973-03-03",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "rank": 16,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:1973-3:251b61ad7700"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 8588,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1968-6:9320431db35f"
+      ],
+      "groupId": "belgium",
+      "groupLabel": "Belgium",
+      "ageDays": 8588,
+      "ageYears": 23,
+      "ageRemainderDays": 188,
+      "dateOfBirth": "1945-01-01",
+      "valueEvent": {
+        "eventId": "event:1968-6:9320431db35f",
+        "eventIndex": 166,
+        "season": 1968,
+        "round": 6,
+        "date": "1968-07-07",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts"
+      },
+      "rank": 17,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ickx:9dc972aa2fb0",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:1968-6:9320431db35f"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:tsunoda:d77287c8b9c8",
+      "entityName": "Yuki Tsunoda",
+      "value": 8599,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2023-22:4408473167ab"
+      ],
+      "groupId": "japan",
+      "groupLabel": "Japan",
+      "ageDays": 8599,
+      "ageYears": 23,
+      "ageRemainderDays": 199,
+      "dateOfBirth": "2000-05-11",
+      "valueEvent": {
+        "eventId": "event:2023-22:4408473167ab",
+        "eventIndex": 1100,
+        "season": 2023,
+        "round": 22,
+        "date": "2023-11-26",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "circuitId": "yas_marina"
+      },
+      "rank": 18,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:tsunoda:d77287c8b9c8",
+        "sourcePath": "details/drivers/5.json",
+        "eventIds": [
+          "event:2023-22:4408473167ab"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 8821,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1966-2:a1b0ac897f3d"
+      ],
+      "groupId": "austria",
+      "groupLabel": "Austria",
+      "ageDays": 8821,
+      "ageYears": 24,
+      "ageRemainderDays": 55,
+      "dateOfBirth": "1942-04-18",
+      "valueEvent": {
+        "eventId": "event:1966-2:a1b0ac897f3d",
+        "eventIndex": 142,
+        "season": 1966,
+        "round": 2,
+        "date": "1966-06-12",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "rank": 19,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:rindt:46dabdd8ff6b",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:1966-2:a1b0ac897f3d"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
+      "value": 8978,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2020-8:7754e51c8a5b"
+      ],
+      "groupId": "france",
+      "groupLabel": "France",
+      "ageDays": 8978,
+      "ageYears": 24,
+      "ageRemainderDays": 212,
+      "dateOfBirth": "1996-02-07",
+      "valueEvent": {
+        "eventId": "event:2020-8:7754e51c8a5b",
+        "eventIndex": 1025,
+        "season": 2020,
+        "round": 8,
+        "date": "2020-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 20,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gasly:0fca70394caf",
+        "sourcePath": "details/drivers/e.json",
+        "eventIds": [
+          "event:2020-8:7754e51c8a5b"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 9003,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2020-14:25feaca11eb8"
+      ],
+      "groupId": "thailand",
+      "groupLabel": "Thailand",
+      "ageDays": 9003,
+      "ageYears": 24,
+      "ageRemainderDays": 237,
+      "dateOfBirth": "1996-03-23",
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "rank": 21,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:albon:20ec6817f0c4",
+        "sourcePath": "details/drivers/9.json",
+        "eventIds": [
+          "event:2020-14:25feaca11eb8"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 9325,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2001-3:be5cc2aa9c1e"
+      ],
+      "groupId": "colombia",
+      "groupLabel": "Colombia",
+      "ageDays": 9325,
+      "ageYears": 25,
+      "ageRemainderDays": 193,
+      "dateOfBirth": "1975-09-20",
+      "valueEvent": {
+        "eventId": "event:2001-3:be5cc2aa9c1e",
+        "eventIndex": 665,
+        "season": 2001,
+        "round": 3,
+        "date": "2001-04-01",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "rank": 22,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:2001-3:be5cc2aa9c1e"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 9927,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2012-5:8aaf0aead23f"
+      ],
+      "groupId": "venezuela",
+      "groupLabel": "Venezuela",
+      "ageDays": 9927,
+      "ageYears": 27,
+      "ageRemainderDays": 65,
+      "dateOfBirth": "1985-03-09",
+      "valueEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "date": "2012-05-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "rank": 23,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:maldonado:87cbc81409ca",
+        "sourcePath": "details/drivers/1.json",
+        "eventIds": [
+          "event:2012-5:8aaf0aead23f"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 10065,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1971-9:8f9c399e946d"
+      ],
+      "groupId": "sweden",
+      "groupLabel": "Sweden",
+      "ageDays": 10065,
+      "ageYears": 27,
+      "ageRemainderDays": 203,
+      "dateOfBirth": "1944-02-14",
+      "valueEvent": {
+        "eventId": "event:1971-9:8f9c399e946d",
+        "eventIndex": 205,
+        "season": 1971,
+        "round": 9,
+        "date": "1971-09-05",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 24,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "eventIds": [
+          "event:1971-9:8f9c399e946d"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 10509,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1951-5:e0f15b6e9917"
+      ],
+      "groupId": "argentina",
+      "groupLabel": "Argentina",
+      "ageDays": 10509,
+      "ageYears": 28,
+      "ageRemainderDays": 282,
+      "dateOfBirth": "1922-10-05",
+      "valueEvent": {
+        "eventId": "event:1951-5:e0f15b6e9917",
+        "eventIndex": 11,
+        "season": 1951,
+        "round": 5,
+        "date": "1951-07-14",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "rank": 25,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gonzalez:2aa2e506438c",
+        "sourcePath": "details/drivers/c.json",
+        "eventIds": [
+          "event:1951-5:e0f15b6e9917"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:love:e0b19cc927d9",
+      "entityName": "John Love",
+      "value": 15366,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1967-1:724dfc728149"
+      ],
+      "groupId": "rhodesia",
+      "groupLabel": "Rhodesia",
+      "ageDays": 15366,
+      "ageYears": 42,
+      "ageRemainderDays": 26,
+      "dateOfBirth": "1924-12-07",
+      "valueEvent": {
+        "eventId": "event:1967-1:724dfc728149",
+        "eventIndex": 150,
+        "season": 1967,
+        "round": 1,
+        "date": "1967-01-02",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "rank": 26,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:love:e0b19cc927d9",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:1967-1:724dfc728149"
+        ]
+      }
+    }
+  ],
   "coverage": {
     "oldestIncludedSeason": 1950,
     "latestIncludedSeason": 2026,
@@ -19,514 +879,15 @@
     "evidenceAssessment": {
       "schemaVersion": "stats-evidence-assessment.v1",
       "family": "nationality",
-      "status": "incomplete",
-      "rankingComplete": false,
-      "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+      "status": "complete",
+      "rankingComplete": true,
+      "notice": "",
+      "missingEvidence": ""
     },
     "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
-    "knownExclusions": [
-      "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-      "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-      "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    ],
-    "excludedEntityCount": 56,
-    "excludedEventCount": 4
+    "knownExclusions": [],
+    "excludedEntityCount": 0,
+    "excludedEventCount": 0
   },
-  "exclusions": [
-    {
-      "entityId": "driver:patrese:57b51e8b4bbf",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:cheever:a06f9c80c4f3",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:piquet:009ec3fd7514",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:lammers:91452ecad93c",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:prost:70f24972bd43",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:mansell:66de70fd9557",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:cesaris:50c29699dea6",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:alboreto:2d39fb3c5621",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:ghinzani:299259c20157",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:warwick:6b539e5f2748",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:boutsen:956ebe879bfd",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:palmer:7e8ec9b76782",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:alliot:23d3d78d6458",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:brundle:081c05a34819",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:senna:97c74c7d172e",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:berger:721f3dbb508a",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:martini:208a122d480a",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:capelli:89a05e194274",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:nannini:93cbec78c64b",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:caffi:3c8489b35a99",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:satoru-nakajima:b7442aeaca6b",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:larini:215a8f59acc6",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:moreno:0f9812889ee3",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:modena:529f1b5727b0",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:gugelmin:13387cfd78de",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:sala:d47737adb3ed",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:suzuki:4f9f7240fcf2",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:grouillard:cef9fea1eb5f",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:herbert:c13dde1e1e00",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:alesi:81d9c1b96672",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:gachot:a7953aa82405",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:pirro:8ce509468845",
-      "eventIds": [
-        "event:1989-14:025ad4548eea"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:lehto:87e5ef089e57",
-      "eventIds": [
-        "event:1989-14:025ad4548eea",
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:morbidelli:a451e9fca333",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:blundell:764dfb3d0ee4",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:hakkinen:cb6375fb4ba8",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:comas:9039ac4d7d3a",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:michael-schumacher:6f4f07ba2368",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:wendlinger:e8fbb909096c",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:fittipaldi:cf4462691f31",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:katayama:3c7e385cd2b1",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8",
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:damon-hill:3cf4df1bacf7",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:naspetti:37fd8624b53e",
-      "eventIds": [
-        "event:1992-16:34b7a60f01f8"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:badoer:e8b0007a4461",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:barrichello:ff6039716ac0",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:irvine:3492559d3bf9",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:frentzen:e499a12f83f0",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:panis:b03d10e03261",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:verstappen:c40bc02a357d",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:coulthard:935d583f6514",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:montermini:ca900349e0f2",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:schiattarella:4eb24867776b",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:inoue:80310e8d7d7b",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:salo:781a02b584f4",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:diniz:cf7429166aa8",
-      "eventIds": [
-        "event:1995-2:c2a2b6fae4d9",
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    },
-    {
-      "entityId": "driver:boullion:e557e924793d",
-      "eventIds": [
-        "event:1995-6:4758df40a87f"
-      ],
-      "field": "eventLeaderSet",
-      "reason": "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-    }
-  ]
+  "exclusions": []
 }

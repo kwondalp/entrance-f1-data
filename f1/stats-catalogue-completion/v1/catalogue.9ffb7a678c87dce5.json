@@ -326,12 +326,17 @@
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-event-leader-sets.v1.json",
-      "contentSha256": "3a8f3b1993e963930a9facf366998cf95689fe73c4903dd89322158de9b5d53d"
+      "contentSha256": "6f2b50ca8d776c5212cc1e928e360ccb729e5ba1603ae913aa27732a014dafa5"
     },
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-public-leader-membership-20260917.json",
       "contentSha256": "12e41b0acd52012b80782b462ab8d50eaec27a5d2e169607c412efbeccbff7d9"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/stats-leader-count-decisions-20260917.json",
+      "contentSha256": "6228384c02806c40bcfb011e98e6f5f2ad5f8e59e58cd424db061e7678c449ad"
     },
     {
       "repository": "entrance-f1-data-tools",
@@ -5609,19 +5614,15 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "age",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-          "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
         "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
-        "knownExclusions": [
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-        ],
-        "excludedEntityCount": 56,
-        "excludedEventCount": 4
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
@@ -5636,16 +5637,16 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-        "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_race_leaders.json",
-      "sha256": "6c6f50091b91fdb7305364f13051d3ffeef012a9e40e1077b4e318e187afd6d5",
-      "byteSize": 21884,
-      "availability": "verification_pending",
-      "rowCount": null,
+      "sha256": "c6ac40889b0d804d83533543db2ed37870e4882e6df550020779f6ef3dd66bdd",
+      "byteSize": 152713,
+      "availability": "available",
+      "rowCount": 182,
       "rangeModes": [
         "all-time"
       ]
@@ -5669,19 +5670,15 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "nationality",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-          "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
         "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
-        "knownExclusions": [
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-        ],
-        "excludedEntityCount": 56,
-        "excludedEventCount": 4
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
@@ -5696,16 +5693,16 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-        "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_race_leaders_by_nation.json",
-      "sha256": "c7fa3d9b1a0bc5d4d80b2c50ebb7a9abd93290d806ab284443006009e68df6ca",
-      "byteSize": 22189,
-      "availability": "verification_pending",
-      "rowCount": null,
+      "sha256": "c285c07c1adcb00e0969b249233e3ce1687322f0569cce60bca99c7ef2629903",
+      "byteSize": 25020,
+      "availability": "available",
+      "rowCount": 26,
       "rangeModes": [
         "all-time"
       ]
@@ -5729,19 +5726,15 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "age",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-          "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
         "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
-        "knownExclusions": [
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false.",
-          "No complete event leader set or per-driver completed-laps-led totals for these eligible events; an unobserved lead is unknown, not false."
-        ],
-        "excludedEntityCount": 56,
-        "excludedEventCount": 4
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
@@ -5756,16 +5749,16 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete event leader sets. Displayed ages are observed boundaries only; uncovered Grand Prix events can change the oldest, youngest and national records. Missing leadership is unknown, not zero.",
-        "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/oldest_race_leaders.json",
-      "sha256": "b7ad9455174a4db654dfe4f1c826d53faf94b58444468d31a00178af4f6a4b97",
-      "byteSize": 21880,
-      "availability": "verification_pending",
-      "rowCount": null,
+      "sha256": "b3b27ae15b6097c39f8f3ec8795160dd4fcb7a204f8d6c84d567c2f01595be46",
+      "byteSize": 152810,
+      "availability": "available",
+      "rowCount": 182,
       "rangeModes": [
         "all-time"
       ]

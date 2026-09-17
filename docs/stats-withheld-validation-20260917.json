@@ -1,9 +1,9 @@
 {
   "schemaVersion": "stats-release-scope-validation.v1",
   "scopeValidation": "passed",
-  "productionGate": "owner_release_approval_required",
-  "publicationStatus": "candidate",
-  "packageDataStatus": "mixed",
+  "productionGate": "approved",
+  "publicationStatus": "approved",
+  "packageDataStatus": "verified",
   "snapshot": {
     "archiveSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
     "baseCatalogueSha256": "5b48c6232e66162a7f82d38ca7087b62fd9b29516623b0058482dedcd883df42",
@@ -23,13 +23,13 @@
     "stats-lab": "94d224614b7287414c846e1a31bb0ae55b383da56eacbd086d7ae0f9af6f78d8",
     "stats-metric-backfill": "414bf818dde29dce8e49f521cb80cf9440862ffafea897f36b8482b76eeced0d"
   },
-  "completionCatalogueSha256": "1861329c9521a20075c5c37d46d38c61aa5c14b286894421e1050bd048525f71",
+  "completionCatalogueSha256": "9ffb7a678c87dce5cc24844a6b8f11a0076d56abfdce25382c13348c0538f5e5",
   "completion": {
     "metrics": 169,
-    "rows": 69347,
+    "rows": 69737,
     "availability": {
-      "available": 166,
-      "verification_pending": 3
+      "available": 169,
+      "verification_pending": 0
     }
   },
   "profiles": {
@@ -44,40 +44,16 @@
     "asOfRaceDate": "2026-09-06",
     "sha256": "edbd67064bfd3c594e2c45bc1148fcac5011b43e1cbdaded9ea19fc7f35f0d21"
   },
-  "withheld": [
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_race_leaders",
-      "metricId": "approvedDriverRacePerformanceYoungestRaceLeaders",
-      "label": "Youngest Race Leaders",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders",
-      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_race_leaders_by_nation",
-      "metricId": "approvedDriverRacePerformanceYoungestRaceLeadersByNation",
-      "label": "Youngest Race Leaders by Nation",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders_by_nation",
-      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "oldest_race_leaders",
-      "metricId": "approvedDriverRacePerformanceOldestRaceLeaders",
-      "label": "Oldest Race Leaders",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_race_leaders",
-      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
-    }
-  ],
-  "historicalResearchPerformed": true,
-  "activationDecision": "Not selected for production; owner release authorisation already exists. Four unresolved count records keep three leader metrics withheld.",
+  "withheld": [],
+  "historicalResearchPerformed": false,
+  "activationDecision": "Owner-authorized exact selected leader-age package; live verification follows activation.",
   "publicAvailable": 166,
   "publicWithheld": 3,
   "all166AvailablePayloadsByteIdentical": true,
-  "toolsFocusedPassed": 58,
-  "toolsCommit": "3c4d1c5a33d34959dd05c5e0fd2410e197570f04",
+  "toolsFocusedPassed": 70,
   "developmentBranch": "codex/stats-withheld-repair-20260917",
   "publicDataCommit": "5514c899414f8bd78d26521b70ae1fb18b139a1d",
-  "publicCatalogueSha256": "3299a1f678825a7c8edb8be8c257dcd063938075dd2d4b293321c4fc8618c9cb"
+  "publicCatalogueSha256": "3299a1f678825a7c8edb8be8c257dcd063938075dd2d4b293321c4fc8618c9cb",
+  "toolsCommit": "32bb74c077ba3aab3f374fe109176a4d070b5d7e",
+  "decisionEvidence": "https://github.com/kwondalp/entrance-f1-data-tools/blob/32bb74c077ba3aab3f374fe109176a4d070b5d7e/fixtures/stats-leader-count-decisions-20260917.json"
 }

@@ -525,3 +525,8 @@ The owner expressly authorised eleven editorial DOB choices and publication of i
 ## Latest published DOB metrics and separate leader research
 
 The eleven owner editorial DOB-dependent metrics are live and validated. The separate research snapshot retains 166 unchanged available payloads and three unavailable leader-age metrics after 140 additional event sets. Four count discrepancies remain unresolved; candidate metadata is truthful and no research publication approval is copied. Public hashes, automation restoration and exact remaining facts are in the producer progress record and consumer live evidence.
+
+
+## Four-event leader-age release
+
+Contemporary results and the Canadian World Council classification decision resolve the remaining counted-lap discrepancies. Three leader-age metrics pass complete event, identity, DOB and nationality coverage. The selected package has 169 available metrics and no withheld supplementary metrics; all 166 previously available payloads remain byte-identical. Original conflicting sources, owner DOB decisions and the full-lap-order boundary remain intact. Normal regeneration and focused regressions pass. The existing owner authorization covers publication; actual activation and live checks are recorded separately in the existing progress/dependency documents.

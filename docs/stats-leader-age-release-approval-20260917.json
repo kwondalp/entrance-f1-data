@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "stats-owner-release-approval.v1",
+  "approvalId": "OWNER-20260917-LEADER-AGE-RELEASE",
+  "approvedBy": "kwondalp (repository owner)",
+  "authority": "Existing explicit owner authorization to integrate and publish independently completed metrics, reaffirmed in the current four-event task; factual decisions remain separately evidenced.",
+  "instruction": {
+    "type": "explicit_owner_release_authorization",
+    "recordedDate": "2026-09-17",
+    "instructionPath": "docs/stats-leader-release-instruction-20260917.txt",
+    "instructionSha256": "0444eb84771453a043b12a3ae01c182ccd6ef61abd31b221d1f5a24b7a653e24"
+  },
+  "catalogueSha256": "9ffb7a678c87dce5cc24844a6b8f11a0076d56abfdce25382c13348c0538f5e5",
+  "availabilityContract": "stats-availability.v1",
+  "availableMetricCount": 169,
+  "withheldMetricCount": 0,
+  "newlyAvailableMetricIds": [
+    "youngest_race_leaders",
+    "youngest_race_leaders_by_nation",
+    "oldest_race_leaders"
+  ],
+  "technicalEvidence": "fixtures/stats-leader-count-decisions-20260917.json",
+  "priorRejectedCandidateReused": false,
+  "otherReviewerClaimed": false,
+  "canonicalHumanReviewSignatureCreated": false,
+  "activationOrder": [
+    "Tools",
+    "Web",
+    "Data"
+  ]
+}
