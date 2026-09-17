@@ -520,3 +520,8 @@ The owner release approval was executed. The two automation switches were restor
 ## Owner-selected DOB release
 
 The owner expressly authorised eleven editorial DOB choices and publication of independently completed metrics. The generated supplement passes completeness for eleven metrics, leaving only three leader-age metrics withheld. The owner approval is bound to this catalogue; it is not an independent source verification claim. Existing profile/circuit scope and scheduled session publications remain unchanged. Live activation is recorded in the producer progress document.
+
+
+## Latest published DOB metrics and separate leader research
+
+The eleven owner editorial DOB-dependent metrics are live and validated. The separate research snapshot retains 166 unchanged available payloads and three unavailable leader-age metrics after 140 additional event sets. Four count discrepancies remain unresolved; candidate metadata is truthful and no research publication approval is copied. Public hashes, automation restoration and exact remaining facts are in the producer progress record and consumer live evidence.

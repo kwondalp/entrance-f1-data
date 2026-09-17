@@ -23,13 +23,13 @@
     "stats-lab": "94d224614b7287414c846e1a31bb0ae55b383da56eacbd086d7ae0f9af6f78d8",
     "stats-metric-backfill": "414bf818dde29dce8e49f521cb80cf9440862ffafea897f36b8482b76eeced0d"
   },
-  "completionCatalogueSha256": "0f75846446d1b40f24872d8dd9cd040586c9c84fe62f5906415c7745722277d6",
+  "completionCatalogueSha256": "1861329c9521a20075c5c37d46d38c61aa5c14b286894421e1050bd048525f71",
   "completion": {
     "metrics": 169,
-    "rows": 65414,
+    "rows": 69347,
     "availability": {
-      "available": 155,
-      "verification_pending": 14
+      "available": 166,
+      "verification_pending": 3
     }
   },
   "profiles": {
@@ -45,94 +45,6 @@
     "sha256": "edbd67064bfd3c594e2c45bc1148fcac5011b43e1cbdaded9ea19fc7f35f0d21"
   },
   "withheld": [
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_pole_sitters",
-      "metricId": "approvedDriverPolePositionsYoungestPoleSitters",
-      "label": "Youngest Pole Sitters",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_pole_sitters_by_nation",
-      "metricId": "approvedDriverPolePositionsYoungestPoleSittersByNation",
-      "label": "Youngest Pole Sitters by Nation",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters_by_nation",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "oldest_pole_sitters",
-      "metricId": "approvedDriverPolePositionsOldestPoleSitters",
-      "label": "Oldest Pole Sitters",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_pole_sitters",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_points_scorers",
-      "metricId": "approvedDriverPointsYoungestPointsScorers",
-      "label": "Youngest Points Scorers",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_points_scorers_by_nation",
-      "metricId": "approvedDriverPointsYoungestPointsScorersByNation",
-      "label": "Youngest Points Scorers by Nation",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers_by_nation",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "oldest_points_scorers",
-      "metricId": "approvedDriverPointsOldestPointsScorers",
-      "label": "Oldest Points Scorers",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_points_scorers",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_gp_starters",
-      "metricId": "approvedDriverGrandsPrixYoungestGPStarters",
-      "label": "Youngest GP Starters",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_gp_starters_by_nation",
-      "metricId": "approvedDriverGrandsPrixYoungestGPStartersByNation",
-      "label": "Youngest GP Starters by Nation",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters_by_nation",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "oldest_gp_starters",
-      "metricId": "approvedDriverGrandsPrixOldestGPStarters",
-      "label": "Oldest GP Starters",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_gp_starters",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "average_driver_age_by_gp",
-      "metricId": "approvedDriverGrandsPrixAverageDriverAgeByGP",
-      "label": "Average Driver Age by GP",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=average_driver_age_by_gp",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
-    {
-      "entity": "drivers",
-      "statisticId": "youngest_front_row_starters",
-      "metricId": "approvedDriverQualifyingYoungestFrontRowStarters",
-      "label": "Youngest Front Row Starters",
-      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_front_row_starters",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
-    },
     {
       "entity": "drivers",
       "statisticId": "youngest_race_leaders",
@@ -158,5 +70,14 @@
       "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
     }
   ],
-  "historicalResearchPerformed": false
+  "historicalResearchPerformed": true,
+  "activationDecision": "Not selected for production; owner release authorisation already exists. Four unresolved count records keep three leader metrics withheld.",
+  "publicAvailable": 166,
+  "publicWithheld": 3,
+  "all166AvailablePayloadsByteIdentical": true,
+  "toolsFocusedPassed": 58,
+  "toolsCommit": "3c4d1c5a33d34959dd05c5e0fd2410e197570f04",
+  "developmentBranch": "codex/stats-withheld-repair-20260917",
+  "publicDataCommit": "5514c899414f8bd78d26521b70ae1fb18b139a1d",
+  "publicCatalogueSha256": "3299a1f678825a7c8edb8be8c257dcd063938075dd2d4b293321c4fc8618c9cb"
 }
