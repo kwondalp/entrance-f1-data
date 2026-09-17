@@ -2126,17 +2126,31 @@
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
     "asOfRaceDate": "2026-09-13",
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
+    "evidenceAssessment": {
+      "schemaVersion": "stats-evidence-assessment.v1",
+      "family": "age",
+      "status": "incomplete",
+      "rankingComplete": false,
+      "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
+      "missingEvidence": "Separate human acceptance of additional DOB source bindings, beyond the race-winner cohort."
+    },
     "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
     "knownExclusions": [
-      "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved."
+      "An eligible participant lacks separately accepted birthdate evidence; no review decision is auto-approved."
     ],
-    "excludedEntityCount": 1
+    "excludedEntityCount": 1,
+    "excludedEventCount": 0
   },
   "exclusions": [
     {
       "entityId": "driver:behra:ad2c71791765",
+      "eventIds": [
+        "event:1956-1:933b870c7068",
+        "event:1956-2:1b6937af23f7",
+        "event:1956-3:c8841ba792f6"
+      ],
       "field": "dateOfBirth",
-      "reason": "Date is outside the separately accepted 116-driver birthdate evidence set; no review decision is auto-approved."
+      "reason": "An eligible participant lacks separately accepted birthdate evidence; no review decision is auto-approved."
     }
   ]
 }

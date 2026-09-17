@@ -3,7 +3,7 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 34
+handoffVersion: 35
 currentState:
   status: published-automated-core-and-rankings
   summary: "The hosted publisher activated refreshed R14 Results, Standings, Stats Core, all 144 backfill metrics and current Catalogue data. Current F1DB secondary inputs and official session/timing extensions are durable published contracts. Power, Value and Team independently published at the current cutoff; unchanged-input no-ops preserve releases. Live public verification passed. Revised Core scheduled success remains unobserved."
@@ -18,7 +18,7 @@ currentFocus:
     summary: Preserve the historical meaning of repository-owner publication approval separately from any new merge, publication, or deployment authority; repository presence does not retroactively broaden that approval.
 implemented:
   - id: complete-statistics-candidate-20260917
-    summary: "Complete statistics candidate assessed 472 unique metrics plus four aliases. Adjacent awarded-title pairs, start-boundary results and classification ranks, grid eligibility and units, first-lap/lead-lap counts and shared-result comparisons are repaired. 52 evidence/semantic blockers and four unsupported routes remain; no production promotion is claimed. The single detailed ledger is entrance-web/docs/stats-catalogue-audit-20260917.json."
+    summary: "Continued the existing 472-metric audit without restarting it. Shared qualifying-stage, historical grid geometry and eligible-DOB calculations plus consumer evidence notices are repaired. Two false DOB blockers are resolved; 50 evidence blockers and four unsupported routes remain. Nine official DOB proposals and exact publication/profile review requirements are prepared but unapproved. Production release and main integration remain pending."
   - id: power-rating-v1-publication-verified
     summary: "The approved Power v2 current pointer now binds a cloud-calculated release for all current race-seat holders and current cars. Immutable methodology, source evidence, coverage, evaluation, fitted model and thirteen GP snapshots verify. Repeated input preserves the exact manifest. Existing Value, descriptive Power and official sporting contracts remain unchanged."
   - id: power-rating-v1-operational

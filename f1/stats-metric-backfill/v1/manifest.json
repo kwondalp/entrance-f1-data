@@ -6,8 +6,8 @@
   "asOfRaceDate": "2026-09-13",
   "generatedFrom": {
     "producerId": "entrance-f1-data-tools/stats-metric-backfill-v1",
-    "producerVersion": "1.0.5",
-    "producerSourceChecksumSha256": "1d7a81b7b12e3137dbc09eb2c9573bc676e2fe9181f0c00c3b8e31360b7a6249",
+    "producerVersion": "1.0.6",
+    "producerSourceChecksumSha256": "ba707f18a82337ad8123db6d262fe1d8712879403a95c8c919e60f3103d7459b",
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
     "officialCurrentSessionInputs": [
       {
@@ -777,7 +777,8 @@
     "canonicalTextEol": "LF",
     "canonicalTextEncoding": "UTF-8 without BOM",
     "eolPortabilityApproval": "OWNER-20260825-STATS-EOL-01",
-    "registrySha256": "46bf775927e28483e90a4ed68813b9d5abda07c3f6a25b2b678eb0e8f6cd6d6b",
+    "statsCatalogueBoundariesSha256": "882828ca603951189945873c80185472d89ead7264d9bc2317ac805d15cd9ede",
+    "registrySha256": "a60256ff48bd91c6e7c01e50df036659f38a9e58d7e485427225ad0d7283285e",
     "officialPoleFixtureSha256": "d78c3611c0573970bc2d9c53249663da00a1c635092b5afe899450632c5a8931",
     "constructorIdentityPolicySha256": "60e6ee94ea5752cd0f3556904b2af6c258a523c912b0ea925a5065a492c479ed",
     "driverIdentityPolicySha256": "878d33d0908506268fdc51c5f97b4296fa137a3950c2d42fd817ddd0bdcdf741",
@@ -858,14 +859,14 @@
     {
       "path": "catalogue.json",
       "artifactType": "catalogue",
-      "byteSize": 404613,
-      "sha256": "225e6a0ceda72f10f3507364fafe827d1f38e1be78a4e528e4ae78afae0a85eb"
+      "byteSize": 601950,
+      "sha256": "8e123045adb2fc9e4b437defc27faae412e695d8cf62b1693ecaebeb8cddae91"
     },
     {
       "path": "inventory.json",
       "artifactType": "inventory",
-      "byteSize": 460924,
-      "sha256": "0bcfa92ce6af6234df0c555037f327f0fa97df88267fbdfe9e8935b4fc605a7a"
+      "byteSize": 644323,
+      "sha256": "be98b26e05f52a7843a2c925107688ca1e7b5af50e5943b5b95b0f42d70750ff"
     },
     {
       "path": "coverage.json",
@@ -1074,8 +1075,8 @@
     {
       "path": "metrics/constructors/constructor_one_two_poles.json",
       "artifactType": "metric",
-      "byteSize": 23229,
-      "sha256": "733fbb301bd6378cbca1778197de3906d21d68a14d112d1a5012ee2befbeda0b"
+      "byteSize": 32580,
+      "sha256": "40a152d385f73cb4d9fc40337655bec7e088733275070194b7489085a029492f"
     },
     {
       "path": "metrics/constructors/constructor_never_qualified.json",
@@ -1086,14 +1087,14 @@
     {
       "path": "metrics/constructors/consecutive_constructor_front_row_lockouts.json",
       "artifactType": "metric",
-      "byteSize": 14298,
-      "sha256": "c0df9d40080b18a9f715ccf4a7020eef6aeb8a1195746459eebbb9c0f81a7524"
+      "byteSize": 19119,
+      "sha256": "6fb8741b0f0264f1a3991dec24446562188b16b3b21e8dee70e2e1ac8976b5d1"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_front_rows.json",
       "artifactType": "metric",
-      "byteSize": 35896,
-      "sha256": "c3925219a4c8b6c5c762612d17dc04e7616364b8d37f5f5e9c316a3e95a8d75a"
+      "byteSize": 34207,
+      "sha256": "42ece26bc0ee51b11e2f4e7661ae4b6cc85459847d82d6db8b1c731eb7fdb42d"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_grand_prix_led.json",
@@ -1134,26 +1135,26 @@
     {
       "path": "metrics/constructors/constructor_front_row_lockouts.json",
       "artifactType": "metric",
-      "byteSize": 23239,
-      "sha256": "e54561d94b6e885621e357b6e02b0fc148e84b44b9dc37bce3daae0a06397fe3"
+      "byteSize": 32590,
+      "sha256": "f498fd40a465591caa250f216abbbe21e78be8d5657b1040dfcb92839fdf3b2d"
     },
     {
       "path": "metrics/constructors/constructor_front_row_starts.json",
       "artifactType": "metric",
-      "byteSize": 23253,
-      "sha256": "2b56335eb61906e00425b6008c1d07d328f07cb67908da66742fec72a56a8e86"
+      "byteSize": 32597,
+      "sha256": "c9d2fb4180b01d9dfee863284c71a5532916700a723c38a15e8628d3415439fa"
     },
     {
       "path": "metrics/constructors/constructor_front_rows_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 104365,
-      "sha256": "02543f7c502d1a21218b28298c48df2e64adaacf4b97717d784f55b214218b86"
+      "byteSize": 86478,
+      "sha256": "6cce11b921cc3514e7ff341b17aac513dddc1c69c73294f42b9d7002ae7bd5f7"
     },
     {
       "path": "metrics/constructors/constructor_front_rows_by_grand_prix.json",
       "artifactType": "metric",
-      "byteSize": 99239,
-      "sha256": "c169f4c09428c353815bee2bf80c0b696d10f3bc757bc2a2ee9c5d31ba06e99a"
+      "byteSize": 88721,
+      "sha256": "33e779db5d036303f1fd750c1c45c6d28c23d1f2d19b0b02665aaeaa05e9fa4f"
     },
     {
       "path": "metrics/constructors/constructor_grand_prix_led.json",
@@ -1200,8 +1201,8 @@
     {
       "path": "metrics/constructors/constructor_season_front_rows.json",
       "artifactType": "metric",
-      "byteSize": 56994,
-      "sha256": "0312dd3f51b1781a1f1314cc3975c60554971136624e1779d5287636ab0d15a1"
+      "byteSize": 48734,
+      "sha256": "11fc89eb45af5924a831660ba164ddd73385b45857bb9c4fd4db5383173086d3"
     },
     {
       "path": "metrics/constructors/constructor_season_grand_prix_led.json",
@@ -1488,14 +1489,14 @@
     {
       "path": "metrics/drivers/driver_q3_appearances.json",
       "artifactType": "metric",
-      "byteSize": 10306,
-      "sha256": "e3b7b1248a42879dee8a904ad5dac936b9999fb02351ed4389625bf1d2d5f7cc"
+      "byteSize": 51848,
+      "sha256": "c52ac674e3e1f81d08e9baf151257184255c1512a33264359afc19b8bab989f0"
     },
     {
       "path": "metrics/drivers/consecutive_driver_front_rows.json",
       "artifactType": "metric",
-      "byteSize": 97503,
-      "sha256": "29372342fe3569fcc7e4e1978a4f166fe404390c52f09685189b86798bc87703"
+      "byteSize": 66550,
+      "sha256": "3ab03375de8b10259e4ce5842ff25948fd50668f7d621b5e994ce32c97a24183"
     },
     {
       "path": "metrics/drivers/consecutive_grand_prix_led.json",
@@ -1560,26 +1561,26 @@
     {
       "path": "metrics/drivers/driver_front_row_duos.json",
       "artifactType": "metric",
-      "byteSize": 159738,
-      "sha256": "a2d9c70179c2b9513ca55370bde235c42619a919cbc104651f8c8093f22fa866"
+      "byteSize": 125152,
+      "sha256": "088c8fe3209d8485a179e5f2deb3d2a2904bcfdc283fcb5c7a5d56b614340bc2"
     },
     {
       "path": "metrics/drivers/driver_front_row_starts.json",
       "artifactType": "metric",
-      "byteSize": 112016,
-      "sha256": "eae2837b6c9ccd76b7701a12f62c223f3e58e535c52a792426c143e7d7f578e6"
+      "byteSize": 120634,
+      "sha256": "8f0b2f18d7f361812e98af589bdc43a0aa846c3b0f40cc7b009cb584070a7b31"
     },
     {
       "path": "metrics/drivers/driver_front_rows_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 233344,
-      "sha256": "9fe67555c40c5ba6f85ab44ae6d73019cacef18b5af112a551f76945b5f6b5f9"
+      "byteSize": 185493,
+      "sha256": "6a6a2e8db7a7577304f932d38844ac8540cc07fbd81c8c15bdc6d499f599bfb0"
     },
     {
       "path": "metrics/drivers/driver_front_rows_by_grand_prix.json",
       "artifactType": "metric",
-      "byteSize": 245211,
-      "sha256": "b83eb1616f5bbdff3e5af2b919702652347c17bcca69efa7c61061287663dbc0"
+      "byteSize": 199260,
+      "sha256": "57fb975b2ff85d50fea0d6d5279c446e30141b74099dfe1d3e73bde7604a18cd"
     },
     {
       "path": "metrics/drivers/driver_grand_prix_led.json",
@@ -1644,8 +1645,8 @@
     {
       "path": "metrics/drivers/driver_season_front_rows.json",
       "artifactType": "metric",
-      "byteSize": 90832,
-      "sha256": "5d2fe0e2de22181805d1dc8b900dba395b5b83f524f19024435643bdf935506a"
+      "byteSize": 71761,
+      "sha256": "512a2c891311b88c0264733b6cd5797cdf65ed95988e9cd83f910e52e8c373e9"
     },
     {
       "path": "metrics/drivers/driver_season_kilometres_led.json",

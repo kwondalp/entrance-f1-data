@@ -17,13 +17,22 @@
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
     "asOfRaceDate": "2026-09-13",
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
+    "evidenceAssessment": {
+      "schemaVersion": "stats-evidence-assessment.v1",
+      "family": "age",
+      "status": "incomplete",
+      "rankingComplete": false,
+      "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
+      "missingEvidence": "Separate human acceptance of additional DOB source bindings, beyond the race-winner cohort."
+    },
     "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
     "knownExclusions": [
       "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
       "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
       "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
     ],
-    "excludedEntityCount": 1
+    "excludedEntityCount": 0,
+    "excludedEventCount": 1163
   },
   "exclusions": [
     {
