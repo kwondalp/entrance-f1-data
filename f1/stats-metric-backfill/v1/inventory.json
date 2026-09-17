@@ -169,7 +169,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact chassis-constructor and driver binding; ambiguous seasons excluded",
-      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "derivationMethod": "Awarded champion's final official constructor championship points minus the runner-up's points, per completed season under that season's scoring rules.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -352,7 +352,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying fastest laps across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -414,7 +414,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "derivationMethod": "Order every qualifying fastest laps occurrence by canonical event order.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -428,7 +428,7 @@
     {
       "metricId": "constructorFastestLapInterval",
       "registryMetricId": "constructors:constructor_fastest_lap_interval",
-      "displayName": "Time Between Fastest Laps",
+      "displayName": "Span Between First and Last Fastest Lap",
       "category": "fastest-laps",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_fastest_lap_interval",
       "entityType": "constructors",
@@ -476,7 +476,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "derivationMethod": "Elapsed days from the first to the last eligible fastest lap in the entity's evidenced career. One row per entity; this is the career span, not gaps between successive occurrences.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -941,7 +941,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "derivationMethod": "Group qualifying fastest laps by entity and circuit, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -1003,7 +1003,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "derivationMethod": "Group qualifying fastest laps by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -1065,7 +1065,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "derivationMethod": "Group qualifying fastest laps by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -1195,7 +1195,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying fastest laps for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2095,7 +2095,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying completed Formula 1 World Championship seasons across eligible entity appearances.",
+      "derivationMethod": "Longest uninterrupted sequence of official post-Grand-Prix constructor standings led by the constructor; this counts events, not title seasons.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2154,7 +2154,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact full-name or canonical alias binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying completed Formula 1 World Championship seasons for each entity.",
+      "derivationMethod": "Count official post-Grand-Prix constructor standings in which the constructor leads; this counts events, not awarded titles.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2207,7 +2207,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "derivationMethod": "Order every qualifying Grand Prix starts occurrence by canonical event order.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2221,7 +2221,7 @@
     {
       "metricId": "constructorStartInterval",
       "registryMetricId": "constructors:constructor_start_interval",
-      "displayName": "Time Between Starts",
+      "displayName": "Span Between First and Last Grand Prix Start",
       "category": "grands-prix",
       "route": "/f1/stats/statistic/?entity=constructors&statistic=constructor_start_interval",
       "entityType": "constructors",
@@ -2260,7 +2260,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "derivationMethod": "Elapsed days from the first to the last eligible Grand Prix start in the entity's evidenced career. One row per entity; this is the career span, not gaps between successive occurrences.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2313,7 +2313,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and driver, then count or sum each group.",
+      "derivationMethod": "Group qualifying Grand Prix starts by entity and driver, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2372,7 +2372,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and engine manufacturer, then count or sum each group.",
+      "derivationMethod": "Group qualifying Grand Prix starts by entity and engine manufacturer, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2434,7 +2434,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2487,7 +2487,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2540,7 +2540,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2593,7 +2593,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix pole positions only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2646,7 +2646,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2699,7 +2699,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2729,7 +2729,16 @@
         "resultRowCount": 171,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -2753,7 +2762,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying Grand Prix one-two finishes for each entity.",
+      "derivationMethod": "Count or sum qualifying qualifying front-row lockouts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2841,10 +2850,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 30,
+        "resultRowCount": 19,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -2868,7 +2886,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying front-row lockouts across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -2895,10 +2913,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 78,
+        "resultRowCount": 55,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -2922,7 +2949,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying front-row starts across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3501,7 +3528,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
-      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying engine manufacturers occurrence.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3562,7 +3589,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact constructor and driver binding; multi-chassis entrant-season rows excluded",
-      "derivationMethod": "Count distinct car model groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "derivationMethod": "Count distinct car model groups containing at least one qualifying car models occurrence.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3592,7 +3619,16 @@
         "resultRowCount": 171,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3616,7 +3652,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying front-row lockouts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3646,7 +3682,16 @@
         "resultRowCount": 171,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3670,7 +3715,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying front-row starts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3697,10 +3742,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 643,
+        "resultRowCount": 560,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3724,7 +3778,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "derivationMethod": "Group qualifying front-row starts by entity and circuit, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -3751,10 +3805,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 561,
+        "resultRowCount": 473,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -3778,7 +3841,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "derivationMethod": "Group qualifying front-row starts by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -4052,7 +4115,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying hat tricks for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -4599,10 +4662,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 457,
+        "resultRowCount": 380,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -4626,7 +4698,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "derivationMethod": "Group qualifying front-row starts by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -5070,7 +5142,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "derivationMethod": "Count confirmed Grand Prix finishes with the same completed lap count as the winner. This is not a count of wins or merely equal lap counts for a retired car.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -5523,7 +5595,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint podium finishes for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -5582,7 +5654,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix points for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint points for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -5642,7 +5714,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix pole positions for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint pole positions for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -5701,7 +5773,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint wins for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6062,7 +6134,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying fastest laps across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6124,7 +6196,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "derivationMethod": "Order every qualifying fastest laps occurrence by canonical event order.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6138,7 +6210,7 @@
     {
       "metricId": "driverFastestLapInterval",
       "registryMetricId": "drivers:driver_fastest_lap_interval",
-      "displayName": "Time Between Fastest Laps",
+      "displayName": "Span Between First and Last Fastest Lap",
       "category": "fastest-laps",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_fastest_lap_interval",
       "entityType": "drivers",
@@ -6186,7 +6258,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "derivationMethod": "Elapsed days from the first to the last eligible fastest lap in the entity's evidenced career. One row per entity; this is the career span, not gaps between successive occurrences.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6651,7 +6723,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "derivationMethod": "Group qualifying fastest laps by entity and circuit, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6713,7 +6785,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "derivationMethod": "Group qualifying fastest laps by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6775,7 +6847,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "derivationMethod": "Group qualifying fastest laps by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -6905,7 +6977,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying fastest laps for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -7923,7 +7995,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying Grand Prix starts across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -7982,7 +8054,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race and driver binding; shared-car rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying kilometres for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8036,7 +8108,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying laps for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8089,7 +8161,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Order every qualifying eligible Grand Prix results occurrence by canonical event order.",
+      "derivationMethod": "Order every qualifying Grand Prix starts occurrence by canonical event order.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8103,7 +8175,7 @@
     {
       "metricId": "driverStartInterval",
       "registryMetricId": "drivers:driver_start_interval",
-      "displayName": "Time Between Starts",
+      "displayName": "Span Between First and Last Grand Prix Start",
       "category": "grands-prix",
       "route": "/f1/stats/statistic/?entity=drivers&statistic=driver_start_interval",
       "entityType": "drivers",
@@ -8142,7 +8214,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Measure elapsed days between the first and last qualifying days occurrences.",
+      "derivationMethod": "Elapsed days from the first to the last eligible Grand Prix start in the entity's evidenced career. One row per entity; this is the career span, not gaps between successive occurrences.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8195,7 +8267,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and constructor chassis identity, then count or sum each group.",
+      "derivationMethod": "Group qualifying Grand Prix starts by entity and constructor chassis identity, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8248,7 +8320,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8301,7 +8373,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix points only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8354,7 +8426,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins only for entities that never achieved the excluded condition.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts only for entities that never achieved the excluded condition.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8407,7 +8479,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying Grand Prix starts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8487,7 +8559,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 109
+        "resultRowCount": 110
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -8609,7 +8681,16 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 72
+        "resultRowCount": 73,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "qualifying",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedStageRows": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -8670,10 +8751,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 267,
+        "resultRowCount": 158,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -8697,7 +8787,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Find the longest uninterrupted sequence of qualifying eligible Grand Prix results across eligible entity appearances.",
+      "derivationMethod": "Find the longest uninterrupted sequence of qualifying front-row starts across eligible entity appearances.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -8984,7 +9074,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 817,
+        "resultRowCount": 788,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
         "ambiguousSharedDriveGridGroupCount": 63
@@ -9011,7 +9101,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Sum official starting-grid positions for rows with a published grid position. Count those same official starting-grid rows. Divide the first quantity by the second.",
+      "derivationMethod": "Arithmetic mean of known positive starting-grid positions for confirmed Grand Prix starts. Pit-lane, DNS, DNQ and unknown grid positions are excluded; lower averages rank first.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9065,7 +9155,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying grid positions gained for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9092,7 +9182,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 267
+        "resultRowCount": 268
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -9235,7 +9325,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact ENTRANCE driver and chassis-constructor binding",
-      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying eligible Grand Prix results occurrence.",
+      "derivationMethod": "Count distinct engine manufacturer groups containing at least one qualifying engine manufacturers occurrence.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9390,7 +9480,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Select the earliest qualifying Grand Prix retirements event for each entity.",
+      "derivationMethod": "Count retired Grand Prix starts with zero completed laps. DNS, DNQ and missing lap counts are excluded; zero is a confirmed count, not an event.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9417,7 +9507,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 808,
+        "resultRowCount": 778,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
         "ambiguousSharedDriveGridGroupCount": 63
@@ -9444,7 +9534,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Select the earliest qualifying eligible Grand Prix results event for each entity.",
+      "derivationMethod": "Official positive grid position at the driver's first confirmed Grand Prix start. An unknown or pit-lane grid is not zero or a front-row position. Do not substitute a later known grid.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9471,10 +9561,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 378,
+        "resultRowCount": 986,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -9498,7 +9597,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and entity, then count or sum each group.",
+      "derivationMethod": "Count each driver with every other confirmed starter occupying the other positive front-row grid position at the same Grand Prix, across all constructors. Driver-partner rows retain stable partner IDs; joint occupants of one grid position do not pair with each other.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9528,7 +9627,16 @@
         "resultRowCount": 823,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -9552,7 +9660,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying front-row starts for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9579,10 +9687,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 1398,
+        "resultRowCount": 1280,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -9606,7 +9723,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying eligible Grand Prix results by entity and circuit, then count or sum each group.",
+      "derivationMethod": "Group qualifying front-row starts by entity and circuit, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9633,10 +9750,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 1332,
+        "resultRowCount": 1198,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -9660,7 +9786,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying Grand Prix entries by entity and Grand Prix name, then count or sum each group.",
+      "derivationMethod": "Group qualifying front-row starts by entity and Grand Prix name, then count or sum each group.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -9934,7 +10060,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying eligible Grand Prix results for each entity.",
+      "derivationMethod": "Count or sum qualifying hat tricks for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -10802,10 +10928,19 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 770,
+        "resultRowCount": 626,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
-        "ambiguousSharedDriveGridGroupCount": 63
+        "ambiguousSharedDriveGridGroupCount": 63,
+        "evidenceAssessment": {
+          "schemaVersion": "stats-evidence-assessment.v1",
+          "family": "front-row",
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
+        },
+        "unresolvedGeometryEventIds": []
       },
       "targetCoverage": {
         "seasonCount": 77,
@@ -10829,7 +10964,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Group qualifying seasons by entity and season, then rank every non-zero entity-season row.",
+      "derivationMethod": "Group qualifying front-row starts by entity and season, then rank every non-zero entity-season row.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11143,7 +11278,7 @@
       "sourceLicense": null,
       "fullHistoricalCoverage": null,
       "identityDependency": null,
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "derivationMethod": "Count confirmed Grand Prix finishes with the same completed lap count as the winner. This is not a count of wins or merely equal lap counts for a retired car.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11596,7 +11731,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix podium finishes for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint podium finishes for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11655,7 +11790,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix points for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint points for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11715,7 +11850,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix pole positions for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint pole positions for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11774,7 +11909,7 @@
       "sourceLicense": "CC-BY-4.0 for F1DB; permission required for Formula 1 timing tables",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact Sprint, driver and constructor identity",
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "derivationMethod": "Count or sum qualifying official Sprint wins for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11836,7 +11971,7 @@
       "sourceLicense": "CC-BY-4.0",
       "fullHistoricalCoverage": false,
       "identityDependency": "exact race, driver and chassis-constructor binding; unresolved rows excluded",
-      "derivationMethod": "Count or sum qualifying official Grand Prix wins for each entity.",
+      "derivationMethod": "Count or sum qualifying fastest laps for each entity.",
       "calculable": true,
       "publicationStatus": "available",
       "expectedHistoricalRange": {
@@ -11863,7 +11998,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 372,
+        "resultRowCount": 371,
         "knownClassificationRowCount": 26117,
         "unknownGridRowCount": 92,
         "ambiguousSharedDriveGridGroupCount": 63
@@ -11917,7 +12052,7 @@
         "screenSubstantivelyEmpty": true
       },
       "backfillCoverage": {
-        "resultRowCount": 190
+        "resultRowCount": 191
       },
       "targetCoverage": {
         "seasonCount": 77,

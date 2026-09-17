@@ -5256,13 +5256,15 @@
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
     "asOfRaceDate": "2026-09-13",
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
+    "evidenceAssessment": null,
     "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
     "knownExclusions": [
       "Grand Prix without a complete validated leader chart is excluded.",
       "Grand Prix without a complete validated leader chart is excluded.",
       "Grand Prix without a complete validated leader chart is excluded."
     ],
-    "excludedEntityCount": 676
+    "excludedEntityCount": 674,
+    "excludedEventCount": 0
   },
   "exclusions": [
     {
@@ -7816,11 +7818,6 @@
       "reason": "Grand Prix without a complete validated leader chart is excluded."
     },
     {
-      "entityId": "driver:tom-belso:fefce9723dd6",
-      "field": "leaderChart",
-      "reason": "Grand Prix without a complete validated leader chart is excluded."
-    },
-    {
       "entityId": "driver:larrousse:25a2cc7d1f64",
       "field": "leaderChart",
       "reason": "Grand Prix without a complete validated leader chart is excluded."
@@ -7977,11 +7974,6 @@
     },
     {
       "entityId": "driver:hoffmann:a049e57f4ac0",
-      "field": "leaderChart",
-      "reason": "Grand Prix without a complete validated leader chart is excluded."
-    },
-    {
-      "entityId": "driver:ingo-hoffman:efc6a0351d9a",
       "field": "leaderChart",
       "reason": "Grand Prix without a complete validated leader chart is excluded."
     },

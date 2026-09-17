@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Controlled Stats release preparation
+
+Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate.
+
+Existing research review remains unchanged: 36 of the original 50 metrics complete, 14 incomplete. Withholding is not counted as a factual repair. Missing event leader sets and disputed eligible birthdates remain research work. No new historical collection was performed. Release validation distinguishes technical readiness from the pending owner approval; production gates remain active.
+
 ## Current automation publication evidence
 
 Current timing recovery covers all fourteen completed Grands Prix and five Sprints. FIA collection discovers official event/timing links from the season index, handles localized titles and wide continuation pages, preserves unknown completion totals, and records bounded HTTP retries without hiding persistent errors. Actual hosted publications succeeded.

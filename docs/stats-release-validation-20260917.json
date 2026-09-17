@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "stats-release-scope-validation.v1",
+  "scopeValidation": "passed",
+  "productionGate": "owner_release_approval_required",
+  "publicationStatus": "candidate",
+  "packageDataStatus": "mixed",
+  "snapshot": {
+    "archiveSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
+    "baseCatalogueSha256": "5b48c6232e66162a7f82d38ca7087b62fd9b29516623b0058482dedcd883df42",
+    "cutoff": {
+      "season": 2026,
+      "round": 14,
+      "raceId": "event:2026-14:c5436ea4a949",
+      "raceSlug": "spain",
+      "date": "2026-09-13"
+    }
+  },
+  "boundFileCounts": {
+    "stats-lab": 229,
+    "stats-metric-backfill": 148
+  },
+  "manifestSha256": {
+    "stats-lab": "94d224614b7287414c846e1a31bb0ae55b383da56eacbd086d7ae0f9af6f78d8",
+    "stats-metric-backfill": "414bf818dde29dce8e49f521cb80cf9440862ffafea897f36b8482b76eeced0d"
+  },
+  "completionCatalogueSha256": "28c7a0ab13b161ce89ee5b44f5befb853294d1af57d5d90db4a1e393061ae5a8",
+  "completion": {
+    "metrics": 169,
+    "rows": 65414,
+    "availability": {
+      "available": 155,
+      "verification_pending": 14
+    }
+  },
+  "profiles": {
+    "drivers": 23,
+    "teams": 11,
+    "circuits": 23,
+    "status": "verified_preserved",
+    "asOfRaceDate": "2026-09-06"
+  },
+  "circuits": {
+    "count": 23,
+    "asOfRaceDate": "2026-09-06",
+    "sha256": "edbd67064bfd3c594e2c45bc1148fcac5011b43e1cbdaded9ea19fc7f35f0d21"
+  },
+  "withheld": [
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_pole_sitters",
+      "metricId": "approvedDriverPolePositionsYoungestPoleSitters",
+      "label": "Youngest Pole Sitters",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_pole_sitters_by_nation",
+      "metricId": "approvedDriverPolePositionsYoungestPoleSittersByNation",
+      "label": "Youngest Pole Sitters by Nation",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_pole_sitters_by_nation",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_pole_sitters",
+      "metricId": "approvedDriverPolePositionsOldestPoleSitters",
+      "label": "Oldest Pole Sitters",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_pole_sitters",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_points_scorers",
+      "metricId": "approvedDriverPointsYoungestPointsScorers",
+      "label": "Youngest Points Scorers",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_points_scorers_by_nation",
+      "metricId": "approvedDriverPointsYoungestPointsScorersByNation",
+      "label": "Youngest Points Scorers by Nation",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers_by_nation",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_points_scorers",
+      "metricId": "approvedDriverPointsOldestPointsScorers",
+      "label": "Oldest Points Scorers",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_points_scorers",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_gp_starters",
+      "metricId": "approvedDriverGrandsPrixYoungestGPStarters",
+      "label": "Youngest GP Starters",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_gp_starters_by_nation",
+      "metricId": "approvedDriverGrandsPrixYoungestGPStartersByNation",
+      "label": "Youngest GP Starters by Nation",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters_by_nation",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_gp_starters",
+      "metricId": "approvedDriverGrandsPrixOldestGPStarters",
+      "label": "Oldest GP Starters",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_gp_starters",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "average_driver_age_by_gp",
+      "metricId": "approvedDriverGrandsPrixAverageDriverAgeByGP",
+      "label": "Average Driver Age by GP",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=average_driver_age_by_gp",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_front_row_starters",
+      "metricId": "approvedDriverQualifyingYoungestFrontRowStarters",
+      "label": "Youngest Front Row Starters",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_front_row_starters",
+      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_race_leaders",
+      "metricId": "approvedDriverRacePerformanceYoungestRaceLeaders",
+      "label": "Youngest Race Leaders",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders",
+      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "youngest_race_leaders_by_nation",
+      "metricId": "approvedDriverRacePerformanceYoungestRaceLeadersByNation",
+      "label": "Youngest Race Leaders by Nation",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_race_leaders_by_nation",
+      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+    },
+    {
+      "entity": "drivers",
+      "statisticId": "oldest_race_leaders",
+      "metricId": "approvedDriverRacePerformanceOldestRaceLeaders",
+      "label": "Oldest Race Leaders",
+      "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_race_leaders",
+      "missingEvidence": "Complete event-level sets of drivers leading counted completed laps, or complete per-driver laps-led totals, for every excluded event, with canonical driver identities and event dates."
+    }
+  ],
+  "historicalResearchPerformed": false
+}

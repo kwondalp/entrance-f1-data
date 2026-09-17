@@ -3,8 +3,8 @@
   "entity": "drivers",
   "statisticId": "gps_without_leading_a_lap",
   "metricId": "approvedDriverGrandsPrixGPsWithoutLeadingALap",
-  "loadedRowCount": 258,
-  "rowCount": 258,
+  "loadedRowCount": 257,
+  "rowCount": 257,
   "rows": [
     {
       "entityId": "driver:alonso:04d69c1d187a",
@@ -35449,24 +35449,6 @@
       }
     },
     {
-      "entityId": "driver:mccarthy:b8851d929500",
-      "entityName": "Perry McCarthy",
-      "value": 1,
-      "series": [],
-      "evidenceEventIds": [
-        "event:1992-10:3268745c9b07"
-      ],
-      "rank": 249,
-      "detail": {
-        "type": "occurrence",
-        "entityId": "driver:mccarthy:b8851d929500",
-        "sourcePath": "details/drivers/3.json",
-        "eventIds": [
-          "event:1992-10:3268745c9b07"
-        ]
-      }
-    },
-    {
       "entityId": "driver:raphanel:a53f9a0016dd",
       "entityName": "Pierre-Henri Raphanel",
       "value": 1,
@@ -35550,13 +35532,15 @@
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
     "asOfRaceDate": "2026-09-13",
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
+    "evidenceAssessment": null,
     "note": "Bounded complete Grand Prix leader charts from the published CC0 evidence package; missing events are excluded, never treated as zero. Leadership means position at a completed lap boundary.",
     "knownExclusions": [
       "Grand Prix without a complete validated leader chart is excluded.",
       "Grand Prix without a complete validated leader chart is excluded.",
       "Grand Prix without a complete validated leader chart is excluded."
     ],
-    "excludedEntityCount": 676
+    "excludedEntityCount": 674,
+    "excludedEventCount": 0
   },
   "exclusions": [
     {
@@ -38110,11 +38094,6 @@
       "reason": "Grand Prix without a complete validated leader chart is excluded."
     },
     {
-      "entityId": "driver:tom-belso:fefce9723dd6",
-      "field": "leaderChart",
-      "reason": "Grand Prix without a complete validated leader chart is excluded."
-    },
-    {
       "entityId": "driver:larrousse:25a2cc7d1f64",
       "field": "leaderChart",
       "reason": "Grand Prix without a complete validated leader chart is excluded."
@@ -38271,11 +38250,6 @@
     },
     {
       "entityId": "driver:hoffmann:a049e57f4ac0",
-      "field": "leaderChart",
-      "reason": "Grand Prix without a complete validated leader chart is excluded."
-    },
-    {
-      "entityId": "driver:ingo-hoffman:efc6a0351d9a",
       "field": "leaderChart",
       "reason": "Grand Prix without a complete validated leader chart is excluded."
     },

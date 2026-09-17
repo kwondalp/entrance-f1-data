@@ -7,10 +7,19 @@
   "cutoff": "2026-09-13",
   "completeness": {
     "current": {
-      "resultRowCount": 30,
+      "resultRowCount": 19,
       "knownClassificationRowCount": 26117,
       "unknownGridRowCount": 92,
-      "ambiguousSharedDriveGridGroupCount": 63
+      "ambiguousSharedDriveGridGroupCount": 63,
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "front-row",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
+      },
+      "unresolvedGeometryEventIds": []
     },
     "target": {
       "seasonCount": 77,
@@ -18,7 +27,7 @@
       "classificationRowCount": 26209
     }
   },
-  "rowCount": 30,
+  "rowCount": 19,
   "rows": [
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -93,76 +102,28 @@
       "rank": 2
     },
     {
-      "entityId": "constructor:ferrari:d5aa0140c09c",
-      "entityName": "Ferrari",
-      "value": 6,
-      "firstEvent": {
-        "eventId": "event:1952-3:3cdea9805a4e",
-        "eventIndex": 17,
-        "season": 1952,
-        "round": 3,
-        "date": "1952-06-22",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 4
-    },
-    {
       "entityId": "constructor:team-lotus:85b2937902bf",
       "entityName": "Lotus",
-      "value": 6,
+      "value": 4,
       "firstEvent": {
-        "eventId": "event:1963-6:c13804ca4295",
-        "eventIndex": 116,
-        "season": 1963,
-        "round": 6,
-        "date": "1963-08-04",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "eventId": "event:1978-10:f57b104cd304",
+        "eventIndex": 306,
+        "season": 1978,
+        "round": 10,
+        "date": "1978-07-16",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch"
       },
       "lastEvent": {
-        "eventId": "event:1964-1:8b1cc4f8b1f6",
-        "eventIndex": 121,
-        "season": 1964,
-        "round": 1,
-        "date": "1964-05-10",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1978-13:b7d250a7208e",
+        "eventIndex": 309,
+        "season": 1978,
+        "round": 13,
+        "date": "1978-08-27",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
       "rank": 4
-    },
-    {
-      "entityId": "constructor:alfa:f3891f4c8109",
-      "entityName": "Alfa Romeo",
-      "value": 5,
-      "firstEvent": {
-        "eventId": "event:1950-1:17e7244241b0",
-        "eventIndex": 0,
-        "season": 1950,
-        "round": 1,
-        "date": "1950-05-13",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1950-6:79d461bba646",
-        "eventIndex": 5,
-        "season": 1950,
-        "round": 6,
-        "date": "1950-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 6
     },
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -186,55 +147,79 @@
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 7
+      "rank": 4
     },
     {
-      "entityId": "constructor:brm:88ba4655b32a",
-      "entityName": "BRM",
+      "entityId": "constructor:alfa:f3891f4c8109",
+      "entityName": "Alfa Romeo",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1962-2:8e89d21270a2",
-        "eventIndex": 103,
-        "season": 1962,
-        "round": 2,
-        "date": "1962-06-03",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1950-4:d4534e465708",
+        "eventIndex": 3,
+        "season": 1950,
+        "round": 4,
+        "date": "1950-06-04",
+        "grandPrixName": "Swiss Grand Prix",
+        "circuitId": "bremgarten"
       },
       "lastEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
+        "eventId": "event:1950-6:79d461bba646",
+        "eventIndex": 5,
+        "season": 1950,
+        "round": 6,
+        "date": "1950-07-02",
         "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
+        "circuitId": "reims"
       },
-      "rank": 8
+      "rank": 6
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1961-2:f46ec260a9be",
+        "eventIndex": 95,
+        "season": 1961,
+        "round": 2,
+        "date": "1961-05-22",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "lastEvent": {
+        "eventId": "event:1961-4:1e4616924a2d",
+        "eventIndex": 97,
+        "season": 1961,
+        "round": 4,
+        "date": "1961-07-02",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
+      },
+      "rank": 6
     },
     {
       "entityId": "constructor:kurtis-kraft:2c00f500b995",
       "entityName": "Kurtis Kraft",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1950-3:ec906a594187",
-        "eventIndex": 2,
-        "season": 1950,
-        "round": 3,
-        "date": "1950-05-30",
+        "eventId": "event:1951-2:9f5b3cbfb678",
+        "eventIndex": 8,
+        "season": 1951,
+        "round": 2,
+        "date": "1951-05-30",
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1952-2:057eea6bc01a",
-        "eventIndex": 16,
-        "season": 1952,
+        "eventId": "event:1953-2:b3c65aa780e7",
+        "eventIndex": 24,
+        "season": 1953,
         "round": 2,
-        "date": "1952-05-30",
+        "date": "1953-05-30",
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 8
+      "rank": 6
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -258,79 +243,7 @@
         "grandPrixName": "Indian Grand Prix",
         "circuitId": "buddh"
       },
-      "rank": 8
-    },
-    {
-      "entityId": "constructor:ats:448bdb7ac78c",
-      "entityName": "ATS",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1963-5:a84e07fce1b8",
-        "eventIndex": 115,
-        "season": 1963,
-        "round": 5,
-        "date": "1963-07-20",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-6:c13804ca4295",
-        "eventIndex": 116,
-        "season": 1963,
-        "round": 6,
-        "date": "1963-08-04",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 11
-    },
-    {
-      "entityId": "constructor:brabham:0f52aed0736c",
-      "entityName": "Brabham",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1966-4:71099441b9ba",
-        "eventIndex": 144,
-        "season": 1966,
-        "round": 4,
-        "date": "1966-07-16",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "brands_hatch"
-      },
-      "lastEvent": {
-        "eventId": "event:1966-5:ff280a2c2584",
-        "eventIndex": 145,
-        "season": 1966,
-        "round": 5,
-        "date": "1966-07-24",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 11
-    },
-    {
-      "entityId": "constructor:cooper:9771c8f26d98",
-      "entityName": "Cooper",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1960-5:0b005e87e4f2",
-        "eventIndex": 88,
-        "season": 1960,
-        "round": 5,
-        "date": "1960-06-19",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 11
+      "rank": 6
     },
     {
       "entityId": "constructor:ligier:08b25bed58af",
@@ -354,55 +267,7 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 11
-    },
-    {
-      "entityId": "constructor:alphatauri:0e8fb3fba42b",
-      "entityName": "AlphaTauri",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2021-14:e08fdd10a891",
-        "eventIndex": 1048,
-        "season": 2021,
-        "round": 14,
-        "date": "2021-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:2021-14:e08fdd10a891",
-        "eventIndex": 1048,
-        "season": 2021,
-        "round": 14,
-        "date": "2021-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:aston-martin:ebcdcb86f97f",
-      "entityName": "Aston Martin",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2022-5:a683caff1a1e",
-        "eventIndex": 1061,
-        "season": 2022,
-        "round": 5,
-        "date": "2022-05-08",
-        "grandPrixName": "Miami Grand Prix",
-        "circuitId": "miami"
-      },
-      "lastEvent": {
-        "eventId": "event:2022-5:a683caff1a1e",
-        "eventIndex": 1061,
-        "season": 2022,
-        "round": 5,
-        "date": "2022-05-08",
-        "grandPrixName": "Miami Grand Prix",
-        "circuitId": "miami"
-      },
-      "rank": 15
+      "rank": 10
     },
     {
       "entityId": "constructor:benetton:58d42bf86808",
@@ -426,7 +291,31 @@
         "grandPrixName": "Austrian Grand Prix",
         "circuitId": "red_bull_ring"
       },
-      "rank": 15
+      "rank": 11
+    },
+    {
+      "entityId": "constructor:brabham:0f52aed0736c",
+      "entityName": "Brabham",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1967-1:724dfc728149",
+        "eventIndex": 150,
+        "season": 1967,
+        "round": 1,
+        "date": "1967-01-02",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "lastEvent": {
+        "eventId": "event:1967-1:724dfc728149",
+        "eventIndex": 150,
+        "season": 1967,
+        "round": 1,
+        "date": "1967-01-02",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "rank": 11
     },
     {
       "entityId": "constructor:brawn:646a8849e021",
@@ -450,199 +339,55 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "albert_park"
       },
-      "rank": 15
+      "rank": 11
     },
     {
-      "entityId": "constructor:connaught:c79f99183be6",
-      "entityName": "Connaught",
+      "entityId": "constructor:cooper:9771c8f26d98",
+      "entityName": "Cooper",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
       },
       "lastEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
       },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:haas:6657555dbb08",
-      "entityName": "Haas F1 Team",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2020-3:35066e3127ed",
-        "eventIndex": 1020,
-        "season": 2020,
-        "round": 3,
-        "date": "2020-07-19",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "lastEvent": {
-        "eventId": "event:2020-3:35066e3127ed",
-        "eventIndex": 1020,
-        "season": 2020,
-        "round": 3,
-        "date": "2020-07-19",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "rank": 15
+      "rank": 11
     },
     {
       "entityId": "constructor:march:373ae2f4adda",
       "entityName": "March",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1970-1:60cbddca3841",
-        "eventIndex": 184,
+        "eventId": "event:1970-3:04d41c556a6f",
+        "eventIndex": 186,
         "season": 1970,
-        "round": 1,
-        "date": "1970-03-07",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
+        "round": 3,
+        "date": "1970-05-10",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
       },
       "lastEvent": {
-        "eventId": "event:1970-1:60cbddca3841",
-        "eventIndex": 184,
+        "eventId": "event:1970-3:04d41c556a6f",
+        "eventIndex": 186,
         "season": 1970,
-        "round": 1,
-        "date": "1970-03-07",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:maserati:e07d701c3181",
-      "entityName": "Maserati",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:porsche:9c7706838cc2",
-      "entityName": "Porsche",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
         "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:sauber:c2cbad1133cf",
-      "entityName": "Sauber",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1994-4:580df63f73aa",
-        "eventIndex": 551,
-        "season": 1994,
-        "round": 4,
-        "date": "1994-05-15",
+        "date": "1970-05-10",
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "lastEvent": {
-        "eventId": "event:1994-4:580df63f73aa",
-        "eventIndex": 551,
-        "season": 1994,
-        "round": 4,
-        "date": "1994-05-15",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:scarab:5048bb76c9ac",
-      "entityName": "Scarab",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 15
-    },
-    {
-      "entityId": "constructor:scirocco:706e4666541d",
-      "entityName": "Scirocco",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 15
+      "rank": 11
     },
     {
       "entityId": "constructor:toyota:0942282f2145",
@@ -666,7 +411,7 @@
         "grandPrixName": "Bahrain Grand Prix",
         "circuitId": "bahrain"
       },
-      "rank": 15
+      "rank": 11
     },
     {
       "entityId": "constructor:tyrrell:4668e3d16dc0",
@@ -690,31 +435,31 @@
         "grandPrixName": "Swedish Grand Prix",
         "circuitId": "anderstorp"
       },
-      "rank": 15
+      "rank": 11
     },
     {
       "entityId": "constructor:vanwall:4ca6f75bd647",
       "entityName": "Vanwall",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1957-5:c4cd1904f25a",
-        "eventIndex": 60,
-        "season": 1957,
-        "round": 5,
-        "date": "1957-07-20",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
+        "eventId": "event:1958-3:87cc29f3ec4a",
+        "eventIndex": 66,
+        "season": 1958,
+        "round": 3,
+        "date": "1958-05-26",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
       "lastEvent": {
-        "eventId": "event:1957-5:c4cd1904f25a",
-        "eventIndex": 60,
-        "season": 1957,
-        "round": 5,
-        "date": "1957-07-20",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
+        "eventId": "event:1958-3:87cc29f3ec4a",
+        "eventIndex": 66,
+        "season": 1958,
+        "round": 3,
+        "date": "1958-05-26",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
-      "rank": 15
+      "rank": 11
     },
     {
       "entityId": "constructor:watson:e4276dfa8394",
@@ -738,7 +483,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 15
+      "rank": 11
     }
   ]
 }

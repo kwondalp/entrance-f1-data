@@ -7,10 +7,19 @@
   "cutoff": "2026-09-13",
   "completeness": {
     "current": {
-      "resultRowCount": 267,
+      "resultRowCount": 158,
       "knownClassificationRowCount": 26117,
       "unknownGridRowCount": 92,
-      "ambiguousSharedDriveGridGroupCount": 63
+      "ambiguousSharedDriveGridGroupCount": 63,
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "front-row",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
+      },
+      "unresolvedGeometryEventIds": []
     },
     "target": {
       "seasonCount": 77,
@@ -18,8 +27,32 @@
       "classificationRowCount": 26209
     }
   },
-  "rowCount": 267,
+  "rowCount": 158,
   "rows": [
+    {
+      "entityId": "driver:fangio:56835a0b6237",
+      "entityName": "Juan Manuel Fangio",
+      "value": 28,
+      "firstEvent": {
+        "eventId": "event:1953-6:44c347bd9772",
+        "eventIndex": 28,
+        "season": 1953,
+        "round": 6,
+        "date": "1953-07-18",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:1957-4:ca6077087191",
+        "eventIndex": 59,
+        "season": 1957,
+        "round": 4,
+        "date": "1957-07-07",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts"
+      },
+      "rank": 1
+    },
     {
       "entityId": "driver:senna:97c74c7d172e",
       "entityName": "Ayrton Senna",
@@ -42,7 +75,31 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "entityId": "driver:farina:edc963649157",
+      "entityName": "Nino Farina",
+      "value": 22,
+      "firstEvent": {
+        "eventId": "event:1950-1:17e7244241b0",
+        "eventIndex": 0,
+        "season": 1950,
+        "round": 1,
+        "date": "1950-05-13",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "lastEvent": {
+        "eventId": "event:1953-3:7f270bebbe4f",
+        "eventIndex": 25,
+        "season": 1953,
+        "round": 3,
+        "date": "1953-06-07",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "rank": 3
     },
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
@@ -66,7 +123,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 2
+      "rank": 4
     },
     {
       "entityId": "driver:damon-hill:3cf4df1bacf7",
@@ -90,31 +147,7 @@
         "grandPrixName": "Japanese Grand Prix",
         "circuitId": "suzuka"
       },
-      "rank": 3
-    },
-    {
-      "entityId": "driver:mansell:66de70fd9557",
-      "entityName": "Nigel Mansell",
-      "value": 17,
-      "firstEvent": {
-        "eventId": "event:1986-16:751e2c48f29d",
-        "eventIndex": 435,
-        "season": 1986,
-        "round": 16,
-        "date": "1986-10-26",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "adelaide"
-      },
-      "lastEvent": {
-        "eventId": "event:1988-1:efebeab1bdaf",
-        "eventIndex": 452,
-        "season": 1988,
-        "round": 1,
-        "date": "1988-04-03",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "jacarepagua"
-      },
-      "rank": 3
+      "rank": 5
     },
     {
       "entityId": "driver:prost:70f24972bd43",
@@ -138,31 +171,55 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 5
+      "rank": 6
     },
     {
-      "entityId": "driver:fangio:56835a0b6237",
-      "entityName": "Juan Manuel Fangio",
+      "entityId": "driver:ascari:ad5589a1c97f",
+      "entityName": "Alberto Ascari",
       "value": 15,
       "firstEvent": {
-        "eventId": "event:1955-2:1db665492e75",
-        "eventIndex": 42,
-        "season": 1955,
-        "round": 2,
-        "date": "1955-05-22",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1952-3:3cdea9805a4e",
+        "eventIndex": 17,
+        "season": 1952,
+        "round": 3,
+        "date": "1952-06-22",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
       },
       "lastEvent": {
-        "eventId": "event:1957-4:ca6077087191",
-        "eventIndex": 59,
-        "season": 1957,
+        "eventId": "event:1954-4:9fa19eee092c",
+        "eventIndex": 35,
+        "season": 1954,
         "round": 4,
-        "date": "1957-07-07",
+        "date": "1954-07-04",
         "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
+        "circuitId": "reims"
       },
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 15,
+      "firstEvent": {
+        "eventId": "event:1986-16:751e2c48f29d",
+        "eventIndex": 435,
+        "season": 1986,
+        "round": 16,
+        "date": "1986-10-26",
+        "grandPrixName": "Australian Grand Prix",
+        "circuitId": "adelaide"
+      },
+      "lastEvent": {
+        "eventId": "event:1987-14:0fc7e35c2fc0",
+        "eventIndex": 449,
+        "season": 1987,
+        "round": 14,
+        "date": "1987-10-18",
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez"
+      },
+      "rank": 7
     },
     {
       "entityId": "driver:rosberg:f41469d63d30",
@@ -186,7 +243,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "baku"
       },
-      "rank": 7
+      "rank": 9
     },
     {
       "entityId": "driver:vettel:c74415af2cc1",
@@ -210,31 +267,31 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 7
+      "rank": 9
     },
     {
-      "entityId": "driver:ascari:ad5589a1c97f",
-      "entityName": "Alberto Ascari",
-      "value": 11,
+      "entityId": "driver:clark:59d84c3d9fcb",
+      "entityName": "Jim Clark",
+      "value": 12,
       "firstEvent": {
-        "eventId": "event:1952-3:3cdea9805a4e",
-        "eventIndex": 17,
-        "season": 1952,
-        "round": 3,
-        "date": "1952-06-22",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "eventId": "event:1964-9:4176e42080e2",
+        "eventIndex": 129,
+        "season": 1964,
+        "round": 9,
+        "date": "1964-10-04",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen"
       },
       "lastEvent": {
-        "eventId": "event:1953-6:44c347bd9772",
-        "eventIndex": 28,
-        "season": 1953,
-        "round": 6,
-        "date": "1953-07-18",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
+        "eventId": "event:1966-1:053135d40895",
+        "eventIndex": 141,
+        "season": 1966,
+        "round": 1,
+        "date": "1966-05-22",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
       },
-      "rank": 9
+      "rank": 11
     },
     {
       "entityId": "driver:mario-andretti:9665dc04541a",
@@ -258,7 +315,7 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "rank": 10
+      "rank": 12
     },
     {
       "entityId": "driver:max-verstappen:1f6847211200",
@@ -282,31 +339,31 @@
         "grandPrixName": "Emilia Romagna Grand Prix",
         "circuitId": "imola"
       },
-      "rank": 10
+      "rank": 12
     },
     {
-      "entityId": "driver:clark:59d84c3d9fcb",
-      "entityName": "Jim Clark",
+      "entityId": "driver:hill:aa2839db1ccc",
+      "entityName": "Graham Hill",
       "value": 9,
       "firstEvent": {
-        "eventId": "event:1964-9:4176e42080e2",
-        "eventIndex": 129,
-        "season": 1964,
+        "eventId": "event:1962-9:03cdea77e2b5",
+        "eventIndex": 110,
+        "season": 1962,
         "round": 9,
-        "date": "1964-10-04",
+        "date": "1962-12-29",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "george"
+      },
+      "lastEvent": {
+        "eventId": "event:1963-8:d1bd88ea5e38",
+        "eventIndex": 118,
+        "season": 1963,
+        "round": 8,
+        "date": "1963-10-06",
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "lastEvent": {
-        "eventId": "event:1965-8:5db5af9ab5b6",
-        "eventIndex": 138,
-        "season": 1965,
-        "round": 8,
-        "date": "1965-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 12
+      "rank": 14
     },
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
@@ -330,7 +387,31 @@
         "grandPrixName": "Azerbaijan Grand Prix",
         "circuitId": "baku"
       },
-      "rank": 13
+      "rank": 15
+    },
+    {
+      "entityId": "driver:jack-brabham:279b9464153a",
+      "entityName": "Jack Brabham",
+      "value": 8,
+      "firstEvent": {
+        "eventId": "event:1959-1:86544688a094",
+        "eventIndex": 75,
+        "season": 1959,
+        "round": 1,
+        "date": "1959-05-10",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:1959-9:4f137a6feb6a",
+        "eventIndex": 83,
+        "season": 1959,
+        "round": 9,
+        "date": "1959-12-12",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "sebring"
+      },
+      "rank": 15
     },
     {
       "entityId": "driver:villeneuve:5349509be1a5",
@@ -354,7 +435,7 @@
         "grandPrixName": "San Marino Grand Prix",
         "circuitId": "imola"
       },
-      "rank": 13
+      "rank": 15
     },
     {
       "entityId": "driver:michael-schumacher:6f4f07ba2368",
@@ -378,7 +459,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "albert_park"
       },
-      "rank": 13
+      "rank": 15
     },
     {
       "entityId": "driver:peterson:112af39f0326",
@@ -402,7 +483,31 @@
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "rank": 13
+      "rank": 15
+    },
+    {
+      "entityId": "driver:gurney:0e0cdc9d2231",
+      "entityName": "Dan Gurney",
+      "value": 7,
+      "firstEvent": {
+        "eventId": "event:1964-2:50d8ec5e79cc",
+        "eventIndex": 122,
+        "season": 1964,
+        "round": 2,
+        "date": "1964-05-24",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "lastEvent": {
+        "eventId": "event:1964-8:5bb545502cac",
+        "eventIndex": 128,
+        "season": 1964,
+        "round": 8,
+        "date": "1964-09-06",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 20
     },
     {
       "entityId": "driver:coulthard:935d583f6514",
@@ -426,7 +531,7 @@
         "grandPrixName": "Canadian Grand Prix",
         "circuitId": "villeneuve"
       },
-      "rank": 17
+      "rank": 20
     },
     {
       "entityId": "driver:hakkinen:cb6375fb4ba8",
@@ -450,7 +555,31 @@
         "grandPrixName": "Canadian Grand Prix",
         "circuitId": "villeneuve"
       },
-      "rank": 17
+      "rank": 20
+    },
+    {
+      "entityId": "driver:hawthorn:1ddfcaf579cc",
+      "entityName": "Mike Hawthorn",
+      "value": 7,
+      "firstEvent": {
+        "eventId": "event:1958-5:eb4a88d2e4e2",
+        "eventIndex": 68,
+        "season": 1958,
+        "round": 5,
+        "date": "1958-06-15",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "date": "1958-10-19",
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab"
+      },
+      "rank": 20
     },
     {
       "entityId": "driver:lauda:a96b8acf8741",
@@ -474,7 +603,7 @@
         "grandPrixName": "Canadian Grand Prix",
         "circuitId": "mosport"
       },
-      "rank": 17
+      "rank": 20
     },
     {
       "entityId": "driver:patrese:57b51e8b4bbf",
@@ -498,31 +627,31 @@
         "grandPrixName": "Hungarian Grand Prix",
         "circuitId": "hungaroring"
       },
-      "rank": 17
+      "rank": 20
     },
     {
       "entityId": "driver:moss:74efba0d63c1",
       "entityName": "Stirling Moss",
       "value": 7,
       "firstEvent": {
-        "eventId": "event:1959-6:58ca7d89a202",
-        "eventIndex": 80,
-        "season": 1959,
-        "round": 6,
-        "date": "1959-08-02",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "avus"
+        "eventId": "event:1958-7:f2846249a45c",
+        "eventIndex": 70,
+        "season": 1958,
+        "round": 7,
+        "date": "1958-07-19",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
+        "eventId": "event:1959-3:9a9661ca0e19",
+        "eventIndex": 77,
+        "season": 1959,
+        "round": 3,
+        "date": "1959-05-31",
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 17
+      "rank": 20
     },
     {
       "entityId": "driver:bottas:cf1711492eee",
@@ -546,7 +675,31 @@
         "grandPrixName": "Tuscan Grand Prix",
         "circuitId": "mugello"
       },
-      "rank": 17
+      "rank": 20
+    },
+    {
+      "entityId": "driver:stewart:f46f493c7dd0",
+      "entityName": "Jackie Stewart",
+      "value": 6,
+      "firstEvent": {
+        "eventId": "event:1971-3:0dd39acf5265",
+        "eventIndex": 199,
+        "season": 1971,
+        "round": 3,
+        "date": "1971-05-23",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
+      },
+      "lastEvent": {
+        "eventId": "event:1971-8:054778c261da",
+        "eventIndex": 204,
+        "season": 1971,
+        "round": 8,
+        "date": "1971-08-15",
+        "grandPrixName": "Austrian Grand Prix",
+        "circuitId": "red_bull_ring"
+      },
+      "rank": 28
     },
     {
       "entityId": "driver:hunt:c0af61d2ad52",
@@ -570,7 +723,7 @@
         "grandPrixName": "South African Grand Prix",
         "circuitId": "kyalami"
       },
-      "rank": 23
+      "rank": 28
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
@@ -594,7 +747,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 23
+      "rank": 28
     },
     {
       "entityId": "driver:norris:5581145e4767",
@@ -618,7 +771,7 @@
         "grandPrixName": "Abu Dhabi Grand Prix",
         "circuitId": "yas_marina"
       },
-      "rank": 23
+      "rank": 28
     },
     {
       "entityId": "driver:webber:6ffd0bea1a2a",
@@ -642,31 +795,7 @@
         "grandPrixName": "Turkish Grand Prix",
         "circuitId": "istanbul"
       },
-      "rank": 23
-    },
-    {
-      "entityId": "driver:farina:edc963649157",
-      "entityName": "Nino Farina",
-      "value": 6,
-      "firstEvent": {
-        "eventId": "event:1952-1:1f5bbc70f213",
-        "eventIndex": 15,
-        "season": 1952,
-        "round": 1,
-        "date": "1952-05-18",
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten"
-      },
-      "lastEvent": {
-        "eventId": "event:1952-7:67119370d631",
-        "eventIndex": 21,
-        "season": 1952,
-        "round": 7,
-        "date": "1952-08-17",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 23
+      "rank": 28
     },
     {
       "entityId": "driver:arnoux:3628c7479aa0",
@@ -690,7 +819,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 23
+      "rank": 28
     },
     {
       "entityId": "driver:alonso:04d69c1d187a",
@@ -714,79 +843,79 @@
         "grandPrixName": "Canadian Grand Prix",
         "circuitId": "villeneuve"
       },
-      "rank": 29
+      "rank": 34
     },
     {
-      "entityId": "driver:hill:aa2839db1ccc",
-      "entityName": "Graham Hill",
+      "entityId": "driver:mcgrath:f9c176323e1c",
+      "entityName": "Jack McGrath",
       "value": 5,
       "firstEvent": {
-        "eventId": "event:1961-8:d34f34a8fdec",
-        "eventIndex": 101,
-        "season": 1961,
-        "round": 8,
-        "date": "1961-10-08",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "rank": 29
-    },
-    {
-      "entityId": "driver:jack-brabham:279b9464153a",
-      "entityName": "Jack Brabham",
-      "value": 5,
-      "firstEvent": {
-        "eventId": "event:1960-2:805bb8cf9f49",
-        "eventIndex": 85,
-        "season": 1960,
+        "eventId": "event:1951-2:9f5b3cbfb678",
+        "eventIndex": 8,
+        "season": 1951,
         "round": 2,
-        "date": "1960-05-29",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "date": "1951-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1960-7:fe83ee3666a7",
-        "eventIndex": 90,
-        "season": 1960,
-        "round": 7,
-        "date": "1960-07-16",
+        "eventId": "event:1955-3:38bb4803a341",
+        "eventIndex": 43,
+        "season": 1955,
+        "round": 3,
+        "date": "1955-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 34
+    },
+    {
+      "entityId": "driver:rindt:46dabdd8ff6b",
+      "entityName": "Jochen Rindt",
+      "value": 5,
+      "firstEvent": {
+        "eventId": "event:1969-6:58c98a37723b",
+        "eventIndex": 178,
+        "season": 1969,
+        "round": 6,
+        "date": "1969-07-19",
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 29
+      "lastEvent": {
+        "eventId": "event:1969-10:b1ae23299d9b",
+        "eventIndex": 182,
+        "season": 1969,
+        "round": 10,
+        "date": "1969-10-05",
+        "grandPrixName": "United States Grand Prix",
+        "circuitId": "watkins_glen"
+      },
+      "rank": 34
     },
     {
-      "entityId": "driver:stewart:f46f493c7dd0",
-      "entityName": "Jackie Stewart",
+      "entityId": "driver:surtees:5519e1946624",
+      "entityName": "John Surtees",
       "value": 5,
       "firstEvent": {
-        "eventId": "event:1969-3:0211252ae7ab",
-        "eventIndex": 175,
-        "season": 1969,
-        "round": 3,
-        "date": "1969-05-18",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1969-7:6e34aec83a68",
-        "eventIndex": 179,
-        "season": 1969,
+        "eventId": "event:1965-7:54e6465839f6",
+        "eventIndex": 137,
+        "season": 1965,
         "round": 7,
-        "date": "1969-08-03",
+        "date": "1965-08-01",
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 29
+      "lastEvent": {
+        "eventId": "event:1966-3:fefe5ea0765d",
+        "eventIndex": 143,
+        "season": 1966,
+        "round": 3,
+        "date": "1966-07-03",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
+      },
+      "rank": 34
     },
     {
       "entityId": "driver:montoya:68737b86fe17",
@@ -810,7 +939,7 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "magny_cours"
       },
-      "rank": 29
+      "rank": 34
     },
     {
       "entityId": "driver:piquet:009ec3fd7514",
@@ -834,7 +963,7 @@
         "grandPrixName": "Portuguese Grand Prix",
         "circuitId": "estoril"
       },
-      "rank": 29
+      "rank": 34
     },
     {
       "entityId": "driver:tambay:da914d6b903c",
@@ -858,7 +987,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 29
+      "rank": 34
     },
     {
       "entityId": "driver:phil-hill:35d0f98c0d81",
@@ -882,7 +1011,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 29
+      "rank": 34
     },
     {
       "entityId": "driver:jones:83ac4230619a",
@@ -906,7 +1035,55 @@
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 37
+      "rank": 42
+    },
+    {
+      "entityId": "driver:amon:a418aa49b3fe",
+      "entityName": "Chris Amon",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:1968-7:b3cf3842d8cd",
+        "eventIndex": 167,
+        "season": 1968,
+        "round": 7,
+        "date": "1968-07-20",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "brands_hatch"
+      },
+      "lastEvent": {
+        "eventId": "event:1968-10:15c0991cb8f0",
+        "eventIndex": 170,
+        "season": 1968,
+        "round": 10,
+        "date": "1968-09-22",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "tremblant"
+      },
+      "rank": 42
+    },
+    {
+      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
+      "entityName": "Emerson Fittipaldi",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:1972-2:58e1175fbbf0",
+        "eventIndex": 209,
+        "season": 1972,
+        "round": 2,
+        "date": "1972-03-04",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "lastEvent": {
+        "eventId": "event:1972-5:190f8dcc8df7",
+        "eventIndex": 212,
+        "season": 1972,
+        "round": 5,
+        "date": "1972-06-04",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "nivelles"
+      },
+      "rank": 42
     },
     {
       "entityId": "driver:berger:721f3dbb508a",
@@ -930,7 +1107,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "adelaide"
       },
-      "rank": 37
+      "rank": 42
     },
     {
       "entityId": "driver:frentzen:e499a12f83f0",
@@ -954,31 +1131,55 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "catalunya"
       },
-      "rank": 37
+      "rank": 42
     },
     {
-      "entityId": "driver:burgess:cae249265d03",
-      "entityName": "Ian Burgess",
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
       "value": 4,
       "firstEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1970-5:754b1ea31f45",
+        "eventIndex": 188,
+        "season": 1970,
+        "round": 5,
+        "date": "1970-06-21",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
       },
       "lastEvent": {
-        "eventId": "event:1963-4:fcb1f4468424",
-        "eventIndex": 114,
-        "season": 1963,
-        "round": 4,
-        "date": "1963-06-30",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
+        "eventId": "event:1970-8:db350343bc4d",
+        "eventIndex": 191,
+        "season": 1970,
+        "round": 8,
+        "date": "1970-08-02",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring"
       },
-      "rank": 37
+      "rank": 42
+    },
+    {
+      "entityId": "driver:behra:ad2c71791765",
+      "entityName": "Jean Behra",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:1957-1:2147b022d7b5",
+        "eventIndex": 56,
+        "season": 1957,
+        "round": 1,
+        "date": "1957-01-13",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "lastEvent": {
+        "eventId": "event:1957-6:4efe9d3a6313",
+        "eventIndex": 61,
+        "season": 1957,
+        "round": 6,
+        "date": "1957-08-04",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "rank": 42
     },
     {
       "entityId": "driver:jabouille:1481bda9b6cd",
@@ -1002,55 +1203,31 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "imola"
       },
-      "rank": 37
+      "rank": 42
     },
     {
-      "entityId": "driver:rindt:46dabdd8ff6b",
-      "entityName": "Jochen Rindt",
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
       "value": 4,
       "firstEvent": {
-        "eventId": "event:1970-7:641079854b27",
-        "eventIndex": 190,
-        "season": 1970,
-        "round": 7,
-        "date": "1970-07-18",
+        "eventId": "event:1951-5:e0f15b6e9917",
+        "eventIndex": 11,
+        "season": 1951,
+        "round": 5,
+        "date": "1951-07-14",
         "grandPrixName": "British Grand Prix",
-        "circuitId": "brands_hatch"
+        "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:1970-10:d900d0599a25",
-        "eventIndex": 193,
-        "season": 1970,
-        "round": 10,
-        "date": "1970-09-06",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1951-8:08cf63e087a4",
+        "eventIndex": 14,
+        "season": 1951,
+        "round": 8,
+        "date": "1951-10-28",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "pedralbes"
       },
-      "rank": 37
-    },
-    {
-      "entityId": "driver:surtees:5519e1946624",
-      "entityName": "John Surtees",
-      "value": 4,
-      "firstEvent": {
-        "eventId": "event:1964-6:8b44289ce1d8",
-        "eventIndex": 126,
-        "season": 1964,
-        "round": 6,
-        "date": "1964-08-02",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-9:4176e42080e2",
-        "eventIndex": 129,
-        "season": 1964,
-        "round": 9,
-        "date": "1964-10-04",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 37
+      "rank": 42
     },
     {
       "entityId": "driver:raikkonen:650e2e18533e",
@@ -1074,7 +1251,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 37
+      "rank": 42
     },
     {
       "entityId": "driver:piastri:45bbf3cf700f",
@@ -1098,12 +1275,60 @@
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 37
+      "rank": 42
     },
     {
-      "entityId": "driver:marsh:5480cf2b3bb1",
-      "entityName": "Tony Marsh",
+      "entityId": "driver:collins:98c51dae7baf",
+      "entityName": "Peter Collins",
       "value": 4,
+      "firstEvent": {
+        "eventId": "event:1956-4:23099164df87",
+        "eventIndex": 51,
+        "season": 1956,
+        "round": 4,
+        "date": "1956-06-03",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "lastEvent": {
+        "eventId": "event:1956-7:0c530d881fc1",
+        "eventIndex": 54,
+        "season": 1956,
+        "round": 7,
+        "date": "1956-08-05",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "rank": 42
+    },
+    {
+      "entityId": "driver:taruffi:4246f1de7460",
+      "entityName": "Piero Taruffi",
+      "value": 4,
+      "firstEvent": {
+        "eventId": "event:1952-1:1f5bbc70f213",
+        "eventIndex": 15,
+        "season": 1952,
+        "round": 1,
+        "date": "1952-05-18",
+        "grandPrixName": "Swiss Grand Prix",
+        "circuitId": "bremgarten"
+      },
+      "lastEvent": {
+        "eventId": "event:1952-5:c9b66d6ae12c",
+        "eventIndex": 19,
+        "season": 1952,
+        "round": 5,
+        "date": "1952-07-19",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "rank": 42
+    },
+    {
+      "entityId": "driver:mclaren:fad4f75a1c8e",
+      "entityName": "Bruce McLaren",
+      "value": 3,
       "firstEvent": {
         "eventId": "event:1962-2:8e89d21270a2",
         "eventIndex": 103,
@@ -1114,15 +1339,15 @@
         "circuitId": "monaco"
       },
       "lastEvent": {
-        "eventId": "event:1962-6:012879192d2a",
-        "eventIndex": 107,
+        "eventId": "event:1962-4:5b25107ea0ec",
+        "eventIndex": 105,
         "season": 1962,
-        "round": 6,
-        "date": "1962-08-05",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "round": 4,
+        "date": "1962-07-08",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "essarts"
       },
-      "rank": 37
+      "rank": 55
     },
     {
       "entityId": "driver:reutemann:c573421c6e6f",
@@ -1146,103 +1371,79 @@
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "zolder"
       },
-      "rank": 47
+      "rank": 55
     },
     {
-      "entityId": "driver:amon:a418aa49b3fe",
-      "entityName": "Chris Amon",
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1968-2:df27731ee81a",
-        "eventIndex": 162,
-        "season": 1968,
+        "eventId": "event:1970-13:12bd124a2612",
+        "eventIndex": 196,
+        "season": 1970,
+        "round": 13,
+        "date": "1970-10-25",
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez"
+      },
+      "lastEvent": {
+        "eventId": "event:1971-2:67735cf618b3",
+        "eventIndex": 198,
+        "season": 1971,
         "round": 2,
-        "date": "1968-05-12",
+        "date": "1971-04-18",
         "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "jarama"
+        "circuitId": "montjuic"
       },
-      "lastEvent": {
-        "eventId": "event:1968-5:57972ea5bc56",
-        "eventIndex": 165,
-        "season": 1968,
-        "round": 5,
-        "date": "1968-06-23",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:gurney:0e0cdc9d2231",
-      "entityName": "Dan Gurney",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1964-2:50d8ec5e79cc",
-        "eventIndex": 122,
-        "season": 1964,
-        "round": 2,
-        "date": "1964-05-24",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-4:300f5d51516d",
-        "eventIndex": 124,
-        "season": 1964,
-        "round": 4,
-        "date": "1964-06-28",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:hulme:595e5a426963",
       "entityName": "Denny Hulme",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1973-3:251b61ad7700",
-        "eventIndex": 222,
-        "season": 1973,
-        "round": 3,
-        "date": "1973-03-03",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
+        "eventId": "event:1967-6:ec475821fcd6",
+        "eventIndex": 155,
+        "season": 1967,
+        "round": 6,
+        "date": "1967-07-15",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:1973-5:7c8f8f7559cc",
-        "eventIndex": 224,
-        "season": 1973,
-        "round": 5,
-        "date": "1973-05-20",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "zolder"
+        "eventId": "event:1967-8:dadca458ceb1",
+        "eventIndex": 157,
+        "season": 1967,
+        "round": 8,
+        "date": "1967-08-27",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport"
       },
-      "rank": 47
+      "rank": 55
     },
     {
-      "entityId": "driver:emerson-fittipaldi:8ddd0b3a82a9",
-      "entityName": "Emerson Fittipaldi",
+      "entityId": "driver:castellotti:29de409c0984",
+      "entityName": "Eugenio Castellotti",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1973-1:116842639a43",
-        "eventIndex": 220,
-        "season": 1973,
+        "eventId": "event:1956-7:0c530d881fc1",
+        "eventIndex": 54,
+        "season": 1956,
+        "round": 7,
+        "date": "1956-08-05",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "lastEvent": {
+        "eventId": "event:1957-1:2147b022d7b5",
+        "eventIndex": 56,
+        "season": 1957,
         "round": 1,
-        "date": "1973-01-28",
+        "date": "1957-01-13",
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "lastEvent": {
-        "eventId": "event:1973-3:251b61ad7700",
-        "eventIndex": 222,
-        "season": 1973,
-        "round": 3,
-        "date": "1973-03-03",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -1266,7 +1467,7 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "catalunya"
       },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:russell:0de59c03b0db",
@@ -1290,79 +1491,7 @@
         "grandPrixName": "Qatar Grand Prix",
         "circuitId": "losail"
       },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:baghetti:3a2c6f3478be",
-      "entityName": "Giancarlo Baghetti",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1963-4:fcb1f4468424",
-        "eventIndex": 114,
-        "season": 1963,
-        "round": 4,
-        "date": "1963-06-30",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-6:c13804ca4295",
-        "eventIndex": 116,
-        "season": 1963,
-        "round": 6,
-        "date": "1963-08-04",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:ireland:655aaf7bf33d",
-      "entityName": "Innes Ireland",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1963-8:d1bd88ea5e38",
-        "eventIndex": 118,
-        "season": 1963,
-        "round": 8,
-        "date": "1963-10-06",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-1:8b1cc4f8b1f6",
-        "eventIndex": 121,
-        "season": 1964,
-        "round": 1,
-        "date": "1964-05-10",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:ickx:9dc972aa2fb0",
-      "entityName": "Jacky Ickx",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1970-10:d900d0599a25",
-        "eventIndex": 193,
-        "season": 1970,
-        "round": 10,
-        "date": "1970-09-06",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1970-12:9669f9315c9a",
-        "eventIndex": 195,
-        "season": 1970,
-        "round": 12,
-        "date": "1970-10-04",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:button:d29c67aa2fda",
@@ -1386,7 +1515,7 @@
         "grandPrixName": "San Marino Grand Prix",
         "circuitId": "imola"
       },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:watson:fc3a45a5856b",
@@ -1410,79 +1539,31 @@
         "grandPrixName": "Swedish Grand Prix",
         "circuitId": "anderstorp"
       },
-      "rank": 47
+      "rank": 55
     },
     {
-      "entityId": "driver:gonzalez:2aa2e506438c",
-      "entityName": "José Froilán González",
+      "entityId": "driver:fagioli:05eb09dda820",
+      "entityName": "Luigi Fagioli",
       "value": 3,
       "firstEvent": {
-        "eventId": "event:1953-6:44c347bd9772",
-        "eventIndex": 28,
-        "season": 1953,
+        "eventId": "event:1950-4:d4534e465708",
+        "eventIndex": 3,
+        "season": 1950,
+        "round": 4,
+        "date": "1950-06-04",
+        "grandPrixName": "Swiss Grand Prix",
+        "circuitId": "bremgarten"
+      },
+      "lastEvent": {
+        "eventId": "event:1950-6:79d461bba646",
+        "eventIndex": 5,
+        "season": 1950,
         "round": 6,
-        "date": "1953-07-18",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1954-3:13b2f30d8eb2",
-        "eventIndex": 34,
-        "season": 1954,
-        "round": 3,
-        "date": "1954-06-20",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:estefano:ad87d076626c",
-      "entityName": "Nasif Estéfano",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-5:a84e07fce1b8",
-        "eventIndex": 115,
-        "season": 1963,
-        "round": 5,
-        "date": "1963-07-20",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:arundell:09439d8b9577",
-      "entityName": "Peter Arundell",
-      "value": 3,
-      "firstEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-4:fcb1f4468424",
-        "eventIndex": 114,
-        "season": 1963,
-        "round": 4,
-        "date": "1963-06-30",
+        "date": "1950-07-02",
         "grandPrixName": "French Grand Prix",
         "circuitId": "reims"
       },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:ralf-schumacher:c4bff3218fa9",
@@ -1506,7 +1587,31 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "magny_cours"
       },
-      "rank": 47
+      "rank": 55
+    },
+    {
+      "entityId": "driver:ginther:3e915b11c50f",
+      "entityName": "Richie Ginther",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1960-9:06ca6e69776d",
+        "eventIndex": 92,
+        "season": 1960,
+        "round": 9,
+        "date": "1960-09-04",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:1961-2:f46ec260a9be",
+        "eventIndex": 95,
+        "season": 1961,
+        "round": 2,
+        "date": "1961-05-22",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "rank": 55
     },
     {
       "entityId": "driver:barrichello:ff6039716ac0",
@@ -1530,7 +1635,7 @@
         "grandPrixName": "Austrian Grand Prix",
         "circuitId": "red_bull_ring"
       },
-      "rank": 47
+      "rank": 55
     },
     {
       "entityId": "driver:perez:03c631191055",
@@ -1554,7 +1659,55 @@
         "grandPrixName": "Saudi Arabian Grand Prix",
         "circuitId": "jeddah"
       },
-      "rank": 47
+      "rank": 55
+    },
+    {
+      "entityId": "driver:lewis-evans:5822738a2722",
+      "entityName": "Stuart Lewis-Evans",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1958-9:93fd5a65d3cd",
+        "eventIndex": 72,
+        "season": 1958,
+        "round": 9,
+        "date": "1958-08-24",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "boavista"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-11:dd814aaa246e",
+        "eventIndex": 74,
+        "season": 1958,
+        "round": 11,
+        "date": "1958-10-19",
+        "grandPrixName": "Moroccan Grand Prix",
+        "circuitId": "ain-diab"
+      },
+      "rank": 55
+    },
+    {
+      "entityId": "driver:brooks:4c43a3935c07",
+      "entityName": "Tony Brooks",
+      "value": 3,
+      "firstEvent": {
+        "eventId": "event:1957-8:c9cb0f1970a9",
+        "eventIndex": 63,
+        "season": 1957,
+        "round": 8,
+        "date": "1957-09-08",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "lastEvent": {
+        "eventId": "event:1958-3:87cc29f3ec4a",
+        "eventIndex": 66,
+        "season": 1958,
+        "round": 3,
+        "date": "1958-05-26",
+        "grandPrixName": "Dutch Grand Prix",
+        "circuitId": "zandvoort"
+      },
+      "rank": 55
     },
     {
       "entityId": "driver:trips:e05d10e5e75a",
@@ -1578,55 +1731,7 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "reims"
       },
-      "rank": 47
-    },
-    {
-      "entityId": "driver:andre-pilette:a248b08b5dca",
-      "entityName": "André Pilette",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1956-7:0c530d881fc1",
-        "eventIndex": 54,
-        "season": 1956,
-        "round": 7,
-        "date": "1956-08-05",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-1:8b1cc4f8b1f6",
-        "eventIndex": 121,
-        "season": 1964,
-        "round": 1,
-        "date": "1964-05-10",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:abate:2b8017fbb403",
-      "entityName": "Carlo Abate",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 66
+      "rank": 55
     },
     {
       "entityId": "driver:pace:f2913e9cfb72",
@@ -1650,7 +1755,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:sainz:f4f0414a0a12",
@@ -1674,31 +1779,7 @@
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "spa"
       },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:regazzoni:8dabb0375829",
-      "entityName": "Clay Regazzoni",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1971-5:9ab9189afc6c",
-        "eventIndex": 201,
-        "season": 1971,
-        "round": 5,
-        "date": "1971-07-04",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard"
-      },
-      "lastEvent": {
-        "eventId": "event:1971-6:2ae59e106e41",
-        "eventIndex": 202,
-        "season": 1971,
-        "round": 6,
-        "date": "1971-07-17",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:pironi:e419fd33c039",
@@ -1722,7 +1803,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:sachs:79e7e4b605c6",
@@ -1746,31 +1827,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:barth:ff3fbe92a0a5",
-      "entityName": "Edgar Barth",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:agabashian:09e7d8a15c53",
@@ -1794,7 +1851,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:fisichella:5825d809a2e3",
@@ -1818,31 +1875,31 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "albert_park"
       },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:gould:6f30a6e51031",
-      "entityName": "Horace Gould",
+      "entityId": "driver:schell:389113d52afd",
+      "entityName": "Harry Schell",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1958-3:87cc29f3ec4a",
-        "eventIndex": 66,
+        "eventId": "event:1958-6:a50649763513",
+        "eventIndex": 69,
         "season": 1958,
-        "round": 3,
-        "date": "1958-05-26",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "round": 6,
+        "date": "1958-07-06",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
       },
       "lastEvent": {
-        "eventId": "event:1960-9:06ca6e69776d",
-        "eventIndex": 92,
-        "season": 1960,
-        "round": 9,
-        "date": "1960-09-04",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1958-7:f2846249a45c",
+        "eventIndex": 70,
+        "season": 1958,
+        "round": 7,
+        "date": "1958-07-19",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:laffite:36bfb487a39b",
@@ -1866,7 +1923,7 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:trulli:26a562aa7942",
@@ -1890,7 +1947,7 @@
         "grandPrixName": "Malaysian Grand Prix",
         "circuitId": "sepang"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:alesi:81d9c1b96672",
@@ -1914,79 +1971,79 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:behra:ad2c71791765",
-      "entityName": "Jean Behra",
+      "entityId": "driver:rathmann:5dd609a66a0d",
+      "entityName": "Jim Rathmann",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1957-4:ca6077087191",
-        "eventIndex": 59,
-        "season": 1957,
-        "round": 4,
-        "date": "1957-07-07",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "lastEvent": {
-        "eventId": "event:1957-5:c4cd1904f25a",
-        "eventIndex": 60,
-        "season": 1957,
-        "round": 5,
-        "date": "1957-07-20",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:jarier:fbd7f044b94b",
-      "entityName": "Jean-Pierre Jarier",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1975-1:f8699d461149",
-        "eventIndex": 250,
-        "season": 1975,
-        "round": 1,
-        "date": "1975-01-12",
-        "grandPrixName": "Argentine Grand Prix",
-        "circuitId": "galvez"
-      },
-      "lastEvent": {
-        "eventId": "event:1975-2:db19680288ee",
-        "eventIndex": 251,
-        "season": 1975,
+        "eventId": "event:1959-2:6e8dc304cb95",
+        "eventIndex": 76,
+        "season": 1959,
         "round": 2,
-        "date": "1975-01-26",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
+        "date": "1959-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
-      "rank": 66
+      "lastEvent": {
+        "eventId": "event:1960-3:923ea1f02fc0",
+        "eventIndex": 86,
+        "season": 1960,
+        "round": 3,
+        "date": "1960-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 72
     },
     {
-      "entityId": "driver:campbell-jones:b5850ec789c2",
-      "entityName": "John Campbell-Jones",
+      "entityId": "driver:bonnier:5fc11359a468",
+      "entityName": "Jo Bonnier",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1962-5:a950a9b2e2b3",
-        "eventIndex": 106,
-        "season": 1962,
+        "eventId": "event:1961-5:e2b9fee40efd",
+        "eventIndex": 98,
+        "season": 1961,
         "round": 5,
-        "date": "1962-07-21",
+        "date": "1961-07-15",
         "grandPrixName": "British Grand Prix",
         "circuitId": "aintree"
       },
       "lastEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1961-6:d44874e8179f",
+        "eventIndex": 99,
+        "season": 1961,
+        "round": 6,
+        "date": "1961-08-06",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
-      "rank": 66
+      "rank": 72
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 2,
+      "firstEvent": {
+        "eventId": "event:1973-3:251b61ad7700",
+        "eventIndex": 222,
+        "season": 1973,
+        "round": 3,
+        "date": "1973-03-03",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "lastEvent": {
+        "eventId": "event:1973-8:ce8e75752158",
+        "eventIndex": 227,
+        "season": 1973,
+        "round": 8,
+        "date": "1973-07-01",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "ricard"
+      },
+      "rank": 72
     },
     {
       "entityId": "driver:keke-rosberg:c149e9225f45",
@@ -2010,31 +2067,31 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:bandini:7f67fa49cbac",
-      "entityName": "Lorenzo Bandini",
+      "entityId": "driver:scarfiotti:62e48ae1a222",
+      "entityName": "Ludovico Scarfiotti",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1966-6:8d58adb34b63",
+        "eventIndex": 146,
+        "season": 1966,
+        "round": 6,
+        "date": "1966-08-07",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
       "lastEvent": {
-        "eventId": "event:1963-2:b1ba5a18a41b",
-        "eventIndex": 112,
-        "season": 1963,
-        "round": 2,
-        "date": "1963-06-09",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "eventId": "event:1966-7:d7b3b5648f4d",
+        "eventIndex": 147,
+        "season": 1966,
+        "round": 7,
+        "date": "1966-09-04",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:musso:d363c09057b8",
@@ -2058,79 +2115,55 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "reims"
       },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:may:8b698a49ddb2",
-      "entityName": "Michael May",
+      "entityId": "driver:villoresi:f59ed3868399",
+      "entityName": "Luigi Villoresi",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "eventId": "event:1951-1:7504027adcf2",
+        "eventIndex": 7,
+        "season": 1951,
+        "round": 1,
+        "date": "1951-05-27",
+        "grandPrixName": "Swiss Grand Prix",
+        "circuitId": "bremgarten"
       },
       "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:hawthorn:1ddfcaf579cc",
-      "entityName": "Mike Hawthorn",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1958-5:eb4a88d2e4e2",
-        "eventIndex": 68,
-        "season": 1958,
-        "round": 5,
-        "date": "1958-06-15",
+        "eventId": "event:1951-3:7750d8a6c4b7",
+        "eventIndex": 9,
+        "season": 1951,
+        "round": 3,
+        "date": "1951-06-17",
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "spa"
       },
-      "lastEvent": {
-        "eventId": "event:1958-6:a50649763513",
-        "eventIndex": 69,
-        "season": 1958,
-        "round": 6,
-        "date": "1958-07-06",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:gendebien:722aba0155e5",
-      "entityName": "Olivier Gendebien",
+      "entityId": "driver:connor:2805a88a8f76",
+      "entityName": "Pat O'Connor",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
+        "eventId": "event:1956-3:c8841ba792f6",
+        "eventIndex": 50,
+        "season": 1956,
+        "round": 3,
+        "date": "1956-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1961-5:e2b9fee40efd",
-        "eventIndex": 98,
-        "season": 1961,
-        "round": 5,
-        "date": "1961-07-15",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
+        "eventId": "event:1957-3:7879775c4522",
+        "eventIndex": 58,
+        "season": 1957,
+        "round": 3,
+        "date": "1957-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:depailler:b5cf50bce46d",
@@ -2154,7 +2187,7 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:revson:a43291d81deb",
@@ -2178,103 +2211,31 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "rank": 66
+      "rank": 72
     },
     {
-      "entityId": "driver:gasly:0fca70394caf",
-      "entityName": "Pierre Gasly",
+      "entityId": "driver:manzon:d6fb01b246ff",
+      "entityName": "Robert Manzon",
       "value": 2,
       "firstEvent": {
-        "eventId": "event:2022-13:331b3d1b8dbf",
-        "eventIndex": 1069,
-        "season": 2022,
-        "round": 13,
-        "date": "2022-07-31",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
+        "eventId": "event:1952-5:c9b66d6ae12c",
+        "eventIndex": 19,
+        "season": 1952,
+        "round": 5,
+        "date": "1952-07-19",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:2022-14:8658025f6883",
-        "eventIndex": 1070,
-        "season": 2022,
-        "round": 14,
-        "date": "2022-08-28",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "eventId": "event:1952-6:32fc3ad3d7b8",
+        "eventIndex": 20,
+        "season": 1952,
+        "round": 6,
+        "date": "1952-08-03",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:ginther:3e915b11c50f",
-      "entityName": "Richie Ginther",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1960-9:06ca6e69776d",
-        "eventIndex": 92,
-        "season": 1960,
-        "round": 9,
-        "date": "1960-09-04",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-1:fa071cd943a7",
-        "eventIndex": 94,
-        "season": 1961,
-        "round": 1,
-        "date": "1961-05-14",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:grosjean:47652bcecb94",
-      "entityName": "Romain Grosjean",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:2020-2:200fd4c904e1",
-        "eventIndex": 1019,
-        "season": 2020,
-        "round": 2,
-        "date": "2020-07-12",
-        "grandPrixName": "Styrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "lastEvent": {
-        "eventId": "event:2020-3:35066e3127ed",
-        "eventIndex": 1020,
-        "season": 2020,
-        "round": 3,
-        "date": "2020-07-19",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:modena:529f1b5727b0",
-      "entityName": "Stefano Modena",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1988-3:e7e2d362bedf",
-        "eventIndex": 454,
-        "season": 1988,
-        "round": 3,
-        "date": "1988-05-15",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1988-4:46fbd15c7318",
-        "eventIndex": 455,
-        "season": 1988,
-        "round": 4,
-        "date": "1988-05-29",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:fabi:fe5cfb0089b2",
@@ -2298,103 +2259,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:maggs:7e92bbb70e97",
-      "entityName": "Tony Maggs",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1964-1:8b1cc4f8b1f6",
-        "eventIndex": 121,
-        "season": 1964,
-        "round": 1,
-        "date": "1964-05-10",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-2:50d8ec5e79cc",
-        "eventIndex": 122,
-        "season": 1964,
-        "round": 2,
-        "date": "1964-05-24",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:settember:e9a63ad734fe",
-      "entityName": "Tony Settember",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:hansgen:500c326babb1",
-      "entityName": "Walt Hansgen",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1963-8:d1bd88ea5e38",
-        "eventIndex": 118,
-        "season": 1963,
-        "round": 8,
-        "date": "1963-10-06",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-9:975f71324213",
-        "eventIndex": 119,
-        "season": 1963,
-        "round": 9,
-        "date": "1963-10-27",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "rank": 66
-    },
-    {
-      "entityId": "driver:seidel:fb891518bae0",
-      "entityName": "Wolfgang Seidel",
-      "value": 2,
-      "firstEvent": {
-        "eventId": "event:1961-3:0d20729ed42f",
-        "eventIndex": 96,
-        "season": 1961,
-        "round": 3,
-        "date": "1961-06-18",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 66
+      "rank": 72
     },
     {
       "entityId": "driver:sutil:46c5d0e2becf",
@@ -2418,175 +2283,31 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:campos:c2b1cf0710a8",
-      "entityName": "Adrián Campos",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1987-4:0a70832f1eea",
-        "eventIndex": 439,
-        "season": 1987,
-        "round": 4,
-        "date": "1987-05-31",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1987-4:0a70832f1eea",
-        "eventIndex": 439,
-        "season": 1987,
-        "round": 4,
-        "date": "1987-05-31",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:suzuki:4f9f7240fcf2",
-      "entityName": "Aguri Suzuki",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1995-16:bde39d3fff37",
-        "eventIndex": 579,
-        "season": 1995,
-        "round": 16,
-        "date": "1995-10-29",
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka"
-      },
-      "lastEvent": {
-        "eventId": "event:1995-16:bde39d3fff37",
-        "eventIndex": 579,
-        "season": 1995,
-        "round": 16,
-        "date": "1995-10-29",
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:blignaut:ac611725fd60",
-      "entityName": "Alex Blignaut",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:albon:20ec6817f0c4",
-      "entityName": "Alexander Albon",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2019-3:fc46b9741164",
-        "eventIndex": 999,
-        "season": 2019,
-        "round": 3,
-        "date": "2019-04-14",
-        "grandPrixName": "Chinese Grand Prix",
-        "circuitId": "shanghai"
-      },
-      "lastEvent": {
-        "eventId": "event:2019-3:fc46b9741164",
-        "eventIndex": 999,
-        "season": 2019,
-        "round": 3,
-        "date": "2019-04-14",
-        "grandPrixName": "Chinese Grand Prix",
-        "circuitId": "shanghai"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:thiele:a5492b2316e7",
-      "entityName": "Alfonso Thiele",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:montermini:ca900349e0f2",
-      "entityName": "Andrea Montermini",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1994-5:46fb684cbefb",
-        "eventIndex": 552,
-        "season": 1994,
-        "round": 5,
-        "date": "1994-05-29",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "catalunya"
-      },
-      "lastEvent": {
-        "eventId": "event:1994-5:46fb684cbefb",
-        "eventIndex": 552,
-        "season": 1994,
-        "round": 5,
-        "date": "1994-05-29",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "catalunya"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:cesaris:50c29699dea6",
       "entityName": "Andrea de Cesaris",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1981-12:628e60748187",
-        "eventIndex": 353,
-        "season": 1981,
-        "round": 12,
-        "date": "1981-08-30",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "date": "1982-04-04",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
       },
       "lastEvent": {
-        "eventId": "event:1981-12:628e60748187",
-        "eventIndex": 353,
-        "season": 1981,
-        "round": 12,
-        "date": "1981-08-30",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1982-3:1c0928f579d7",
+        "eventIndex": 359,
+        "season": 1982,
+        "round": 3,
+        "date": "1982-04-04",
+        "grandPrixName": "United States Grand Prix West",
+        "circuitId": "long_beach"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:linden:14f0212edda8",
@@ -2610,103 +2331,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:giovinazzi:1f6a3b48d31c",
-      "entityName": "Antonio Giovinazzi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2021-11:44ca20ebf567",
-        "eventIndex": 1045,
-        "season": 2021,
-        "round": 11,
-        "date": "2021-08-01",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "lastEvent": {
-        "eventId": "event:2021-11:44ca20ebf567",
-        "eventIndex": 1045,
-        "season": 2021,
-        "round": 11,
-        "date": "2021-08-01",
-        "grandPrixName": "Hungarian Grand Prix",
-        "circuitId": "hungaroring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:merzario:19a3923be097",
-      "entityName": "Arturo Merzario",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:fontes:5e7c2d358266",
-      "entityName": "Azdrubal Fontes",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1959-4:5cc2f0162aa7",
-        "eventIndex": 78,
-        "season": 1959,
-        "round": 4,
-        "date": "1959-07-05",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1959-4:5cc2f0162aa7",
-        "eventIndex": 78,
-        "season": 1959,
-        "round": 4,
-        "date": "1959-07-05",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:aston:dbcb179c9460",
-      "entityName": "Bill Aston",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1952-5:c9b66d6ae12c",
-        "eventIndex": 19,
-        "season": 1952,
-        "round": 5,
-        "date": "1952-07-19",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1952-5:c9b66d6ae12c",
-        "eventIndex": 19,
-        "season": 1952,
-        "round": 5,
-        "date": "1952-07-19",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:vukovich:57f4d36050ed",
@@ -2730,79 +2355,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:brendon-hartley:5ed700acee55",
-      "entityName": "Brendon Hartley",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2018-10:0cac19658882",
-        "eventIndex": 985,
-        "season": 2018,
-        "round": 10,
-        "date": "2018-07-08",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:2018-10:0cac19658882",
-        "eventIndex": 985,
-        "season": 2018,
-        "round": 10,
-        "date": "2018-07-08",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:naylor:b8f85fe0b227",
-      "entityName": "Brian Naylor",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mclaren:fad4f75a1c8e",
-      "entityName": "Bruce McLaren",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:giacomelli:45f5255cb8b8",
@@ -2826,175 +2379,31 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:beaufort:f4533a5c25d9",
-      "entityName": "Carel Godin de Beaufort",
+      "entityId": "driver:sanesi:4833769f8f6d",
+      "entityName": "Consalvo Sanesi",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-1:c58572311036",
-        "eventIndex": 111,
-        "season": 1963,
-        "round": 1,
-        "date": "1963-05-26",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:perdisa:a8ab7906bffb",
-      "entityName": "Cesare Perdisa",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1956-7:0c530d881fc1",
-        "eventIndex": 54,
-        "season": 1956,
+        "eventId": "event:1950-7:011b881b51d3",
+        "eventIndex": 6,
+        "season": 1950,
         "round": 7,
-        "date": "1956-08-05",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "date": "1950-09-03",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
       },
       "lastEvent": {
-        "eventId": "event:1956-7:0c530d881fc1",
-        "eventIndex": 54,
-        "season": 1956,
+        "eventId": "event:1950-7:011b881b51d3",
+        "eventIndex": 6,
+        "season": 1950,
         "round": 7,
-        "date": "1956-08-05",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "date": "1950-09-03",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:danner:38bd3ec72e14",
-      "entityName": "Christian Danner",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1987-4:0a70832f1eea",
-        "eventIndex": 439,
-        "season": 1987,
-        "round": 4,
-        "date": "1987-05-31",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1987-4:0a70832f1eea",
-        "eventIndex": 439,
-        "season": 1987,
-        "round": 4,
-        "date": "1987-05-31",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:daigh:a8fbefddc4ac",
-      "entityName": "Chuck Daigh",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:allison:9fe6fe4e2b78",
-      "entityName": "Cliff Allison",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-3:0d20729ed42f",
-        "eventIndex": 96,
-        "season": 1961,
-        "round": 3,
-        "date": "1961-06-18",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-3:0d20729ed42f",
-        "eventIndex": 96,
-        "season": 1961,
-        "round": 3,
-        "date": "1961-06-18",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:davis:5233e753928a",
-      "entityName": "Colin Davis",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-4:5b25107ea0ec",
-        "eventIndex": 105,
-        "season": 1962,
-        "round": 4,
-        "date": "1962-07-08",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "essarts"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:corrado-fabi:2b5c49007966",
-      "entityName": "Corrado Fabi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1983-7:0ceda1cc841e",
-        "eventIndex": 379,
-        "season": 1983,
-        "round": 7,
-        "date": "1983-06-05",
-        "grandPrixName": "Detroit Grand Prix",
-        "circuitId": "detroit"
-      },
-      "lastEvent": {
-        "eventId": "event:1983-7:0ceda1cc841e",
-        "eventIndex": 379,
-        "season": 1983,
-        "round": 7,
-        "date": "1983-06-05",
-        "grandPrixName": "Detroit Grand Prix",
-        "circuitId": "detroit"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:ricciardo:677e1f07679b",
@@ -3018,55 +2427,7 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "albert_park"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:kvyat:65939d80c4ba",
-      "entityName": "Daniil Kvyat",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2016-9:37589b217332",
-        "eventIndex": 943,
-        "season": 2016,
-        "round": 9,
-        "date": "2016-07-03",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "lastEvent": {
-        "eventId": "event:2016-9:37589b217332",
-        "eventIndex": 943,
-        "season": 2016,
-        "round": 9,
-        "date": "2016-07-03",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:clapham:1f2b39bb426c",
-      "entityName": "David Clapham",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:dick-rathmann:ee98bc60c01b",
@@ -3090,7 +2451,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:nalon:35ff5963cc4d",
@@ -3114,7 +2475,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:elisian:8c0a17d73d5a",
@@ -3138,7 +2499,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:cheever:a06f9c80c4f3",
@@ -3162,7 +2523,7 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "ricard"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:irvine:3492559d3bf9",
@@ -3186,151 +2547,31 @@
         "grandPrixName": "Luxembourg Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:angelis:e8033183b98b",
       "entityName": "Elio de Angelis",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1981-4:6b44cd5d8184",
-        "eventIndex": 345,
-        "season": 1981,
-        "round": 4,
-        "date": "1981-05-03",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "eventId": "event:1983-14:d2852dda4cd5",
+        "eventIndex": 386,
+        "season": 1983,
+        "round": 14,
+        "date": "1983-09-25",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "brands_hatch"
       },
       "lastEvent": {
-        "eventId": "event:1981-4:6b44cd5d8184",
-        "eventIndex": 345,
-        "season": 1981,
-        "round": 4,
-        "date": "1981-05-03",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "eventId": "event:1983-14:d2852dda4cd5",
+        "eventIndex": 386,
+        "season": 1983,
+        "round": 14,
+        "date": "1983-09-25",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "brands_hatch"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:poele:b14ff43ff751",
-      "entityName": "Eric van de Poele",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1992-9:1102df305868",
-        "eventIndex": 524,
-        "season": 1992,
-        "round": 9,
-        "date": "1992-07-12",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1992-9:1102df305868",
-        "eventIndex": 524,
-        "season": 1992,
-        "round": 9,
-        "date": "1992-07-12",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:prinoth:97a06434cfae",
-      "entityName": "Ernesto Prinoth",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:vos:7e3133e7a7fa",
-      "entityName": "Ernie de Vos",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-8:d1bd88ea5e38",
-        "eventIndex": 118,
-        "season": 1963,
-        "round": 8,
-        "date": "1963-10-06",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-8:d1bd88ea5e38",
-        "eventIndex": 118,
-        "season": 1963,
-        "round": 8,
-        "date": "1963-10-06",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ocon:27db7f9b9070",
-      "entityName": "Esteban Ocon",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2022-19:dbc7e748455c",
-        "eventIndex": 1075,
-        "season": 2022,
-        "round": 19,
-        "date": "2022-10-23",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "americas"
-      },
-      "lastEvent": {
-        "eventId": "event:2022-19:dbc7e748455c",
-        "eventIndex": 1075,
-        "season": 2022,
-        "round": 19,
-        "date": "2022-10-23",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "americas"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:castellotti:29de409c0984",
-      "entityName": "Eugenio Castellotti",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:bonetto:0c035a17b002",
@@ -3354,223 +2595,31 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "reims"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:nasr:1520f358d64e",
-      "entityName": "Felipe Nasr",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2016-6:a0275181f647",
-        "eventIndex": 940,
-        "season": 2016,
-        "round": 6,
-        "date": "2016-05-29",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:2016-6:a0275181f647",
-        "eventIndex": 940,
-        "season": 2016,
-        "round": 6,
-        "date": "2016-05-29",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:dochnal:e5b3875ff0ae",
-      "entityName": "Frank Dochnal",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-9:975f71324213",
-        "eventIndex": 119,
-        "season": 1963,
-        "round": 9,
-        "date": "1963-10-27",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-9:975f71324213",
-        "eventIndex": 119,
-        "season": 1963,
-        "round": 9,
-        "date": "1963-10-27",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:cevert:fc3ec9f33655",
       "entityName": "François Cevert",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1973-7:b0c39267ba79",
-        "eventIndex": 226,
-        "season": 1973,
-        "round": 7,
-        "date": "1973-06-17",
-        "grandPrixName": "Swedish Grand Prix",
-        "circuitId": "anderstorp"
+        "eventId": "event:1971-10:9a3319f0f170",
+        "eventIndex": 206,
+        "season": 1971,
+        "round": 10,
+        "date": "1971-09-19",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport"
       },
       "lastEvent": {
-        "eventId": "event:1973-7:b0c39267ba79",
-        "eventIndex": 226,
-        "season": 1973,
-        "round": 7,
-        "date": "1973-06-17",
-        "grandPrixName": "Swedish Grand Prix",
-        "circuitId": "anderstorp"
+        "eventId": "event:1971-10:9a3319f0f170",
+        "eventIndex": 206,
+        "season": 1971,
+        "round": 10,
+        "date": "1971-09-19",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "mosport"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:starrabba:3184a14a6385",
-      "entityName": "Gaetano Starrabba",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:hocking:5fe423d19124",
-      "entityName": "Gary Hocking",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:duke:cb11ca9d4440",
-      "entityName": "Geoff Duke",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mitter:aa6d7c880886",
-      "entityName": "Gerhard Mitter",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ashmore:1c6069bab6d5",
-      "entityName": "Gerry Ashmore",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:morbidelli:a451e9fca333",
-      "entityName": "Gianni Morbidelli",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1997-16:f9ce9b2f0ceb",
-        "eventIndex": 612,
-        "season": 1997,
-        "round": 16,
-        "date": "1997-10-12",
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka"
-      },
-      "lastEvent": {
-        "eventId": "event:1997-16:f9ce9b2f0ceb",
-        "eventIndex": 612,
-        "season": 1997,
-        "round": 16,
-        "date": "1997-10-12",
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:gilles-villeneuve:92aad873d6ed",
@@ -3594,127 +2643,7 @@
         "grandPrixName": "United States Grand Prix West",
         "circuitId": "long_beach"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:zhou:f20afa05b294",
-      "entityName": "Guanyu Zhou",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2022-4:ca31765a4de3",
-        "eventIndex": 1060,
-        "season": 2022,
-        "round": 4,
-        "date": "2022-04-24",
-        "grandPrixName": "Emilia Romagna Grand Prix",
-        "circuitId": "imola"
-      },
-      "lastEvent": {
-        "eventId": "event:2022-4:ca31765a4de3",
-        "eventIndex": 1060,
-        "season": 2022,
-        "round": 4,
-        "date": "2022-04-24",
-        "grandPrixName": "Emilia Romagna Grand Prix",
-        "circuitId": "imola"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:edwards:6a71f5eb4172",
-      "entityName": "Guy Edwards",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ligier:c5719d2a4e77",
-      "entityName": "Guy Ligier",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1966-6:8d58adb34b63",
-        "eventIndex": 146,
-        "season": 1966,
-        "round": 6,
-        "date": "1966-08-07",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1966-6:8d58adb34b63",
-        "eventIndex": 146,
-        "season": 1966,
-        "round": 6,
-        "date": "1966-08-07",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:seiffert:14f41a004c8a",
-      "entityName": "Günther Seiffert",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-7:b20023ca7221",
-        "eventIndex": 117,
-        "season": 1963,
-        "round": 7,
-        "date": "1963-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:herrmann:441ce8901e7a",
-      "entityName": "Hans Herrmann",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:stuck:1244ac2c6b68",
@@ -3738,55 +2667,7 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "watkins_glen"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ertl:db6fbc3e0d50",
-      "entityName": "Harald Ertl",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1976-14:40cc59731755",
-        "eventIndex": 277,
-        "season": 1976,
-        "round": 14,
-        "date": "1976-10-03",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport"
-      },
-      "lastEvent": {
-        "eventId": "event:1976-14:40cc59731755",
-        "eventIndex": 277,
-        "season": 1976,
-        "round": 14,
-        "date": "1976-10-03",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:schell:389113d52afd",
-      "entityName": "Harry Schell",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:kovalainen:dc8d8c106e70",
@@ -3810,175 +2691,31 @@
         "grandPrixName": "Turkish Grand Prix",
         "circuitId": "istanbul"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:schiller:ea18993c7f44",
-      "entityName": "Heinz Schiller",
+      "entityId": "driver:ireland:655aaf7bf33d",
+      "entityName": "Innes Ireland",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "eventId": "event:1960-1:95cf842e4620",
+        "eventIndex": 84,
+        "season": 1960,
+        "round": 1,
+        "date": "1960-02-07",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
       },
       "lastEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "eventId": "event:1960-1:95cf842e4620",
+        "eventIndex": 84,
+        "season": 1960,
+        "round": 1,
+        "date": "1960-02-07",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:henry-taylor:dad209454f8f",
-      "entityName": "Henry Taylor",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-3:0d20729ed42f",
-        "eventIndex": 96,
-        "season": 1961,
-        "round": 3,
-        "date": "1961-06-18",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-3:0d20729ed42f",
-        "eventIndex": 96,
-        "season": 1961,
-        "round": 3,
-        "date": "1961-06-18",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:fushida:3ffe2015ab17",
-      "entityName": "Hiroshi Fushida",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1975-8:5c7ca6a25eb1",
-        "eventIndex": 257,
-        "season": 1975,
-        "round": 8,
-        "date": "1975-06-22",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1975-8:5c7ca6a25eb1",
-        "eventIndex": 257,
-        "season": 1975,
-        "round": 8,
-        "date": "1975-06-22",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ashley:4ccb31f7900f",
-      "entityName": "Ian Ashley",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1977-16:1185a83add2a",
-        "eventIndex": 295,
-        "season": 1977,
-        "round": 16,
-        "date": "1977-10-09",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport"
-      },
-      "lastEvent": {
-        "eventId": "event:1977-16:1185a83add2a",
-        "eventIndex": 295,
-        "season": 1977,
-        "round": 16,
-        "date": "1977-10-09",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "mosport"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:capelli:89a05e194274",
-      "entityName": "Ivan Capelli",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1988-6:0b4a380c0cba",
-        "eventIndex": 457,
-        "season": 1988,
-        "round": 6,
-        "date": "1988-06-19",
-        "grandPrixName": "Detroit Grand Prix",
-        "circuitId": "detroit"
-      },
-      "lastEvent": {
-        "eventId": "event:1988-6:0b4a380c0cba",
-        "eventIndex": 457,
-        "season": 1988,
-        "round": 6,
-        "date": "1988-06-19",
-        "grandPrixName": "Detroit Grand Prix",
-        "circuitId": "detroit"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mcgrath:f9c176323e1c",
-      "entityName": "Jack McGrath",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1954-2:5240004faa52",
-        "eventIndex": 33,
-        "season": 1954,
-        "round": 2,
-        "date": "1954-05-31",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "lastEvent": {
-        "eventId": "event:1954-2:5240004faa52",
-        "eventIndex": 33,
-        "season": 1954,
-        "round": 2,
-        "date": "1954-05-31",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:lewis:f838f58dbc27",
-      "entityName": "Jackie Lewis",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-3:81627b2e86b0",
-        "eventIndex": 104,
-        "season": 1962,
-        "round": 3,
-        "date": "1962-06-17",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:oliver:92571f0c676e",
@@ -4002,31 +2739,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "brands_hatch"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:lammers:91452ecad93c",
-      "entityName": "Jan Lammers",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1981-4:6b44cd5d8184",
-        "eventIndex": 345,
-        "season": 1981,
-        "round": 4,
-        "date": "1981-05-03",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
-      },
-      "lastEvent": {
-        "eventId": "event:1981-4:6b44cd5d8184",
-        "eventIndex": 345,
-        "season": 1981,
-        "round": 4,
-        "date": "1981-05-03",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:beltoise:a412ddeec9b0",
@@ -4050,7 +2763,31 @@
         "grandPrixName": "Canadian Grand Prix",
         "circuitId": "mosport"
       },
-      "rank": 100
+      "rank": 94
+    },
+    {
+      "entityId": "driver:jarier:fbd7f044b94b",
+      "entityName": "Jean-Pierre Jarier",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1975-2:db19680288ee",
+        "eventIndex": 251,
+        "season": 1975,
+        "round": 2,
+        "date": "1975-01-26",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:1975-2:db19680288ee",
+        "eventIndex": 251,
+        "season": 1975,
+        "round": 2,
+        "date": "1975-01-26",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "rank": 94
     },
     {
       "entityId": "driver:hoyt:ff4b039bfe11",
@@ -4074,55 +2811,31 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:hall:1c7680ce3c25",
-      "entityName": "Jim Hall",
+      "entityId": "driver:bryan:4eb09601387b",
+      "entityName": "Jimmy Bryan",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1962-8:42e8ba6bdefb",
-        "eventIndex": 109,
-        "season": 1962,
-        "round": 8,
-        "date": "1962-10-07",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-8:42e8ba6bdefb",
-        "eventIndex": 109,
-        "season": 1962,
-        "round": 8,
-        "date": "1962-10-07",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:rathmann:5dd609a66a0d",
-      "entityName": "Jim Rathmann",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1956-3:c8841ba792f6",
-        "eventIndex": 50,
-        "season": 1956,
-        "round": 3,
-        "date": "1956-05-30",
+        "eventId": "event:1954-2:5240004faa52",
+        "eventIndex": 33,
+        "season": 1954,
+        "round": 2,
+        "date": "1954-05-31",
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1956-3:c8841ba792f6",
-        "eventIndex": 50,
-        "season": 1956,
-        "round": 3,
-        "date": "1956-05-30",
+        "eventId": "event:1954-2:5240004faa52",
+        "eventIndex": 33,
+        "season": 1954,
+        "round": 2,
+        "date": "1954-05-31",
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:daywalt:dbbe1aac7c9a",
@@ -4146,151 +2859,55 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:bonnier:5fc11359a468",
-      "entityName": "Jo Bonnier",
+      "entityId": "driver:reece:91fbe88bc7df",
+      "entityName": "Jimmy Reece",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1959-3:9a9661ca0e19",
-        "eventIndex": 77,
-        "season": 1959,
-        "round": 3,
-        "date": "1959-05-31",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1958-4:bbcb0b4348e4",
+        "eventIndex": 67,
+        "season": 1958,
+        "round": 4,
+        "date": "1958-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1959-3:9a9661ca0e19",
-        "eventIndex": 77,
-        "season": 1959,
-        "round": 3,
-        "date": "1959-05-31",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1958-4:bbcb0b4348e4",
+        "eventIndex": 67,
+        "season": 1958,
+        "round": 4,
+        "date": "1958-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:siffert:d1cfc3fb1fc0",
       "entityName": "Jo Siffert",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1962-5:a950a9b2e2b3",
-        "eventIndex": 106,
-        "season": 1962,
-        "round": 5,
-        "date": "1962-07-21",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-5:a950a9b2e2b3",
-        "eventIndex": 106,
-        "season": 1962,
-        "round": 5,
-        "date": "1962-07-21",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mass:35e234910d35",
-      "entityName": "Jochen Mass",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1980-11:af26bfcb1659",
-        "eventIndex": 338,
-        "season": 1980,
-        "round": 11,
-        "date": "1980-08-31",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1980-11:af26bfcb1659",
-        "eventIndex": 338,
-        "season": 1980,
-        "round": 11,
-        "date": "1980-08-31",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:scheckter:c14e9982ba2e",
-      "entityName": "Jody Scheckter",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1973-8:ce8e75752158",
-        "eventIndex": 227,
-        "season": 1973,
-        "round": 8,
-        "date": "1973-07-01",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard"
-      },
-      "lastEvent": {
-        "eventId": "event:1973-8:ce8e75752158",
-        "eventIndex": 227,
-        "season": 1973,
-        "round": 8,
-        "date": "1973-07-01",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:miles:f263e46706bb",
-      "entityName": "John Miles",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1970-10:d900d0599a25",
-        "eventIndex": 193,
-        "season": 1970,
+        "eventId": "event:1968-10:15c0991cb8f0",
+        "eventIndex": 170,
+        "season": 1968,
         "round": 10,
-        "date": "1970-09-06",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "date": "1968-09-22",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "tremblant"
       },
       "lastEvent": {
-        "eventId": "event:1970-10:d900d0599a25",
-        "eventIndex": 193,
-        "season": 1970,
+        "eventId": "event:1968-10:15c0991cb8f0",
+        "eventIndex": 170,
+        "season": 1968,
         "round": 10,
-        "date": "1970-09-06",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "date": "1968-09-22",
+        "grandPrixName": "Canadian Grand Prix",
+        "circuitId": "tremblant"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:claes:2bd55dabe37c",
-      "entityName": "Johnny Claes",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1955-4:c773a7513ec5",
-        "eventIndex": 44,
-        "season": 1955,
-        "round": 4,
-        "date": "1955-06-05",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:gavin:7a357fa402cb",
@@ -4314,7 +2931,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:thomson:c53e1f767be3",
@@ -4338,31 +2955,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:bordeu:6484c1650864",
-      "entityName": "Juan Manuel Bordeu",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-4:1e4616924a2d",
-        "eventIndex": 97,
-        "season": 1961,
-        "round": 4,
-        "date": "1961-07-02",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:kobayashi:02f961512374",
@@ -4386,7 +2979,7 @@
         "grandPrixName": "Belgian Grand Prix",
         "circuitId": "spa"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:kling:86e14c6bf2df",
@@ -4410,175 +3003,7 @@
         "grandPrixName": "French Grand Prix",
         "circuitId": "reims"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:wendlinger:e8fbb909096c",
-      "entityName": "Karl Wendlinger",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1994-4:580df63f73aa",
-        "eventIndex": 551,
-        "season": 1994,
-        "round": 4,
-        "date": "1994-05-15",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1994-4:580df63f73aa",
-        "eventIndex": 551,
-        "season": 1994,
-        "round": 4,
-        "date": "1994-05-15",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:greene:49a993efb131",
-      "entityName": "Keith Greene",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-5:a950a9b2e2b3",
-        "eventIndex": 106,
-        "season": 1962,
-        "round": 5,
-        "date": "1962-07-21",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-5:a950a9b2e2b3",
-        "eventIndex": 106,
-        "season": 1962,
-        "round": 5,
-        "date": "1962-07-21",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ken-miles:28f28da8ff0c",
-      "entityName": "Ken Miles",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-8:d34f34a8fdec",
-        "eventIndex": 101,
-        "season": 1961,
-        "round": 8,
-        "date": "1961-10-08",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-8:d34f34a8fdec",
-        "eventIndex": 101,
-        "season": 1961,
-        "round": 8,
-        "date": "1961-10-08",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mcalpine:55332cecc122",
-      "entityName": "Kenneth McAlpine",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:kevin-magnussen:10cdaad4587a",
-      "entityName": "Kevin Magnussen",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2019-7:9571bf010ecd",
-        "eventIndex": 1003,
-        "season": 2019,
-        "round": 7,
-        "date": "2019-06-09",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "villeneuve"
-      },
-      "lastEvent": {
-        "eventId": "event:2019-7:9571bf010ecd",
-        "eventIndex": 1003,
-        "season": 2019,
-        "round": 7,
-        "date": "2019-06-09",
-        "grandPrixName": "Canadian Grand Prix",
-        "circuitId": "villeneuve"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:kuhnke:12104d29c150",
-      "entityName": "Kurt Kuhnke",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-7:cfaeba3dedaf",
-        "eventIndex": 108,
-        "season": 1962,
-        "round": 7,
-        "date": "1962-09-16",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-7:cfaeba3dedaf",
-        "eventIndex": 108,
-        "season": 1962,
-        "round": 7,
-        "date": "1962-09-16",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:reventlow:9b8cc6691a61",
-      "entityName": "Lance Reventlow",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:stroll:ab76996efc92",
@@ -4602,7 +3027,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:wallard:e9ba4db7646c",
@@ -4626,295 +3051,103 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:chiron:fb2a679a6025",
-      "entityName": "Louis Chiron",
+      "entityId": "driver:bandini:7f67fa49cbac",
+      "entityName": "Lorenzo Bandini",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:scarfiotti:62e48ae1a222",
-      "entityName": "Ludovico Scarfiotti",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-2:b1ba5a18a41b",
-        "eventIndex": 112,
+        "eventId": "event:1963-6:c13804ca4295",
+        "eventIndex": 116,
         "season": 1963,
-        "round": 2,
-        "date": "1963-06-09",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "round": 6,
+        "date": "1963-08-04",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
       "lastEvent": {
-        "eventId": "event:1963-2:b1ba5a18a41b",
-        "eventIndex": 112,
+        "eventId": "event:1963-6:c13804ca4295",
+        "eventIndex": 116,
         "season": 1963,
-        "round": 2,
-        "date": "1963-06-09",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
+        "round": 6,
+        "date": "1963-08-04",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:fagioli:05eb09dda820",
-      "entityName": "Luigi Fagioli",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1950-1:17e7244241b0",
-        "eventIndex": 0,
-        "season": 1950,
-        "round": 1,
-        "date": "1950-05-13",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "lastEvent": {
-        "eventId": "event:1950-1:17e7244241b0",
-        "eventIndex": 0,
-        "season": 1950,
-        "round": 1,
-        "date": "1950-05-13",
-        "grandPrixName": "British Grand Prix",
-        "circuitId": "silverstone"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:piotti:b9d67012aa30",
-      "entityName": "Luigi Piotti",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1955-7:d408d1edb8e2",
-        "eventIndex": 47,
-        "season": 1955,
-        "round": 7,
-        "date": "1955-09-11",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1955-7:d408d1edb8e2",
-        "eventIndex": 47,
-        "season": 1955,
-        "round": 7,
-        "date": "1955-09-11",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:villoresi:f59ed3868399",
-      "entityName": "Luigi Villoresi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1952-8:91c7801f4259",
-        "eventIndex": 22,
-        "season": 1952,
-        "round": 8,
-        "date": "1952-09-07",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:manfred-winkelhock:3cbb273aea42",
-      "entityName": "Manfred Winkelhock",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1984-1:895f211bc000",
-        "eventIndex": 388,
-        "season": 1984,
-        "round": 1,
-        "date": "1984-03-25",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "jacarepagua"
-      },
-      "lastEvent": {
-        "eventId": "event:1984-1:895f211bc000",
-        "eventIndex": 388,
-        "season": 1984,
-        "round": 1,
-        "date": "1984-03-25",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "jacarepagua"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:surer:673b65a9e0fe",
-      "entityName": "Marc Surer",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1980-3:430474566b1b",
-        "eventIndex": 330,
-        "season": 1980,
-        "round": 3,
-        "date": "1980-03-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "lastEvent": {
-        "eventId": "event:1980-3:430474566b1b",
-        "eventIndex": 330,
-        "season": 1980,
-        "round": 3,
-        "date": "1980-03-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:donnelly:71245b1034dd",
-      "entityName": "Martin Donnelly",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1990-14:16a55c2de67b",
-        "eventIndex": 497,
-        "season": 1990,
-        "round": 14,
-        "date": "1990-09-30",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "jerez"
-      },
-      "lastEvent": {
-        "eventId": "event:1990-14:16a55c2de67b",
-        "eventIndex": 497,
-        "season": 1990,
-        "round": 14,
-        "date": "1990-09-30",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "jerez"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:natili:56514d69567e",
-      "entityName": "Massimo Natili",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:gregory:3ee4901e4cc4",
       "entityName": "Masten Gregory",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
       },
       "lastEvent": {
-        "eventId": "event:1960-4:9279c1e71012",
-        "eventIndex": 87,
-        "season": 1960,
-        "round": 4,
-        "date": "1960-06-06",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1959-7:2aa7c85a7338",
+        "eventIndex": 81,
+        "season": 1959,
+        "round": 7,
+        "date": "1959-08-23",
+        "grandPrixName": "Portuguese Grand Prix",
+        "circuitId": "monsanto"
       },
-      "rank": 100
+      "rank": 94
+    },
+    {
+      "entityId": "driver:rose:9326f1bb5ba7",
+      "entityName": "Mauri Rose",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:1950-3:ec906a594187",
+        "eventIndex": 2,
+        "season": 1950,
+        "round": 3,
+        "date": "1950-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "lastEvent": {
+        "eventId": "event:1950-3:ec906a594187",
+        "eventIndex": 2,
+        "season": 1950,
+        "round": 3,
+        "date": "1950-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 94
     },
     {
       "entityId": "driver:trintignant:aaf24838e239",
       "entityName": "Maurice Trintignant",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1962-1:855636c4d564",
-        "eventIndex": 102,
-        "season": 1962,
-        "round": 1,
-        "date": "1962-05-20",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1952-6:32fc3ad3d7b8",
+        "eventIndex": 20,
+        "season": 1952,
+        "round": 6,
+        "date": "1952-08-03",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
       "lastEvent": {
-        "eventId": "event:1962-1:855636c4d564",
-        "eventIndex": 102,
-        "season": 1962,
-        "round": 1,
-        "date": "1962-05-20",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
+        "eventId": "event:1952-6:32fc3ad3d7b8",
+        "eventIndex": 20,
+        "season": 1952,
+        "round": 6,
+        "date": "1952-08-03",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:boffa:0d642672c771",
-      "entityName": "Menato Boffa",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-7:a91a6b659163",
-        "eventIndex": 100,
-        "season": 1961,
-        "round": 7,
-        "date": "1961-09-10",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:alboreto:2d39fb3c5621",
@@ -4938,175 +3171,31 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "jacarepagua"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mick-schumacher:b0fc10b65ab1",
-      "entityName": "Mick Schumacher",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2022-2:33711984769c",
-        "eventIndex": 1058,
-        "season": 2022,
-        "round": 2,
-        "date": "2022-03-27",
-        "grandPrixName": "Saudi Arabian Grand Prix",
-        "circuitId": "jeddah"
-      },
-      "lastEvent": {
-        "eventId": "event:2022-2:33711984769c",
-        "eventIndex": 1058,
-        "season": 2022,
-        "round": 2,
-        "date": "2022-03-27",
-        "grandPrixName": "Saudi Arabian Grand Prix",
-        "circuitId": "jeddah"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:salo:781a02b584f4",
-      "entityName": "Mika Salo",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2000-2:d2eff4a5575a",
-        "eventIndex": 647,
-        "season": 2000,
-        "round": 2,
-        "date": "2000-03-26",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
-      },
-      "lastEvent": {
-        "eventId": "event:2000-2:d2eff4a5575a",
-        "eventIndex": 647,
-        "season": 2000,
-        "round": 2,
-        "date": "2000-03-26",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:hailwood:4e09b7074b10",
-      "entityName": "Mike Hailwood",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:parkes:7f840207ba67",
       "entityName": "Mike Parkes",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1966-7:d7b3b5648f4d",
-        "eventIndex": 147,
+        "eventId": "event:1966-3:fefe5ea0765d",
+        "eventIndex": 143,
         "season": 1966,
-        "round": 7,
-        "date": "1966-09-04",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "round": 3,
+        "date": "1966-07-03",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
       },
       "lastEvent": {
-        "eventId": "event:1966-7:d7b3b5648f4d",
-        "eventIndex": 147,
+        "eventId": "event:1966-3:fefe5ea0765d",
+        "eventIndex": 143,
         "season": 1966,
-        "round": 7,
-        "date": "1966-09-04",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "round": 3,
+        "date": "1966-07-03",
+        "grandPrixName": "French Grand Prix",
+        "circuitId": "reims"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:spence:313ab04cb5b8",
-      "entityName": "Mike Spence",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1964-9:4176e42080e2",
-        "eventIndex": 129,
-        "season": 1964,
-        "round": 9,
-        "date": "1964-10-04",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "lastEvent": {
-        "eventId": "event:1964-9:4176e42080e2",
-        "eventIndex": 129,
-        "season": 1964,
-        "round": 9,
-        "date": "1964-10-04",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "watkins_glen"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:lederle:e58196dbc192",
-      "entityName": "Neville Lederle",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:latifi:75b7e3a4e06c",
-      "entityName": "Nicholas Latifi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2020-14:25feaca11eb8",
-        "eventIndex": 1031,
-        "season": 2020,
-        "round": 14,
-        "date": "2020-11-15",
-        "grandPrixName": "Turkish Grand Prix",
-        "circuitId": "istanbul"
-      },
-      "lastEvent": {
-        "eventId": "event:2020-14:25feaca11eb8",
-        "eventIndex": 1031,
-        "season": 2020,
-        "round": 14,
-        "date": "2020-11-15",
-        "grandPrixName": "Turkish Grand Prix",
-        "circuitId": "istanbul"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:heidfeld:93c047ca98eb",
@@ -5130,7 +3219,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:hulkenberg:2b1121e9241c",
@@ -5154,79 +3243,31 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:larini:215a8f59acc6",
-      "entityName": "Nicola Larini",
+      "entityId": "driver:gendebien:722aba0155e5",
+      "entityName": "Olivier Gendebien",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1988-2:450c92b8b969",
-        "eventIndex": 453,
-        "season": 1988,
-        "round": 2,
-        "date": "1988-05-01",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "eventId": "event:1961-3:0d20729ed42f",
+        "eventIndex": 96,
+        "season": 1961,
+        "round": 3,
+        "date": "1961-06-18",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
       },
       "lastEvent": {
-        "eventId": "event:1988-2:450c92b8b969",
-        "eventIndex": 453,
-        "season": 1988,
-        "round": 2,
-        "date": "1988-05-01",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "eventId": "event:1961-3:0d20729ed42f",
+        "eventIndex": 96,
+        "season": 1961,
+        "round": 3,
+        "date": "1961-06-18",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:stuppacher:8988fe658988",
-      "entityName": "Otto Stuppacher",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "lastEvent": {
-        "eventId": "event:1976-13:73710ebe3b9a",
-        "eventIndex": 276,
-        "season": 1976,
-        "round": 13,
-        "date": "1976-09-12",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:driver:ab08670fe170",
-      "entityName": "Paddy Driver",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-10:cc756406bc73",
-        "eventIndex": 120,
-        "season": 1963,
-        "round": 10,
-        "date": "1963-12-28",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:maldonado:87cbc81409ca",
@@ -5250,7 +3291,7 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "catalunya"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:flaherty:788ffe6330c5",
@@ -5274,79 +3315,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:connor:2805a88a8f76",
-      "entityName": "Pat O'Connor",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1957-3:7879775c4522",
-        "eventIndex": 58,
-        "season": 1957,
-        "round": 3,
-        "date": "1957-05-30",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "lastEvent": {
-        "eventId": "event:1957-3:7879775c4522",
-        "eventIndex": 58,
-        "season": 1957,
-        "round": 3,
-        "date": "1957-05-30",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:paul-russo:bc0ac810efca",
-      "entityName": "Paul Russo",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1955-3:38bb4803a341",
-        "eventIndex": 43,
-        "season": 1955,
-        "round": 3,
-        "date": "1955-05-30",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "lastEvent": {
-        "eventId": "event:1955-3:38bb4803a341",
-        "eventIndex": 43,
-        "season": 1955,
-        "round": 3,
-        "date": "1955-05-30",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:diniz:cf7429166aa8",
-      "entityName": "Pedro Diniz",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2000-2:d2eff4a5575a",
-        "eventIndex": 647,
-        "season": 2000,
-        "round": 2,
-        "date": "2000-03-26",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
-      },
-      "lastEvent": {
-        "eventId": "event:2000-2:d2eff4a5575a",
-        "eventIndex": 647,
-        "season": 2000,
-        "round": 2,
-        "date": "2000-03-26",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:rodriguez:300e7465db9d",
@@ -5370,151 +3339,7 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "jarama"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mccarthy:b8851d929500",
-      "entityName": "Perry McCarthy",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1992-10:3268745c9b07",
-        "eventIndex": 525,
-        "season": 1992,
-        "round": 10,
-        "date": "1992-07-26",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "hockenheimring"
-      },
-      "lastEvent": {
-        "eventId": "event:1992-10:3268745c9b07",
-        "eventIndex": 525,
-        "season": 1992,
-        "round": 10,
-        "date": "1992-07-26",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "hockenheimring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:collins:98c51dae7baf",
-      "entityName": "Peter Collins",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1954-9:062522bf1ca1",
-        "eventIndex": 40,
-        "season": 1954,
-        "round": 9,
-        "date": "1954-10-24",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "pedralbes"
-      },
-      "lastEvent": {
-        "eventId": "event:1954-9:062522bf1ca1",
-        "eventIndex": 40,
-        "season": 1954,
-        "round": 9,
-        "date": "1954-10-24",
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "pedralbes"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:monteverdi:3940a7ca9ad5",
-      "entityName": "Peter Monteverdi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:cade:ca53dfade150",
-      "entityName": "Phil Cade",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1959-9:4f137a6feb6a",
-        "eventIndex": 83,
-        "season": 1959,
-        "round": 9,
-        "date": "1959-12-12",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "sebring"
-      },
-      "lastEvent": {
-        "eventId": "event:1959-9:4f137a6feb6a",
-        "eventIndex": 83,
-        "season": 1959,
-        "round": 9,
-        "date": "1959-12-12",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "sebring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:alliot:23d3d78d6458",
-      "entityName": "Philippe Alliot",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1990-1:ec19bc058aa9",
-        "eventIndex": 484,
-        "season": 1990,
-        "round": 1,
-        "date": "1990-03-11",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "phoenix"
-      },
-      "lastEvent": {
-        "eventId": "event:1990-1:ec19bc058aa9",
-        "eventIndex": 484,
-        "season": 1990,
-        "round": 1,
-        "date": "1990-03-11",
-        "grandPrixName": "United States Grand Prix",
-        "circuitId": "phoenix"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ghinzani:299259c20157",
-      "entityName": "Piercarlo Ghinzani",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1984-2:7dc47168cc2e",
-        "eventIndex": 389,
-        "season": 1984,
-        "round": 2,
-        "date": "1984-04-07",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "lastEvent": {
-        "eventId": "event:1984-2:7dc47168cc2e",
-        "eventIndex": 389,
-        "season": 1984,
-        "round": 2,
-        "date": "1984-04-07",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "kyalami"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:martini:208a122d480a",
@@ -5538,127 +3363,55 @@
         "grandPrixName": "United States Grand Prix",
         "circuitId": "phoenix"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:taruffi:4246f1de7460",
-      "entityName": "Piero Taruffi",
+      "entityId": "driver:gasly:0fca70394caf",
+      "entityName": "Pierre Gasly",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1952-1:1f5bbc70f213",
-        "eventIndex": 15,
-        "season": 1952,
-        "round": 1,
-        "date": "1952-05-18",
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten"
+        "eventId": "event:2021-20:0022a6e448f5",
+        "eventIndex": 1054,
+        "season": 2021,
+        "round": 20,
+        "date": "2021-11-21",
+        "grandPrixName": "Qatar Grand Prix",
+        "circuitId": "losail"
       },
       "lastEvent": {
-        "eventId": "event:1952-1:1f5bbc70f213",
-        "eventIndex": 15,
-        "season": 1952,
-        "round": 1,
-        "date": "1952-05-18",
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten"
+        "eventId": "event:2021-20:0022a6e448f5",
+        "eventIndex": 1054,
+        "season": 2021,
+        "round": 20,
+        "date": "2021-11-21",
+        "grandPrixName": "Qatar Grand Prix",
+        "circuitId": "losail"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:courage:8b390088e81a",
-      "entityName": "Piers Courage",
+      "entityId": "driver:reg-parnell:2af78d34e726",
+      "entityName": "Reg Parnell",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1967-6:ec475821fcd6",
-        "eventIndex": 155,
-        "season": 1967,
-        "round": 6,
-        "date": "1967-07-15",
+        "eventId": "event:1950-1:17e7244241b0",
+        "eventIndex": 0,
+        "season": 1950,
+        "round": 1,
+        "date": "1950-05-13",
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:1967-6:ec475821fcd6",
-        "eventIndex": 155,
-        "season": 1967,
-        "round": 6,
-        "date": "1967-07-15",
+        "eventId": "event:1950-1:17e7244241b0",
+        "eventIndex": 0,
+        "season": 1950,
+        "round": 1,
+        "date": "1950-05-13",
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:reed:3b81e1ec2f1f",
-      "entityName": "Ray Reed",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1965-1:4179a2ceebe5",
-        "eventIndex": 131,
-        "season": 1965,
-        "round": 1,
-        "date": "1965-01-01",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:pirocchi:8b9824b5cea6",
-      "entityName": "Renato Pirocchi",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "lastEvent": {
-        "eventId": "event:1961-6:d44874e8179f",
-        "eventIndex": 99,
-        "season": 1961,
-        "round": 6,
-        "date": "1961-08-06",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:londono:e7c1b970eb48",
-      "entityName": "Ricardo Londoño",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1981-2:207f61b9a60c",
-        "eventIndex": 343,
-        "season": 1981,
-        "round": 2,
-        "date": "1981-03-29",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "jacarepagua"
-      },
-      "lastEvent": {
-        "eventId": "event:1981-2:207f61b9a60c",
-        "eventIndex": 343,
-        "season": 1981,
-        "round": 2,
-        "date": "1981-03-29",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "jacarepagua"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:ricardo-rodriguez:fc6425ccdfd4",
@@ -5682,31 +3435,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:slotemaker:db2f26842d40",
-      "entityName": "Rob Slotemaker",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-1:855636c4d564",
-        "eventIndex": 102,
-        "season": 1962,
-        "round": 1,
-        "date": "1962-05-20",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-1:855636c4d564",
-        "eventIndex": 102,
-        "season": 1962,
-        "round": 1,
-        "date": "1962-05-20",
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:kubica:54803f2070f9",
@@ -5730,247 +3459,79 @@
         "grandPrixName": "Australian Grand Prix",
         "circuitId": "albert_park"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:manzon:d6fb01b246ff",
-      "entityName": "Robert Manzon",
+      "entityId": "driver:ward:c57d8b2b0b67",
+      "entityName": "Rodger Ward",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1954-7:aa31e03f97aa",
-        "eventIndex": 38,
-        "season": 1954,
-        "round": 7,
-        "date": "1954-08-22",
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten"
-      },
-      "lastEvent": {
-        "eventId": "event:1954-7:aa31e03f97aa",
-        "eventIndex": 38,
-        "season": 1954,
-        "round": 7,
-        "date": "1954-08-22",
-        "grandPrixName": "Swiss Grand Prix",
-        "circuitId": "bremgarten"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:bussinello:25e04b3d1fe8",
-      "entityName": "Roberto Bussinello",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-2:8e89d21270a2",
-        "eventIndex": 103,
-        "season": 1962,
-        "round": 2,
-        "date": "1962-06-03",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-2:8e89d21270a2",
-        "eventIndex": 103,
-        "season": 1962,
-        "round": 2,
-        "date": "1962-06-03",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:moreno:0f9812889ee3",
-      "entityName": "Roberto Moreno",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1990-6:686d873ed0b3",
-        "eventIndex": 489,
-        "season": 1990,
-        "round": 6,
-        "date": "1990-06-24",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "lastEvent": {
-        "eventId": "event:1990-6:686d873ed0b3",
-        "eventIndex": 489,
-        "season": 1990,
-        "round": 6,
-        "date": "1990-06-24",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:ratzenberger:d1c6b8aeb8da",
-      "entityName": "Roland Ratzenberger",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1994-3:159644e08a6e",
-        "eventIndex": 550,
-        "season": 1994,
+        "eventId": "event:1960-3:923ea1f02fc0",
+        "eventIndex": 86,
+        "season": 1960,
         "round": 3,
-        "date": "1994-05-01",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "date": "1960-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1994-3:159644e08a6e",
-        "eventIndex": 550,
-        "season": 1994,
+        "eventId": "event:1960-3:923ea1f02fc0",
+        "eventIndex": 86,
+        "season": 1960,
         "round": 3,
-        "date": "1994-05-01",
-        "grandPrixName": "San Marino Grand Prix",
-        "circuitId": "imola"
+        "date": "1960-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
+    },
+    {
+      "entityId": "driver:grosjean:47652bcecb94",
+      "entityName": "Romain Grosjean",
+      "value": 1,
+      "firstEvent": {
+        "eventId": "event:2012-11:ab46f7355d22",
+        "eventIndex": 868,
+        "season": 2012,
+        "round": 11,
+        "date": "2012-07-29",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "lastEvent": {
+        "eventId": "event:2012-11:ab46f7355d22",
+        "eventIndex": 868,
+        "season": 2012,
+        "round": 11,
+        "date": "2012-07-29",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "rank": 94
     },
     {
       "entityId": "driver:salvadori:4d60a7acf3d2",
       "entityName": "Roy Salvadori",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1959-5:4bea6b049b28",
-        "eventIndex": 79,
-        "season": 1959,
-        "round": 5,
-        "date": "1959-07-18",
+        "eventId": "event:1958-7:f2846249a45c",
+        "eventIndex": 70,
+        "season": 1958,
+        "round": 7,
+        "date": "1958-07-19",
         "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
+        "circuitId": "silverstone"
       },
       "lastEvent": {
-        "eventId": "event:1959-5:4bea6b049b28",
-        "eventIndex": 79,
-        "season": 1959,
-        "round": 5,
-        "date": "1959-07-18",
+        "eventId": "event:1958-7:f2846249a45c",
+        "eventIndex": 70,
+        "season": 1958,
+        "round": 7,
+        "date": "1958-07-19",
         "grandPrixName": "British Grand Prix",
-        "circuitId": "aintree"
+        "circuitId": "silverstone"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:keegan:9cc7f62911a5",
-      "entityName": "Rupert Keegan",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1978-4:48c19e2205ab",
-        "eventIndex": 300,
-        "season": 1978,
-        "round": 4,
-        "date": "1978-04-02",
-        "grandPrixName": "United States Grand Prix West",
-        "circuitId": "long_beach"
-      },
-      "lastEvent": {
-        "eventId": "event:1978-4:48c19e2205ab",
-        "eventIndex": 300,
-        "season": 1978,
-        "round": 4,
-        "date": "1978-04-02",
-        "grandPrixName": "United States Grand Prix West",
-        "circuitId": "long_beach"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:tingle:82e1e6abd6a2",
-      "entityName": "Sam Tingle",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:satoru-nakajima:b7442aeaca6b",
-      "entityName": "Satoru Nakajima",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1990-13:734362a3d688",
-        "eventIndex": 496,
-        "season": 1990,
-        "round": 13,
-        "date": "1990-09-23",
-        "grandPrixName": "Portuguese Grand Prix",
-        "circuitId": "estoril"
-      },
-      "lastEvent": {
-        "eventId": "event:1990-13:734362a3d688",
-        "eventIndex": 496,
-        "season": 1990,
-        "round": 13,
-        "date": "1990-09-23",
-        "grandPrixName": "Portuguese Grand Prix",
-        "circuitId": "estoril"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:mantovani:3cdf399c8687",
-      "entityName": "Sergio Mantovani",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1954-4:9fa19eee092c",
-        "eventIndex": 35,
-        "season": 1954,
-        "round": 4,
-        "date": "1954-07-04",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "lastEvent": {
-        "eventId": "event:1954-4:9fa19eee092c",
-        "eventIndex": 35,
-        "season": 1954,
-        "round": 4,
-        "date": "1954-07-04",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "reims"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:bellof:86bfc8a2a04f",
-      "entityName": "Stefan Bellof",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1984-12:169209ded931",
-        "eventIndex": 399,
-        "season": 1984,
-        "round": 12,
-        "date": "1984-08-19",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "lastEvent": {
-        "eventId": "event:1984-12:169209ded931",
-        "eventIndex": 399,
-        "season": 1984,
-        "round": 12,
-        "date": "1984-08-19",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:johansson:036b6578adb4",
@@ -5994,55 +3555,31 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:lewis-evans:5822738a2722",
-      "entityName": "Stuart Lewis-Evans",
+      "entityId": "driver:modena:529f1b5727b0",
+      "entityName": "Stefano Modena",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1957-8:c9cb0f1970a9",
-        "eventIndex": 63,
-        "season": 1957,
-        "round": 8,
-        "date": "1957-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1991-4:bcaa96d42aa2",
+        "eventIndex": 503,
+        "season": 1991,
+        "round": 4,
+        "date": "1991-05-12",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
       },
       "lastEvent": {
-        "eventId": "event:1957-8:c9cb0f1970a9",
-        "eventIndex": 63,
-        "season": 1957,
-        "round": 8,
-        "date": "1957-09-08",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
+        "eventId": "event:1991-4:bcaa96d42aa2",
+        "eventIndex": 503,
+        "season": 1991,
+        "round": 4,
+        "date": "1991-05-12",
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:vyver:8220dbebbfb9",
-      "entityName": "Syd van der Vyver",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "lastEvent": {
-        "eventId": "event:1962-9:03cdea77e2b5",
-        "eventIndex": 110,
-        "season": 1962,
-        "round": 9,
-        "date": "1962-12-29",
-        "grandPrixName": "South African Grand Prix",
-        "circuitId": "george"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:sato:1e3f20b0ae9f",
@@ -6066,31 +3603,7 @@
         "grandPrixName": "European Grand Prix",
         "circuitId": "nurburgring"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:marques:c003eb983613",
-      "entityName": "Tarso Marques",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1997-14:852c5ebde518",
-        "eventIndex": 610,
-        "season": 1997,
-        "round": 14,
-        "date": "1997-09-21",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "lastEvent": {
-        "eventId": "event:1997-14:852c5ebde518",
-        "eventIndex": 610,
-        "season": 1997,
-        "round": 14,
-        "date": "1997-09-21",
-        "grandPrixName": "Austrian Grand Prix",
-        "circuitId": "red_bull_ring"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:boutsen:956ebe879bfd",
@@ -6114,31 +3627,7 @@
         "grandPrixName": "Hungarian Grand Prix",
         "circuitId": "hungaroring"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:monarch:888f7fb55e64",
-      "entityName": "Thomas Monarch",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1963-9:975f71324213",
-        "eventIndex": 119,
-        "season": 1963,
-        "round": 9,
-        "date": "1963-10-27",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "lastEvent": {
-        "eventId": "event:1963-9:975f71324213",
-        "eventIndex": 119,
-        "season": 1963,
-        "round": 9,
-        "date": "1963-10-27",
-        "grandPrixName": "Mexican Grand Prix",
-        "circuitId": "rodriguez"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:glock:55cf369e2b70",
@@ -6162,7 +3651,7 @@
         "grandPrixName": "Bahrain Grand Prix",
         "circuitId": "bahrain"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:pryce:39ca1ccd66f2",
@@ -6186,7 +3675,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:bettenhausen:63acf7dcd43a",
@@ -6210,79 +3699,55 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:brooks:4c43a3935c07",
-      "entityName": "Tony Brooks",
+      "entityId": "driver:trevor-taylor:a7a269bbea32",
+      "entityName": "Trevor Taylor",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1962-3:81627b2e86b0",
+        "eventIndex": 104,
+        "season": 1962,
+        "round": 3,
+        "date": "1962-06-17",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
       },
       "lastEvent": {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "eventIndex": 49,
-        "season": 1956,
-        "round": 2,
-        "date": "1956-05-13",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
+        "eventId": "event:1962-3:81627b2e86b0",
+        "eventIndex": 104,
+        "season": 1962,
+        "round": 3,
+        "date": "1962-06-17",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
       },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:ruttman:3e2eedf09bb0",
       "entityName": "Troy Ruttman",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:1958-8:8961ac3c7027",
-        "eventIndex": 71,
-        "season": 1958,
-        "round": 8,
-        "date": "1958-08-03",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "eventId": "event:1957-3:7879775c4522",
+        "eventIndex": 58,
+        "season": 1957,
+        "round": 3,
+        "date": "1957-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
       "lastEvent": {
-        "eventId": "event:1958-8:8961ac3c7027",
-        "eventIndex": 71,
-        "season": 1958,
-        "round": 8,
-        "date": "1958-08-03",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "nurburgring"
+        "eventId": "event:1957-3:7879775c4522",
+        "eventIndex": 58,
+        "season": 1957,
+        "round": 3,
+        "date": "1957-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:vic-wilson:8d3f5c1ddb3a",
-      "entityName": "Vic Wilson",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1966-2:a1b0ac897f3d",
-        "eventIndex": 142,
-        "season": 1966,
-        "round": 2,
-        "date": "1966-06-12",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1966-2:a1b0ac897f3d",
-        "eventIndex": 142,
-        "season": 1966,
-        "round": 2,
-        "date": "1966-06-12",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:brambilla:080b064099a9",
@@ -6306,31 +3771,7 @@
         "grandPrixName": "Swedish Grand Prix",
         "circuitId": "anderstorp"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:weidler:4747a8401561",
-      "entityName": "Volker Weidler",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1989-9:fa840b86bd66",
-        "eventIndex": 476,
-        "season": 1989,
-        "round": 9,
-        "date": "1989-07-30",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "hockenheimring"
-      },
-      "lastEvent": {
-        "eventId": "event:1989-9:fa840b86bd66",
-        "eventIndex": 476,
-        "season": 1989,
-        "round": 9,
-        "date": "1989-07-30",
-        "grandPrixName": "German Grand Prix",
-        "circuitId": "hockenheimring"
-      },
-      "rank": 100
+      "rank": 94
     },
     {
       "entityId": "driver:faulkner:8908310cfca3",
@@ -6354,79 +3795,31 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 100
+      "rank": 94
     },
     {
-      "entityId": "driver:stevens:b01c293780fd",
-      "entityName": "Will Stevens",
+      "entityId": "driver:mairesse:e49ae6f518af",
+      "entityName": "Willy Mairesse",
       "value": 1,
       "firstEvent": {
-        "eventId": "event:2015-2:39caa3ecc510",
-        "eventIndex": 917,
-        "season": 2015,
-        "round": 2,
-        "date": "2015-03-29",
-        "grandPrixName": "Malaysian Grand Prix",
-        "circuitId": "sepang"
+        "eventId": "event:1960-9:06ca6e69776d",
+        "eventIndex": 92,
+        "season": 1960,
+        "round": 9,
+        "date": "1960-09-04",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
       },
       "lastEvent": {
-        "eventId": "event:2015-2:39caa3ecc510",
-        "eventIndex": 917,
-        "season": 2015,
-        "round": 2,
-        "date": "2015-03-29",
-        "grandPrixName": "Malaysian Grand Prix",
-        "circuitId": "sepang"
+        "eventId": "event:1960-9:06ca6e69776d",
+        "eventIndex": 92,
+        "season": 1960,
+        "round": 9,
+        "date": "1960-09-04",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
       },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:tsunoda:d77287c8b9c8",
-      "entityName": "Yuki Tsunoda",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:2021-7:c18aff89cfe9",
-        "eventIndex": 1041,
-        "season": 2021,
-        "round": 7,
-        "date": "2021-06-20",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard"
-      },
-      "lastEvent": {
-        "eventId": "event:2021-7:c18aff89cfe9",
-        "eventIndex": 1041,
-        "season": 2021,
-        "round": 7,
-        "date": "2021-06-20",
-        "grandPrixName": "French Grand Prix",
-        "circuitId": "ricard"
-      },
-      "rank": 100
-    },
-    {
-      "entityId": "driver:comas:9039ac4d7d3a",
-      "entityName": "Érik Comas",
-      "value": 1,
-      "firstEvent": {
-        "eventId": "event:1992-12:18f541cdd545",
-        "eventIndex": 527,
-        "season": 1992,
-        "round": 12,
-        "date": "1992-08-30",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "lastEvent": {
-        "eventId": "event:1992-12:18f541cdd545",
-        "eventIndex": 527,
-        "season": 1992,
-        "round": 12,
-        "date": "1992-08-30",
-        "grandPrixName": "Belgian Grand Prix",
-        "circuitId": "spa"
-      },
-      "rank": 100
+      "rank": 94
     }
   ]
 }

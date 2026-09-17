@@ -3,10 +3,10 @@ project:
   id: entrance-f1-data
   displayName: ENTRANCE F1 Data
 role: published F1 data contract
-handoffVersion: 33
+handoffVersion: 34
 currentState:
-  status: published-automated-core-and-rankings
-  summary: "The hosted publisher activated refreshed R14 Results, Standings, Stats Core, all 144 backfill metrics and current Catalogue data. Current F1DB secondary inputs and official session/timing extensions are durable published contracts. Power, Value and Team independently published at the current cutoff; unchanged-input no-ops preserve releases. Live public verification passed. Revised Core scheduled success remains unobserved."
+  status: stats-controlled-release-prepared
+  summary: "Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate."
 currentFocus:
   - id: focus-publish-boundary
     summary: Preserve the boundary between this validated Hungary candidate and live publication; claim Hungary production coverage only after direct endpoint verification.
