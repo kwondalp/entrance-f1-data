@@ -46,14 +46,54 @@
   },
   "withheld": [],
   "historicalResearchPerformed": false,
-  "activationDecision": "Owner-authorized exact selected leader-age package; live verification follows activation.",
-  "publicAvailable": 166,
-  "publicWithheld": 3,
+  "activationDecision": "Owner-authorized selected package publicly deployed and verified.",
+  "publicAvailable": 169,
+  "publicWithheld": 0,
   "all166AvailablePayloadsByteIdentical": true,
   "toolsFocusedPassed": 70,
   "developmentBranch": "codex/stats-withheld-repair-20260917",
-  "publicDataCommit": "5514c899414f8bd78d26521b70ae1fb18b139a1d",
-  "publicCatalogueSha256": "3299a1f678825a7c8edb8be8c257dcd063938075dd2d4b293321c4fc8618c9cb",
+  "publicDataCommit": "3f7b56b8acd0613be686b0f6d21f1dc7b915e1a1",
+  "publicCatalogueSha256": "9ffb7a678c87dce5cc24844a6b8f11a0076d56abfdce25382c13348c0538f5e5",
   "toolsCommit": "32bb74c077ba3aab3f374fe109176a4d070b5d7e",
-  "decisionEvidence": "https://github.com/kwondalp/entrance-f1-data-tools/blob/32bb74c077ba3aab3f374fe109176a4d070b5d7e/fixtures/stats-leader-count-decisions-20260917.json"
+  "decisionEvidence": "https://github.com/kwondalp/entrance-f1-data-tools/blob/32bb74c077ba3aab3f374fe109176a4d070b5d7e/fixtures/stats-leader-count-decisions-20260917.json",
+  "publication": {
+    "status": "live_verified",
+    "mainCommits": {
+      "tools": "32bb74c077ba3aab3f374fe109176a4d070b5d7e",
+      "web": "26c4ad3c8127a01cac8f9d035890e7c6127af797",
+      "data": "3f7b56b8acd0613be686b0f6d21f1dc7b915e1a1"
+    },
+    "activationOrder": [
+      "tools",
+      "web",
+      "data"
+    ],
+    "backups": {
+      "ref": "backup/main-2026-09-18-before-leader-age-release",
+      "tools": "dee25b748061abb8af73a2e38380281c94c52ce9",
+      "web": "14f5eb2d415d98f57d1c6e4da03169971fad3012",
+      "data": "5514c899414f8bd78d26521b70ae1fb18b139a1d"
+    },
+    "dataPagesRun": 35238055457,
+    "dataPagesConclusion": "success",
+    "webCloudflareCheck": "success",
+    "compatibleWebRuntimeSha256": "ff97e3118626be5bcdbd852f4cdb8d6bfb29cff016bcdc49d3a5efb19bfc4766",
+    "catalogueSha256": "9ffb7a678c87dce5cc24844a6b8f11a0076d56abfdce25382c13348c0538f5e5",
+    "available": 169,
+    "withheld": 0,
+    "liveHashChecks": 7,
+    "liveBrowserChecks": 15,
+    "automation": {
+      "ENTRANCE_AUTOMATION_ENABLED": "true",
+      "ENTRANCE_POWER_RATING_ENABLED": "true",
+      "restoredAtUtc": "2026-09-17T15:09:09Z",
+      "transitionScheduledRun": 35236769518,
+      "transitionRunConclusion": "cancelled",
+      "transitionReason": "Run began immediately before publication switches were paused; normal cancellation completed before main integration.",
+      "stateBranchPreserved": "automation/post-session-state",
+      "stateBranchObservedCommitPrefix": "700e831"
+    },
+    "releaseBlockers": [],
+    "documentationBranch": "codex/stats-withheld-repair-20260917"
+  }
 }

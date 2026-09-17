@@ -530,3 +530,8 @@ The eleven owner editorial DOB-dependent metrics are live and validated. The sep
 ## Four-event leader-age release
 
 Contemporary results and the Canadian World Council classification decision resolve the remaining counted-lap discrepancies. Three leader-age metrics pass complete event, identity, DOB and nationality coverage. The selected package has 169 available metrics and no withheld supplementary metrics; all 166 previously available payloads remain byte-identical. Original conflicting sources, owner DOB decisions and the full-lap-order boundary remain intact. Normal regeneration and focused regressions pass. The existing owner authorization covers publication; actual activation and live checks are recorded separately in the existing progress/dependency documents.
+
+
+## Leader-age release verified live
+
+Three race-leader age metrics are publicly deployed and verified. The supplementary contract now has 169 available metrics and none withheld. All 166 previous payloads and eleven owner editorial DOB choices are preserved by normal regeneration; full lap-order coverage remains 798. Live hashes and desktop/mobile checks pass, and scheduled automation is restored. Exact release and backup references are recorded in the existing progress/dependency documents. The previous source-conflict decisions and rejected-candidate history remain preserved. The three new metrics have complete event, identity, DOB and nationality dependencies; no full lap charts or unrelated metrics were added.
