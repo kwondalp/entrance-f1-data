@@ -3,8 +3,8 @@
   "entity": "drivers",
   "statisticId": "youngest_championship_leaders",
   "metricId": "approvedDriverGrandsPrixYoungestChampionshipLeaders",
-  "loadedRowCount": 68,
-  "rowCount": 68,
+  "loadedRowCount": 69,
+  "rowCount": 69,
   "rows": [
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
@@ -1898,6 +1898,37 @@
       }
     },
     {
+      "entityId": "driver:behra:ad2c71791765",
+      "entityName": "Jean Behra",
+      "value": 12758,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1956-1:933b870c7068"
+      ],
+      "ageDays": 12758,
+      "ageYears": 34,
+      "ageRemainderDays": 340,
+      "dateOfBirth": "1921-02-16",
+      "valueEvent": {
+        "eventId": "event:1956-1:933b870c7068",
+        "eventIndex": 48,
+        "season": 1956,
+        "round": 1,
+        "date": "1956-01-22",
+        "grandPrixName": "Argentine Grand Prix",
+        "circuitId": "galvez"
+      },
+      "rank": 62,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:behra:ad2c71791765",
+        "sourcePath": "details/drivers/9.json",
+        "eventIds": [
+          "event:1956-1:933b870c7068"
+        ]
+      }
+    },
+    {
       "entityId": "driver:laffite:36bfb487a39b",
       "entityName": "Jacques Laffite",
       "value": 12845,
@@ -1918,7 +1949,7 @@
         "grandPrixName": "Argentine Grand Prix",
         "circuitId": "galvez"
       },
-      "rank": 62,
+      "rank": 63,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:laffite:36bfb487a39b",
@@ -1949,7 +1980,7 @@
         "grandPrixName": "Detroit Grand Prix",
         "circuitId": "detroit"
       },
-      "rank": 63,
+      "rank": 64,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:watson:fc3a45a5856b",
@@ -1980,7 +2011,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 64,
+      "rank": 65,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:trintignant:aaf24838e239",
@@ -2011,7 +2042,7 @@
         "grandPrixName": "Monaco Grand Prix",
         "circuitId": "monaco"
       },
-      "rank": 65,
+      "rank": 66,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:fangio:56835a0b6237",
@@ -2042,7 +2073,7 @@
         "grandPrixName": "Indianapolis 500",
         "circuitId": "indianapolis"
       },
-      "rank": 66,
+      "rank": 67,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:wallard:e9ba4db7646c",
@@ -2073,7 +2104,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 67,
+      "rank": 68,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:farina:edc963649157",
@@ -2104,7 +2135,7 @@
         "grandPrixName": "Swiss Grand Prix",
         "circuitId": "bremgarten"
       },
-      "rank": 68,
+      "rank": 69,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:taruffi:4246f1de7460",
@@ -2129,28 +2160,15 @@
     "evidenceAssessment": {
       "schemaVersion": "stats-evidence-assessment.v1",
       "family": "age",
-      "status": "incomplete",
-      "rankingComplete": false,
-      "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-      "missingEvidence": "Separate human acceptance of additional DOB source bindings, beyond the race-winner cohort."
+      "status": "complete",
+      "rankingComplete": true,
+      "notice": "",
+      "missingEvidence": ""
     },
-    "note": "Ages use the separately accepted 116-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
-    "knownExclusions": [
-      "An eligible participant lacks separately accepted birthdate evidence; no review decision is auto-approved."
-    ],
-    "excludedEntityCount": 1,
+    "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+    "knownExclusions": [],
+    "excludedEntityCount": 0,
     "excludedEventCount": 0
   },
-  "exclusions": [
-    {
-      "entityId": "driver:behra:ad2c71791765",
-      "eventIds": [
-        "event:1956-1:933b870c7068",
-        "event:1956-2:1b6937af23f7",
-        "event:1956-3:c8841ba792f6"
-      ],
-      "field": "dateOfBirth",
-      "reason": "An eligible participant lacks separately accepted birthdate evidence; no review decision is auto-approved."
-    }
-  ]
+  "exclusions": []
 }

@@ -3,8 +3,8 @@
   "entity": "drivers",
   "statisticId": "poles_with_different_engines",
   "metricId": "approvedDriverPolePositionsPolesWithDifferentEngines",
-  "loadedRowCount": 107,
-  "rowCount": 107,
+  "loadedRowCount": 108,
+  "rowCount": 108,
   "rows": [
     {
       "entityId": "driver:surtees:5519e1946624",
@@ -2331,6 +2331,34 @@
       }
     },
     {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 1,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2022-10:c075f714959f",
+        "event:2022-14:8658025f6883",
+        "event:2022-19:dbc7e748455c",
+        "event:2023-14:86074fd29efb",
+        "event:2023-15:c44f976618b0",
+        "event:2024-20:f5fe57f1893a"
+      ],
+      "rank": 48,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:sainz:f4f0414a0a12",
+        "sourcePath": "details/drivers/4.json",
+        "eventIds": [
+          "event:2022-10:c075f714959f",
+          "event:2022-14:8658025f6883",
+          "event:2022-19:dbc7e748455c",
+          "event:2023-14:86074fd29efb",
+          "event:2023-15:c44f976618b0",
+          "event:2024-20:f5fe57f1893a"
+        ]
+      }
+    },
+    {
       "entityId": "driver:leclerc:80a0e9f8790b",
       "entityName": "Charles Leclerc",
       "value": 1,
@@ -4046,17 +4074,9 @@
     "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
     "evidenceAssessment": null,
     "note": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
-    "knownExclusions": [
-      "Unbound source rows excluded from distinct values."
-    ],
-    "excludedEntityCount": 1,
+    "knownExclusions": [],
+    "excludedEntityCount": 0,
     "excludedEventCount": 0
   },
-  "exclusions": [
-    {
-      "entityId": "driver:sainz:f4f0414a0a12",
-      "field": "engine",
-      "reason": "Unbound source rows excluded from distinct values."
-    }
-  ]
+  "exclusions": []
 }
