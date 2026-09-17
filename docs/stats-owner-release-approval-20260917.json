@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "stats-owner-release-approval.v1",
+  "approvalId": "OWNER-20260917-VERIFIED-STATS-RELEASE",
+  "approvedBy": "kwondalp (repository owner)",
+  "authority": "Explicit owner instruction in the current task, 2026-09-17: approve main integration and production publication of the prepared verified release, including 155 available supplementary metrics and 14 withheld metrics displaying Data verification in progress.",
+  "approvedCheckpoints": {
+    "tools": "6e94843c3bd62cc490eebac7ac435a745bf23165",
+    "data": "50d627061f14f9c5d19f910696c0fbbba49addec",
+    "web": "f24aa80826328909988aeec9894bb38ef90c58ed"
+  },
+  "availabilityContract": "stats-availability.v1",
+  "catalogueSha256": "28c7a0ab13b161ce89ee5b44f5befb853294d1af57d5d90db4a1e393061ae5a8",
+  "availableMetricCount": 155,
+  "withheldMetricCount": 14,
+  "activationOrder": [
+    "tools",
+    "web",
+    "data"
+  ],
+  "historicalResearchReleaseApproved": false,
+  "otherReviewerClaimed": false,
+  "canonicalHumanReviewSignatureCreated": false,
+  "futureResearchPolicy": "Follow-up evidence and repairs stay on separate development branches; production remains withheld until separately prepared for release."
+}
