@@ -912,45 +912,15 @@
     "evidenceAssessment": {
       "schemaVersion": "stats-evidence-assessment.v1",
       "family": "nationality",
-      "status": "incomplete",
-      "rankingComplete": false,
-      "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
-      "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
+      "status": "complete",
+      "rankingComplete": true,
+      "notice": "",
+      "missingEvidence": ""
     },
-    "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
-    "knownExclusions": [
-      "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-      "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-      "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    ],
-    "excludedEntityCount": 3,
-    "excludedEventCount": 4
+    "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
+    "knownExclusions": [],
+    "excludedEntityCount": 0,
+    "excludedEventCount": 0
   },
-  "exclusions": [
-    {
-      "entityId": "driver:jarier:fbd7f044b94b",
-      "eventIds": [
-        "event:1976-1:0d14c591747c",
-        "event:1978-15:e1fe630d084e"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:henton:d3d201de8bb8",
-      "eventIds": [
-        "event:1982-10:02d118103adf"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:warwick:6b539e5f2748",
-      "eventIds": [
-        "event:1982-9:eb6fb9a9035a"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    }
-  ]
+  "exclusions": []
 }

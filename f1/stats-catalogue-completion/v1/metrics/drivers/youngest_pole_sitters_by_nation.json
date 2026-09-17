@@ -502,6 +502,39 @@
       }
     },
     {
+      "entityId": "driver:hoyt:ff4b039bfe11",
+      "entityName": "Jerry Hoyt",
+      "value": 9617,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1955-3:38bb4803a341"
+      ],
+      "groupId": "united-states-of-america",
+      "groupLabel": "United States of America",
+      "ageDays": 9617,
+      "ageYears": 26,
+      "ageRemainderDays": 121,
+      "dateOfBirth": "1929-01-29",
+      "valueEvent": {
+        "eventId": "event:1955-3:38bb4803a341",
+        "eventIndex": 43,
+        "season": 1955,
+        "round": 3,
+        "date": "1955-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 16,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hoyt:ff4b039bfe11",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:1955-3:38bb4803a341"
+        ]
+      }
+    },
+    {
       "entityId": "driver:scheckter:c14e9982ba2e",
       "entityName": "Jody Scheckter",
       "value": 9632,
@@ -524,7 +557,7 @@
         "grandPrixName": "Swedish Grand Prix",
         "circuitId": "anderstorp"
       },
-      "rank": 16,
+      "rank": 17,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:scheckter:c14e9982ba2e",
@@ -557,7 +590,7 @@
         "grandPrixName": "German Grand Prix",
         "circuitId": "hockenheimring"
       },
-      "rank": 17,
+      "rank": 18,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:prost:70f24972bd43",
@@ -590,7 +623,7 @@
         "grandPrixName": "Spanish Grand Prix",
         "circuitId": "catalunya"
       },
-      "rank": 18,
+      "rank": 19,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:maldonado:87cbc81409ca",
@@ -623,7 +656,7 @@
         "grandPrixName": "British Grand Prix",
         "circuitId": "silverstone"
       },
-      "rank": 19,
+      "rank": 20,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:gonzalez:2aa2e506438c",
@@ -656,46 +689,13 @@
         "grandPrixName": "Brazilian Grand Prix",
         "circuitId": "interlagos"
       },
-      "rank": 20,
+      "rank": 21,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:peterson:112af39f0326",
         "sourcePath": "details/drivers/c.json",
         "eventIds": [
           "event:1973-2:a2531cc070f5"
-        ]
-      }
-    },
-    {
-      "entityId": "driver:flaherty:788ffe6330c5",
-      "entityName": "Pat Flaherty",
-      "value": 11102,
-      "series": [],
-      "evidenceEventIds": [
-        "event:1956-3:c8841ba792f6"
-      ],
-      "groupId": "united-states-of-america",
-      "groupLabel": "United States of America",
-      "ageDays": 11102,
-      "ageYears": 30,
-      "ageRemainderDays": 145,
-      "dateOfBirth": "1926-01-06",
-      "valueEvent": {
-        "eventId": "event:1956-3:c8841ba792f6",
-        "eventIndex": 50,
-        "season": 1956,
-        "round": 3,
-        "date": "1956-05-30",
-        "grandPrixName": "Indianapolis 500",
-        "circuitId": "indianapolis"
-      },
-      "rank": 21,
-      "detail": {
-        "type": "occurrence",
-        "entityId": "driver:flaherty:788ffe6330c5",
-        "sourcePath": "details/drivers/5.json",
-        "eventIds": [
-          "event:1956-3:c8841ba792f6"
         ]
       }
     },
@@ -785,32 +785,14 @@
       "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
       "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
     },
-    "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
+    "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
     "knownExclusions": [
-      "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-      "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
       "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
     ],
-    "excludedEntityCount": 11,
-    "excludedEventCount": 13
+    "excludedEntityCount": 1,
+    "excludedEventCount": 1
   },
   "exclusions": [
-    {
-      "entityId": "driver:agabashian:09e7d8a15c53",
-      "eventIds": [
-        "event:1952-2:057eea6bc01a"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:dick-rathmann:ee98bc60c01b",
-      "eventIds": [
-        "event:1958-4:bbcb0b4348e4"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
     {
       "entityId": "driver:faulkner:8908310cfca3",
       "eventIds": [
@@ -818,72 +800,6 @@
       ],
       "field": "dateOfBirth",
       "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-    },
-    {
-      "entityId": "driver:hoyt:ff4b039bfe11",
-      "eventIds": [
-        "event:1955-3:38bb4803a341"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:nalon:35ff5963cc4d",
-      "eventIds": [
-        "event:1951-2:9f5b3cbfb678"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:connor:2805a88a8f76",
-      "eventIds": [
-        "event:1957-3:7879775c4522"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:sachs:79e7e4b605c6",
-      "eventIds": [
-        "event:1960-3:923ea1f02fc0"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:mario-andretti:9665dc04541a",
-      "eventIds": [
-        "event:1968-11:9589a8f7c5dc"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:jarier:fbd7f044b94b",
-      "eventIds": [
-        "event:1978-16:46e0f9f91fd9"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:fabi:fe5cfb0089b2",
-      "eventIds": [
-        "event:1985-9:b01ccfdc7f94"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-    },
-    {
-      "entityId": "driver:senna:97c74c7d172e",
-      "eventIds": [
-        "event:1994-1:78eed49dd8fc",
-        "event:1994-2:cb121f88167b",
-        "event:1994-3:159644e08a6e"
-      ],
-      "field": "eventEffectiveNationality",
-      "reason": "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
     }
   ]
 }
