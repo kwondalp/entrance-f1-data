@@ -1,5 +1,11 @@
 # Human handoff: ENTRANCE F1 Data
 
+## Stats office continuation — 2026-09-17
+
+Office continuation resolved 12 of 29 DOB disputes under owner-authorised candidate source-quality decisions (779 accepted DOBs; 17 disputes retained, 16 affect starters). Reused 1,678 official driver-season nationality intervals without career extrapolation; 4,206 driver/event pairs remain unbound. Added three complete age metrics, bringing the original remaining-50 cohort to 33 complete and 17 incomplete. Corrected McCarthy non-start eligibility and applied retained Musso actual-start evidence. Candidate only; canonical approval, R14 profile/circuit evidence and production publication remain separate. Focused Tools 59 passed, 6 skipped and 2 production-only gates blocked; Web 124 passed, 932-file build; HTTP desktop/mobile checks passed. Identical-input candidate rebuild: 173 matching files, 169 metrics and 69,463 rows. No deployment or main merge.
+
+The Web candidate review and single audit ledger supersede the previous 30/20 demographic status. Exact DOB alternatives and source-quality reasons are retained in Tools `fixtures/stats-dob-dispute-review-20260917.json`; machine-readable validation is `docs/stats-office-validation-20260917.json`. Original source archives were verified locally; newly fetched evidence is labelled as new collection. No indispensable home-only file was required.
+
 ## Complete statistics repair candidate
 
 Continued only the existing remaining 50 metrics: 30 repaired (12 qualifying, 15 physical front-row, 3 age records), 20 evidence-incomplete (13 DOB, 7 event nationality). Incorporated 651 authorised DOB facts (767 total), 261 race-specific grid diagrams, 57 qualifying observations and 20 FIA Bahrain 2025 nationality facts. Kept 29 conflicting DOBs unresolved under the unchanged policy. BigDataF1 816 reference-normalized values explained; independent front-row oracle 986/986 and age arithmetic 229/229. Identical-input 553 files match. Final affected Tools 85 passed, 10 skipped, two production-only gates retained; Web 120 affected tests passed, 932-file build. No production approval, main merge or deployment. See the single Web audit ledger and candidate review for exact gaps.

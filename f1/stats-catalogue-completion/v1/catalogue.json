@@ -4,6 +4,26 @@
   "baseCatalogueSha256": "5b48c6232e66162a7f82d38ca7087b62fd9b29516623b0058482dedcd883df42",
   "sourceEvidence": [
     {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/historical-driver-birthdate-evidence-policy.json",
+      "contentSha256": "c04558fb90f5e70293aa761ca9638a847332ec36b2fd2de6e0fd822ee9a73427"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/stats-dob-dispute-review-20260917.json",
+      "contentSha256": "77d1dd4ed9278b990d4712bee5d39530c9a6ee11e64d36bc10b7f5472c28c831"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/formula1-official-final-standings.v1.json",
+      "contentSha256": "fc119e399d20e7f80a36bb48b02d314e2a1c0337254a9f90cb4233e03a01449b"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/stats-nationality-current-season.v1.json",
+      "contentSha256": "fdedb76182e022f3a1a419ebdf5164e95613f4a64de4bfac6be6ad4c4fa50f15"
+    },
+    {
       "repository": "entrance-f1-data",
       "relativePath": "f1/statistics-inputs/v1/inputs.5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9.json",
       "contentSha256": "5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9"
@@ -300,8 +320,13 @@
     },
     {
       "repository": "entrance-f1-data-tools",
+      "relativePath": "fixtures/stats-nationality-intervals.v1.json",
+      "contentSha256": "6deecddee613bb3296998fa9378e5efc623c51a7cfd460208919ff33977f142c"
+    },
+    {
+      "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-repair-demographics.v1.json",
-      "contentSha256": "de80d08f33ba07147c5bf2346acc44b8f55ea7a3fd4a50e180c9bb8cc1e6ad35"
+      "contentSha256": "6d4c231de29ba04a606facea3e3e9f3bdb2ac3e4533f662db0e640a4af873ab8"
     },
     {
       "repository": "entrance-f1-data-tools",
@@ -316,12 +341,12 @@
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-repair-grid-layouts.v1.json",
-      "contentSha256": "19138fa510b4f2d12e5d7e5660a91d58209f05170c2f5071fe707871443034ee"
+      "contentSha256": "8dcc31d1425be4bb1bf972410aaf6ab5335b925b60bf26311a7f8df88d546bfd"
     },
     {
       "repository": "entrance-f1-data-tools",
       "relativePath": "fixtures/stats-catalogue-boundaries.v1.json",
-      "contentSha256": "eb1922335ad6dac4f9ef9622d34ab826103e84a68ae86ad14fda29a343cfc6b4"
+      "contentSha256": "950b19996c47072bd8897a8b52a1c212b74dc8c78b31389fbd52179d08c471ef"
     },
     {
       "repository": "entrance-f1-data-tools",
@@ -403,7 +428,7 @@
         "asOfRaceDate": "2026-09-13",
         "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
         "evidenceAssessment": null,
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -413,13 +438,13 @@
       "label": "Youngest Champions",
       "categoryId": "championships",
       "description": "Explore youngest champions across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/youngest_champions.json",
-      "sha256": "845194284ccf24f8f49a40394fb6ba908e236bcb0684ae2b56fca21b3a87c238",
+      "sha256": "f93398b3d53d6f8b0a79977dee4ad29228eab722a662482cdcacc176d6a25905",
       "byteSize": 30247,
       "rowCount": 35,
       "rangeModes": [
@@ -443,7 +468,7 @@
         "asOfRaceDate": "2026-09-13",
         "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
         "evidenceAssessment": null,
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -453,13 +478,13 @@
       "label": "Oldest Champions",
       "categoryId": "championships",
       "description": "Explore oldest champions across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/oldest_champions.json",
-      "sha256": "2c2ff68d4910cbeaf8dd3ce1637438ef770434ee6ebda1aa9e7e060b259d59d9",
+      "sha256": "86e228f1208bc7645b6e5d616916fb1872a692176ba7070d1ce507407626416e",
       "byteSize": 30234,
       "rowCount": 35,
       "rangeModes": [
@@ -727,7 +752,7 @@
         "asOfRaceDate": "2026-09-13",
         "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
         "evidenceAssessment": null,
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -737,13 +762,13 @@
       "label": "Wins on Birthday",
       "categoryId": "wins",
       "description": "Explore wins on birthday across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/wins_on_birthday.json",
-      "sha256": "19126cdbcd274e8765e347291ebf1b32debd5f9b8770b96f14631d9df427943f",
+      "sha256": "8fcb1a5b156c46783f59ebf4948da9c864ce763bca23fa31ae8016c29f8c4c27",
       "byteSize": 1954,
       "rowCount": 2,
       "rangeModes": [
@@ -769,26 +794,22 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "nationality",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
-          "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
-        "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
-        ],
-        "excludedEntityCount": 116,
-        "excludedEventCount": 1162
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Winners by Nation",
       "categoryId": "wins",
       "description": "Explore youngest winners by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -796,15 +817,15 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
-        "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_winners_by_nation.json",
-      "sha256": "3b33b4ce48fb9083c90230e4a274e6478d78b08c242a1e65e5f8bc025b0db83e",
-      "byteSize": 76857,
-      "rowCount": 1,
+      "sha256": "99b5570ad8e953d564d664c17de2a647f9fbd575b1bd5788ed6157c0d9ea41d5",
+      "byteSize": 22018,
+      "rowCount": 23,
       "rangeModes": [
         "all-time"
       ]
@@ -1441,23 +1462,21 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 3,
-        "excludedEventCount": 4
+        "excludedEntityCount": 1,
+        "excludedEventCount": 1
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Podium Finishers",
       "categoryId": "podiums",
       "description": "Explore youngest podium finishers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -1468,12 +1487,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/youngest_podium_finishers.json",
-      "sha256": "20ad41e24f4d1f56e227fcdfbc24122626882c88bf01b8edd979d6819838d112",
-      "byteSize": 182702,
-      "rowCount": 216,
+      "sha256": "ce939357c684f8952ff0c0b4b1d7a7f8bc6dc6abe03028cf9d6a7c7ef5fd52a6",
+      "byteSize": 183110,
+      "rowCount": 218,
       "rangeModes": [
         "all-time"
       ]
@@ -1495,28 +1514,26 @@
         "asOfRaceDate": "2026-09-13",
         "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
         "evidenceAssessment": null,
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 3,
-        "excludedEventCount": 4
+        "excludedEntityCount": 1,
+        "excludedEventCount": 1
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Podiums on Birthday",
       "categoryId": "podiums",
       "description": "Explore podiums on birthday across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/podiums_on_birthday.json",
-      "sha256": "7839a8bd277f9bbaa6618499a3bde142ecd9cbc1a771ec440d43d401c2b0834d",
-      "byteSize": 6121,
+      "sha256": "8551310c5d6ad8ca8e33de4b999575f30f92a21e5cc38f3d3b99aa5f5c64a68b",
+      "byteSize": 4849,
       "rowCount": 7,
       "rangeModes": [
         "all-time"
@@ -1546,21 +1563,20 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 219,
-        "excludedEventCount": 1162
+        "excludedEntityCount": 2,
+        "excludedEventCount": 2
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Podium Finishers by Nation",
       "categoryId": "podiums",
       "description": "Explore youngest podium finishers by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -1574,9 +1590,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_podium_finishers_by_nation.json",
-      "sha256": "674822b059d364d60a5d9554bf8ee223f73b8c60a42ab6efa31984f557d2259a",
-      "byteSize": 192528,
-      "rowCount": 2,
+      "sha256": "fdcdd92af002f66da29ca2aa1eb5bfc6cde7fe8bf06546d7d265e471aa1a00a7",
+      "byteSize": 28829,
+      "rowCount": 29,
       "rangeModes": [
         "all-time"
       ]
@@ -1603,23 +1619,21 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 3,
-        "excludedEventCount": 4
+        "excludedEntityCount": 1,
+        "excludedEventCount": 1
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Oldest Podium Finishers",
       "categoryId": "podiums",
       "description": "Explore oldest podium finishers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -1630,12 +1644,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/oldest_podium_finishers.json",
-      "sha256": "0a9a585aeaab281df630cf5200d262c7148235520d5f3fbe62f17954a7772371",
-      "byteSize": 183070,
-      "rowCount": 216,
+      "sha256": "586e9a856a7b7d270e6d5ddd4e9dcecc108e9f52ef84f2a36890cbf671be9c28",
+      "byteSize": 183486,
+      "rowCount": 218,
       "rangeModes": [
         "all-time"
       ]
@@ -2191,16 +2205,14 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
         "knownExclusions": [
-          "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
-          "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence.",
           "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
         ],
         "excludedEntityCount": 0,
-        "excludedEventCount": 4
+        "excludedEventCount": 1
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
@@ -2234,12 +2246,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/average_age_of_podium.json",
-      "sha256": "1e37689031a85047ceaeba39b89a8bf7197217c544706db8224bff6da3203a01",
-      "byteSize": 240025,
-      "rowCount": 1159,
+      "sha256": "146dc4ce822f9d1a6de07f322c9dcf7a222858dabf7af1af8c73c0f521853c10",
+      "byteSize": 239567,
+      "rowCount": 1162,
       "rangeModes": [
         "all-time"
       ]
@@ -2490,9 +2502,9 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
@@ -2504,7 +2516,7 @@
       "label": "Youngest Pole Sitters",
       "categoryId": "pole-positions",
       "description": "Explore youngest pole sitters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -2515,11 +2527,11 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/youngest_pole_sitters.json",
-      "sha256": "bb2598c630e1d65f61cd6dd2041f3b23acf61e61ba33a29fc0892820dc7cf784",
-      "byteSize": 91165,
+      "sha256": "5a8b492cd56706cfb671005d6462a4f72043b360f1360f6005876fe1f58f1ae6",
+      "byteSize": 91182,
       "rowCount": 107,
       "rangeModes": [
         "all-time"
@@ -2542,7 +2554,7 @@
         "asOfRaceDate": "2026-09-13",
         "resultsArchiveManifestSha256": "65c34b6402d30dbb4f6d01ab6dae79e894bca5984ff3bb4271260ca70b2e59eb",
         "evidenceAssessment": null,
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
@@ -2554,13 +2566,13 @@
       "label": "Poles on Birthday",
       "categoryId": "pole-positions",
       "description": "Explore poles on birthday across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/poles_on_birthday.json",
-      "sha256": "672bb0654c85726311cff756d124e795c08a246d6c4d102a8e4c56796af9e7df",
+      "sha256": "cf58851175cc039b69e059f5bb508ecc1973134fbc2273284ec9456672b1a0fa",
       "byteSize": 2608,
       "rowCount": 2,
       "rangeModes": [
@@ -2591,21 +2603,21 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 108,
-        "excludedEventCount": 1162
+        "excludedEntityCount": 11,
+        "excludedEventCount": 13
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Pole Sitters by Nation",
       "categoryId": "pole-positions",
       "description": "Explore youngest pole sitters by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -2619,9 +2631,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_pole_sitters_by_nation.json",
-      "sha256": "91458cceb603e0d33d795df9f464fb69105fd23b63cd4f669d3380eacad4eb94",
-      "byteSize": 74782,
-      "rowCount": 1,
+      "sha256": "8464577ac5981c9b2e5df5ad0f658e55ed57f54f1ca1cec62b779f8c6a0e843f",
+      "byteSize": 26581,
+      "rowCount": 23,
       "rangeModes": [
         "all-time"
       ]
@@ -2648,9 +2660,9 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
@@ -2662,7 +2674,7 @@
       "label": "Oldest Pole Sitters",
       "categoryId": "pole-positions",
       "description": "Explore oldest pole sitters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -2673,11 +2685,11 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/oldest_pole_sitters.json",
-      "sha256": "7b03f2472b87c0c00bafb6fa4d7f4c03a12a0de55b642f71f57a5347501424ae",
-      "byteSize": 91290,
+      "sha256": "45b48973bce331dbacf58a0bf465e7d90c34975a1c827706852a8d2f700003ff",
+      "byteSize": 91307,
       "rowCount": 107,
       "rangeModes": [
         "all-time"
@@ -3398,24 +3410,22 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "age",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
-        "knownExclusions": [
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-        ],
-        "excludedEntityCount": 1,
-        "excludedEventCount": 1
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Fastest-Lap Setters",
       "categoryId": "fastest-laps",
       "description": "Explore youngest fastest-lap setters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -3423,15 +3433,15 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_fastest_lap_setters.json",
-      "sha256": "f1ad541957b7a1429494c60a9de7129b19065c1500827704367eac876e1b8487",
-      "byteSize": 118521,
-      "rowCount": 140,
+      "sha256": "688a5f39e8121f5d882705c56daebd16445fc7fc5bee163ebfc2923bc11cf4a8",
+      "byteSize": 118382,
+      "rowCount": 141,
       "rangeModes": [
         "all-time"
       ]
@@ -3460,21 +3470,21 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
         ],
-        "excludedEntityCount": 141,
-        "excludedEventCount": 1161
+        "excludedEntityCount": 3,
+        "excludedEventCount": 4
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Fastest-Lap Setters by Nation",
       "categoryId": "fastest-laps",
       "description": "Explore youngest fastest-lap setters by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -3488,9 +3498,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_fastest_lap_setters_by_nation.json",
-      "sha256": "d47d27a78ec44cf38d570cbdb3562025bca406ff5c7c231089baf4548739f506",
-      "byteSize": 83998,
-      "rowCount": 1,
+      "sha256": "31fcb678b4a6035997791165a5f9e6ea74ca4e90f13cdaea1e7c2214d9353a26",
+      "byteSize": 27374,
+      "rowCount": 27,
       "rangeModes": [
         "all-time"
       ]
@@ -3514,24 +3524,22 @@
         "evidenceAssessment": {
           "schemaVersion": "stats-evidence-assessment.v1",
           "family": "age",
-          "status": "incomplete",
-          "rankingComplete": false,
-          "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "status": "complete",
+          "rankingComplete": true,
+          "notice": "",
+          "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
-        "knownExclusions": [
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-        ],
-        "excludedEntityCount": 1,
-        "excludedEventCount": 1
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "knownExclusions": [],
+        "excludedEntityCount": 0,
+        "excludedEventCount": 0
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Oldest Fastest-Lap Setters",
       "categoryId": "fastest-laps",
       "description": "Explore oldest fastest-lap setters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -3539,15 +3547,15 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/oldest_fastest_lap_setters.json",
-      "sha256": "4807fbe43fc6bb2a6b5a7b2edf02fb783adf821f4c44e8bf90252cddb77c1b4e",
-      "byteSize": 118700,
-      "rowCount": 140,
+      "sha256": "05a86a9df408ad87ba9b373603ed65aeb2a9ecc019ed20d5c2fefcb0b7b21547",
+      "byteSize": 118561,
+      "rowCount": 141,
       "rangeModes": [
         "all-time"
       ]
@@ -3938,23 +3946,23 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 7,
-        "excludedEventCount": 15
+        "excludedEntityCount": 3,
+        "excludedEventCount": 2
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Points Scorers",
       "categoryId": "points",
       "description": "Explore youngest points scorers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -3965,12 +3973,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/youngest_points_scorers.json",
-      "sha256": "2cfe3b8594c09e7fba52160f47ce1509fe15bc8adddcac83b3068b558389cc24",
-      "byteSize": 295118,
-      "rowCount": 349,
+      "sha256": "0b16f950c673c947bb3011c1df862baf556544970a4b0951cf531510dfb7a3e7",
+      "byteSize": 296556,
+      "rowCount": 353,
       "rangeModes": [
         "all-time"
       ]
@@ -3999,21 +4007,21 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
+          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 356,
-        "excludedEventCount": 1162
+        "excludedEntityCount": 3,
+        "excludedEventCount": 2
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Points Scorers by Nation",
       "categoryId": "points",
       "description": "Explore youngest points scorers by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -4027,9 +4035,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_points_scorers_by_nation.json",
-      "sha256": "0788d94450b9cdcfc671bd7d504714bad638b8b37d8efa49fa1ea7eae45fe214",
-      "byteSize": 420761,
-      "rowCount": 6,
+      "sha256": "b882836ddfbdefb29d76d31e3be556727bdacd7f149c1f5acf2d720b9e8b7a80",
+      "byteSize": 34090,
+      "rowCount": 34,
       "rangeModes": [
         "all-time"
       ]
@@ -4056,23 +4064,23 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 7,
-        "excludedEventCount": 15
+        "excludedEntityCount": 3,
+        "excludedEventCount": 2
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Oldest Points Scorers",
       "categoryId": "points",
       "description": "Explore oldest points scorers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -4083,12 +4091,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/oldest_points_scorers.json",
-      "sha256": "ada51aaf0de82c5dff182e30c803c520a9a13656a3ecc03bec9ec2f96b553519",
-      "byteSize": 295777,
-      "rowCount": 349,
+      "sha256": "f62b2e0933751c06364e1c3ab86cec53288c00a9cf39d7909966877479934862",
+      "byteSize": 297215,
+      "rowCount": 353,
       "rangeModes": [
         "all-time"
       ]
@@ -4503,7 +4511,7 @@
           "notice": "",
           "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -4513,7 +4521,7 @@
       "label": "Youngest Championship Leaders",
       "categoryId": "grands-prix",
       "description": "Explore youngest championship leaders across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -4527,7 +4535,7 @@
         "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_championship_leaders.json",
-      "sha256": "7f97d2cf4d43051a567ef07b70163a72339760a4fa47bfa44ba749ea294dbafc",
+      "sha256": "f524dfb523eaccb52066e4f920f81da6823af6a65b112f88c4d4cf18ae629a2d",
       "byteSize": 58539,
       "rowCount": 69,
       "rangeModes": [
@@ -4607,9 +4615,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_a_world_champion.json",
-      "sha256": "911ffa76bf416da80e236580083d26b9c3ff8403cf31f1ea63add6d876c41121",
-      "byteSize": 2135280,
-      "rowCount": 662,
+      "sha256": "dd5ae7b37030db01cfbeec475d6d38b6331b0f9927d6622e667ebee32dbabee9",
+      "byteSize": 2134897,
+      "rowCount": 661,
       "rangeModes": [
         "all-time"
       ]
@@ -4647,9 +4655,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_a_race_winner.json",
-      "sha256": "a1a51bb3f54818b9160f09557c0e4fc7d58fb7e0d96da50d45ed96b7cf596598",
-      "byteSize": 2270450,
-      "rowCount": 784,
+      "sha256": "683b47358aed1d7f784a2e28495abe5f1f2ca4f5e0204db1b225b2f49365eac0",
+      "byteSize": 2270067,
+      "rowCount": 783,
       "rangeModes": [
         "all-time"
       ]
@@ -4687,9 +4695,9 @@
       "grouping": "group",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_with_the_same_engine.json",
-      "sha256": "f1cf3b814fa0e07266fe632aac91b4d734a5b2df20c41145994a926737705bad",
-      "byteSize": 2626471,
-      "rowCount": 1522,
+      "sha256": "d0395a79ec2a90fbcd5fe81652decdea13c7bcc63f1bcbcb69564ab5666aba5f",
+      "byteSize": 2626034,
+      "rowCount": 1521,
       "rangeModes": [
         "all-time"
       ]
@@ -4716,23 +4724,23 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 29,
-        "excludedEventCount": 180
+        "excludedEntityCount": 16,
+        "excludedEventCount": 37
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest GP Starters",
       "categoryId": "grands-prix",
       "description": "Explore youngest GP starters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -4743,12 +4751,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/youngest_gp_starters.json",
-      "sha256": "967d741d0a5025052b724f6960099c8ff93d2bf95516dd61cb71ce8451c7a7f5",
-      "byteSize": 657226,
-      "rowCount": 767,
+      "sha256": "28931f26855b5baf9278bd8643c4976d9463c7db5964e72fe2a911ba8fc4df12",
+      "byteSize": 656520,
+      "rowCount": 779,
       "rangeModes": [
         "all-time"
       ]
@@ -4777,21 +4785,21 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
         ],
-        "excludedEntityCount": 796,
-        "excludedEventCount": 1162
+        "excludedEntityCount": 646,
+        "excludedEventCount": 662
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest GP Starters by Nation",
       "categoryId": "grands-prix",
       "description": "Explore youngest GP starters by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -4805,9 +4813,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_gp_starters_by_nation.json",
-      "sha256": "38b7ae9550fdf392c4eabe7fe7b99eebecabf7c2d455798c65a729bc26664198",
-      "byteSize": 1186893,
-      "rowCount": 13,
+      "sha256": "442ad6a61e2783279873a90b275ee2e6ab3ffae2e51e3ed785ba060b16733915",
+      "byteSize": 375911,
+      "rowCount": 36,
       "rangeModes": [
         "all-time"
       ]
@@ -4834,23 +4842,23 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed.",
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
-        "excludedEntityCount": 29,
-        "excludedEventCount": 180
+        "excludedEntityCount": 16,
+        "excludedEventCount": 37
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Oldest GP Starters",
       "categoryId": "grands-prix",
       "description": "Explore oldest GP starters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -4861,12 +4869,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/oldest_gp_starters.json",
-      "sha256": "a0fe018a2121e4249e2820b723d59de430d5397fe5e8ee43a0f572c22a083965",
-      "byteSize": 658298,
-      "rowCount": 767,
+      "sha256": "6979fc0ae1bcec12304023013d33941316cce226c820d6cccff1968d0b3bd339",
+      "byteSize": 657578,
+      "rowCount": 779,
       "rangeModes": [
         "all-time"
       ]
@@ -4893,7 +4901,7 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
         "note": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
         "knownExclusions": [
@@ -4902,7 +4910,7 @@
           "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
         ],
         "excludedEntityCount": 0,
-        "excludedEventCount": 180
+        "excludedEventCount": 37
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
@@ -4936,12 +4944,12 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/average_driver_age_by_gp.json",
-      "sha256": "45148fd1b8fd348a8960386b0fbc3d60b39f59f76ffd59f5d4cd6738a2058407",
-      "byteSize": 255593,
-      "rowCount": 983,
+      "sha256": "377c7c17c365074f4529e8177bfb98606d1c24a9cc5ba58f5e551aca2ba5335e",
+      "byteSize": 243516,
+      "rowCount": 1126,
       "rangeModes": [
         "all-time"
       ]
@@ -4979,8 +4987,8 @@
       "grouping": "entity",
       "countingUnit": "days",
       "dataPath": "metrics/drivers/longest_gap_between_gp_starts.json",
-      "sha256": "3123a83b54c4054d9fedebee1ad9e9930eddc4da9bba2b5c206543a113d1334b",
-      "byteSize": 2207621,
+      "sha256": "8d582d167e02e6319ed6078dbefdcab9006579948b82b78e0c4b31c8eeeb421f",
+      "byteSize": 2207697,
       "rowCount": 633,
       "rangeModes": [
         "all-time"
@@ -5019,9 +5027,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_pole.json",
-      "sha256": "03512d7dcf56832932dd21ca008a982e22e3a000298ac3250377a8995193b09d",
-      "byteSize": 2191765,
-      "rowCount": 796,
+      "sha256": "d11bf733e8b9255fee3d72fa25ab30956e3bcbb53fca6ebc918181a1f8b5056f",
+      "byteSize": 2191382,
+      "rowCount": 795,
       "rangeModes": [
         "all-time"
       ]
@@ -5063,9 +5071,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_fastest_lap.json",
-      "sha256": "6f29238092c642d3e65197dabc434eac5d943c5d03d845509839b0399682a5d2",
-      "byteSize": 2167432,
-      "rowCount": 775,
+      "sha256": "2ff4ceea9433f0dd0dff43b4640582f3cc3badbaddc46113c10d3fbb064c25a9",
+      "byteSize": 2167049,
+      "rowCount": 774,
       "rangeModes": [
         "all-time"
       ]
@@ -5107,9 +5115,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_a_win_pole_or_fastest_lap.json",
-      "sha256": "2683ef170d7d82c863f1e45797420305912d81b1d851a984b0313dbbf0e9053f",
-      "byteSize": 2071354,
-      "rowCount": 775,
+      "sha256": "1646d1fdbe79d2d61508915ea862155f4dbdf20f25a386e5fc8d61f5d80a2e03",
+      "byteSize": 2070895,
+      "rowCount": 774,
       "rangeModes": [
         "all-time"
       ]
@@ -5151,9 +5159,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/gps_without_leading_a_lap.json",
-      "sha256": "cab2e1d0d51a15ff563c1373a37512aa514b02f28789c917a657745b8a460feb",
-      "byteSize": 1427371,
-      "rowCount": 258,
+      "sha256": "47df7ff7748eb1703e4faf6d3ba9674b1cdba10c656f584824077bba83f8f6c9",
+      "byteSize": 1426912,
+      "rowCount": 257,
       "rangeModes": [
         "all-time"
       ]
@@ -5180,9 +5188,9 @@
           "status": "incomplete",
           "rankingComplete": false,
           "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+          "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [
           "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
         ],
@@ -5194,7 +5202,7 @@
       "label": "Youngest Front Row Starters",
       "categoryId": "qualifying",
       "description": "Explore youngest front row starters across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -5205,11 +5213,11 @@
         "status": "incomplete",
         "rankingComplete": false,
         "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the unchanged evidence policy. Routine development incorporation is owner-authorised; production approval is separate."
+        "missingEvidence": "Resolve the explicitly listed conflicting DOB source dates or eligible event facts under the documented candidate source-quality policy. Routine development incorporation is owner-authorised; production approval is separate."
       },
       "dataPath": "metrics/drivers/youngest_front_row_starters.json",
-      "sha256": "10ac3e8a5702f0d84c9ee5e075c5b2fcd89c1dad98d7bf0f9a910a56b9f14d3f",
-      "byteSize": 132630,
+      "sha256": "a0100e85005eecd796fdea28444b31795845ba1e648d30ee03f99202485056bd",
+      "byteSize": 132647,
       "rowCount": 157,
       "rangeModes": [
         "all-time"
@@ -5514,7 +5522,7 @@
           "notice": "",
           "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -5524,7 +5532,7 @@
       "label": "Youngest Race Leaders",
       "categoryId": "race-performance",
       "description": "Explore youngest race leaders across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -5538,7 +5546,7 @@
         "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_race_leaders.json",
-      "sha256": "55a5f3f5bb0ea67ed2a0c18683072728da36d495820a32e71f08d7f393c26a05",
+      "sha256": "9310d2117b94bf693922abbbabfb189d8ba85adf952e8bb0d7e4f7319033f3a3",
       "byteSize": 67906,
       "rowCount": 80,
       "rangeModes": [
@@ -5569,21 +5577,20 @@
           "notice": "Incomplete event-specific sporting nationality and birthdate coverage. Displayed ages are the youngest among verified observations only, not established national records; missing eligible events can change every national minimum. Current biography nationality is not substituted.",
           "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
         "knownExclusions": [
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
-          "No event-bound sporting nationality for these eligible events. A biography or citizenship cannot substitute."
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute.",
+          "No event-specific or season-scoped sporting nationality for these eligible events. A biography or citizenship cannot substitute."
         ],
-        "excludedEntityCount": 80,
-        "excludedEventCount": 797
+        "excludedEntityCount": 2,
+        "excludedEventCount": 3
       },
       "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
       "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
       "label": "Youngest Race Leaders by Nation",
       "categoryId": "race-performance",
       "description": "Explore youngest race leaders by nation across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -5597,9 +5604,9 @@
         "missingEvidence": "Reviewed sporting-nationality intervals at each eligible event, plus accepted DOB. Current biography nationality is not historical evidence."
       },
       "dataPath": "metrics/drivers/youngest_race_leaders_by_nation.json",
-      "sha256": "5246f477006c4c9011f8cd12817ee5db3f96d1594f282e5f003e3a776c9756f4",
-      "byteSize": 98929,
-      "rowCount": 2,
+      "sha256": "c7123de67fabaecf9e422eebfe732617ce6a9f2ebeb452b68ad97537166dcff6",
+      "byteSize": 21567,
+      "rowCount": 21,
       "rangeModes": [
         "all-time"
       ]
@@ -5628,7 +5635,7 @@
           "notice": "",
           "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -5638,7 +5645,7 @@
       "label": "Oldest Race Leaders",
       "categoryId": "race-performance",
       "description": "Explore oldest race leaders across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -5652,7 +5659,7 @@
         "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/oldest_race_leaders.json",
-      "sha256": "f1190844815b92ca287e178f3549f78b839eec0076b0ea8262502258ec9c061b",
+      "sha256": "d4b1b12092366c353e160ccd9a2d11af20ad9fd44cb342164ab787a060d89ffd",
       "byteSize": 67939,
       "rowCount": 80,
       "rangeModes": [
@@ -6163,7 +6170,7 @@
           "notice": "",
           "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -6173,7 +6180,7 @@
       "label": "Youngest Hat-Trick Drivers",
       "categoryId": "race-performance",
       "description": "Explore youngest hat-trick drivers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -6187,7 +6194,7 @@
         "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_hat_trick_drivers.json",
-      "sha256": "e969b327031ebbf73b4c041d5e5b91c6eda22cb6c0d56760249478944e2ef769",
+      "sha256": "c346c3f30d78f1628193e9c0bc120a57d14edc4c6b5e61a195499ae5ced3e3d6",
       "byteSize": 43662,
       "rowCount": 51,
       "rangeModes": [
@@ -6218,7 +6225,7 @@
           "notice": "",
           "missingEvidence": ""
         },
-        "note": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+        "note": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
         "knownExclusions": [],
         "excludedEntityCount": 0,
         "excludedEventCount": 0
@@ -6228,7 +6235,7 @@
       "label": "Youngest Grand-Slam Drivers",
       "categoryId": "race-performance",
       "description": "Explore youngest grand-slam drivers across Formula 1 drivers.",
-      "scope": "Ages use the separately accepted 767-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 779-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -6242,7 +6249,7 @@
         "missingEvidence": ""
       },
       "dataPath": "metrics/drivers/youngest_grand_slam_drivers.json",
-      "sha256": "7d20e87f0e56b67fb30e66f57d8de61a7666693c228f5e15ba491345adb3af09",
+      "sha256": "cbe19f5c2aeb21e5941cec9cd8558672f7b84052dfb5454787a942d39a3bf7c2",
       "byteSize": 24566,
       "rowCount": 28,
       "rangeModes": [
@@ -6322,8 +6329,8 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/competitors_faced.json",
-      "sha256": "1d9812b00eaef73c0cf40c014ce6768dff83fa36a06c7f4e4c1ca4961b77b166",
-      "byteSize": 2319817,
+      "sha256": "dae7d7539e0b16d151e045c8ff40e66283c1376eae7adf27a1b3c5c57679f787",
+      "byteSize": 2319816,
       "rowCount": 823,
       "rangeModes": [
         "all-time"
@@ -6506,7 +6513,7 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/deceased_drivers.json",
-      "sha256": "e87ee2e2c10dfa9df3fec48c1eb7b4528bcb12848a99189cb53197b2a9867b8b",
+      "sha256": "90a3f9e793e8de12f4feac1d71d4532acdbddbce962e1aaa7a9eedd1560e40b0",
       "byteSize": 695938,
       "rowCount": 466,
       "rangeModes": [
@@ -6706,9 +6713,9 @@
       "grouping": "entity",
       "countingUnit": "count",
       "dataPath": "metrics/drivers/consecutive_races_without_a_dnf.json",
-      "sha256": "dfd3e097f96d582accfd004eb9bb160613e5ecd40961769f7b83be333cbcb931",
-      "byteSize": 2245243,
-      "rowCount": 672,
+      "sha256": "7ccf072f274bbf3076bfa052e596f86846a4564bdc473de9af26e637f971db0d",
+      "byteSize": 2244784,
+      "rowCount": 671,
       "rangeModes": [
         "all-time"
       ]
