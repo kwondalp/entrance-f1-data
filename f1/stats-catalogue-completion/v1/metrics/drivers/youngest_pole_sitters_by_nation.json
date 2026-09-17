@@ -1,10 +1,771 @@
 {
-  "schemaVersion": "stats-catalogue-unavailable.v1",
+  "schemaVersion": "stats-lab-production-metric.v1",
   "entity": "drivers",
   "statisticId": "youngest_pole_sitters_by_nation",
   "metricId": "approvedDriverPolePositionsYoungestPoleSittersByNation",
-  "availability": "verification_pending",
-  "message": "Data verification in progress",
+  "loadedRowCount": 23,
+  "rowCount": 23,
+  "rows": [
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 7142,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2026-2:f019d4004b94"
+      ],
+      "groupId": "italy",
+      "groupLabel": "Italy",
+      "ageDays": 7142,
+      "ageYears": 19,
+      "ageRemainderDays": 202,
+      "dateOfBirth": "2006-08-25",
+      "valueEvent": {
+        "eventId": "event:2026-2:f019d4004b94",
+        "eventIndex": 1150,
+        "season": 2026,
+        "round": 2,
+        "date": "2026-03-15",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "rank": 1,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:antonelli:0ab4d82d3440",
+        "sourcePath": "details/drivers/8.json",
+        "eventIds": [
+          "event:2026-2:f019d4004b94"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:vettel:c74415af2cc1",
+      "entityName": "Sebastian Vettel",
+      "value": 7744,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2008-14:e726f4c70321"
+      ],
+      "groupId": "germany",
+      "groupLabel": "Germany",
+      "ageDays": 7744,
+      "ageYears": 21,
+      "ageRemainderDays": 73,
+      "dateOfBirth": "1987-07-03",
+      "valueEvent": {
+        "eventId": "event:2008-14:e726f4c70321",
+        "eventIndex": 798,
+        "season": 2008,
+        "round": 14,
+        "date": "2008-09-14",
+        "grandPrixName": "Italian Grand Prix",
+        "circuitId": "monza"
+      },
+      "rank": 2,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:vettel:c74415af2cc1",
+        "sourcePath": "details/drivers/4.json",
+        "eventIds": [
+          "event:2008-14:e726f4c70321"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 7836,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2019-2:a0d869828a19"
+      ],
+      "groupId": "monaco",
+      "groupLabel": "Monaco",
+      "ageDays": 7836,
+      "ageYears": 21,
+      "ageRemainderDays": 166,
+      "dateOfBirth": "1997-10-16",
+      "valueEvent": {
+        "eventId": "event:2019-2:a0d869828a19",
+        "eventIndex": 998,
+        "season": 2019,
+        "round": 2,
+        "date": "2019-03-31",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "rank": 3,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:leclerc:80a0e9f8790b",
+        "sourcePath": "details/drivers/5.json",
+        "eventIds": [
+          "event:2019-2:a0d869828a19"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 7907,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2003-2:3c5d8ae51f86"
+      ],
+      "groupId": "spain",
+      "groupLabel": "Spain",
+      "ageDays": 7907,
+      "ageYears": 21,
+      "ageRemainderDays": 237,
+      "dateOfBirth": "1981-07-29",
+      "valueEvent": {
+        "eventId": "event:2003-2:3c5d8ae51f86",
+        "eventIndex": 698,
+        "season": 2003,
+        "round": 2,
+        "date": "2003-03-23",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "rank": 4,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:alonso:04d69c1d187a",
+        "sourcePath": "details/drivers/a.json",
+        "eventIds": [
+          "event:2003-2:3c5d8ae51f86"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 7978,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2019-12:7a9974a1499e"
+      ],
+      "groupId": "netherlands",
+      "groupLabel": "Netherlands",
+      "ageDays": 7978,
+      "ageYears": 21,
+      "ageRemainderDays": 308,
+      "dateOfBirth": "1997-09-30",
+      "valueEvent": {
+        "eventId": "event:2019-12:7a9974a1499e",
+        "eventIndex": 1008,
+        "season": 2019,
+        "round": 12,
+        "date": "2019-08-04",
+        "grandPrixName": "Hungarian Grand Prix",
+        "circuitId": "hungaroring"
+      },
+      "rank": 5,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:max-verstappen:1f6847211200",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2019-12:7a9974a1499e"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 7988,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2021-15:c71e4df9f38a"
+      ],
+      "groupId": "united-kingdom",
+      "groupLabel": "United Kingdom",
+      "ageDays": 7988,
+      "ageYears": 21,
+      "ageRemainderDays": 317,
+      "dateOfBirth": "1999-11-13",
+      "valueEvent": {
+        "eventId": "event:2021-15:c71e4df9f38a",
+        "eventIndex": 1049,
+        "season": 2021,
+        "round": 15,
+        "date": "2021-09-26",
+        "grandPrixName": "Russian Grand Prix",
+        "circuitId": "sochi"
+      },
+      "rank": 6,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:norris:5581145e4767",
+        "sourcePath": "details/drivers/f.json",
+        "eventIds": [
+          "event:2021-15:c71e4df9f38a"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 8053,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2020-14:25feaca11eb8"
+      ],
+      "groupId": "canada",
+      "groupLabel": "Canada",
+      "ageDays": 8053,
+      "ageYears": 22,
+      "ageRemainderDays": 17,
+      "dateOfBirth": "1998-10-29",
+      "valueEvent": {
+        "eventId": "event:2020-14:25feaca11eb8",
+        "eventIndex": 1031,
+        "season": 2020,
+        "round": 14,
+        "date": "2020-11-15",
+        "grandPrixName": "Turkish Grand Prix",
+        "circuitId": "istanbul"
+      },
+      "rank": 7,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:stroll:ab76996efc92",
+        "sourcePath": "details/drivers/2.json",
+        "eventIds": [
+          "event:2020-14:25feaca11eb8"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:barrichello:ff6039716ac0",
+      "entityName": "Rubens Barrichello",
+      "value": 8132,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1994-11:c0617c76ca7a"
+      ],
+      "groupId": "brazil",
+      "groupLabel": "Brazil",
+      "ageDays": 8132,
+      "ageYears": 22,
+      "ageRemainderDays": 97,
+      "dateOfBirth": "1972-05-23",
+      "valueEvent": {
+        "eventId": "event:1994-11:c0617c76ca7a",
+        "eventIndex": 558,
+        "season": 1994,
+        "round": 11,
+        "date": "1994-08-28",
+        "grandPrixName": "Belgian Grand Prix",
+        "circuitId": "spa"
+      },
+      "rank": 8,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:barrichello:ff6039716ac0",
+        "sourcePath": "details/drivers/7.json",
+        "eventIds": [
+          "event:1994-11:c0617c76ca7a"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:kubica:54803f2070f9",
+      "entityName": "Robert Kubica",
+      "value": 8521,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2008-3:a20cfa7c9d35"
+      ],
+      "groupId": "poland",
+      "groupLabel": "Poland",
+      "ageDays": 8521,
+      "ageYears": 23,
+      "ageRemainderDays": 121,
+      "dateOfBirth": "1984-12-07",
+      "valueEvent": {
+        "eventId": "event:2008-3:a20cfa7c9d35",
+        "eventIndex": 787,
+        "season": 2008,
+        "round": 3,
+        "date": "2008-04-06",
+        "grandPrixName": "Bahrain Grand Prix",
+        "circuitId": "bahrain"
+      },
+      "rank": 9,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:kubica:54803f2070f9",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2008-3:a20cfa7c9d35"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:ickx:9dc972aa2fb0",
+      "entityName": "Jacky Ickx",
+      "value": 8616,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1968-8:d04226eac176"
+      ],
+      "groupId": "belgium",
+      "groupLabel": "Belgium",
+      "ageDays": 8616,
+      "ageYears": 23,
+      "ageRemainderDays": 216,
+      "dateOfBirth": "1945-01-01",
+      "valueEvent": {
+        "eventId": "event:1968-8:d04226eac176",
+        "eventIndex": 168,
+        "season": 1968,
+        "round": 8,
+        "date": "1968-08-04",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "rank": 10,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ickx:9dc972aa2fb0",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:1968-8:d04226eac176"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:raikkonen:650e2e18533e",
+      "entityName": "Kimi Räikkönen",
+      "value": 8656,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2003-9:38a06a4742ba"
+      ],
+      "groupId": "finland",
+      "groupLabel": "Finland",
+      "ageDays": 8656,
+      "ageYears": 23,
+      "ageRemainderDays": 255,
+      "dateOfBirth": "1979-10-17",
+      "valueEvent": {
+        "eventId": "event:2003-9:38a06a4742ba",
+        "eventIndex": 705,
+        "season": 2003,
+        "round": 9,
+        "date": "2003-06-29",
+        "grandPrixName": "European Grand Prix",
+        "circuitId": "nurburgring"
+      },
+      "rank": 11,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:raikkonen:650e2e18533e",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:2003-9:38a06a4742ba"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:piastri:45bbf3cf700f",
+      "entityName": "Oscar Piastri",
+      "value": 8752,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2025-2:e05a33739015"
+      ],
+      "groupId": "australia",
+      "groupLabel": "Australia",
+      "ageDays": 8752,
+      "ageYears": 23,
+      "ageRemainderDays": 351,
+      "dateOfBirth": "2001-04-06",
+      "valueEvent": {
+        "eventId": "event:2025-2:e05a33739015",
+        "eventIndex": 1126,
+        "season": 2025,
+        "round": 2,
+        "date": "2025-03-23",
+        "grandPrixName": "Chinese Grand Prix",
+        "circuitId": "shanghai"
+      },
+      "rank": 12,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:piastri:45bbf3cf700f",
+        "sourcePath": "details/drivers/a.json",
+        "eventIds": [
+          "event:2025-2:e05a33739015"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:amon:a418aa49b3fe",
+      "entityName": "Chris Amon",
+      "value": 9063,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1968-2:df27731ee81a"
+      ],
+      "groupId": "new-zealand",
+      "groupLabel": "New Zealand",
+      "ageDays": 9063,
+      "ageYears": 24,
+      "ageRemainderDays": 297,
+      "dateOfBirth": "1943-07-20",
+      "valueEvent": {
+        "eventId": "event:1968-2:df27731ee81a",
+        "eventIndex": 162,
+        "season": 1968,
+        "round": 2,
+        "date": "1968-05-12",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "jarama"
+      },
+      "rank": 13,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:amon:a418aa49b3fe",
+        "sourcePath": "details/drivers/5.json",
+        "eventIds": [
+          "event:1968-2:df27731ee81a"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:lauda:a96b8acf8741",
+      "entityName": "Niki Lauda",
+      "value": 9167,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1974-3:cf67dce5f210"
+      ],
+      "groupId": "austria",
+      "groupLabel": "Austria",
+      "ageDays": 9167,
+      "ageYears": 25,
+      "ageRemainderDays": 36,
+      "dateOfBirth": "1949-02-22",
+      "valueEvent": {
+        "eventId": "event:1974-3:cf67dce5f210",
+        "eventIndex": 237,
+        "season": 1974,
+        "round": 3,
+        "date": "1974-03-30",
+        "grandPrixName": "South African Grand Prix",
+        "circuitId": "kyalami"
+      },
+      "rank": 14,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:lauda:a96b8acf8741",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:1974-3:cf67dce5f210"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:montoya:68737b86fe17",
+      "entityName": "Juan Pablo Montoya",
+      "value": 9444,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2001-12:6ecd164b57f4"
+      ],
+      "groupId": "colombia",
+      "groupLabel": "Colombia",
+      "ageDays": 9444,
+      "ageYears": 25,
+      "ageRemainderDays": 312,
+      "dateOfBirth": "1975-09-20",
+      "valueEvent": {
+        "eventId": "event:2001-12:6ecd164b57f4",
+        "eventIndex": 674,
+        "season": 2001,
+        "round": 12,
+        "date": "2001-07-29",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring"
+      },
+      "rank": 15,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:montoya:68737b86fe17",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:2001-12:6ecd164b57f4"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:hoyt:ff4b039bfe11",
+      "entityName": "Jerry Hoyt",
+      "value": 9617,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1955-3:38bb4803a341"
+      ],
+      "groupId": "united-states-of-america",
+      "groupLabel": "United States of America",
+      "ageDays": 9617,
+      "ageYears": 26,
+      "ageRemainderDays": 121,
+      "dateOfBirth": "1929-01-29",
+      "valueEvent": {
+        "eventId": "event:1955-3:38bb4803a341",
+        "eventIndex": 43,
+        "season": 1955,
+        "round": 3,
+        "date": "1955-05-30",
+        "grandPrixName": "Indianapolis 500",
+        "circuitId": "indianapolis"
+      },
+      "rank": 16,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:hoyt:ff4b039bfe11",
+        "sourcePath": "details/drivers/0.json",
+        "eventIds": [
+          "event:1955-3:38bb4803a341"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:scheckter:c14e9982ba2e",
+      "entityName": "Jody Scheckter",
+      "value": 9632,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1976-7:cfe07948546c"
+      ],
+      "groupId": "south-africa",
+      "groupLabel": "South Africa",
+      "ageDays": 9632,
+      "ageYears": 26,
+      "ageRemainderDays": 136,
+      "dateOfBirth": "1950-01-29",
+      "valueEvent": {
+        "eventId": "event:1976-7:cfe07948546c",
+        "eventIndex": 270,
+        "season": 1976,
+        "round": 7,
+        "date": "1976-06-13",
+        "grandPrixName": "Swedish Grand Prix",
+        "circuitId": "anderstorp"
+      },
+      "rank": 17,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:scheckter:c14e9982ba2e",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:1976-7:cfe07948546c"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:prost:70f24972bd43",
+      "entityName": "Alain Prost",
+      "value": 9656,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1981-10:4591ffbfd698"
+      ],
+      "groupId": "france",
+      "groupLabel": "France",
+      "ageDays": 9656,
+      "ageYears": 26,
+      "ageRemainderDays": 159,
+      "dateOfBirth": "1955-02-24",
+      "valueEvent": {
+        "eventId": "event:1981-10:4591ffbfd698",
+        "eventIndex": 351,
+        "season": 1981,
+        "round": 10,
+        "date": "1981-08-02",
+        "grandPrixName": "German Grand Prix",
+        "circuitId": "hockenheimring"
+      },
+      "rank": 18,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:prost:70f24972bd43",
+        "sourcePath": "details/drivers/4.json",
+        "eventIds": [
+          "event:1981-10:4591ffbfd698"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:maldonado:87cbc81409ca",
+      "entityName": "Pastor Maldonado",
+      "value": 9927,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2012-5:8aaf0aead23f"
+      ],
+      "groupId": "venezuela",
+      "groupLabel": "Venezuela",
+      "ageDays": 9927,
+      "ageYears": 27,
+      "ageRemainderDays": 65,
+      "dateOfBirth": "1985-03-09",
+      "valueEvent": {
+        "eventId": "event:2012-5:8aaf0aead23f",
+        "eventIndex": 862,
+        "season": 2012,
+        "round": 5,
+        "date": "2012-05-13",
+        "grandPrixName": "Spanish Grand Prix",
+        "circuitId": "catalunya"
+      },
+      "rank": 19,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:maldonado:87cbc81409ca",
+        "sourcePath": "details/drivers/1.json",
+        "eventIds": [
+          "event:2012-5:8aaf0aead23f"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:gonzalez:2aa2e506438c",
+      "entityName": "José Froilán González",
+      "value": 10509,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1951-5:e0f15b6e9917"
+      ],
+      "groupId": "argentina",
+      "groupLabel": "Argentina",
+      "ageDays": 10509,
+      "ageYears": 28,
+      "ageRemainderDays": 282,
+      "dateOfBirth": "1922-10-05",
+      "valueEvent": {
+        "eventId": "event:1951-5:e0f15b6e9917",
+        "eventIndex": 11,
+        "season": 1951,
+        "round": 5,
+        "date": "1951-07-14",
+        "grandPrixName": "British Grand Prix",
+        "circuitId": "silverstone"
+      },
+      "rank": 20,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:gonzalez:2aa2e506438c",
+        "sourcePath": "details/drivers/c.json",
+        "eventIds": [
+          "event:1951-5:e0f15b6e9917"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:peterson:112af39f0326",
+      "entityName": "Ronnie Peterson",
+      "value": 10590,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1973-2:a2531cc070f5"
+      ],
+      "groupId": "sweden",
+      "groupLabel": "Sweden",
+      "ageDays": 10590,
+      "ageYears": 28,
+      "ageRemainderDays": 363,
+      "dateOfBirth": "1944-02-14",
+      "valueEvent": {
+        "eventId": "event:1973-2:a2531cc070f5",
+        "eventIndex": 221,
+        "season": 1973,
+        "round": 2,
+        "date": "1973-02-11",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "rank": 21,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:peterson:112af39f0326",
+        "sourcePath": "details/drivers/c.json",
+        "eventIds": [
+          "event:1973-2:a2531cc070f5"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:regazzoni:8dabb0375829",
+      "entityName": "Clay Regazzoni",
+      "value": 11373,
+      "series": [],
+      "evidenceEventIds": [
+        "event:1970-13:12bd124a2612"
+      ],
+      "groupId": "switzerland",
+      "groupLabel": "Switzerland",
+      "ageDays": 11373,
+      "ageYears": 31,
+      "ageRemainderDays": 50,
+      "dateOfBirth": "1939-09-05",
+      "valueEvent": {
+        "eventId": "event:1970-13:12bd124a2612",
+        "eventIndex": 196,
+        "season": 1970,
+        "round": 13,
+        "date": "1970-10-25",
+        "grandPrixName": "Mexican Grand Prix",
+        "circuitId": "rodriguez"
+      },
+      "rank": 22,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:regazzoni:8dabb0375829",
+        "sourcePath": "details/drivers/6.json",
+        "eventIds": [
+          "event:1970-13:12bd124a2612"
+        ]
+      }
+    },
+    {
+      "entityId": "driver:perez:03c631191055",
+      "entityName": "Sergio Pérez",
+      "value": 11748,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2022-2:33711984769c"
+      ],
+      "groupId": "mexico",
+      "groupLabel": "Mexico",
+      "ageDays": 11748,
+      "ageYears": 32,
+      "ageRemainderDays": 60,
+      "dateOfBirth": "1990-01-26",
+      "valueEvent": {
+        "eventId": "event:2022-2:33711984769c",
+        "eventIndex": 1058,
+        "season": 2022,
+        "round": 2,
+        "date": "2022-03-27",
+        "grandPrixName": "Saudi Arabian Grand Prix",
+        "circuitId": "jeddah"
+      },
+      "rank": 23,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:perez:03c631191055",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2022-2:33711984769c"
+        ]
+      }
+    }
+  ],
   "coverage": {
     "oldestIncludedSeason": 1950,
     "latestIncludedSeason": 2026,
@@ -19,26 +780,15 @@
     "evidenceAssessment": {
       "schemaVersion": "stats-evidence-assessment.v1",
       "family": "nationality",
-      "status": "incomplete",
-      "rankingComplete": false,
-      "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-      "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+      "status": "complete",
+      "rankingComplete": true,
+      "notice": "",
+      "missingEvidence": ""
     },
-    "note": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
-    "knownExclusions": [
-      "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-    ],
-    "excludedEntityCount": 1,
-    "excludedEventCount": 1
+    "note": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+    "knownExclusions": [],
+    "excludedEntityCount": 0,
+    "excludedEventCount": 0
   },
-  "exclusions": [
-    {
-      "entityId": "driver:faulkner:8908310cfca3",
-      "eventIds": [
-        "event:1950-3:ec906a594187"
-      ],
-      "field": "dateOfBirth",
-      "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-    }
-  ]
+  "exclusions": []
 }

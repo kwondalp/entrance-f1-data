@@ -8703,19 +8703,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 108,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -8723,13 +8715,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 107
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=poles_on_birthday",
@@ -8748,18 +8739,9 @@
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
     "rowCount": 2,
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -8781,19 +8763,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 23,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -8801,13 +8775,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 23
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_pole_sitters",
@@ -8824,19 +8797,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 108,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -8844,13 +8809,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 107
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=poles_from_season_start",
@@ -9807,27 +9771,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1956-6:0ef8624eaef1"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 356,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -9835,13 +9783,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 354
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers_by_nation",
@@ -9858,27 +9805,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1956-6:0ef8624eaef1"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 34,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -9886,13 +9817,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 34
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_points_scorers",
@@ -9909,27 +9839,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1956-6:0ef8624eaef1"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 356,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -9937,13 +9851,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 354
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_points_finishes",
@@ -10410,124 +10323,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:shawe-taylor:60ae77ead4ce",
-        "eventIds": [
-          "event:1950-1:17e7244241b0",
-          "event:1951-5:e0f15b6e9917"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187",
-          "event:1951-2:9f5b3cbfb678",
-          "event:1953-2:b3c65aa780e7",
-          "event:1954-2:5240004faa52",
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:charrington:8458850fa4dc",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:obrien:80f35639017c",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:bianco:5938039de703",
-        "eventIds": [
-          "event:1952-5:c9b66d6ae12c",
-          "event:1952-6:32fc3ad3d7b8",
-          "event:1952-7:67119370d631",
-          "event:1952-8:91c7801f4259"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1954-5:a35cb2055043",
-          "event:1955-5:78ccd031d61f",
-          "event:1955-6:71afb832f3d5",
-          "event:1955-7:d408d1edb8e2",
-          "event:1956-2:1b6937af23f7",
-          "event:1956-4:23099164df87",
-          "event:1956-6:0ef8624eaef1",
-          "event:1956-7:0c530d881fc1",
-          "event:1957-2:4d524231e72b",
-          "event:1957-4:ca6077087191",
-          "event:1957-6:4efe9d3a6313",
-          "event:1957-7:3f794b68c907",
-          "event:1957-8:c9cb0f1970a9",
-          "event:1958-1:b9b2e746ad00"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:herman:fbf69fa43242",
-        "eventIds": [
-          "event:1955-3:38bb4803a341",
-          "event:1956-3:c8841ba792f6",
-          "event:1957-3:7879775c4522",
-          "event:1959-2:6e8dc304cb95",
-          "event:1960-3:923ea1f02fc0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:mackay-fraser:25a63c1e0e4f",
-        "eventIds": [
-          "event:1957-4:ca6077087191"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:thiele:a5492b2316e7",
-        "eventIds": [
-          "event:1960-9:06ca6e69776d"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:broeker:1c2cf8ae4f11",
-        "eventIds": [
-          "event:1963-8:d1bd88ea5e38"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:brown:61a891c5d147",
-        "eventIds": [
-          "event:1976-15:e171b54b3325"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 793,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -10535,13 +10335,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 782
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters_by_nation",
@@ -10558,124 +10357,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:shawe-taylor:60ae77ead4ce",
-        "eventIds": [
-          "event:1950-1:17e7244241b0",
-          "event:1951-5:e0f15b6e9917"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187",
-          "event:1951-2:9f5b3cbfb678",
-          "event:1953-2:b3c65aa780e7",
-          "event:1954-2:5240004faa52",
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:charrington:8458850fa4dc",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:obrien:80f35639017c",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:bianco:5938039de703",
-        "eventIds": [
-          "event:1952-5:c9b66d6ae12c",
-          "event:1952-6:32fc3ad3d7b8",
-          "event:1952-7:67119370d631",
-          "event:1952-8:91c7801f4259"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1954-5:a35cb2055043",
-          "event:1955-5:78ccd031d61f",
-          "event:1955-6:71afb832f3d5",
-          "event:1955-7:d408d1edb8e2",
-          "event:1956-2:1b6937af23f7",
-          "event:1956-4:23099164df87",
-          "event:1956-6:0ef8624eaef1",
-          "event:1956-7:0c530d881fc1",
-          "event:1957-2:4d524231e72b",
-          "event:1957-4:ca6077087191",
-          "event:1957-6:4efe9d3a6313",
-          "event:1957-7:3f794b68c907",
-          "event:1957-8:c9cb0f1970a9",
-          "event:1958-1:b9b2e746ad00"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:herman:fbf69fa43242",
-        "eventIds": [
-          "event:1955-3:38bb4803a341",
-          "event:1956-3:c8841ba792f6",
-          "event:1957-3:7879775c4522",
-          "event:1959-2:6e8dc304cb95",
-          "event:1960-3:923ea1f02fc0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:mackay-fraser:25a63c1e0e4f",
-        "eventIds": [
-          "event:1957-4:ca6077087191"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:thiele:a5492b2316e7",
-        "eventIds": [
-          "event:1960-9:06ca6e69776d"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:broeker:1c2cf8ae4f11",
-        "eventIds": [
-          "event:1963-8:d1bd88ea5e38"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:brown:61a891c5d147",
-        "eventIds": [
-          "event:1976-15:e171b54b3325"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 41,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -10683,13 +10369,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 41
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_gp_starters",
@@ -10706,124 +10391,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:shawe-taylor:60ae77ead4ce",
-        "eventIds": [
-          "event:1950-1:17e7244241b0",
-          "event:1951-5:e0f15b6e9917"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187",
-          "event:1951-2:9f5b3cbfb678",
-          "event:1953-2:b3c65aa780e7",
-          "event:1954-2:5240004faa52",
-          "event:1955-3:38bb4803a341"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:charrington:8458850fa4dc",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:obrien:80f35639017c",
-        "eventIds": [
-          "event:1952-3:3cdea9805a4e"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:bianco:5938039de703",
-        "eventIds": [
-          "event:1952-5:c9b66d6ae12c",
-          "event:1952-6:32fc3ad3d7b8",
-          "event:1952-7:67119370d631",
-          "event:1952-8:91c7801f4259"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:gould:6f30a6e51031",
-        "eventIds": [
-          "event:1954-5:a35cb2055043",
-          "event:1955-5:78ccd031d61f",
-          "event:1955-6:71afb832f3d5",
-          "event:1955-7:d408d1edb8e2",
-          "event:1956-2:1b6937af23f7",
-          "event:1956-4:23099164df87",
-          "event:1956-6:0ef8624eaef1",
-          "event:1956-7:0c530d881fc1",
-          "event:1957-2:4d524231e72b",
-          "event:1957-4:ca6077087191",
-          "event:1957-6:4efe9d3a6313",
-          "event:1957-7:3f794b68c907",
-          "event:1957-8:c9cb0f1970a9",
-          "event:1958-1:b9b2e746ad00"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:herman:fbf69fa43242",
-        "eventIds": [
-          "event:1955-3:38bb4803a341",
-          "event:1956-3:c8841ba792f6",
-          "event:1957-3:7879775c4522",
-          "event:1959-2:6e8dc304cb95",
-          "event:1960-3:923ea1f02fc0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:mackay-fraser:25a63c1e0e4f",
-        "eventIds": [
-          "event:1957-4:ca6077087191"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:thiele:a5492b2316e7",
-        "eventIds": [
-          "event:1960-9:06ca6e69776d"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:broeker:1c2cf8ae4f11",
-        "eventIds": [
-          "event:1963-8:d1bd88ea5e38"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:brown:61a891c5d147",
-        "eventIds": [
-          "event:1976-15:e171b54b3325"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 793,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -10831,13 +10403,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 782
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=average_driver_age_by_gp",
@@ -10854,278 +10425,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "eventId": "event:1950-1:17e7244241b0",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:shawe-taylor:60ae77ead4ce"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1950-3:ec906a594187",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:faulkner:8908310cfca3"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1951-2:9f5b3cbfb678",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:faulkner:8908310cfca3"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1951-5:e0f15b6e9917",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:shawe-taylor:60ae77ead4ce"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1952-3:3cdea9805a4e",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:charrington:8458850fa4dc",
-          "driver:obrien:80f35639017c"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1952-5:c9b66d6ae12c",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:bianco:5938039de703"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1952-6:32fc3ad3d7b8",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:bianco:5938039de703"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1952-7:67119370d631",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:bianco:5938039de703"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1952-8:91c7801f4259",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:bianco:5938039de703"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1953-2:b3c65aa780e7",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:faulkner:8908310cfca3"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1954-2:5240004faa52",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:faulkner:8908310cfca3"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1954-5:a35cb2055043",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1955-3:38bb4803a341",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:faulkner:8908310cfca3",
-          "driver:herman:fbf69fa43242"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1955-5:78ccd031d61f",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1955-6:71afb832f3d5",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1955-7:d408d1edb8e2",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1956-2:1b6937af23f7",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1956-3:c8841ba792f6",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:herman:fbf69fa43242"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1956-4:23099164df87",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1956-6:0ef8624eaef1",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1956-7:0c530d881fc1",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-2:4d524231e72b",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-3:7879775c4522",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:herman:fbf69fa43242"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-4:ca6077087191",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031",
-          "driver:mackay-fraser:25a63c1e0e4f"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-6:4efe9d3a6313",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-7:3f794b68c907",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1957-8:c9cb0f1970a9",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1958-1:b9b2e746ad00",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:gould:6f30a6e51031"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1959-2:6e8dc304cb95",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:herman:fbf69fa43242"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1960-3:923ea1f02fc0",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:herman:fbf69fa43242"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1960-9:06ca6e69776d",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:thiele:a5492b2316e7"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1963-8:d1bd88ea5e38",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:broeker:1c2cf8ae4f11"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:1976-15:e171b54b3325",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:brown:61a891c5d147"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 1163,
+    "exclusions": [],
     "definition": {
-      "scope": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425.",
+      "scope": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425. Disputed dates include explicit owner editorial selections, not independently verified, unanimous, or official dates; competing source dates remain recorded in stats-owner-dob-decisions-20260917.json.",
       "presentation": "records",
       "defaultSort": "desc",
       "grouping": "records",
@@ -11149,13 +10453,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 1130
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_gp_starts",
@@ -14865,19 +14168,11 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:faulkner:8908310cfca3",
-        "eventIds": [
-          "event:1950-3:ec906a594187"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 158,
+    "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -14885,13 +14180,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 157
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=q2_appearances",
