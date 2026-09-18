@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 2,
+  "session": "race",
+  "raceSlug": "china",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
+  "completedLaps": 56,
+  "segments": [
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "startLap": 1,
+      "endLap": 1,
+      "lapCount": 1
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 2,
+      "endLap": 56,
+      "lapCount": 55
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "lap": 52,
+      "timeMillis": 95275
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 1
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 2
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 3
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 4
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 5
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 6
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 7
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 8
+    },
+    {
+      "driverId": "isack-hadjar",
+      "constructorId": "red-bull",
+      "position": 9
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 10
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 11
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 12
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 13
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "rb",
+      "position": 14
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 15
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 16
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 17
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 18
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 19
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 20
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 21
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-18T21:55:05.957909Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/results/?limit=100",
+        "sha256": "063cefbd1ee60f5c85bf2ff2abde072f2df49eeaa6931162417812ea301774d4",
+        "byteSize": 12691
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=0",
+        "sha256": "1762b085c25eefd863e08d253752d35a7bae38ac63b8bdea22c20f7796cae7f9",
+        "byteSize": 6451
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=100",
+        "sha256": "279e8505a48ccac4b73c5f06fcf78b46b75d9f4e1f794e1ada1de0099fa4b2c6",
+        "byteSize": 6473
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=200",
+        "sha256": "6186f8a1178113382f2f079d108e8133f5a2121523a6a1830a008569c7debb1c",
+        "byteSize": 6492
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=300",
+        "sha256": "500b2e2959dcecaf7ec781fc0fc542018ed9a221f47afda7739cf71bf51533e5",
+        "byteSize": 6459
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=400",
+        "sha256": "b563a758ccfd997d246c25537e6f1b1f76b1f1c5fcc53abd4bf2d15931c23be6",
+        "byteSize": 6463
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=500",
+        "sha256": "12df0541550848f50864bb9d4bb6a22a91086b5f8f3db21967d5a937d5bccb0a",
+        "byteSize": 6490
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=600",
+        "sha256": "ef228a1c21f5143650d6ae26950da3e30ce36ddfc898b2d127ce85f0a8c2e6c7",
+        "byteSize": 6520
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=700",
+        "sha256": "79b859558190f12e688b72a57da05434556bf59ed04f2324968ce41684bd82a8",
+        "byteSize": 6468
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=800",
+        "sha256": "d757f8f0f1aedbdaca6a2f24704c2d4aa590b91fd8c23cee95dcaf050e6e464f",
+        "byteSize": 6485
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/2/laps/?limit=2000&offset=900",
+        "sha256": "b361c13b0321b519b4d200bb24b902a50df3767f7844644605e008c987f38546",
+        "byteSize": 1717
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-03-15_Chinese_Grand_Prix/2026-03-15_Race/TimingData.jsonStream",
+        "status": 403
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-03-15_Chinese_Grand_Prix/2026-03-15_Race/TimingData.jsonStream",
+        "status": 404
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 2,
+      "session": "race",
+      "raceSlug": "china",
+      "scheduledStartUtc": "2026-03-15T07:00:00Z",
+      "inputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
+      "path": "sessions/792b3d53484ac6fa56329b0f56523f5b9ecbfc1d13e46b39142ecf586dc317c5.json",
+      "sha256": "792b3d53484ac6fa56329b0f56523f5b9ecbfc1d13e46b39142ecf586dc317c5",
+      "byteSize": 17903,
+      "publicationState": "complete"
+    }
+  }
+}
