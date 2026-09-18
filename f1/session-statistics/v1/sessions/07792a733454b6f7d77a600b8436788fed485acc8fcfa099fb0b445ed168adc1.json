@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 12,
+  "session": "race",
+  "raceSlug": "netherlands",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "008d88aba54ae38dc462ff109c06781ed96a203c970b81795bddda279bcf8481",
+  "completedLaps": 72,
+  "segments": [
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 1,
+      "endLap": 4,
+      "lapCount": 4
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 5,
+      "endLap": 21,
+      "lapCount": 17
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "startLap": 22,
+      "endLap": 24,
+      "lapCount": 3
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 25,
+      "endLap": 39,
+      "lapCount": 15
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 40,
+      "endLap": 47,
+      "lapCount": 8
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "startLap": 48,
+      "endLap": 53,
+      "lapCount": 6
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 54,
+      "endLap": 72,
+      "lapCount": 19
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "lap": 60,
+      "timeMillis": 74230
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 1
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 2
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 3
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 4
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 5
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 6
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 7
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "red-bull",
+      "position": 8
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 9
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 10
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 11
+    },
+    {
+      "driverId": "yuki-tsunoda",
+      "constructorId": "rb",
+      "position": 12
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 13
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 14
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 15
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 16
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 17
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 18
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 19
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 20
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 21
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-18T01:17:50.579624Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/results/?limit=100",
+        "sha256": "36260f0c1d851b43268dbe347ec69be0664a07f033123fde5f4c0f5fd1a5cbd2",
+        "byteSize": 12875
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=0",
+        "sha256": "e9cf10e8ce4e1c47b7d464674c6744a2de8bada0f4975be90ee9e034ca317b56",
+        "byteSize": 6396
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=100",
+        "sha256": "76ee92c76ef29012b64c7815db967dc9a84af8882faf58ba80ecba20333355ff",
+        "byteSize": 6391
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=200",
+        "sha256": "12b6964191c0a687e494070512797d0b83abffb9d0d753ce402106a02a93691e",
+        "byteSize": 6413
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=300",
+        "sha256": "97ad9627879cd7c0389ac61429b2dc99b0a37c7305601ea0eb73ff235690eda8",
+        "byteSize": 6416
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=400",
+        "sha256": "0a092156e730fc62483a34c08decf885d81afb31600b2bde803faaf951c9639f",
+        "byteSize": 6404
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=500",
+        "sha256": "09b2ac43ce4723f5a2e31589aaad4da03ad1dd612644c660ae0e40d865b68ab4",
+        "byteSize": 6411
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=600",
+        "sha256": "f6846f80d435b30ac5dfc4b0f84136dfb7acfb0d7310a4b28627d172a71ea156",
+        "byteSize": 6408
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=700",
+        "sha256": "0c359e4aa1f9f8264a3da2acf170abdefba28b747082bd70591665f25b15dbae",
+        "byteSize": 6408
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=800",
+        "sha256": "d7cee6b7a583dbc1aaeab285ca64b3ad9fa713ba4cee051e8946b64519926282",
+        "byteSize": 6407
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=900",
+        "sha256": "5cc834b9eb578e2fd458f88acb6c048626235ba08cfa896fa464c040ea2ed3c3",
+        "byteSize": 6438
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=1000",
+        "sha256": "c1127757e2fdb3643db288822688f2fff50d08c0d205e6f2b96fb8bd2bfae5c6",
+        "byteSize": 6416
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=1100",
+        "sha256": "c1cde1a3016f0187d5c5ea78c4ab55e7b0ac031237a468db882b0cb44442230f",
+        "byteSize": 6459
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=1200",
+        "sha256": "bb8a47469a49583babe8ab2fc54e84c753da49fd4f29bb0cdb511aef5377a07b",
+        "byteSize": 6462
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/12/laps/?limit=2000&offset=1300",
+        "sha256": "62b9764b8b48d6db08d19cb7ded2dea470c15f55a26b54144851baf7591ea180",
+        "byteSize": 4476
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-08-23_Dutch_Grand_Prix/2026-08-23_Race/TimingData.jsonStream",
+        "status": 403
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-08-23_Dutch_Grand_Prix/2026-08-23_Race/TimingData.jsonStream",
+        "status": 404
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 12,
+      "session": "race",
+      "raceSlug": "netherlands",
+      "scheduledStartUtc": "2026-08-23T13:00:00Z",
+      "inputFingerprint": "008d88aba54ae38dc462ff109c06781ed96a203c970b81795bddda279bcf8481",
+      "path": "sessions/eb787a03ff3f3c23cc532e419dbcafd4eb9188d51d43b76a06d744c87263c89e.json",
+      "sha256": "eb787a03ff3f3c23cc532e419dbcafd4eb9188d51d43b76a06d744c87263c89e",
+      "byteSize": 17963,
+      "publicationState": "complete"
+    }
+  }
+}
