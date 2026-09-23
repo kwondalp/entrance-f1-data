@@ -1,0 +1,263 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 3,
+  "session": "race",
+  "raceSlug": "japan",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "d764cc56de021581923c7877b7357bb942dacc806a20e4e2e5865a1e760a4b8c",
+  "completedLaps": 53,
+  "segments": [
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "startLap": 1,
+      "endLap": 7,
+      "lapCount": 7
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "startLap": 8,
+      "endLap": 8,
+      "lapCount": 1
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "startLap": 9,
+      "endLap": 17,
+      "lapCount": 9
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "startLap": 18,
+      "endLap": 20,
+      "lapCount": 3
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 21,
+      "endLap": 53,
+      "lapCount": 33
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "lap": 49,
+      "timeMillis": 92432
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 1
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 2
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 3
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 4
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 5
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 6
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 7
+    },
+    {
+      "driverId": "isack-hadjar",
+      "constructorId": "red-bull",
+      "position": 8
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 9
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 10
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 11
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 12
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 13
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "rb",
+      "position": 14
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 15
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 16
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 17
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 18
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 19
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 20
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 21
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-23T10:12:47.918227Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/results/?limit=100",
+        "sha256": "2851253f571e453fed5fbc85c0b1c31df8427972438eb46165e32dc398ecd1aa",
+        "byteSize": 13161
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=0",
+        "sha256": "71bfbca5eede19303553150ec471c269c40efdf02eb2560f7053c7a9489927b9",
+        "byteSize": 6405
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=100",
+        "sha256": "4027642d1056ba6e47e31024b4d98f0a02a068645730f0ae424c7bf3609e5f9a",
+        "byteSize": 6431
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=200",
+        "sha256": "431cc9a4c2e92f9019ece34fbcd883f24608efbf4df372adb06c5ff0626dbb40",
+        "byteSize": 6418
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=300",
+        "sha256": "8405d01b70a2918206411a4b7358e8869682bc42f402db09b7857029d9aee5a3",
+        "byteSize": 6431
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=400",
+        "sha256": "4c9aaae63e9e69e29c80ef9532e88b058765047e3c54f332b5b5a3a54d45edb1",
+        "byteSize": 6416
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=500",
+        "sha256": "a9cd0c647069b38ab5fece8bcc003b403906c5bd65a3bf9abd3af24100485214",
+        "byteSize": 6435
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=600",
+        "sha256": "b2efed0d672f8fe7e41282c1473b56b650ec80e5e3781df1f1b87ba10e4ba2a9",
+        "byteSize": 6436
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=700",
+        "sha256": "979e6ffa7ffa16050f8491d07a4762899d0bfe10aca98f02f65d4a4050835f6a",
+        "byteSize": 6443
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=800",
+        "sha256": "c0a0be86399ae849f80733b0d399013332eacd7cfa65b02e028097cc0240be8b",
+        "byteSize": 6443
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=900",
+        "sha256": "fb68ef4cd20d9559abe9550d44788698dce3c9a7769896eb4cdd73f94e15a5d6",
+        "byteSize": 6443
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=1000",
+        "sha256": "7f09bb8d398ec560501d12151fe776b2a47b32e9f655d56adb5bcb8df0fa028f",
+        "byteSize": 6449
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/3/laps/?limit=2000&offset=1100",
+        "sha256": "b4943d0e3fbe7f50b906c46362f051dfb6bab7f5ee3e193a9751f33f0850b314",
+        "byteSize": 957
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-03-29_Japanese_Grand_Prix/2026-03-29_Race/TimingData.jsonStream",
+        "status": 403
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-03-29_Japanese_Grand_Prix/2026-03-29_Race/TimingData.jsonStream",
+        "status": 404
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 3,
+      "session": "race",
+      "raceSlug": "japan",
+      "scheduledStartUtc": "2026-03-29T05:00:00Z",
+      "inputFingerprint": "d764cc56de021581923c7877b7357bb942dacc806a20e4e2e5865a1e760a4b8c",
+      "path": "sessions/6bfa165cf2d1b9f705e1403bae25e0543409ffac22ff8e505283a38390b6281b.json",
+      "sha256": "6bfa165cf2d1b9f705e1403bae25e0543409ffac22ff8e505283a38390b6281b",
+      "byteSize": 18222,
+      "publicationState": "complete"
+    }
+  }
+}
