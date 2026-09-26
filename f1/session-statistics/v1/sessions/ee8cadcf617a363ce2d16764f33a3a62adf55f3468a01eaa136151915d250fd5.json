@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "entrance-session-statistics.v1",
+  "dataStatus": "verified",
+  "season": 2026,
+  "round": 11,
+  "session": "race",
+  "raceSlug": "hungary",
+  "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+  "officialInputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
+  "completedLaps": 70,
+  "segments": [
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "startLap": 1,
+      "endLap": 15,
+      "lapCount": 15
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 16,
+      "endLap": 17,
+      "lapCount": 2
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 18,
+      "endLap": 22,
+      "lapCount": 5
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "startLap": 23,
+      "endLap": 32,
+      "lapCount": 10
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 33,
+      "endLap": 39,
+      "lapCount": 7
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "startLap": 40,
+      "endLap": 40,
+      "lapCount": 1
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "startLap": 41,
+      "endLap": 45,
+      "lapCount": 5
+    },
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "startLap": 46,
+      "endLap": 70,
+      "lapCount": 25
+    }
+  ],
+  "fastestLaps": [
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "lap": 58,
+      "timeMillis": 82000
+    }
+  ],
+  "startingGrid": [
+    {
+      "driverId": "lando-norris",
+      "constructorId": "mclaren",
+      "position": 1
+    },
+    {
+      "driverId": "charles-leclerc",
+      "constructorId": "ferrari",
+      "position": 2
+    },
+    {
+      "driverId": "oscar-piastri",
+      "constructorId": "mclaren",
+      "position": 3
+    },
+    {
+      "driverId": "max-verstappen",
+      "constructorId": "red-bull",
+      "position": 4
+    },
+    {
+      "driverId": "lewis-hamilton",
+      "constructorId": "ferrari",
+      "position": 5
+    },
+    {
+      "driverId": "george-russell",
+      "constructorId": "mercedes",
+      "position": 6
+    },
+    {
+      "driverId": "kimi-antonelli",
+      "constructorId": "mercedes",
+      "position": 7
+    },
+    {
+      "driverId": "isack-hadjar",
+      "constructorId": "red-bull",
+      "position": 8
+    },
+    {
+      "driverId": "arvid-lindblad",
+      "constructorId": "rb",
+      "position": 9
+    },
+    {
+      "driverId": "nico-hulkenberg",
+      "constructorId": "audi",
+      "position": 10
+    },
+    {
+      "driverId": "liam-lawson",
+      "constructorId": "rb",
+      "position": 11
+    },
+    {
+      "driverId": "pierre-gasly",
+      "constructorId": "alpine",
+      "position": 12
+    },
+    {
+      "driverId": "franco-colapinto",
+      "constructorId": "alpine",
+      "position": 13
+    },
+    {
+      "driverId": "gabriel-bortoleto",
+      "constructorId": "audi",
+      "position": 14
+    },
+    {
+      "driverId": "esteban-ocon",
+      "constructorId": "haas",
+      "position": 15
+    },
+    {
+      "driverId": "fernando-alonso",
+      "constructorId": "aston-martin",
+      "position": 16
+    },
+    {
+      "driverId": "oliver-bearman",
+      "constructorId": "haas",
+      "position": 17
+    },
+    {
+      "driverId": "carlos-sainz",
+      "constructorId": "williams",
+      "position": 18
+    },
+    {
+      "driverId": "alexander-albon",
+      "constructorId": "williams",
+      "position": 19
+    },
+    {
+      "driverId": "lance-stroll",
+      "constructorId": "aston-martin",
+      "position": 20
+    },
+    {
+      "driverId": "valtteri-bottas",
+      "constructorId": "cadillac",
+      "position": 21
+    },
+    {
+      "driverId": "sergio-perez",
+      "constructorId": "cadillac",
+      "position": 22
+    }
+  ],
+  "retrievedAtUtc": "2026-09-26T01:46:21.488563Z",
+  "source": {
+    "provider": "Jolpica explicit lap positions and Formula 1 official results",
+    "url": "https://api.jolpi.ca/ergast/f1/",
+    "bindings": [
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/results/?limit=100",
+        "sha256": "8cb0c878f0deea5b49c5a0b9e6f930fbc13e533d2e2fb13757dc5dcb9516bc82",
+        "byteSize": 13081
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=0",
+        "sha256": "6d5911f3e6863e5a41b2026852034c5dd80a4e24d4e3e35a23979e7dd34cb204",
+        "byteSize": 6396
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=100",
+        "sha256": "c560919907a76b0aa34fc111a6ec42e3d99b8947f59d6b59c1c3f107ecc268a8",
+        "byteSize": 6415
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=200",
+        "sha256": "a1822328bed0a3d8cbfba1818560986529690024c15500d1c264ffa3fde30d7a",
+        "byteSize": 6408
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=300",
+        "sha256": "eac1349f113d1d991c406eed6de687bbdbd488b4bcbe4986eae045ba256e6804",
+        "byteSize": 6424
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=400",
+        "sha256": "374d3178e6745e9017013ea010590b7a6210c85b2f43bd5001da918a6343371e",
+        "byteSize": 6436
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=500",
+        "sha256": "2d2972906870d4451c09508d772ddc0f0a06ac4e9c5945f56b5b104c070a2e1b",
+        "byteSize": 6402
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=600",
+        "sha256": "84ce9d607a14cfa5c4d57ecc55b37532177d75b95701f94b372e56be51fb02b0",
+        "byteSize": 6436
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=700",
+        "sha256": "38c129565cbc2af5e838d357045a8c8edff4a22677080b48de333fdc575a8ae0",
+        "byteSize": 6430
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=800",
+        "sha256": "bb0e4e64e5f1a7228cf1e9288b582925b9b81abc416253f24d687b7da5f26bc9",
+        "byteSize": 6430
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=900",
+        "sha256": "71fe8fe4be0dcbe9e11b7089d19b052e288ca4b6a53bb51f63a12a3a216bf18d",
+        "byteSize": 6399
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=1000",
+        "sha256": "b12755adbd212bc1a12f435838033f4824c8295216e36f47f97d0acb33399707",
+        "byteSize": 6412
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=1100",
+        "sha256": "180e0c3bcb3a99b78e7c4c3dd222b6c77d87e6d679097930c479c273fe01b95e",
+        "byteSize": 6468
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=1200",
+        "sha256": "11516787bf99b75560dbdfb1f28bac347f5a1749f2e686375c0c84653e20c14c",
+        "byteSize": 6446
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=1300",
+        "sha256": "0025058a3fd9b8c6142b725a1737023320b80a655f39437ac005c1464ec6332d",
+        "byteSize": 6450
+      },
+      {
+        "url": "https://api.jolpi.ca/ergast/f1/2026/11/laps/?limit=2000&offset=1400",
+        "sha256": "2066bae2330f361ea0a9a91bfe33ede4b7123f6eaae045f8c57e305af158e35f",
+        "byteSize": 2304
+      }
+    ],
+    "fastestLapScope": "Only the official fastest-lap classification; other personal times remain unknown",
+    "primaryProviderFailures": [
+      {
+        "url": "https://livetiming.formula1.com/static/2026/2026-07-26_Hungarian_Grand_Prix/2026-07-26_Race/TimingData.jsonStream",
+        "status": 403
+      },
+      {
+        "url": "https://livetiming-mirror.fastf1.dev/static/2026/2026-07-26_Hungarian_Grand_Prix/2026-07-26_Race/TimingData.jsonStream",
+        "status": 404
+      }
+    ],
+    "officialBinding": {
+      "season": 2026,
+      "round": 11,
+      "session": "race",
+      "raceSlug": "hungary",
+      "scheduledStartUtc": "2026-07-26T13:00:00Z",
+      "inputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
+      "path": "sessions/60510bea33d35f14974fa43535b3735348696a9d68b8c2fafabc5b3e715394e5.json",
+      "sha256": "60510bea33d35f14974fa43535b3735348696a9d68b8c2fafabc5b3e715394e5",
+      "byteSize": 18628,
+      "publicationState": "complete"
+    }
+  }
+}
