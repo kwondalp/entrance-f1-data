@@ -4,7 +4,7 @@
   "statisticId": "consecutive_constructor_laps_led",
   "metricId": "consecutiveConstructorLapsLed",
   "status": "partial",
-  "cutoff": "2026-09-13",
+  "cutoff": "2026-09-26",
   "completeness": {
     "current": {
       "resultRowCount": 34,
@@ -56,8 +56,8 @@
         2026
       ],
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 798,
-      "incompleteEventCount": 366,
+      "completeEventCount": 799,
+      "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
         "eventIndex": 357,
@@ -68,18 +68,16 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-14:c5436ea4a949",
-        "eventIndex": 1162,
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
         "season": 2026,
-        "round": 14,
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "madring",
-        "date": "2026-09-13"
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
       },
-      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
-      "pendingCurrentEventIds": [
-        "event:2026-15:f1678fdfd3bd"
-      ]
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
+      "pendingCurrentEventIds": []
     },
     "target": {
       "cutoff": "2026-08-23",

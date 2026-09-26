@@ -4,7 +4,7 @@
   "statisticId": "consecutive_laps_led",
   "metricId": "consecutiveLapsLed",
   "status": "partial",
-  "cutoff": "2026-09-13",
+  "cutoff": "2026-09-26",
   "completeness": {
     "current": {
       "resultRowCount": 80,
@@ -56,8 +56,8 @@
         2026
       ],
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 798,
-      "incompleteEventCount": 366,
+      "completeEventCount": 799,
+      "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
         "eventIndex": 357,
@@ -68,18 +68,16 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-14:c5436ea4a949",
-        "eventIndex": 1162,
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
         "season": 2026,
-        "round": 14,
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "madring",
-        "date": "2026-09-13"
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
       },
-      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
-      "pendingCurrentEventIds": [
-        "event:2026-15:f1678fdfd3bd"
-      ]
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
+      "pendingCurrentEventIds": []
     },
     "target": {
       "cutoff": "2026-08-23",
@@ -1237,6 +1235,37 @@
       "rank": 36
     },
     {
+      "entityId": "driver:russell:0de59c03b0db",
+      "entityName": "George Russell",
+      "value": 51,
+      "firstEvent": {
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
+        "season": 2026,
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
+        "season": 2026,
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
+      },
+      "record": {
+        "lapCount": 51,
+        "distanceKm": 306.153,
+        "firstLap": 1,
+        "lastLap": 51,
+        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
+      },
+      "rank": 38
+    },
+    {
       "entityId": "driver:frentzen:e499a12f83f0",
       "entityName": "Heinz-Harald Frentzen",
       "value": 49,
@@ -1265,7 +1294,7 @@
         "lastLap": 32,
         "valueScope": "longest observed contiguous leader run; source gaps break continuity"
       },
-      "rank": 38
+      "rank": 39
     },
     {
       "entityId": "driver:massa:86ab3cfe923d",
@@ -1296,38 +1325,7 @@
         "lastLap": 71,
         "valueScope": "longest observed contiguous leader run; source gaps break continuity"
       },
-      "rank": 39
-    },
-    {
-      "entityId": "driver:russell:0de59c03b0db",
-      "entityName": "George Russell",
-      "value": 45,
-      "firstEvent": {
-        "eventId": "event:2020-16:fcacc7c1c62b",
-        "eventIndex": 1033,
-        "season": 2020,
-        "round": 16,
-        "date": "2020-12-06",
-        "grandPrixName": "Sakhir Grand Prix",
-        "circuitId": "bahrain"
-      },
-      "lastEvent": {
-        "eventId": "event:2020-16:fcacc7c1c62b",
-        "eventIndex": 1033,
-        "season": 2020,
-        "round": 16,
-        "date": "2020-12-06",
-        "grandPrixName": "Sakhir Grand Prix",
-        "circuitId": "bahrain"
-      },
-      "record": {
-        "lapCount": 45,
-        "distanceKm": 159.435,
-        "firstLap": 1,
-        "lastLap": 45,
-        "valueScope": "longest observed contiguous leader run; source gaps break continuity"
-      },
-      "rank": 39
+      "rank": 40
     },
     {
       "entityId": "driver:capelli:89a05e194274",
@@ -1358,7 +1356,7 @@
         "lastLap": 77,
         "valueScope": "longest observed contiguous leader run; source gaps break continuity"
       },
-      "rank": 39
+      "rank": 40
     },
     {
       "entityId": "driver:irvine:3492559d3bf9",

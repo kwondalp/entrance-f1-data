@@ -3,15 +3,15 @@
   "entity": "constructors",
   "statisticId": "constructor_grand_slams",
   "metricId": "constructorGrandSlams",
-  "status": "partial",
-  "cutoff": "2026-09-13",
+  "status": "complete_through_cutoff",
+  "cutoff": "2026-09-26",
   "completeness": {
     "current": {
       "resultRowCount": 14,
-      "coveredSeasons": "Verified events through 2026-09-13",
+      "coveredSeasons": "Verified events through 2026-09-26",
       "excludedSeasons": [],
-      "completeEventCount": 1163,
-      "incompleteEventCount": 1,
+      "completeEventCount": 1164,
+      "incompleteEventCount": 0,
       "earliestCoveredEvent": {
         "eventId": "event:1950-1:17e7244241b0",
         "eventIndex": 0,
@@ -22,18 +22,16 @@
         "circuitId": "silverstone"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-14:c5436ea4a949",
-        "eventIndex": 1162,
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
         "season": 2026,
-        "round": 14,
-        "grandPrixName": "Spanish Grand Prix",
-        "circuitId": "madring",
-        "date": "2026-09-13"
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
       },
-      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
-      "pendingCurrentEventIds": [
-        "event:2026-15:f1678fdfd3bd"
-      ]
+      "valueScope": "complete totals through cutoff",
+      "pendingCurrentEventIds": []
     },
     "target": {
       "cutoff": "2026-09-26",
@@ -427,6 +425,264 @@
         ]
       },
       "rank": 1
+    },
+    {
+      "entityId": "constructor:mercedes:81ae28b14607",
+      "entityName": "Mercedes",
+      "value": 10,
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2026
+      ],
+      "firstEvent": {
+        "eventId": "event:2014-2:e3929c81f4de",
+        "eventIndex": 898,
+        "season": 2014,
+        "round": 2,
+        "date": "2014-03-30",
+        "grandPrixName": "Malaysian Grand Prix",
+        "circuitId": "sepang"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-15:f1678fdfd3bd",
+        "eventIndex": 1163,
+        "season": 2026,
+        "round": 15,
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "circuitId": "baku",
+        "date": "2026-09-26"
+      },
+      "evidenceRowCount": 10,
+      "record": {
+        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
+        "valueScope": "complete totals through cutoff",
+        "occurrences": [
+          {
+            "event": {
+              "eventId": "event:2014-2:e3929c81f4de",
+              "eventIndex": 898,
+              "season": 2014,
+              "round": 2,
+              "date": "2014-03-30",
+              "grandPrixName": "Malaysian Grand Prix",
+              "circuitId": "sepang"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 899,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2015-12:fdf4076f975e",
+              "eventIndex": 927,
+              "season": 2015,
+              "round": 12,
+              "date": "2015-09-06",
+              "grandPrixName": "Italian Grand Prix",
+              "circuitId": "monza"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 928,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2016-4:d9ceafbeb3e1",
+              "eventIndex": 938,
+              "season": 2016,
+              "round": 4,
+              "date": "2016-05-01",
+              "grandPrixName": "Russian Grand Prix",
+              "circuitId": "sochi"
+            },
+            "driverId": "driver:rosberg:f41469d63d30",
+            "driverName": "Nico Rosberg",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 939,
+            "sourceDriverId": "nico-rosberg",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2016-8:cc67af311562",
+              "eventIndex": 942,
+              "season": 2016,
+              "round": 8,
+              "date": "2016-06-19",
+              "grandPrixName": "European Grand Prix",
+              "circuitId": "baku"
+            },
+            "driverId": "driver:rosberg:f41469d63d30",
+            "driverName": "Nico Rosberg",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 943,
+            "sourceDriverId": "nico-rosberg",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-2:2774cbf9ec26",
+              "eventIndex": 957,
+              "season": 2017,
+              "round": 2,
+              "date": "2017-04-09",
+              "grandPrixName": "Chinese Grand Prix",
+              "circuitId": "shanghai"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 958,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-7:3efe944bf5f8",
+              "eventIndex": 962,
+              "season": 2017,
+              "round": 7,
+              "date": "2017-06-11",
+              "grandPrixName": "Canadian Grand Prix",
+              "circuitId": "villeneuve"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 963,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2017-10:4cb6b52581ee",
+              "eventIndex": 965,
+              "season": 2017,
+              "round": 10,
+              "date": "2017-07-16",
+              "grandPrixName": "British Grand Prix",
+              "circuitId": "silverstone"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 966,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2019-21:f0312a8dac89",
+              "eventIndex": 1017,
+              "season": 2019,
+              "round": 21,
+              "date": "2019-12-01",
+              "grandPrixName": "Abu Dhabi Grand Prix",
+              "circuitId": "yas_marina"
+            },
+            "driverId": "driver:hamilton:528ad2ac33fa",
+            "driverName": "Lewis Hamilton",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 1018,
+            "sourceDriverId": "lewis-hamilton",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2026-6:0b0abef937ae",
+              "eventIndex": 1154,
+              "season": 2026,
+              "round": 6,
+              "date": "2026-06-07",
+              "grandPrixName": "Monaco Grand Prix",
+              "circuitId": "monaco"
+            },
+            "driverId": "driver:antonelli:0ab4d82d3440",
+            "driverName": "Kimi Antonelli",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "constructorName": "Mercedes",
+            "sourceRaceId": 1155,
+            "sourceDriverId": "kimi-antonelli",
+            "sourceConstructorId": "mercedes",
+            "constructorBinding": "exact_canonical_identity",
+            "grandSlam": true
+          },
+          {
+            "event": {
+              "eventId": "event:2026-15:f1678fdfd3bd",
+              "eventIndex": 1163,
+              "season": 2026,
+              "round": 15,
+              "grandPrixName": "Azerbaijan Grand Prix",
+              "circuitId": "baku",
+              "date": "2026-09-26"
+            },
+            "driverId": "driver:russell:0de59c03b0db",
+            "constructorId": "constructor:mercedes:81ae28b14607",
+            "grandSlam": true,
+            "constructorBinding": "exact_canonical_identity",
+            "officialBinding": {
+              "season": 2026,
+              "round": 15,
+              "session": "race",
+              "raceSlug": "azerbaijan",
+              "scheduledStartUtc": "2026-09-26T11:00:00Z",
+              "inputFingerprint": "d88534c67ae42848effb16415c117e4538ce956d294029f4bbaa4985a0b7634b",
+              "path": "sessions/47d0c05a84e0ec067776e89e4d613343c8eed2f690aa71585c1c2c00b4f5642c.json",
+              "sha256": "47d0c05a84e0ec067776e89e4d613343c8eed2f690aa71585c1c2c00b4f5642c",
+              "byteSize": 19814,
+              "publicationState": "complete"
+            },
+            "timingBinding": {
+              "season": 2026,
+              "round": 15,
+              "session": "race",
+              "raceSlug": "azerbaijan",
+              "officialInputFingerprint": "d88534c67ae42848effb16415c117e4538ce956d294029f4bbaa4985a0b7634b",
+              "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
+              "path": "sessions/36ff8ea831c63dcc6cfad286f504a4991afa52fe23cc006049b71f755854fdbb.json",
+              "sha256": "36ff8ea831c63dcc6cfad286f504a4991afa52fe23cc006049b71f755854fdbb",
+              "byteSize": 6545,
+              "inputFingerprint": "3b8529c50c29adda0190aecbeb60d130be7a2f130df5b538fd4036f136c6c7e3"
+            }
+          }
+        ]
+      },
+      "rank": 2
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -885,226 +1141,7 @@
           }
         ]
       },
-      "rank": 3
-    },
-    {
-      "entityId": "constructor:mercedes:81ae28b14607",
-      "entityName": "Mercedes",
-      "value": 9,
-      "seasons": [
-        2014,
-        2015,
-        2016,
-        2017,
-        2019,
-        2026
-      ],
-      "firstEvent": {
-        "eventId": "event:2014-2:e3929c81f4de",
-        "eventIndex": 898,
-        "season": 2014,
-        "round": 2,
-        "date": "2014-03-30",
-        "grandPrixName": "Malaysian Grand Prix",
-        "circuitId": "sepang"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-6:0b0abef937ae",
-        "eventIndex": 1154,
-        "season": 2026,
-        "round": 6,
-        "date": "2026-06-07",
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco"
-      },
-      "evidenceRowCount": 9,
-      "record": {
-        "contract": "Grand Prix pole position, race win, fastest lap and lead on every completed lap; Sprints excluded.",
-        "valueScope": "complete totals through cutoff",
-        "occurrences": [
-          {
-            "event": {
-              "eventId": "event:2014-2:e3929c81f4de",
-              "eventIndex": 898,
-              "season": 2014,
-              "round": 2,
-              "date": "2014-03-30",
-              "grandPrixName": "Malaysian Grand Prix",
-              "circuitId": "sepang"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 899,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2015-12:fdf4076f975e",
-              "eventIndex": 927,
-              "season": 2015,
-              "round": 12,
-              "date": "2015-09-06",
-              "grandPrixName": "Italian Grand Prix",
-              "circuitId": "monza"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 928,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2016-4:d9ceafbeb3e1",
-              "eventIndex": 938,
-              "season": 2016,
-              "round": 4,
-              "date": "2016-05-01",
-              "grandPrixName": "Russian Grand Prix",
-              "circuitId": "sochi"
-            },
-            "driverId": "driver:rosberg:f41469d63d30",
-            "driverName": "Nico Rosberg",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 939,
-            "sourceDriverId": "nico-rosberg",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2016-8:cc67af311562",
-              "eventIndex": 942,
-              "season": 2016,
-              "round": 8,
-              "date": "2016-06-19",
-              "grandPrixName": "European Grand Prix",
-              "circuitId": "baku"
-            },
-            "driverId": "driver:rosberg:f41469d63d30",
-            "driverName": "Nico Rosberg",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 943,
-            "sourceDriverId": "nico-rosberg",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2017-2:2774cbf9ec26",
-              "eventIndex": 957,
-              "season": 2017,
-              "round": 2,
-              "date": "2017-04-09",
-              "grandPrixName": "Chinese Grand Prix",
-              "circuitId": "shanghai"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 958,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2017-7:3efe944bf5f8",
-              "eventIndex": 962,
-              "season": 2017,
-              "round": 7,
-              "date": "2017-06-11",
-              "grandPrixName": "Canadian Grand Prix",
-              "circuitId": "villeneuve"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 963,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2017-10:4cb6b52581ee",
-              "eventIndex": 965,
-              "season": 2017,
-              "round": 10,
-              "date": "2017-07-16",
-              "grandPrixName": "British Grand Prix",
-              "circuitId": "silverstone"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 966,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2019-21:f0312a8dac89",
-              "eventIndex": 1017,
-              "season": 2019,
-              "round": 21,
-              "date": "2019-12-01",
-              "grandPrixName": "Abu Dhabi Grand Prix",
-              "circuitId": "yas_marina"
-            },
-            "driverId": "driver:hamilton:528ad2ac33fa",
-            "driverName": "Lewis Hamilton",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 1018,
-            "sourceDriverId": "lewis-hamilton",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          },
-          {
-            "event": {
-              "eventId": "event:2026-6:0b0abef937ae",
-              "eventIndex": 1154,
-              "season": 2026,
-              "round": 6,
-              "date": "2026-06-07",
-              "grandPrixName": "Monaco Grand Prix",
-              "circuitId": "monaco"
-            },
-            "driverId": "driver:antonelli:0ab4d82d3440",
-            "driverName": "Kimi Antonelli",
-            "constructorId": "constructor:mercedes:81ae28b14607",
-            "constructorName": "Mercedes",
-            "sourceRaceId": 1155,
-            "sourceDriverId": "kimi-antonelli",
-            "sourceConstructorId": "mercedes",
-            "constructorBinding": "exact_canonical_identity",
-            "grandSlam": true
-          }
-        ]
-      },
-      "rank": 3
+      "rank": 4
     },
     {
       "entityId": "constructor:mclaren:f3759103103f",
