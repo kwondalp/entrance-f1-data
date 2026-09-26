@@ -1,11 +1,11 @@
 {
   "schemaVersion": "stats-metric-backfill-coverage.v1",
-  "asOfRaceDate": "2026-09-13",
+  "asOfRaceDate": "2026-09-26",
   "counts": {
     "total": 144,
     "available": 144,
-    "partial": 124,
-    "completeThroughCutoff": 20,
+    "partial": 126,
+    "completeThroughCutoff": 18,
     "blocked": 0,
     "permissionRequired": 0,
     "unavailable": 0,
@@ -38,9 +38,9 @@
     }
   },
   "sourceCoverage": {
-    "archiveRaceCount": 1163,
-    "archiveClassificationRowCount": 26209,
-    "fastestLapKnownRaceCount": 446,
+    "archiveRaceCount": 1164,
+    "archiveClassificationRowCount": 26231,
+    "fastestLapKnownRaceCount": 447,
     "unknownStartClassificationRowCount": 11,
     "unknownGridClassificationRowCount": 92,
     "ambiguousSharedDriveGridGroupCount": 63,
@@ -107,7 +107,7 @@
       "openF1CrossCheckUnresolvedEventCount": 0
     },
     "openData": {
-      "mappedRaceCount": 1163,
+      "mappedRaceCount": 1164,
       "driverIdentity": {
         "sourceCount": 917,
         "resolvedCount": 788,
@@ -121,8 +121,8 @@
       "officialCurrentSessionInputs": [
         {
           "repository": "entrance-f1-data",
-          "relativePath": "f1/statistics-inputs/v1/inputs.5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9.json",
-          "contentSha256": "5227e06029d0b825657baf32ee145125c34ccacc3f87a18e64c5375c108313b9"
+          "relativePath": "f1/statistics-inputs/v1/inputs.1eaf0a7cc1b4799c48a911a48d9b1acfd6f70252e2adf74ddb00f67b016ed486.json",
+          "contentSha256": "1eaf0a7cc1b4799c48a911a48d9b1acfd6f70252e2adf74ddb00f67b016ed486"
         },
         {
           "repository": "entrance-f1-data-tools",
@@ -155,6 +155,16 @@
           "contentSha256": "f3eb5cfcd5cd97dc615928474240a054a1764b52343652a44bb9913d592d62d6"
         },
         {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-15-qualifying.v1.json",
+          "contentSha256": "02351df5e5a77da187019e9e8e1543cda25fa571f18892058f247e397fc4d51b"
+        },
+        {
+          "repository": "entrance-f1-data-tools",
+          "relativePath": "fixtures/post-session-ledgers/2026/round-15-race.v1.json",
+          "contentSha256": "e9402f73f8983c0f88166eb47f161427de9c07d69c279c357527d9c147191d11"
+        },
+        {
           "repository": "entrance-f1-data",
           "namespace": "f1/session-results/v1",
           "season": 2026,
@@ -162,9 +172,9 @@
           "session": "qualifying",
           "raceSlug": "australia",
           "scheduledStartUtc": "2026-03-07T05:00:00Z",
-          "inputFingerprint": "8b9ca75b7db0a2111d8d3abc538f16730bbcb602e7e12ad9643e6df1037cdcc8",
-          "path": "sessions/e7a48ae01d470b7ad130d350c4b91163392532abdebe213e02f6df5428d79cee.json",
-          "sha256": "e7a48ae01d470b7ad130d350c4b91163392532abdebe213e02f6df5428d79cee",
+          "inputFingerprint": "f658bb2bd37c9f75d82c98dd2e00ded3b3aa066a6815b59416dea752ea8cb798",
+          "path": "sessions/56fe1a85d77518c79934ad8f49e8685e763aff045d51a7c7d8d603d736613855.json",
+          "sha256": "56fe1a85d77518c79934ad8f49e8685e763aff045d51a7c7d8d603d736613855",
           "byteSize": 8707,
           "publicationState": "complete"
         },
@@ -177,8 +187,8 @@
           "raceSlug": "australia",
           "scheduledStartUtc": "2026-03-08T04:00:00Z",
           "inputFingerprint": "1c56ef7ba31159bbb16bc4441ebcb44b2be3e3053bfe1ec60f83a0bba5a350b6",
-          "path": "sessions/de44ce82d0f7e1ee44bb233367f3c15355ca1a60500dce35dc74d638e497c8fd.json",
-          "sha256": "de44ce82d0f7e1ee44bb233367f3c15355ca1a60500dce35dc74d638e497c8fd",
+          "path": "sessions/12531a3d6b8e818587afc16ca5060269cb6181f024dbd7cba59121deeda6c425.json",
+          "sha256": "12531a3d6b8e818587afc16ca5060269cb6181f024dbd7cba59121deeda6c425",
           "byteSize": 17970,
           "publicationState": "complete"
         },
@@ -191,8 +201,8 @@
           "raceSlug": "china",
           "scheduledStartUtc": "2026-03-14T03:00:00Z",
           "inputFingerprint": "fbd1b29b6e3e4b176aec845f5f099b0a34f5d1437ca1116d3f7b7bb6d29d7b20",
-          "path": "sessions/2873261f627668c83149d5230bb6ee8ef54ec5d88b68c181f3c066a335362e71.json",
-          "sha256": "2873261f627668c83149d5230bb6ee8ef54ec5d88b68c181f3c066a335362e71",
+          "path": "sessions/d10dacd26d7a81b75dd61a58e187c910dc925a69f1daf14f57387a6ec39e38b8.json",
+          "sha256": "d10dacd26d7a81b75dd61a58e187c910dc925a69f1daf14f57387a6ec39e38b8",
           "byteSize": 14836,
           "publicationState": "complete"
         },
@@ -204,9 +214,9 @@
           "session": "qualifying",
           "raceSlug": "china",
           "scheduledStartUtc": "2026-03-14T07:00:00Z",
-          "inputFingerprint": "b9cf91e4f74e565683122072df858969aa297488a354c902e8d636be3501b740",
-          "path": "sessions/6f46c1ad5cdadfa8c3d4ce2282cb81c1fdcde11e7ecef4f29750a4a62337a721.json",
-          "sha256": "6f46c1ad5cdadfa8c3d4ce2282cb81c1fdcde11e7ecef4f29750a4a62337a721",
+          "inputFingerprint": "26566194d10967cb342dcc372ad68f1ba68cb197321c936b0f29126d58c65297",
+          "path": "sessions/5492f316553f126704a1d8b0a399f4eed8f40da68d8ed79c27cf803bad0c9b3b.json",
+          "sha256": "5492f316553f126704a1d8b0a399f4eed8f40da68d8ed79c27cf803bad0c9b3b",
           "byteSize": 8214,
           "publicationState": "complete"
         },
@@ -219,8 +229,8 @@
           "raceSlug": "china",
           "scheduledStartUtc": "2026-03-15T07:00:00Z",
           "inputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
-          "path": "sessions/846ffc0498d2f77490528d8b374f948676e30cee7c32050e68c2da5d0bc7f024.json",
-          "sha256": "846ffc0498d2f77490528d8b374f948676e30cee7c32050e68c2da5d0bc7f024",
+          "path": "sessions/eeacdc5d87fad52b0e28f0a548beab5be7b7d7d53ad11766fb8503bdceca84d3.json",
+          "sha256": "eeacdc5d87fad52b0e28f0a548beab5be7b7d7d53ad11766fb8503bdceca84d3",
           "byteSize": 17903,
           "publicationState": "complete"
         },
@@ -232,9 +242,9 @@
           "session": "qualifying",
           "raceSlug": "japan",
           "scheduledStartUtc": "2026-03-28T06:00:00Z",
-          "inputFingerprint": "6849483540d9042577b543c57290e19ebe67ef13c292c4d2b89defb4cf30e9de",
-          "path": "sessions/df7f2969e8fae226f795e4164bd17275339b4c94122ab099b88ede53a2e9fe84.json",
-          "sha256": "df7f2969e8fae226f795e4164bd17275339b4c94122ab099b88ede53a2e9fe84",
+          "inputFingerprint": "61b0a75bee9feb2c84e338dda327834ec51f00c099e7f3d0d231c17b5cfb08e2",
+          "path": "sessions/812a7d45243b5766d4bdf18c74cf892e5a7a180c87934efe06736b56a2a26c9e.json",
+          "sha256": "812a7d45243b5766d4bdf18c74cf892e5a7a180c87934efe06736b56a2a26c9e",
           "byteSize": 8217,
           "publicationState": "complete"
         },
@@ -247,8 +257,8 @@
           "raceSlug": "japan",
           "scheduledStartUtc": "2026-03-29T05:00:00Z",
           "inputFingerprint": "6a4fd1a2b69e2c79b8284410b00327ea28fb983c9046d4f13b312ba996ef3989",
-          "path": "sessions/9818e77524c40280369211e5cba2966764d47491510dd16a3c36928b8cc5cd10.json",
-          "sha256": "9818e77524c40280369211e5cba2966764d47491510dd16a3c36928b8cc5cd10",
+          "path": "sessions/d5462af7c81aabd0a532e1b55bcd973e4c207fd7cdde69907d7220dc104b6cdc.json",
+          "sha256": "d5462af7c81aabd0a532e1b55bcd973e4c207fd7cdde69907d7220dc104b6cdc",
           "byteSize": 18222,
           "publicationState": "complete"
         },
@@ -261,8 +271,8 @@
           "raceSlug": "miami",
           "scheduledStartUtc": "2026-05-02T16:00:00Z",
           "inputFingerprint": "5766ccdbdc6fc260a219a9459ebb6ab2a197b85c05318fcb6e23da87e43497c1",
-          "path": "sessions/c0c5b16ef2de222865cf171f71586746aacd65f5622f3a411afae37f1ad022dd.json",
-          "sha256": "c0c5b16ef2de222865cf171f71586746aacd65f5622f3a411afae37f1ad022dd",
+          "path": "sessions/6a50f2a920c4d33c56df09f0e8a4cd3ff7f127fc75985666e141b4c1b1b71bc9.json",
+          "sha256": "6a50f2a920c4d33c56df09f0e8a4cd3ff7f127fc75985666e141b4c1b1b71bc9",
           "byteSize": 14844,
           "publicationState": "complete"
         },
@@ -274,9 +284,9 @@
           "session": "qualifying",
           "raceSlug": "miami",
           "scheduledStartUtc": "2026-05-02T20:00:00Z",
-          "inputFingerprint": "1f38cc10e43c95161d6d6fe4c63fbdae43029538f639459ef5479ba16d1fa5d5",
-          "path": "sessions/8460a498837449fb8fc15e06cf2d3586db013fca01fcd49d3a0b8cee70b8e6a7.json",
-          "sha256": "8460a498837449fb8fc15e06cf2d3586db013fca01fcd49d3a0b8cee70b8e6a7",
+          "inputFingerprint": "952c07b2b4a5b71d50f4ef1452d8be3dc33c64b6a4b315d36eb7c6b499cb3ca5",
+          "path": "sessions/82948321231399c96d9684a2558c1b8f52791137de4331d18f62074a1559d6c7.json",
+          "sha256": "82948321231399c96d9684a2558c1b8f52791137de4331d18f62074a1559d6c7",
           "byteSize": 8212,
           "publicationState": "complete"
         },
@@ -289,8 +299,8 @@
           "raceSlug": "miami",
           "scheduledStartUtc": "2026-05-03T17:00:00Z",
           "inputFingerprint": "8ec2b1e80de314c357935b150d3ba920e1452a24ec5f9216eac3ce4d10c55960",
-          "path": "sessions/3e086128ef4473a60c0fefc2aec5625f2536e630cac3d9ea4e8bf67c30e3e92d.json",
-          "sha256": "3e086128ef4473a60c0fefc2aec5625f2536e630cac3d9ea4e8bf67c30e3e92d",
+          "path": "sessions/210f68a485ba9a6150a1845ca4aa81a440e7918c63d522435fa1d81504110257.json",
+          "sha256": "210f68a485ba9a6150a1845ca4aa81a440e7918c63d522435fa1d81504110257",
           "byteSize": 18192,
           "publicationState": "complete"
         },
@@ -303,8 +313,8 @@
           "raceSlug": "canada",
           "scheduledStartUtc": "2026-05-23T16:00:00Z",
           "inputFingerprint": "c2d9fd2aa87282ac6ad0dd670b3212c5604a804d30aaab2186e200b10557ead9",
-          "path": "sessions/1f795e1720ab6214b2086ee8f7741c404c2979eae0840a83fe7af5ae8ab727f0.json",
-          "sha256": "1f795e1720ab6214b2086ee8f7741c404c2979eae0840a83fe7af5ae8ab727f0",
+          "path": "sessions/f0938f47ae722185e3b2c9e70370afa4ee94edeb5dbff0320b9bbad97e84ac98.json",
+          "sha256": "f0938f47ae722185e3b2c9e70370afa4ee94edeb5dbff0320b9bbad97e84ac98",
           "byteSize": 14835,
           "publicationState": "complete"
         },
@@ -316,9 +326,9 @@
           "session": "qualifying",
           "raceSlug": "canada",
           "scheduledStartUtc": "2026-05-23T20:00:00Z",
-          "inputFingerprint": "6de96ac0d91b75ea5a925bad0254935fed891848bfe0661e587bffd91c794210",
-          "path": "sessions/17ec0bf81cd11cc11f6589532977835cd2b049a33a6d2071ab4be20f7438e32d.json",
-          "sha256": "17ec0bf81cd11cc11f6589532977835cd2b049a33a6d2071ab4be20f7438e32d",
+          "inputFingerprint": "17763ce3e1a44f8a95b840b0eaec1699c2dbbb72be57a7ce703aa697b5b31bf3",
+          "path": "sessions/6235fab4c2bce957d79187986404e91335a5b27704e03a4b2672245597e9493d.json",
+          "sha256": "6235fab4c2bce957d79187986404e91335a5b27704e03a4b2672245597e9493d",
           "byteSize": 8218,
           "publicationState": "complete"
         },
@@ -331,8 +341,8 @@
           "raceSlug": "canada",
           "scheduledStartUtc": "2026-05-24T20:00:00Z",
           "inputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
-          "path": "sessions/ec99e21e26560652a67b23635642738b56080b63ed0bac8f15730611bbf1a18a.json",
-          "sha256": "ec99e21e26560652a67b23635642738b56080b63ed0bac8f15730611bbf1a18a",
+          "path": "sessions/da957e952cc3d87ded50832250a6291b29721989d08d5785689542c506e1fc53.json",
+          "sha256": "da957e952cc3d87ded50832250a6291b29721989d08d5785689542c506e1fc53",
           "byteSize": 18287,
           "publicationState": "complete"
         },
@@ -344,9 +354,9 @@
           "session": "qualifying",
           "raceSlug": "monaco",
           "scheduledStartUtc": "2026-06-06T14:00:00Z",
-          "inputFingerprint": "dde76e69709613a212cdf8cee093b4407465624465ea59185e341eecd990424c",
-          "path": "sessions/df844f2611781547c610ed437a6a479dac9b34e9802e455fd03a07e074abbbd0.json",
-          "sha256": "df844f2611781547c610ed437a6a479dac9b34e9802e455fd03a07e074abbbd0",
+          "inputFingerprint": "3bf38007407e9115930d1a4f5fabdc30df20e0e3038f6cc952fb76021fcd72dc",
+          "path": "sessions/8321465f294d76bc4f4d065cf3186076c3ddfa5fe46cff021bbbb697307795bd.json",
+          "sha256": "8321465f294d76bc4f4d065cf3186076c3ddfa5fe46cff021bbbb697307795bd",
           "byteSize": 8202,
           "publicationState": "complete"
         },
@@ -359,8 +369,8 @@
           "raceSlug": "monaco",
           "scheduledStartUtc": "2026-06-07T13:00:00Z",
           "inputFingerprint": "cb9c71422950ca06c0addb68a676c074104c974ef9ef4f566665fa367f5b2bbe",
-          "path": "sessions/03cd0f02f77c58c20bf6d80c3900ea0bc99954031377ff052c7d91efc9fae5c9.json",
-          "sha256": "03cd0f02f77c58c20bf6d80c3900ea0bc99954031377ff052c7d91efc9fae5c9",
+          "path": "sessions/b0bd3173dedb86ca39d1beda2cda8b7bd640b28e851cecf12dcb47f3b9767861.json",
+          "sha256": "b0bd3173dedb86ca39d1beda2cda8b7bd640b28e851cecf12dcb47f3b9767861",
           "byteSize": 18063,
           "publicationState": "complete"
         },
@@ -372,9 +382,9 @@
           "session": "qualifying",
           "raceSlug": "barcelona-catalunya",
           "scheduledStartUtc": "2026-06-13T14:00:00Z",
-          "inputFingerprint": "d5298240978215b90a81ce4ab0d84f2d2e03a3eeeec8d6c967bb36b68a05b5e5",
-          "path": "sessions/d12229802b25c3d3a40109335e6f407a543f44ce547fafdb4a9b41fb5e243d4b.json",
-          "sha256": "d12229802b25c3d3a40109335e6f407a543f44ce547fafdb4a9b41fb5e243d4b",
+          "inputFingerprint": "4bcf0eaff787e331d956bad97674e09b4fe7a3a15c87340036d2f3de8f717c5b",
+          "path": "sessions/64fdda64ce265fc37dfef417424cf5cee79f1b5650f0c910aa6f79abf3786687.json",
+          "sha256": "64fdda64ce265fc37dfef417424cf5cee79f1b5650f0c910aa6f79abf3786687",
           "byteSize": 8258,
           "publicationState": "complete"
         },
@@ -387,8 +397,8 @@
           "raceSlug": "barcelona-catalunya",
           "scheduledStartUtc": "2026-06-14T13:00:00Z",
           "inputFingerprint": "97c238f3186e76bd14623b14fa698322e89109c8a1d1a2b604498f08ddec66fa",
-          "path": "sessions/21f942074241baf8b2d8db9f12de4225ff604e4e72db7da95e8e4742c020eca1.json",
-          "sha256": "21f942074241baf8b2d8db9f12de4225ff604e4e72db7da95e8e4742c020eca1",
+          "path": "sessions/b62214ec50ed48270783b0ab7af9feacb86ab19f8ef615ab7f29b7f898325128.json",
+          "sha256": "b62214ec50ed48270783b0ab7af9feacb86ab19f8ef615ab7f29b7f898325128",
           "byteSize": 18261,
           "publicationState": "complete"
         },
@@ -400,9 +410,9 @@
           "session": "qualifying",
           "raceSlug": "austria",
           "scheduledStartUtc": "2026-06-27T14:00:00Z",
-          "inputFingerprint": "5d9c734f73de658cb348641a63380509495e55ff3c4049c8ce1929016edbacb7",
-          "path": "sessions/0cc682b3bdd69354ec329173995df8d1aad6998a0d5353ea473de88658d7b482.json",
-          "sha256": "0cc682b3bdd69354ec329173995df8d1aad6998a0d5353ea473de88658d7b482",
+          "inputFingerprint": "9bef2d4afad8b09fb3b8001a9155ba2ba9d2c4c545f672b440df3724231eaf5f",
+          "path": "sessions/7ec762e6603b70de9be11a728e4562cd9897e00d0f2e49441f7a10fef56b3155.json",
+          "sha256": "7ec762e6603b70de9be11a728e4562cd9897e00d0f2e49441f7a10fef56b3155",
           "byteSize": 8204,
           "publicationState": "complete"
         },
@@ -415,8 +425,8 @@
           "raceSlug": "austria",
           "scheduledStartUtc": "2026-06-28T13:00:00Z",
           "inputFingerprint": "9923987a201c1fbf58a7680ee9f22cc5e5c8fdc71c1d997f42c8fa4d66ae62cb",
-          "path": "sessions/362bf749599c8d3817fb617bc3f9a23c60df39d2807c13b2f0113564a6d96e72.json",
-          "sha256": "362bf749599c8d3817fb617bc3f9a23c60df39d2807c13b2f0113564a6d96e72",
+          "path": "sessions/879c2dd85ea5435a03dd10f40328caf9ddbf87a80acd7917149fbf2d4107abf1.json",
+          "sha256": "879c2dd85ea5435a03dd10f40328caf9ddbf87a80acd7917149fbf2d4107abf1",
           "byteSize": 18061,
           "publicationState": "complete"
         },
@@ -429,8 +439,8 @@
           "raceSlug": "great-britain",
           "scheduledStartUtc": "2026-07-04T11:00:00Z",
           "inputFingerprint": "408d9260051cd04887d6e08ec943b93a166638bf85a1c4b307ceebd34eff2db5",
-          "path": "sessions/81c7a7daef54f49fc97e9e545d3991fdc09faaee4525b77ca35106ad87bfc472.json",
-          "sha256": "81c7a7daef54f49fc97e9e545d3991fdc09faaee4525b77ca35106ad87bfc472",
+          "path": "sessions/cb80c5edc40f2a0002c0c13fd8528a5a95bc4924076fdce8def1660455169ee6.json",
+          "sha256": "cb80c5edc40f2a0002c0c13fd8528a5a95bc4924076fdce8def1660455169ee6",
           "byteSize": 14877,
           "publicationState": "complete"
         },
@@ -442,9 +452,9 @@
           "session": "qualifying",
           "raceSlug": "great-britain",
           "scheduledStartUtc": "2026-07-04T15:00:00Z",
-          "inputFingerprint": "37b95061ec4454f566de49f7655b580c9a94cd0688947419ca131464447c4bd0",
-          "path": "sessions/0ddcd55620b61bc6e3df788625388e9db31d3e5adc3e0a0b78267d3a3743714e.json",
-          "sha256": "0ddcd55620b61bc6e3df788625388e9db31d3e5adc3e0a0b78267d3a3743714e",
+          "inputFingerprint": "cae7781517bcf95d16989ed575b53f3c93c76e0d4b2abba76fedad44b0522976",
+          "path": "sessions/74329026a301a97b808e8e775f96edc6c2ff7cddb8cbbd8c7992c9a550e0b2e6.json",
+          "sha256": "74329026a301a97b808e8e775f96edc6c2ff7cddb8cbbd8c7992c9a550e0b2e6",
           "byteSize": 8234,
           "publicationState": "complete"
         },
@@ -457,8 +467,8 @@
           "raceSlug": "great-britain",
           "scheduledStartUtc": "2026-07-05T14:00:00Z",
           "inputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
-          "path": "sessions/d11cd06a5fed0c8a29f9ab0b76f279d22b07fefaf08a2f1db307d94679437ee7.json",
-          "sha256": "d11cd06a5fed0c8a29f9ab0b76f279d22b07fefaf08a2f1db307d94679437ee7",
+          "path": "sessions/6e7f2182e382b8946472cc69067edb2ce4bc54cd8f4160d24c8f82e421de4e7b.json",
+          "sha256": "6e7f2182e382b8946472cc69067edb2ce4bc54cd8f4160d24c8f82e421de4e7b",
           "byteSize": 18667,
           "publicationState": "complete"
         },
@@ -471,8 +481,8 @@
           "raceSlug": "belgium",
           "scheduledStartUtc": "2026-07-18T14:00:00Z",
           "inputFingerprint": "675b6692a482bcc2e5a9d00bb05b1b2368b3a1b34ed00e300472de38332c9f15",
-          "path": "sessions/7541ecf8327037e6b572cea41af581df54181f6f17b72303da33dc266c47ca15.json",
-          "sha256": "7541ecf8327037e6b572cea41af581df54181f6f17b72303da33dc266c47ca15",
+          "path": "sessions/6eee1508dcabd57b6c7504957c39407b565ac750c979da0bac75aee7d6bd6507.json",
+          "sha256": "6eee1508dcabd57b6c7504957c39407b565ac750c979da0bac75aee7d6bd6507",
           "byteSize": 8214,
           "publicationState": "complete"
         },
@@ -485,8 +495,8 @@
           "raceSlug": "belgium",
           "scheduledStartUtc": "2026-07-19T13:00:00Z",
           "inputFingerprint": "6ecd8d20916dd60b1041aa69dcbfaa930aa38ce5241a9ac1d53ec7aafc3f9b93",
-          "path": "sessions/1dbfb6b0fd013835e85ef42300aba9e3a8c676400aae58cd66c8554ee373828e.json",
-          "sha256": "1dbfb6b0fd013835e85ef42300aba9e3a8c676400aae58cd66c8554ee373828e",
+          "path": "sessions/5615fac55c8ea624e0ad2c4119173a8a0c9ef5408ab25005811e06e2ce2a8ad3.json",
+          "sha256": "5615fac55c8ea624e0ad2c4119173a8a0c9ef5408ab25005811e06e2ce2a8ad3",
           "byteSize": 18968,
           "publicationState": "complete"
         },
@@ -499,8 +509,8 @@
           "raceSlug": "hungary",
           "scheduledStartUtc": "2026-07-25T14:00:00Z",
           "inputFingerprint": "9c1bb40d7280a7e8a915f2501ae002e6e463bd17f319743d822b34f7d28381a3",
-          "path": "sessions/682daa1d3c5b284009725df6bb858df18b6b2d5954fdd5a70e4e1c1a1c1ca4e7.json",
-          "sha256": "682daa1d3c5b284009725df6bb858df18b6b2d5954fdd5a70e4e1c1a1c1ca4e7",
+          "path": "sessions/c2a2319fb0d95d7806c12aca61d97af31eb57aa974580496d578b55f57ac1850.json",
+          "sha256": "c2a2319fb0d95d7806c12aca61d97af31eb57aa974580496d578b55f57ac1850",
           "byteSize": 8205,
           "publicationState": "complete"
         },
@@ -513,8 +523,8 @@
           "raceSlug": "hungary",
           "scheduledStartUtc": "2026-07-26T13:00:00Z",
           "inputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
-          "path": "sessions/bf3f463a9e1924ba0325a7fb37c2f1def44b331d122f30c8c58bdc60074c9da3.json",
-          "sha256": "bf3f463a9e1924ba0325a7fb37c2f1def44b331d122f30c8c58bdc60074c9da3",
+          "path": "sessions/97f25e3f14f24255893eca488f114c451ecd3effe83e550268a4a1205fe5c950.json",
+          "sha256": "97f25e3f14f24255893eca488f114c451ecd3effe83e550268a4a1205fe5c950",
           "byteSize": 18628,
           "publicationState": "complete"
         },
@@ -527,8 +537,8 @@
           "raceSlug": "netherlands",
           "scheduledStartUtc": "2026-08-22T10:00:00Z",
           "inputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
-          "path": "sessions/3dbddc00a8a3c67b685190d15c5b0dae36322e82eef8c1ced2d0e5174059ae3a.json",
-          "sha256": "3dbddc00a8a3c67b685190d15c5b0dae36322e82eef8c1ced2d0e5174059ae3a",
+          "path": "sessions/46c335c8dc01e65213b0af744e8db76bbc72f1f8cd42a022ffda5c579d7e2d9e.json",
+          "sha256": "46c335c8dc01e65213b0af744e8db76bbc72f1f8cd42a022ffda5c579d7e2d9e",
           "byteSize": 14864,
           "publicationState": "complete"
         },
@@ -541,8 +551,8 @@
           "raceSlug": "netherlands",
           "scheduledStartUtc": "2026-08-22T14:00:00Z",
           "inputFingerprint": "8c0b161cdedf4b2d3fa6e44332522f4f2ac31565b482996aa7293b87e3b9f0d7",
-          "path": "sessions/ce44bcec66940c222e3cf500a71099287b9369840ed1a1bbe1751bd155c19ce0.json",
-          "sha256": "ce44bcec66940c222e3cf500a71099287b9369840ed1a1bbe1751bd155c19ce0",
+          "path": "sessions/538c3170609aa367efe9324f34d730edd299eeeb6d779656ed51de60f39e9a62.json",
+          "sha256": "538c3170609aa367efe9324f34d730edd299eeeb6d779656ed51de60f39e9a62",
           "byteSize": 8229,
           "publicationState": "complete"
         },
@@ -555,8 +565,8 @@
           "raceSlug": "netherlands",
           "scheduledStartUtc": "2026-08-23T13:00:00Z",
           "inputFingerprint": "bc5dd22e2745524c9f898768b636a582506c0deb1a36baa240e9a7daa18a9752",
-          "path": "sessions/8c878d6456460ce27b5c3e08c656e41cdfd5a44f009ea454ca0e120f4bb553c0.json",
-          "sha256": "8c878d6456460ce27b5c3e08c656e41cdfd5a44f009ea454ca0e120f4bb553c0",
+          "path": "sessions/468a8fdd569d1ea6da24d84839d5f3820a6a1313c8e5825ecace340b5e48a8a9.json",
+          "sha256": "468a8fdd569d1ea6da24d84839d5f3820a6a1313c8e5825ecace340b5e48a8a9",
           "byteSize": 17963,
           "publicationState": "complete"
         },
@@ -569,8 +579,8 @@
           "raceSlug": "italy",
           "scheduledStartUtc": "2026-09-05T14:00:00Z",
           "inputFingerprint": "ba8a5fe8c312b8a82ab8ec57f0b0290dc055041389aaff93be9ffd114309df7c",
-          "path": "sessions/9c948604e3908129977a962dcf438cf8064a196610a487d81f55aca54f90d437.json",
-          "sha256": "9c948604e3908129977a962dcf438cf8064a196610a487d81f55aca54f90d437",
+          "path": "sessions/dd2713b0cc9411d1884a577642c114bf4104f5c364134e50b08f671d671d9ad8.json",
+          "sha256": "dd2713b0cc9411d1884a577642c114bf4104f5c364134e50b08f671d671d9ad8",
           "byteSize": 8209,
           "publicationState": "complete"
         },
@@ -583,8 +593,8 @@
           "raceSlug": "italy",
           "scheduledStartUtc": "2026-09-06T13:00:00Z",
           "inputFingerprint": "d54145ca53b6aeb22c7ccd5a3b45823ff0280a92408d17f9e543cc850bedb830",
-          "path": "sessions/91289fc01c70ded825ae0d510d3e3321e218d1a7bc954d6dfa999764dd18aded.json",
-          "sha256": "91289fc01c70ded825ae0d510d3e3321e218d1a7bc954d6dfa999764dd18aded",
+          "path": "sessions/bc71b6af2b24386242e40dbd114608aa1382de814ceb1de118cb9ae21e19e6a3.json",
+          "sha256": "bc71b6af2b24386242e40dbd114608aa1382de814ceb1de118cb9ae21e19e6a3",
           "byteSize": 18949,
           "publicationState": "complete"
         },
@@ -597,8 +607,8 @@
           "raceSlug": "spain",
           "scheduledStartUtc": "2026-09-12T14:00:00Z",
           "inputFingerprint": "f68bacfe8c01ec0422b11d73610f74231591fea96125567df292209b87f31956",
-          "path": "sessions/ee03043610dd397680e5bccced45230376f651cabe80f3f79c77d4d384a9fac1.json",
-          "sha256": "ee03043610dd397680e5bccced45230376f651cabe80f3f79c77d4d384a9fac1",
+          "path": "sessions/165997004ec047ccd3810619a0814ed56f705203dbc6dced974866f798eacd64.json",
+          "sha256": "165997004ec047ccd3810619a0814ed56f705203dbc6dced974866f798eacd64",
           "byteSize": 8664,
           "publicationState": "complete"
         },
@@ -611,9 +621,37 @@
           "raceSlug": "spain",
           "scheduledStartUtc": "2026-09-13T13:00:00Z",
           "inputFingerprint": "90a348a4d1581632437ef5635f3a75a6ff6b8b409df9b85b993595fba9864615",
-          "path": "sessions/9bdf8c36591f49cdab28180335d3fa42d97e7bd6afb14e78a16697967777f2ae.json",
-          "sha256": "9bdf8c36591f49cdab28180335d3fa42d97e7bd6afb14e78a16697967777f2ae",
+          "path": "sessions/a03fa9bf973a123e72c74c04cc02823bf7ec34a2f52ee1a670e2cb27adf458a5.json",
+          "sha256": "a03fa9bf973a123e72c74c04cc02823bf7ec34a2f52ee1a670e2cb27adf458a5",
           "byteSize": 18390,
+          "publicationState": "complete"
+        },
+        {
+          "repository": "entrance-f1-data",
+          "namespace": "f1/session-results/v1",
+          "season": 2026,
+          "round": 15,
+          "session": "qualifying",
+          "raceSlug": "azerbaijan",
+          "scheduledStartUtc": "2026-09-25T12:00:00Z",
+          "inputFingerprint": "1cd0d4f04dc5daca0aa73e746ad1f98ba1705064ad7467690ef4c1d1944f2f3c",
+          "path": "sessions/41a57f22a55ebf8e7adbeb8da1ab9c7c7e5cf4795c2aa89d006d6ac0675f753c.json",
+          "sha256": "41a57f22a55ebf8e7adbeb8da1ab9c7c7e5cf4795c2aa89d006d6ac0675f753c",
+          "byteSize": 9169,
+          "publicationState": "complete"
+        },
+        {
+          "repository": "entrance-f1-data",
+          "namespace": "f1/session-results/v1",
+          "season": 2026,
+          "round": 15,
+          "session": "race",
+          "raceSlug": "azerbaijan",
+          "scheduledStartUtc": "2026-09-26T11:00:00Z",
+          "inputFingerprint": "d88534c67ae42848effb16415c117e4538ce956d294029f4bbaa4985a0b7634b",
+          "path": "sessions/47d0c05a84e0ec067776e89e4d613343c8eed2f690aa71585c1c2c00b4f5642c.json",
+          "sha256": "47d0c05a84e0ec067776e89e4d613343c8eed2f690aa71585c1c2c00b4f5642c",
+          "byteSize": 19814,
           "publicationState": "complete"
         },
         {
@@ -623,12 +661,12 @@
           "round": 1,
           "session": "race",
           "raceSlug": "australia",
-          "officialInputFingerprint": "3f522a1540907547c53be8529ee5d27d62b1c671a68c2e90f1d8001c787d0748",
+          "officialInputFingerprint": "1c56ef7ba31159bbb16bc4441ebcb44b2be3e3053bfe1ec60f83a0bba5a350b6",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/fae297556e9366a861381afc18801ce2aa5c5f4aec016311faa1a278ac7841d2.json",
-          "sha256": "fae297556e9366a861381afc18801ce2aa5c5f4aec016311faa1a278ac7841d2",
+          "path": "sessions/df5ccad45ca8b256b49bad634181b3136d572701767f6b4c5529ca0283a5620c.json",
+          "sha256": "df5ccad45ca8b256b49bad634181b3136d572701767f6b4c5529ca0283a5620c",
           "byteSize": 7321,
-          "inputFingerprint": "c90858af90cc3b69aa1ebc479184a751eee36eb56c24b356205da05ecb04f897"
+          "inputFingerprint": "a15d8e8844d44e67a357c836d3f297969665b0bb0bb5eabb37023ab07c7344b8"
         },
         {
           "repository": "entrance-f1-data",
@@ -637,12 +675,12 @@
           "round": 2,
           "session": "sprint",
           "raceSlug": "china",
-          "officialInputFingerprint": "fbd1b29b6e3e4b176aec845f5f099b0a34f5d1437ca1116d3f7b7bb6d29d7b20",
+          "officialInputFingerprint": "d278a0d34ccd129b4fff51584b20e188d39a2e388f8802988c5c6354eb3322fa",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/a127441f8aac531ae64178f3afc28f460f2c326a732e6cdc239b5d3d55eef08d.json",
-          "sha256": "a127441f8aac531ae64178f3afc28f460f2c326a732e6cdc239b5d3d55eef08d",
-          "byteSize": 9955,
-          "inputFingerprint": "855acbe048c5ebee44d18b17880403ce2e4a63c6e31665c52d23b0f8fffb216e"
+          "path": "sessions/69e1ce396cec0b22bf0f8d8c72b9b216e2f06020b88d6862756a545789a30f02.json",
+          "sha256": "69e1ce396cec0b22bf0f8d8c72b9b216e2f06020b88d6862756a545789a30f02",
+          "byteSize": 9275,
+          "inputFingerprint": "ba50ed847f1d22bde96c5dc97ae4e4cc43b661ff161bb5e85cf631b5def72b40"
         },
         {
           "repository": "entrance-f1-data",
@@ -651,12 +689,12 @@
           "round": 2,
           "session": "race",
           "raceSlug": "china",
-          "officialInputFingerprint": "cda059087850c9421dd4a2dc151ab71c1fee7001f85bf6ad618479b6deae28fd",
+          "officialInputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/2075383c7f2c2d1fb3706ce14274358f10229740df40b73343eef07ecbf14537.json",
-          "sha256": "2075383c7f2c2d1fb3706ce14274358f10229740df40b73343eef07ecbf14537",
+          "path": "sessions/5507985b174e07447ab87a8ced9d4ea0c3e58d078f89b3d44c7cd423fa7d59f9.json",
+          "sha256": "5507985b174e07447ab87a8ced9d4ea0c3e58d078f89b3d44c7cd423fa7d59f9",
           "byteSize": 6658,
-          "inputFingerprint": "428f7ded69257d2edc93edea031087d6ad4ed63b780cf658575fda1869eb89b6"
+          "inputFingerprint": "6507786fde989af48c27c94a80d81f2fd940c3ce6110f2251ac66436f3403a02"
         },
         {
           "repository": "entrance-f1-data",
@@ -665,12 +703,12 @@
           "round": 3,
           "session": "race",
           "raceSlug": "japan",
-          "officialInputFingerprint": "d764cc56de021581923c7877b7357bb942dacc806a20e4e2e5865a1e760a4b8c",
+          "officialInputFingerprint": "6a4fd1a2b69e2c79b8284410b00327ea28fb983c9046d4f13b312ba996ef3989",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/26a726235a7fed3da519b1c938fd68f8630953eb66ccca8a6dc8c4554c4808e2.json",
-          "sha256": "26a726235a7fed3da519b1c938fd68f8630953eb66ccca8a6dc8c4554c4808e2",
+          "path": "sessions/52ff56ba1eaa0aab7aad75b9768e47c8a87c9ae7f9a9210c6bbae69a88af64d1.json",
+          "sha256": "52ff56ba1eaa0aab7aad75b9768e47c8a87c9ae7f9a9210c6bbae69a88af64d1",
           "byteSize": 7518,
-          "inputFingerprint": "6b6abb27e82a7bd547f6ed68de85c11e954ef3b3edecdc54cbfb717073b0b9e9"
+          "inputFingerprint": "981874c246d7993f2d32d9b5ad50eff3a0a4da70aa9c5fcfed7577b15b8ca138"
         },
         {
           "repository": "entrance-f1-data",
@@ -693,12 +731,12 @@
           "round": 4,
           "session": "race",
           "raceSlug": "miami",
-          "officialInputFingerprint": "b700902342163a449c5f967d7ce022c33480015a75a92ca995e16550e7a11e4c",
+          "officialInputFingerprint": "8ec2b1e80de314c357935b150d3ba920e1452a24ec5f9216eac3ce4d10c55960",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/0e16829a137ac0e6732d563994864a405885daec61188dc87836bee6664b5911.json",
-          "sha256": "0e16829a137ac0e6732d563994864a405885daec61188dc87836bee6664b5911",
+          "path": "sessions/436a878a0dfc95034be4ea07b07b3a027e1df77766971c3b86793d0b312bffb2.json",
+          "sha256": "436a878a0dfc95034be4ea07b07b3a027e1df77766971c3b86793d0b312bffb2",
           "byteSize": 7445,
-          "inputFingerprint": "8d97c9b8933ffd4645ab28d66e64a3372a684c4d3a8be7b5f74da1860935d52d"
+          "inputFingerprint": "fb029b4875349f4c7acda1bc7442b0b72eb2f1c308328bb0631b13a536faac7f"
         },
         {
           "repository": "entrance-f1-data",
@@ -807,8 +845,8 @@
           "raceSlug": "belgium",
           "officialInputFingerprint": "6ecd8d20916dd60b1041aa69dcbfaa930aa38ce5241a9ac1d53ec7aafc3f9b93",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/2100f0e1f70b682c87e3bccb5b365a87115cba0a4e6fbfb18945c7eb7664368e.json",
-          "sha256": "2100f0e1f70b682c87e3bccb5b365a87115cba0a4e6fbfb18945c7eb7664368e",
+          "path": "sessions/7ea4acd67933b53fa3453444a422afccab233e502e98888854e6cc3337e6e5c9.json",
+          "sha256": "7ea4acd67933b53fa3453444a422afccab233e502e98888854e6cc3337e6e5c9",
           "byteSize": 6900,
           "inputFingerprint": "b711e1ffd2f79418e26b8eac0b1cb6daf939f14b07194c3d26ed6c190a94a91f"
         },
@@ -821,8 +859,8 @@
           "raceSlug": "hungary",
           "officialInputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/15554895ad6da4cf44b4e2a1ec8c0c6fcecbd4d0aa6453accb70261388e8d850.json",
-          "sha256": "15554895ad6da4cf44b4e2a1ec8c0c6fcecbd4d0aa6453accb70261388e8d850",
+          "path": "sessions/4fde1723081b24a9dbd83caeabf97386640cdf10f690174726c9f0c85a15d1c9.json",
+          "sha256": "4fde1723081b24a9dbd83caeabf97386640cdf10f690174726c9f0c85a15d1c9",
           "byteSize": 8617,
           "inputFingerprint": "047549421882cdbab2dec4d11a7d63d78f760e1a992e5fdcb3b4be21d59dc517"
         },
@@ -833,12 +871,12 @@
           "round": 12,
           "session": "sprint",
           "raceSlug": "netherlands",
-          "officialInputFingerprint": "6206a13a9939c26daff41364e043591d9361963c4f6c31d2da854f141d20c518",
+          "officialInputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/37cc67d58466bcdcd87cc419e55d77e4f0068b3053b42ad8e7a41949c2a586c1.json",
-          "sha256": "37cc67d58466bcdcd87cc419e55d77e4f0068b3053b42ad8e7a41949c2a586c1",
+          "path": "sessions/c94d099bc4fd1d5b32a8312870e2293c9b128eb4107433743bb0addb436ec459.json",
+          "sha256": "c94d099bc4fd1d5b32a8312870e2293c9b128eb4107433743bb0addb436ec459",
           "byteSize": 8690,
-          "inputFingerprint": "4b37c79753f0a472f741abaa27cf6eb08fa3c7ee76a0c2eef872f7d475767f99"
+          "inputFingerprint": "83631dbb07e5725238c40a7fd0f7a9e097db2251565dd2c2602965742c46bf9b"
         },
         {
           "repository": "entrance-f1-data",
@@ -849,8 +887,8 @@
           "raceSlug": "netherlands",
           "officialInputFingerprint": "bc5dd22e2745524c9f898768b636a582506c0deb1a36baa240e9a7daa18a9752",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/2ea73b4028ac8b2298686d3bc4ad2aed800a44fddc77d13fc852758dc52ff22b.json",
-          "sha256": "2ea73b4028ac8b2298686d3bc4ad2aed800a44fddc77d13fc852758dc52ff22b",
+          "path": "sessions/5e3491632f4b0edcf4809ed1f9574c80ec7db068f9991e8ebc0650631153fa45.json",
+          "sha256": "5e3491632f4b0edcf4809ed1f9574c80ec7db068f9991e8ebc0650631153fa45",
           "byteSize": 8257,
           "inputFingerprint": "d29315b463dc8619cb3b8f887732d00e9efee33515a549f7458f013545ee059f"
         },
@@ -863,8 +901,8 @@
           "raceSlug": "italy",
           "officialInputFingerprint": "d54145ca53b6aeb22c7ccd5a3b45823ff0280a92408d17f9e543cc850bedb830",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/2774d994a34f2b02562bba022f703acfdee525ea632b4555607b15c288815477.json",
-          "sha256": "2774d994a34f2b02562bba022f703acfdee525ea632b4555607b15c288815477",
+          "path": "sessions/cda00e7e596b05bb54b0b1ed2013a73199d0147bd118e05328c376391661876d.json",
+          "sha256": "cda00e7e596b05bb54b0b1ed2013a73199d0147bd118e05328c376391661876d",
           "byteSize": 7613,
           "inputFingerprint": "50367e98ef20349a518a7a118ff3a0107b7340d9fb7c020e17c5acc411def08c"
         },
@@ -877,8 +915,8 @@
           "raceSlug": "spain",
           "officialInputFingerprint": "90a348a4d1581632437ef5635f3a75a6ff6b8b409df9b85b993595fba9864615",
           "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-          "path": "sessions/633add629d6550e87f4603180fee30a978cb209f613c7029493f7b17885a5690.json",
-          "sha256": "633add629d6550e87f4603180fee30a978cb209f613c7029493f7b17885a5690",
+          "path": "sessions/1ad223bd86509ca10aaa5a23e9165356f94b51e516fcab4607af7a2e31aef2a1.json",
+          "sha256": "1ad223bd86509ca10aaa5a23e9165356f94b51e516fcab4607af7a2e31aef2a1",
           "byteSize": 7246,
           "inputFingerprint": "bb1129b36f30ef7097d421151f8fe40b59d2d2d100aa78309834cc236de28139"
         }

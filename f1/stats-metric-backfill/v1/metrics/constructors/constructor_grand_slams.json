@@ -3,7 +3,7 @@
   "entity": "constructors",
   "statisticId": "constructor_grand_slams",
   "metricId": "constructorGrandSlams",
-  "status": "complete_through_cutoff",
+  "status": "partial",
   "cutoff": "2026-09-13",
   "completeness": {
     "current": {
@@ -11,7 +11,7 @@
       "coveredSeasons": "Verified events through 2026-09-13",
       "excludedSeasons": [],
       "completeEventCount": 1163,
-      "incompleteEventCount": 0,
+      "incompleteEventCount": 1,
       "earliestCoveredEvent": {
         "eventId": "event:1950-1:17e7244241b0",
         "eventIndex": 0,
@@ -30,11 +30,13 @@
         "circuitId": "madring",
         "date": "2026-09-13"
       },
-      "valueScope": "complete totals through cutoff",
-      "pendingCurrentEventIds": []
+      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
+      "pendingCurrentEventIds": [
+        "event:2026-15:f1678fdfd3bd"
+      ]
     },
     "target": {
-      "cutoff": "2026-09-13",
+      "cutoff": "2026-09-26",
       "publicationStatus": "complete_through_cutoff",
       "valueScope": "complete totals through cutoff"
     }

@@ -4,18 +4,18 @@
   "statisticId": "driver_average_grid",
   "metricId": "driverAverageGrid",
   "status": "partial",
-  "cutoff": "2026-09-13",
+  "cutoff": "2026-09-26",
   "completeness": {
     "current": {
       "resultRowCount": 788,
-      "knownClassificationRowCount": 26117,
+      "knownClassificationRowCount": 26139,
       "unknownGridRowCount": 92,
       "ambiguousSharedDriveGridGroupCount": 63
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1163,
-      "classificationRowCount": 26209
+      "raceCount": 1164,
+      "classificationRowCount": 26231
     }
   },
   "rowCount": 788,
@@ -111,8 +111,8 @@
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
       "entityName": "Lewis Hamilton",
-      "value": 4.667519,
-      "denominator": 391,
+      "value": 4.670918,
+      "denominator": 392,
       "unknownGridCount": 3,
       "rank": 12
     },
@@ -133,19 +133,19 @@
       "rank": 14
     },
     {
-      "entityId": "driver:max-verstappen:1f6847211200",
-      "entityName": "Max Verstappen",
-      "value": 4.917695,
-      "denominator": 243,
-      "unknownGridCount": 4,
-      "rank": 15
-    },
-    {
       "entityId": "driver:castellotti:29de409c0984",
       "entityName": "Eugenio Castellotti",
       "value": 4.928571,
       "denominator": 14,
       "unknownGridCount": 0,
+      "rank": 15
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 4.930328,
+      "denominator": 244,
+      "unknownGridCount": 4,
       "rank": 16
     },
     {
@@ -191,8 +191,8 @@
     {
       "entityId": "driver:piastri:45bbf3cf700f",
       "entityName": "Oscar Piastri",
-      "value": 5.848101,
-      "denominator": 79,
+      "value": 5.8125,
+      "denominator": 80,
       "unknownGridCount": 5,
       "rank": 22
     },
@@ -231,8 +231,8 @@
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
       "entityName": "Charles Leclerc",
-      "value": 6.274725,
-      "denominator": 182,
+      "value": 6.251366,
+      "denominator": 183,
       "unknownGridCount": 5,
       "rank": 27
     },
@@ -261,18 +261,18 @@
       "rank": 30
     },
     {
-      "entityId": "driver:mansell:66de70fd9557",
-      "entityName": "Nigel Mansell",
-      "value": 6.419355,
-      "denominator": 186,
+      "entityId": "driver:norris:5581145e4767",
+      "entityName": "Lando Norris",
+      "value": 6.417178,
+      "denominator": 163,
       "unknownGridCount": 4,
       "rank": 31
     },
     {
-      "entityId": "driver:norris:5581145e4767",
-      "entityName": "Lando Norris",
-      "value": 6.425926,
-      "denominator": 162,
+      "entityId": "driver:mansell:66de70fd9557",
+      "entityName": "Nigel Mansell",
+      "value": 6.419355,
+      "denominator": 186,
       "unknownGridCount": 4,
       "rank": 32
     },
@@ -317,20 +317,12 @@
       "rank": 37
     },
     {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 6.864865,
-      "denominator": 37,
-      "unknownGridCount": 1,
-      "rank": 38
-    },
-    {
       "entityId": "driver:agabashian:09e7d8a15c53",
       "entityName": "Fred Agabashian",
       "value": 6.875,
       "denominator": 8,
       "unknownGridCount": 0,
-      "rank": 39
+      "rank": 38
     },
     {
       "entityId": "driver:rosberg:f41469d63d30",
@@ -338,7 +330,7 @@
       "value": 6.902913,
       "denominator": 206,
       "unknownGridCount": 0,
-      "rank": 40
+      "rank": 39
     },
     {
       "entityId": "driver:hunt:c0af61d2ad52",
@@ -346,13 +338,21 @@
       "value": 7.0,
       "denominator": 92,
       "unknownGridCount": 1,
-      "rank": 41
+      "rank": 40
     },
     {
       "entityId": "driver:hakkinen:cb6375fb4ba8",
       "entityName": "Mika Häkkinen",
       "value": 7.055556,
       "denominator": 162,
+      "unknownGridCount": 1,
+      "rank": 41
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 7.105263,
+      "denominator": 38,
       "unknownGridCount": 1,
       "rank": 42
     },
@@ -575,8 +575,8 @@
     {
       "entityId": "driver:bottas:cf1711492eee",
       "entityName": "Valtteri Bottas",
-      "value": 8.574219,
-      "denominator": 256,
+      "value": 8.614786,
+      "denominator": 257,
       "unknownGridCount": 5,
       "rank": 70
     },
@@ -599,8 +599,8 @@
     {
       "entityId": "driver:russell:0de59c03b0db",
       "entityName": "George Russell",
-      "value": 8.751553,
-      "denominator": 161,
+      "value": 8.703704,
+      "denominator": 162,
       "unknownGridCount": 5,
       "rank": 73
     },
@@ -637,19 +637,19 @@
       "rank": 77
     },
     {
-      "entityId": "driver:alonso:04d69c1d187a",
-      "entityName": "Fernando Alonso",
-      "value": 8.929062,
-      "denominator": 437,
-      "unknownGridCount": 5,
-      "rank": 78
-    },
-    {
       "entityId": "driver:cevert:fc3ec9f33655",
       "entityName": "François Cevert",
       "value": 8.934783,
       "denominator": 46,
       "unknownGridCount": 2,
+      "rank": 78
+    },
+    {
+      "entityId": "driver:alonso:04d69c1d187a",
+      "entityName": "Fernando Alonso",
+      "value": 8.956621,
+      "denominator": 438,
+      "unknownGridCount": 5,
       "rank": 79
     },
     {
@@ -749,19 +749,19 @@
       "rank": 91
     },
     {
+      "entityId": "driver:hadjar:1f8ff5eef91d",
+      "entityName": "Isack Hadjar",
+      "value": 9.25,
+      "denominator": 32,
+      "unknownGridCount": 4,
+      "rank": 92
+    },
+    {
       "entityId": "driver:patrese:57b51e8b4bbf",
       "entityName": "Riccardo Patrese",
       "value": 9.254902,
       "denominator": 255,
       "unknownGridCount": 2,
-      "rank": 92
-    },
-    {
-      "entityId": "driver:sainz:f4f0414a0a12",
-      "entityName": "Carlos Sainz",
-      "value": 9.259414,
-      "denominator": 239,
-      "unknownGridCount": 7,
       "rank": 93
     },
     {
@@ -773,19 +773,19 @@
       "rank": 94
     },
     {
+      "entityId": "driver:sainz:f4f0414a0a12",
+      "entityName": "Carlos Sainz",
+      "value": 9.279167,
+      "denominator": 240,
+      "unknownGridCount": 7,
+      "rank": 95
+    },
+    {
       "entityId": "driver:depailler:b5cf50bce46d",
       "entityName": "Patrick Depailler",
       "value": 9.315789,
       "denominator": 95,
       "unknownGridCount": 0,
-      "rank": 95
-    },
-    {
-      "entityId": "driver:hadjar:1f8ff5eef91d",
-      "entityName": "Isack Hadjar",
-      "value": 9.419355,
-      "denominator": 31,
-      "unknownGridCount": 4,
       "rank": 96
     },
     {
@@ -951,8 +951,8 @@
     {
       "entityId": "driver:perez:03c631191055",
       "entityName": "Sergio Pérez",
-      "value": 10.216028,
-      "denominator": 287,
+      "value": 10.25,
+      "denominator": 288,
       "unknownGridCount": 10,
       "rank": 117
     },
@@ -1133,20 +1133,12 @@
       "rank": 139
     },
     {
-      "entityId": "driver:hulkenberg:2b1121e9241c",
-      "entityName": "Nico Hülkenberg",
-      "value": 11.162162,
-      "denominator": 259,
-      "unknownGridCount": 9,
-      "rank": 140
-    },
-    {
       "entityId": "driver:etancelin:9a7ee5820715",
       "entityName": "Philippe Étancelin",
       "value": 11.166667,
       "denominator": 12,
       "unknownGridCount": 0,
-      "rank": 141
+      "rank": 140
     },
     {
       "entityId": "driver:frere:a752b5aad887",
@@ -1154,13 +1146,21 @@
       "value": 11.181818,
       "denominator": 11,
       "unknownGridCount": 0,
+      "rank": 141
+    },
+    {
+      "entityId": "driver:hulkenberg:2b1121e9241c",
+      "entityName": "Nico Hülkenberg",
+      "value": 11.188462,
+      "denominator": 260,
+      "unknownGridCount": 9,
       "rank": 142
     },
     {
       "entityId": "driver:gasly:0fca70394caf",
       "entityName": "Pierre Gasly",
-      "value": 11.315217,
-      "denominator": 184,
+      "value": 11.291892,
+      "denominator": 185,
       "unknownGridCount": 8,
       "rank": 143
     },
@@ -1205,20 +1205,12 @@
       "rank": 148
     },
     {
-      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
-      "entityName": "Arvid Lindblad",
-      "value": 11.4,
-      "denominator": 10,
-      "unknownGridCount": 4,
-      "rank": 149
-    },
-    {
       "entityId": "driver:laffite:36bfb487a39b",
       "entityName": "Jacques Laffite",
       "value": 11.420455,
       "denominator": 176,
       "unknownGridCount": 1,
-      "rank": 150
+      "rank": 149
     },
     {
       "entityId": "driver:matta:9a1970495e7a",
@@ -1226,7 +1218,7 @@
       "value": 11.428571,
       "denominator": 28,
       "unknownGridCount": 0,
-      "rank": 151
+      "rank": 150
     },
     {
       "entityId": "driver:birger:e3a8cf39225e",
@@ -1234,7 +1226,7 @@
       "value": 11.5,
       "denominator": 2,
       "unknownGridCount": 0,
-      "rank": 152
+      "rank": 151
     },
     {
       "entityId": "driver:trintignant:aaf24838e239",
@@ -1242,7 +1234,7 @@
       "value": 11.585366,
       "denominator": 82,
       "unknownGridCount": 2,
-      "rank": 153
+      "rank": 152
     },
     {
       "entityId": "driver:beltoise:a412ddeec9b0",
@@ -1250,7 +1242,7 @@
       "value": 11.611765,
       "denominator": 85,
       "unknownGridCount": 1,
-      "rank": 154
+      "rank": 153
     },
     {
       "entityId": "driver:pryce:39ca1ccd66f2",
@@ -1258,7 +1250,7 @@
       "value": 11.619048,
       "denominator": 42,
       "unknownGridCount": 0,
-      "rank": 155
+      "rank": 154
     },
     {
       "entityId": "driver:solana:df134133d4df",
@@ -1266,7 +1258,7 @@
       "value": 11.625,
       "denominator": 8,
       "unknownGridCount": 0,
-      "rank": 156
+      "rank": 155
     },
     {
       "entityId": "driver:hanks:32313f8014e4",
@@ -1274,7 +1266,7 @@
       "value": 11.625,
       "denominator": 8,
       "unknownGridCount": 0,
-      "rank": 156
+      "rank": 155
     },
     {
       "entityId": "driver:courage:8b390088e81a",
@@ -1282,6 +1274,14 @@
       "value": 11.666667,
       "denominator": 27,
       "unknownGridCount": 3,
+      "rank": 157
+    },
+    {
+      "entityId": "driver:arvid-lindblad:0994b6f3b22f",
+      "entityName": "Arvid Lindblad",
+      "value": 11.727273,
+      "denominator": 11,
+      "unknownGridCount": 4,
       "rank": 158
     },
     {
@@ -1471,8 +1471,8 @@
     {
       "entityId": "driver:ocon:27db7f9b9070",
       "entityName": "Esteban Ocon",
-      "value": 12.206349,
-      "denominator": 189,
+      "value": 12.210526,
+      "denominator": 190,
       "unknownGridCount": 5,
       "rank": 182
     },
@@ -1501,19 +1501,19 @@
       "rank": 185
     },
     {
-      "entityId": "driver:albon:20ec6817f0c4",
-      "entityName": "Alexander Albon",
-      "value": 12.375,
-      "denominator": 136,
-      "unknownGridCount": 7,
+      "entityId": "driver:lawson:a9641b5ad41f",
+      "entityName": "Liam Lawson",
+      "value": 12.361702,
+      "denominator": 47,
+      "unknownGridCount": 3,
       "rank": 186
     },
     {
-      "entityId": "driver:lawson:a9641b5ad41f",
-      "entityName": "Liam Lawson",
-      "value": 12.391304,
-      "denominator": 46,
-      "unknownGridCount": 3,
+      "entityId": "driver:albon:20ec6817f0c4",
+      "entityName": "Alexander Albon",
+      "value": 12.372263,
+      "denominator": 137,
+      "unknownGridCount": 7,
       "rank": 187
     },
     {
@@ -1965,20 +1965,12 @@
       "rank": 243
     },
     {
-      "entityId": "driver:bortoleto:4d5babd4495f",
-      "entityName": "Gabriel Bortoleto",
-      "value": 13.735294,
-      "denominator": 34,
-      "unknownGridCount": 4,
-      "rank": 244
-    },
-    {
       "entityId": "driver:duncan-hamilton:456278d5e01d",
       "entityName": "Duncan Hamilton",
       "value": 13.8,
       "denominator": 5,
       "unknownGridCount": 0,
-      "rank": 245
+      "rank": 244
     },
     {
       "entityId": "driver:nakajima:93aa20648b71",
@@ -1986,6 +1978,14 @@
       "value": 13.805556,
       "denominator": 36,
       "unknownGridCount": 0,
+      "rank": 245
+    },
+    {
+      "entityId": "driver:bortoleto:4d5babd4495f",
+      "entityName": "Gabriel Bortoleto",
+      "value": 13.828571,
+      "denominator": 35,
+      "unknownGridCount": 4,
       "rank": 246
     },
     {
@@ -2061,20 +2061,12 @@
       "rank": 255
     },
     {
-      "entityId": "driver:stroll:ab76996efc92",
-      "entityName": "Lance Stroll",
-      "value": 14.166667,
-      "denominator": 198,
-      "unknownGridCount": 7,
-      "rank": 256
-    },
-    {
       "entityId": "driver:kobayashi:02f961512374",
       "entityName": "Kamui Kobayashi",
       "value": 14.173333,
       "denominator": 75,
       "unknownGridCount": 1,
-      "rank": 257
+      "rank": 256
     },
     {
       "entityId": "driver:piotti:b9d67012aa30",
@@ -2082,6 +2074,14 @@
       "value": 14.2,
       "denominator": 5,
       "unknownGridCount": 2,
+      "rank": 257
+    },
+    {
+      "entityId": "driver:stroll:ab76996efc92",
+      "entityName": "Lance Stroll",
+      "value": 14.20603,
+      "denominator": 199,
+      "unknownGridCount": 7,
       "rank": 258
     },
     {
@@ -2101,12 +2101,20 @@
       "rank": 260
     },
     {
+      "entityId": "driver:bearman:77f13409c49b",
+      "entityName": "Oliver Bearman",
+      "value": 14.333333,
+      "denominator": 39,
+      "unknownGridCount": 3,
+      "rank": 261
+    },
+    {
       "entityId": "driver:darter:545e4f35b261",
       "entityName": "Duane Carter",
       "value": 14.375,
       "denominator": 8,
       "unknownGridCount": 0,
-      "rank": 261
+      "rank": 262
     },
     {
       "entityId": "driver:cesaris:50c29699dea6",
@@ -2114,7 +2122,7 @@
       "value": 14.405797,
       "denominator": 207,
       "unknownGridCount": 2,
-      "rank": 262
+      "rank": 263
     },
     {
       "entityId": "driver:wendlinger:e8fbb909096c",
@@ -2122,21 +2130,13 @@
       "value": 14.439024,
       "denominator": 41,
       "unknownGridCount": 1,
-      "rank": 263
+      "rank": 264
     },
     {
       "entityId": "driver:stuck:1244ac2c6b68",
       "entityName": "Hans-Joachim Stuck",
       "value": 14.445946,
       "denominator": 74,
-      "unknownGridCount": 3,
-      "rank": 264
-    },
-    {
-      "entityId": "driver:bearman:77f13409c49b",
-      "entityName": "Oliver Bearman",
-      "value": 14.447368,
-      "denominator": 38,
       "unknownGridCount": 3,
       "rank": 265
     },
@@ -2245,12 +2245,20 @@
       "rank": 278
     },
     {
+      "entityId": "driver:colapinto:b0daf67dc8e6",
+      "entityName": "Franco Colapinto",
+      "value": 14.736842,
+      "denominator": 38,
+      "unknownGridCount": 4,
+      "rank": 279
+    },
+    {
       "entityId": "driver:salo:781a02b584f4",
       "entityName": "Mika Salo",
       "value": 14.745455,
       "denominator": 110,
       "unknownGridCount": 1,
-      "rank": 279
+      "rank": 280
     },
     {
       "entityId": "driver:zonta:477e3a065ce2",
@@ -2258,7 +2266,7 @@
       "value": 14.783784,
       "denominator": 37,
       "unknownGridCount": 0,
-      "rank": 280
+      "rank": 281
     },
     {
       "entityId": "driver:sutil:46c5d0e2becf",
@@ -2266,7 +2274,7 @@
       "value": 14.796875,
       "denominator": 128,
       "unknownGridCount": 0,
-      "rank": 281
+      "rank": 282
     },
     {
       "entityId": "driver:bourdais:b80876a32b7b",
@@ -2274,7 +2282,7 @@
       "value": 14.814815,
       "denominator": 27,
       "unknownGridCount": 0,
-      "rank": 282
+      "rank": 283
     },
     {
       "entityId": "driver:scarlatti:2f7a836a3e7e",
@@ -2282,14 +2290,6 @@
       "value": 14.833333,
       "denominator": 12,
       "unknownGridCount": 0,
-      "rank": 283
-    },
-    {
-      "entityId": "driver:colapinto:b0daf67dc8e6",
-      "entityName": "Franco Colapinto",
-      "value": 14.891892,
-      "denominator": 37,
-      "unknownGridCount": 4,
       "rank": 284
     },
     {
