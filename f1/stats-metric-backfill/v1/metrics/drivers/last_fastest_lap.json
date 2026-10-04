@@ -4,21 +4,36 @@
   "statisticId": "last_fastest_lap",
   "metricId": "lastFastestLap",
   "status": "partial",
-  "cutoff": "2026-09-26",
+  "cutoff": "2026-10-04",
   "completeness": {
     "current": {
       "resultRowCount": 43,
-      "knownRaceCount": 447,
-      "raceCount": 1164
+      "knownRaceCount": 448,
+      "raceCount": 1165
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1164,
-      "classificationRowCount": 26231
+      "raceCount": 1165,
+      "classificationRowCount": 26253
     }
   },
   "rowCount": 43,
   "rows": [
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 1164,
+      "valueEvent": {
+        "eventId": "event:2026-16:7b5791036ca8",
+        "eventIndex": 1164,
+        "season": 2026,
+        "round": 16,
+        "date": "2026-10-04",
+        "grandPrixName": "Bahrain Grand Prix in Malaysia",
+        "circuitId": "sepang"
+      },
+      "rank": 1
+    },
     {
       "entityId": "driver:russell:0de59c03b0db",
       "entityName": "George Russell",
@@ -32,7 +47,7 @@
         "grandPrixName": "Azerbaijan Grand Prix",
         "circuitId": "baku"
       },
-      "rank": 1
+      "rank": 2
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
@@ -47,7 +62,7 @@
         "grandPrixName": "Italian Grand Prix",
         "circuitId": "monza"
       },
-      "rank": 2
+      "rank": 3
     },
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
@@ -62,7 +77,7 @@
         "grandPrixName": "Dutch Grand Prix",
         "circuitId": "zandvoort"
       },
-      "rank": 3
+      "rank": 4
     },
     {
       "entityId": "driver:hamilton:528ad2ac33fa",
@@ -77,7 +92,7 @@
         "grandPrixName": "Barcelona-Catalunya Grand Prix",
         "circuitId": "catalunya"
       },
-      "rank": 4
+      "rank": 5
     },
     {
       "entityId": "driver:norris:5581145e4767",
@@ -91,21 +106,6 @@
         "date": "2026-05-03",
         "grandPrixName": "Miami Grand Prix",
         "circuitId": "miami"
-      },
-      "rank": 5
-    },
-    {
-      "entityId": "driver:max-verstappen:1f6847211200",
-      "entityName": "Max Verstappen",
-      "value": 1149,
-      "valueEvent": {
-        "eventId": "event:2026-1:4bf04bce2aa9",
-        "eventIndex": 1149,
-        "season": 2026,
-        "round": 1,
-        "date": "2026-03-08",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
       },
       "rank": 6
     },

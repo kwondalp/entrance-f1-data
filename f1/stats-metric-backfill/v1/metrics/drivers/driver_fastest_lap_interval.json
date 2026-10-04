@@ -4,17 +4,17 @@
   "statisticId": "driver_fastest_lap_interval",
   "metricId": "driverFastestLapInterval",
   "status": "partial",
-  "cutoff": "2026-09-26",
+  "cutoff": "2026-10-04",
   "completeness": {
     "current": {
       "resultRowCount": 43,
-      "knownRaceCount": 447,
-      "raceCount": 1164
+      "knownRaceCount": 448,
+      "raceCount": 1165
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1164,
-      "classificationRowCount": 26231
+      "raceCount": 1165,
+      "classificationRowCount": 26253
     }
   },
   "rowCount": 43,
@@ -164,6 +164,30 @@
       "rank": 6
     },
     {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 3612,
+      "firstEvent": {
+        "eventId": "event:2016-20:6f8589cd40d6",
+        "eventIndex": 954,
+        "season": 2016,
+        "round": 20,
+        "date": "2016-11-13",
+        "grandPrixName": "Brazilian Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-16:7b5791036ca8",
+        "eventIndex": 1164,
+        "season": 2026,
+        "round": 16,
+        "date": "2026-10-04",
+        "grandPrixName": "Bahrain Grand Prix in Malaysia",
+        "circuitId": "sepang"
+      },
+      "rank": 7
+    },
+    {
       "entityId": "driver:ricciardo:677e1f07679b",
       "entityName": "Daniel Ricciardo",
       "value": 3591,
@@ -184,30 +208,6 @@
         "date": "2024-09-22",
         "grandPrixName": "Singapore Grand Prix",
         "circuitId": "marina_bay"
-      },
-      "rank": 7
-    },
-    {
-      "entityId": "driver:max-verstappen:1f6847211200",
-      "entityName": "Max Verstappen",
-      "value": 3402,
-      "firstEvent": {
-        "eventId": "event:2016-20:6f8589cd40d6",
-        "eventIndex": 954,
-        "season": 2016,
-        "round": 20,
-        "date": "2016-11-13",
-        "grandPrixName": "Brazilian Grand Prix",
-        "circuitId": "interlagos"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-1:4bf04bce2aa9",
-        "eventIndex": 1149,
-        "season": 2026,
-        "round": 1,
-        "date": "2026-03-08",
-        "grandPrixName": "Australian Grand Prix",
-        "circuitId": "albert_park"
       },
       "rank": 8
     },

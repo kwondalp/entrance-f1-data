@@ -3,7 +3,7 @@
   "entity": "drivers",
   "statisticId": "driver_grand_slams",
   "metricId": "driverGrandSlams",
-  "status": "complete_through_cutoff",
+  "status": "partial",
   "cutoff": "2026-09-26",
   "completeness": {
     "current": {
@@ -11,7 +11,7 @@
       "coveredSeasons": "Verified events through 2026-09-26",
       "excludedSeasons": [],
       "completeEventCount": 1164,
-      "incompleteEventCount": 0,
+      "incompleteEventCount": 1,
       "earliestCoveredEvent": {
         "eventId": "event:1950-1:17e7244241b0",
         "eventIndex": 0,
@@ -30,11 +30,13 @@
         "circuitId": "baku",
         "date": "2026-09-26"
       },
-      "valueScope": "complete totals through cutoff",
-      "pendingCurrentEventIds": []
+      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
+      "pendingCurrentEventIds": [
+        "event:2026-16:7b5791036ca8"
+      ]
     },
     "target": {
-      "cutoff": "2026-09-26",
+      "cutoff": "2026-10-04",
       "publicationStatus": "complete_through_cutoff",
       "valueScope": "complete totals through cutoff"
     }
