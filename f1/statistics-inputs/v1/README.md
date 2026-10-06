@@ -1,7 +1,7 @@
 # Verified current secondary statistics inputs
 
 Tools collects each current F1DB release after official Results publication and
-on an hourly server schedule. Data publishes only the validated, immutable
+with a weekly scheduled safety net. Data publishes only the validated, immutable
 `inputs.<sha256>.json` payload selected by `manifest.json`. Web consumes the
 derived Stats contracts, never a local export or this provider cache.
 

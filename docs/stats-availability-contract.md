@@ -1,5 +1,11 @@
 # Stats availability contract (controlled release)
 
+Current publication uses the approved contract recorded in the package manifest
+and `completion-publication-approval.json`. Read the manifest's availability
+counts and cutoff for current scope. The 155/14 counts and September preparation
+observations below are historical; the later approved release has progressed.
+See [maintenance](maintenance.md) for current contract ownership and validation.
+
 This is an explicit revision of the existing v1 completion contract, identified by
 `availabilityContract: stats-availability.v1` in both the manifest and catalogue.
 Consumers must require this identifier and validate the archive/base catalogue

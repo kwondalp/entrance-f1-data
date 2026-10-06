@@ -2,14 +2,13 @@
 
 This repository is the stable static JSON data source for ENTRANCE consumers.
 
-It serves static files without an API server. Tools workflows automatically validate and publish approved sporting, Stats and ranking data; clients fetch those releases directly. Promotion from `entrance-f1-data-tools` remains a manual, reviewed operation.
+It serves static files without an API server. Tools workflows validate and publish owner-approved sporting, Stats and ranking contracts; clients fetch those releases directly. New source-review decisions, schema changes and research promotion require their separate review and approval.
 
-The current generated candidate is coherent through the completed 2026 Dutch
-Grand Prix weekend (2026-08-23). The additive Stats backfill exposes all 144
-unchanged routes as populated payloads. The final four Sprint leader routes use
-complete 2021-Dutch lap-end coverage; other bounded products retain their explicit
-coverage and unknown values are never replaced with zero. Consumers should use
-the versioned manifest hashes or HTTP ETags to invalidate cached payloads.
+The current cutoff is declared by the published manifest for each contract.
+Historical candidate reports are not current status. Consumers should use
+manifest hashes or HTTP ETags to invalidate cached payloads, preserve each
+metric's declared evidence coverage, and never replace unknown values with zero.
+See [contract maintenance](docs/maintenance.md) for the package map and checks.
 
 ## Contents
 
@@ -32,7 +31,7 @@ the existing consumer contract.
 
 `f1/stats-lab/v1/` is separate from the approved current-season files under `data/`. Its `manifest.json` defines the file list, sizes, SHA-256 checksums, schema version, provenance paths, unsupported metrics, and approval flags.
 
-The accuracy-audited package is bound to Results Archive v2 through the 2026 Hungarian Grand Prix, Round 11. Its formal catalogue retains all 301 products: 157 evidence-complete public metrics and 144 explicitly blocked products. Independent reconstruction from the official archive reconciles all 157 public products with zero blockers; compared with the previous package, 155 are corrected and 2 remain unchanged at the metric-row level.
+The accuracy-audited base package is bound to the exact Results Archive v2 manifest declared in `generatedFrom`. The separate backfill and completion packages extend the base catalogue. Their manifests and availability fields determine current readiness; a blocked entry in the retained base catalogue is not the status of an independently approved supplement.
 
 The additive Stats metric backfill manifest records the owner-approved
 `fastest_ever_lap` semantic migration under
@@ -45,7 +44,7 @@ distance/time calculation, and exclusion changes.
 
 Constructor statistics use a declared chassis-identity policy rather than engine-suffixed or organisation-lineage grouping. Original result identities remain available in detail evidence. Driver display policy uses `Kimi Antonelli` publicly while preserving source aliases. The blocked-product reassessment records 112 partial-evidence products, 32 products for which no complete official historical source was found, and zero evidence-complete actionable products left unpublished.
 
-The current-season contracts under `data/` are generated from the same official Hungary reconciliation: race winner Lando Norris, pole Lando Norris, fastest lap Charles Leclerc, and the FIA post-race championship standings. Publication and endpoint verification remain separate from repository-candidate validation and must be performed after the normal push sequence.
+Current-season contracts under `data/` share the checksum-bound seven-file `f1/current/v1` snapshot. The approved publisher reconciles them against official results and standings. Endpoint verification remains separate from candidate validation and follows Data-last activation.
 
 ## Shared Stats Core v1
 

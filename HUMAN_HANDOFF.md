@@ -1,5 +1,27 @@
 # Human handoff: ENTRANCE F1 Data
 
+## 2026-10-06 Published contract review
+
+The owner requested review, necessary fixes, Stats update and commits/pushes
+across the three product repositories while preserving Web UI/UX. Current
+approved scope validation and base Stats audit pass through the October 4 race:
+157 base metrics / 71,579 rows, 169 available supplementary metrics and no pending
+supplementary entries. Source and per-metric coverage restrictions are preserved.
+
+Documentation now identifies the current manifest authority, maps the active
+contracts and marks old candidate observations as historical.
+The producer owns transformations and the three change-only Stats refresh
+dispatches. No generated sporting fact, schema, source review or stable ID was
+manually changed. See `docs/maintenance.md` for repeatable validation.
+The requested fresh calculation runs through the approved Tools publisher;
+Statistics refresh run 37286577426, attempt 2, succeeds with full validation and
+live verification of 340 Data paths and 144 Stats routes, without Web changes.
+The latest published input fingerprint matches durable state, so the next
+precheck is statistics_inputs_unchanged. All 169 supplementary metrics remain
+available, and the post-publication scope audit and 15 real public browser checks
+pass. The source race classification is unchanged; no manually selected statistic
+or unreviewed source was introduced.
+
 ## Controlled Stats release preparation
 
 Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate.
