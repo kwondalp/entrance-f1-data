@@ -48,3 +48,11 @@ The requested refresh completed successfully in
 with full candidate validation, 340 live Data file checks and all 144 Stats routes.
 The post-publication scope audit and public desktop/mobile browser checks pass;
 unchanged input is now a no-op.
+
+The later automatic
+[refresh 37452192212](https://github.com/kwondalp/entrance-f1-data-tools/actions/runs/37452192212)
+incorporates the subsequent session-results and timing publications, including
+Grand Slam evidence. It verifies nine live Data paths and all 144 Stats routes.
+The final scope audit and 15 public browser checks pass; the published input
+fingerprint matches durable state. Tools' review records the startup-race fix
+discovered during this real execution.

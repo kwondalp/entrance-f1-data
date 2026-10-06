@@ -22,6 +22,16 @@ available, and the post-publication scope audit and 15 real public browser check
 pass. The source race classification is unchanged; no manually selected statistic
 or unreviewed source was introduced.
 
+The later session-results retry publishes 25 changed paths and exercises the
+new automatic dispatch. Timing publication then triggers successful refresh
+37452192212, with nine live Data path checks and all 144 Stats routes, including
+updated Driver/Constructor Grand Slam evidence. The final approved scope audit
+still reports 169 available supplements / zero pending; all 15 public browser
+checks pass and current inputs match the durable published fingerprint. Tools
+also adds bounded clean-start recovery for the observed pre-candidate Data race.
+README now explicitly separates frozen v1, retained Beta and initial backfill
+counts from the current manifests; no generated statistic is hand-edited.
+
 ## Controlled Stats release preparation
 
 Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate.

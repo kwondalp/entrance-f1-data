@@ -70,8 +70,8 @@ compatibility rules.
 
 ## Results Archive v1 and v2
 
-The additive `/f1/results-archive/v1/` package publishes manifest-first,
-checksum-bound race classifications. Current audited coverage is 2026 through
+The frozen `/f1/results-archive/v1/` package publishes manifest-first,
+checksum-bound race classifications. Its retained coverage is 2026 through
 Belgian Round 10: 10 races and 220 classification rows. No historical season is
 included because archive-specific official review and publication approval are
 still missing. See `docs/RESULTS_ARCHIVE_V1.md` for paths, version handling,
@@ -79,8 +79,8 @@ null/zero semantics, and consumer requirements.
 
 Stable Results Archive v1 is frozen and byte-identical. The append-only
 `f1/results-archive/v2/` package is the current verified race-classification
-archive: 77 seasons, 1,160 Grands Prix, and 26,143 classification rows through
-Hungary on 2026-07-26. `f1/results-archive/current/manifest.json` points to v2.
+archive. `f1/results-archive/current/manifest.json` points to v2; read the bound
+manifest for current season coverage, race counts and latest included cutoff.
 All historical race rows reconcile to retained Formula1.com official evidence,
 and the 2026 Hungary boundary additionally records Formula1.com and FIA final
 classification evidence. Historical non-champion final standings remain
@@ -90,17 +90,15 @@ See `docs/RESULTS_ARCHIVE_V2.md` for the consumer and status contract.
 
 ## Results Archive Beta v1 and Stats Lab Beta v1
 
-The additive Beta namespaces publish a full-history lane without modifying
-either stable v1 package:
+These retained namespaces describe earlier rollout stages, not a second current
+production source:
 
-- `f1/results-archive/beta/v1/`: 77 seasons, 1,159 races, and 26,094
-  classification rows from 1950 through 2026 Round 10. The current season is
-  verified; 1950–2025 are explicitly provisional.
-- `f1/stats-lab/beta/v1/`: all 301 permanent Master Catalogue products with
-  per-product published, provisional, blocked, or unsupported status, plus
-  checksum-bound Driver, Constructor, event, and metric-table data.
+- `f1/results-archive/beta/v1/`: a historical full-history snapshot with explicit
+  verified/provisional status. Production consumers use the current archive pointer.
+- `f1/stats-lab/beta/v1/`: a retired compatibility manifest pointing to the
+  authoritative `f1/stats-lab/v1/` production manifest.
 
-Consumers must verify manifest checksums, show Beta coverage/status, preserve
+When inspecting retained Beta evidence, verify manifest checksums, show its coverage/status, preserve
 null and shared-drive semantics, and disable unsupported products or range
 combinations rather than inventing values. See
 `docs/RESULTS_ARCHIVE_BETA_V1.md` and `docs/STATS_LAB_BETA_V1.md`.
@@ -118,13 +116,8 @@ to lazy payloads under `metrics/`; `inventory.json` records the exact A/B/C evid
 classification; `coverage.json` reports availability; `schema.json` defines the
 contract; and `manifest.json` binds all files by byte size and SHA-256.
 
-The current partition is 140 populated, zero permission-required, and four
-unavailable. Twenty-five bounded Grand Prix leader products cover 795 positively
-complete events from 1982 through 2026-07-26, with 357 pre-coverage events and
-eight later incomplete or ambiguous events explicitly excluded. Four Sprint
-fastest-lap products cover only ten events with unique explicit rank-one source
-observations. The four unavailable objects require Sprint lap-position evidence,
-which is absent from the pinned source; missing events are not zero.
+Read `coverage.json` and each metric payload for current availability and cutoffs;
+the acquisition counts below record the initial evidence rollout only.
 
 Consumers must display raw numeric zero as zero, keep fractional values numeric,
 and use each metric's status, cutoff, completeness, and reason fields. A missing
@@ -133,7 +126,17 @@ rows and must be labelled as evidence-scoped; they must not be presented as
 complete career totals. Existing Stats Core, Stats Lab, Results Archive, schedule,
 and current-season URLs and semantics are unchanged.
 
-The evidence extensions publish 140 metric payloads: the original 75, 21 partial
+### Historical backfill acquisition stages
+
+The initial partition was 140 populated, zero permission-required, and four
+unavailable. Twenty-five bounded Grand Prix leader products cover 795 positively
+complete events from 1982 through 2026-07-26, with 357 pre-coverage events and
+eight later incomplete or ambiguous events explicitly excluded. Four Sprint
+fastest-lap products cover only ten events with unique explicit rank-one source
+observations. The four unavailable objects require Sprint lap-position evidence,
+which is absent from the pinned source; missing events are not zero.
+
+The initial evidence extensions published 140 metric payloads: the original 75, 21 partial
 metrics derived from F1DB v2026.11.0 under CC BY 4.0, two
 `complete_through_cutoff` fastest-ever-lap payloads for the Driver and
 Constructor record holder, eight verified-configuration circuit-record payloads,
@@ -149,8 +152,8 @@ excluded. Circuit records are explicitly partial: each payload reports the 159
 observed configurations and its accepted/excluded configuration counts instead
 of implying all-time completeness. Winning ages cover all 116 canonical credited
 winners through 2026-07-26 with independently matching F1DB and Wikidata dates.
-The other four metrics are `unavailable`; all retain a null data path and must
-render as unavailable, never as numeric zero, because the retained corpus lacks
+The other four metrics were initially `unavailable`, with null data paths,
+because that retained corpus lacked
 an explicit Sprint lap-position table. Formula 1/FIA lap charts and
 restricted timing documents are not included or redistributed.
 
