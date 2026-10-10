@@ -1,5 +1,10 @@
 # CLAUDE.md
 
+Read `PROJECT_RULES.md` and `AGENTS.md` first. They hold this repository's rules,
+are shared with every other agent, and win over the general guidelines below.
+Then read `AI_HANDOFF.yaml` and `HUMAN_HANDOFF.md`; search `docs/handoff/archive/`
+only for a specific decision. Report to the owner in Korean.
+
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.

@@ -1,0 +1,564 @@
+# Human handoff: ENTRANCE F1 Data
+
+## 2026-10-06 Published contract review
+
+The owner requested review, necessary fixes, Stats update and commits/pushes
+across the three product repositories while preserving Web UI/UX. Current
+approved scope validation and base Stats audit pass through the October 4 race:
+157 base metrics / 71,579 rows, 169 available supplementary metrics and no pending
+supplementary entries. Source and per-metric coverage restrictions are preserved.
+
+Documentation now identifies the current manifest authority, maps the active
+contracts and marks old candidate observations as historical.
+The producer owns transformations and the three change-only Stats refresh
+dispatches. No generated sporting fact, schema, source review or stable ID was
+manually changed. See `docs/maintenance.md` for repeatable validation.
+The requested fresh calculation runs through the approved Tools publisher;
+Statistics refresh run 37286577426, attempt 2, succeeds with full validation and
+live verification of 340 Data paths and 144 Stats routes, without Web changes.
+The latest published input fingerprint matches durable state, so the next
+precheck is statistics_inputs_unchanged. All 169 supplementary metrics remain
+available, and the post-publication scope audit and 15 real public browser checks
+pass. The source race classification is unchanged; no manually selected statistic
+or unreviewed source was introduced.
+
+The later session-results retry publishes 25 changed paths and exercises the
+new automatic dispatch. Timing publication then triggers successful refresh
+37452192212, with nine live Data path checks and all 144 Stats routes, including
+updated Driver/Constructor Grand Slam evidence. The final approved scope audit
+still reports 169 available supplements / zero pending; all 15 public browser
+checks pass and current inputs match the durable published fingerprint. Tools
+also adds bounded clean-start recovery for the observed pre-candidate Data race.
+README now explicitly separates frozen v1, retained Beta and initial backfill
+counts from the current manifests; no generated statistic is hand-edited.
+
+## Controlled Stats release preparation
+
+Prepared a mixed-availability Stats candidate through September 13: 155 completion metrics remain available and 14 retain routes with explicit verification-pending payloads. Newer published session and ranking work is preserved. Profiles and circuits keep their original approved September 6 evidence scope. Owner release approval and production publication remain separate.
+
+Existing research review remains unchanged: 36 of the original 50 metrics complete, 14 incomplete. Withholding is not counted as a factual repair. Missing event leader sets and disputed eligible birthdates remain research work. No new historical collection was performed. Release validation distinguishes technical readiness from the pending owner approval; production gates remain active.
+
+## Current automation publication evidence
+
+Current timing recovery covers all fourteen completed Grands Prix and five Sprints. FIA collection discovers official event/timing links from the season index, handles localized titles and wide continuation pages, preserves unknown completion totals, and records bounded HTTP retries without hiding persistent errors. Actual hosted publications succeeded.
+
+The hosted publisher activated refreshed R14 Results, Standings, Stats Core, all 144 backfill metrics and current Catalogue data. Current F1DB secondary inputs and official session/timing extensions are durable published contracts. Power, Value and Team independently published at the current cutoff; unchanged-input no-ops preserve releases. Live public verification passed. Revised Core scheduled success remains unobserved.
+
+The consolidated Tools automation-recovery record contains exact run links, failure causes, product boundaries, source-to-consumer responsibilities and remaining quality limits. Manual and downstream executions are not labelled as scheduled successes. Known unreviewed age/nationality and model candidates remain excluded; the approved Value salary policy is unchanged.
+
+Current recovery has published R14 Results, Standings, current snapshots and
+regenerated Stats. Approved Power, Value, team statistics and session results
+have independent production runs. Revised Power has also published from an
+actual schedule event. The session-statistics contract adds checked timing
+inputs for Stats without making core publication depend on timing availability.
+Revised core schedule success and final timing-consumer integration remain
+required; historical status sections below are not current run evidence.
+
+
+The owner approved necessary automatic publication across Tools, Data and Web.
+The current snapshot publishes the exact existing seven current documents under
+immutable hashes and one manifest. Tools regenerates it in post-session
+transactions; Web distinguishes absent manifests from broken bound payloads.
+Value's approved salary/formula now recalculates independently using current
+official points. Public Power and model candidates keep separate gates.
+Actual published cutoffs and server runs belong in the operational report,
+not inferred from historical handoff summaries.
+
+
+## Core recovery scope correction (2026-09-14)
+
+Official R14 qualifying completion is published. R14 race, championship points and derived Stats remain a verified candidate pending the Web profile-consumer exception. Legacy Value and descriptive Power pointers are restored after a core replay refreshed them outside the recovery scope; immutable release artifacts remain retained.
+
+The actual successful qualifying run is 34803363064. Replay 34803898278 left sporting data unchanged but advanced legacy ranking pointers. This is not a complete no-op. The correction preserves prior approved pointers and all existing immutable release bytes; the core publisher no longer admits ranking paths. The separate existing Power Rating workflow and the unactivated strength research model are unchanged.
+
+## Separate Power model research contract
+
+The model-review namespace contains actual producer-derived current-season estimates, with 9 Power entries, 21 distinct Driver estimates and 8 distinct Car estimates. Unsupported entries remain null. The schema and producer validate hash bindings, component evidence and the additive model relation. The existing approved ranking pointers are byte-identical. Model validation is not promoted: predictive and subgroup gates fail, and the reference was revised after diagnostics. Raw historical timing and diagnostic fitted coefficients remain external. See f1/rankings/model-review/README.md. A review feature and its browser do not establish production activation or scheduled execution.
+
+## Owner-approved ranking publication
+
+Value and descriptive Power have explicit owner approval with exact input and producer bindings in f1/rankings/approval.v1.json. The producer's approved publication functions generated these immutable payloads without changing sporting facts. Only current approved releases are included. Hosting convergence and scheduled execution must be observed separately.
+
+## Current completion package preparation
+
+Prepared additive verified profile and Stats completion candidates at the Italian Round 13 cutoff, preserving every existing production dataset. Manifests distinguish technical verification from candidate publication status. Web integration requires inactive-role presentation and test-expectation follow-up. No main integration or production publication is part of this preparation.
+
+The shared cutoff is 2026-09-06. The profile separates 23 driver identities,
+22 event race seats, reserve affiliation and inactive participation. Stats adds
+169 metric payloads with 65,852 rows, preserving historical evidence limits.
+Fresh official profile sources and the FIA event entry table replace stale
+seat assumptions. Production approval and canonical birthdate decisions remain
+unchanged. See `docs/current-completion-contracts.md`; Git facts must still be
+read directly, and exact delivery references live in the external review record.
+
+## 2026-09-08 circuit facts normal website connection
+
+The owner clarified that the sourced circuit facts must appear on normal web
+pages, rather than only in an opt-in preview. The additive `f1/circuits/v1`
+package contains all six fields for the 23 calendar identities, except the two
+not-yet-established Madring records. It is independent of the unpublished
+combined profiles package. Its schema, checksums and 437-source replay pass;
+three additional references corroborate the 22 established track records.
+Source-selection details and the bounded historical verification method are in
+the package README and snapshot. No post-race data or canonical approval changes
+are part of this addition.
+
+## 2026 Italian Grand Prix recovery candidate
+
+The exact post-race draft advances the shared production contracts through
+Italian Round 13. It includes the official 22-car race classification, Pierre
+Gasly's qualifying pole, post-race Driver and Constructor standings, completed
+session state, and Spain Round 14 as the next race. The full current-season
+prefix was rechecked independently, so the official Monaco correction is
+preserved before Italy is appended.
+
+Results Archive v2 now contains 1,162 races and 26,187 classification rows;
+Stats Core and Stats Lab are regenerated from the same cutoff and all manifest
+byte-size/SHA-256 bindings close. The separate Stats metric backfill generator
+rejected the new archive at its own cutoff gate, so that package is deliberately
+preserved byte-for-byte as the previous valid payload rather than partially
+updated. Stable IDs, schemas, profile/catalogue work and unrelated Stats changes
+are outside this recovery.
+
+## Project purpose
+
+This repository owns the stable static JSON contracts published for ENTRANCE consumers. It is a published-data repository, not an API server, application, scraper, transformation pipeline, or historical ingestion system.
+
+## Integrity hardening
+
+Under OWNER-20260827-INTEGRITY-HARDENING-03, the current Dutch sporting values
+remain unchanged while Results Archive, Stats Core, Stats Lab and backfill
+metadata are coherently rebound to stable release-owned producer provenance.
+The Results Archive schema accepts legitimate future ISO archive cutoffs without
+a schema edit and requires the cutoff, coverage metadata, pointer and latest
+included event to agree.
+
+Every manifest entry, byte count, SHA-256 and declared file set closes exactly.
+The schema is byte-identical to the Tools canonical copy, all 144 Stats routes
+are unique and populated, and Sprint leader coverage remains exactly 29 events
+and 580 accepted completed laps. Results Archive non-manifest payloads, all
+three Stats Core calculated payloads and all backfill calculated payloads remain
+byte-identical. The Stats Lab catalogue and 157 payloads differ only in
+source-binding metadata after provenance fields are excluded from comparison.
+The clean-clone replay also replaces the previous archive input-set checksum
+that had been calculated from CRLF-converted Windows fixture bytes with the
+canonical Git-blob/LF fingerprint; the resulting cascade is metadata-only.
+
+Machine-generated JSON and schema paths are explicitly LF-pinned. Twin
+generation and the paired Windows-style and LF-only candidate comparisons are
+byte-identical and match the committed candidate bytes.
+
+## Dutch cutoff and all 144 Stats routes
+
+The current candidate advances the shared Data contract through the completed
+2026 Dutch Grand Prix weekend. Current race/Sprint results, schedule completion,
+standings, Driver/Constructor totals, Results Archive v2, Stats Lab v1, Stats Core
+and the metric backfill all come from the same 2026-08-23 boundary. Results
+Archive v2 contains 1,161 races and 26,165 classification rows.
+
+All 144 backfill routes are populated. The four new complete-through-cutoff
+Sprint leader payloads contain five Constructor rows for laps, five for
+kilometres, ten Driver rows for laps and ten for kilometres. Their evidence covers
+all 29 Sprints since 2021 and all 580 accepted completed laps, with FastF1 primary
+normalization and 23 passing OpenF1 cross-checks. Grand Prix leader products stay
+bounded partial over 796 complete events, and Sprint fastest-lap products stay
+bounded partial over 11 explicit rank-one observations.
+
+Consumers must use the manifest byte size/SHA-256 bindings (or HTTP ETag when
+served) for cache invalidation. Web and future App clients consume these same
+platform-neutral files and must not recalculate statistics locally.
+
+Final candidate validation parses all 563 Data JSON files, reproduces Results
+Archive, Stats Lab, Stats Core and the 149-file backfill package byte-for-byte in
+independent twin generations, and verifies every manifest byte/SHA binding. The
+Stats Core payload is 1,139,126 bytes with SHA-256
+`d82e7e568365bc71bb1119723fdaa771ae01a8147c4064774287f5c542e43fe9`.
+The Stats Core manifest also binds its schema's canonical 4,660-byte LF Git blob;
+the cross-package staged-blob audit verifies all 458 referenced artifacts.
+
+## CC0 lap-position Stats publication proposal
+
+The additive backfill package contains 140 lazy payloads and four unavailable
+catalogue objects across the unchanged 144 routes. The 29 new payloads publish
+25 bounded Grand Prix leader metrics from 795 positively complete events and
+four bounded Sprint fastest-lap metrics from ten unique explicit rank-one
+observations. All prior 111 payload files remain byte-identical.
+
+The primary structured source is TracingInsights RaceData pinned to commit
+`9e65035dbfc20201bd0d1febf40c9cfb32e3eea4` under the repository's CC0 1.0
+declaration. F1DB v2026.11.0 under CC BY 4.0 supports only event-specific circuit
+configuration and distance bindings. The Data package contains facts,
+calculations, exclusions and provenance, not copied raw CSV, HTML, PDF or timing
+tables.
+
+Grand Prix values are bounded partial over 795 complete events from 1982 through
+2026-07-26. The 357 pre-coverage events and eight later incomplete or ambiguous
+events remain unknown. Seasonal products use only 38 fully complete seasons;
+2026 is excluded as right-censored. Sprint fastest-lap values cover ten of 28
+cutoff Sprint events and disclose the other 18 as missing explicit rank-one
+evidence. The four Sprint lap/kilometres-led routes remain unavailable with
+blocker `explicit_sprint_lap_position_corpus_absent_from_pinned_source` because
+the pinned source has no Sprint lap-position table.
+
+Final proposal validation parses all 559 JSON files, verifies every manifest
+byte size and SHA-256, reproduces all 145 package files in two independent
+candidates, matches those candidates exactly to this Data tree, and finds zero
+changes among the 111 pre-existing metric Git blobs. UTF-8/LF/final-LF,
+whitespace, credential, machine-path and restricted-raw scans pass.
+
+## Remaining36 Stats publication proposal
+
+The additive backfill package now contains 111 lazy payloads and 33 unavailable
+catalogue objects across the unchanged 144 Driver and Constructor routes. No
+permission-required production object remains in this exact package, although
+generic schema support is retained for future evidence sources. The prior 108
+payload files are byte-identical.
+
+The three new payloads publish 28 Driver Grand Slam totals and 14 Constructor
+Grand Slam totals from 71 explicit `grandSlam=true` F1DB v2026.11.0 result
+observations across all 27,533 result rows and 1,160 Grand Prix events through
+2026-07-26. The nine-row Driver first-across payload is explicitly bounded
+partial: it includes only positively established first-on-road/non-winning
+events and does not claim completeness for the 104 unresolved members of the
+113-candidate review.
+
+Under `OWNER-20260826-STATS-REMAINING36-STATUS-02`, the other exact 33 objects use
+the blocker
+`explicit_lap_position_or_sprint_fastest_lap_evidence_unavailable_in_retained_corpus`.
+The retained split-JSON archive has no race lap-times/lap-position dataset and no
+explicit Sprint leader or Sprint fastest-lap identity/time/lap fields. Those
+gaps are not represented as zero. No restricted FIA/F1 timing source or raw
+response is present in this repository.
+
+## Stats metric backfill v1 proposal
+
+The current extensions publish 98 checksum-bound metric payloads: the original
+75, 21 partial payloads derived from F1DB v2026.11.0 under CC BY 4.0, and two
+complete-through-cutoff fastest-ever-lap payloads for the Driver and Constructor
+record holder. Thirty-one catalogue entries are `permission_required` and 15
+are `unavailable`; those 46 entries have no data path and are never represented
+as zero. Eight configuration/chronology lap-record products and all four Sprint
+fastest-lap products remain unavailable because the retained evidence does not
+satisfy their complete contracts. No Formula 1/FIA lap chart, restricted timing
+document, or Phase 1B identity evidence is included.
+
+Owner approval `OWNER-20260825-STATS-FASTEST-EVER-SEMANTIC-01` replaces the
+unpublished zero-row `minimum_lap_time` definition with
+`maximum_average_speed` for both unchanged metric IDs and routes. The manifest
+binds that approval and exposes F1DB by Marcel Overdijk and contributors,
+v2026.11.0, its fixed release and CC BY 4.0 licence URLs, and the ENTRANCE
+filtering, canonical identity binding, and distance/time calculation changes.
+
+The validated additive package at `f1/stats-metric-backfill/v1/`
+inventories all 144 formerly evidence-blocked production metrics. It exposes 98
+lazy payloads: 86 evidence-scoped partial results and 12 results complete through
+their declared cutoff. The other 46 metrics remain in the catalogue with
+explicit blocked reasons and no data path.
+
+The package contains 103 JSON files; its manifest binds the other 102 artifacts
+by canonical UTF-8/LF byte size and SHA-256. It preserves stable Driver and
+Constructor IDs, fractional values, genuine zeroes, per-metric coverage, source
+provenance, and structured unknowns. Existing public paths and Stats Core v1
+semantics are unchanged. All 102 manifest-listed artifacts match canonical
+UTF-8/LF bytes and SHA-256, and the original 96 payload blobs plus all 31
+permission-required inventory objects remain unchanged. Current Git and live
+publication state must be read directly; Web consumption is a separate sibling
+release candidate.
+
+## Current published contract
+
+### 2026 Bahrain Grand Prix in Malaysia schedule proposal
+
+The generated unstaged schedule candidate follows the current Formula 1 and FIA calendars.
+It adds the Bahrain Grand Prix in Malaysia at Sepang International Circuit on 2-4 October
+2026 as Round 16, retaining the stable `bahrain` race key while recording Malaysia as the
+host country. The cancelled April Bahrain event remains absent. Singapore through Abu Dhabi
+move from Rounds 16-22 to Rounds 17-23, so the season grows from 22 to 23 rounds.
+
+The weekend is the official standard non-Sprint format: Practice 1, Practice 2, Practice 3,
+Qualifying, and Race. Session starts are stored in the existing UTC timestamp shape after
+timezone-aware conversion from Sepang local time (UTC+08:00). All completed Round 1-11
+schedule entries, race results, standings, Stats Core v1, Stats Lab, and archive files remain
+unchanged. This proposal is uncommitted, unstaged, and unpublished pending independent
+review.
+
+### Stats Core v1 unstaged proposal
+
+The additive `f1/stats-core/v1/` candidate is a shared website/future-app contract generated
+from Results Archive v2 with exact canonical IDs. It covers 823 Drivers and 171 Constructors,
+keeps proven zeroes numeric, and uses entity-scoped `null` reasons for incomplete starts or
+fastest-lap evidence. Existing Results Archive and Stats Lab paths are unchanged. The four-file
+candidate (`manifest`, `stats`, `coverage`, `schema`) is uncommitted and not yet published.
+
+### Stats Lab accuracy release
+
+The current repository candidate advances the coordinated Stats Lab release to
+the 2026 Hungarian Grand Prix, Round 11. The current-season files were generated
+from retained Formula1.com and FIA evidence: Lando Norris won from pole, Charles
+Leclerc set the fastest lap, and the post-race driver and constructor standings
+match the FIA points documents.
+
+Stable Results Archive v1 is unchanged byte-for-byte. Append-only Results
+Archive v2 contains 77 seasons, 1,160 Grands Prix and 26,143 classification
+rows, with `f1/results-archive/current/manifest.json` resolving to v2. Historical
+race classifications and champion identities are verified; non-champion final
+standings remain provisional because official table labels expose unresolved
+chassis-versus-entrant identities such as Lola/Larrousse, Venturi/Larrousse and
+MF1/Spyker.
+
+Stats Lab v1 retains the full 301-product registry. The 157 public metrics were
+independently rebuilt from official archive facts: 155 differ from the previous
+package, 2 are unchanged and none are blocked. Constructor summaries group by
+declared chassis identity while detail shards retain original source constructor
+IDs. The 144 non-public products were each reassessed: 112 have partial official
+evidence, 32 lack a complete official historical source, and zero
+evidence-complete products remain unimplemented.
+
+This section describes the validated repository candidate. Live Hungary
+coverage must not be claimed until the normal push completes and the public
+current-season, Results Archive v2 and Stats Lab endpoints are read back.
+
+### Authoritative Stats Lab production v1
+
+This section supersedes the older Stats Lab Beta candidate description below.
+`f1/stats-lab/v1/` is the single production channel and contains 229 public
+files. Its formal catalogue registers 301 products: 157 evidence-complete
+public metrics and 144 external-evidence-blocked products, with zero
+evidence-complete actionable products left unpublished.
+
+The bound Results Archive Beta input covers 77 seasons, 1,159 Grands Prix and
+26,121 classification rows. Stats Lab publishes 823 driver and 207 constructor
+identities, exact event indexes, lazy metric files, pagination for large
+rankings, and generic detail shards. All 157 metric summaries and 71,030 rows
+reconcile to their line-by-line detail evidence. `f1/stats-lab/beta/v1/` now
+contains only a retired compatibility manifest pointing consumers to v1.
+
+The stable Results Archive v1 manifest and 2026 season byte identities are
+unchanged. Two independent producer generations were byte-identical, the live
+tree matched the fresh candidate exactly, and the full production audit passed
+archive binding, checksums, catalogue, Beta retirement, reconciliation,
+acceptance invariants, and stable-v1 preservation.
+
+### Separate Beta v1 candidates
+
+The working tree contains two additive, separately namespaced Beta candidates.
+They are audited implementation artifacts, not evidence of a commit, public
+endpoint update, stable-contract promotion, or deployment.
+
+`f1/results-archive/beta/v1/` contains a checksum-bound manifest and 77 season
+documents for 1950-2026: 1,159 races and 26,094 classification rows. The 76
+historical seasons are labeled provisional. The 2026 file preserves the exact
+verified Results Archive v1 Round 1-10 facts. Missing starts and fastest laps
+remain null or absent, shared-drive rows are explicit, and the Beta contract
+does not infer individual lap allocation from a shared classification.
+
+`f1/stats-lab/beta/v1/` contains a checksum-bound manifest plus five derived
+documents. The permanent 301-statistic catalogue is represented as 14
+published, 92 provisional, 99 blocked, and 96 unsupported entries. Supported
+rankings currently expose All Time only; missing values are not zero-filled,
+and unsupported grouped or range combinations remain unavailable. The four
+Beta Draft 2020-12 schemas are under `schemas/`, and the contract details are
+in `docs/RESULTS_ARCHIVE_BETA_V1.md` and `docs/STATS_LAB_BETA_V1.md`.
+
+The tools producer audits pass directly against these exact files with zero
+blockers and zero warnings. Every JSON file parses. Existing current-season
+paths, `f1/results-archive/v1/`, and `f1/stats-lab/v1/` have no task diff. No
+file is staged, committed, pushed, published, or deployed.
+
+### Results Archive v1 release package
+
+The additive package under `f1/results-archive/v1/` contains the audited 2026
+classification contract through Belgian Round 10: 10 races and 220 rows. The
+manifest binds the season by exact byte size and SHA-256, and the tracked Draft
+2020-12 schemas define explicit classification, winner, shared-drive, and
+dead-heat fields. Existing `data/` and Stats Lab files were not changed.
+Seasons 1950–2025 remain absent because structural completeness is not
+archive-specific factual review or publication approval. See
+`docs/RESULTS_ARCHIVE_V1.md`. The manifest's `applicationState` is immutable
+generation-time provenance, not live release status; read current Git and
+canonical-endpoint state directly.
+
+Approved current-season files are served from `https://kwondalp.github.io/entrance-f1-data/data/`. Direct endpoint verification on 2026-08-02 found 2026 race results through round 10, `belgium`, with `updatedAt: 2026-07-26T10:54:55Z`; all 17 protected public contract files were byte-identical to the committed Git baseline.
+
+The current-season results, standings, and driver statistics contain 10 completed rounds through Belgium and preserve the prior official-result corrections for tied standings and `NC`/`DNS` classifications. Hungary and the Netherlands remain outside the completed-race cutoff.
+
+`f1/stats-lab/v1/` is a separate historical package. Its official-pole values have passed both the production-data application and the separately authorised Belgian-cutoff publication integration. The manifest says `production_ready`, `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, and `publishApproved: true`. The checksum-portability maintenance rebinds only its manifest checksum and size metadata to committed UTF-8 LF bytes; `mainMergeApproved: false` and `deploymentApproved: false` retain their historical meaning.
+
+The publication composes the approved Round-7 baseline of 1,156 driver and constructor attributions with exactly three official Grand Prix pole overlays for rounds 8-10. Final totals are 1,159 on both sides with 107 driver and 50 constructor holders. The single canonical historical Mercedes identity advances from 151 to 154. The official-pole field cutoff is the 2026 Belgian Grand Prix on 2026-07-19; Sprint sessions and Hungary are excluded.
+
+`schemas/published-historical-records.v1.schema.json` defines the future public contract for eligible Historical Records. Phase 9A adds only the schema and its documentation: no `published-historical-records.v1` dataset exists in this repository, no historical record has been published, and no empty or provisional placeholder dataset should be created.
+
+## How data reaches this repository
+
+`entrance-f1-data-tools` owns ingestion, normalization, canonical data construction, audit reports, validation, and derived package preparation. It may produce candidate files and a destination plan, but it must not write this repository automatically.
+
+The safe sequence is:
+
+1. Produce and audit candidate data in `entrance-f1-data-tools`.
+2. Resolve conflicts, canonical approval, human review, and source provenance in the tools workflow.
+3. Export only production-eligible records through `historical-records-api-contract.v1`, with the public producer attestation `all_required_gates_passed`.
+4. Review the proposed destination diff and obtain separate publication approval.
+5. Apply only the approved data changes in this repository.
+6. Validate JSON, stable identities, public shapes, manifest checksums, and the published contract as applicable.
+7. Commit and publish only with explicit approval.
+8. Synchronise `entrance-project-control` only after the product commit exists.
+
+This repository validates the public boundary. It must not reinterpret producer-internal evidence, review queues, canonical decisions, or builder state.
+
+## Datasets and consumers
+
+| Contract | Purpose | Verified repository state |
+| --- | --- | --- |
+| `data/schedule.json` | 2026 schedule and UTC session times | 23 rounds |
+| `data/drivers.json` | Stable current driver identities | 22 drivers |
+| `data/constructors.json` | Stable constructor identities | 11 constructors |
+| `data/driver-standings.json` | Driver championship order and points | 22 entries |
+| `data/constructor-standings.json` | Constructor championship order and points | 11 entries |
+| `data/driver-stats.json` | Per-driver season and career values | 22 entries |
+| `data/race-results.json` | Current-season classifications and constructor points | Public baseline has 10 rounds through Belgium |
+| `data/f1/current-grid.json` | Driver-to-constructor current-grid mapping | 22 entries |
+| `data/f1/stat-metrics.json` | Current Stats Lab metric definitions | 7 metrics |
+| `f1/stats-lab/v1/` | Historical derived package | 77 seasons; official-pole publication approved; endpoint verified 2026-08-02 |
+| `schemas/published-historical-records.v1.schema.json` | Future Historical Records publication contract | Schema ready; published dataset absent |
+
+`entrance-web` and `ipgutest` fetch the published current-season base URL directly. `entrance-web` can also load Stats Lab v1 from an explicit base URL and otherwise uses its own limited fallback fixture.
+
+## Schema and provenance decisions
+
+- Existing driver, team, constructor, race, and session IDs and public JSON shapes are stable contracts.
+- Current-season contracts remain represented by their existing JSON file shapes. The repository-local `published-historical-records.v1` JSON Schema applies only to the future Historical Records dataset and does not change any current production JSON contract.
+- Current-season files contain `updatedAt` timestamps but do not embed source URLs or audit IDs. Source and approval evidence must therefore be checked in the approved update workflow.
+- Stats Lab v1 is versioned by `manifest.json`, which records relative artifact paths, byte sizes, SHA-256 checksums, stable producer and source digests, unsupported metrics, production-application approval, the approved Round 8-10 overlay, and the separate main-merge and deployment boundaries.
+- The Stats Lab canonical snapshot is intentionally excluded from the browser-facing package because of its size.
+- Post-race updates follow the two-step draft-then-approved-apply process in `POST_RACE_UPDATE_RULES.md`.
+- Historical Records publication is fail-closed: blocked, provisional, unreviewed, or unapproved records are omitted completely rather than represented as null, empty, or blocker-bearing public rows.
+- A valid published Historical Records dataset must contain at least one eligible record and a separate publication approval. If zero records are eligible, no dataset file is created.
+- Consumers may accept additive optional fields within API major version 1. Removing or changing required fields, identifiers, or semantics requires a new major contract version.
+
+## Current blockers and risks
+
+- The public current-season endpoint was verified through round 10 on 2026-08-02. Re-read it after any later separately authorised publication or deployment before claiming newer coverage.
+- Stats Lab v1 keeps the general derived package `asOfRaceDate: 2026-06-14`, while the additive `officialPoleAsOfRaceDate` is `2026-07-19`. Consumers must use the field-specific cutoff for official-pole values.
+- Existing publication approval metadata does not grant new merge or deployment authority; this checksum-portability repair changes no approval meaning.
+- Historical Records currently has zero publication-eligible records, so only its schema and documentation exist; there is no dataset to publish.
+- The required approval history for prior candidate data changes is not encoded in the production JSON itself.
+- There is no repository-native validation script, so validation must combine JSON parsing, targeted integrity checks, Git diffs, manifest checksum verification, and the audited producing workflow.
+
+## How to verify data before publishing
+
+1. Read `PROJECT_RULES.md` and, for post-race work, `POST_RACE_UPDATE_RULES.md`.
+2. Verify official source URLs and compare only factual numerical values.
+3. Preserve stable IDs, race keys, session keys, schema shapes, and UTC timestamps.
+4. For post-race work, prepare a no-write draft diff and wait for explicit approval.
+5. Parse every JSON file and run targeted reference checks for modified files.
+6. For Stats Lab, verify every manifest file size and SHA-256 checksum, require `productionApplicationApproved: true`, `approvalRequiredBeforePublish: true`, `publishApproved: true`, and preserve `mainMergeApproved: false` plus `deploymentApproved: false`.
+7. For Historical Records, validate the producer payload against `schemas/published-historical-records.v1.schema.json`, reject unsupported API major versions, reject empty datasets and ineligible records, and verify deterministic canonical serialization.
+8. Confirm `git diff -- data f1/stats-lab/v1` contains only the approved production changes.
+9. Re-read the public endpoint after publication before claiming new coverage is live.
+
+Baseline read-only validation commands:
+
+The current Stats metric backfill contract contains 144 unchanged metrics: 108
+available payloads, 35 permission-required products, and one unavailable product.
+The ten final-15 additions are eight explicitly partial circuit-configuration
+record payloads plus two complete-through-2026-07-26 winning-age payloads. The
+four Sprint fastest-lap products remain permission-required and
+`driver_first_across_line_without_win` remains unavailable. Validate every
+manifest size/SHA binding and preserve the previous 98 metric payload blobs
+byte-for-byte on any regeneration.
+
+```console
+python -c "import json, pathlib; [json.loads(path.read_text(encoding='utf-8')) for path in pathlib.Path('.').rglob('*.json')]"
+git diff --check
+git diff -- data f1/stats-lab/v1
+git status -sb
+```
+
+Validate the AI handoff from the sibling control repository without writing control state:
+
+```console
+python ../entrance-project-control/scripts/sync_status.py --print
+```
+
+## How to resume on another computer
+
+1. Clone `entrance-f1-data`, `entrance-f1-data-tools`, `entrance-project-control`, `entrance-web`, and `ipgutest` as sibling repositories.
+2. Pull each repository independently; do not use submodules, subtrees, or copied source.
+3. In this repository, read `PROJECT_RULES.md`, `AGENTS.md`, `AI_HANDOFF.yaml`, and this file. Read `POST_RACE_UPDATE_RULES.md` before post-race work.
+4. Verify Git state with the commands below instead of trusting durable handoff text.
+5. Install project-control's Python environment if handoff/schema validation is needed.
+6. Finish, validate, and commit product work first with explicit approval.
+7. Regenerate and separately review project-control status only after the product commit.
+
+## Commands to verify Git state
+
+```console
+git status -sb
+git log -1 --oneline
+git branch --show-current
+git remote -v
+```
+
+## Do-not-do list
+
+- Do not invent, infer, or manually patch race facts or statistics.
+- Do not update production JSON without verified sources, required provenance, validation, and approval.
+- Do not add application, website, scraping, ingestion, transformation, or pipeline code.
+- Do not add dependencies or change stable IDs, race keys, session keys, or JSON schemas without approval.
+- Do not treat data-tools output or Stats Lab preview files as automatically published data.
+- Do not create an empty, provisional, blocker-bearing, or otherwise production-looking Historical Records placeholder dataset.
+- Do not copy producer-internal evidence IDs, review-queue IDs, canonical decision state, builder metadata, or blocker details into a public Historical Records record.
+- Do not modify sibling repositories from this repository.
+- Do not store secrets, personal paths, HEAD hashes, branch names, or working-tree state in handoffs.
+- Do not stage, commit, merge, push, or deploy without explicit approval.
+
+## Completion production integration
+
+The owner approved publication of the exact checksum-bound completion packages through Italian Round 13. Both manifests now separate approved publication from technical verification; all payload bytes and existing production datasets remain unchanged. The compatibility Web consumer passed its preparation gates. Live publication and recurring wiring are verified externally during rollout. The dated remote Web-main backup and exact deployment evidence are retained in the external portable integration handoff; query Git and hosting metadata before any recovery. Earlier preparation-only deployment restrictions are historical. Preserve original refs and use history-preserving scoped reverts if this release must be recovered.
+
+
+## Power Rating v1 operational phase
+
+The Power v2 seed contains real historical/current sufficient statistics and the prior failure/repair audit under the owner operational authorisation. No raw provider timing is redistributed. The first current release is intentionally delegated to the deployed producer; cloud execution and live publication are not yet claimed. See f1/rankings/power/v2/README.md.
+
+
+## Power Rating verified operation
+
+The deployed Power-only producer published power-2026-r13-00674a8107d324f7 through the verified Italian GP. Public release bytes and all artifact bindings were checked. Cloud unchanged-input and actual two-GP source recheck runs created no additional release. Empirical validation is explicitly retrospective with a reused evaluation period, and all component intervals remain model-conditional. The approved seed is retained for reproducibility.
+
+## Independent timing and official session detail inputs
+
+The session-statistics contract now has real server-published Italian and Spanish GP lap leaders. The fallback uses explicit Jolpica positions with complete official identity, classification and lap-count checks; unknown deletion flags never establish lap records. Official session results also define actual Sprint grids and personal fastest-lap tables. Stats consumes these immutable contracts through Tools, with source fingerprints separate from generator policy. Integration publication and revised core schedule outcomes remain separately tracked.
+
+FIA-sourced Dutch and Belgian Sprint leaders and fastest tables subsequently
+passed actual server publication. The additive statistics-inputs contract now
+documents current F1DB secondary facts after the reviewed historical boundary.
+Every current sporting row must agree with official outcomes; the immutable
+input retains release, archive and licence hashes, attribution and event-level
+classification fingerprints. Corrections hold stale secondary facts until
+verified replacement. No birthdate, nationality or historical identity approval
+is imported. Actual-source candidate generation passed both catalogue and 144
+metric audits; production activation is tracked in the consolidated Tools
+automation recovery record.
+
+
+## Verified Stats release and separate historical continuation
+
+The owner-approved Stats release is published and live hashes were verified. A separate generated development candidate retains 155 available and 14 withheld metrics, updates leader-evidence coverage only, and carries candidate status without reusing the production approval. Published profiles/circuits retain their original approved evidence scope.
+
+The owner release approval was executed. The two automation switches were restored to their original enabled state after live verification. Exact production snapshots, backup refs and live checks are recorded in the Web production activation report; Git remains authoritative for repository state. Historical progress and exact unresolved facts are recorded in the Tools withheld-progress report. No additional metric availability may change until its declared population is complete and validated.
+
+
+## Owner-selected DOB release
+
+The owner expressly authorised eleven editorial DOB choices and publication of independently completed metrics. The generated supplement passes completeness for eleven metrics, leaving only three leader-age metrics withheld. The owner approval is bound to this catalogue; it is not an independent source verification claim. Existing profile/circuit scope and scheduled session publications remain unchanged. Live activation is recorded in the producer progress document.
+
+
+## Latest published DOB metrics and separate leader research
+
+The eleven owner editorial DOB-dependent metrics are live and validated. The separate research snapshot retains 166 unchanged available payloads and three unavailable leader-age metrics after 140 additional event sets. Four count discrepancies remain unresolved; candidate metadata is truthful and no research publication approval is copied. Public hashes, automation restoration and exact remaining facts are in the producer progress record and consumer live evidence.
+
+
+## Four-event leader-age release
+
+Contemporary results and the Canadian World Council classification decision resolve the remaining counted-lap discrepancies. Three leader-age metrics pass complete event, identity, DOB and nationality coverage. The selected package has 169 available metrics and no withheld supplementary metrics; all 166 previously available payloads remain byte-identical. Original conflicting sources, owner DOB decisions and the full-lap-order boundary remain intact. Normal regeneration and focused regressions pass. The existing owner authorization covers publication; actual activation and live checks are recorded separately in the existing progress/dependency documents.
