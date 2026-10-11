@@ -4,11 +4,11 @@
   "statisticId": "driver_front_row_duos",
   "metricId": "driverFrontRowDuos",
   "status": "partial",
-  "cutoff": "2026-10-04",
+  "cutoff": "2026-10-11",
   "completeness": {
     "current": {
       "resultRowCount": 986,
-      "knownClassificationRowCount": 26161,
+      "knownClassificationRowCount": 26183,
       "unknownGridRowCount": 92,
       "ambiguousSharedDriveGridGroupCount": 63,
       "evidenceAssessment": {
@@ -23,8 +23,8 @@
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1165,
-      "classificationRowCount": 26253
+      "raceCount": 1166,
+      "classificationRowCount": 26275
     }
   },
   "rowCount": 986,
@@ -198,11 +198,27 @@
       "rank": 21
     },
     {
+      "entityId": "driver:leclerc:80a0e9f8790b",
+      "entityName": "Charles Leclerc",
+      "value": 17,
+      "groupId": "driver:max-verstappen:1f6847211200",
+      "groupLabel": "Max Verstappen",
+      "rank": 21
+    },
+    {
       "entityId": "driver:fangio:56835a0b6237",
       "entityName": "Juan Manuel Fangio",
       "value": 17,
       "groupId": "driver:moss:74efba0d63c1",
       "groupLabel": "Stirling Moss",
+      "rank": 21
+    },
+    {
+      "entityId": "driver:max-verstappen:1f6847211200",
+      "entityName": "Max Verstappen",
+      "value": 17,
+      "groupId": "driver:leclerc:80a0e9f8790b",
+      "groupLabel": "Charles Leclerc",
       "rank": 21
     },
     {
@@ -222,28 +238,12 @@
       "rank": 21
     },
     {
-      "entityId": "driver:leclerc:80a0e9f8790b",
-      "entityName": "Charles Leclerc",
-      "value": 16,
-      "groupId": "driver:max-verstappen:1f6847211200",
-      "groupLabel": "Max Verstappen",
-      "rank": 25
-    },
-    {
       "entityId": "driver:damon-hill:3cf4df1bacf7",
       "entityName": "Damon Hill",
       "value": 16,
       "groupId": "driver:michael-schumacher:6f4f07ba2368",
       "groupLabel": "Michael Schumacher",
-      "rank": 25
-    },
-    {
-      "entityId": "driver:max-verstappen:1f6847211200",
-      "entityName": "Max Verstappen",
-      "value": 16,
-      "groupId": "driver:leclerc:80a0e9f8790b",
-      "groupLabel": "Charles Leclerc",
-      "rank": 25
+      "rank": 27
     },
     {
       "entityId": "driver:michael-schumacher:6f4f07ba2368",
@@ -251,7 +251,7 @@
       "value": 16,
       "groupId": "driver:damon-hill:3cf4df1bacf7",
       "groupLabel": "Damon Hill",
-      "rank": 25
+      "rank": 27
     },
     {
       "entityId": "driver:michael-schumacher:6f4f07ba2368",
@@ -259,7 +259,7 @@
       "value": 16,
       "groupId": "driver:barrichello:ff6039716ac0",
       "groupLabel": "Rubens Barrichello",
-      "rank": 25
+      "rank": 27
     },
     {
       "entityId": "driver:barrichello:ff6039716ac0",
@@ -267,7 +267,7 @@
       "value": 16,
       "groupId": "driver:michael-schumacher:6f4f07ba2368",
       "groupLabel": "Michael Schumacher",
-      "rank": 25
+      "rank": 27
     },
     {
       "entityId": "driver:clark:59d84c3d9fcb",

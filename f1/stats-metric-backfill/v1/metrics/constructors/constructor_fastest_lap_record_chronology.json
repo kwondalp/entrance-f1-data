@@ -4,14 +4,14 @@
   "statisticId": "constructor_fastest_lap_record_chronology",
   "metricId": "constructorFastestLapRecordChronology",
   "status": "partial",
-  "cutoff": "2026-10-04",
+  "cutoff": "2026-10-11",
   "completeness": {
     "current": {
-      "resultRowCount": 264,
+      "resultRowCount": 265,
       "observedCircuitConfigurationCount": 160,
       "verifiedCircuitConfigurationCount": 90,
       "excludedCircuitConfigurationCount": 70,
-      "candidateLapCount": 43950,
+      "candidateLapCount": 43993,
       "eligibleSessionTypes": [
         "qualifying",
         "race"
@@ -306,7 +306,7 @@
       "sprintExcluded": true
     }
   },
-  "rowCount": 264,
+  "rowCount": 265,
   "rows": [
     {
       "entityId": "constructor:alfa:f3891f4c8109",
@@ -9547,6 +9547,41 @@
       "groupId": "madring-1",
       "groupLabel": "madring-1",
       "rank": 264
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 1165,
+      "valueEvent": {
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay"
+      },
+      "record": {
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay",
+        "circuitConfigurationId": "austin-1",
+        "sessionType": "qualifying",
+        "lapTime": "1:31.373",
+        "lapTimeMillis": 91373,
+        "lapNumber": null,
+        "driverId": "driver:max-verstappen:1f6847211200",
+        "driverName": "Max Verstappen",
+        "constructorId": "constructor:red-bull:8307f488a798",
+        "constructorName": "Red Bull"
+      },
+      "groupId": "austin-1",
+      "groupLabel": "austin-1",
+      "rank": 265
     }
   ]
 }

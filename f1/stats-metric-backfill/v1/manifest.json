@@ -3,17 +3,17 @@
   "apiVersion": "1.0.0",
   "releaseChannel": "production",
   "dataStatus": "evidence_scoped",
-  "asOfRaceDate": "2026-10-04",
+  "asOfRaceDate": "2026-10-11",
   "generatedFrom": {
     "producerId": "entrance-f1-data-tools/stats-metric-backfill-v1",
     "producerVersion": "1.0.7",
     "producerSourceChecksumSha256": "9123dd5e03b5effcd3e58b2f550607fb61d38cdf106a9ee4dcc836e7ae8c7798",
-    "resultsArchiveManifestSha256": "a9241bfcca53c42aa192005151ea51afedf25b18bbd80260852f52b7776f2d20",
+    "resultsArchiveManifestSha256": "6113cf7c3ca8c2ecb6069196b89548f206a009fa14a89226befd4d13f70d80b8",
     "officialCurrentSessionInputs": [
       {
         "repository": "entrance-f1-data",
-        "relativePath": "f1/statistics-inputs/v1/inputs.88b74c93f53f780e0765e9302a83c3a5578c78b923a1623a2378095c53014401.json",
-        "contentSha256": "88b74c93f53f780e0765e9302a83c3a5578c78b923a1623a2378095c53014401"
+        "relativePath": "f1/statistics-inputs/v1/inputs.b424e0b59408cc3c8ac55f0725d4f6d1ae67f9a354c4819f1e62f30875d63182.json",
+        "contentSha256": "b424e0b59408cc3c8ac55f0725d4f6d1ae67f9a354c4819f1e62f30875d63182"
       },
       {
         "repository": "entrance-f1-data-tools",
@@ -66,6 +66,16 @@
         "contentSha256": "48e2502764ec6f4a91d58b556f35da8abe5f5f13751f7226d1778691f96d54f4"
       },
       {
+        "repository": "entrance-f1-data-tools",
+        "relativePath": "fixtures/post-session-ledgers/2026/round-17-qualifying.v1.json",
+        "contentSha256": "59f1c43b3871389d80c809aa5e7823c25c650d65cf6d6411ab89868f3d61e6e4"
+      },
+      {
+        "repository": "entrance-f1-data-tools",
+        "relativePath": "fixtures/post-session-ledgers/2026/round-17-race.v1.json",
+        "contentSha256": "dc74533efbfb2ccd76e8f654930e2dcd1b7da72d975183c1cb43011531db7964"
+      },
+      {
         "repository": "entrance-f1-data",
         "namespace": "f1/session-results/v1",
         "season": 2026,
@@ -73,9 +83,9 @@
         "session": "qualifying",
         "raceSlug": "australia",
         "scheduledStartUtc": "2026-03-07T05:00:00Z",
-        "inputFingerprint": "8b9ca75b7db0a2111d8d3abc538f16730bbcb602e7e12ad9643e6df1037cdcc8",
-        "path": "sessions/8b5e1e1d68db7254e142839bda235f8bfe543b4dafd86b73a381978d2442f1f8.json",
-        "sha256": "8b5e1e1d68db7254e142839bda235f8bfe543b4dafd86b73a381978d2442f1f8",
+        "inputFingerprint": "f658bb2bd37c9f75d82c98dd2e00ded3b3aa066a6815b59416dea752ea8cb798",
+        "path": "sessions/345cf9ee8f33212f16c2035a8f4af4c467dd103f3cba75a93b3e94f7aa4d13e4.json",
+        "sha256": "345cf9ee8f33212f16c2035a8f4af4c467dd103f3cba75a93b3e94f7aa4d13e4",
         "byteSize": 8707,
         "publicationState": "complete"
       },
@@ -88,8 +98,8 @@
         "raceSlug": "australia",
         "scheduledStartUtc": "2026-03-08T04:00:00Z",
         "inputFingerprint": "1c56ef7ba31159bbb16bc4441ebcb44b2be3e3053bfe1ec60f83a0bba5a350b6",
-        "path": "sessions/ed6707f466bc16d6b3c85ca6a1d89fca58773b0940acb489cc29cf35a7f252d8.json",
-        "sha256": "ed6707f466bc16d6b3c85ca6a1d89fca58773b0940acb489cc29cf35a7f252d8",
+        "path": "sessions/aac4034037914d4a51d84c0a8ba184b20c69cb17eb46b31895bdbcd78f68e731.json",
+        "sha256": "aac4034037914d4a51d84c0a8ba184b20c69cb17eb46b31895bdbcd78f68e731",
         "byteSize": 17970,
         "publicationState": "complete"
       },
@@ -102,8 +112,8 @@
         "raceSlug": "china",
         "scheduledStartUtc": "2026-03-14T03:00:00Z",
         "inputFingerprint": "fbd1b29b6e3e4b176aec845f5f099b0a34f5d1437ca1116d3f7b7bb6d29d7b20",
-        "path": "sessions/87e5f772e76f7d1c3fbb4ed2c5d3ffc9a28a3b17a743acb3ef171477e98b031a.json",
-        "sha256": "87e5f772e76f7d1c3fbb4ed2c5d3ffc9a28a3b17a743acb3ef171477e98b031a",
+        "path": "sessions/a91968dd2e64e1208eccb5eca3779453ed70d20ceb8643d67abb18947dc18c3d.json",
+        "sha256": "a91968dd2e64e1208eccb5eca3779453ed70d20ceb8643d67abb18947dc18c3d",
         "byteSize": 14836,
         "publicationState": "complete"
       },
@@ -115,9 +125,9 @@
         "session": "qualifying",
         "raceSlug": "china",
         "scheduledStartUtc": "2026-03-14T07:00:00Z",
-        "inputFingerprint": "b9cf91e4f74e565683122072df858969aa297488a354c902e8d636be3501b740",
-        "path": "sessions/d3eb5f640c9c56b3812afaee9273caf62c25112bf2dd2028d0ce42a7b8b534a0.json",
-        "sha256": "d3eb5f640c9c56b3812afaee9273caf62c25112bf2dd2028d0ce42a7b8b534a0",
+        "inputFingerprint": "26566194d10967cb342dcc372ad68f1ba68cb197321c936b0f29126d58c65297",
+        "path": "sessions/959beb07da8f2809e267959b6f2ffe6019e3bb5e630361effc9706974be042b6.json",
+        "sha256": "959beb07da8f2809e267959b6f2ffe6019e3bb5e630361effc9706974be042b6",
         "byteSize": 8214,
         "publicationState": "complete"
       },
@@ -130,8 +140,8 @@
         "raceSlug": "china",
         "scheduledStartUtc": "2026-03-15T07:00:00Z",
         "inputFingerprint": "e8aaa42ae99b9d49f4cff93d3c0cd1946a4a7a478b7810fcd6a9b89d572c45ac",
-        "path": "sessions/638fc436a255030992f88ab5d7f53d104efdd3b708b460b27f2e5a97d549c655.json",
-        "sha256": "638fc436a255030992f88ab5d7f53d104efdd3b708b460b27f2e5a97d549c655",
+        "path": "sessions/1158e276dc761ba8ddfe063cbcf36fab422fa73cef0dc88c660fc3ee3066ba0f.json",
+        "sha256": "1158e276dc761ba8ddfe063cbcf36fab422fa73cef0dc88c660fc3ee3066ba0f",
         "byteSize": 17903,
         "publicationState": "complete"
       },
@@ -143,9 +153,9 @@
         "session": "qualifying",
         "raceSlug": "japan",
         "scheduledStartUtc": "2026-03-28T06:00:00Z",
-        "inputFingerprint": "6849483540d9042577b543c57290e19ebe67ef13c292c4d2b89defb4cf30e9de",
-        "path": "sessions/53f717986220953cc32c68f478375f77954cbe30a1c087d260b32751d0b382d0.json",
-        "sha256": "53f717986220953cc32c68f478375f77954cbe30a1c087d260b32751d0b382d0",
+        "inputFingerprint": "61b0a75bee9feb2c84e338dda327834ec51f00c099e7f3d0d231c17b5cfb08e2",
+        "path": "sessions/19c6db66b6f1b4e64ebe8188309df89438cc42bcb96cadef0c17c56c71e22e76.json",
+        "sha256": "19c6db66b6f1b4e64ebe8188309df89438cc42bcb96cadef0c17c56c71e22e76",
         "byteSize": 8217,
         "publicationState": "complete"
       },
@@ -158,8 +168,8 @@
         "raceSlug": "japan",
         "scheduledStartUtc": "2026-03-29T05:00:00Z",
         "inputFingerprint": "6a4fd1a2b69e2c79b8284410b00327ea28fb983c9046d4f13b312ba996ef3989",
-        "path": "sessions/d1157d349076307c195f11f2ae084eeb02f2785fc55e125710eca69e8e617475.json",
-        "sha256": "d1157d349076307c195f11f2ae084eeb02f2785fc55e125710eca69e8e617475",
+        "path": "sessions/0f851952e9453073b09f9cc8abe5c9d9d940569a105cd3b933a4d5e4c4588c0d.json",
+        "sha256": "0f851952e9453073b09f9cc8abe5c9d9d940569a105cd3b933a4d5e4c4588c0d",
         "byteSize": 18222,
         "publicationState": "complete"
       },
@@ -171,9 +181,9 @@
         "session": "sprint",
         "raceSlug": "miami",
         "scheduledStartUtc": "2026-05-02T16:00:00Z",
-        "inputFingerprint": "5766ccdbdc6fc260a219a9459ebb6ab2a197b85c05318fcb6e23da87e43497c1",
-        "path": "sessions/6c4bd92669e9dd94970cc614d2123ca06e61f1b9da72cf70910b05f65f1fc467.json",
-        "sha256": "6c4bd92669e9dd94970cc614d2123ca06e61f1b9da72cf70910b05f65f1fc467",
+        "inputFingerprint": "a78305e6aa6ec578b0fada15e10c0c69283ce0679c51d0350855afa34207b908",
+        "path": "sessions/2e0837868f7ebc54432f53a5ad06f249a50279cd578cc8ed9da2cfaa074f71e5.json",
+        "sha256": "2e0837868f7ebc54432f53a5ad06f249a50279cd578cc8ed9da2cfaa074f71e5",
         "byteSize": 14844,
         "publicationState": "complete"
       },
@@ -185,9 +195,9 @@
         "session": "qualifying",
         "raceSlug": "miami",
         "scheduledStartUtc": "2026-05-02T20:00:00Z",
-        "inputFingerprint": "1f38cc10e43c95161d6d6fe4c63fbdae43029538f639459ef5479ba16d1fa5d5",
-        "path": "sessions/faae5ba71904622db8565fca3d9066fd863d360be7155cf0fc7f40b194d64350.json",
-        "sha256": "faae5ba71904622db8565fca3d9066fd863d360be7155cf0fc7f40b194d64350",
+        "inputFingerprint": "952c07b2b4a5b71d50f4ef1452d8be3dc33c64b6a4b315d36eb7c6b499cb3ca5",
+        "path": "sessions/b7d4809d17ed2ba8bac30eab33fab3b189313afa61ffd84ae034af60e6475b92.json",
+        "sha256": "b7d4809d17ed2ba8bac30eab33fab3b189313afa61ffd84ae034af60e6475b92",
         "byteSize": 8212,
         "publicationState": "complete"
       },
@@ -200,8 +210,8 @@
         "raceSlug": "miami",
         "scheduledStartUtc": "2026-05-03T17:00:00Z",
         "inputFingerprint": "8ec2b1e80de314c357935b150d3ba920e1452a24ec5f9216eac3ce4d10c55960",
-        "path": "sessions/5b0ad71123ff8cef7d9c67d9ae2442769efa3b64080ff44043fecf482fc92e94.json",
-        "sha256": "5b0ad71123ff8cef7d9c67d9ae2442769efa3b64080ff44043fecf482fc92e94",
+        "path": "sessions/3d521ae16303a097179298b00d48c38adcb5ebed281d6cfe8eff6f042a669367.json",
+        "sha256": "3d521ae16303a097179298b00d48c38adcb5ebed281d6cfe8eff6f042a669367",
         "byteSize": 18192,
         "publicationState": "complete"
       },
@@ -213,9 +223,9 @@
         "session": "sprint",
         "raceSlug": "canada",
         "scheduledStartUtc": "2026-05-23T16:00:00Z",
-        "inputFingerprint": "bf7e08b50314374aae6f6f2f35dc3f470e30a9762024063152039d1f1a3bad0b",
-        "path": "sessions/cfc63b7009066496ac6875587862e8c5e21878a61a330de751b01c5dabb3f2e7.json",
-        "sha256": "cfc63b7009066496ac6875587862e8c5e21878a61a330de751b01c5dabb3f2e7",
+        "inputFingerprint": "c2d9fd2aa87282ac6ad0dd670b3212c5604a804d30aaab2186e200b10557ead9",
+        "path": "sessions/2adfef3bf0265e038e8e386edec28aa430c9def8d9d125d631bf95c24980ab38.json",
+        "sha256": "2adfef3bf0265e038e8e386edec28aa430c9def8d9d125d631bf95c24980ab38",
         "byteSize": 14835,
         "publicationState": "complete"
       },
@@ -228,8 +238,8 @@
         "raceSlug": "canada",
         "scheduledStartUtc": "2026-05-23T20:00:00Z",
         "inputFingerprint": "6de96ac0d91b75ea5a925bad0254935fed891848bfe0661e587bffd91c794210",
-        "path": "sessions/e330e487676dc097e3b91085e6eb4cc1d52d2e4ee4fe52d06f39611a6e9ca660.json",
-        "sha256": "e330e487676dc097e3b91085e6eb4cc1d52d2e4ee4fe52d06f39611a6e9ca660",
+        "path": "sessions/3dea8ecdbcf02dbeeb1254467024bf417d163fc14cbcf22043bcac994cb2f47f.json",
+        "sha256": "3dea8ecdbcf02dbeeb1254467024bf417d163fc14cbcf22043bcac994cb2f47f",
         "byteSize": 8218,
         "publicationState": "complete"
       },
@@ -241,9 +251,9 @@
         "session": "race",
         "raceSlug": "canada",
         "scheduledStartUtc": "2026-05-24T20:00:00Z",
-        "inputFingerprint": "16cd1977d0381e59b1ffc9f3dd768bf8fe03c29a6231203fa012c349bb6e58f5",
-        "path": "sessions/6aba2f781ddba699657ef383396a28aff08bd1cabee53262b1b8385d168be88e.json",
-        "sha256": "6aba2f781ddba699657ef383396a28aff08bd1cabee53262b1b8385d168be88e",
+        "inputFingerprint": "880918705a27dc5f37124fee0ac72b166c88e40966d5f49b6959ef94c65abdde",
+        "path": "sessions/61bb12e3dd4a002f2e3ec295dd3bde1812bd7817d95d3e019d4ec7c231a761bb.json",
+        "sha256": "61bb12e3dd4a002f2e3ec295dd3bde1812bd7817d95d3e019d4ec7c231a761bb",
         "byteSize": 18287,
         "publicationState": "complete"
       },
@@ -256,8 +266,8 @@
         "raceSlug": "monaco",
         "scheduledStartUtc": "2026-06-06T14:00:00Z",
         "inputFingerprint": "dde76e69709613a212cdf8cee093b4407465624465ea59185e341eecd990424c",
-        "path": "sessions/e15cae373109bb89ac4af947d945fe24c290c54ca9bbc808aad5e94649a3c6f3.json",
-        "sha256": "e15cae373109bb89ac4af947d945fe24c290c54ca9bbc808aad5e94649a3c6f3",
+        "path": "sessions/9ca9efe0d7af7abf74fdc58aabc09f4072cc4acf1c668dc6acdb7cd297628753.json",
+        "sha256": "9ca9efe0d7af7abf74fdc58aabc09f4072cc4acf1c668dc6acdb7cd297628753",
         "byteSize": 8202,
         "publicationState": "complete"
       },
@@ -269,9 +279,9 @@
         "session": "race",
         "raceSlug": "monaco",
         "scheduledStartUtc": "2026-06-07T13:00:00Z",
-        "inputFingerprint": "a5c915df86a8baeda98f9232e12664d12ea66d7fe56b59ab4290a87c01047e83",
-        "path": "sessions/73e76c657ab9139c16be71fbda4777ea16f534b3b4640bdd31763ff1ce6c477d.json",
-        "sha256": "73e76c657ab9139c16be71fbda4777ea16f534b3b4640bdd31763ff1ce6c477d",
+        "inputFingerprint": "cb9c71422950ca06c0addb68a676c074104c974ef9ef4f566665fa367f5b2bbe",
+        "path": "sessions/b5433eed5a3b6f5441586fd4b8d0c055efdff1f11d436a89d5b287d8a13a0a52.json",
+        "sha256": "b5433eed5a3b6f5441586fd4b8d0c055efdff1f11d436a89d5b287d8a13a0a52",
         "byteSize": 18063,
         "publicationState": "complete"
       },
@@ -284,8 +294,8 @@
         "raceSlug": "barcelona-catalunya",
         "scheduledStartUtc": "2026-06-13T14:00:00Z",
         "inputFingerprint": "d5298240978215b90a81ce4ab0d84f2d2e03a3eeeec8d6c967bb36b68a05b5e5",
-        "path": "sessions/853fa25f6453a26d462cfe141581f338b9873bd193c5f26417bb5da05465d813.json",
-        "sha256": "853fa25f6453a26d462cfe141581f338b9873bd193c5f26417bb5da05465d813",
+        "path": "sessions/11a08c32555cf018cee952d252313f53561094a7dd98623c587ed382ed25ce49.json",
+        "sha256": "11a08c32555cf018cee952d252313f53561094a7dd98623c587ed382ed25ce49",
         "byteSize": 8258,
         "publicationState": "complete"
       },
@@ -297,9 +307,9 @@
         "session": "race",
         "raceSlug": "barcelona-catalunya",
         "scheduledStartUtc": "2026-06-14T13:00:00Z",
-        "inputFingerprint": "a58f4fa06620abcfae79b5726a010074fc50ff2beefced9ecb4329b01991bbc7",
-        "path": "sessions/dba8c02de12c279c32c16dac9ffac8ebca91fc8424cf97b948fd222f25f12877.json",
-        "sha256": "dba8c02de12c279c32c16dac9ffac8ebca91fc8424cf97b948fd222f25f12877",
+        "inputFingerprint": "97c238f3186e76bd14623b14fa698322e89109c8a1d1a2b604498f08ddec66fa",
+        "path": "sessions/4fad962353c7e1f21d472a69d318906693451837c33b4f4cc4f9cc6f22d4d051.json",
+        "sha256": "4fad962353c7e1f21d472a69d318906693451837c33b4f4cc4f9cc6f22d4d051",
         "byteSize": 18261,
         "publicationState": "complete"
       },
@@ -311,9 +321,9 @@
         "session": "qualifying",
         "raceSlug": "austria",
         "scheduledStartUtc": "2026-06-27T14:00:00Z",
-        "inputFingerprint": "9bef2d4afad8b09fb3b8001a9155ba2ba9d2c4c545f672b440df3724231eaf5f",
-        "path": "sessions/09fc2ed9647dc4ea1ca549ec899bf3b85335b6fbe0a505aea361491321bb6785.json",
-        "sha256": "09fc2ed9647dc4ea1ca549ec899bf3b85335b6fbe0a505aea361491321bb6785",
+        "inputFingerprint": "5d9c734f73de658cb348641a63380509495e55ff3c4049c8ce1929016edbacb7",
+        "path": "sessions/69decc02b7db599ff58bcf5f35243a81452aec87aa96b106b25534909ec190be.json",
+        "sha256": "69decc02b7db599ff58bcf5f35243a81452aec87aa96b106b25534909ec190be",
         "byteSize": 8204,
         "publicationState": "complete"
       },
@@ -325,9 +335,9 @@
         "session": "race",
         "raceSlug": "austria",
         "scheduledStartUtc": "2026-06-28T13:00:00Z",
-        "inputFingerprint": "94485813efa78eb72f5fef66a53a88168824533404d2c3a05d4795d773f312b2",
-        "path": "sessions/aa92cb142f432981d64344982f46b6848262a2f54f9d1a8bee2e32dd88da0548.json",
-        "sha256": "aa92cb142f432981d64344982f46b6848262a2f54f9d1a8bee2e32dd88da0548",
+        "inputFingerprint": "9923987a201c1fbf58a7680ee9f22cc5e5c8fdc71c1d997f42c8fa4d66ae62cb",
+        "path": "sessions/6152cdd54e361dfed22b1932c64b141d21324279cbd1c7e9a990681728cea3e0.json",
+        "sha256": "6152cdd54e361dfed22b1932c64b141d21324279cbd1c7e9a990681728cea3e0",
         "byteSize": 18061,
         "publicationState": "complete"
       },
@@ -340,8 +350,8 @@
         "raceSlug": "great-britain",
         "scheduledStartUtc": "2026-07-04T11:00:00Z",
         "inputFingerprint": "408d9260051cd04887d6e08ec943b93a166638bf85a1c4b307ceebd34eff2db5",
-        "path": "sessions/39e12046b5ae2cba74588a3e8d533f8fdb57a4076de8428b9eac02485145695c.json",
-        "sha256": "39e12046b5ae2cba74588a3e8d533f8fdb57a4076de8428b9eac02485145695c",
+        "path": "sessions/f119f5b3694c05c5465c55fe340f52f45d99eafffea9cd925db6497324b680df.json",
+        "sha256": "f119f5b3694c05c5465c55fe340f52f45d99eafffea9cd925db6497324b680df",
         "byteSize": 14877,
         "publicationState": "complete"
       },
@@ -354,8 +364,8 @@
         "raceSlug": "great-britain",
         "scheduledStartUtc": "2026-07-04T15:00:00Z",
         "inputFingerprint": "cae7781517bcf95d16989ed575b53f3c93c76e0d4b2abba76fedad44b0522976",
-        "path": "sessions/b490dd7b9cdd61ba2e2a404fcdc9172cca1fb1c55e802bf6e26093026134fa13.json",
-        "sha256": "b490dd7b9cdd61ba2e2a404fcdc9172cca1fb1c55e802bf6e26093026134fa13",
+        "path": "sessions/1f4f9d6878414a2a8ddbff6598f1ef3370cbb0c81b982eb35f632e2216405786.json",
+        "sha256": "1f4f9d6878414a2a8ddbff6598f1ef3370cbb0c81b982eb35f632e2216405786",
         "byteSize": 8234,
         "publicationState": "complete"
       },
@@ -368,8 +378,8 @@
         "raceSlug": "great-britain",
         "scheduledStartUtc": "2026-07-05T14:00:00Z",
         "inputFingerprint": "e0c4aaf8863fc1f70ef9d47a63f746c3fc3c0d6a7eee44c22f77dc2a85af8e61",
-        "path": "sessions/f219cb1ed4ded4fa45867399fea6107278b2087d14a7757a1f37fd1891bd93cd.json",
-        "sha256": "f219cb1ed4ded4fa45867399fea6107278b2087d14a7757a1f37fd1891bd93cd",
+        "path": "sessions/6c44369ab9065c49eec8cd1305093aa9d4939b6bf746553a420e0ff35781a12d.json",
+        "sha256": "6c44369ab9065c49eec8cd1305093aa9d4939b6bf746553a420e0ff35781a12d",
         "byteSize": 18667,
         "publicationState": "complete"
       },
@@ -382,8 +392,8 @@
         "raceSlug": "belgium",
         "scheduledStartUtc": "2026-07-18T14:00:00Z",
         "inputFingerprint": "675b6692a482bcc2e5a9d00bb05b1b2368b3a1b34ed00e300472de38332c9f15",
-        "path": "sessions/b0d1a426f4fec793fd5609ea1137a91bd713ec4158fe517bad55b6a88aa42a77.json",
-        "sha256": "b0d1a426f4fec793fd5609ea1137a91bd713ec4158fe517bad55b6a88aa42a77",
+        "path": "sessions/c6621edd874e9d08a6ca3980bc517983337ed6dea780ebc03a235b4f0c756b39.json",
+        "sha256": "c6621edd874e9d08a6ca3980bc517983337ed6dea780ebc03a235b4f0c756b39",
         "byteSize": 8214,
         "publicationState": "complete"
       },
@@ -396,8 +406,8 @@
         "raceSlug": "belgium",
         "scheduledStartUtc": "2026-07-19T13:00:00Z",
         "inputFingerprint": "6ecd8d20916dd60b1041aa69dcbfaa930aa38ce5241a9ac1d53ec7aafc3f9b93",
-        "path": "sessions/7058a4d562ef3299f60a1abdbbe436616e12c839bdf9f9cc8655c1598507e42a.json",
-        "sha256": "7058a4d562ef3299f60a1abdbbe436616e12c839bdf9f9cc8655c1598507e42a",
+        "path": "sessions/455654305232aa378e2270b11ae90826645e5d2a0f785736b2c6dcbe059a4368.json",
+        "sha256": "455654305232aa378e2270b11ae90826645e5d2a0f785736b2c6dcbe059a4368",
         "byteSize": 18968,
         "publicationState": "complete"
       },
@@ -410,8 +420,8 @@
         "raceSlug": "hungary",
         "scheduledStartUtc": "2026-07-25T14:00:00Z",
         "inputFingerprint": "9c1bb40d7280a7e8a915f2501ae002e6e463bd17f319743d822b34f7d28381a3",
-        "path": "sessions/c46f4126fa569882fbc5635f50114237b622d922eab463174b40f5958b7713d4.json",
-        "sha256": "c46f4126fa569882fbc5635f50114237b622d922eab463174b40f5958b7713d4",
+        "path": "sessions/d566ac9a71bdb5ab2fc3b738b9ea0df272c44a1ff88ef21ce529c7fb3894070e.json",
+        "sha256": "d566ac9a71bdb5ab2fc3b738b9ea0df272c44a1ff88ef21ce529c7fb3894070e",
         "byteSize": 8205,
         "publicationState": "complete"
       },
@@ -424,8 +434,8 @@
         "raceSlug": "hungary",
         "scheduledStartUtc": "2026-07-26T13:00:00Z",
         "inputFingerprint": "1fbef23ede9418baa1da655b8ceb3435230f971210da5018bf27e131d3e8b0f8",
-        "path": "sessions/8aa3fa60698f81cf218bfdd24b6075159712f804d02da8fdf75894eb94939daf.json",
-        "sha256": "8aa3fa60698f81cf218bfdd24b6075159712f804d02da8fdf75894eb94939daf",
+        "path": "sessions/887d48c78e5cc61b44be92c1f8ccf6619a79fd88c5a976b6314721ffa678776a.json",
+        "sha256": "887d48c78e5cc61b44be92c1f8ccf6619a79fd88c5a976b6314721ffa678776a",
         "byteSize": 18628,
         "publicationState": "complete"
       },
@@ -438,8 +448,8 @@
         "raceSlug": "netherlands",
         "scheduledStartUtc": "2026-08-22T10:00:00Z",
         "inputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
-        "path": "sessions/05fd56c52e416879170f93b66fdadbaf760f2de4dd45d9d6c998060cdf859706.json",
-        "sha256": "05fd56c52e416879170f93b66fdadbaf760f2de4dd45d9d6c998060cdf859706",
+        "path": "sessions/5c1b1d45bc68c13580b07f143995cf136fe374e1d6c72cbf034ff5d2f7eca5db.json",
+        "sha256": "5c1b1d45bc68c13580b07f143995cf136fe374e1d6c72cbf034ff5d2f7eca5db",
         "byteSize": 14864,
         "publicationState": "complete"
       },
@@ -452,8 +462,8 @@
         "raceSlug": "netherlands",
         "scheduledStartUtc": "2026-08-22T14:00:00Z",
         "inputFingerprint": "8c0b161cdedf4b2d3fa6e44332522f4f2ac31565b482996aa7293b87e3b9f0d7",
-        "path": "sessions/1826a7cdc3c3e58201b281c48c7a541e698a157462372e781ccde7b6f576e84c.json",
-        "sha256": "1826a7cdc3c3e58201b281c48c7a541e698a157462372e781ccde7b6f576e84c",
+        "path": "sessions/a3e0ed064e7375ebc594b90dafc00de406c4122c4aca9c965e0b3969f28ef8c4.json",
+        "sha256": "a3e0ed064e7375ebc594b90dafc00de406c4122c4aca9c965e0b3969f28ef8c4",
         "byteSize": 8229,
         "publicationState": "complete"
       },
@@ -466,8 +476,8 @@
         "raceSlug": "netherlands",
         "scheduledStartUtc": "2026-08-23T13:00:00Z",
         "inputFingerprint": "bc5dd22e2745524c9f898768b636a582506c0deb1a36baa240e9a7daa18a9752",
-        "path": "sessions/c9d704ed0878086e6dd9b80b635999883c434b32151996862eb55acec5fa38c7.json",
-        "sha256": "c9d704ed0878086e6dd9b80b635999883c434b32151996862eb55acec5fa38c7",
+        "path": "sessions/a35910492996adef8829a56d3fc341879c85cde07c4dfe8a40ea49150e32b5e6.json",
+        "sha256": "a35910492996adef8829a56d3fc341879c85cde07c4dfe8a40ea49150e32b5e6",
         "byteSize": 17963,
         "publicationState": "complete"
       },
@@ -480,8 +490,8 @@
         "raceSlug": "italy",
         "scheduledStartUtc": "2026-09-05T14:00:00Z",
         "inputFingerprint": "ba8a5fe8c312b8a82ab8ec57f0b0290dc055041389aaff93be9ffd114309df7c",
-        "path": "sessions/aeaa8e2ba351fee3581e42bc73745f606b49d4e4bd7440ff6f3e412cf01da073.json",
-        "sha256": "aeaa8e2ba351fee3581e42bc73745f606b49d4e4bd7440ff6f3e412cf01da073",
+        "path": "sessions/a963c76ff1ec5e86b7f1569285e0cc37655e365554dc4bb42dcd17a6b0e0e767.json",
+        "sha256": "a963c76ff1ec5e86b7f1569285e0cc37655e365554dc4bb42dcd17a6b0e0e767",
         "byteSize": 8209,
         "publicationState": "complete"
       },
@@ -494,8 +504,8 @@
         "raceSlug": "italy",
         "scheduledStartUtc": "2026-09-06T13:00:00Z",
         "inputFingerprint": "d54145ca53b6aeb22c7ccd5a3b45823ff0280a92408d17f9e543cc850bedb830",
-        "path": "sessions/fa72984c988eceba841d75db72b63a10e63d4acc1ffb393eb28a614fbc6c1e99.json",
-        "sha256": "fa72984c988eceba841d75db72b63a10e63d4acc1ffb393eb28a614fbc6c1e99",
+        "path": "sessions/8b0326698ca69411874b89f388f81a3afa95774514157fdfb1347e06b37f2dc2.json",
+        "sha256": "8b0326698ca69411874b89f388f81a3afa95774514157fdfb1347e06b37f2dc2",
         "byteSize": 18949,
         "publicationState": "complete"
       },
@@ -508,8 +518,8 @@
         "raceSlug": "spain",
         "scheduledStartUtc": "2026-09-12T14:00:00Z",
         "inputFingerprint": "f68bacfe8c01ec0422b11d73610f74231591fea96125567df292209b87f31956",
-        "path": "sessions/7d7668349d07b4a7c8fc189b3e87943ddb034703bcd462a9b8a1b00304f2522c.json",
-        "sha256": "7d7668349d07b4a7c8fc189b3e87943ddb034703bcd462a9b8a1b00304f2522c",
+        "path": "sessions/da6d7266a5104670a64fdcba3d5c367ed7457d3b7a5296ef3056bae9db4fee5a.json",
+        "sha256": "da6d7266a5104670a64fdcba3d5c367ed7457d3b7a5296ef3056bae9db4fee5a",
         "byteSize": 8664,
         "publicationState": "complete"
       },
@@ -522,8 +532,8 @@
         "raceSlug": "spain",
         "scheduledStartUtc": "2026-09-13T13:00:00Z",
         "inputFingerprint": "90a348a4d1581632437ef5635f3a75a6ff6b8b409df9b85b993595fba9864615",
-        "path": "sessions/f2fbdfedaf971a5d8272534b9adc4361750aae0e53108f9d279803de12f8bd68.json",
-        "sha256": "f2fbdfedaf971a5d8272534b9adc4361750aae0e53108f9d279803de12f8bd68",
+        "path": "sessions/2c9f9a49552bc839247b7d46679b82144e38826119eb9c8fc3c905e0f47d8eca.json",
+        "sha256": "2c9f9a49552bc839247b7d46679b82144e38826119eb9c8fc3c905e0f47d8eca",
         "byteSize": 18390,
         "publicationState": "complete"
       },
@@ -536,8 +546,8 @@
         "raceSlug": "azerbaijan",
         "scheduledStartUtc": "2026-09-25T12:00:00Z",
         "inputFingerprint": "1cd0d4f04dc5daca0aa73e746ad1f98ba1705064ad7467690ef4c1d1944f2f3c",
-        "path": "sessions/7035755ee96962118d001474cf7e118504b11001c67b7c5b956376c100ac901f.json",
-        "sha256": "7035755ee96962118d001474cf7e118504b11001c67b7c5b956376c100ac901f",
+        "path": "sessions/bf21c8e59893d4b55477115aa94fec7c231f3ffb2d6f95ebe2bcd385fba8879a.json",
+        "sha256": "bf21c8e59893d4b55477115aa94fec7c231f3ffb2d6f95ebe2bcd385fba8879a",
         "byteSize": 8219,
         "publicationState": "complete"
       },
@@ -550,8 +560,8 @@
         "raceSlug": "azerbaijan",
         "scheduledStartUtc": "2026-09-26T11:00:00Z",
         "inputFingerprint": "d88534c67ae42848effb16415c117e4538ce956d294029f4bbaa4985a0b7634b",
-        "path": "sessions/689dba0955c551159de4b3915e461fbe6726f1196752ac64119a35f593777f84.json",
-        "sha256": "689dba0955c551159de4b3915e461fbe6726f1196752ac64119a35f593777f84",
+        "path": "sessions/aaf36060a710592e0edcf5b59181270a97a0061adfbfcc96e44bb6918376daab.json",
+        "sha256": "aaf36060a710592e0edcf5b59181270a97a0061adfbfcc96e44bb6918376daab",
         "byteSize": 18870,
         "publicationState": "complete"
       },
@@ -564,8 +574,8 @@
         "raceSlug": "bahrain",
         "scheduledStartUtc": "2026-10-03T08:00:00Z",
         "inputFingerprint": "d5868a67373d9b4dfbf2b940de4c66b6a3117e3df96bd6b9d5055e35c875be7d",
-        "path": "sessions/e0e414aa834ed2c1f2400907378a17ea57c5699ee2c65a397e54d787f69f2819.json",
-        "sha256": "e0e414aa834ed2c1f2400907378a17ea57c5699ee2c65a397e54d787f69f2819",
+        "path": "sessions/08241d0593486a0cbf5ba86862c6c1b910b9cc3dbe8255f81ebee029c8fdf1d1.json",
+        "sha256": "08241d0593486a0cbf5ba86862c6c1b910b9cc3dbe8255f81ebee029c8fdf1d1",
         "byteSize": 8219,
         "publicationState": "complete"
       },
@@ -578,9 +588,51 @@
         "raceSlug": "bahrain",
         "scheduledStartUtc": "2026-10-04T07:00:00Z",
         "inputFingerprint": "7899a41827e083edbc87733bd50e1f4aefada863ccb562010c1136e95dd96821",
-        "path": "sessions/4d3faa0a1d7b549a05feeafb99e0e1c1087fbeb6ab8ca7d0c4d7814ac7e23eb1.json",
-        "sha256": "4d3faa0a1d7b549a05feeafb99e0e1c1087fbeb6ab8ca7d0c4d7814ac7e23eb1",
+        "path": "sessions/b72594999b6bd1bcff1a506af51daaf3dc9e256bd63f64f790ba6a69a83fba6b.json",
+        "sha256": "b72594999b6bd1bcff1a506af51daaf3dc9e256bd63f64f790ba6a69a83fba6b",
         "byteSize": 18887,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 17,
+        "session": "sprint",
+        "raceSlug": "singapore",
+        "scheduledStartUtc": "2026-10-10T09:00:00Z",
+        "inputFingerprint": "0ff9b55301f597a6ede54fd227c92977eb1922fadf85a4fe90dfa8d039c24046",
+        "path": "sessions/19a975a982bd0a0bd8be8fdd1a7b7f8ffcba52d436099c9d5176bd22f4765550.json",
+        "sha256": "19a975a982bd0a0bd8be8fdd1a7b7f8ffcba52d436099c9d5176bd22f4765550",
+        "byteSize": 15771,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 17,
+        "session": "qualifying",
+        "raceSlug": "singapore",
+        "scheduledStartUtc": "2026-10-10T13:00:00Z",
+        "inputFingerprint": "b8451e9d02b2a13ba8e94e4ee14f8ccdd996fd9edf44ebee4921b3f49e1b9225",
+        "path": "sessions/7196d0b5460e24373def7487de538f1f4d462c78e891a3653e8a003f3b5f8a88.json",
+        "sha256": "7196d0b5460e24373def7487de538f1f4d462c78e891a3653e8a003f3b5f8a88",
+        "byteSize": 9174,
+        "publicationState": "complete"
+      },
+      {
+        "repository": "entrance-f1-data",
+        "namespace": "f1/session-results/v1",
+        "season": 2026,
+        "round": 17,
+        "session": "race",
+        "raceSlug": "singapore",
+        "scheduledStartUtc": "2026-10-11T12:00:00Z",
+        "inputFingerprint": "d75dfc490ac312c6cc03f8d47aab780c49b673bd6b6adf79e5d16cb383530ac6",
+        "path": "sessions/879b1d66423c0614110a4ca9424ea341e76cb60a46e9a1cbe33104272cd6d001.json",
+        "sha256": "879b1d66423c0614110a4ca9424ea341e76cb60a46e9a1cbe33104272cd6d001",
+        "byteSize": 19816,
         "publicationState": "complete"
       },
       {
@@ -800,12 +852,12 @@
         "round": 12,
         "session": "sprint",
         "raceSlug": "netherlands",
-        "officialInputFingerprint": "6206a13a9939c26daff41364e043591d9361963c4f6c31d2da854f141d20c518",
+        "officialInputFingerprint": "46d06fcd23860f461c264c289dccb122048a359d763d67ab7d51c8b5a8a2ec1a",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/a9f48b04e68dfed685f928b3f77ede7d6c834281f49ebfc0b0d947be3490ea02.json",
-        "sha256": "a9f48b04e68dfed685f928b3f77ede7d6c834281f49ebfc0b0d947be3490ea02",
+        "path": "sessions/430443945f2b1fd5e391b7e6b9cc43e6618f34b37e18d96e24f7a7b7740dad73.json",
+        "sha256": "430443945f2b1fd5e391b7e6b9cc43e6618f34b37e18d96e24f7a7b7740dad73",
         "byteSize": 8690,
-        "inputFingerprint": "4b37c79753f0a472f741abaa27cf6eb08fa3c7ee76a0c2eef872f7d475767f99"
+        "inputFingerprint": "83631dbb07e5725238c40a7fd0f7a9e097db2251565dd2c2602965742c46bf9b"
       },
       {
         "repository": "entrance-f1-data",
@@ -814,12 +866,12 @@
         "round": 12,
         "session": "race",
         "raceSlug": "netherlands",
-        "officialInputFingerprint": "008d88aba54ae38dc462ff109c06781ed96a203c970b81795bddda279bcf8481",
+        "officialInputFingerprint": "bc5dd22e2745524c9f898768b636a582506c0deb1a36baa240e9a7daa18a9752",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/ee29861fce1d2ffa12fb11dcab49769c2cbaece66a02323df26b70ee71b44bce.json",
-        "sha256": "ee29861fce1d2ffa12fb11dcab49769c2cbaece66a02323df26b70ee71b44bce",
+        "path": "sessions/81d192ddc8957275207d46b57d1553b95120bdd2edeee05985b89678820815b5.json",
+        "sha256": "81d192ddc8957275207d46b57d1553b95120bdd2edeee05985b89678820815b5",
         "byteSize": 8257,
-        "inputFingerprint": "e30f2e457c434b1e6bc870b3a33e57bdd9abf2891eab12320cba8754225d1b0e"
+        "inputFingerprint": "d29315b463dc8619cb3b8f887732d00e9efee33515a549f7458f013545ee059f"
       },
       {
         "repository": "entrance-f1-data",
@@ -828,12 +880,12 @@
         "round": 13,
         "session": "race",
         "raceSlug": "italy",
-        "officialInputFingerprint": "d54145ca53b6aeb22c7ccd5a3b45823ff0280a92408d17f9e543cc850bedb830",
+        "officialInputFingerprint": "e0e0a4a02b61b12b025f44c6b1e366e36b8c60af391cff6e4878d3c2eebc595f",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/cda00e7e596b05bb54b0b1ed2013a73199d0147bd118e05328c376391661876d.json",
-        "sha256": "cda00e7e596b05bb54b0b1ed2013a73199d0147bd118e05328c376391661876d",
+        "path": "sessions/b6f626b742a3858044c61ee38ed4ff9781f755561fbf6fda71ddbaea44f88e03.json",
+        "sha256": "b6f626b742a3858044c61ee38ed4ff9781f755561fbf6fda71ddbaea44f88e03",
         "byteSize": 7613,
-        "inputFingerprint": "50367e98ef20349a518a7a118ff3a0107b7340d9fb7c020e17c5acc411def08c"
+        "inputFingerprint": "af2a2932ccd8cb2fcd2bc6f9fb7af6b7c68e8fb3a91aa75db37a1943a9aec7de"
       },
       {
         "repository": "entrance-f1-data",
@@ -842,12 +894,12 @@
         "round": 14,
         "session": "race",
         "raceSlug": "spain",
-        "officialInputFingerprint": "90a348a4d1581632437ef5635f3a75a6ff6b8b409df9b85b993595fba9864615",
+        "officialInputFingerprint": "9b022905dab1da2491f532faf32da0eb27021bf4d91664f431b14e07191c9d25",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/5d81afea45c4a4f59864e3ce98bf550778645de0e075897f328636b4c105d9ed.json",
-        "sha256": "5d81afea45c4a4f59864e3ce98bf550778645de0e075897f328636b4c105d9ed",
+        "path": "sessions/f9cd93724fece01dba21a1b87d2ce33d49ddaa280872d373d04d3e6af2310f78.json",
+        "sha256": "f9cd93724fece01dba21a1b87d2ce33d49ddaa280872d373d04d3e6af2310f78",
         "byteSize": 7246,
-        "inputFingerprint": "bb1129b36f30ef7097d421151f8fe40b59d2d2d100aa78309834cc236de28139"
+        "inputFingerprint": "0e5d870f600743a280d90fb156acf62bc33ed4237c6f86314bc3131372bfaef1"
       },
       {
         "repository": "entrance-f1-data",
@@ -858,8 +910,8 @@
         "raceSlug": "azerbaijan",
         "officialInputFingerprint": "d88534c67ae42848effb16415c117e4538ce956d294029f4bbaa4985a0b7634b",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/ecac4958e487dae88053a265a4f6b74bb52cb50eff6697224eeee2d259479293.json",
-        "sha256": "ecac4958e487dae88053a265a4f6b74bb52cb50eff6697224eeee2d259479293",
+        "path": "sessions/697983dcde67f9541f646549c4bf950bd8116679b4b1adb28a0a413a5a760cd0.json",
+        "sha256": "697983dcde67f9541f646549c4bf950bd8116679b4b1adb28a0a413a5a760cd0",
         "byteSize": 6545,
         "inputFingerprint": "3b8529c50c29adda0190aecbeb60d130be7a2f130df5b538fd4036f136c6c7e3"
       },
@@ -872,8 +924,8 @@
         "raceSlug": "bahrain",
         "officialInputFingerprint": "7899a41827e083edbc87733bd50e1f4aefada863ccb562010c1136e95dd96821",
         "policySha256": "4b6967c7308f7781bc102c72cbbc44491f14194ec95774cba0a56bb7a3041618",
-        "path": "sessions/aa55cadec6b7b324d6b68e37336ad8a79eff77160e9cb1523e3214c2b639f203.json",
-        "sha256": "aa55cadec6b7b324d6b68e37336ad8a79eff77160e9cb1523e3214c2b639f203",
+        "path": "sessions/e54efb3c15c627c50319a9a0af6d1fd9b0ab8a1e2699612f190fe567851df5e2.json",
+        "sha256": "e54efb3c15c627c50319a9a0af6d1fd9b0ab8a1e2699612f190fe567851df5e2",
         "byteSize": 7686,
         "inputFingerprint": "7dab0c889d488f195d850eacc3185d6acdf139ec73fdfdaf6359321c410c5146"
       }
@@ -884,13 +936,13 @@
     "statsCatalogueBoundariesSha256": "950b19996c47072bd8897a8b52a1c212b74dc8c78b31389fbd52179d08c471ef",
     "statsRepairQualifyingSha256": "8449ad0dee3f4c3fc3d411ce12b244c68182200596e707a76fa7ae2c5aa83709",
     "statsRepairGridLayoutsSha256": "8dcc31d1425be4bb1bf972410aaf6ab5335b925b60bf26311a7f8df88d546bfd",
-    "registrySha256": "4d5ee28c095fe696dd272eedcb09e928bda92e77f4678f316baf8c675ca733c8",
+    "registrySha256": "db88c45fee1f46154843f893029b6d78e29b09453279fcb2098c47b174d462a4",
     "officialPoleFixtureSha256": "d78c3611c0573970bc2d9c53249663da00a1c635092b5afe899450632c5a8931",
     "constructorIdentityPolicySha256": "60e6ee94ea5752cd0f3556904b2af6c258a523c912b0ea925a5065a492c479ed",
     "driverIdentityPolicySha256": "878d33d0908506268fdc51c5f97b4296fa137a3950c2d42fd817ddd0bdcdf741",
     "officialFinalStandingsFixtureSha256": "fc119e399d20e7f80a36bb48b02d314e2a1c0337254a9f90cb4233e03a01449b",
     "officialSprintFixtureSha256": "b7c46758dd32c435f99d11a625ad82c5cd72582a0f76cb880bcbbb0530398abf",
-    "currentOfficialResultsFixtureSha256": "cfcacfa2f87a6a738e5c53661d826298327cf9642ebe67cb3f19696b5a8f1f79",
+    "currentOfficialResultsFixtureSha256": "05f47fc95b66f35eddde2416c10f9fd5125f7528410cc53af52b58a6dba7421b",
     "nonLapEvidencePolicySha256": "1a2fffc05de94ba8c0b10ac71c664ab32fae164a73c823324cfdf32cef4ed154",
     "final17EvidenceAssessmentSha256": "87ef9648801e52aa507521e2f0eeef7e9071a7c97fe5225d5751273b7ca37bb3",
     "final17EvidenceAssessmentSchemaSha256": "5a2eeb4588064f86c4a156416196f6311fcfdf172ab8bc082951510565404b39",
@@ -947,8 +999,8 @@
   "counts": {
     "total": 144,
     "available": 144,
-    "partial": 124,
-    "completeThroughCutoff": 20,
+    "partial": 128,
+    "completeThroughCutoff": 16,
     "blocked": 0,
     "permissionRequired": 0,
     "unavailable": 0,
@@ -965,20 +1017,20 @@
     {
       "path": "catalogue.json",
       "artifactType": "catalogue",
-      "byteSize": 410467,
-      "sha256": "4e2c4880c06384f94ed94329e324e01303ac9b2963f16570013b01a6e4fcaa4d"
+      "byteSize": 411152,
+      "sha256": "fae09cd5362d97ee8a8b1e8e000ef876a1882a12bad7d20b9a38dacd58fae9c3"
     },
     {
       "path": "inventory.json",
       "artifactType": "inventory",
-      "byteSize": 466153,
-      "sha256": "0aa5a99a9ee8b9fdae87b96da09dfa00e24e25df441dd660449d335785413d40"
+      "byteSize": 466746,
+      "sha256": "32d21bf78ee00ffcd144ddebffa410ed603cf0d17023f67bcb5a0017eb09e8eb"
     },
     {
       "path": "coverage.json",
       "artifactType": "coverage-report",
-      "byteSize": 46128,
-      "sha256": "25c818c88d61419ea57547f132e2e5e16b763fa1731ba8b2c62316dfb7130b3d"
+      "byteSize": 48554,
+      "sha256": "73273017a7a1a6c0fd0cd7284efcc8b90f79090bd8d193bc8c40bd4190f1365b"
     },
     {
       "path": "schema.json",
@@ -990,109 +1042,109 @@
       "path": "metrics/constructors/constructor_championship_podiums.json",
       "artifactType": "metric",
       "byteSize": 3091,
-      "sha256": "59a86ca70b1873c83da82ab759381f347715f0c69f32a00c9f3237fa26181baf"
+      "sha256": "95a6a1ea91512e8feae14da99f9472bfe13622440c17490b63176720f8eb27ac"
     },
     {
       "path": "metrics/constructors/constructor_driver_titles.json",
       "artifactType": "metric",
       "byteSize": 2419,
-      "sha256": "3ae9aabd70f32b13d53b4578c96b1801509a57624407fed7e72c28f78148f0e1"
+      "sha256": "e55cc40ed49650504a3057fbb5b710178db2da4c555ab399759ea8988c680c1f"
     },
     {
       "path": "metrics/constructors/constructor_title_gap.json",
       "artifactType": "metric",
       "byteSize": 9476,
-      "sha256": "fc8ab08ac1890c9601ed238e9ed2b0684b1ad4b59b50e0a4356a535fcede837a"
+      "sha256": "43bb0dd96ee3d797e949c092f9cc66777ec9c3091bb3f96da462ed321458bca8"
     },
     {
       "path": "metrics/constructors/runner_up_constructor_championships.json",
       "artifactType": "metric",
       "byteSize": 2174,
-      "sha256": "1efafae8c0cbbeda33a8d85a4c7e6c64bd971c2b290883d0048a369e0023ef66"
+      "sha256": "337a6e06745eaa9a4f2ebcaba977dd19d38cd273ceb346f1b4749d83a2584503"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_fastest_lap_seasons.json",
       "artifactType": "metric",
       "byteSize": 4096,
-      "sha256": "79440d08bc64c385aacc0049e89e074f721c7926346d1ecff0dfc85d6b6db06a"
+      "sha256": "b22b543f311997ef18a21dae8a0c7f2e068281897d40b806218c506af94a8463"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_fastest_laps.json",
       "artifactType": "metric",
       "byteSize": 12975,
-      "sha256": "05e79f4bff84bf8ca6820ee14d5af52a7b4ca8eac17631c6c4bd1d97a5049a9b"
+      "sha256": "c239640e160662f0c92508a60ad95abce07da89225f20991025643a168e8dd81"
     },
     {
       "path": "metrics/constructors/constructor_fastest_lap_chronology.json",
       "artifactType": "metric",
-      "byteSize": 176405,
-      "sha256": "0120b5c9b30df7b9c91dae1de60b31c405bc888d59b72158d8aa7c327da523e0"
+      "byteSize": 176802,
+      "sha256": "5fd2e2a0c51344d5d4e22582936ff410fd65ae43089b23d7ef59be3e6491c7c3"
     },
     {
       "path": "metrics/constructors/constructor_fastest_lap_interval.json",
       "artifactType": "metric",
-      "byteSize": 13061,
-      "sha256": "4543cd2a68930001caba6e106b5c8e5dcb1d983f6ae541f7ecd915074de5bf6d"
+      "byteSize": 13066,
+      "sha256": "e6aebe6d779ccf8dac2bb311485f23275544c6a131da4492cdf1dc591985e207"
     },
     {
       "path": "metrics/constructors/constructor_fastest_lap_record_chronology.json",
       "artifactType": "metric",
-      "byteSize": 297798,
-      "sha256": "76d4398b851aeadf3f9c1c7b0f612d9e76972dd1993a84490da33cb80f3eccb6"
+      "byteSize": 298898,
+      "sha256": "144799996fbe59a58b6fcc55a25b45108d4277feb82da6d002bb46ade9207a34"
     },
     {
       "path": "metrics/constructors/constructor_fastest_lap_seasons.json",
       "artifactType": "metric",
       "byteSize": 5062,
-      "sha256": "364193502c8aae6309bfbc46251f870067dbc0f4aec8a19482ccf82bd5e76a08"
+      "sha256": "8ba8260871f6f1d782ac9951496bcac253d46aa50022de68e9d431781434d2e3"
     },
     {
       "path": "metrics/constructors/constructor_fastest_laps_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 35283,
-      "sha256": "73f2145edcb4edf50b9ed5c21e2e1573999d0ff849fa0e1a021a67ab600515b6"
+      "byteSize": 35481,
+      "sha256": "57f45eb595fbc3beb60d6404d081056b4a81968adc76ce3f334c2a6c0bd29401"
     },
     {
       "path": "metrics/constructors/constructor_fastest_laps_by_grand_prix.json",
       "artifactType": "metric",
       "byteSize": 40549,
-      "sha256": "19bcda5e06b75460ea6b0803efec4a606080e707a351679cc79571b566c7d1cc"
+      "sha256": "fe9183f0d0b73426feedaff0398132b61c4c46f517b4886cd2509d9a69b372f4"
     },
     {
       "path": "metrics/constructors/constructor_season_fastest_laps.json",
       "artifactType": "metric",
       "byteSize": 17105,
-      "sha256": "56ffafe49a1269c525897489d308c44622043694a7f884de0d038fe82575fa4f"
+      "sha256": "c3f6e57f362f9c572b6e6edb5c49d141c389ae300e3f22c78e991a997f180f70"
     },
     {
       "path": "metrics/constructors/fastest_ever_lap.json",
       "artifactType": "metric",
       "byteSize": 1575,
-      "sha256": "1a7aace1a32d5260647e246b3693464dd8fc54182f00ffeff53c5687650ffea6"
+      "sha256": "8ad76e7a56870573125ad78bb79af58999810990c69644f6d4cdb648a11dfaf2"
     },
     {
       "path": "metrics/constructors/fastest_laps_total.json",
       "artifactType": "metric",
       "byteSize": 23141,
-      "sha256": "ca0f70a28f35c1e95874031c57e4a0841eadcac08e55413fd754e674c6625204"
+      "sha256": "b59b7962d50165a9ccc37d6cd83d6317dd6bd8cf5ce64efaf4bafbde9ddb76c6"
     },
     {
       "path": "metrics/constructors/gps_before_first_constructor_fastest_lap.json",
       "artifactType": "metric",
       "byteSize": 8043,
-      "sha256": "51068f7c81e798696482245df0b338adc3b0d00033d25efe6977f270359fbdfd"
+      "sha256": "ca1faefded9daa185779b63f7eadfca75d1b9518d0c6abbba8c5137ab3302a99"
     },
     {
       "path": "metrics/constructors/qualifying_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 108058,
-      "sha256": "8adfd7f1e8de90c523465b5e6dd980de0e7e31098418e20be5ca59d43acacb06"
+      "byteSize": 108063,
+      "sha256": "b1d8fccf2b333500cc3b5d5c6f269a93fcdc9d2137a4b45cf2e4123c2382f729"
     },
     {
       "path": "metrics/constructors/race_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 111474,
-      "sha256": "4211d5d2c0c38b5c0f8bb2b274fc98fd8f4a31720b296e8d1b3e8b9b99048fef"
+      "byteSize": 111472,
+      "sha256": "bbcf9f7344ccea9af8bc863a584fc45fdec98533e6ee566a2c359e444fdb713c"
     },
     {
       "path": "metrics/constructors/sprint_lap_records.json",
@@ -1103,122 +1155,122 @@
     {
       "path": "metrics/constructors/track_records.json",
       "artifactType": "metric",
-      "byteSize": 108996,
-      "sha256": "424233cba87be02d766c33f681630a41dc70f9e524fc95ea2bb63155665f891d"
+      "byteSize": 109001,
+      "sha256": "59e7b783caf94d579236f701fd0f27e564d09d0185ad86515bb466b9cabdf890"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_championship_lead.json",
       "artifactType": "metric",
       "byteSize": 12203,
-      "sha256": "799d17a0abedaae6f3bc6e89c72a5aad425140519499c6aff3c0fc3250ed7bb9"
+      "sha256": "c1933b132e132fd41bf2730c7ff6e0120a5f57d967163cdd8cda7d35b9c36151"
     },
     {
       "path": "metrics/constructors/constructor_championship_lead_grand_prix.json",
       "artifactType": "metric",
       "byteSize": 2856,
-      "sha256": "d92bf0a1947427ccf0209626a8aabce17ed060887d18e641e4b47dd42ac7302c"
+      "sha256": "5722273ad4fc644e9281d4e13e4bd757b62f400a4e343c297592a94f3c69723c"
     },
     {
       "path": "metrics/constructors/constructor_start_chronology.json",
       "artifactType": "metric",
-      "byteSize": 10146038,
-      "sha256": "8db08a69ca1ea5a8c111cde2ada6f5ee53afe9ab2e26bd142b4a70b861c5d80a"
+      "byteSize": 10154870,
+      "sha256": "d31ba46755924725af6458a99248e807c4d1d2667c24b64ec99f8752f3f5e3a5"
     },
     {
       "path": "metrics/constructors/constructor_start_interval.json",
       "artifactType": "metric",
-      "byteSize": 108860,
-      "sha256": "ee541916cd77b0999aa03d8131e7cdd5b677b4209189502e2e885de18d0ef337"
+      "byteSize": 108794,
+      "sha256": "021628b866d06a2f72f30eb7eeca9e59445ad54acfa1240dc5b5b3b228230d98"
     },
     {
       "path": "metrics/constructors/constructor_starts_with_same_driver.json",
       "artifactType": "metric",
       "byteSize": 410833,
-      "sha256": "9e56b719a7d9d2ff8a8813529172ef2d68b28bc1b01e3637b0cb27bc8f1ed9aa"
+      "sha256": "e869c684e112f64b5e346fa000e2df548fac689280755518a0754ae2de51c9b0"
     },
     {
       "path": "metrics/constructors/constructor_starts_with_same_engine.json",
       "artifactType": "metric",
       "byteSize": 57897,
-      "sha256": "99daa06c932b27c9ed87c497fd3fadee0befc7d115547ec7976d5376e6162383"
+      "sha256": "62b484ed962959fef27f342b7168c272751f4db0e1d6214310770597608c4bf5"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_fastest_lap.json",
       "artifactType": "metric",
       "byteSize": 25187,
-      "sha256": "427f0a3b6155097be973732917197b4eab0e1d3fd12063cd7b0d5691d9b03956"
+      "sha256": "10a3203d4b28c4bc69f6d210d321601c3cf1a07c849597b3eeb66b927c4164f9"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_podium.json",
       "artifactType": "metric",
       "byteSize": 18095,
-      "sha256": "a0dec156a4a9f4084d2caa9e52d1019ac56da5e487d12d943412243a11d5775a"
+      "sha256": "88a4e45c001e157b88ecc89691199955a685c5ddb50183dfe6e147b97e7deb46"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_points.json",
       "artifactType": "metric",
       "byteSize": 13998,
-      "sha256": "0f7e510c07725066dcd5c1cd068a6d5959d96e3ed9bb24243cddd1fa2b6d68ca"
+      "sha256": "ccf2a6b2fe78b63e627d23e5d9cfbbcd156abcf8fe2af9de8b626b380a927a60"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_pole.json",
       "artifactType": "metric",
       "byteSize": 27865,
-      "sha256": "c9307c24cd40fef52f737dba5989cdb0ede426a5dc27f938a128a216c75b6110"
+      "sha256": "02cc9c5bf43f3b260a5cb8c29edc036b6bc42feb73b6a3726ebd0ea6784d6cc0"
     },
     {
       "path": "metrics/constructors/constructor_starts_without_win.json",
       "artifactType": "metric",
       "byteSize": 22231,
-      "sha256": "7d6d89a865ad49e7065458f0509be921c45ca499e44189781779c07683e12da7"
+      "sha256": "1e5d3dca1289dea27caf003017608823cff60b1d291fc604bbf92ebe6ac6de7e"
     },
     {
       "path": "metrics/constructors/grands_prix_starts.json",
       "artifactType": "metric",
       "byteSize": 28515,
-      "sha256": "e4fe8cb2de7d2dadbb8ee91e8560c63f60530c907299e3c07d5a8c39d4732d75"
+      "sha256": "aea00b49eb646b0a2cd8f6e944a8571ca81fb071baaad82f7a01a3512b748155"
     },
     {
       "path": "metrics/constructors/constructor_one_two_poles.json",
       "artifactType": "metric",
       "byteSize": 23509,
-      "sha256": "daee6dc66c48f77439f33d68cef00daac0cb3dd548edeedc7ca92f1aadc3b7c4"
+      "sha256": "242a41b032efdde95c122b01ef213e427f12558a0220cabb6109f0e73924b6cb"
     },
     {
       "path": "metrics/constructors/constructor_never_qualified.json",
       "artifactType": "metric",
       "byteSize": 10200,
-      "sha256": "188dfea03669e21b77924ea69588f9f1e5cb0b609151fd26fd2607e9a725133c"
+      "sha256": "40aa2ed9b54f0c6bfb1b5817387f0bcb3acc38f71be4da942f94b674821fc107"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_front_row_lockouts.json",
       "artifactType": "metric",
       "byteSize": 13275,
-      "sha256": "b90e3a7b338797d71176c402f8a86ca4a3e60cc2e1ae29825bd61af8dd2d691b"
+      "sha256": "52c4173047da65fe4c6ea280a3a8e4ac1b5e5a8631acaf06a5f6320bda42c40a"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_front_rows.json",
       "artifactType": "metric",
       "byteSize": 36822,
-      "sha256": "21d97458056ffcb6c3a3a6fc79ec80d811811deda21f8c13fee53af8426a7ef0"
+      "sha256": "4163f1c35c2381f351ebf4233e26705b2a045f95734116df30fe1f08df3726dd"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_grand_prix_led.json",
       "artifactType": "metric",
-      "byteSize": 28828,
-      "sha256": "6f396a6400bab9ca23f4acfc7f5223336a403a541b0d0a51cc12ab46d8ed3dd6"
+      "byteSize": 28843,
+      "sha256": "b2d0b9cff66f1a30b56e2ad548ae921b3d7a65a70ca363764f3b0bf4378f453b"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 32143,
-      "sha256": "a37ec97450db0f717c293b4b4b07fda1357d7f91ea599a1ae8da543c885f7815"
+      "byteSize": 32158,
+      "sha256": "026145779efd3d636c1b6e8e4646159a79391adcc6402ebe606c5ce290aff434"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 31980,
-      "sha256": "4100944fdd9687c1e270ff0a739abecf48b222327a0d4d3c058ef4ee0bdcca7c"
+      "byteSize": 31995,
+      "sha256": "3a86063d3fe4ff8788aa588e81bed8be4d1400adc665a9d5c95d184899b5cf2d"
     },
     {
       "path": "metrics/constructors/consecutive_constructor_lead_seasons.json",
@@ -1230,85 +1282,85 @@
       "path": "metrics/constructors/constructor_different_engines.json",
       "artifactType": "metric",
       "byteSize": 20950,
-      "sha256": "41070baefaaadf2c8eea6545cef6db1ddf4a404835a41cf35609e3ad930dd1e0"
+      "sha256": "3d8ccbf442c3513ac5e28314c586ff82fb3ef360ce26fbcad70aaaabe4ad040a"
     },
     {
       "path": "metrics/constructors/constructor_different_models.json",
       "artifactType": "metric",
       "byteSize": 20439,
-      "sha256": "7a47819cc818b027429a96008ec71c5510d7fb38a551579608b77c93f5107eaa"
+      "sha256": "f0ab164a1a8185686b0794b1dc5df1bec1cf829de6a87d43f63de823c4332b5f"
     },
     {
       "path": "metrics/constructors/constructor_front_row_lockouts.json",
       "artifactType": "metric",
       "byteSize": 23519,
-      "sha256": "be02b0df78db6997a197da0b85d10585ae86406063599a8b75b7f74d5d10dc68"
+      "sha256": "dcb3609e9bcd67635a2467a2fb82b1a0fbea889f36dfa86ba03a97e2feb90def"
     },
     {
       "path": "metrics/constructors/constructor_front_row_starts.json",
       "artifactType": "metric",
       "byteSize": 23537,
-      "sha256": "e196f20258abb86a835d75f5bc344ce0b28226f9c6936e3f9c1ec7c277dcadca"
+      "sha256": "9deecdf784d3d63b9c27393e3e9b341ab2b6b1fc77abc89f699144470c95bdfd"
     },
     {
       "path": "metrics/constructors/constructor_front_rows_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 110088,
-      "sha256": "45e5ca66b22f3b8b95e18294ebd93a936192085f81811be87826c0c58157264c"
+      "byteSize": 110488,
+      "sha256": "5a251f4ff065c1c8639dbc92a54055c3f1e115d46950be19a918d3267157cabc"
     },
     {
       "path": "metrics/constructors/constructor_front_rows_by_grand_prix.json",
       "artifactType": "metric",
-      "byteSize": 104042,
-      "sha256": "d224571c9ea58a60ef1c75d668900d71e19b31dd8e5c820a911dda349a234eca"
+      "byteSize": 104041,
+      "sha256": "9f38cbe3aeab5f350eeda306963fd4109105a842dc7948747ad19200395e5cc0"
     },
     {
       "path": "metrics/constructors/constructor_grand_prix_led.json",
       "artifactType": "metric",
-      "byteSize": 10241,
-      "sha256": "b9dd77a2648a0a69689d250f63350151b700bcb616e1f0f91ff959fc30a00455"
+      "byteSize": 10256,
+      "sha256": "f5c4f88d5c724cf26485642ebf786cd381e2c29908eac0c2dfd24a5f3290d0cd"
     },
     {
       "path": "metrics/constructors/constructor_grand_slams.json",
       "artifactType": "metric",
-      "byteSize": 71357,
-      "sha256": "461a5a5735e1ec5014af0c1ace3fc7a1939e251151aade2171314020102e3f1c"
+      "byteSize": 71351,
+      "sha256": "1d447c0e7f88d54095ef13c67ca1b873278dc05307d7b43c319af7ed132b2925"
     },
     {
       "path": "metrics/constructors/constructor_hat_tricks.json",
       "artifactType": "metric",
       "byteSize": 22984,
-      "sha256": "44435bba029c6357828ec3556ec1e141fe9bf86b60ddf8f3e8c32fe4dc640c44"
+      "sha256": "85dea8116833e1309a36d57c2dab5f60297e59d2fa286e34d569dc2fe5f5288c"
     },
     {
       "path": "metrics/constructors/constructor_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 10428,
-      "sha256": "ff73937a9f69e24e3ec0ab88b02838ab1ed5b592e507519d96c7382301a29cdd"
+      "byteSize": 10443,
+      "sha256": "a80d4c3d1ebb347d4854d22022af766b491351d8385c748f6e1edb3dc9b0dcb7"
     },
     {
       "path": "metrics/constructors/constructor_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 10260,
-      "sha256": "fe6f1010b4c283b3012f71bca9485ef363991c804e2cae96410b98ecfae89023"
+      "byteSize": 10275,
+      "sha256": "ed6f247fb7da57e4667e9f8461f410839a5deada8e7c99cfc44fc475936084b9"
     },
     {
       "path": "metrics/constructors/constructor_lead_chronology.json",
       "artifactType": "metric",
-      "byteSize": 1752912,
-      "sha256": "44fda5d980f56334d58b4717d5b4f5581f3d4a419b4b0b95c75427e72794d714"
+      "byteSize": 1752927,
+      "sha256": "1a7cbe04fbaeed4e7f4ed8df1987d557024e84bf24e3f97cd5c445472810ee81"
     },
     {
       "path": "metrics/constructors/constructor_lead_seasons.json",
       "artifactType": "metric",
-      "byteSize": 14734,
-      "sha256": "48f80b0b15f1107521e894cdb1abd5bb46a0bc82977159a658c8b0f9d3fc28f1"
+      "byteSize": 14749,
+      "sha256": "8085b5f141b35b9f049fd698107586c352779ad9562ab6cefc4ccdf48e33360f"
     },
     {
       "path": "metrics/constructors/constructor_season_front_rows.json",
       "artifactType": "metric",
       "byteSize": 60210,
-      "sha256": "f3e2b16bfac848a2ce0b58f57f8f6d996478da85c595bc40c9b379a90394d345"
+      "sha256": "c6a92a3631a73061441a4c98338bbcd79397c903b27179ca24a8d5431ed67a0f"
     },
     {
       "path": "metrics/constructors/constructor_season_grand_prix_led.json",
@@ -1332,13 +1384,13 @@
       "path": "metrics/constructors/constructor_winner_lap_finishes.json",
       "artifactType": "metric",
       "byteSize": 23293,
-      "sha256": "3516e637cd852749a430d023974b7facacb21ffde9803debe8497356b087a0fc"
+      "sha256": "b650cf8ce2533fd98d524a6d41ed040a6d4b2306253c7c5efa0d7fdab8660522"
     },
     {
       "path": "metrics/constructors/gps_before_first_constructor_lead.json",
       "artifactType": "metric",
-      "byteSize": 15424,
-      "sha256": "deea17ee177f2610970e8394da4ab8df711e278c206349661b23ed116ea41f19"
+      "byteSize": 15439,
+      "sha256": "ae10c116ca8d5230056f363c7b28bb5640edc0dfafca8e75eb58ae5c61f9212d"
     },
     {
       "path": "metrics/constructors/constructor_sprint_fastest_laps.json",
@@ -1349,158 +1401,158 @@
     {
       "path": "metrics/constructors/constructor_sprint_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 2993,
-      "sha256": "91eb1e65504b33b0f42a8cf8f60a352dd9db75e021d94c9d3ad3b56642238c97"
+      "byteSize": 3085,
+      "sha256": "ca550faa367b652947d7ae8ac8d785e8c7a514639f8eb938b66d4eecb27e709d"
     },
     {
       "path": "metrics/constructors/constructor_sprint_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 2964,
-      "sha256": "3ac23b2c8c38795beaed259f3a1cbc7a494da0b8362a7a5fd5ca80ca4cee318b"
+      "byteSize": 3056,
+      "sha256": "53be280ba224245ee2245ae5b09840eeb202fc0656e6896b89e16efb2ac1abf8"
     },
     {
       "path": "metrics/constructors/constructor_sprint_podiums.json",
       "artifactType": "metric",
       "byteSize": 2404,
-      "sha256": "42f61b1b7ba60d3c5e5758920dfd1d7d88a91a0fbe0129c3b852d9e72646c05f"
+      "sha256": "9ae42cb62d9774bfa852ab460d5dba5ebabcefe5abc5563107d69058226fc92a"
     },
     {
       "path": "metrics/constructors/constructor_sprint_points.json",
       "artifactType": "metric",
       "byteSize": 2416,
-      "sha256": "47d3ce223638e949dd4f4f57acb2419d02a1686f2e399bddbe6fcb0a003fc1dc"
+      "sha256": "2f638dae28140ec22f5abf9155389487920d23183f138e8304f666dd492552a9"
     },
     {
       "path": "metrics/constructors/constructor_sprint_poles.json",
       "artifactType": "metric",
       "byteSize": 2433,
-      "sha256": "6a6a24f9f48bdb497d1984993085a9f51a6f75776bfde3d63f021fd444790c52"
+      "sha256": "2bc09d68326260c34902a82806f152d35ce49acc27299a96fba6b90d7c51564b"
     },
     {
       "path": "metrics/constructors/constructor_sprint_wins.json",
       "artifactType": "metric",
       "byteSize": 2395,
-      "sha256": "50b13051dc32167bb13ccbda1692d974f617599d3f715d92d7f9fadfff53b20e"
+      "sha256": "403d34cb475c358db1f295b3b98701dc8f71d71baf493cda7baa4e82e1f278d5"
     },
     {
       "path": "metrics/constructors/constructor_wins_by_model.json",
       "artifactType": "metric",
       "byteSize": 35018,
-      "sha256": "c1d45cf2a9a3a9d68545868b0b90813b3adbd1e8d20f4f46d34588787ada9249"
+      "sha256": "07248a6d201422a89e21b124a4f13b9b952591614d61e29dd1100330b295ea2f"
     },
     {
       "path": "metrics/constructors/wins_by_engine.json",
       "artifactType": "metric",
       "byteSize": 11339,
-      "sha256": "10c86eccb9b3577adbf0fddc757427ded33c8e3bd06e22e1ae16402548954861"
+      "sha256": "d7f9050c0dc058825c401a3369cba0b11664da5e6517175944e1441008564413"
     },
     {
       "path": "metrics/drivers/driver_championship_podiums.json",
       "artifactType": "metric",
       "byteSize": 10279,
-      "sha256": "9d2cdbf51dd51c6d0d211a887ce7dda27cd566dbe7f6a57bd56cbb4f0df9d479"
+      "sha256": "95b1c4520ea0b9852398fe379d2329a84a1da962ec35909bbf25b27bef496d7a"
     },
     {
       "path": "metrics/drivers/gps_before_first_championship.json",
       "artifactType": "metric",
       "byteSize": 5198,
-      "sha256": "291ac5ecc2ae436c3391c2e849da7e0ef168255fec7549780711cfbef7a182c1"
+      "sha256": "0bd6df72c1d161cf9a3d5ae6acec55b6bde4bc684e58800813ca3be1a462bea2"
     },
     {
       "path": "metrics/drivers/runner_up_driver_championships.json",
       "artifactType": "metric",
       "byteSize": 7323,
-      "sha256": "88474fd1cb54f8618ab5a7489bf5d0bdce97595c0382c45f878095c4f218c1bf"
+      "sha256": "3c4582a9b66a1ff973ef0cb2f434a29d0087ba5c006f982010c11091dc59c269"
     },
     {
       "path": "metrics/drivers/consecutive_driver_fastest_laps.json",
       "artifactType": "metric",
       "byteSize": 28777,
-      "sha256": "1dd8370c9baa9ea912e019ae0f3a18e24da546085ea7feb4fc48ef1cd71a42e2"
+      "sha256": "a8a1555e6563586503f5ce0c691ac300e4976f3b939a02dddc46993f45067b87"
     },
     {
       "path": "metrics/drivers/driver_fastest_lap_chronology.json",
       "artifactType": "metric",
-      "byteSize": 177336,
-      "sha256": "7f3b1cef6c3cf2389a74bfbf9fd31e30033ed308de488c060027d0a80a906087"
+      "byteSize": 177735,
+      "sha256": "fe3ed8412a72b33d8838993835336020aa9a250c6e5ce3418aff93f35fa3ed91"
     },
     {
       "path": "metrics/drivers/driver_fastest_lap_interval.json",
       "artifactType": "metric",
-      "byteSize": 28852,
-      "sha256": "a59fc54489fd55f5896c556b6e6f66ed3965fb9f4a286f9a82c019cf1f84e8d7"
+      "byteSize": 28857,
+      "sha256": "c9fdd8522e5a93b52364e1b4eb174aa4916e3daf304dc742bf65ecd2a5c15a85"
     },
     {
       "path": "metrics/drivers/driver_fastest_lap_record_chronology.json",
       "artifactType": "metric",
-      "byteSize": 298589,
-      "sha256": "16ace305bcf5ad709a8c62014a8dfeb0cadba03928995890514037104762a4eb"
+      "byteSize": 299696,
+      "sha256": "ee45164ab6d10366f65c3a2dd06be2f5ffb3ff5d4b10898a63b4ca914d7273fa"
     },
     {
       "path": "metrics/drivers/driver_fastest_lap_seasons.json",
       "artifactType": "metric",
       "byteSize": 9836,
-      "sha256": "e29cf97fa302cb91acf017a9199df677048c29152d5267f63655381b7180ef73"
+      "sha256": "5a484186800fb43f65292bf5caf7d35964ec41ad47d818f6d350e4c6b0e686f2"
     },
     {
       "path": "metrics/drivers/driver_fastest_laps_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 59975,
-      "sha256": "1145b05fa8bd64df2b295d48ced59c56cf9c400fdfdbe40473a926bbc68f6748"
+      "byteSize": 60176,
+      "sha256": "3753add5b3e998a64ab74da007172592eadd1cde0019a506edc2b137878ce658"
     },
     {
       "path": "metrics/drivers/driver_fastest_laps_by_grand_prix.json",
       "artifactType": "metric",
-      "byteSize": 67238,
-      "sha256": "9ea962a295616df5cb4338350d2980c68fa4d573e71868d74008c6eb38574842"
+      "byteSize": 67459,
+      "sha256": "d2fd3b97e7e802864cdba25c6b325c4c5c860d957b5ade89d202c54c3b5c4b4f"
     },
     {
       "path": "metrics/drivers/driver_season_fastest_laps.json",
       "artifactType": "metric",
       "byteSize": 27106,
-      "sha256": "eb8a5395fc8ffaf535ecb8f896e819f69d274f2bc83b81b77af06af2f422184e"
+      "sha256": "2d4c3be2a0baa4fa2e0d4e08fbf4ce5d8a7b9b9036aabe3a1829f1ba1150f74c"
     },
     {
       "path": "metrics/drivers/fastest_ever_lap.json",
       "artifactType": "metric",
       "byteSize": 1572,
-      "sha256": "1fc1e80e35e2db9190567e462023b50a8fc3c2a38032218f2b13dc74209256dd"
+      "sha256": "b64b502582d70cd43011a64513cd53d6d73070a54358a5a51e222d7c63ca0b9d"
     },
     {
       "path": "metrics/drivers/fastest_laps_total.json",
       "artifactType": "metric",
       "byteSize": 111159,
-      "sha256": "092eff97a0f4ba3a32b8bda254b155bb4bd3719c30e36cca2f487e1908219e9c"
+      "sha256": "fff93316522389c759332d3defa3aaeab5de2a85c83c32691482058b955146e1"
     },
     {
       "path": "metrics/drivers/first_fastest_lap.json",
       "artifactType": "metric",
       "byteSize": 17636,
-      "sha256": "1f6bfdfbe25a518d85832a19adb7b5dffd372459ad97d6ec02329e1611feebff"
+      "sha256": "24bf7bec7576d87d38bdbf1b0e867740dc2be7461b4dc8817e2ff151a4b9878b"
     },
     {
       "path": "metrics/drivers/gps_before_first_fastest_lap.json",
       "artifactType": "metric",
       "byteSize": 17524,
-      "sha256": "f9b6a1b136ec2a1a95a9d676e662c3dfc271cbf9c89f954c3335aae6017a835a"
+      "sha256": "be60ccf6cf2baf42b3559f1e14a1341d0e436b76b74fc8a40b0f645fcbbfa511"
     },
     {
       "path": "metrics/drivers/last_fastest_lap.json",
       "artifactType": "metric",
-      "byteSize": 17669,
-      "sha256": "73fdb0f862663c6b14a8a498b1db849ea60259aaf9c73140ed6e4908066532e1"
+      "byteSize": 17674,
+      "sha256": "f1e6a3c2ce5ddec4d553e3816e51a92b1ad573f8062f3a8d8c511b2a5147ba04"
     },
     {
       "path": "metrics/drivers/qualifying_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 113161,
-      "sha256": "f740c037d04b586ba4d522a04c3f107f720238057f36ebe94daec23544737e9c"
+      "byteSize": 113166,
+      "sha256": "60f637e83a41981543c7cdbe76f767153e56157bf4ff94f2fe093573a8317dea"
     },
     {
       "path": "metrics/drivers/race_lap_records.json",
       "artifactType": "metric",
-      "byteSize": 118200,
-      "sha256": "fa9bd5df47f0a37faad9ae5fa09ee5a8de8c855f322c9f55798731bfe4b7729a"
+      "byteSize": 118198,
+      "sha256": "5a109622308fba89f6216581c02e4924e8e1cbb928f9c988999558bfcd684a34"
     },
     {
       "path": "metrics/drivers/sprint_lap_records.json",
@@ -1511,140 +1563,140 @@
     {
       "path": "metrics/drivers/track_records.json",
       "artifactType": "metric",
-      "byteSize": 113938,
-      "sha256": "1600d6db20cb62c01f965e00ffeca0b0f744d8e8303888211b6a0884197cdd55"
+      "byteSize": 113943,
+      "sha256": "6ea32dfb6a1bae448a274ea0b381183170d52342afc8664fc5ceaeeb6420fc1e"
     },
     {
       "path": "metrics/drivers/consecutive_driver_starts.json",
       "artifactType": "metric",
-      "byteSize": 522966,
-      "sha256": "825653d5dd9ee18fae6407234821882828d1e08e03e41ffe62ce59100fc47482"
+      "byteSize": 522888,
+      "sha256": "ff3017d4101fe5fe244c2100e71d63deea7113e3d08e4e3608ee0b0459c03244"
     },
     {
       "path": "metrics/drivers/driver_kilometres_raced.json",
       "artifactType": "metric",
       "byteSize": 109475,
-      "sha256": "c060ac08099abcf0d75583333f63c4f6f9e8fa40a3c653253c1778cbb1b9bea0"
+      "sha256": "e9783af9bd4e1faabf258ae25355673ac548de7fafcaccd4f6d4d278f3d92d4e"
     },
     {
       "path": "metrics/drivers/driver_laps_raced.json",
       "artifactType": "metric",
       "byteSize": 137798,
-      "sha256": "86da0b3b7a2a27615eac20fd8353c1d21dfe6190f3e1e187ca00726854294ee5"
+      "sha256": "d2f4b8dd8f77a7101e305f190ba35192eb0387f0720bf4e79bd4c1b13eb97f80"
     },
     {
       "path": "metrics/drivers/driver_start_chronology.json",
       "artifactType": "metric",
-      "byteSize": 10192755,
-      "sha256": "4e1d57014e9d0b6a89b123dec30934c4f17bd4ab7f9c5f58c4bc204d0ba3e4ab"
+      "byteSize": 10201570,
+      "sha256": "1dec6e3d1c4f7e6e6d09615e450aa76f9af768ffc7a29e4606a52cc841ee72ab"
     },
     {
       "path": "metrics/drivers/driver_start_interval.json",
       "artifactType": "metric",
-      "byteSize": 524347,
-      "sha256": "e22648310508a403dd19815b6387ba8297eac9e78ce627de0caa7d13d39b021a"
+      "byteSize": 524215,
+      "sha256": "8f0cfd4183b1a1d7a9cd04d2b1f24d65859c8e5713826cacda4203bd9548d300"
     },
     {
       "path": "metrics/drivers/driver_starts_with_same_constructor.json",
       "artifactType": "metric",
       "byteSize": 409284,
-      "sha256": "552d524b43754c8167bbbed2cb8528c9de4a93e7ff06782fbdff6075cb91ac0c"
+      "sha256": "6749e00830348266025efe9fe786ecaac8f25bfb2ebcbe9e16c30792a1fc8936"
     },
     {
       "path": "metrics/drivers/driver_starts_without_podium.json",
       "artifactType": "metric",
       "byteSize": 100436,
-      "sha256": "cb823017eaaf91087bdfd2f293880fa511cda9a83dd589a934fa34124fe31ea9"
+      "sha256": "8968b28e332573951a34ff77fceba6c9f43ae83768b7b750b7a8ae86397e755f"
     },
     {
       "path": "metrics/drivers/driver_starts_without_points.json",
       "artifactType": "metric",
       "byteSize": 77517,
-      "sha256": "ee20ec577ef477c385f0967a8f2b427fc4dd2ad299093e79e81968554b6b5ef6"
+      "sha256": "eb35c3213c8bfc284c84cfa752591c88d9abdfd62b986d4f395d620d206308af"
     },
     {
       "path": "metrics/drivers/driver_starts_without_win.json",
       "artifactType": "metric",
       "byteSize": 117582,
-      "sha256": "f20d6ccd554111de9065a91b328eb61371eb10ba48e6754298395724562f5d84"
+      "sha256": "7b09993dd6a6bbb625b27f1eba87f1808dacc75660509f2e432280583cd89748"
     },
     {
       "path": "metrics/drivers/grands_prix_starts.json",
       "artifactType": "metric",
       "byteSize": 137021,
-      "sha256": "7ef55c401257e0484e085aa50ef78c30cc5a2a01b953bdba0b455cb38d13ef33"
+      "sha256": "576ffab243d1ede3142813679610852bc754001b4a26a313490976c7de1cb755"
     },
     {
       "path": "metrics/drivers/driver_average_points_per_start.json",
       "artifactType": "metric",
-      "byteSize": 172566,
-      "sha256": "50cc46afc5a15ccc2a9cde043bdab8e2b7166a1be4959c9ecf5d75c74df90a49"
+      "byteSize": 172558,
+      "sha256": "32d7a4a0aad8f0ff2b59d47e688427cd1e160fabf73262c6b320e3e7ae4c23e0"
     },
     {
       "path": "metrics/drivers/driver_fastest_qualifying.json",
       "artifactType": "metric",
       "byteSize": 15354,
-      "sha256": "c472baa30056e52490074cb4269c8c18eca56e3831a0a6e800d6803ecb991b47"
+      "sha256": "c5a243b212500fcc22dd53ecf8fa0df157e80077bf987d00dd796e8b79f7bbdc"
     },
     {
       "path": "metrics/drivers/driver_never_qualified.json",
       "artifactType": "metric",
       "byteSize": 35010,
-      "sha256": "cf35db8e830bed37ae77994f2527deef02b19098c5ac70ab3289b625cf0f8947"
+      "sha256": "df66faad5d6825562a0a3e6b2f2d549fce7ed99b0bc7be250c7da76f022f28ef"
     },
     {
       "path": "metrics/drivers/driver_q3_appearances.json",
       "artifactType": "metric",
       "byteSize": 10716,
-      "sha256": "c9141f16530e5c46c92f7996bcb26db5cf089dd5ea1475197fb6243cc4b15251"
+      "sha256": "6800f9e2caebf42f3c8f8cbcb71ea36fc6ee7c4b077b1015b7c9812257e007c4"
     },
     {
       "path": "metrics/drivers/consecutive_driver_front_rows.json",
       "artifactType": "metric",
       "byteSize": 104351,
-      "sha256": "bfa9a38c3bb69ea15779b7f9cf66e6d80eb7879160d525d28d17b3b3027e5d3c"
+      "sha256": "9dc9b941a9ecb2b5da9a14e29201cc0113d3a3636d0422b2ce2c913b811615d5"
     },
     {
       "path": "metrics/drivers/consecutive_grand_prix_led.json",
       "artifactType": "metric",
-      "byteSize": 65053,
-      "sha256": "7577b3f9a80767e4dfe1914119b39b2cd316eda7cb09d5cde437a8b1a6484093"
+      "byteSize": 65068,
+      "sha256": "44e7d92ca310101b9211a9118b331a2a6914056f3c39f79ae49b0e5c5b19d6e3"
     },
     {
       "path": "metrics/drivers/consecutive_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 72485,
-      "sha256": "c71a7535331945f0cb1cd10faede1680cc74af1ee6121f74552ee1b4ac243234"
+      "byteSize": 72500,
+      "sha256": "1151b084c17604a8cf71880328530db6295a40d291cb31b7001c7ac9ae00a4a3"
     },
     {
       "path": "metrics/drivers/driver_average_grid.json",
       "artifactType": "metric",
-      "byteSize": 153608,
-      "sha256": "e2c6bda7b388837ea145e588e4f08cee89579969b66c304e71a1d67bf1cd908f"
+      "byteSize": 153606,
+      "sha256": "39e4f056757589580ef0d7fb7f166d90cff62cf22928f53567861d4646977e4f"
     },
     {
       "path": "metrics/drivers/driver_best_grid_gain.json",
       "artifactType": "metric",
-      "byteSize": 290923,
-      "sha256": "77d750817597183400cf5a51213ddf9359dd78329d65604f6051c00c0ff2f1f3"
+      "byteSize": 290931,
+      "sha256": "1d3a55a3270302602d38e309ca05a5c82836baeb92957134c4a1bea868b504b4"
     },
     {
       "path": "metrics/drivers/driver_championship_h2_h.json",
       "artifactType": "metric",
       "byteSize": 36811,
-      "sha256": "e16dcf4ee00db510a1294207312503ce9bd7196a26000a4078e7b3e3de584380"
+      "sha256": "8fdb8249fc9ff8d72963607d92b48226c14e524299dbf774ea30157c4c40df80"
     },
     {
       "path": "metrics/drivers/driver_did_not_start.json",
       "artifactType": "metric",
       "byteSize": 136448,
-      "sha256": "734c2606ffbb98f325a4f96510554d424a2cf31c5c6064b325d5611973b3f3bb"
+      "sha256": "a27226f6d6c75c37513f088381e354d0e3ef77f1eb0e42a2273d9e87ea38eb80"
     },
     {
       "path": "metrics/drivers/driver_different_engines.json",
       "artifactType": "metric",
       "byteSize": 107062,
-      "sha256": "4920a89c6e4835671e0a234a97568ad17ad760b4aa173c6d5b022b88b7660524"
+      "sha256": "496d8ac5117a4230453d042751e882c83d8dc8b61384decab39c8b1f6092f30f"
     },
     {
       "path": "metrics/drivers/driver_first_across_line_without_win.json",
@@ -1656,103 +1708,103 @@
       "path": "metrics/drivers/driver_first_lap_retirements.json",
       "artifactType": "metric",
       "byteSize": 111955,
-      "sha256": "548f2a7c9f481223749cfba15cd9f3a42ffc4a32c10d8f311ca8cd5b139662be"
+      "sha256": "abac1ce77f8346ad9f1307405436f1e74f3efdf8764186c4d2b13fc25f24ba54"
     },
     {
       "path": "metrics/drivers/driver_first_race_grid.json",
       "artifactType": "metric",
       "byteSize": 305348,
-      "sha256": "c1e60f39d084db007bf35d46c8e45dcbe498ac08357bcd0cb575325ffb1cc5ac"
+      "sha256": "26660b6f6a2edf458043cd356404a2d7d9b839292e376f234475d3cff1d26a6f"
     },
     {
       "path": "metrics/drivers/driver_front_row_duos.json",
       "artifactType": "metric",
       "byteSize": 219798,
-      "sha256": "dd15109e33515cd4675486aace756d73932f23e016f3bfe58d06c01b76a5e518"
+      "sha256": "2a483abc50cbeb78067ad9a0bf26252b9f1052b6e6225d3ae6b576eb1c8834a4"
     },
     {
       "path": "metrics/drivers/driver_front_row_starts.json",
       "artifactType": "metric",
       "byteSize": 112301,
-      "sha256": "5535fcf2e03462adc5266157f7208a74d302b33b7402e59d0f860d5c5e9b490a"
+      "sha256": "996fde38fc7bc8d3a6568dffcc385b9766ec1a7bd86da3b83253a614d07c9208"
     },
     {
       "path": "metrics/drivers/driver_front_rows_by_circuit.json",
       "artifactType": "metric",
-      "byteSize": 253940,
-      "sha256": "66cd6aae3de1547804842c5dcd5d1b4301017dd95d87c911ad68d454fd52b3f8"
+      "byteSize": 254350,
+      "sha256": "010458068bd8c05e6ea68fcf8e11adffb9a0ef9b09d5156511ba01b3888d5def"
     },
     {
       "path": "metrics/drivers/driver_front_rows_by_grand_prix.json",
       "artifactType": "metric",
-      "byteSize": 263997,
-      "sha256": "9237ba671e015c6635af3473e21cc39ce87a10345168f78b7b3f29c710a96be2"
+      "byteSize": 263996,
+      "sha256": "7779991900930b414a9be5b58db4cfb5808a77927a11b12c06a01a002bc4c99a"
     },
     {
       "path": "metrics/drivers/driver_grand_prix_led.json",
       "artifactType": "metric",
-      "byteSize": 21397,
-      "sha256": "f6152194d9ff484e6981a5dae9f853934599d1f62c337d1ceed59d650cef715f"
+      "byteSize": 21412,
+      "sha256": "45053688cd43a32ba2ae4c7fd229b04681eae08fdac1cca236339400e29069ba"
     },
     {
       "path": "metrics/drivers/driver_grand_slams.json",
       "artifactType": "metric",
-      "byteSize": 85738,
-      "sha256": "a6e6ae47b606446d183d2a1ac78bca5de841d8287ccc23316df352686bbc0fef"
+      "byteSize": 85732,
+      "sha256": "3a35f640c8e45a565171db07231757c7e42baf01774ce603e981574c70314356"
     },
     {
       "path": "metrics/drivers/driver_hat_tricks.json",
       "artifactType": "metric",
       "byteSize": 110334,
-      "sha256": "4ef29d93446f83944ac4497a219e8fe517d9b0e632018ba09e8ab6bf06a022cc"
+      "sha256": "8595cba5d2533f080ae866931ce02f0bd37e7dabae400f7fa35aeed13ae40d39"
     },
     {
       "path": "metrics/drivers/driver_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 21848,
-      "sha256": "6bc3fd20a130aadb21ef9313bad8234d8f723470a6bfe56768011ef72689f9ec"
+      "byteSize": 21863,
+      "sha256": "6cb99c7131f7139939fe0870883d1622895fede6c9a8dffbbce6c95f9e82df5d"
     },
     {
       "path": "metrics/drivers/driver_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 21465,
-      "sha256": "042fcf15f0fc0992c3787e2327963d2ba2f34e5c71656385279d8b202494ba75"
+      "byteSize": 21480,
+      "sha256": "ab43b095b07a9d8e09e897441a4c892da90ddeece2bb68cb89fe2e6ea9c028e4"
     },
     {
       "path": "metrics/drivers/driver_laps_led_without_win.json",
       "artifactType": "metric",
-      "byteSize": 10362,
-      "sha256": "4dc50740a87b456c90fdb3b47f0a75ac278af93fc4ac6185dfbd7f7495746b4c"
+      "byteSize": 10377,
+      "sha256": "3672ed649fa4340fba70b67df2d6d1a3db09a88ad44247db9e6e3bffe42406b9"
     },
     {
       "path": "metrics/drivers/driver_lead_chronology.json",
       "artifactType": "metric",
-      "byteSize": 2022510,
-      "sha256": "c83a9bbaa06b796bfa7c96a7e114adae2ea48ab3feb2d112b58089a3a6334843"
+      "byteSize": 2022525,
+      "sha256": "181325c198c9ea87d0e782c68f3b981a1fc0b99f9fe50969709211ce64e29a91"
     },
     {
       "path": "metrics/drivers/driver_lead_seasons.json",
       "artifactType": "metric",
-      "byteSize": 29600,
-      "sha256": "59b3b9cef8b76c66d4df316f4b8a3ea45b08eb9e381e27ccf9486a006ae5f2a3"
+      "byteSize": 29615,
+      "sha256": "c0bd96c6ac8b15fda6450e5bd920adebcbce4df5f06577d4e17e686c3f928b92"
     },
     {
       "path": "metrics/drivers/driver_lights_to_flag.json",
       "artifactType": "metric",
-      "byteSize": 54964,
-      "sha256": "2eed9aae214744a1f1143aa839c064a07726c34d50227c396c44c6f8ead93d39"
+      "byteSize": 54979,
+      "sha256": "b5c36a9311aa9b148db030532371acbc803db4fe05dd3bde7e266b521b9471b2"
     },
     {
       "path": "metrics/drivers/driver_qualifying_h2_hwins.json",
       "artifactType": "metric",
       "byteSize": 106521,
-      "sha256": "a93cc6b7804e64eb5c476af3ad8821206efe71fc0b683b639bf6f54a8d5c1499"
+      "sha256": "a7e332b748c8bda7ee699dece9e920b0e91e5e471610f82374d1c7cb5bb0f6e7"
     },
     {
       "path": "metrics/drivers/driver_season_front_rows.json",
       "artifactType": "metric",
       "byteSize": 99898,
-      "sha256": "2f96278edd31d59e4e49d9409003298442f1f00617ec119306d933f329f549f7"
+      "sha256": "d622b0e8837eebf84337fe98c86ace8d64e152f6168b3e3e1f66372893bceb19"
     },
     {
       "path": "metrics/drivers/driver_season_kilometres_led.json",
@@ -1770,13 +1822,13 @@
       "path": "metrics/drivers/driver_winner_lap_finishes.json",
       "artifactType": "metric",
       "byteSize": 112105,
-      "sha256": "81b1caf26801410ff3bd6264c30fb8b8f2c5f7d0d8506a06e5de7b8423e96237"
+      "sha256": "8ddd70a6412812dd4691856bff8881bea333d231b1e95797bc259e6647781d2b"
     },
     {
       "path": "metrics/drivers/gps_before_first_lead.json",
       "artifactType": "metric",
-      "byteSize": 40505,
-      "sha256": "0a50702b5bea02840251bbd627b23faaf03c1963a6ac9adebf9e054d6f6b0d83"
+      "byteSize": 40520,
+      "sha256": "d4d483ad75ccba1608951002d2c15afe4a7e776be0afb4c86af827406787fad3"
     },
     {
       "path": "metrics/drivers/driver_sprint_fastest_laps.json",
@@ -1787,68 +1839,68 @@
     {
       "path": "metrics/drivers/driver_sprint_kilometres_led.json",
       "artifactType": "metric",
-      "byteSize": 4589,
-      "sha256": "88cdc2c4034274ebcbf31323621e4a220710421d0f391305bb6ee22f9ffb490c"
+      "byteSize": 4716,
+      "sha256": "9f0c953d18746391580e0ea89d0d5002a3e403648350a4908e28a1946c165c43"
     },
     {
       "path": "metrics/drivers/driver_sprint_laps_led.json",
       "artifactType": "metric",
-      "byteSize": 4532,
-      "sha256": "269c800597dff03859796b58c07fd2b66a0f1ec5215a3fbd6e58ea665c132e26"
+      "byteSize": 4659,
+      "sha256": "9d463e54a4e45fd355205d01b699411ca3403ce77bf0f8ee260c792387fd2fe0"
     },
     {
       "path": "metrics/drivers/driver_sprint_podiums.json",
       "artifactType": "metric",
-      "byteSize": 5382,
-      "sha256": "026f038c98e770f6a771bc8a7afd6e68a433562ae625a27e02a7af1aee5b6fa2"
+      "byteSize": 5383,
+      "sha256": "0afc225aff41dd39abc1ca8b5fecef2f1eaac20c821202e6aefbae25279defe4"
     },
     {
       "path": "metrics/drivers/driver_sprint_points.json",
       "artifactType": "metric",
-      "byteSize": 5395,
-      "sha256": "ff3179c49e7347673313c79df4c52e68f3a97fce93ab994a1005d4112b65b287"
+      "byteSize": 5396,
+      "sha256": "8d5175a24ecd23900ce5d0c5a34658461b8372c22ca7554d338d4dd11d7ce93e"
     },
     {
       "path": "metrics/drivers/driver_sprint_poles.json",
       "artifactType": "metric",
       "byteSize": 5413,
-      "sha256": "d1740786a9c56e52338d7748d7289921d3894198a5cb6160342ff86581868804"
+      "sha256": "a42d7d48b766450a7aea9829d64a6f12281ae2758054510d8f016d87d2534cfe"
     },
     {
       "path": "metrics/drivers/driver_sprint_wins.json",
       "artifactType": "metric",
       "byteSize": 5348,
-      "sha256": "1437088bc8f4023a534ad6c285cfd85f8abccb07e2c99a0a4167018bec9ffc24"
+      "sha256": "a8a7cbb1797661051a92f9036d3773d045ed4ab8cfb42a49df6a845c13ce6c96"
     },
     {
       "path": "metrics/drivers/driver_wins_and_fastest_laps.json",
       "artifactType": "metric",
       "byteSize": 111173,
-      "sha256": "1d810693220199920a044b7744c222c5549da60d804c1f1b51fc6a424c81717b"
+      "sha256": "ae1173565268b68a0eacfdca37a862892a361a93127ba679ab66cf0a43500bda"
     },
     {
       "path": "metrics/drivers/driver_wins_by_grid.json",
       "artifactType": "metric",
       "byteSize": 70527,
-      "sha256": "8ba1b2cb201736c3a5819a23be6b78347e3089b78080a50ab982fc8a415dd289"
+      "sha256": "0432eab4886eac75e46d2335d35044706a57d15dd3659286535dfca3d8138879"
     },
     {
       "path": "metrics/drivers/wins_by_engine.json",
       "artifactType": "metric",
       "byteSize": 37587,
-      "sha256": "b79eec11bb42d448bc83abb8cad4f775b4935f3a677991512b16593d204fdf23"
+      "sha256": "6c70b01daeeb1962871ec0a1e59af4557a281fc0ce7ad3469f2a20323caa0824"
     },
     {
       "path": "metrics/drivers/wins_oldest.json",
       "artifactType": "metric",
-      "byteSize": 75853,
-      "sha256": "d9b75a9b3dcaac5b5d0e4e112e8ab08eca493cbb72fc72307a3df284ed75b5b0"
+      "byteSize": 75849,
+      "sha256": "353ff35d0e4e228d274c89182328993b116b1c68ed26a9a1446df44e8456a1ec"
     },
     {
       "path": "metrics/drivers/wins_youngest.json",
       "artifactType": "metric",
       "byteSize": 75748,
-      "sha256": "2ce82df615f7456b12b7e23faeeb5c8569e1793b7735e1b65f080f5a0a2411d7"
+      "sha256": "34a6f607721603b46517c5c02869311e4b0804b8c77e860ffc48eb05e0234b5d"
     }
   ]
 }
