@@ -4,10 +4,10 @@
   "statisticId": "constructor_lead_chronology",
   "metricId": "constructorLeadChronology",
   "status": "partial",
-  "cutoff": "2026-10-04",
+  "cutoff": "2026-10-11",
   "completeness": {
     "current": {
-      "resultRowCount": 1593,
+      "resultRowCount": 1594,
       "coveredSeasons": [
         1982,
         1983,
@@ -56,8 +56,8 @@
         2026
       ],
       "excludedSeasons": "1950-1981 have no lap-position rows; eight later events are explicitly excluded",
-      "completeEventCount": 800,
-      "incompleteEventCount": 366,
+      "completeEventCount": 801,
+      "incompleteEventCount": 365,
       "earliestCoveredEvent": {
         "eventId": "event:1982-1:62f155f2687b",
         "eventIndex": 357,
@@ -68,18 +68,16 @@
         "circuitId": "kyalami"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-16:7b5791036ca8",
-        "eventIndex": 1164,
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
         "season": 2026,
-        "round": 16,
-        "grandPrixName": "Bahrain Grand Prix in Malaysia",
-        "circuitId": "sepang",
-        "date": "2026-10-04"
+        "round": 17,
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay",
+        "date": "2026-10-11"
       },
-      "valueScope": "Bounded verified observations; pending current events are unknown, not zero.",
-      "pendingCurrentEventIds": [
-        "event:2026-17:7a9c2bcbb80e"
-      ]
+      "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero",
+      "pendingCurrentEventIds": []
     },
     "target": {
       "cutoff": "2026-08-23",
@@ -87,7 +85,7 @@
       "valueScope": "bounded partial totals across positively complete Grand Prix events; missing events are unknown, not zero"
     }
   },
-  "rowCount": 1593,
+  "rowCount": 1594,
   "rows": [
     {
       "entityId": "constructor:renault:59785f4b9a1f",
@@ -60627,6 +60625,38 @@
             "startLap": 45,
             "endLap": 55,
             "lapCount": 11,
+            "driverId": "driver:max-verstappen:1f6847211200",
+            "constructorId": "constructor:red-bull:8307f488a798"
+          }
+        ],
+        "valueScope": "positively observed complete event"
+      }
+    },
+    {
+      "entityId": "constructor:red-bull:8307f488a798",
+      "entityName": "Red Bull",
+      "value": 62,
+      "rank": 1594,
+      "event": {
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
+        "season": 2026,
+        "round": 17,
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay",
+        "date": "2026-10-11"
+      },
+      "circuitConfigurationId": "marina-bay-4",
+      "distanceKm": 305.474,
+      "record": {
+        "firstLedLap": 1,
+        "lastLedLap": 62,
+        "leaderSegmentCount": 1,
+        "leaderSegments": [
+          {
+            "startLap": 1,
+            "endLap": 62,
+            "lapCount": 62,
             "driverId": "driver:max-verstappen:1f6847211200",
             "constructorId": "constructor:red-bull:8307f488a798"
           }
