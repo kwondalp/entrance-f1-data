@@ -4,7 +4,7 @@
   "statisticId": "driver_sprint_fastest_laps",
   "metricId": "driverSprintFastestLaps",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-10-11",
   "completeness": {
     "current": {
       "resultRowCount": 6,
@@ -13,7 +13,7 @@
         2026
       ],
       "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
-      "completeEventCount": 11,
+      "completeEventCount": 12,
       "incompleteEventCount": 18,
       "earliestCoveredEvent": {
         "eventId": "event:2025-2:e05a33739015",
@@ -25,20 +25,20 @@
         "circuitId": "shanghai"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "date": "2026-08-23"
+        "round": 17,
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay",
+        "date": "2026-10-11"
       },
-      "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
+      "valueScope": "Bounded partial across 12 explicitly verified Sprint fastest-lap observations"
     },
     "target": {
       "cutoff": "2026-08-23",
       "publicationStatus": "partial",
-      "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
+      "valueScope": "Bounded partial across 12 explicitly verified Sprint fastest-lap observations"
     }
   },
   "rowCount": 6,
@@ -86,9 +86,47 @@
             "date": "2026-08-23"
           }
         ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
       },
       "rank": 1
+    },
+    {
+      "entityId": "driver:hamilton:528ad2ac33fa",
+      "entityName": "Lewis Hamilton",
+      "value": 3,
+      "record": {
+        "events": [
+          {
+            "eventId": "event:2025-2:e05a33739015",
+            "eventIndex": 1126,
+            "season": 2025,
+            "round": 2,
+            "date": "2025-03-23",
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai"
+          },
+          {
+            "eventId": "event:2025-6:5fde0a3e0cba",
+            "eventIndex": 1130,
+            "season": 2025,
+            "round": 6,
+            "date": "2025-05-04",
+            "grandPrixName": "Miami Grand Prix",
+            "circuitId": "miami"
+          },
+          {
+            "eventId": "event:2026-17:7a9c2bcbb80e",
+            "eventIndex": 1165,
+            "season": 2026,
+            "round": 17,
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina-bay",
+            "date": "2026-10-11"
+          }
+        ],
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
+      },
+      "rank": 2
     },
     {
       "entityId": "driver:antonelli:0ab4d82d3440",
@@ -115,38 +153,9 @@
             "date": "2026-07-05"
           }
         ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
       },
-      "rank": 2
-    },
-    {
-      "entityId": "driver:hamilton:528ad2ac33fa",
-      "entityName": "Lewis Hamilton",
-      "value": 2,
-      "record": {
-        "events": [
-          {
-            "eventId": "event:2025-2:e05a33739015",
-            "eventIndex": 1126,
-            "season": 2025,
-            "round": 2,
-            "date": "2025-03-23",
-            "grandPrixName": "Chinese Grand Prix",
-            "circuitId": "shanghai"
-          },
-          {
-            "eventId": "event:2025-6:5fde0a3e0cba",
-            "eventIndex": 1130,
-            "season": 2025,
-            "round": 6,
-            "date": "2025-05-04",
-            "grandPrixName": "Miami Grand Prix",
-            "circuitId": "miami"
-          }
-        ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
-      },
-      "rank": 2
+      "rank": 3
     },
     {
       "entityId": "driver:leclerc:80a0e9f8790b",
@@ -164,7 +173,7 @@
             "date": "2026-03-15"
           }
         ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     },
@@ -184,7 +193,7 @@
             "circuitId": "americas"
           }
         ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     },
@@ -204,7 +213,7 @@
             "circuitId": "losail"
           }
         ],
-        "valueScope": "bounded partial across 11 explicit Sprint fastest-lap observations"
+        "valueScope": "bounded partial across 12 explicit Sprint fastest-lap observations"
       },
       "rank": 4
     }

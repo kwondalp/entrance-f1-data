@@ -4,7 +4,7 @@
   "statisticId": "sprint_lap_records",
   "metricId": "constructorSprintLapRecords",
   "status": "partial",
-  "cutoff": "2026-08-23",
+  "cutoff": "2026-10-11",
   "completeness": {
     "current": {
       "resultRowCount": 5,
@@ -13,7 +13,7 @@
         2026
       ],
       "excludedSeasons": "2021-2024: explicit rank-one fastest-lap evidence absent in the pinned source",
-      "completeEventCount": 11,
+      "completeEventCount": 12,
       "incompleteEventCount": 18,
       "earliestCoveredEvent": {
         "eventId": "event:2025-2:e05a33739015",
@@ -25,20 +25,20 @@
         "circuitId": "shanghai"
       },
       "latestCoveredEvent": {
-        "eventId": "event:2026-12:2e33e12944a2",
-        "eventIndex": 1160,
+        "eventId": "event:2026-17:7a9c2bcbb80e",
+        "eventIndex": 1165,
         "season": 2026,
-        "round": 12,
-        "grandPrixName": "Dutch Grand Prix",
-        "circuitId": "zandvoort",
-        "date": "2026-08-23"
+        "round": 17,
+        "grandPrixName": "Singapore Grand Prix",
+        "circuitId": "marina-bay",
+        "date": "2026-10-11"
       },
-      "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
+      "valueScope": "Bounded partial across 12 explicitly verified Sprint fastest-lap observations"
     },
     "target": {
       "cutoff": "2026-08-23",
       "publicationStatus": "partial",
-      "valueScope": "Bounded partial across 11 explicitly verified Sprint fastest-lap observations"
+      "valueScope": "Bounded partial across 12 explicitly verified Sprint fastest-lap observations"
     }
   },
   "rowCount": 5,
@@ -122,9 +122,56 @@
         }
       ],
       "record": {
-        "valueScope": "records within 11 explicit observed Sprint fastest laps; not an all-time claim"
+        "valueScope": "records within 12 explicit observed Sprint fastest laps; not an all-time claim"
       },
       "rank": 1
+    },
+    {
+      "entityId": "constructor:ferrari:d5aa0140c09c",
+      "entityName": "Ferrari",
+      "value": 2,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "marina-bay-4",
+          "event": {
+            "eventId": "event:2026-17:7a9c2bcbb80e",
+            "eventIndex": 1165,
+            "season": 2026,
+            "round": 17,
+            "grandPrixName": "Singapore Grand Prix",
+            "circuitId": "marina-bay",
+            "date": "2026-10-11"
+          },
+          "lapTime": "1:45.457",
+          "lapTimeMillis": 105457,
+          "lapNumber": 20,
+          "driverId": "driver:hamilton:528ad2ac33fa",
+          "constructorId": "constructor:ferrari:d5aa0140c09c",
+          "sessionType": "sprint"
+        },
+        {
+          "circuitConfigurationId": "shanghai-1",
+          "event": {
+            "eventId": "event:2026-2:f019d4004b94",
+            "eventIndex": 1150,
+            "season": 2026,
+            "round": 2,
+            "grandPrixName": "Chinese Grand Prix",
+            "circuitId": "shanghai",
+            "date": "2026-03-15"
+          },
+          "lapTime": "1:34.753",
+          "lapTimeMillis": 94753,
+          "lapNumber": 18,
+          "driverId": "driver:leclerc:80a0e9f8790b",
+          "constructorId": "constructor:ferrari:d5aa0140c09c",
+          "sessionType": "sprint"
+        }
+      ],
+      "record": {
+        "valueScope": "records within 12 explicit observed Sprint fastest laps; not an all-time claim"
+      },
+      "rank": 2
     },
     {
       "entityId": "constructor:mercedes:81ae28b14607",
@@ -169,7 +216,7 @@
         }
       ],
       "record": {
-        "valueScope": "records within 11 explicit observed Sprint fastest laps; not an all-time claim"
+        "valueScope": "records within 12 explicit observed Sprint fastest laps; not an all-time claim"
       },
       "rank": 2
     },
@@ -198,38 +245,9 @@
         }
       ],
       "record": {
-        "valueScope": "records within 11 explicit observed Sprint fastest laps; not an all-time claim"
+        "valueScope": "records within 12 explicit observed Sprint fastest laps; not an all-time claim"
       },
-      "rank": 3
-    },
-    {
-      "entityId": "constructor:ferrari:d5aa0140c09c",
-      "entityName": "Ferrari",
-      "value": 1,
-      "recordOwnerships": [
-        {
-          "circuitConfigurationId": "shanghai-1",
-          "event": {
-            "eventId": "event:2026-2:f019d4004b94",
-            "eventIndex": 1150,
-            "season": 2026,
-            "round": 2,
-            "grandPrixName": "Chinese Grand Prix",
-            "circuitId": "shanghai",
-            "date": "2026-03-15"
-          },
-          "lapTime": "1:34.753",
-          "lapTimeMillis": 94753,
-          "lapNumber": 18,
-          "driverId": "driver:leclerc:80a0e9f8790b",
-          "constructorId": "constructor:ferrari:d5aa0140c09c",
-          "sessionType": "sprint"
-        }
-      ],
-      "record": {
-        "valueScope": "records within 11 explicit observed Sprint fastest laps; not an all-time claim"
-      },
-      "rank": 3
+      "rank": 4
     },
     {
       "entityId": "constructor:red-bull:8307f488a798",
@@ -256,9 +274,9 @@
         }
       ],
       "record": {
-        "valueScope": "records within 11 explicit observed Sprint fastest laps; not an all-time claim"
+        "valueScope": "records within 12 explicit observed Sprint fastest laps; not an all-time claim"
       },
-      "rank": 3
+      "rank": 4
     }
   ]
 }
