@@ -2127,7 +2127,7 @@
     "provisionalSeasonCount": 0,
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
     "asOfRaceDate": "2026-10-25",
-    "resultsArchiveManifestSha256": "22b46b3796e6a9a70fc33cacae7356499f617621ab048867a0db1c0be0b146dd",
+    "resultsArchiveManifestSha256": "cc8bd9157b7763f6a6180dcff01c519d7b662114aed38bda45e836f7cfd7dcb9",
     "evidenceAssessment": null,
     "note": "Weekend practice-only appearances with a recorded lap or time, absent from both Grand Prix qualifying and race classifications. Counts weekends once. Reviewed F1DB practice history begins in 1986; verified current secondary inputs extend it automatically. Participants without canonical identity bindings are excluded.",
     "knownExclusions": [
@@ -2136,7 +2136,7 @@
       "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
     ],
     "excludedEntityCount": 0,
-    "excludedEventCount": 219
+    "excludedEventCount": 220
   },
   "exclusions": [
     {
@@ -5400,6 +5400,12 @@
     {
       "sourceDriverId": "current:colton-herta",
       "eventId": "event:2026-13:24e3e42cf8a5",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:colton-herta",
+      "eventId": "event:2026-18:5dc2f335e310",
       "field": "canonicalDriverIdentity",
       "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
     }
