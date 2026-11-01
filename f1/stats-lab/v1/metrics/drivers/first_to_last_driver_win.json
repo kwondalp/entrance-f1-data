@@ -24,11 +24,11 @@
   "coverage": {
     "oldestSeason": 1950,
     "latestSeason": 2026,
-    "asOfRaceDate": "2026-10-25",
+    "asOfRaceDate": "2026-11-01",
     "seasonCount": 77,
-    "raceCount": 1167,
-    "classificationRowCount": 26297,
-    "resultsArchiveManifestSha256": "cc8bd9157b7763f6a6180dcff01c519d7b662114aed38bda45e836f7cfd7dcb9"
+    "raceCount": 1168,
+    "classificationRowCount": 26319,
+    "resultsArchiveManifestSha256": "233537433bc4fbd1a1d40adeb873e1e3a5b2a1bf0b6c872e04278cf1e7d93e55"
   },
   "rowCount": 116,
   "rows": [
@@ -1960,72 +1960,9 @@
       "rank": 9
     },
     {
-      "entityId": "driver:patrese:57b51e8b4bbf",
-      "entityName": "Riccardo Patrese",
-      "value": 3808,
-      "firstEvent": {
-        "eventId": "event:1982-6:70183ca0cca6",
-        "eventIndex": 362,
-        "season": 1982,
-        "round": 6,
-        "grandPrixName": "Monaco Grand Prix",
-        "circuitId": "monaco",
-        "eventDate": "1982-05-23"
-      },
-      "lastEvent": {
-        "eventId": "event:1992-15:1ba205094f84",
-        "eventIndex": 530,
-        "season": 1992,
-        "round": 15,
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka",
-        "eventDate": "1992-10-25"
-      },
-      "detail": {
-        "type": "interval",
-        "entityId": "driver:patrese:57b51e8b4bbf",
-        "sourcePath": "details/drivers/9.json",
-        "factType": "win",
-        "eventIds": [
-          "event:1982-6:70183ca0cca6",
-          "event:1992-15:1ba205094f84"
-        ],
-        "groupId": null,
-        "season": null,
-        "pairId": null
-      },
-      "series": [
-        [
-          362,
-          1
-        ],
-        [
-          387,
-          1
-        ],
-        [
-          486,
-          1
-        ],
-        [
-          505,
-          1
-        ],
-        [
-          512,
-          1
-        ],
-        [
-          530,
-          1
-        ]
-      ],
-      "rank": 10
-    },
-    {
       "entityId": "driver:max-verstappen:1f6847211200",
       "entityName": "Max Verstappen",
-      "value": 3801,
+      "value": 3822,
       "firstEvent": {
         "eventId": "event:2016-5:c321cfd88c73",
         "eventIndex": 939,
@@ -2036,13 +1973,13 @@
         "eventDate": "2016-05-15"
       },
       "lastEvent": {
-        "eventId": "event:2026-17:7a9c2bcbb80e",
-        "eventIndex": 1165,
+        "eventId": "event:2026-19:bf96116508a0",
+        "eventIndex": 1167,
         "season": 2026,
-        "round": 17,
-        "grandPrixName": "Singapore Grand Prix",
-        "circuitId": "marina-bay",
-        "eventDate": "2026-10-11"
+        "round": 19,
+        "grandPrixName": "Mexico City Grand Prix",
+        "circuitId": "hermanos-rodriguez",
+        "eventDate": "2026-11-01"
       },
       "detail": {
         "type": "interval",
@@ -2051,7 +1988,7 @@
         "factType": "win",
         "eventIds": [
           "event:2016-5:c321cfd88c73",
-          "event:2026-17:7a9c2bcbb80e"
+          "event:2026-19:bf96116508a0"
         ],
         "groupId": null,
         "season": null,
@@ -2348,6 +2285,73 @@
         ],
         [
           1165,
+          1
+        ],
+        [
+          1167,
+          1
+        ]
+      ],
+      "rank": 10
+    },
+    {
+      "entityId": "driver:patrese:57b51e8b4bbf",
+      "entityName": "Riccardo Patrese",
+      "value": 3808,
+      "firstEvent": {
+        "eventId": "event:1982-6:70183ca0cca6",
+        "eventIndex": 362,
+        "season": 1982,
+        "round": 6,
+        "grandPrixName": "Monaco Grand Prix",
+        "circuitId": "monaco",
+        "eventDate": "1982-05-23"
+      },
+      "lastEvent": {
+        "eventId": "event:1992-15:1ba205094f84",
+        "eventIndex": 530,
+        "season": 1992,
+        "round": 15,
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka",
+        "eventDate": "1992-10-25"
+      },
+      "detail": {
+        "type": "interval",
+        "entityId": "driver:patrese:57b51e8b4bbf",
+        "sourcePath": "details/drivers/9.json",
+        "factType": "win",
+        "eventIds": [
+          "event:1982-6:70183ca0cca6",
+          "event:1992-15:1ba205094f84"
+        ],
+        "groupId": null,
+        "season": null,
+        "pairId": null
+      },
+      "series": [
+        [
+          362,
+          1
+        ],
+        [
+          387,
+          1
+        ],
+        [
+          486,
+          1
+        ],
+        [
+          505,
+          1
+        ],
+        [
+          512,
+          1
+        ],
+        [
+          530,
           1
         ]
       ],
