@@ -18,7 +18,7 @@
     "rowCount": 35,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -44,7 +44,7 @@
     "rowCount": 35,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -238,7 +238,7 @@
     "rowCount": 2,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -264,7 +264,7 @@
     "rowCount": 23,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -482,15 +482,24 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "unresolved",
-    "rowCount": 0,
-    "exclusions": [
-      {
-        "field": "eventEffectiveSportingNationality",
-        "reason": "Current nationality and circuit country are obtainable but do not prove historical sporting nationality at each event. Event-effective nationality evidence is required."
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 49,
+    "exclusions": [],
+    "definition": {
+      "scope": "Home means the circuit host country equals the driver sporting nationality evidenced for that event or season. Event-specific nationality overrides season evidence. Neutral affiliations have no home country. Grand Prix title, birthplace and current biography nationality are not substitutes.",
+      "presentation": "numeric",
+      "defaultSort": "desc",
+      "grouping": "entity",
+      "countingUnit": "count",
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "home",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    ],
-    "definition": null
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=last_lap_lead_wins",
@@ -7627,7 +7636,7 @@
     "rowCount": 219,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -7661,7 +7670,7 @@
     "rowCount": 7,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "numeric",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -7687,7 +7696,7 @@
     "rowCount": 29,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -7721,7 +7730,7 @@
     "rowCount": 219,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -8132,15 +8141,24 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "unresolved",
-    "rowCount": 0,
-    "exclusions": [
-      {
-        "field": "eventEffectiveSportingNationality",
-        "reason": "Current nationality and circuit country are obtainable but do not prove historical sporting nationality at each event. Event-effective nationality evidence is required."
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 119,
+    "exclusions": [],
+    "definition": {
+      "scope": "Home means the circuit host country equals the driver sporting nationality evidenced for that event or season. Event-specific nationality overrides season evidence. Neutral affiliations have no home country. Grand Prix title, birthplace and current biography nationality are not substitutes.",
+      "presentation": "numeric",
+      "defaultSort": "desc",
+      "grouping": "entity",
+      "countingUnit": "count",
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "home",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    ],
-    "definition": null
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=average_age_of_podium",
@@ -9143,15 +9161,24 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "unresolved",
-    "rowCount": 0,
-    "exclusions": [
-      {
-        "field": "eventEffectiveSportingNationality",
-        "reason": "Current nationality and circuit country are obtainable but do not prove historical sporting nationality at each event. Event-effective nationality evidence is required."
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 48,
+    "exclusions": [],
+    "definition": {
+      "scope": "Home means the circuit host country equals the driver sporting nationality evidenced for that event or season. Event-specific nationality overrides season evidence. Neutral affiliations have no home country. Grand Prix title, birthplace and current biography nationality are not substitutes.",
+      "presentation": "numeric",
+      "defaultSort": "desc",
+      "grouping": "entity",
+      "countingUnit": "count",
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "home",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    ],
-    "definition": null
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=pole_to_win_conversions",
@@ -9318,7 +9345,7 @@
     "rowCount": 141,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -9352,7 +9379,7 @@
     "rowCount": 27,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -9386,7 +9413,7 @@
     "rowCount": 141,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -9418,103 +9445,7 @@
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
     "rowCount": 91,
-    "exclusions": [
-      {
-        "entityId": "driver:bira:a4f3f13ea879",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:cabantous:1a7ae103507a",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:crossley:796bd93e2f2c",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:graffenried:926a31f36e87",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:webb:7308e6f882b1",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:hans-stuck:50e1a5eafee1",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:bechem:0fd5ddfe6bf1",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:cruz:1f4c23b7f1c8",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:galvez:500d0877eca9",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:menditeguy:d91a2bb06da5",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:ramos:16fb7cc20995",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:tomaso:7bf292a44cb7",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:foyt:8b2a44b22319",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:jerry-unser:2bf46c88688a",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:filippis:f4c4b4c6c903",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:ahrens:9352a39503ef",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:rebaque:64ddd52a6256",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:lehto:87e5ef089e57",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "driver:zanardi:7cbac3f21442",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      }
-    ],
+    "exclusions": [],
     "definition": {
       "scope": "Completed Grand Prix classifications; canonical constructor identities remain distinct. One largest gap between adjacent eligible occurrences per entity, in elapsed days; not a first-to-last career span.",
       "presentation": "duration",
@@ -9746,15 +9677,24 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "unresolved",
-    "rowCount": 0,
-    "exclusions": [
-      {
-        "field": "eventEffectiveSportingNationality",
-        "reason": "Current nationality and circuit country are obtainable but do not prove historical sporting nationality at each event. Event-effective nationality evidence is required."
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 48,
+    "exclusions": [],
+    "definition": {
+      "scope": "Home means the circuit host country equals the driver sporting nationality evidenced for that event or season. Event-specific nationality overrides season evidence. Neutral affiliations have no home country. Grand Prix title, birthplace and current biography nationality are not substitutes.",
+      "presentation": "numeric",
+      "defaultSort": "desc",
+      "grouping": "entity",
+      "countingUnit": "count",
+      "evidenceAssessment": {
+        "schemaVersion": "stats-evidence-assessment.v1",
+        "family": "home",
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    ],
-    "definition": null
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers",
@@ -9771,17 +9711,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 357,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
@@ -9791,13 +9723,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 356
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_points_scorers_by_nation",
@@ -9814,17 +9745,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 34,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
@@ -9834,13 +9757,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 34
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_points_scorers",
@@ -9857,17 +9779,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 357,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
@@ -9877,13 +9791,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 356
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_points_finishes",
@@ -10216,7 +10129,7 @@
     "rowCount": 69,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -10350,25 +10263,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:rafael-camara:653000fe0f84",
-        "eventIds": [
-          "event:2026-20:83da7601870a"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 795,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
@@ -10378,13 +10275,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 793
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=youngest_gp_starters_by_nation",
@@ -10401,25 +10297,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:rafael-camara:653000fe0f84",
-        "eventIds": [
-          "event:2026-20:83da7601870a"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 41,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
@@ -10429,13 +10309,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "nationality",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate evidence for eligible drivers. Sporting affiliations are represented, including neutral RAF without a national flag; unresolved birthdates can still change these age records.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 41
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=oldest_gp_starters",
@@ -10452,25 +10331,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "entityId": "driver:ryo-hirakawa:972b2c300dc2",
-        "eventIds": [
-          "event:2026-19:bf96116508a0"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      },
-      {
-        "entityId": "driver:rafael-camara:653000fe0f84",
-        "eventIds": [
-          "event:2026-20:83da7601870a"
-        ],
-        "field": "dateOfBirth",
-        "reason": "An eligible participant has unresolved or conflicting birthdate evidence; exact source dates are retained in stats-repair-demographics.v1.json. Development incorporation is authorised, but conflicts are not guessed."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 795,
+    "exclusions": [],
     "definition": {
       "scope": "Ages use accepted birthdate evidence plus explicit owner editorial selections for disputed dates. The owner selections are not independently verified, unanimous, or official; competing source dates are retained in stats-owner-dob-decisions-20260917.json. No eligible date is replaced by zero.",
       "presentation": "age",
@@ -10480,13 +10343,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 793
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=average_driver_age_by_gp",
@@ -10503,25 +10365,9 @@
     "evidenceUrl": "https://github.com/f1db/f1db/releases/tag/v2026.11.0",
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
-    "after": "verification_pending",
-    "exclusions": [
-      {
-        "eventId": "event:2026-19:bf96116508a0",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:ryo-hirakawa:972b2c300dc2"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      },
-      {
-        "eventId": "event:2026-20:83da7601870a",
-        "field": "dateOfBirth",
-        "entityIds": [
-          "driver:rafael-camara:653000fe0f84"
-        ],
-        "reason": "The entire event is excluded because one or more dates are outside the separately accepted birthdate evidence."
-      }
-    ],
+    "after": "populated_with_declared_exclusions",
+    "rowCount": 1169,
+    "exclusions": [],
     "definition": {
       "scope": "Completed Grand Prix archive; shared-driver classifications keep their canonical identities. Whole-event population only; all birthdates must be separately accepted. Decimal years = mean exact age in days / 365.2425. Disputed dates include explicit owner editorial selections, not independently verified, unanimous, or official dates; competing source dates remain recorded in stats-owner-dob-decisions-20260917.json.",
       "presentation": "records",
@@ -10547,13 +10393,12 @@
       "evidenceAssessment": {
         "schemaVersion": "stats-evidence-assessment.v1",
         "family": "age",
-        "status": "incomplete",
-        "rankingComplete": false,
-        "notice": "Incomplete birthdate or event evidence. Only separately accepted dates are used; missing eligible drivers or events can change the ordering.",
-        "missingEvidence": "Identity-bound complete birthdates for the excluded eligible drivers; credible biographies or documented corrections are acceptable evidence."
+        "status": "complete",
+        "rankingComplete": true,
+        "notice": "",
+        "missingEvidence": ""
       }
-    },
-    "candidateRowCount": 1167
+    }
   },
   {
     "route": "/f1/stats/statistic/?entity=drivers&statistic=longest_gap_between_gp_starts",
@@ -10623,104 +10468,8 @@
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
-    "rowCount": 776,
-    "exclusions": [
-      {
-        "entityId": "driver:bira:a4f3f13ea879",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:cabantous:1a7ae103507a",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:crossley:796bd93e2f2c",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:graffenried:926a31f36e87",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:webb:7308e6f882b1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:hans-stuck:50e1a5eafee1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:bechem:0fd5ddfe6bf1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:cruz:1f4c23b7f1c8",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:galvez:500d0877eca9",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:menditeguy:d91a2bb06da5",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:ramos:16fb7cc20995",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:tomaso:7bf292a44cb7",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:foyt:8b2a44b22319",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:jerry-unser:2bf46c88688a",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:filippis:f4c4b4c6c903",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:ahrens:9352a39503ef",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:rebaque:64ddd52a6256",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:lehto:87e5ef089e57",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:zanardi:7cbac3f21442",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      }
-    ],
+    "rowCount": 795,
+    "exclusions": [],
     "definition": {
       "scope": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
       "presentation": "numeric",
@@ -10745,104 +10494,8 @@
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
-    "rowCount": 776,
-    "exclusions": [
-      {
-        "entityId": "driver:bira:a4f3f13ea879",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:cabantous:1a7ae103507a",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:crossley:796bd93e2f2c",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:graffenried:926a31f36e87",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:webb:7308e6f882b1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:hans-stuck:50e1a5eafee1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:bechem:0fd5ddfe6bf1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:cruz:1f4c23b7f1c8",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:galvez:500d0877eca9",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:menditeguy:d91a2bb06da5",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:ramos:16fb7cc20995",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:tomaso:7bf292a44cb7",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:foyt:8b2a44b22319",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:jerry-unser:2bf46c88688a",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:filippis:f4c4b4c6c903",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:ahrens:9352a39503ef",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:rebaque:64ddd52a6256",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:lehto:87e5ef089e57",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "driver:zanardi:7cbac3f21442",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      }
-    ],
+    "rowCount": 795,
+    "exclusions": [],
     "definition": {
       "scope": "Completed Grand Prix classifications; canonical constructor identities remain distinct.",
       "presentation": "numeric",
@@ -14471,7 +14124,7 @@
     "rowCount": 182,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -14505,7 +14158,7 @@
     "rowCount": 26,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage. Nationality is the sporting nationality documented for that season or event; event-specific evidence takes precedence. No current-biography or adjacent-season extrapolation. Neutral (RAF) is a sporting affiliation without a national flag; RAF preserves the original designation.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "group",
@@ -14539,7 +14192,7 @@
     "rowCount": 182,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion. Race-leading ages require at least one counted completed lap led. Complete event-level driver laps-led totals supplement published lap charts for membership and event date only. Any uncovered event remains explicitly unresolved; lap-order metrics retain separate coverage.",
       "presentation": "age",
       "defaultSort": "desc",
       "grouping": "entity",
@@ -48569,7 +48222,7 @@
     "rowCount": 51,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -48603,7 +48256,7 @@
     "rowCount": 29,
     "exclusions": [],
     "definition": {
-      "scope": "Ages use the separately accepted 784-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
+      "scope": "Ages use the separately accepted 786-driver birthdate evidence set. Drivers outside it remain unresolved, not age zero. Championship ages use the first F1DB clinching flag bound to the verified season champion.",
       "presentation": "age",
       "defaultSort": "asc",
       "grouping": "entity",
@@ -52850,43 +52503,8 @@
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
-    "rowCount": 25,
+    "rowCount": 34,
     "exclusions": [
-      {
-        "entityId": "constructor:alfa:f3891f4c8109",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:alta:983796469300",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:lago:cdcfefd9f9e7",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:maserati:e07d701c3181",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:cooper:9771c8f26d98",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:ferrari:d5aa0140c09c",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:simca:5f5ecdf499a9",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
       {
         "entityId": "constructor:deidt:696f32f6b418",
         "field": "fastestLap",
@@ -52918,11 +52536,6 @@
         "reason": "Incomplete fastest-lap attribution can change the longest gap."
       },
       {
-        "entityId": "constructor:hwm:1ecbc0979a65",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
         "entityId": "constructor:bromme:de78e6a65779",
         "field": "fastestLap",
         "reason": "Incomplete fastest-lap attribution can change the longest gap."
@@ -52934,26 +52547,6 @@
       },
       {
         "entityId": "constructor:schroeder:79a4b7b470cb",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:afm:c20afd4f3bd6",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:gordini:fdcbc8e4367d",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:connaught:c79f99183be6",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:bmw:26403c577f12",
         "field": "fastestLap",
         "reason": "Incomplete fastest-lap attribution can change the longest gap."
       },
@@ -52974,61 +52567,6 @@
       },
       {
         "entityId": "constructor:ferguson:367682923e53",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:protos:fb09d0b225c1",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:hesketh:b24c2bcc04de",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:williams:4164dc156cb6",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:rebaque:cb79a4418be0",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:minardi:9db1254527e2",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:benetton:58d42bf86808",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:dallara:26b4af93e67e",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:onyx:b00f5d5b87d2",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:jordan:ef58acfe8635",
-        "field": "fastestLap",
-        "reason": "Incomplete fastest-lap attribution can change the longest gap."
-      },
-      {
-        "entityId": "constructor:sauber:c2cbad1133cf",
         "field": "fastestLap",
         "reason": "Incomplete fastest-lap attribution can change the longest gap."
       }
@@ -53161,43 +52699,8 @@
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
-    "rowCount": 130,
+    "rowCount": 153,
     "exclusions": [
-      {
-        "entityId": "constructor:alfa:f3891f4c8109",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:alta:983796469300",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:lago:cdcfefd9f9e7",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:maserati:e07d701c3181",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:cooper:9771c8f26d98",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:ferrari:d5aa0140c09c",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:simca:5f5ecdf499a9",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
       {
         "entityId": "constructor:deidt:696f32f6b418",
         "field": "fastestLap",
@@ -53229,11 +52732,6 @@
         "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
       },
       {
-        "entityId": "constructor:hwm:1ecbc0979a65",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
         "entityId": "constructor:bromme:de78e6a65779",
         "field": "fastestLap",
         "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
@@ -53249,26 +52747,6 @@
         "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
       },
       {
-        "entityId": "constructor:afm:c20afd4f3bd6",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:gordini:fdcbc8e4367d",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:connaught:c79f99183be6",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:bmw:26403c577f12",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
         "entityId": "constructor:del-roy:53e3a3290619",
         "field": "fastestLap",
         "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
@@ -53280,61 +52758,6 @@
       },
       {
         "entityId": "constructor:team-lotus:85b2937902bf",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:brabham:0f52aed0736c",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:protos:fb09d0b225c1",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:hesketh:b24c2bcc04de",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:williams:4164dc156cb6",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:rebaque:cb79a4418be0",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:minardi:9db1254527e2",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:benetton:58d42bf86808",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:dallara:26b4af93e67e",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:onyx:b00f5d5b87d2",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:jordan:ef58acfe8635",
-        "field": "fastestLap",
-        "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
-      },
-      {
-        "entityId": "constructor:sauber:c2cbad1133cf",
         "field": "fastestLap",
         "reason": "Missing fastest-lap evidence prevents verified negative outcomes."
       }
@@ -53679,104 +53102,8 @@
     "sourceProducer": "entrance-f1-data-tools/catalogue-completion",
     "before": "obtainable_source_or_producer_gap",
     "after": "populated_with_declared_exclusions",
-    "rowCount": 804,
-    "exclusions": [
-      {
-        "entityId": "driver:bira:a4f3f13ea879",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:cabantous:1a7ae103507a",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:crossley:796bd93e2f2c",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:graffenried:926a31f36e87",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:webb:7308e6f882b1",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:hans-stuck:50e1a5eafee1",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:bechem:0fd5ddfe6bf1",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:cruz:1f4c23b7f1c8",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:galvez:500d0877eca9",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:menditeguy:d91a2bb06da5",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:ramos:16fb7cc20995",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:tomaso:7bf292a44cb7",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:foyt:8b2a44b22319",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:jerry-unser:2bf46c88688a",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:filippis:f4c4b4c6c903",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:ahrens:9352a39503ef",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:rebaque:64ddd52a6256",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:lehto:87e5ef089e57",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      },
-      {
-        "entityId": "driver:zanardi:7cbac3f21442",
-        "field": "fastestLap",
-        "reason": "Complete career attribution is not established; the partial count is not a career total."
-      }
-    ],
+    "rowCount": 823,
+    "exclusions": [],
     "definition": {
       "scope": "Complete career attribution from the verified archive and identity-bound F1DB historical results. Confirmed non-starts cannot set race fastest laps. The 2021 Belgian GP has a separately evidenced not-awarded status. Incomplete careers are excluded, not assigned zero.",
       "presentation": "numeric",
