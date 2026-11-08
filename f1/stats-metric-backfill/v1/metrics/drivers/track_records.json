@@ -4,14 +4,14 @@
   "statisticId": "track_records",
   "metricId": "driverTrackRecords",
   "status": "partial",
-  "cutoff": "2026-11-01",
+  "cutoff": "2026-11-08",
   "completeness": {
     "current": {
       "resultRowCount": 46,
       "observedCircuitConfigurationCount": 160,
       "verifiedCircuitConfigurationCount": 114,
       "excludedCircuitConfigurationCount": 46,
-      "candidateLapCount": 44081,
+      "candidateLapCount": 44124,
       "eligibleSessionTypes": [
         "qualifying",
         "race"
@@ -2781,38 +2781,6 @@
       "rank": 22
     },
     {
-      "entityId": "driver:russell:0de59c03b0db",
-      "entityName": "George Russell",
-      "value": 1,
-      "recordOwnerships": [
-        {
-          "circuitConfigurationId": "las-vegas-1",
-          "tie": false,
-          "holders": [
-            {
-              "eventId": "event:2024-22:364548393e81",
-              "eventIndex": 1122,
-              "season": 2024,
-              "round": 22,
-              "date": "2024-11-23",
-              "grandPrixName": "Las Vegas Grand Prix",
-              "circuitId": "vegas",
-              "circuitConfigurationId": "las-vegas-1",
-              "sessionType": "qualifying",
-              "lapTime": "1:32.312",
-              "lapTimeMillis": 92312,
-              "lapNumber": null,
-              "driverId": "driver:russell:0de59c03b0db",
-              "driverName": "George Russell",
-              "constructorId": "constructor:mercedes:81ae28b14607",
-              "constructorName": "Mercedes"
-            }
-          ]
-        }
-      ],
-      "rank": 22
-    },
-    {
       "entityId": "driver:berger:721f3dbb508a",
       "entityName": "Gerhard Berger",
       "value": 1,
@@ -3094,6 +3062,38 @@
               "driverName": "Juan Pablo Montoya",
               "constructorId": "constructor:williams:4164dc156cb6",
               "constructorName": "Williams"
+            }
+          ]
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 1,
+      "recordOwnerships": [
+        {
+          "circuitConfigurationId": "las-vegas-1",
+          "tie": false,
+          "holders": [
+            {
+              "eventId": "event:2026-20:83da7601870a",
+              "eventIndex": 1168,
+              "season": 2026,
+              "round": 20,
+              "date": "2026-11-08",
+              "grandPrixName": "São Paulo Grand Prix",
+              "circuitId": "interlagos",
+              "circuitConfigurationId": "las-vegas-1",
+              "sessionType": "race",
+              "lapTime": "1:12.689",
+              "lapTimeMillis": 72689,
+              "lapNumber": 55,
+              "driverId": "driver:antonelli:0ab4d82d3440",
+              "driverName": "Kimi Antonelli",
+              "constructorId": "constructor:mercedes:81ae28b14607",
+              "constructorName": "Mercedes"
             }
           ]
         }

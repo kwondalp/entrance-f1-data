@@ -4,16 +4,16 @@
   "releaseChannel": "production",
   "season": 2026,
   "dataStatus": "verified",
-  "archiveAsOfDate": "2026-11-01",
+  "archiveAsOfDate": "2026-11-08",
   "sourceCoverage": {
     "checkpointType": "formula1_and_fia_final_classification",
-    "sourceChecksumSha256": "1a32d149e782780995e108a37e6576d97e7b219ec531d3a4ff2026ed0afd3473",
-    "statusExplanation": "Rounds 1-18 retain prior verified evidence; Round 19 reconciles to Formula1.com official classification, grid, fastest lap and standings."
+    "sourceChecksumSha256": "3d590dddb65496baa63ef0e3d485d17d7e4ee75d58a5e80a45a9b3cf9fc677e3",
+    "statusExplanation": "Rounds 1-19 retain prior verified evidence; Round 20 reconciles to Formula1.com official classification, grid, fastest lap and standings."
   },
   "coverage": {
-    "raceCount": 19,
-    "classificationRowCount": 418,
-    "verifiedRaceCount": 19,
+    "raceCount": 20,
+    "classificationRowCount": 440,
+    "verifiedRaceCount": 20,
     "provisionalRaceCount": 0
   },
   "unsupportedFields": [
@@ -44,7 +44,7 @@
             "kimi-antonelli"
           ]
         },
-        "points": 380,
+        "points": 390,
         "wins": 9,
         "dataStatus": "verified"
       },
@@ -57,25 +57,12 @@
             "max-verstappen"
           ]
         },
-        "points": 261,
+        "points": 279,
         "wins": 3,
         "dataStatus": "verified"
       },
       {
         "position": 3,
-        "entity": {
-          "id": "driver:hamilton:528ad2ac33fa",
-          "name": "Lewis Hamilton",
-          "aliases": [
-            "lewis-hamilton"
-          ]
-        },
-        "points": 259,
-        "wins": 1,
-        "dataStatus": "verified"
-      },
-      {
-        "position": 4,
         "entity": {
           "id": "driver:russell:0de59c03b0db",
           "name": "George Russell",
@@ -83,8 +70,21 @@
             "george-russell"
           ]
         },
-        "points": 250,
+        "points": 262,
         "wins": 3,
+        "dataStatus": "verified"
+      },
+      {
+        "position": 4,
+        "entity": {
+          "id": "driver:hamilton:528ad2ac33fa",
+          "name": "Lewis Hamilton",
+          "aliases": [
+            "lewis-hamilton"
+          ]
+        },
+        "points": 261,
+        "wins": 1,
         "dataStatus": "verified"
       },
       {
@@ -96,7 +96,7 @@
             "charles-leclerc"
           ]
         },
-        "points": 245,
+        "points": 249,
         "wins": 1,
         "dataStatus": "verified"
       },
@@ -109,8 +109,8 @@
             "lando-norris"
           ]
         },
-        "points": 221,
-        "wins": 2,
+        "points": 246,
+        "wins": 3,
         "dataStatus": "verified"
       },
       {
@@ -122,7 +122,7 @@
             "oscar-piastri"
           ]
         },
-        "points": 144,
+        "points": 152,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -135,7 +135,7 @@
             "isack-hadjar"
           ]
         },
-        "points": 107,
+        "points": 122,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -148,7 +148,7 @@
             "liam-lawson"
           ]
         },
-        "points": 83,
+        "points": 89,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -226,7 +226,7 @@
             "nico-hulkenberg"
           ]
         },
-        "points": 13,
+        "points": 14,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -346,6 +346,19 @@
         "points": 0,
         "wins": 0,
         "dataStatus": "verified"
+      },
+      {
+        "position": 25,
+        "entity": {
+          "id": "driver:rafael-camara:653000fe0f84",
+          "name": "Rafael Câmara",
+          "aliases": [
+            "rafael-camara"
+          ]
+        },
+        "points": 0,
+        "wins": 0,
+        "dataStatus": "verified"
       }
     ],
     "constructors": [
@@ -358,7 +371,7 @@
             "mercedes"
           ]
         },
-        "points": 630,
+        "points": 652,
         "wins": 12,
         "dataStatus": "verified"
       },
@@ -371,7 +384,7 @@
             "ferrari"
           ]
         },
-        "points": 504,
+        "points": 510,
         "wins": 2,
         "dataStatus": "verified"
       },
@@ -384,7 +397,7 @@
             "red-bull"
           ]
         },
-        "points": 382,
+        "points": 415,
         "wins": 3,
         "dataStatus": "verified"
       },
@@ -397,8 +410,8 @@
             "mclaren"
           ]
         },
-        "points": 365,
-        "wins": 2,
+        "points": 398,
+        "wins": 3,
         "dataStatus": "verified"
       },
       {
@@ -410,7 +423,7 @@
             "rb"
           ]
         },
-        "points": 108,
+        "points": 114,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -449,7 +462,7 @@
             "audi"
           ]
         },
-        "points": 27,
+        "points": 28,
         "wins": 0,
         "dataStatus": "verified"
       },
@@ -17362,6 +17375,929 @@
           "source:formula1-2026-19-starting-grid",
           "source:formula1-2026-19-fastest-laps"
         ],
+        "stableResultsV1SeasonSha256": "be7b3493e5bfc02f2599e584203f47872b8a384a3f8056af89f0783350ea895a"
+      }
+    },
+    {
+      "id": "event:2026-20:83da7601870a",
+      "slug": "sao-paulo",
+      "round": 20,
+      "grandPrixName": "São Paulo Grand Prix",
+      "date": "2026-11-08",
+      "circuitId": "interlagos",
+      "dataStatus": "verified",
+      "winner": {
+        "drivers": [
+          {
+            "id": "driver:norris:5581145e4767",
+            "name": "Lando Norris",
+            "aliases": [
+              "lando-norris"
+            ]
+          }
+        ],
+        "constructors": [
+          {
+            "id": "constructor:mclaren:f3759103103f",
+            "name": "McLaren",
+            "aliases": [
+              "mclaren"
+            ]
+          }
+        ],
+        "laps": 71,
+        "time": "1:35:23.504",
+        "sharedDrive": false,
+        "deadHeat": false
+      },
+      "classification": [
+        {
+          "rowId": "result-v2:2026:20:1:driver:norris:5581145e4767",
+          "classificationOrder": 1,
+          "position": 1,
+          "driver": {
+            "id": "driver:norris:5581145e4767",
+            "name": "Lando Norris",
+            "aliases": [
+              "lando-norris"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:mclaren:f3759103103f",
+            "name": "McLaren",
+            "aliases": [
+              "mclaren"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "1",
+          "gridPosition": 1,
+          "officialPole": true,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "1:35:23.504",
+          "points": 25,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": true,
+          "creditedPodium": true,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:2:driver:max-verstappen:1f6847211200",
+          "classificationOrder": 2,
+          "position": 2,
+          "driver": {
+            "id": "driver:max-verstappen:1f6847211200",
+            "name": "Max Verstappen",
+            "aliases": [
+              "max-verstappen"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:red-bull:8307f488a798",
+            "name": "Red Bull",
+            "aliases": [
+              "red-bull"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "3",
+          "gridPosition": 21,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+14.602s",
+          "points": 18,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": true,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "max-verstappen",
+            "qualifyingPosition": 16,
+            "gridPosition": 21,
+            "places": 5,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:3:driver:hadjar:1f8ff5eef91d",
+          "classificationOrder": 3,
+          "position": 3,
+          "driver": {
+            "id": "driver:hadjar:1f8ff5eef91d",
+            "name": "Isack Hadjar",
+            "aliases": [
+              "isack-hadjar"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:red-bull:8307f488a798",
+            "name": "Red Bull",
+            "aliases": [
+              "red-bull"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "6",
+          "gridPosition": 5,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+24.485s",
+          "points": 15,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": true,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:4:driver:russell:0de59c03b0db",
+          "classificationOrder": 4,
+          "position": 4,
+          "driver": {
+            "id": "driver:russell:0de59c03b0db",
+            "name": "George Russell",
+            "aliases": [
+              "george-russell"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:mercedes:81ae28b14607",
+            "name": "Mercedes",
+            "aliases": [
+              "mercedes"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "63",
+          "gridPosition": 7,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+33.991s",
+          "points": 12,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "george-russell",
+            "qualifyingPosition": 2,
+            "gridPosition": 7,
+            "places": 5,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:5:driver:antonelli:0ab4d82d3440",
+          "classificationOrder": 5,
+          "position": 5,
+          "driver": {
+            "id": "driver:antonelli:0ab4d82d3440",
+            "name": "Andrea Kimi Antonelli",
+            "aliases": [
+              "kimi-antonelli"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:mercedes:81ae28b14607",
+            "name": "Mercedes",
+            "aliases": [
+              "mercedes"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "12",
+          "gridPosition": 2,
+          "officialPole": false,
+          "fastestLap": true,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+41.017s",
+          "points": 10,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:6:driver:piastri:45bbf3cf700f",
+          "classificationOrder": 6,
+          "position": 6,
+          "driver": {
+            "id": "driver:piastri:45bbf3cf700f",
+            "name": "Oscar Piastri",
+            "aliases": [
+              "oscar-piastri"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:mclaren:f3759103103f",
+            "name": "McLaren",
+            "aliases": [
+              "mclaren"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "81",
+          "gridPosition": 10,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+56.475s",
+          "points": 8,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:7:driver:lawson:a9641b5ad41f",
+          "classificationOrder": 7,
+          "position": 7,
+          "driver": {
+            "id": "driver:lawson:a9641b5ad41f",
+            "name": "Liam Lawson",
+            "aliases": [
+              "liam-lawson"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:rb:34926e4c6434",
+            "name": "RB F1 Team",
+            "aliases": [
+              "rb"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "30",
+          "gridPosition": 3,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+75.402s",
+          "points": 6,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:8:driver:leclerc:80a0e9f8790b",
+          "classificationOrder": 8,
+          "position": 8,
+          "driver": {
+            "id": "driver:leclerc:80a0e9f8790b",
+            "name": "Charles Leclerc",
+            "aliases": [
+              "charles-leclerc"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:ferrari:d5aa0140c09c",
+            "name": "Ferrari",
+            "aliases": [
+              "ferrari"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "16",
+          "gridPosition": 14,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 71,
+          "timeOrRetired": "+78.586s",
+          "points": 4,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "charles-leclerc",
+            "qualifyingPosition": 4,
+            "gridPosition": 14,
+            "places": 10,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:9:driver:hamilton:528ad2ac33fa",
+          "classificationOrder": 9,
+          "position": 9,
+          "driver": {
+            "id": "driver:hamilton:528ad2ac33fa",
+            "name": "Lewis Hamilton",
+            "aliases": [
+              "lewis-hamilton"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:ferrari:d5aa0140c09c",
+            "name": "Ferrari",
+            "aliases": [
+              "ferrari"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "44",
+          "gridPosition": 20,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 2,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "lewis-hamilton",
+            "qualifyingPosition": 11,
+            "gridPosition": 20,
+            "places": 9,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:10:driver:hulkenberg:2b1121e9241c",
+          "classificationOrder": 10,
+          "position": 10,
+          "driver": {
+            "id": "driver:hulkenberg:2b1121e9241c",
+            "name": "Nico Hülkenberg",
+            "aliases": [
+              "nico-hulkenberg"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:audi:c53ccfbe90a3",
+            "name": "Audi",
+            "aliases": [
+              "audi"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "27",
+          "gridPosition": 4,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 1,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:11:driver:arvid-lindblad:0994b6f3b22f",
+          "classificationOrder": 11,
+          "position": 11,
+          "driver": {
+            "id": "driver:arvid-lindblad:0994b6f3b22f",
+            "name": "Arvid Lindblad",
+            "aliases": [
+              "arvid-lindblad"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:rb:34926e4c6434",
+            "name": "RB F1 Team",
+            "aliases": [
+              "rb"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "41",
+          "gridPosition": 18,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "arvid-lindblad",
+            "qualifyingPosition": 14,
+            "gridPosition": 18,
+            "places": 4,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:12:driver:alonso:04d69c1d187a",
+          "classificationOrder": 12,
+          "position": 12,
+          "driver": {
+            "id": "driver:alonso:04d69c1d187a",
+            "name": "Fernando Alonso",
+            "aliases": [
+              "fernando-alonso"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:aston-martin:ebcdcb86f97f",
+            "name": "Aston Martin",
+            "aliases": [
+              "aston-martin"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "14",
+          "gridPosition": 8,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:13:driver:colapinto:b0daf67dc8e6",
+          "classificationOrder": 13,
+          "position": 13,
+          "driver": {
+            "id": "driver:colapinto:b0daf67dc8e6",
+            "name": "Franco Colapinto",
+            "aliases": [
+              "franco-colapinto"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:alpine:1e11dc0788a1",
+            "name": "Alpine F1 Team",
+            "aliases": [
+              "alpine"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "43",
+          "gridPosition": 13,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:14:driver:gasly:0fca70394caf",
+          "classificationOrder": 14,
+          "position": 14,
+          "driver": {
+            "id": "driver:gasly:0fca70394caf",
+            "name": "Pierre Gasly",
+            "aliases": [
+              "pierre-gasly"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:alpine:1e11dc0788a1",
+            "name": "Alpine F1 Team",
+            "aliases": [
+              "alpine"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "10",
+          "gridPosition": 15,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:15:driver:albon:20ec6817f0c4",
+          "classificationOrder": 15,
+          "position": 15,
+          "driver": {
+            "id": "driver:albon:20ec6817f0c4",
+            "name": "Alexander Albon",
+            "aliases": [
+              "alexander-albon"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:williams:4164dc156cb6",
+            "name": "Williams",
+            "aliases": [
+              "williams"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "23",
+          "gridPosition": 9,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:16:driver:bortoleto:4d5babd4495f",
+          "classificationOrder": 16,
+          "position": 16,
+          "driver": {
+            "id": "driver:bortoleto:4d5babd4495f",
+            "name": "Gabriel Bortoleto",
+            "aliases": [
+              "gabriel-bortoleto"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:audi:c53ccfbe90a3",
+            "name": "Audi",
+            "aliases": [
+              "audi"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "5",
+          "gridPosition": 19,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:17:driver:bearman:77f13409c49b",
+          "classificationOrder": 17,
+          "position": 17,
+          "driver": {
+            "id": "driver:bearman:77f13409c49b",
+            "name": "Oliver Bearman",
+            "aliases": [
+              "oliver-bearman"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:haas:6657555dbb08",
+            "name": "Haas F1 Team",
+            "aliases": [
+              "haas"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "87",
+          "gridPosition": 6,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 70,
+          "timeOrRetired": "+1 lap",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:18:driver:perez:03c631191055",
+          "classificationOrder": 18,
+          "position": 18,
+          "driver": {
+            "id": "driver:perez:03c631191055",
+            "name": "Sergio Pérez",
+            "aliases": [
+              "sergio-perez"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:cadillac:e6be4349c279",
+            "name": "Cadillac F1 Team",
+            "aliases": [
+              "cadillac"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "11",
+          "gridPosition": 22,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 69,
+          "timeOrRetired": "+2 laps",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified",
+          "gridPenalty": {
+            "driverId": "sergio-perez",
+            "qualifyingPosition": 21,
+            "gridPosition": 22,
+            "places": 1,
+            "reason": null
+          }
+        },
+        {
+          "rowId": "result-v2:2026:20:19:driver:sainz:f4f0414a0a12",
+          "classificationOrder": 19,
+          "position": 19,
+          "driver": {
+            "id": "driver:sainz:f4f0414a0a12",
+            "name": "Carlos Sainz",
+            "aliases": [
+              "carlos-sainz"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:williams:4164dc156cb6",
+            "name": "Williams",
+            "aliases": [
+              "williams"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "55",
+          "gridPosition": 12,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 69,
+          "timeOrRetired": "+2 laps",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:20:driver:rafael-camara:653000fe0f84",
+          "classificationOrder": 20,
+          "position": 20,
+          "driver": {
+            "id": "driver:rafael-camara:653000fe0f84",
+            "name": "Rafael Câmara",
+            "aliases": [
+              "rafael-camara"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:haas:6657555dbb08",
+            "name": "Haas F1 Team",
+            "aliases": [
+              "haas"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "51",
+          "gridPosition": 11,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": true,
+          "classified": true,
+          "laps": 69,
+          "timeOrRetired": "+2 laps",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:21:driver:stroll:ab76996efc92",
+          "classificationOrder": 21,
+          "position": "NC",
+          "driver": {
+            "id": "driver:stroll:ab76996efc92",
+            "name": "Lance Stroll",
+            "aliases": [
+              "lance-stroll"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:aston-martin:ebcdcb86f97f",
+            "name": "Aston Martin",
+            "aliases": [
+              "aston-martin"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "18",
+          "gridPosition": 16,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": false,
+          "classified": false,
+          "laps": 30,
+          "timeOrRetired": "DNF",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        },
+        {
+          "rowId": "result-v2:2026:20:22:driver:bottas:cf1711492eee",
+          "classificationOrder": 22,
+          "position": "NC",
+          "driver": {
+            "id": "driver:bottas:cf1711492eee",
+            "name": "Valtteri Bottas",
+            "aliases": [
+              "valtteri-bottas"
+            ]
+          },
+          "constructor": {
+            "id": "constructor:cadillac:e6be4349c279",
+            "name": "Cadillac F1 Team",
+            "aliases": [
+              "cadillac"
+            ]
+          },
+          "entrant": null,
+          "carNumber": "77",
+          "gridPosition": 17,
+          "officialPole": false,
+          "fastestLap": false,
+          "entered": true,
+          "started": true,
+          "finished": false,
+          "classified": false,
+          "laps": 0,
+          "timeOrRetired": "DNS",
+          "points": 0,
+          "sharedDrive": false,
+          "sharedDriveGroupId": null,
+          "deadHeat": false,
+          "deadHeatGroupId": null,
+          "creditedWin": false,
+          "creditedPodium": false,
+          "dataStatus": "verified"
+        }
+      ],
+      "officialEvidence": {
+        "coverage": "complete_event",
+        "sourceIds": [
+          "source:formula1-2026-20-race-result",
+          "source:formula1-2026-20-qualifying",
+          "source:formula1-2026-20-starting-grid",
+          "source:formula1-2026-20-fastest-laps"
+        ],
         "fieldSupport": {
           "classification": [
             "formula1.race_result"
@@ -17379,7 +18315,8 @@
             "formula1.fastest_laps"
           ],
           "postRaceStandings": [
-            "fia.championship_points"
+            "formula1.driver_standings",
+            "formula1.constructor_standings"
           ]
         }
       }

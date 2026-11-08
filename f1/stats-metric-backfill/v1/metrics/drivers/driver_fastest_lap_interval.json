@@ -4,17 +4,17 @@
   "statisticId": "driver_fastest_lap_interval",
   "metricId": "driverFastestLapInterval",
   "status": "partial",
-  "cutoff": "2026-11-01",
+  "cutoff": "2026-11-08",
   "completeness": {
     "current": {
       "resultRowCount": 43,
-      "knownRaceCount": 451,
-      "raceCount": 1168
+      "knownRaceCount": 452,
+      "raceCount": 1169
     },
     "target": {
       "seasonCount": 77,
-      "raceCount": 1168,
-      "classificationRowCount": 26319
+      "raceCount": 1169,
+      "classificationRowCount": 26341
     }
   },
   "rowCount": 43,
@@ -548,6 +548,30 @@
       "rank": 22
     },
     {
+      "entityId": "driver:antonelli:0ab4d82d3440",
+      "entityName": "Kimi Antonelli",
+      "value": 581,
+      "firstEvent": {
+        "eventId": "event:2025-3:9771dd9e62e4",
+        "eventIndex": 1127,
+        "season": 2025,
+        "round": 3,
+        "date": "2025-04-06",
+        "grandPrixName": "Japanese Grand Prix",
+        "circuitId": "suzuka"
+      },
+      "lastEvent": {
+        "eventId": "event:2026-20:83da7601870a",
+        "eventIndex": 1168,
+        "season": 2026,
+        "round": 20,
+        "date": "2026-11-08",
+        "grandPrixName": "São Paulo Grand Prix",
+        "circuitId": "interlagos"
+      },
+      "rank": 23
+    },
+    {
       "entityId": "driver:montoya:68737b86fe17",
       "entityName": "Juan Pablo Montoya",
       "value": 518,
@@ -569,31 +593,7 @@
         "grandPrixName": "Turkish Grand Prix",
         "circuitId": "istanbul"
       },
-      "rank": 23
-    },
-    {
-      "entityId": "driver:antonelli:0ab4d82d3440",
-      "entityName": "Kimi Antonelli",
-      "value": 518,
-      "firstEvent": {
-        "eventId": "event:2025-3:9771dd9e62e4",
-        "eventIndex": 1127,
-        "season": 2025,
-        "round": 3,
-        "date": "2025-04-06",
-        "grandPrixName": "Japanese Grand Prix",
-        "circuitId": "suzuka"
-      },
-      "lastEvent": {
-        "eventId": "event:2026-13:24e3e42cf8a5",
-        "eventIndex": 1161,
-        "season": 2026,
-        "round": 13,
-        "date": "2026-09-06",
-        "grandPrixName": "Italian Grand Prix",
-        "circuitId": "monza"
-      },
-      "rank": 23
+      "rank": 24
     },
     {
       "entityId": "driver:zhou:f20afa05b294",

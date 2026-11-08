@@ -1105,6 +1105,34 @@
       }
     },
     {
+      "entityId": "driver:ocon:27db7f9b9070",
+      "entityName": "Esteban Ocon",
+      "value": 6,
+      "series": [],
+      "evidenceEventIds": [
+        "event:2014-19:6f40663cb5ce",
+        "event:2016-5:c321cfd88c73",
+        "event:2016-10:16826fa4c0c0",
+        "event:2016-11:e8594eccdeee",
+        "event:2016-12:88d6fa6ddb20",
+        "event:2026-19:bf96116508a0"
+      ],
+      "rank": 26,
+      "detail": {
+        "type": "occurrence",
+        "entityId": "driver:ocon:27db7f9b9070",
+        "sourcePath": "details/drivers/d.json",
+        "eventIds": [
+          "event:2014-19:6f40663cb5ce",
+          "event:2016-5:c321cfd88c73",
+          "event:2016-10:16826fa4c0c0",
+          "event:2016-11:e8594eccdeee",
+          "event:2016-12:88d6fa6ddb20",
+          "event:2026-19:bf96116508a0"
+        ]
+      }
+    },
+    {
       "entityId": "driver:montagny:2c93d014df47",
       "entityName": "Franck Montagny",
       "value": 6,
@@ -1228,7 +1256,7 @@
         "event:2014-7:ceeb396a0a0f",
         "event:2014-12:be4270356a0d"
       ],
-      "rank": 30,
+      "rank": 31,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:rossi:facdd1640ba1",
@@ -1239,32 +1267,6 @@
           "event:2013-18:52f7bca8050f",
           "event:2014-7:ceeb396a0a0f",
           "event:2014-12:be4270356a0d"
-        ]
-      }
-    },
-    {
-      "entityId": "driver:ocon:27db7f9b9070",
-      "entityName": "Esteban Ocon",
-      "value": 5,
-      "series": [],
-      "evidenceEventIds": [
-        "event:2014-19:6f40663cb5ce",
-        "event:2016-5:c321cfd88c73",
-        "event:2016-10:16826fa4c0c0",
-        "event:2016-11:e8594eccdeee",
-        "event:2016-12:88d6fa6ddb20"
-      ],
-      "rank": 30,
-      "detail": {
-        "type": "occurrence",
-        "entityId": "driver:ocon:27db7f9b9070",
-        "sourcePath": "details/drivers/d.json",
-        "eventIds": [
-          "event:2014-19:6f40663cb5ce",
-          "event:2016-5:c321cfd88c73",
-          "event:2016-10:16826fa4c0c0",
-          "event:2016-11:e8594eccdeee",
-          "event:2016-12:88d6fa6ddb20"
         ]
       }
     },
@@ -1280,7 +1282,7 @@
         "event:2014-17:404909f9c306",
         "event:2014-18:c66e84a94b60"
       ],
-      "rank": 30,
+      "rank": 31,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:nasr:1520f358d64e",
@@ -1306,7 +1308,7 @@
         "event:2007-7:7d6cbd5746db",
         "event:2007-16:ecd22dd81387"
       ],
-      "rank": 30,
+      "rank": 31,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:nakajima:93aa20648b71",
@@ -1332,7 +1334,7 @@
         "event:2024-3:3cbb0de45863",
         "event:2022-21:2a843096b1c1"
       ],
-      "rank": 30,
+      "rank": 31,
       "detail": {
         "type": "occurrence",
         "entityId": "driver:sargeant:83f8b17a86c0",
@@ -2121,13 +2123,13 @@
     "oldestIncludedSeason": 1950,
     "latestIncludedSeason": 2026,
     "includedSeasonCount": 77,
-    "includedRaceCount": 1168,
-    "includedClassificationRowCount": 26319,
+    "includedRaceCount": 1169,
+    "includedClassificationRowCount": 26341,
     "verifiedSeasonCount": 77,
     "provisionalSeasonCount": 0,
     "historicalStandingsStatus": "provisional_identity_reconciliation_required",
-    "asOfRaceDate": "2026-11-01",
-    "resultsArchiveManifestSha256": "233537433bc4fbd1a1d40adeb873e1e3a5b2a1bf0b6c872e04278cf1e7d93e55",
+    "asOfRaceDate": "2026-11-08",
+    "resultsArchiveManifestSha256": "8048305a94d76a72ec756501e9345c93ec2a13d3306707871c0d9b044e2d5835",
     "evidenceAssessment": null,
     "note": "Weekend practice-only appearances with a recorded lap or time, absent from both Grand Prix qualifying and race classifications. Counts weekends once. Reviewed F1DB practice history begins in 1986; verified current secondary inputs extend it automatically. Participants without canonical identity bindings are excluded.",
     "knownExclusions": [
@@ -2136,7 +2138,7 @@
       "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
     ],
     "excludedEntityCount": 0,
-    "excludedEventCount": 220
+    "excludedEventCount": 221
   },
   "exclusions": [
     {
@@ -5406,6 +5408,60 @@
     {
       "sourceDriverId": "current:colton-herta",
       "eventId": "event:2026-18:5dc2f335e310",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:frederik-vesti",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:ayumu-iwasa",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:nikola-tsolov",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:gabriele-mini",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:leonardo-fornaroli",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:jak-crawford",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:luke-browning",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:freddie-slater",
+      "eventId": "event:2026-19:bf96116508a0",
+      "field": "canonicalDriverIdentity",
+      "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
+    },
+    {
+      "sourceDriverId": "current:colton-herta",
+      "eventId": "event:2026-19:bf96116508a0",
       "field": "canonicalDriverIdentity",
       "reason": "Practice-only participant has no exact canonical Grand Prix identity; no ID is invented."
     }
